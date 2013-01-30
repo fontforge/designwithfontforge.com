@@ -1,4 +1,1 @@
-designwithfontforge.com
-=======================
-
-A book about how to design new typeface with FontForge
+See gh-branch for project files.
