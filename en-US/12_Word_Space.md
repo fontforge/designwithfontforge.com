@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Word space
 ---
-<h1>Word space</h1>
 
 It may sound funny to pay special attention to the word space. However it is one of the most commonly used parts of a type design. A word space that is too wide or too narrow can ruin the design of a font. It is not too soon to begin considering the words space as soon as you have the "n" and "o". The choice you make at this point should be returned to and potentially adjusted at each major section of the design process.
 

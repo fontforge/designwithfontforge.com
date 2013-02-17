@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Line spacing
 ---
-<h1>Line spacing</h1>
 
 When you have the word space and the n and o set you can begin to look at the line spacing. However, a full and final decision about line spacing isn't possible until you have Capital letters and some punctuation.
 

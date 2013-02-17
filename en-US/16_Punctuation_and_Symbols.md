@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Punctuation and symbols
 ---
-<h1>Punctuation and symbols</h1>
 
 Punctuation and other typographics symbols have a history of their own, separate and apart from the development of the alphabet. But you will find that the same design process still applies, including reusing and adapting component elements, and iteratively testing your design choices.
 

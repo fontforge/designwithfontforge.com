@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Creating your type's DNA
 ---
-<h1>Creating your type's DNA</h1>
 
 After you have completed good solid design and spacing of the 'o' and 'n', the next thing to do is to begin populating the font with letters whose structural characteristics provide useful DNA for making many of the other letters in the font.
 

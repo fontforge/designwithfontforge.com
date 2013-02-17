@@ -1,9 +1,9 @@
 ---
 layout: bookpage
 section: Appendices
-title: Page Title
+title: Further reading
 ---
-<h1>Further reading</h1>
+
 <p class="p1">
 
 <p class="p2">Detail in Typography (Paperback)

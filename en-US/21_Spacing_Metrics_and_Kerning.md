@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Spacing, metrics, and kerning
 ---
-<h1>Spacing, metrics, and kerning</h1>
 
 The spaces between characters are an important, integral part of the design of a font. Designing a font's letter spacing should be carried out as an integral part of the whole process of designing a font. Good spacing is necessary for a font to function well.
 

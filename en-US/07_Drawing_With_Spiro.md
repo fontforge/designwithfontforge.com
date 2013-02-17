@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Getting To Know FontForge
-title: Page Title
+title: Drawing with Spiro
 ---
-<h1>Drawing with Spiro</h1>
 
 Spiro is a toolkit for designing curves in an alternate method to the more traditional Bézier curves. Although it is optional, FontForge can be installed to include a Spiro mode that offers you tools to create these specific types of curves. See the chapter of Installing FontForge for more detail on how to install Spiro tool support.
 

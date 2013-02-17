@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Completing the lower case
 ---
-<h1>Completing the lower case</h1>
 
 You may have noticed in fonts you've seen before that, while each letter has its own shape, they all relate to each other. By carefully de-constructing a few glyphs, you gain the building blocks of nearly all the others.
 

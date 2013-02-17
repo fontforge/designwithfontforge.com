@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Italic
 ---
-<h1>Italic</h1>
 
 Italics are probably the most misunderstood style in type design, but they are also the style with the greatest potential excitement and fun due to the large number of variables for you the designer to play with.
 

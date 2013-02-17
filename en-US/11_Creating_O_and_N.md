@@ -1,9 +1,8 @@
 ---
 layout: bookpage
 section: Workflow
-title: Page Title
+title: Creating 'o' and 'n'
 ---
-<h1>Creating 'o' and 'n'</h1>
 
 There are many approaches to designing a font. It can be helpful to deconstruct the larger processes involved in order to get started quickly, and to provide a solid basis for a whole font's worth of characters. A popular and valuable approach to this is to design the 'o' and 'n' characters first, nailing down essential elements of form, space and balance, before bringing them together for the formation of other characters. Creating the lowercase 'o' and 'n' characters can provide us with some of the fundamental forms and structures that will underpin all other characters that are needed.
 
