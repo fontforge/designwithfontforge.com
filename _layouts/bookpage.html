@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+{% include html-start.html %}
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>{{ page.title }}</title>
-  </head>
-
-  <body>
-    <header>
-      <div class="inner">
-        <h1>{{ site.title }}</h1>
-        <h2>A book about how to design new typefaces with FontForge</h2>
-        <a href="https://github.com/fontforge/designwithfontforge.com" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+	{% include header.html %}
 
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -62,6 +39,4 @@
       </div>
     </div>
 
-  
-  </body>
-</html>
+{% include html-end.html %}
