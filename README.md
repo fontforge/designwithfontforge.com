@@ -10,8 +10,12 @@ To contribute, please create issues, join the fontforge-devel list to discuss
 general topics, and make pull requests with your improvements. Please don't
 hesitate to ask for direct commit access.
 
-Use the prose.io site to contribute VERY easily. For example, to edit
-this page, simply visit this page:
+You can edit this file directly on the GitHub website:
+
+https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
+
+You can also use the prose.io site to edit pages. For example, to edit this
+page, simply visit:
 
 http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
 
@@ -38,8 +42,8 @@ they start with these lines:
 ```
     ---
     published: true
+    layout: bookpage
     title: Page title
-    layout: default
     ---
 ```
 
