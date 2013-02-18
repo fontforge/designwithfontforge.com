@@ -1,6 +1,8 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+weight: 5
+category: workflow
 title: Spacing, metrics, and kerning
 ---
 
@@ -10,7 +12,7 @@ In FontForge, the Metrics Window allows you to design the metrics of your font, 
 
 The space between any two glyph has two components; the space after the first glyph, and the space before the second glyph. These spaces between glyphs are composed of the 'side bearings' from each glyph pair. Each glyph has a left side bearing and a right side bearing, in the example below of the lowercase 'a' of 'Open Sans' the right sidebearing has a value of 166 units, and the left sidebearing has a value of 94 units.
 
-<img src="sidebearings.png" alt="">
+<img src="images/sidebearings.png" alt="">
 
 ## <strong>Basic Functions of the Metrics Window</strong>
 
@@ -38,7 +40,7 @@ As you space the characters that you design, you should trust your eyes. The bot
 
 For the absolute beginner; do not assume that reliable results are achieved by relying on the measured space. For example, whilst the measurements between two characters may be unequal, the eye can see them as equal. An obvious example of this can be seen when attempting to space the characters 'H' and 'O'. So for the example below,  the side bearings of the 'H' and 'O' are equal, but look unequal. In the lower line, the side bearings are not equal but the spacing appears balanced.
 
-<img src="hoohooo2.png" alt=""><img src="hoohooo1.png" alt="">
+<img src="images/hoohooo2.png" alt=""><img src="images/hoohooo1.png" alt="">
 
 
 
@@ -64,7 +66,7 @@ The following method is designed to get you started effectively towards designin
 
 Starting with a string of lowercase 'o' characters in the metrics window, the left and right sidebearings can be adjusted until the spacing of the characters looks and feels right. One way to look for this 'rightness' is to look for the whitespace between the 'o' characters to balance the whitespace inside the 'o' characters. In general, with the exception of slanted or italic fonts, the left and right side bearings of a lowercase 'o' should be of equal value. Once you are happy with the spacing of your string of 'o' characters, introduce the 'n' character from your font (see below) and then look to adjust the side bearings of the 'n' so that it's spacing fits into the balance of the string of 'o' characters (see below). Note that due to the nature of the way our eyes see, the right side bearing of an 'n' will allways be a smaller value than the left side bearing, and the side bearings of the 'o' will be smaller than the side bearings of the 'n'.
 
-<img src="snapshot1_1.png" alt="">
+<img src="images/snapshot1_1.png" alt="">
 
  Once both the 'n' and 'o' are adequately spaced their sidebearings can be used to create the sidebearings for an array of other characters, for example;
 
@@ -78,7 +80,7 @@ Starting with a string of lowercase 'o' characters in the metrics window, the le
 
 Note - the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.
 
-<img src="snapshot2.png" alt="">
+<img src="images/snapshot2.png" alt="">
 
 From here it makes sense to then space the rest of the side bearings of the lowercase characters against strings of 'n' and 'o' characters, as seen in the diagram above. Again, trust your eyes to reach correct balance of characters.
 
@@ -86,7 +88,7 @@ From here it makes sense to then space the rest of the side bearings of the lowe
 
 Uppercase characters can be spaced using the same principles as above. For example, start with the string 'Hooooo' and adjust the right side bearing of the 'H' untill it feels balanced against the string of 'o' characters. With the left side bearing of the 'H' being equal to the right side bearing, the uppercase 'O' can then be spaced against the 'H' (see below).
 
-<img src="snapshot3.png" alt="">
+<img src="images/snapshot3.png" alt="">
 
 From here all other characters can be spaced against the characters which have already been spaced. It should be noted that this method can be used as a good starting point for spacing a font, but it is likely that more minute fine tuning of spacing will also be needed to achieve higher levels of good letter spacing. Other strings of characters that are usefull in this can be arrays such as 'naxna', 'auxua', 'noxno', 'Hxndo'.
 
@@ -94,7 +96,7 @@ From here all other characters can be spaced against the characters which have a
 
 <span>Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', 'Av'. In the examples below, we can see that without kerning the spacing between the letter pairs 'T-o' and 'V-a' are too wide, whereas with kerning the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.</span>
 
-<img src="kern1.png" alt=""><img src="kern2.png" alt="">
+<img src="images/kern1.png" alt=""><img src="images/kern2.png" alt="">
 
 
 
@@ -112,7 +114,7 @@ From here all other characters can be spaced against the characters which have a
 
 'Kern Pair Closeup' - This command provides the user with a dialog from which you can adjust already existing kerned pairs or create new pairs (see below).
 
-<img src="kerncloseup.png" alt="" height="686" width="632">
+<img src="images/kerncloseup.png" alt="" height="686" width="632">
 
 ## <strong>Adjusting kerning values with the keyboard</strong>
 
@@ -122,7 +124,7 @@ Just like with adjusting side bearing values, kerning values can be quickly and 
 
 <span>This is the most basic level of creating kerning pairs in FontForge. In the Metrics Window the kerning value between 2 characters can be manually adjusted either by dragging the right-hand character to or from the left-hand character, or by editing the kerning value directly in the metrics table of the window. To change kerning values by dragging characters use the kern-tool handle that appears when the mouse cursor is hovered between 2 characters (see screeenshot below). The kerning value in the metrics table can be edited by manuallly entering values or by incrementing / decrementing the value using your keyboards up / down keys.</span>
 
-<img src="mnl-kern.png" alt="">
+<img src="images/mnl-kern.png" alt="">
 
 ## <strong>Kerning with classes</strong>
 
@@ -130,19 +132,19 @@ Just like with adjusting side bearing values, kerning values can be quickly and 
 
 <span>The Element &gt; Font Info &gt; Lookups tab provides an interface to class kerning in FontForge. The same interface is also got at via the<br> It brings up a dialog showing all the GPOS lookups (of which kerning is one) and their subtables. See screenshot below;</span>
 
-<img src="kernclass1.png" alt="">
+<img src="images/kernclass1.png" alt="">
 
 To create a new kerning lookup click on 'Add Lookup' and choose 'Pair Position (kerning)' as the lookup type and give the lookup its own, unique name (see below).
 
-<img src="kernclass2.png" alt="">
+<img src="images/kernclass2.png" alt="">
 
 <span><span>Each set of kerning classes lives in its own subtable. To create a subtable, click on 'Add Subtable'. When you create a kerning subtable you will be asked whether you want a set of individual kerning pairs or a matrix based on classes. If you chose classes you will be presented with a following dialogue where you can create your classes. Note that you can choose to enable FontForge to 'guess' or 'autokern' the kerning values between the classes you are creating in the dialogue. If using FontForge to guess kerning values you will undoubtedly need an amount of trial and error and experimentation, but it can make sense to use the autokern function as a starting point to kerning your font.</span></span>
 
-<span><span><img src="kernclass3.png" alt=""></span></span>
+<span><span><img src="images/kernclass3.png" alt=""></span></span>
 
 <span><span>For example in the screenshot above, 2 classes have been created; one class containing the 'T' character, and one class containing the 'o' character. On clicking 'ok' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two 'T' and 'o' classes.</span></span>
 
-<span><span><img src="kernclass4.png" alt=""></span></span>
+<span><span><img src="images/kernclass4.png" alt=""></span></span>
 
 ## Manual kerning
 

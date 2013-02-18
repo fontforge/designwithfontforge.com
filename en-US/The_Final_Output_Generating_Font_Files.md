@@ -1,6 +1,8 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+weight: 5
+category: workflow
 title: The final output: generating font files
 ---
 
@@ -24,7 +26,7 @@ After you can run these tests without errors, you will then need to convert your
 
 Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. The top half of the window shows the familiar file-chooser options -- a list of the files found in the current directory, a text-entry box for you to enter a filename, and buttons to navigate to other folders and directories if necessary. This is strictly a means to help you quickly find the right place to save your output file, or to choose an existing font file if you intend to overwrite a previous save. All of the options you need to look at are found in the bottom half of the window.
 
-<img src="generate.png" alt="">
+<img src="images/generate.png" alt="">
 
 On the left-hand side is a pull-down menu from which you select the format of the font you wish to generate. You should choose either <em>TrueType</em> or <em>OpenType (CFF)</em>, as discussed earlier. On the right-hand side, make sure <em>No Bitmap Fonts</em> is selected. On the line below, make sure <em>No Rename</em> is selected for the "Force glyph names to:" option. You can check the "Validate Before Saving" option if you wish (to potentially catch additional errors), but this is optional. Leave the "Append a FONTLOG entry," "Prepend timestamp," and "Upload to the Open Font Library" options unchecked.
 
@@ -76,13 +78,13 @@ Last but certainly not least, once your font has been thoroughly prepared techni
 
 First, if this is the initial release of your font, open the <em>Font Info</em> dialog from the "Element" window, and select the "PS Names" tab. Fill in the font's Family Name and Weight first, then copy that information into the "Name for Humans" box. Although using version numbers is not required, it is extremely helpful for you as a designer to differentiate between different revisions of your work. Enter "1.0" as the "Version" number if you are not sure. Next, visit the "TTF Names" tab and enter the same information.
 
-<img src="fontinfo.png" alt="">
+<img src="images/fontinfo.png" alt="">
 
 As is the case with version numbers, it is helpful in the long run for you to make log entries for each revision. Go to the "FONTLOG" tab and write a brief sentence or two explaining what changes if any have gone into the revision that you are building for release. If this is your initial log entry, you should also describe your font and its purpose in a sentence or two.
 
 Fonts, like all creative works, need to have a license, so users will know what they are and are not allowed to do. FontForge has a button in the "TTF Nmes" tab labeled "Add SIL Open Font License." The Open Font License (OFL) is a font license designed to allow you to share your font with the public with very few restrictions on how where it is used, while still protecting you as the designer from having others take credit for your work or creative derivatives of your font that wil be confused for the original. Clicking the button will add "License" and "License URL" strings to the TTF Names metadata. If you have another license you would prefer to use instead of the OFL, enter it in the "License" field instead.
 
-<img src="metadata.png" alt="">
+<img src="images/metadata.png" alt="">
 
 If you have made significant changes to other features of your font, it is a good idea to double-check the other font-wide settings in the Font Info window, and make sure everything is still up to date. Line spacing information, for example, is found in the "OS/2" tab under "Metrics."
 
@@ -96,7 +98,7 @@ In the left-hand side pull-down menu, select the format of the font you are gene
 
 Next, click on the "Options" button. Select the <em>PS Glyph Names</em>, <em>OpenType</em>, and <em>Dummy DSIG</em> options in the window that pops up, and deselect everything else.
 
-<img src="opentype-options-window.png" alt="">
+<img src="images/opentype-options-window.png" alt="">
 
 Click the "Generate" button, and FontForge will build your font file. One final ord: it is important not to overwrite the saved version of your FontForge work with the modifications you made in this section solely to generate your <em>.ttf</em> or <em>.otf</em> output.  For example, you lose a lot of individual glyph components when you perform the <em>Remove overlaps</em> operation.  But the next time you resume work on your font, you will definitely want to pick up where you left off in the original, individual-glyph-component-filled version.
 

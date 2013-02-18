@@ -1,6 +1,7 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+category: workflow
 title: Creating 'o' and 'n'
 ---
 
@@ -12,13 +13,13 @@ Although the design of the 'o' may seem like quite a simple thing, all the chara
 
 One way that optical effects impact type design is in the way that curves and straight edges appear to our eyes. For example, for a curve and a straight edge to look as though they are sitting correctly along a line, the curve must actually sit a little below the line. This is portion of a character that dips just below the baseline in order to appear sitting on the baseline is called the <em>underhang</em>, an example is seen below. Without underhang, characters with curves at the baseline will appear to not be sitting correctly within a line of text.
 
-<img src="underhang1.png" alt="">
+<img src="images/underhang1.png" alt="">
 
 In the same way as the effect of the underhang has optical impact in a font design, an area of <em>overshoot</em> is needed to provide the illusion of alignment at the x-height and at the cap-height (see below).
 
-<img src="nox-opensans.png" alt="">
+<img src="images/nox-opensans.png" alt="">
 
-<img src="nox-merriw_1.png" alt="">
+<img src="images/nox-merriw_1.png" alt="">
 
 ## Design the lowercase 'o'
 
@@ -34,14 +35,14 @@ Here we encroach well into the territory of spacing and metrics, so even at this
 
 If we look at the anatomy of an 'n', we can break it apart into two or three components consisting of <em>stem</em> and <em>curve</em>. This approach can give us a shortcut to keeping balance and harmony within our characters as they are formed, and as our set of characters grows. Look at the example lowercase 'n' below; it is broken into two components. These separate components combine together to form an 'n', but the same components will be re-used later when forming other characters, e.g., the stem at the left of the 'n' can be used to form the left-sided stem of all other lowercase characters.
 
-<table border="0" cellpadding="8" cellspacing="8"><tbody><tr><td><img src="n-compo-2.png" alt=""></td>
-<td><img src="n-compo-1_1.png" alt=""></td>
+<table border="0" cellpadding="8" cellspacing="8"><tbody><tr><td><img src="images/n-compo-2.png" alt=""></td>
+<td><img src="images/n-compo-1_1.png" alt=""></td>
 </tr></tbody></table><p>Taking yourself forward again to the chapter on spacing and metrics, the design of the 'n' character should keep pace within the process of spacing the 'n' and 'o' characters together.
 
 Now, garnering the methods you have used to create an 'n' and 'o' character, you are ready to expand the lowercase character set. The qualities of the stem and curve components of the 'n' and 'o' will inform the way you may form other characters. If we study the characters below from Open Sans, we can see the relationships between the formal aspects of separate characters and how they can be repeated, with some adjustments, to form the components of our font.
 
-<img src="h-m-n-curves.png" alt="" width="50%">
+<img src="images/h-m-n-curves.png" alt="" width="50%">
 
-<img src="b-c-d-e-curves.png" alt="" width="50%">
+<img src="images/b-c-d-e-curves.png" alt="" width="50%">
 
-<img src="i-j-t-f-curves.png" alt="" width="50%"></p>
+<img src="images/i-j-t-f-curves.png" alt="" width="50%"></p>

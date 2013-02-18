@@ -1,5 +1,7 @@
 ---
 layout: bookpage
+weight: 5
+weight: 5
 section: Getting To Know FontForge
 title: Using the FontForge drawing tools
 ---
@@ -8,7 +10,7 @@ Designing a font in FontForge will involve using a number of tools and utilities
 
 From the Font Window, double-click one of the glyph boxes to launch the Glyph Window.
 
-<img src="glyph_window.png" alt="">
+<img src="images/glyph_window.png" alt="">
 
 <strong>Note:</strong> The numbers along the top where the x and y axis intersect indicate the current (x,y) location of your cursor on the canvas, followed by the location of the most recently selected point. The third number is the relative position of your cursor to the selected point. The fourth number is the distance between your cursor and the selected point. Fifth is the angle from the selected point to the cursor (relative to the baseline). Next is the current magnification level, followed by the name of the active layer.
 
@@ -19,7 +21,7 @@ From the Font Window, double-click one of the glyph boxes to launch the Glyph Wi
 Now that you know your way around the canvas, it is time to get acquainted with the tools.
 
 ### Point and zoom
-<img src="point_zoom.png" alt="">
+<img src="images/point_zoom.png" alt="">
 
 Point and zoom behave similarly to the equivalent tools in any other application. The pointer is the main selection tool, used to select points, paths, and other objects on canvas. In addition to activating the pointer tool in the toolbox, you can also momentarily switch to the pointer tool while any other tool is active, simply by holding down the Control key.
 
@@ -29,7 +31,7 @@ The zoom tool easily lets you zoom in, but it is a bit more difficult to zoom ou
 
 The freehand tool allows you to sketch out irregular paths.  Select the freehand tool from the toolbox by clicking on this icon:
 
-<img src="freehand_tool.png" alt="" height="28" width="27">
+<img src="images/freehand_tool.png" alt="" height="28" width="27">
 
 Move the freehand tool to the drawing area, hold your mouse button down, and move your mouse around to draw. Switch back to the pointer tool, and you can select points on the path you have drawn.
 
@@ -39,27 +41,27 @@ When you select one of the points on the path, it will turn into a yellow circle
 
 Next, try using the point tools.
 
-<img src="point_tools_labelled.png" alt="" width="291">
+<img src="images/point_tools_labelled.png" alt="" width="291">
 
 To add a point to a path, first select any of these tools, then click on the path and give it a little push. You will get a new point on the line. The Curve point tool is used to add a point in a curved segment. The HVCurve point tool constrains the new points that to add so that they have either horizontal or vertical control points. This is important for setting up extrema points. The Corner point tool allows you to make a sharp bend in the path. The Tangent point tool allows you to transition from a straight segment to a curved segment along the path.
 
 ### The pen tool
-<img src="addpoint_tool.png" alt="" height="28" width="28">
+<img src="images/addpoint_tool.png" alt="" height="28" width="28">
 
 The pen tool allows you to add a point on the curve and drag out its control points.
 
 ### Spiro
-<img src="spiro.png" alt="" height="28" width="28">
+<img src="images/spiro.png" alt="" height="28" width="28">
 
 Selecting the Spiro tool puts you into Spiro drawing mode. Spiro drawing allows you to draw curves that reflow as you reposition the nodes. Some people prefer this to the standard approach (known as Bézier editing), but if you are used to Bézier editing you might find it does some unexpected things.
 
 ### Knife
-<img src="knife.png" alt="" height="27" width="28">
+<img src="images/knife.png" alt="" height="27" width="28">
 
 The knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but only need part of it.
 
 ### Ruler
-<img src="ruler.png" alt="" height="28" width="27">
+<img src="images/ruler.png" alt="" height="28" width="27">
 
 The ruler tool gives you measurement and coordinate information. When you use it, it displays a floating "tool tip" next to the cursor. If you hover your cursor over a point, the tool tip gives you even more detailed measurement and coordinate information. If you bring it next to a spline, it gives you information about the curvature and radius. Most usefully, if you click and drag the ruler tool, you will see the distance you have dragged the cursor, plus every intersection that you have stretched across.
 
@@ -67,7 +69,7 @@ The ruler tool gives you measurement and coordinate information. When you use it
 
 There are six transform tools:
 
-<img src="transform_tools_labelled.png" alt="" width="400">
+<img src="images/transform_tools_labelled.png" alt="" width="400">
 
 <strong>Note:</strong> For all of the Transform tools, if you double-click on the tool, you can enter numeric values.
 
@@ -91,7 +93,7 @@ The perspective tool gives you another way to distort a shape in a nonlinear way
 
 These tools allow you to draw primitive geometric shapes, which is faster than constructing those shapes out of separate line segments.
 
-<img src="rectangle_poly_labelled.png" alt="" width="500">
+<img src="images/rectangle_poly_labelled.png" alt="" width="500">
 
 Clicking the chevron area on these tools will give you the option to switch to the alternate tool. If you double-click on either of the tools, you can open the shape type's options.
 
@@ -104,7 +106,7 @@ Polygon options: Number of vertices.
 Star options: Number of star points and depth of points by percentage. The higher the percentage setting, the longer the arms of the star.
 
 ### Mse1 and Mse2
-<img src="danger.png" alt="" height="53" width="57">
+<img src="images/danger.png" alt="" height="53" width="57">
 
 <strong>Caution:</strong> This area of the toolbox seems to be broken in the most recent version of FontForge -- you may get a crash if you click in here.
 
@@ -112,7 +114,7 @@ Star options: Number of star points and depth of points by percentage. The highe
 
 The FontForge canvas has three layers by default: the Guide layer, the Background layer, and the Foreground layer. Guide layers are used to insert guides (such as x-height or cap-height guides). Foreground layers and background layers are both used for drawing, but only the topmost foreground layer will be rendered into your final font.
 
-<img src="layers.png" alt="" height="96" width="108">
+<img src="images/layers.png" alt="" height="96" width="108">
 
 The eye icon indicates whether each layer is visible, and you can click to toggle the eye to make a layer invisible. The C (or Q) indicates whether you're using Bézier or Quadratic curves.
 
@@ -125,23 +127,23 @@ Next you should walk through some of the basic drawing workflows you will use ov
 ### Correct Direction
 
 1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph window.
-2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.<br><img src="O%20at%2079%20from%20Untitled1%20-_010.png" alt="" width="917">
-3. Go to the Element menu and choose<em> Correct Direction</em>. You will see that the two shapes merged, and that you essentially punched a hole in the center of the rectangle. <br><img src="O%20at%2079%20from%20Untitled1%20-_011.png" alt="" width="917"></li>
+2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.<br><img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt="" width="917">
+3. Go to the Element menu and choose<em> Correct Direction</em>. You will see that the two shapes merged, and that you essentially punched a hole in the center of the rectangle. <br><img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt="" width="917"></li>
 </ol>
 
 ### Remove Overlap
 
-1. Add a star that overlaps the corner of the rectangle.<br><img src="O%20at%2079%20from%20Untitled1%20-_012.png" alt="" height="744" width="917">
+1. Add a star that overlaps the corner of the rectangle.<br><img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt="" height="744" width="917">
 
 2. Select the star and the earlier shape. You only need to select one point of each overlapping shape, but it is okay to select extra points.
 
-3. Go to Element &gt; Overlap &gt; <em>Remove overlap</em>. You will see that your two shapes have become one.<br><img src="O%20at%2079%20from%20Untitled1%20-_013.png" alt="">
+3. Go to Element &gt; Overlap &gt; <em>Remove overlap</em>. You will see that your two shapes have become one.<br><img src="images/O%20at%2079%20from%20Untitled1%20-_013.png" alt="">
 
 ### Add a Point
 
 Using the pen tool, click and hold in the middle of a line segment. Keeping the mouse button clicked, drag the mouse to change the shape.
 
-<img src="O%20at%2079%20from%20Untitled1%20-_014.png" alt="" width="917">
+<img src="images/O%20at%2079%20from%20Untitled1%20-_014.png" alt="" width="917">
 
 ### Tangent points
 
@@ -149,29 +151,29 @@ Select the bottom-left corner point of your new shape (the intersection of the c
 
 To do so, choose Element &gt; <em>Get Info</em>, which opens the Point Info Window. From the Location tab in that window, go to the Next CP field set and set the Distance to a large number such as 75. Click OK. You will see that the curve now smoothly enters the straight line.
 
-<img src="O%20at%2079%20from%20Untitled1%20-_015.png" alt="">
+<img src="images/O%20at%2079%20from%20Untitled1%20-_015.png" alt="">
 
 ### Transformation
 
 Now select about a quarter of the shape -- the star and part of the ellipse in the middle.
 
-<img src="O%20at%2079%20from%20Untitled1%20-_016.png" alt="">
+<img src="images/O%20at%2079%20from%20Untitled1%20-_016.png" alt="">
 
 Choose the 3D Rotate tool, mouse to the middle of the selected area, and slowly click and drag until you see something you like, then release. Here is an example of 3D Rotate used on the practice image:
 
-<img src="O%20at%2079%20from%20Untitled1%20-_017.png" alt="" height="739" width="914">
+<img src="images/O%20at%2079%20from%20Untitled1%20-_017.png" alt="" height="739" width="914">
 
 ### Set stroke shape and width
 
 So far you have used the Freehand drawing tool to draw a line. If you double-click the Freehand tool, you get the Freehand dialog shown here, which contains a drawing window. This is where you select pen shape and size. This dialog also appears when you choose the <em>Expand Stroke</em> option in the Element menu.
 
-<img src="Freehand_018.png" alt="" height="676" width="420">
+<img src="images/Freehand_018.png" alt="" height="676" width="420">
 
 Using the corner tool, draw a polygon and click ok.
 
 Now draw a line with the Freehand drawing tool. When you release the mouse button, the new path is automatically stroked with the shape you chose in the Freehand dialog, as shown here.
 
-<img src="Q%20at%2081%20from%20Untitled1%20-_019.png" alt="" height="744" width="916">
+<img src="images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt="" height="744" width="916">
 
 ## Keep drawing
 

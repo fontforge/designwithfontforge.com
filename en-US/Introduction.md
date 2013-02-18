@@ -1,5 +1,6 @@
 ---
 layout: bookpage
+weight: 1
 section: Before You Begin
 title: Introduction
 ---
@@ -8,4 +9,4 @@ This book has been produced to help make the process of type design available to
 
 This book is partly meant to offer technical help and partly meant to offer general insights into planning a type design project, and also offers advice about how to make your workflow more efficient.
 
-The authors of this book hope that you not only benefit from using it but that you contribute to making better by giving feedback or even by contributing content and fixes to future editions.</p>
+The authors of this book hope that you not only benefit from using it but that you contribute to making better by giving feedback or even by contributing content and fixes to future editions.

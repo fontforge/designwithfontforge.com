@@ -1,5 +1,7 @@
 ---
 layout: bookpage
+weight: 5
+weight: 5
 section: Appendices
 title: Further reading
 ---

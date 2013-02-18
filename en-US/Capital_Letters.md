@@ -1,6 +1,8 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+weight: 5
+category: workflow
 title: Capital letters
 ---
 
@@ -35,7 +37,7 @@ The shape of O can tell you quite a lot about the C, G and Q. The shape of H tel
 It also tells you a little about T and U. The shape of A can tell you quite a lot about the shape of V.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="OCGQ-2.png" alt=""></td>
-<td style="text-align: center;"> <img src="OCGQ-1.png" alt=""></td>
+<td style="text-align: center;"> <img src="images/OCGQ-1.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="OCGQ-3.png" alt=""></td>
 </tr><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="HBDE-3.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="HBDE-2.png" alt=""></td>
@@ -46,8 +48,8 @@ The shape and proportions of V tells you a little about how to design Y W X. The
 
 <p dir="ltr">
 
-<table border="0" cellpadding="13"><tbody><tr><td><img src="VWYX-2.png" alt=""></td>
-</tr><tr><td> <img src="VWYX-3.png" alt=""></td>
-</tr><tr><td> <img src="VWYX-4.png" alt=""></td>
-</tr><tr><td> <img src="VWYX-1.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img src="images/VWYX-2.png" alt=""></td>
+</tr><tr><td> <img src="images/VWYX-3.png" alt=""></td>
+</tr><tr><td> <img src="images/VWYX-4.png" alt=""></td>
+</tr><tr><td> <img src="images/VWYX-1.png" alt=""></td>
 </tr></tbody></table>

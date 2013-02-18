@@ -1,18 +1,20 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+weight: 5
+category: workflow
 title: Word space
 ---
 
 It may sound funny to pay special attention to the word space. However it is one of the most commonly used parts of a type design. A word space that is too wide or too narrow can ruin the design of a font. It is not too soon to begin considering the words space as soon as you have the "n" and "o". The choice you make at this point should be returned to and potentially adjusted at each major section of the design process.
 
-<img src="Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt="" height="251" width="486">
+<img src="images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt="" height="251" width="486">
 
-<img src="Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt="" height="273" width="474">
+<img src="images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt="" height="273" width="474">
 
 Above top is an example if a word space that is much too tight, and below that the word space is too wide.
 
-<img src="Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt="" height="270" width="466">
+<img src="images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt="" height="270" width="466">
 
 Above is an example of a word space that is well balanced.
 

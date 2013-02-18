@@ -1,5 +1,6 @@
 ---
 layout: bookpage
+weight: 3
 section: Before You Begin
 title: Trusting your eyes
 ---
@@ -26,7 +27,7 @@ Some illusions involve the perceived weight of lines, some involve the perceived
 
 The example on the left shows an H which is composed of bars which are precisely equal in in thickness. This looks wrong. This example on the right has a horizontal bar which has has been thinned to appear equal in thickness.
 
-<img src="H%20compensation2.png" alt="">
+<img src="images/H%20compensation2.png" alt="">
 
 Glyphs in which this illusion is relevant are numerous and include A, E, F, L, H, f, t, and z.
 
@@ -34,7 +35,7 @@ Glyphs in which this illusion is relevant are numerous and include A, E, F, L, H
 
 Similarly, if you have bars of the same width and one of them is set at a diagonal, the diagonal bar will seem slightly heavier than the vertical bar and slightly thinner than the horizontal. If you want it look right, you will have to adjust it to be lighter like the horizontal example, but just a little less.
 
-<img src="Diag%20illusion.png" alt="">
+<img src="images/Diag%20illusion.png" alt="">
 
 Glyphs in which this illusion may be relevant are quite numerous but include k, K, N, Q, R, v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, ø, Ø,√, ∕, ‹, ›, «, », ½,⅓,¼, ≤, ≥, and ×.
 
@@ -44,25 +45,25 @@ Longer shapes need to slant less than short shapes in order to give the appearan
 
 The image below has diagonal lines that are all at the same angle. The long one appears to be at a different angle.
 
-<img src="pdiag.png" alt="">
+<img src="images/pdiag.png" alt="">
 
 In this next example, the slant of the longer line has been adjusted:
 
-<img src="pdiag2.png" alt="">
+<img src="images/pdiag2.png" alt="">
 
 Next, in this image of an actual italic, you can see this principle applied to real type.
 
-<img src="longer%20less%20slant.png" alt="">
+<img src="images/longer%20less%20slant.png" alt="">
 
 ### Crossing diagonals
 
 When a bar crosses another diagonal or a straight line, if it isn't adjusted then it will apear to be misaligned.
 
-<img src="1exes.png" alt="">
+<img src="images/1exes.png" alt="">
 
 In the example above, the X on the left has two unadjusted bars crossing each other. The example on the right has been adjusted so that they appear to be aligned.
 
-<img src="voltaire-X.png" alt="">
+<img src="images/voltaire-X.png" alt="">
 
 As you can see in this outline view, the X that appears visually aligned involves an offset.
 
@@ -72,7 +73,7 @@ Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the ice
 
 The shape of a glyph will contribute to how high it needs to be in order to look as if it is the same height as the other glyphs. Round glyphs need to overshoot the height of flat glyphs by a little bit. Glyphs which have pointier shapes will need to overshoot more. The sharper the shape, the more it will need to overshoot in order to look correct.
 
-<img src="3Shapes.png" alt="">
+<img src="images/3Shapes.png" alt="">
 
 In the image above, the top three shapes are unadjusted -- that is, they have identical heights. The three shapes on the bottom have been adjusted so that appear more similar in height.
 

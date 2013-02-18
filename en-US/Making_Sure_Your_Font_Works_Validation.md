@@ -1,6 +1,8 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+weight: 5
+category: workflow
 title: Making sure your font works: Validation
 ---
 
@@ -12,7 +14,7 @@ FontForge offers tools that you can use to locate (and, in many cases, repair) a
 
 The first tool is called <em>Find Problems</em>, and is found under the Element menu. You must first select one or more glyphs -- either from in the font view, the outline view, or the metrics view -- then open the Find Problems tool. The tool presents you with an assortment of potential problems in eight separate tabs.
 
-<img src="findproblemswindow.png" alt="">
+<img src="images/findproblemswindow.png" alt="">
 
 You can select which problems you are interested in looking for by checking the checkbox next to each, and in some cases providing a numeric value to check the font against. When you click the OK button, the tool will examine all of the selected glyphs, and report any problems it finds in a dialog box.
 
@@ -63,15 +65,15 @@ You can use other tests to locate on-curve points that are too close to each oth
 
 FontForge's other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is deigned to run just those tests that examine the font for technical correctness -- essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
 
-<img src="validator-integral-question.png" alt="">
+<img src="images/validator-integral-question.png" alt="">
 
 The first time you run the validator during a particular editing session, it will pop up a dialog box asking you whether or not it should flag non-integer point coordinates to be an error. The safe answer is to choose "Report as an error," since sticking with integral coordinates is good design practice.  When the validator completes its scan of the font (which will be mere seconds later), it will open up a new dialog box named Validation of <em>Whatever Your Font Name Is</em>. This window will list every problem the validator found, presented in a list sorted by glyph.
 
-<img src="valiator-output.png" alt="">
+<img src="images/valiator-output.png" alt="">
 
 But this window is not merely a list of errors: you can double-click on each item in the list, and FontForge will jump to the relevant glyph and highlight the exact problem, complete with a text explanation in its own window. You can then fix the problem in the glyph editor, and the associated error item will immediately disappear from the validator's error list. In many cases, the error will be something FontForge can automatically repair; in those cases the explanation window will have a "Fix" button at the bottom. You can click it and perform the repair without additional effort.
 
-<img src="validator-fix-problem.png" alt="">
+<img src="images/validator-fix-problem.png" alt="">
 
 For some problems, there is no automatic fix, but seeing the issue on-screen will help you fix it immediately. For example, a self-intersecting curve has a specific place where the path crosses over itself -- it may have been too small for you to notice at a glance, but zooming in will allow you to reshape the path and eliminate the problem.
 

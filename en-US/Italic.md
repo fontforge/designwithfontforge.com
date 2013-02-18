@@ -1,6 +1,8 @@
 ---
 layout: bookpage
-section: Workflow
+weight: 5
+weight: 5
+category: workflow
 title: Italic
 ---
 
