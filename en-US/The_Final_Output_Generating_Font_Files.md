@@ -2,7 +2,7 @@
 layout: bookpage
 weight: 31
 category: workflow
-title: The final output: generating font files
+title: The final output, generating font files
 ---
 
 Although you can do a wide range of testing within FontForge itself, you will need to generate installable font files in order to perform real-world testing during the development process.  In addition, your ultimate goal is of course to create font that you can make available in an output format for other people to install and use. You will use the <em>Generate Fonts </em>tool (found in the File menu) to build a usable output font regardless of whether you are making it for your own testing purposes or to publish it for consumption by others, but you will want to employ a few extra steps when building the finished product.
