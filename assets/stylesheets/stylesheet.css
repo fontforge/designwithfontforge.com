@@ -258,10 +258,10 @@ form {
   color: #474747;
 } 
 #main-content h2:before {
-  content: "»»";
+  content: "»";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -1.5em;
+  margin-left: -1.25em;
 }
 
 #main-content h3 {
@@ -274,10 +274,10 @@ form {
 } 
  
 #main-content h3:before {
-  content: "»»»";
+  content: "»";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -2em;
+  margin-left: -1.25em;
 }
 
 #main-content h4 {
@@ -288,7 +288,7 @@ form {
 } 
 
 h4:before {
-  content: "»»»»";
+  content: "////";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2.8em;
@@ -300,7 +300,7 @@ h4:before {
   color: #474747;
 } 
 h5:before {
-  content: "»»»»»";
+  content: "/////";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -3.2em;
@@ -312,7 +312,7 @@ h5:before {
   color: #474747;
 } 
 h6:before {
-  content: "»»»»»»";
+  content: "//////";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -3.7em;
