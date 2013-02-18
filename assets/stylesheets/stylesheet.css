@@ -87,6 +87,10 @@ header h1 a {
   color: #fff;
 }
 
+header h1 a:hover {
+  color: #9ddcff;
+}
+
 header h2 {
   font-size: 26px;
   color: #9ddcff;
