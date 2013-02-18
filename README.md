@@ -27,8 +27,7 @@ You can also use the prose.io site to edit pages. For example, to edit this page
 
 http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
 
-Directory Layout
-------------------
+#### Directory Layout
 
 - `_layouts/*.html` html template files
 
@@ -40,8 +39,7 @@ Directory Layout
 
 - `en-US/` The site's contents, in US English. 
 
-File Formats
----------------
+#### File Formats
 
 Each page is in MarkDown format, with a `.md` file extension. These files are converted into corresponding .html files by Jekyll when they start with these lines:
 
@@ -53,8 +51,7 @@ Each page is in MarkDown format, with a `.md` file extension. These files are co
     ---
 ```
 
-How to build the site
--------------------
+#### How to build the site
 
 First install Jekyll, with `gem`:
 
