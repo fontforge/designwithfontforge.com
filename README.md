@@ -12,10 +12,14 @@ To contribute, you can
 * create issues (at the top of [this page](//github.com/fontforge/designwithfontforge.com), in the main navigation bar)
 * join the [fontforge-devel email discussion list](//fontforge.10959.n7.nabble.com/Developer-f3.html) to discuss general topics, and 
 * make pull requests with your improvements
-* ask for direct access, so you can edit files live, directly from the GitHub website. Eg, \
-  https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
 
-You can also use the prose.io site to edit pages. For example, to edit this page, simply visit http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
+Please do ask for direct access, so you can edit files live, directly from the GitHub website:
+
+https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
+
+You can also use the prose.io site to edit pages. For example, to edit this page, simply visit:
+
+http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
 
 Directory Layout
 ------------------
