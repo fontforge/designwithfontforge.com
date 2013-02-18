@@ -11,7 +11,7 @@ If you're not familiar with GitHub, they have [excellent help pages](https://hel
 
 The book and this site is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## Contributing
+## How To Contribute
 
 If you wish to contribute to this website, you can
 
