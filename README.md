@@ -47,7 +47,7 @@ Each page is in MarkDown format, with a `.md` file extension. These files are co
     ---
     published: true
     layout: bookpage
-    weight: 28
+    weight: 60
     category: Workflow
     title: Page Title
     ---
