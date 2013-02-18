@@ -1,23 +1,20 @@
-[designwithfontforge.com](http://designwithfontforge.com)
+[DesignWithFontforge.com](http://designwithfontforge.com)
 =======================
 
-This is the 'Design With FontForge' book project, about how to design new
-typefaces with FontForge.
+This is a book project, about how to design new typefaces with FontForge.
 
 This is a Jeykll site hosted on GitHub pages.
 
-To contribute, please create issues, join the fontforge-devel list to discuss
-general topics, and make pull requests with your improvements. Please don't
-hesitate to ask for direct commit access.
+If you're not familiar with GitHub, they have [excellent help pages.](https://help.github.com)
 
-You can edit this file directly on the GitHub website:
+To contribute, you can
 
-https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
+* create issues (at the top of [this page](//github.com/fontforge/designwithfontforge.com), in the main navigation bar)
+* join the [fontforge-devel email discussion list](//fontforge.10959.n7.nabble.com/Developer-f3.html) to discuss general topics, and 
+* make pull requests with your improvements
+* ask for direct access, so you can edit files live, directly from the GitHub website. Eg, https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
 
-You can also use the prose.io site to edit pages. For example, to edit this
-page, simply visit:
-
-http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
+You can also use the prose.io site to edit pages. For example, to edit this page, simply visit http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
 
 Directory Layout
 ------------------
@@ -35,9 +32,7 @@ Directory Layout
 File Formats
 ---------------
 
-Each page is in MarkDown format, with a `.md` file extension. These 
-files are converted into corresponding .html files by Jekyll when 
-they start with these lines:
+Each page is in MarkDown format, with a `.md` file extension. These files are converted into corresponding .html files by Jekyll when they start with these lines:
 
 ```
     ---
@@ -56,8 +51,7 @@ You can install Jekyll with `gem`:
 
     sudo gem install jekyll;
 
-To see the site as it will appear on fontforge.github.com after processing by
-Jekyll and review your edits in a browser layout, live, run:
+To see the site as it will appear on fontforge.github.com after processing by Jekyll and review your edits in a browser layout, live, run:
 
     jekyll --server
 
