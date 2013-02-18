@@ -154,4 +154,4 @@ To create a new kerning lookup click on 'Add Lookup' and choose 'Pair Position (
 
 <span><span>- using the Metrics Window.</span></span>
 
-<span><span>- using the 'Kern Pair Closeup' command from the Metrics menu.</span></span></p>
+<span><span>- using the 'Kern Pair Closeup' command from the Metrics menu.</span></span>

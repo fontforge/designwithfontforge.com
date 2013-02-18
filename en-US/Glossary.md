@@ -738,4 +738,4 @@ See also Cap-height, Ascender, Descender, Overshoot, Baseline.
 
 ### XUID
 
-Extended Unique ID in a PostScript font. Now somewhat obsolete. See Unique ID.</p>
+Extended Unique ID in a PostScript font. Now somewhat obsolete. See Unique ID.

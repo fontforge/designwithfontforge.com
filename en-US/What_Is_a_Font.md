@@ -141,4 +141,4 @@ Notice that in the font on top the flourish is more present in the capital lette
 
 <h3 class="p1"><span class="s1">Dimension</span>
 
-<img src="images/3dimention.png" alt=""></p>
+<img src="images/3dimention.png" alt="">

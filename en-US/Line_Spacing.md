@@ -38,4 +38,4 @@ There are three sets of values: Win Ascent and Descent, Typo Ascent and Descent,
 
 These settings will give you a sensible starting point.  You can now proceed to test your font with this line spacing and make incremental adjustments until you arrive at eye-pleasing result.
 
-If you find your linespacing is too tight and you don't want to or can't make the verical metrics larger you can scale the glyphs down to gain more space for linespacing.</p>
+If you find your linespacing is too tight and you don't want to or can't make the verical metrics larger you can scale the glyphs down to gain more space for linespacing.

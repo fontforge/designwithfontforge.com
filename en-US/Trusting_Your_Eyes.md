@@ -96,4 +96,4 @@ Sometimes you will find you have to double back and change a design choice you t
 
 Near the end of the process, if the font will be used in a simple way, the tests may also have stayed simple. However, if a font will be used in many ways or in a wide range of printing or screen environments, then it should be tested across that range of situations. Similarly, a font that will be used in complex documents should be tested in documents that simulate that use.
 
-It can save you design time to have a well defined idea of the final use you intend. However, this is not always possible and your ideas may evolve. The key thing is to think about and define this use as completely as you can, then to ensure that your tests keep pace with the questions you are asking yourself in the design process.</p>
+It can save you design time to have a well defined idea of the final use you intend. However, this is not always possible and your ideas may evolve. The key thing is to think about and define this use as completely as you can, then to ensure that your tests keep pace with the questions you are asking yourself in the design process.

@@ -46,4 +46,4 @@ There is a Libre software solution provided by Dave Crossland at <a href="http:/
 
 "Adhesion Text" was the first resource of this kind. It was made by Miguel Sousa: <a href="http://www.adhesiontext.com/">http://www.adhesiontext.com/</a>
 
-The foundry "Just Another Type Foundry" also offers an excellent resource: <a href="http://justanotherfoundry.com/generator">http://justanotherfoundry.com/generator</a></p>
+The foundry "Just Another Type Foundry" also offers an excellent resource: <a href="http://justanotherfoundry.com/generator">http://justanotherfoundry.com/generator</a>

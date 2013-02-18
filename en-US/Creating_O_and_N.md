@@ -8,7 +8,7 @@ title: Creating 'o' and 'n'
 
 There are many approaches to designing a font. It can be helpful to deconstruct the larger processes involved in order to get started quickly, and to provide a solid basis for a whole font's worth of characters. A popular and valuable approach to this is to design the 'o' and 'n' characters first, nailing down essential elements of form, space and balance, before bringing them together for the formation of other characters. Creating the lowercase 'o' and 'n' characters can provide us with some of the fundamental forms and structures that will underpin all other characters that are needed.
 
-Although the design of the 'o' may seem like quite a simple thing, all the characteristics mentioned in the "<a title="Spacing, Metrics, and Kerning" href="creating-o-and-n/what-is-a-font">What is a font?"</a> chapter come into play. The choice you make about each characteristic should be a deliberate choice.
+Although the design of the 'o' may seem like quite a simple thing, all the characteristics mentioned in the ["What is a font?"](What_Is-a-Font.html) chapter come into play. The choice you make about each characteristic should be a deliberate choice.
 
 ## <strong>Underhangs and Overshoots</strong>
 
@@ -28,7 +28,7 @@ The design of the 'o' is not just a question of the black part of the letter. Wh
 
 In addition, the white inside the 'o' should be utilized when designing the spacing of our font; the 'o' sets up the reference rhythm of spaces used between all other glyphs in the font too. These two values are very related, so essentially you will need to design the amount of white space that are the side bearings of your 'o' as well.  As a general principle, with the exception of slanted or italic fonts, the 'o' should have the same amount of space on the left and right sides, and the white space between a string of 'o' characters should balance the white space inside the 'o's.
 
-Here we encroach well into the territory of spacing and metrics, so even at this early stage you will need to study some of what is written in the chapter on <a title="Spacing, Metrics, and Kerning" href="creating-o-and-n/spacing-and-metrics">Spacing, Metrics, and Kerning</a>, which covers the whys and hows of designing spacing in a font.  Then, returning back here, you will have a well spaced 'o' character to help you design your 'n' character.
+Here we encroach well into the territory of spacing and metrics, so even at this early stage you will need to study some of what is written in the chapter on [Spacing, Metrics, and Kerning](Spacing_Metrics_and_Kerning.html), which covers the whys and hows of designing spacing in a font.  Then, returning back here, you will have a well spaced 'o' character to help you design your 'n' character.
 
 ## Design the lowercase 'n'
 
@@ -46,4 +46,4 @@ Now, garnering the methods you have used to create an 'n' and 'o' character, you
 
 <img src="images/b-c-d-e-curves.png" alt="" width="50%">
 
-<img src="images/i-j-t-f-curves.png" alt="" width="50%"></p>
+<img src="images/i-j-t-f-curves.png" alt="" width="50%">

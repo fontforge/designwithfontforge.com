@@ -106,4 +106,4 @@ Consequently, if you decide to save the modified version of your FontForge file,
 
 Congratulations are in order! You have now created your first font. All that remains now is for you to share your work: upload it to the web, post it to your blog, and go tell your friends.
 
-Without doubt, you will be back and continue revising and refining your typeface -- after all, as you have seen, font design is an highly iterative process. But be sure that you pause and take this moment to enjoy what you have accomplished first.</p>
+Without doubt, you will be back and continue revising and refining your typeface -- after all, as you have seen, font design is an highly iterative process. But be sure that you pause and take this moment to enjoy what you have accomplished first.

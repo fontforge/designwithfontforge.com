@@ -22,4 +22,4 @@ If your type is meant to be used at large sizes then the word space can be small
 
 Research shows that a word space that is too big is more tollerable than one which is too small so If you are unsure you may want to err in that direction. Similarly well run scientific studies have shown that younger children in particular benefit a little from larger word spaces than would be seen as typographically normal for adult readers.
 
-<p class="p1">Linda Reynolds and Sue Walker (2004) 'You can't see what the words say': word spacing and letter spacing in children's reading books', <em>Journal of Research in Reading</em>, vol 27, no.1, pp. 87-98</p>
+Linda Reynolds and Sue Walker (2004) 'You can't see what the words say': word spacing and letter spacing in children's reading books', <em>Journal of Research in Reading</em>, vol 27, no.1, pp. 87-98

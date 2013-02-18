@@ -81,4 +81,4 @@ $ sudo ldconfig
 
 You might be tempted to use the --with-freetype-source configure option. This option should only be needed if you are debugging truetype font hints by stepping through them or other advanced functionality.
 
-If you have not compiled software on your Fedora machine, after installing gcc, automake, autoconf and others then you might get an error during the execution of autogen.sh with libtoolize. If that is the case you might need to install the libtool-ltdl-devel package on Fedora or a similar development package on another Linux distribution.</p>
+If you have not compiled software on your Fedora machine, after installing gcc, automake, autoconf and others then you might get an error during the execution of autogen.sh with libtoolize. If that is the case you might need to install the libtool-ltdl-devel package on Fedora or a similar development package on another Linux distribution.

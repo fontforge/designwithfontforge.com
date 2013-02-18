@@ -177,4 +177,4 @@ Now draw a line with the Freehand drawing tool. When you release the mouse butto
 
 ## Keep drawing
 
-You should continue to experiment with the drawing tools until you feel comfortable that you can use them to draw and transform whatever shapes you need.  At this point, you are equipped to start constructing the components of glyphs, but you should also take time to look at FontForge's other set of tools, Spiro drawing mode. Spiro drawing is distinct enough from Bézier curve editing that it requires an explanation of its own.</p>
+You should continue to experiment with the drawing tools until you feel comfortable that you can use them to draw and transform whatever shapes you need.  At this point, you are equipped to start constructing the components of glyphs, but you should also take time to look at FontForge's other set of tools, Spiro drawing mode. Spiro drawing is distinct enough from Bézier curve editing that it requires an explanation of its own.

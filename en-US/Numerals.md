@@ -51,4 +51,4 @@ Tabular oldstyle numbers are fairly rare. They can be useful in an anual report 
 
 Hybrid numerals don't share the font's cap-height or x-height, but instead occupy their own height. The term "hybrid" refers to a mixing of the old-style and lining numerals. Examples of fonts that use hybrid style numerals include Georgia and the Google web fonts Merriweather and Donegal. The zero, capital O, zero, 1, 2, 3, etc glyphs from Merriweather are shown below.
 
-<img src="images/Merriweather-numbers.png" alt="" height="90" width="475"></p>
+<img src="images/Merriweather-numbers.png" alt="" height="90" width="475">

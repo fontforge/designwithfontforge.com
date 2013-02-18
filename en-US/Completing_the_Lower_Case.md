@@ -74,4 +74,4 @@ Creating the c from the e involves deleting the crossbar and adding the terminal
 
 ### v, w, x, y, and z
 
-These letters are somewhat difficult because they don't have forms that are related to the other letters. This means you have to just jump in and draw the v. Make the down-stroke as thick as your thick stems, and make the upstroke as thin as the thinner strokes in your other letters. Once you have the v, you have a basic plan for the w and y. For x and y, focus on matching the contrast of the rest of the design while compensating for the illusions that occur in diagonal and crossing diagonal forms.</p>
+These letters are somewhat difficult because they don't have forms that are related to the other letters. This means you have to just jump in and draw the v. Make the down-stroke as thick as your thick stems, and make the upstroke as thin as the thinner strokes in your other letters. Once you have the v, you have a basic plan for the w and y. For x and y, focus on matching the contrast of the rest of the design while compensating for the illusions that occur in diagonal and crossing diagonal forms.

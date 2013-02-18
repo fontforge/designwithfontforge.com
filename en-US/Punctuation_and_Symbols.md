@@ -65,4 +65,4 @@ These choices will also be reflected in the design of the parentheses () and the
 
 <p class="p1">Parentheses should draw on the design of related shapes, such as D, C, and G.
 
-<p class="p1">Braces are notable in that their design varies to a greater degree. Braces have this in common with the question mark. The distribution of weight in braces may be like weight distribution of the numbers, in that it may sometimes violate the rules you follow in the rest of the design.</p>
+<p class="p1">Braces are notable in that their design varies to a greater degree. Braces have this in common with the question mark. The distribution of weight in braces may be like weight distribution of the numbers, in that it may sometimes violate the rules you follow in the rest of the design.
