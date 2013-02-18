@@ -523,7 +523,7 @@ ol.rectangle-list li {
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
-ol.rectangle-list ol{
+ol.rectangle-list ol {
 	margin: 0 0 0 2em;
 }
 
@@ -538,6 +538,10 @@ ol.rectangle-list a {
 	text-decoration: none;
 	transition: all .3s ease-out;	
 	font-weight: 300;
+}
+
+a.active {
+	background: #eee;
 }
 
 ol.rectangle-list a:hover{
