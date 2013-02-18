@@ -55,7 +55,7 @@ Each page is in MarkDown format, with a `.md` file extension. These files are co
 
 First install Jekyll, with `gem`:
 
-    sudo gem install jekyll;
+    sudo gem install jekyll
 
 To see the site as it will appear after processing by Jekyll and review your edits live in a browser layout, run:
 
