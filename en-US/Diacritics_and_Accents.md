@@ -84,3 +84,18 @@ The dialogue box that appears enables you to assign whether the anchor is a base
 ### Control of Anchor Classes
 
 FontForge also contains a usefull graphical interface for controlling the position of whole classes of anchor points, enabling the user to fine tune the position of, for example, all the acute accents at once in a font, or all the anchors in a class contained in, for example, characters that reference the lowercase 'e'. In the examples below we can see how to use this graphical interface to fine tune the position of all acute accents in a font, and, to fine tune a class of anchors across all characters that reference the lowecase 'e' glyph.
+
+Once you have created anchor classes within your mark-to-base position lookups, and added anchors to some glyphs, you can control these classes from "Element>Font Info>Lookups>GPOS" and then editing a subtable that contains anchor classes. You will then see this window;
+
+<img src="images/dia_anchor_control_1.png" />
+
+From here select the class you wish to edit and click on the 'Anchor Control' button. You will then be presented by a graphical interface to that class. In the examples below we are editing the control of the 'top' class. In the first example (below) the lowercase 'e' has been selected from the 'Bases' section of the drop down menu. When a base glyph is selected, all characters that reference that glyph and contain a 'top' base anchor, will be displayed in the preview pane. We can then adjust the position of the 'top' base anchor to see how it effects the position of all glyphs that contain the 'top' mark anchor.
+
+<img src="images/dia_anchor_control_e.png" />
+
+In the second example, below, the 'acute' glyph has been selected from the 'Marks' section of the drop down menu. When a mark glyph is selected then all glyphs that reference the selected glyph and contain a 'top' mark anchor will be displayed for preview.
+
+
+<img src="images/dia_anchor_control_mark.png" />
+
+
