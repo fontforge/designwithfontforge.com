@@ -6,7 +6,7 @@ category: Before You Begin
 title: What Is a Font?
 ---
 
-What makes typefaces different from handwritting, calligraphy, lettering, and logos?
+What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
 
 The single biggest issue that makes type design different is the need for every glyph in the typeface to work with every other glyph. This often means that the design and spacing of each part of the typeface ends up being a series of careful compromises. These compomises mean that we can best think about typeface design as the creation a wonderful collection of letters but not as a collection of wonderful letters. In other words we must think about the group and how it will perform together and prioritize this over any question of what is wonderful in a single letter.
 
@@ -76,27 +76,27 @@ In the below image, we see that the thin parts of the lower case letter o shapes
 
 If your font uses very little or even no contrast, this question is not relevant. Most fonts, however, have at least some degree of contrast. In these cases, you have a wide variety of options to choose from when it comes to how to distribute the weight in your font.
 
-<h4>Vertical</h4>
+#### Vertical
 
 <img src="images/verical1.png" alt="">
 
 Vertical distribution of weight is very common. The 9 and 8 above are a particularly intense example.
 
-<h4>Horizontal</h4>
+#### Horizontal
 
 <img src="images/horizontal%20weight.png" alt="">
 
 Horizontal weight distribution is much less common, but is nonetheless seen in many fonts.
 
-<h4>Bottom-heavy</h4>
+#### Bottom-heavy
 
 <img src="images/2bottomheavy.png" alt="">
 
-<h4>Top-heavy</h4>
+#### Top-heavy
 
 <img src="images/2topheavy%20metal.png" alt="">
 
-<h4>Irregular</h4>
+#### Irregular
 
 <img src="images/Irregular%20weight.png" alt="">
 
@@ -137,8 +137,9 @@ The following characteristics are not present in all type designs, however they 
 Notice that in the font on top the flourish is more present in the capital letter and the second one the flourish is more in the lowercase.
 
 ### Decoration
-<p class="p1"><img src="images/4decoration.png" alt="">
 
-<h3 class="p1"><span class="s1">Dimension</span>
+<img src="images/4decoration.png" alt="">
+
+### Dimension</span>
 
 <img src="images/3dimention.png" alt="">
