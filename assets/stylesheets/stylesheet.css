@@ -244,7 +244,7 @@ form {
 } 
 
 #main-content h1:before {
-  content: "/";
+  content: "&#187;";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -0.9em;
@@ -253,12 +253,12 @@ form {
 #main-content h2 {
   font-family: 'Merriweather Sans', serif; 
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 8px;
   color: #474747;
 } 
 #main-content h2:before {
-  content: "//";
+  content: "&#187;&#187;";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -1.5em;
@@ -266,15 +266,15 @@ form {
 
 #main-content h3 {
   font-family: 'Merriweather Sans', serif; 
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: normal;
   margin-top: 24px;
   margin-bottom: 8px;
   color: #474747;
 } 
  
 #main-content h3:before {
-  content: "///";
+  content: "&#187;&#187;&#187;";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2em;
@@ -283,12 +283,12 @@ form {
 #main-content h4 {
   font-family: 'Merriweather Sans', serif; 
   font-size: 15px;
-  font-weight: bold;
+  font-weight: normal;
   color: #474747;
 } 
 
 h4:before {
-  content: "////";
+  content: "&#187;&#187;&#187;&#187;";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2.8em;
@@ -300,7 +300,7 @@ h4:before {
   color: #474747;
 } 
 h5:before {
-  content: "/////";
+  content: "&#187;&#187;&#187;&#187;&#187;";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -3.2em;
@@ -312,7 +312,7 @@ h5:before {
   color: #474747;
 } 
 h6:before {
-  content: "//////";
+  content: "&#187;&#187;&#187;&#187;&#187;&#187;";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -3.7em;
