@@ -360,6 +360,11 @@ footer {
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+  font-weight: 300;
+}
+
+footer p {
+	margin: 0;
 }
 
 footer a {
