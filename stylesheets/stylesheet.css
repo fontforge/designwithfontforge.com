@@ -499,6 +499,9 @@ ol ol{
 }
 
 
+/* Rectangle List style from
+   http://www.red-team-design.com/css3-ordered-list-styles */
+
 .rectangle-list a {
 	position: relative;
 	display: block;
