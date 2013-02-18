@@ -1,5 +1,6 @@
 ---
 layout: bookpage
+weight: 0
 title: Design With FontForge
 ---
 [01](01_Introduction.html)
