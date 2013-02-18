@@ -96,11 +96,12 @@ From here all other characters can be spaced against the characters which have a
 
 <span>Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', 'Av'. In the examples below, we can see that without kerning the spacing between the letter pairs 'T-o' and 'V-a' are too wide, whereas with kerning the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.</span>
 
-<img src="images/kern1.png" alt=""><img src="images/kern2.png" alt="">
+<img src="images/kern1.png" alt="">
+<img src="images/kern2.png" alt="">
 
 
 
-<span>The Metrics Window in FontForge can be used to design both side bearings for and kerning values. Kerning values can be applied to a font in a number of ways in FontForge, 2 of these are shown below, kerning with classes and kerning with individual pairs;</span>
+<span>The Metrics Window in FontForge can be used to design both side bearings and kerning values. Kerning values can be applied to a font in a number of ways in FontForge, 2 of these are shown below, kerning with classes and kerning with individual pairs;</span>
 
 ## <strong>FontForge's Metrics menu</strong>
 
@@ -129,6 +130,16 @@ Just like with adjusting side bearing values, kerning values can be quickly and 
 ## <strong>Kerning with classes</strong>
 
 <span>A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will allways have the same kerning value when preceeded by, for example, the character 'T'. The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. Effectively, class kerning can save you a lot of time.</span>
+
+<span>The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu. 
+• Select "Kern by classes" and you will be presented by the “new lookup” window.
+• Click on the “New Lookup” button and another window will pop up, where you can create a kerning feature lookup.
+• Chose the item “pair position kerning” from the “Type” drop down menu.
+• Now click on the down arrow next to “NEW” in the “Feature” column, and choose “Horizontal Kerning” from the drop down menu.
+• Click on “OK”. You can keep the default names that fontforge creates for you. 
+
+<img src="images/kern_classes_1.png" />
+Now you are presented by the window where you can build you actual kerning classes (see above). The first character of a kerning pair will be chosen from the left hand column, and the second character of a pair will be chosen from the right column.</span>
 
 <span>The Element &gt; Font Info &gt; Lookups tab provides an interface to class kerning in FontForge. The same interface is also got at via the<br> It brings up a dialog showing all the GPOS lookups (of which kerning is one) and their subtables. See screenshot below;</span>
 
