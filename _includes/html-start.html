@@ -13,7 +13,13 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>{{ page.title }}</title>
+
+    {% if page.title == site.title %}
+    <title>{{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }}: {{ page.title }}</title>
+    {% endif %}
+
   </head>
 
   <body>
