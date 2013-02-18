@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 11
 category: Getting To Know FontForge
 title: Using the FontForge drawing tools
 ---

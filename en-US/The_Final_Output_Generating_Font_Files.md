@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 31
 category: workflow
 title: The final output: generating font files
 ---

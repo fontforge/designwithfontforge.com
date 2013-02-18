@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 29
 category: workflow
 title: Spacing, metrics, and kerning
 ---

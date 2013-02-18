@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 26
 category: workflow
 title: Completing the lower case
 ---

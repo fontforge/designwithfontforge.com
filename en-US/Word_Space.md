@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 21
 category: workflow
 title: Word space
 ---

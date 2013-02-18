@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 22
 category: workflow
 title: Creating your type's DNA
 ---

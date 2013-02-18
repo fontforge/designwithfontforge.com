@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 92
 category: Appendices
 title: Glossary
 ---

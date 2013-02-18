@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 
+weight: 91
 category: Appendices
 title: When things go wrong with FontForge itself
 ---

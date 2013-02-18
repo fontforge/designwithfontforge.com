@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 20
 category: workflow
 title: Creating 'o' and 'n'
 ---

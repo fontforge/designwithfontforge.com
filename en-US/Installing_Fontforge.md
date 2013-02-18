@@ -1,6 +1,6 @@
 ---
 layout: bookpage
-weight: 5
+weight: 10
 category: Getting To Know FontForge
 title: Installing FontForge
 ---
