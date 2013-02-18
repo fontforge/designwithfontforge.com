@@ -237,17 +237,18 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Merriweather Sans', serif; 
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
+  font-weight: 300;
 } 
 
 #main-content h1:before {
   content: "»";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -0.9em;
+  margin-left: -1.25em;
 }
 
 #main-content h2 {
@@ -496,14 +497,18 @@ ul.breadcrumb li {
 	margin: 0;
 	padding: 0;
 	text-transform: capitalize;
+	font-weight: 300;
 }
+
+/* Rectangle List style from
+   http://www.red-team-design.com/css3-ordered-list-styles */
 
 ol.rectangle-list li {
 	list-style: none;
 	text-transform: capitalize;
 }
 
-ol.rectangle-list {
+.rectangle-list {
 	counter-reset: li;
 	list-style: none;
 	*list-style: decimal;
@@ -512,14 +517,11 @@ ol.rectangle-list {
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
-ol ol{
+ol.rectangle-list ol{
 	margin: 0 0 0 2em;
 }
 
-/* Rectangle List style from
-   http://www.red-team-design.com/css3-ordered-list-styles */
-
-.rectangle-list a {
+ol.rectangle-list a {
 	position: relative;
 	display: block;
 	padding: .4em .4em .4em .8em;
@@ -529,13 +531,14 @@ ol ol{
 	color: #444;
 	text-decoration: none;
 	transition: all .3s ease-out;	
+	font-weight: 300;
 }
 
-.rectangle-list a:hover{
+ol.rectangle-list a:hover{
 	background: #eee;
 }	
 
-.rectangle-list a:before{
+ol.rectangle-list a:before{
 	content: counter(li);
 	counter-increment: li;
 	position: absolute;	
@@ -548,10 +551,10 @@ ol ol{
 	width: 2em;
 	line-height: 2em;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 300;
 }
 
-.rectangle-list a:after{
+ol.rectangle-list a:after{
 	position: absolute;	
 	content: '';
 	border: .5em solid transparent;
@@ -561,7 +564,7 @@ ol ol{
 	transition: all .3s ease-out;
 }
 
-.rectangle-list a:hover:after{
+ol.rectangle-list a:hover:after{
 	left: -.5em;
 	border-left-color: #2e78cd;
 }
