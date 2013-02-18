@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 91
 category: Appendices
-title: When things go wrong with FontForge itself
+title: When Things Go Wrong With FontForge Itself
 ---
 
 If you find FontForge crashing whilst in use you might like to send information to the fontforge developer mailing list at https://lists.sourceforge.net/lists/listinfo/fontforge-devel. This way, a software developer might be able to work out where the code is going wrong and apply a fix. You can then either patch your local FontForge, or just grab the sources from github as detailed in the Installing chapter to get an updated FontForge free of the defect you reported.

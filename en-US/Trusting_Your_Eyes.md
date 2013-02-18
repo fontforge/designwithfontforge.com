@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 3
 category: Before You Begin
-title: Trusting your eyes
+title: Trusting Your Eyes
 ---
 
 Font design is the process of iteratively testing the individual choices that collectively add up to a complete design. You will be testing your font to see if the combination of decisions you have made:

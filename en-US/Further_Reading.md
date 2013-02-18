@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 93
 category: Appendices
-title: Further reading
+title: Further Reading
 ---
 
 

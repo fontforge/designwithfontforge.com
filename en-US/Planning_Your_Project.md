@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 4
 category: Before You Begin
-title: Planning your project
+title: Planning Your Project
 ---
 
 Now that you have a sense of the variables that a font can have, you may want decide whether your project will have only one font, if it will be a collection of more than one related fonts, if it will be a (now traditional) four-style type family, or if it will be something even larger.

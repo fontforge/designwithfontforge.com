@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 30
 category: workflow
-title: Making sure your font works, Validation
+title: Making Sure Your Font Works, Validation
 ---
 
 In a perfect world, your font would be ready to build and install on any modern computer without any special effort, but reality is messier -- particularly during the design process. Fonts can have technical errors that prevent them from working or displaying correctly. For example, curves that intersect themselves will not render correctly because they do not have a "inside" and "outside." The various font file formats also expect glyphs to adhere to certain rules that simplify placing the text on screen, and fonts that break the rules can cause unexpected problems. An example of this type of issue is that all of the points on a curve should have coordinates that are integers. Finally, there are stylistic errors that are not technically incorrect, but that you will still want to repair -- such as lines that are intended to be perfectly horizontal or vertical, but are accidentally slightly off-kilter.

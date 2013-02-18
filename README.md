@@ -43,7 +43,7 @@ they start with these lines:
     ---
     published: true
     layout: bookpage
-    title: Page title
+    title: Page Title
     ---
 ```
 
