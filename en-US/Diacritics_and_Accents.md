@@ -78,5 +78,9 @@ In this example (below), two anchor classes have been created, 'top' and 'bottom
 
 <img src="images/dia_marks_classes_add.png" />
 
-To place an anchor with a glyph, simply use the right mouse click, and select the function 'Add Anchor' from the right-click menu.
-The anchor can be dragged to position with the mouse, or fine tuned when initially using the 'add anchor' function.
+To place an anchor with a glyph, simply use the right mouse click in a glyph edit window, and select the function 'Add Anchor' from the right-click menu.
+The dialogue box that appears enables you to assign whether the anchor is a base or mark anchor. The anchor's position can also be fine tuned from this dialogue box. Alternatively the anchor can be moved by being dragged to position with the mouse, or moved by using the up, down, left and right keys. The anchor point can also be edited by right clicking on the anchor point and choosing 'get info' from the mouse click menu.
+
+### Control of Anchor Classes
+
+FontForge also contains a usefull graphical interface for controlling the position of whole classes of anchor points, enabling the user to fine tune the position of, for example, all the acute accents at once in a font, or all the anchors in a class contained in, for example, characters that reference the lowercase 'e'. In the examples below we can see how to use this graphical interface to fine tune the position of all acute accents in a font, and, to fine tune a class of anchors across all characters that reference the lowecase 'e' glyph.
