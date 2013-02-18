@@ -8,7 +8,7 @@ title: Creating 'o' and 'n'
 
 There are many approaches to designing a font. It can be helpful to deconstruct the larger processes involved in order to get started quickly, and to provide a solid basis for a whole font's worth of characters. A popular and valuable approach to this is to design the 'o' and 'n' characters first, nailing down essential elements of form, space and balance, before bringing them together for the formation of other characters. Creating the lowercase 'o' and 'n' characters can provide us with some of the fundamental forms and structures that will underpin all other characters that are needed.
 
-Although the design of the 'o' may seem like quite a simple thing, all the characteristics mentioned in the ["What is a font?"](What_Is-a-Font.html) chapter come into play. The choice you make about each characteristic should be a deliberate choice.
+Although the design of the 'o' may seem like quite a simple thing, all the characteristics mentioned in the ["What is a font?"](What_Is_a_Font.html) chapter come into play. The choice you make about each characteristic should be a deliberate choice.
 
 ## <strong>Underhangs and Overshoots</strong>
 
