@@ -1,7 +1,6 @@
 ---
 layout: bookpage
 weight: 5
-weight: 5
 category: workflow
 title: Making sure your font works: Validation
 ---

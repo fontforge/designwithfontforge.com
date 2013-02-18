@@ -1,8 +1,7 @@
 ---
 layout: bookpage
 weight: 5
-weight: 5
-section: Getting To Know FontForge
+category: Getting To Know FontForge
 title: Drawing with Spiro
 ---
 
