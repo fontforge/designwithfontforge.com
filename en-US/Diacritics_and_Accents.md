@@ -1,5 +1,7 @@
 ---
+published: true
 layout: bookpage
+weight: 26
 section: Workflow
 title: Diacritics and Accented Characters
 ---
