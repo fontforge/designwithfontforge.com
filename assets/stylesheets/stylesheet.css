@@ -368,10 +368,11 @@ footer p {
 }
 
 footer a {
-  color: #666;
+  color: #999;
+  font-weight: 300;
 }
 footer a:hover {
-  color: #444;
+  color: #666;
 }
 
 /* MISC */
