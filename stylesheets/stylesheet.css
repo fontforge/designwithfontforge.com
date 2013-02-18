@@ -480,6 +480,15 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+ul.breadcrumb li {
+	display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+
 ol.rectangle-list li {
 	list-style: none;
 	text-transform: capitalize;
@@ -497,7 +506,6 @@ ol.rectangle-list {
 ol ol{
 	margin: 0 0 0 2em;
 }
-
 
 /* Rectangle List style from
    http://www.red-team-design.com/css3-ordered-list-styles */
