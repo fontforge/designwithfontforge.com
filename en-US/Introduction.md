@@ -1,7 +1,7 @@
 ---
 layout: bookpage
 weight: 1
-section: Before You Begin
+category: Before You Begin
 title: Introduction
 ---
 

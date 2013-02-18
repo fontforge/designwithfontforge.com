@@ -1,7 +1,7 @@
 ---
 layout: bookpage
 weight: 2
-section: Before You Begin
+category: Before You Begin
 title: What Is a Font?
 ---
 

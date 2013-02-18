@@ -1,7 +1,7 @@
 ---
 layout: bookpage
 weight: 4
-section: Before You Begin
+category: Before You Begin
 title: Planning your project
 ---
 

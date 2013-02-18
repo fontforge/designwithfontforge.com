@@ -1,7 +1,7 @@
 ---
 layout: bookpage
 weight: 3
-section: Before You Begin
+category: Before You Begin
 title: Trusting your eyes
 ---
 
