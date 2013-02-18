@@ -7,13 +7,19 @@ This site is made with [Jeykll](https://github.com/mojombo/jekyll/wiki/Usage) an
 
 If you're not familiar with GitHub, they have [excellent help pages](https://help.github.com).
 
-To contribute, you can
+## License
 
-* create issues (at the top of [this page](//github.com/fontforge/designwithfontforge.com), in the main navigation bar)
+The book and this site is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+
+## Contributing
+
+If you wish to contribute to this website, you can
+
+* create issues (at the top of [this page](//github.com/fontforge/designwithfontforge.com), in the main navigation bar) to request or suggest changes
 * join the [fontforge-devel email discussion list](//fontforge.10959.n7.nabble.com/Developer-f3.html) to discuss general topics, and 
-* make pull requests with your improvements
+* contribute directly by [forking it on GitHub](https://help.github.com), pushing your change to a named branch, then sending a pull request
 
-Please do ask for direct access, so you can edit files live, directly from the GitHub website:
+Please do ask for commit access, so you can edit files live, directly from the GitHub website:
 
 https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
 
