@@ -61,4 +61,4 @@ Jekyll and review your edits in a browser layout, live, run:
 
     jekyll --server
 
-Now browse http://localhost:4000/
+Now browse [http://localhost:4000/](http://localhost:4000/)
