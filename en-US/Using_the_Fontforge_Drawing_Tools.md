@@ -1,4 +1,5 @@
 ---
+published: true
 layout: bookpage
 weight: 11
 category: Getting To Know FontForge

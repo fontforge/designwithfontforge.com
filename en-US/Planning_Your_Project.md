@@ -1,4 +1,5 @@
 ---
+published: true
 layout: bookpage
 weight: 4
 category: Before You Begin

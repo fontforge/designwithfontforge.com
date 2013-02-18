@@ -1,4 +1,5 @@
 ---
+published: true
 layout: bookpage
 weight: 29
 category: workflow
