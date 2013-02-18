@@ -24,6 +24,7 @@ A diacritic is a mark added to a letter, often used to change the sound value of
 
 
 FontForge can automatically create accented characters in 2 main ways;
+
 1. FontForge contains rudimentary information on where to place diacritic marks, so can automatically build most accented characters.
 2.  For much greater control of diacritic placement ,FontForge can place diacritic marks based on the position of user created anchor points.
 
