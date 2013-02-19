@@ -16,6 +16,30 @@ From the Font Window, double-click one of the glyph boxes to launch the Glyph Wi
 
 <strong>Caution:</strong> Sometimes it seems like FontForge is not responding when you are in the Glyph Window. What might be occurring is that there is an open dialog box hidden behind the Glyph Window. You will then have to move the Glyph Window to see the dialog, dismiss it, and return to the Glyph Window.
 
+### A little about paths, splines, points, and handles
+
+FontForge can draw with three types of paths; Cubic, Quadratic, and Spiro. For this section we will only discuss Cubic paths, as this is generally the type of path used when drawing glyphs and are the paths found in Postscript fonts. Spiro paths have their own separate section in this book, and Quadratic curves are only found in TrueType fonts and are rarely used in drawing.
+
+## Paths
+
+Each Cubic path in Fontforge is composed of a series of Bézier splines (curves) and line segments. A Line consists of 2 points, and a spline consists of 4 points; two end points of the spline and two more (the 'handles') to describe the slope of the spline at those end points (see below)
+
+<img src="images/tools_splines_points.png" />
+
+## Points
+There are four types of point that FontForge uses to draw with;
+
+• Curve points
+Curve points (denoted as round shaped points) 
+• H/V Curve points
+(denoted as diamond shaped points)
+• Corner points
+(denoted as square shaped points)
+• Tangent points
+(denoted as triangular shaped points)
+
+
+
 ## Familiarize yourself with the drawing tools
 
 Now that you know your way around the canvas, it is time to get acquainted with the tools.
