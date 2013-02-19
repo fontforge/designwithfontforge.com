@@ -22,21 +22,38 @@ FontForge can draw with three types of paths; Cubic, Quadratic, and Spiro. For t
 
 ## Paths
 
-Each Cubic path in Fontforge is composed of a series of Bézier splines (curves) and line segments. A Line consists of 2 points, and a spline consists of 4 points; two end points of the spline and two more (the 'handles') to describe the slope of the spline at those end points (see below)
+Each Cubic path in Fontforge is composed of a series of Bézier splines (curves) and line segments.
+
+A Line consists of 2 points (see below).
+
+<img src="images/tools_line_points.png" />
+
+A spline consists of 4 points; two end points of the spline and two more, the 'handles', to describe the slope of the spline at those end points (see below)
 
 <img src="images/tools_splines_points.png" />
 
-## Points
+### Points
 There are four types of point that FontForge uses to draw with;
 
-• Curve points
-Curve points (denoted as round shaped points) 
-• H/V Curve points
+##Curve points
+Curve points (denoted as round shaped points)
+ 
+<img src="images/tools-curve-point.png"/>
+
+##H/V Curve points
 (denoted as diamond shaped points)
-• Corner points
+
+<img src="images/tools-HV-point.png"/>
+
+##Corner points
 (denoted as square shaped points)
-• Tangent points
+
+<img src="images/tools-square-point.png"/>
+
+##Tangent points
 (denoted as triangular shaped points)
+
+<img src="images/tools-tangent-point.png"/>
 
 
 
