@@ -540,7 +540,7 @@ ol.rectangle-list a {
 	font-weight: 300;
 }
 
-a.active {
+ol.rectangle-list a.active {
 	background: #eee;
 }
 
