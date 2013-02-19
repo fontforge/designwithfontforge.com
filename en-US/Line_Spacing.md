@@ -26,7 +26,7 @@ For languages heavy in diacritical marks (such as Czech), line spacing should be
 
 ## Experiment with your font's line spacing in FontForge
 
-In FontForge, you can set and adjust our font project's line spacing from within the Font Info window. Open this window by choosing <em>Font Info</em> from the "Element" menu, then click on the General tab. Note the values that FontForge has listed for Ascent and Descent. Unless you have made manual changes already, these two numbers when added together should equal the value of Em Size listed on the line below.
+In FontForge, you can set and adjust your font project's line spacing from within the Font Info window. Open this window by choosing <em>Font Info</em> from the "Element" menu, then click on the General tab. Note the values that FontForge has listed for Ascent and Descent. Unless you have made manual changes already, these two numbers when added together should equal the value of Em Size listed on the line below.
 
 <img src="images/fontinfo-generl.png" alt="">
 
