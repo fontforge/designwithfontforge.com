@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 20
 category: workflow
-title: Creating 'o' and 'n'
+title: Creating o and n
 ---
 
 There are many approaches to designing a font. It can be helpful to deconstruct the larger processes involved in order to get started quickly, and to provide a solid basis for a whole font's worth of characters. A popular and valuable approach to this is to design the 'o' and 'n' characters first, nailing down essential elements of form, space and balance, before bringing them together for the formation of other characters. Creating the lowercase 'o' and 'n' characters can provide us with some of the fundamental forms and structures that will underpin all other characters that are needed.
@@ -40,7 +40,7 @@ If we look at the anatomy of an 'n', we can break it apart into two or three com
 <td><img src="images/n-compo-1_1.png" alt=""></td>
 </tr></tbody></table><p>Taking yourself forward again to the chapter on spacing and metrics, the design of the 'n' character should keep pace within the process of spacing the 'n' and 'o' characters together.
 
-Now, garnering the methods you have used to create an 'n' and 'o' character, you are ready to expand the lowercase character set. The qualities of the stem and curve components of the 'n' and 'o' will inform the way you may form other characters. If we study the characters below from Open Sans, we can see the relationships between the formal aspects of separate characters and how they can be repeated, with some adjustments, to form the components of our font.
+Now, garnering the methods you have used to create an 'n' and 'o' character, you are ready to expand the lowercase character set. The qualities of the stem and curve components of the 'n' and 'o' will inform the way you may form other characters. If we study the characters below from Open Sans, we can see the relationships between the formal aspects of separate characters and how they can be repeated, with some adjustments, to form the components of our font.<br>
 
 <img src="images/h-m-n-curves.png" alt="" width="50%">
 
