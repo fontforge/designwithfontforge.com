@@ -511,7 +511,7 @@ ul.breadcrumb li {
 
 ol.rectangle-list li {
 	list-style: none;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 }
 
 .rectangle-list {
