@@ -15,17 +15,11 @@ The book and this site is licensed under the [Creative Commons Attribution-Share
 
 If you wish to contribute to this website, you can
 
-* create issues (at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar) to request or suggest changes
-* join the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) to discuss general topics, and 
-* contribute directly by [forking it on GitHub](https://help.github.com), pushing your change to a named branch, then sending a pull request
+1. Report an issue for someone else to resolve, by clicking the 'Issues' button at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar.
 
-Please do ask for commit access, so you can edit files live, directly from the GitHub website:
+2. Contribute a change directly, by forking it on GitHub and sending a pull request. (If that sounds unfamiliar, [learn how with GitHub's excellent interactive introduction]](https://help.github.com).
 
-https://github.com/fontforge/designwithfontforge.com/blob/gh-pages/README.md
-
-You can also use the prose.io site to edit pages. For example, to edit this page, simply visit:
-
-http://prose.io/#fontforge/designwithfontforge.com/edit/gh-pages/README.md
+3. Discuss general topics on the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) 
 
 #### Directory Layout
 
