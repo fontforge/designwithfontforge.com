@@ -15,8 +15,8 @@ The book and this site is licensed under the [Creative Commons Attribution-Share
 
 If you wish to contribute to this website, you can
 
-* create issues (at the top of [this page](//github.com/fontforge/designwithfontforge.com), in the main navigation bar) to request or suggest changes
-* join the [fontforge-devel email discussion list](//fontforge.10959.n7.nabble.com/Developer-f3.html) to discuss general topics, and 
+* create issues (at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar) to request or suggest changes
+* join the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) to discuss general topics, and 
 * contribute directly by [forking it on GitHub](https://help.github.com), pushing your change to a named branch, then sending a pull request
 
 Please do ask for commit access, so you can edit files live, directly from the GitHub website:
