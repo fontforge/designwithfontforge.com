@@ -12,6 +12,14 @@ Second, and ultimately more importantly, it means that the application is writte
 
 FontForge can be installed on Gnu/Linux (Linux), OSX, and Microsoft Windows computers. Installer packages are provided for OSX, Windows, and binaries for Linux. At the time of writing the Windows and OSX binaries are somewhat dated. Hopefully a new release of FontForge in early 2013 will bring updates to the binary packages offered for all platforms.
 
+Installing on Mac OS X
+----------------------
+
+A new version of the FontForge website is under active development and has a guide to installing on the  Mac: http://fontforge.github.com/en-US/downloads/mac.html
+
+Installing on GNU+Linux
+-------------------------
+
 The focus of this section is on installation of FontForge on a Linux machine. As many of the developers of FontForge use Linux on a daily basis, building from source can be simplest on that platform. The easiest method to get FontForge on your Linux machine is to use your Linux distribution's package repository. A slightly more difficult method of installation is to download and install the binaries offered from the FontForge website. You might like to use the binaries offered on the FontForge website if they are more recent than those your Linux distribution offers.
 
 To round out the installation methods, we'll see how to grab the very latest source code from github and compile and install it on your machine. You might like to compile from the github sources if there are some features or stability updates that you know are available or perhaps there are fixes to problems that you have reported which are not available in any release yet. This section also includes some additional information on how to report crashes to the FontForge mailing list so that you may help the software continue to improve for all of it's users.
