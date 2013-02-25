@@ -24,18 +24,22 @@ If you wish to contribute to this website, you can
 #### Directory Layout
 
 - `_layouts/*.html` html template files
-
 - `_includes/*.html` snippets of HTML that are included in pages and templates
-
 - `assets/` CSS, JS and image files
-
 - `_config.yml` Configuration for Jeykll (ignore this file)
-
 - `en-US/` The site's contents, in US English. 
 
 #### File Formats
 
 Each page is in MarkDown format, with a `.md` file extension. These files are converted into corresponding .html files by Jekyll when they start with these lines:
+
+- published: If the page should not be published, set this to `false`
+- layout: `bookpage` is the default
+- weight: An integer value from 1 to 100 that effects the ordering of the page in the sidebar and homepage lists
+- category: the category the page belongs in
+- title: The page title used in the title tag and h1 of the page
+
+Example:
 
 ```
     ---
@@ -46,16 +50,6 @@ Each page is in MarkDown format, with a `.md` file extension. These files are co
     title: Page Title
     ---
 ```
-
-published: If the page should not be published, set this to `false`
-
-layout: `bookpage` is the default
-
-weight: An integer value from 1 to 100 that effects the ordering of the page in the sidebar and homepage lists
-
-category: the category the page belongs in
-
-title: The page title used in the title tag and h1 of the page
 
 #### How to build the site
 
