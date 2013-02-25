@@ -15,7 +15,7 @@ FontForge can be installed on Gnu/Linux (Linux), OSX, and Microsoft Windows comp
 Installing on Mac OS X
 ----------------------
 
-A new version of the FontForge website is under active development and has a guide to installing on the  Mac: http://fontforge.github.com/en-US/downloads/mac.html
+A new version of the FontForge website is under active development and has [a guide to installing on the Mac](http://fontforge.github.com/en-US/downloads/mac.html).
 
 Installing on GNU+Linux
 -------------------------
