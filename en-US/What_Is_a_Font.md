@@ -66,7 +66,7 @@ The letters in the top row of this example show a greater variety of width than 
 
 ### Contrast
 
-Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below two O glyphs that the one on the left has much greater variability in line thinkness between the top and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than the one on the right.<img src="images/Contrast.png" alt="">
+Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below two O glyphs that the one on the left has much greater variability in line thickness between the top and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than the one on the right.<img src="images/Contrast.png" alt="">
 
 ### Angle of contrast
 
