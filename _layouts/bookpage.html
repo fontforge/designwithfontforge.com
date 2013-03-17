@@ -1,0 +1,40 @@
+{% include html-start.html %}
+
+	{% include header-masthead.html %}
+	{% include header-breadcrumbs.html %}
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>{{ page.title }}</h1>
+          <p>{{ content }}</p>
+        </section>
+
+        <aside id="sidebar">
+<!--          <a href="" class="button">
+            <small>Download book as</small>
+            PDF
+          </a>-->
+          <ol class="rectangle-list">
+          {% for weight in (1..100) %}
+            {% for p in site.pages %}
+              {% if p.weight > 0 %}
+              {% if p.weight == weight %}
+                <li>
+                  <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                    {{ p.title }}
+                  </a>
+                </li>
+              {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          </ol>
+          <p>This book is free culture, <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">hosted on GitHub</a>. Patches, suggestions, and corrections are welcome.</p>
+        </aside>
+      </div>
+    </div>
+
+{% include footer.html %}
+
+{% include html-end.html %}
