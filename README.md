@@ -3,23 +3,25 @@
 
 This is a book project, about how to design new typefaces with FontForge.
 
-This site is made with [Jeykll](https://github.com/mojombo/jekyll/wiki/Usage) and hosted on [GitHub pages](http://pages.github.com).
+## How To Contribute
 
-If you're not familiar with GitHub, they have [excellent help pages](https://help.github.com).
+If you wish to contribute to this website, you are very welcome to! Here are a few ways you can do so:
+
+1. Report an issue for someone else to resolve, by clicking the 'Issues' button at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar.
+
+2. Contribute a change directly, by forking it on GitHub and editing the plain text files, then send a pull request. (If that sounds unfamiliar, [learn how with GitHub's excellent interactive introduction]](https://help.github.com).
+
+3. Discuss general topics on the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) 
 
 ## License
 
 The book and this site is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## How To Contribute
+## How This Site Is Made
 
-If you wish to contribute to this website, you can
+This site is made with the [Jeykll](https://github.com/mojombo/jekyll/wiki/Usage) content management system, and hosted on [GitHub pages](http://pages.github.com).
 
-1. Report an issue for someone else to resolve, by clicking the 'Issues' button at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar.
-
-2. Contribute a change directly, by forking it on GitHub and sending a pull request. (If that sounds unfamiliar, [learn how with GitHub's excellent interactive introduction]](https://help.github.com).
-
-3. Discuss general topics on the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) 
+If you're not familiar with GitHub, they have [excellent help pages](https://help.github.com).
 
 #### Directory Layout
 
