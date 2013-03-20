@@ -6,7 +6,9 @@ category: workflow
 title: Spacing, Metrics and Kerning
 ---
 
-The spaces between characters are an important, integral part of the design of a font. Designing a font's letter spacing should be carried out as an integral part of the whole process of designing a font. Good spacing is necessary for a font to function well.
+The spaces between characters are an important, integral part of the design of a font.
+
+Designing a font's letter spacing should be carried out as an integral part of the whole process of designing a font. Good spacing is necessary for a font to function well.
 
 In FontForge, the Metrics Window allows you to design the metrics of your font, alter the spacing between them, and test how glyphs look together. Metrics Windows can be opened from the 'Window' menu, or by using the Control-k command.
 

@@ -8,19 +8,15 @@ title: Diacritics and Accents
 
 A diacritic is a mark added to a letter, often used to change the sound value of the letter to which they are added. Some diacritical marks, such as the 'acute' and 'grave' are often called accents. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
 
-<img src="images/dia_a_acute.png"/>
-<img src="images/dia_a_grave.png"/>
-<img src="images/dia_a_circumflex.png"/>
-<img src="images/dia_a_tilde.png"/>
-<img src="images/dia_a_dieresis.png"/>
-<img src="images/dia_a_ring.png"/>
-<img src="images/dia_a_macron.png"/>
-<img src="images/dia_a_breve.png"/>
-<img src="images/dia_c_ogonek.png"/>
-<img src="images/dia_c_cedilla.png"/>
-<img src="images/dia_c_dot.png"/>
-<img src="images/dia_g_comma.png"/>
-<img src="images/dia_hungarumlaut.png"/>
+<img width="50%" src="images/dia_a_grave.png"/>
+<img width="50%" src="images/dia_a_circumflex.png"/>
+<img width="50%" src="images/dia_a_tilde.png"/>
+<img width="50%" src="images/dia_a_dieresis.png"/>
+<img width="50%" src="images/dia_c_ogonek.png"/>
+<img width="50%" src="images/dia_c_cedilla.png"/>
+<img width="50%" src="images/dia_c_dot.png"/>
+<img width="50%" src="images/dia_g_comma.png"/>
+<img width="50%" src="images/dia_hungarumlaut.png"/>
 
 
 FontForge can automatically create accented characters in 2 main ways;
@@ -30,6 +26,8 @@ FontForge can automatically create accented characters in 2 main ways;
 
 ### FontForge's basic auto placement of diacritic marks.
 In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character, we would need to have already created the lowercase 'a' and the 'acute' glyph. Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acute' glyph into the 'a acute' character slot (see below).
+
+<p class="warn">It should be noted here that if the glyph of a particular diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example of the combining mark 'acutecomb' (u+0301)is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
 
 <img src="images/dia_auto_a_acute.png"/>
 
