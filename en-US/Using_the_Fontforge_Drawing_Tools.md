@@ -14,7 +14,7 @@ From the Font Window, double-click one of the glyph boxes to launch the Glyph Wi
 
 <p class="warn"><strong>Note:</strong> The numbers along the top where the x and y axis intersect indicate the current (x,y) location of your cursor on the canvas, followed by the location of the most recently selected point. The third number is the relative position of your cursor to the selected point. The fourth number is the distance between your cursor and the selected point. Fifth is the angle from the selected point to the cursor (relative to the baseline). Next is the current magnification level, followed by the name of the active layer.</p>
 
-<p class="warn"><strong>Caution:</strong> Sometimes it seems like FontForge is not responding when you are in the Glyph Window. What might be occurring is that there is an open dialog box hidden behind the Glyph Window. You will then have to move the Glyph Window to see the dialog, dismiss it, and return to the Glyph Window.</p>
+> <strong>Caution:</strong> Sometimes it seems like FontForge is not responding when you are in the Glyph Window. What might be occurring is that there is an open dialog box hidden behind the Glyph Window. You will then have to move the Glyph Window to see the dialog, dismiss it, and return to the Glyph Window.
 
 <hr>
 
