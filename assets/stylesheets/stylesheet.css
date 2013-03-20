@@ -1,10 +1,13 @@
 .warn {
 background-color:#D1E0E0;
 padding:4px;
-
 }
 
-
+.imagebox {
+background-color:#fff;
+padding:5px;
+border:solid 1px #aaa;
+}
 
 /* This stylesheet started out as the GitHub Pages 
    Architect theme by @jasonlong"
