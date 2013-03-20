@@ -12,13 +12,17 @@ From the Font Window, double-click one of the glyph boxes to launch the Glyph Wi
 
 <img src="images/glyph_window.png" alt="">
 
-<strong>Note:</strong> The numbers along the top where the x and y axis intersect indicate the current (x,y) location of your cursor on the canvas, followed by the location of the most recently selected point. The third number is the relative position of your cursor to the selected point. The fourth number is the distance between your cursor and the selected point. Fifth is the angle from the selected point to the cursor (relative to the baseline). Next is the current magnification level, followed by the name of the active layer.
+<p class="warn"><strong>Note:</strong> The numbers along the top where the x and y axis intersect indicate the current (x,y) location of your cursor on the canvas, followed by the location of the most recently selected point. The third number is the relative position of your cursor to the selected point. The fourth number is the distance between your cursor and the selected point. Fifth is the angle from the selected point to the cursor (relative to the baseline). Next is the current magnification level, followed by the name of the active layer.</p>
 
-<strong>Caution:</strong> Sometimes it seems like FontForge is not responding when you are in the Glyph Window. What might be occurring is that there is an open dialog box hidden behind the Glyph Window. You will then have to move the Glyph Window to see the dialog, dismiss it, and return to the Glyph Window.
+<p class="warn"><strong>Caution:</strong> Sometimes it seems like FontForge is not responding when you are in the Glyph Window. What might be occurring is that there is an open dialog box hidden behind the Glyph Window. You will then have to move the Glyph Window to see the dialog, dismiss it, and return to the Glyph Window.</p>
+
+<hr>
 
 ## A little about paths, splines, points, and handles
 
 FontForge can draw with three types of paths; Cubic, Quadratic, and Spiro. For this section we will only discuss Cubic paths, as this is generally the type of path used when drawing glyphs and are the paths found in Postscript fonts. Spiro paths have their own separate section in this book, and Quadratic curves are only found in TrueType fonts and are rarely used in drawing.
+
+<hr>
 
 ### Paths
 
@@ -35,19 +39,19 @@ A spline consists of 4 points; two end points of the spline and two more, the 'h
 ### Points
 There are four types of point that FontForge uses to draw with;
 
-Curve points (denoted as round shaped points)
+#Curve points (denoted as round shaped points)
 
 Curve points produce smooth curves, with a bezier curve and handle on each side of the point (see below). The position of each of handle of a curve point is linked to the other handles, giving the handles of curve points their distinctive 'see-saw' quality; moving one handle upwards will move the other handle downwards, and vise-versa.
  
 <img src="images/tools-curve-point.png"/>
 
-H/V Curve points (denoted as diamond shaped points)
+#H/V Curve points (denoted as diamond shaped points)
 
 H/V curve points are similar to curve points except that the handles of H/V curve points will allways snap to the horizontal or vertical axes (see below).. Hence the 'H/V' means 'horizontal / vertical.
 
 <img src="images/tools-HV-point.png"/>
 
-Corner points (denoted as square shaped points)
+#Corner points (denoted as square shaped points)
 
 A corner point can have one or two bezier handles. The position of each handle is not dependent on the position of the other handle or the angle of the line leading into the point (see below).
 
@@ -55,11 +59,13 @@ A corner point can have one or two bezier handles. The position of each handle i
 
 <img src="images/tools_corner_point_2.png" />
 
-Tangent points (denoted as triangular shaped points)
+#Tangent points (denoted as triangular shaped points)
 
 The line leading in to a tangent point is a straight line. A tangent point's single bezier handle leads out of the point at 180 degrees to the direction of the straight line that leads in to the tangent point (see below).
 
 <img src="images/tools-tangent-point.png"/>
+
+<hr>
 
 ### Copy, paste, cut and delete points, splines and lines
 

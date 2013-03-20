@@ -29,7 +29,7 @@ FontForge can automatically create accented characters in 2 main ways;
 ### FontForge's basic auto placement of diacritic marks.
 In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character (u+00e1) , we would need to have already created the lowercase 'a' (u+0061) and the 'acutecomb' glyph (u+0301). Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acutecomb' glyph into the 'a acute' character slot (see below).
 
-<img width="400px" src="images/dia_auto_a_acute.png"/>
+<img width="500px" src="images/dia_auto_a_acute.png"/>
 
 This automatic placement of diacritic marks can be tuned by preferences, found in the 'accents' section of FontForge's preferences menu 'File > Preferences > Accents' (see below). 
 
