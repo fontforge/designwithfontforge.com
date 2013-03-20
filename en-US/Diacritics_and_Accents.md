@@ -24,21 +24,24 @@ FontForge can automatically create accented characters in 2 main ways;
 1. FontForge contains rudimentary information on where to place diacritic marks, so can automatically build most accented characters.
 2. For much greater control of diacritic placement, FontForge can place diacritic marks based on the position of user created anchor points.
 
+<p class="warn">It should be noted here that if the glyph of a particular diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example, if the combining mark 'acutecomb' (u+0301) is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds any acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
+
 ### FontForge's basic auto placement of diacritic marks.
-In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character, we would need to have already created the lowercase 'a' and the 'acute' glyph. Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acute' glyph into the 'a acute' character slot (see below).
+In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character (u+00e1) , we would need to have already created the lowercase 'a' (u+0061) and the 'acutecomb' glyph (u+0301). Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acutecomb' glyph into the 'a acute' character slot (see below).
 
-<p class="warn">It should be noted here that if the glyph of a particular diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example of the combining mark 'acutecomb' (u+0301)is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
-
-<img src="images/dia_auto_a_acute.png"/>
+<img width="400px" src="images/dia_auto_a_acute.png"/>
 
 This automatic placement of diacritic marks can be tuned by preferences, found in the 'accents' section of FontForge's preferences menu 'File > Preferences > Accents' (see below). 
 
 <img src="images/preferences_accents.png" />
+'PreferSpacingCharacters' - selecting this option to 'On' will force FontForge to build accented glyphs with spacing characters even if the appropriate combining characters are present.
 
 'AccentOffsetPercent' controls the amount of vertical space between the base glyph and the mark glyph. The value entered here is a percentage of the em square of the font. So a value of '6' will offset the mark glyph from the base glyph by 6 percent  of the font's em square.
 
-The preferences for the horizontal placement of the mark glyph can also be set. Selecting 'On'  for the   preference 'AccentCenterLowest' will centre the accent glyph to the lowest point of the base glyph. 
-Selecting 'AccentCenterHighest' to 'On' will centre the accent to the highest point of the base glyph. 
+The preferences for the horizontal placement of the mark glyph can also be set. Selecting 'On'  for the   preference 'AccentCenterLowest' will centre the accent glyph to the lowest point of the base glyph.
+ 
+Selecting 'AccentCenterHighest' to 'On' will centre the accent to the highest point of the base glyph.
+ 
 Selecting both the above preferences to 'Off' will centre the accent into the width of the base glyph. Selecting both the above preferences to 'On' will centre the accent in the width of the character slot.
 
 
