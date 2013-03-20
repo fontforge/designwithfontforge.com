@@ -39,19 +39,19 @@ A spline consists of 4 points; two end points of the spline and two more, the 'h
 ### Points
 There are four types of point that FontForge uses to draw with;
 
-#Curve points (denoted as round shaped points)
+_Curve points_ (denoted as round shaped points)
 
 Curve points produce smooth curves, with a bezier curve and handle on each side of the point (see below). The position of each of handle of a curve point is linked to the other handles, giving the handles of curve points their distinctive 'see-saw' quality; moving one handle upwards will move the other handle downwards, and vise-versa.
  
 <img src="images/tools-curve-point.png"/>
 
-#H/V Curve points (denoted as diamond shaped points)
+_H/V Curve points_ (denoted as diamond shaped points)
 
 H/V curve points are similar to curve points except that the handles of H/V curve points will allways snap to the horizontal or vertical axes (see below).. Hence the 'H/V' means 'horizontal / vertical.
 
 <img src="images/tools-HV-point.png"/>
 
-#Corner points (denoted as square shaped points)
+_Corner points_ (denoted as square shaped points)
 
 A corner point can have one or two bezier handles. The position of each handle is not dependent on the position of the other handle or the angle of the line leading into the point (see below).
 
@@ -59,7 +59,7 @@ A corner point can have one or two bezier handles. The position of each handle i
 
 <img src="images/tools_corner_point_2.png" />
 
-#Tangent points (denoted as triangular shaped points)
+_Tangent points_ (denoted as triangular shaped points)
 
 The line leading in to a tangent point is a straight line. A tangent point's single bezier handle leads out of the point at 180 degrees to the direction of the straight line that leads in to the tangent point (see below).
 
