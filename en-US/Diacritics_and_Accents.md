@@ -8,15 +8,15 @@ title: Diacritics and Accents
 
 A diacritic is a mark added to a letter, often used to change the sound value of the letter to which they are added. Some diacritical marks, such as the 'acute' and 'grave' are often called accents. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
 
-<img width="50%" src="images/dia_a_grave.png"/>
-<img width="50%" src="images/dia_a_circumflex.png"/>
-<img width="50%" src="images/dia_a_tilde.png"/>
-<img width="50%" src="images/dia_a_dieresis.png"/>
-<img width="50%" src="images/dia_c_ogonek.png"/>
-<img width="50%" src="images/dia_c_cedilla.png"/>
-<img width="50%" src="images/dia_c_dot.png"/>
-<img width="50%" src="images/dia_g_comma.png"/>
-<img width="50%" src="images/dia_hungarumlaut.png"/>
+<img width="20px" src="images/dia_a_grave.png"/>
+<img width="20px" src="images/dia_a_circumflex.png"/>
+<img width="20px" src="images/dia_a_tilde.png"/>
+<img width="20px" src="images/dia_a_dieresis.png"/>
+<img width="20px" src="images/dia_c_ogonek.png"/>
+<img width="20px" src="images/dia_c_cedilla.png"/>
+<img width="20px" src="images/dia_c_dot.png"/>
+<img width="20px" src="images/dia_g_comma.png"/>
+<img width="20px" src="images/dia_hungarumlaut.png"/>
 
 
 FontForge can automatically create accented characters in 2 main ways;
