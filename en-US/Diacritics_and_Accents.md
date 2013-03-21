@@ -6,12 +6,22 @@ section: Workflow
 title: Diacritics and Accents
 ---
 
-A diacritic is a mark added to a letter, often used to change the sound value of the letter to which they are added. Some diacritical marks, such as the 'acute' and 'grave' are often called accents. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
+A diacritic is a mark added to, or combining with, a letter, often used to change the sound value of the letter to which the mark is  added. Some diacritical marks, such as the 'acute' and 'grave' are often called accents. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
 
-<p class="imagebox"><img  src="images/dia_a_grave.png"/>
-<img  src="images/dia_a_circumflex.png"/>
-<img  src="images/dia_a_tilde.png"/>
-<img  src="images/dia_a_dieresis.png"/>
+### Some examples of diacritics
+
+<p class="imagebox"><img  src="images/dia_a_grave.png"/></p>
+Lowercase 'agrave'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
+
+<p class="imagebox"><img  src="images/dia_a_circumflex.png"/></p>
+Lowercase 'acircumflex'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
+
+<img  class="imagebox" src="images/dia_a_tilde.png"/>
+Lowercase 'atilde'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining tilde accent' glyph (unicode u+0303).
+
+<img  class="imagebox" src="images/dia_a_dieresis.png"/>
+Lowercase 'atilde'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining dieresis accent' glyph (unicode u+0308).
+
 <img  src="images/dia_c_ogonek.png"/>
 <img  src="images/dia_c_cedilla.png"/>
 <img  src="images/dia_c_dot.png"/>
@@ -26,7 +36,7 @@ FontForge can automatically create accented characters in 2 main ways;
 
 <p class="warn">It should be noted here that if the glyph of a particular diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example, if the combining mark 'acutecomb' (u+0301) is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds any acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
 
-### FontForge's basic auto placement of diacritic marks.
+## FontForge's basic auto placement of diacritic marks.
 In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character (u+00e1) , we would need to have already created the lowercase 'a' (u+0061) and the 'acutecomb' glyph (u+0301). Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acutecomb' glyph into the 'a acute' character slot (see below).
 
 <img width="500px" src="images/dia_auto_a_acute.png"/>
@@ -45,7 +55,7 @@ Selecting 'AccentCenterHighest' to 'On' will centre the accent to the highest po
 Selecting both the above preferences to 'Off' will centre the accent into the width of the base glyph. Selecting both the above preferences to 'On' will centre the accent in the width of the character slot.
 
 
-###Using Anchor Points to place diacritics
+##Using Anchor Points to place diacritics
 
 The most accurate and efficient way to build accented characters in FontForge is to use 'anchor points'.
 
