@@ -10,28 +10,25 @@ A diacritic is a mark added to, or combining with, a letter, often used to chang
 
 ### Some examples of diacritics
 
-<p class="imagebox"><img  src="images/dia_a_grave.png"/>
+<p class="imagebox"><img src="images/dia_a_grave.png"/></p>
 
-Lowercase 'agrave'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).</p>
+Lowercase 'agrave'. Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
 
-<p class="imagebox"><img  src="images/dia_a_circumflex.png"/>
+<p class="imagebox"><img src="images/dia_a_circumflex.png"/></p>
 
-Lowercase 'acircumflex'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).</p>
+Lowercase 'acircumflex'. Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
 
-<img  class="imagebox" src="images/dia_a_tilde.png"/>
+<p class="imagebox"><img src="images/dia_c_ogonek.png"/></p>
 
-Lowercase 'atilde'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining tilde accent' glyph (unicode u+0303).
+Lowercase 'a with ogonek'. Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining ogonek' glyph (unicode u+0328).
 
-<img  class="imagebox" src="images/dia_a_dieresis.png"/>
+<p class="imagebox"><img  src="images/dia_c_cedilla.png"/></p>
 
-Lowercase 'atilde'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining dieresis accent' glyph (unicode u+0308).
+Lowercase 'c with cedilla'. Created in a font by combining the lowercase 'c' glyph (unicode u+0063) and the 'combining cedilla' glyph (unicode u+0327).
 
-<img  src="images/dia_c_ogonek.png"/>
-<img  src="images/dia_c_cedilla.png"/>
-<img  src="images/dia_c_dot.png"/>
-<img  src="images/dia_g_comma.png"/>
-<img  src="images/dia_hungarumlaut.png"/></p>
+<p class="imagebox"><img  src="images/dia_hungarumlaut.png"/></p>
 
+Lowercase 'o with double acute' (unicode u+0151). Created in a font by combining the lowercase 'o' glyph (unicode u+006f) and the 'combining double acute accent' glyph (unicode u+030b).
 
 FontForge can automatically create accented characters in 2 main ways;
 
