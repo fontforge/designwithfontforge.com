@@ -12,23 +12,30 @@ A diacritic is a mark added to, or combining with, a letter, often used to chang
 
 <p class="imagebox"><img src="images/dia_a_grave.png"/></p>
 
-Lowercase 'agrave'. Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
+Lowercase 'a with grave' (unicode u+00e0).
+Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
 
 <p class="imagebox"><img src="images/dia_a_circumflex.png"/></p>
 
-Lowercase 'acircumflex'. Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
+Lowercase 'a with circumflex' (unicode u+00e2).
+Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
 
 <p class="imagebox"><img src="images/dia_c_ogonek.png"/></p>
 
-Lowercase 'a with ogonek'. Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining ogonek' glyph (unicode u+0328).
+Lowercase 'a with ogonek' (unicode u+0105).
+Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining ogonek' glyph (unicode u+0328).
 
 <p class="imagebox"><img  src="images/dia_c_cedilla.png"/></p>
 
-Lowercase 'c with cedilla'. Created in a font by combining the lowercase 'c' glyph (unicode u+0063) and the 'combining cedilla' glyph (unicode u+0327).
+Lowercase 'c with cedilla' (unicode u+00e7).
+Created in a font by combining the lowercase 'c' glyph (unicode u+0063) and the 'combining cedilla' glyph (unicode u+0327).
 
 <p class="imagebox"><img  src="images/dia_hungarumlaut.png"/></p>
 
-Lowercase 'o with double acute' (unicode u+0151). Created in a font by combining the lowercase 'o' glyph (unicode u+006f) and the 'combining double acute accent' glyph (unicode u+030b).
+Lowercase 'o with double acute' (unicode u+0151).
+Created in a font by combining the lowercase 'o' glyph (unicode u+006f) and the 'combining double acute accent' glyph (unicode u+030b).
+
+<hr>
 
 FontForge can automatically create accented characters in 2 main ways;
 
