@@ -133,12 +133,17 @@ This is the most basic level of creating kerning pairs in FontForge. In the Metr
 
 A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will allways have the same kerning value when preceeded by, for example, the character 'T'. The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. Effectively, class kerning can save you a lot of time.
 
-The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu. 
--  Select "Kern by classes" and you will be presented by the "new lookup" window.
-- Click on the "New Lookup" button and another window will pop up, where you can create a kerning feature lookup.
-- Chose the item "pair position kerning" from the "Type" drop down menu.
-- Now click on the down arrow next to "NEW" in the "Feature" column, and choose "Horizontal Kerning" from the drop down menu.
-- Click on "OK". You can keep the default names that fontforge creates for you. 
+The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu.
+ 
+-   Select "Kern by classes" and you will be presented by the "new lookup" window.
+
+-   Click on the "New Lookup" button and another window will pop up, where you can create a kerning feature lookup.
+
+-   Chose the item "pair position kerning" from the "Type" drop down menu.
+
+-   Now click on the down arrow next to "NEW" in the "Feature" column, and choose "Horizontal Kerning" from the drop down menu.
+
+-   Click on "OK". You can keep the default names that fontforge creates for you. 
 
 <img src="images/kern_classes_1.png" />
 Now you are presented by the window where you can build you actual kerning classes (see above). The first character of a kerning pair will be chosen from the left hand column, and the second character of a pair will be chosen from the right column.
