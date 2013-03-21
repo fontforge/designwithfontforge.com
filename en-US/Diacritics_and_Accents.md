@@ -10,16 +10,20 @@ A diacritic is a mark added to, or combining with, a letter, often used to chang
 
 ### Some examples of diacritics
 
-<p class="imagebox"><img  src="images/dia_a_grave.png"/></p>
-Lowercase 'agrave'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
+<p class="imagebox"><img  src="images/dia_a_grave.png"/>
 
-<p class="imagebox"><img  src="images/dia_a_circumflex.png"/></p>
-Lowercase 'acircumflex'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
+Lowercase 'agrave'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).</p>
+
+<p class="imagebox"><img  src="images/dia_a_circumflex.png"/>
+
+Lowercase 'acircumflex'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).</p>
 
 <img  class="imagebox" src="images/dia_a_tilde.png"/>
+
 Lowercase 'atilde'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining tilde accent' glyph (unicode u+0303).
 
 <img  class="imagebox" src="images/dia_a_dieresis.png"/>
+
 Lowercase 'atilde'. This is normaly created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining dieresis accent' glyph (unicode u+0308).
 
 <img  src="images/dia_c_ogonek.png"/>
