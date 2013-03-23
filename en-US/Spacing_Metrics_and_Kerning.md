@@ -56,11 +56,11 @@ For the absolute beginner; do not assume that reliable results are achieved by r
 
 - 'Both' - In this mode metrics view will adjust either the advance width or kerning values.
 
-<span>'Set Width' - this command allows you to change the width of the current glyph.</span>
+'Set Width' - this command allows you to change the width of the current glyph.
 
-<span>'Set LBearing' - allows you to change the left side bearing value.</span>
+'Set LBearing' - allows you to change the left side bearing value.
 
-<span>'Set RBearing' - allows you to change the lright side bearing value.</span>
+'Set RBearing' - allows you to change the lright side bearing value.
 
 ## <strong>A basic approach to spacing</strong>
 
@@ -96,14 +96,14 @@ From here all other characters can be spaced against the characters which have a
 
 ## <strong>Kerning</strong>
 
-<span>Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', 'Av'. In the examples below, we can see that without kerning the spacing between the letter pairs 'T-o' and 'V-a' are too wide, whereas with kerning the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.</span>
+Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', 'Av'. In the examples below, we can see that without kerning the spacing between the letter pairs 'T-o' and 'V-a' are too wide, whereas with kerning the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.
 
 <img src="images/kern1.png" alt="">
 <img src="images/kern2.png" alt="">
 
 
 
-<span>The Metrics Window in FontForge can be used to design both side bearings and kerning values. Kerning values can be applied to a font in a number of ways in FontForge, 2 of these are shown below, kerning with classes and kerning with individual pairs;</span>
+The Metrics Window in FontForge can be used to design both side bearings and kerning values. Kerning values can be applied to a font in a number of ways in FontForge, 2 of these are shown below, kerning with classes and kerning with individual pairs;
 
 ## <strong>FontForge's Metrics menu</strong>
 
@@ -125,25 +125,30 @@ Just like with adjusting side bearing values, kerning values can be quickly and 
 
 ## <strong>Kerning individual pairs</strong>
 
-<span>This is the most basic level of creating kerning pairs in FontForge. In the Metrics Window the kerning value between 2 characters can be manually adjusted either by dragging the right-hand character to or from the left-hand character, or by editing the kerning value directly in the metrics table of the window. To change kerning values by dragging characters use the kern-tool handle that appears when the mouse cursor is hovered between 2 characters (see screeenshot below). The kerning value in the metrics table can be edited by manuallly entering values or by incrementing / decrementing the value using your keyboards up / down keys.</span>
+This is the most basic level of creating kerning pairs in FontForge. In the Metrics Window the kerning value between 2 characters can be manually adjusted either by dragging the right-hand character to or from the left-hand character, or by editing the kerning value directly in the metrics table of the window. To change kerning values by dragging characters use the kern-tool handle that appears when the mouse cursor is hovered between 2 characters (see screeenshot below). The kerning value in the metrics table can be edited by manuallly entering values or by incrementing / decrementing the value using your keyboards up / down keys.
 
 <img src="images/mnl-kern.png" alt="">
 
 ## <strong>Kerning with classes</strong>
 
-<span>A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will allways have the same kerning value when preceeded by, for example, the character 'T'. The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. Effectively, class kerning can save you a lot of time.</span>
+A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will allways have the same kerning value when preceeded by, for example, the character 'T'. The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. Effectively, class kerning can save you a lot of time.
 
-<span>The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu. 
-• Select "Kern by classes" and you will be presented by the “new lookup” window.
-• Click on the “New Lookup” button and another window will pop up, where you can create a kerning feature lookup.
-• Chose the item “pair position kerning” from the “Type” drop down menu.
-• Now click on the down arrow next to “NEW” in the “Feature” column, and choose “Horizontal Kerning” from the drop down menu.
-• Click on “OK”. You can keep the default names that fontforge creates for you. 
+The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu.
+ 
+-   Select "Kern by classes" and you will be presented by the "new lookup" window.
+
+-   Click on the "New Lookup" button and another window will pop up, where you can create a kerning feature lookup.
+
+-   Chose the item "pair position kerning" from the "Type" drop down menu.
+
+-   Now click on the down arrow next to "NEW" in the "Feature" column, and choose "Horizontal Kerning" from the drop down menu.
+
+-   Click on "OK". You can keep the default names that fontforge creates for you. 
 
 <img src="images/kern_classes_1.png" />
-Now you are presented by the window where you can build you actual kerning classes (see above). The first character of a kerning pair will be chosen from the left hand column, and the second character of a pair will be chosen from the right column.</span>
+Now you are presented by the window where you can build you actual kerning classes (see above). The first character of a kerning pair will be chosen from the left hand column, and the second character of a pair will be chosen from the right column.
 
-<span>The Element &gt; Font Info &gt; Lookups tab provides an interface to class kerning in FontForge. The same interface is also got at via the<br> It brings up a dialog showing all the GPOS lookups (of which kerning is one) and their subtables. See screenshot below;</span>
+The Element &gt; Font Info &gt; Lookups tab provides an interface to class kerning in FontForge. The same interface is also got at via the<br> It brings up a dialog showing all the GPOS lookups (of which kerning is one) and their subtables. See screenshot below;
 
 <img src="images/kernclass1.png" alt="">
 
@@ -151,20 +156,20 @@ To create a new kerning lookup click on 'Add Lookup' and choose 'Pair Position (
 
 <img src="images/kernclass2.png" alt="">
 
-<span><span>Each set of kerning classes lives in its own subtable. To create a subtable, click on 'Add Subtable'. When you create a kerning subtable you will be asked whether you want a set of individual kerning pairs or a matrix based on classes. If you chose classes you will be presented with a following dialogue where you can create your classes. Note that you can choose to enable FontForge to 'guess' or 'autokern' the kerning values between the classes you are creating in the dialogue. If using FontForge to guess kerning values you will undoubtedly need an amount of trial and error and experimentation, but it can make sense to use the autokern function as a starting point to kerning your font.</span></span>
+Each set of kerning classes lives in its own subtable. To create a subtable, click on 'Add Subtable'. When you create a kerning subtable you will be asked whether you want a set of individual kerning pairs or a matrix based on classes. If you chose classes you will be presented with a following dialogue where you can create your classes. Note that you can choose to enable FontForge to 'guess' or 'autokern' the kerning values between the classes you are creating in the dialogue. If using FontForge to guess kerning values you will undoubtedly need an amount of trial and error and experimentation, but it can make sense to use the autokern function as a starting point to kerning your font.
 
-<span><span><img src="images/kernclass3.png" alt=""></span></span>
+<img src="images/kernclass3.png" alt="">
 
-<span><span>For example in the screenshot above, 2 classes have been created; one class containing the 'T' character, and one class containing the 'o' character. On clicking 'ok' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two 'T' and 'o' classes.</span></span>
+For example in the screenshot above, 2 classes have been created; one class containing the 'T' character, and one class containing the 'o' character. On clicking 'ok' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two 'T' and 'o' classes.
 
-<span><span><img src="images/kernclass4.png" alt=""></span></span>
+<img src="images/kernclass4.png" alt="">
 
 ## Manual kerning
 
-<span><span>If autokerned values need to be adjusted (and they will!) then this can be done in a number of ways.</span></span>
+If autokerned values need to be adjusted (and they will!) then this can be done in a number of ways.
 
-<span><span>- via the 'kerning by classes' dialog window.</span></span>
+- via the 'kerning by classes' dialog window.
 
-<span><span>- using the Metrics Window.</span></span>
+- using the Metrics Window.
 
-<span><span>- using the 'Kern Pair Closeup' command from the Metrics menu.</span></span>
+- using the 'Kern Pair Closeup' command from the Metrics menu.
