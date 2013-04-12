@@ -38,7 +38,7 @@ The letters on the left come from Playfair, which has a large x-height relative 
 
 In example above, the x-heights have been matched in order to illustrate the relative difference in ascender heights.
 
-Ascenders usually exceed the cap-height by at least a little, especiually in text designs. In some cases, however, they can match or even be lower than the cap-height. Longer ascenders can add elegance to the look of a typeface. They often go with smaller x-height.
+Ascenders usually exceed the cap-height by at least a little, especially in text designs. In some cases, however, they can match or even be lower than the cap-height. Longer ascenders can add elegance to the look of a typeface. They often go with smaller x-height.
 
 ### Descender depth
 
