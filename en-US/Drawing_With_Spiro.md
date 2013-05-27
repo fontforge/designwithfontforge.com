@@ -18,11 +18,12 @@ Many of the same drawing tools are available in Spiro mode as those described in
 
 There are five different types of Spiro points:
 
-<ol><li>G4 points, used for a more gentle curve
-* G2 points, used for a sharper curve
-* Corner points, for abrupt corner joints
-* Previous constraint points, used when the countour of the path changes from a curve to a straight line 
-* Next constraint points, used when the path changes from a straight line to a curve</li>
+<ol>
+<li>G4 points, used for a more gentle curve</li>
+<li>G2 points, used for a sharper curve</li>
+<li>Corner points, for abrupt corner joints</li>
+<li>Previous constraint points, used when the countour of the path changes from a curve to a straight line</li>
+<li>Next constraint points, used when the path changes from a straight line to a curve</li>
 </ol>
 
 ### Draw an S with Spiro
