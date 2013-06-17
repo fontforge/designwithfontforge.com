@@ -8,13 +8,13 @@ title: What Is A Font?
 
 What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
 
-The single biggest issue that makes type design different is the need for every glyph in the typeface to work with every other glyph. This often means that the design and spacing of each part of the typeface ends up being a series of careful compromises. These compomises mean that we can best think about typeface design as the creation a wonderful collection of letters but not as a collection of wonderful letters. In other words we must think about the group and how it will perform together and prioritize this over any question of what is wonderful in a single letter.
+The single biggest issue that makes type design different is the need for every glyph in the typeface to work with every other glyph. This often means that the design and spacing of each part of the typeface ends up being a series of careful compromises. These compromises mean that we can best think about typeface design as the creation a wonderful collection of letters but not as a collection of wonderful letters. In other words we must think about the group and how it will perform together and prioritize this over any question of what is wonderful in a single letter.
 
 This need to prioritize with the system rather than with any single part also leads to a need to analyse our design process on the level of the system. Characteristics which span letters become the things we want to focus on particularly at the begin of the design process.
 
 The other oddity in type design is that to very large extent the forms we are designing are already significantly established. Our task as type designers is not so much to create an utterly new form but rather to create a new version of an existing form. This can perplex new type designers. Finding the just right amount to change in order to excite but not to alienate a reader is a tricky thing. Often designers get stuck in letter-specific thinking. This mistake can be easily avoided if you realize from the start that what is most meaningful in a typeface are the parts of it that repeat the most. This typeface design is mostly about designing the characteristics applied not just to the common forms we all recognize but to the characteristics that occur the most often.
 
-It is also useful to recognize that these characteristics not only help to create a font’s voice or atmosphere, but also determine what the font will or will not be useful for, and they sometimes help detemine the technological contexts for which a font is suitable.
+It is also useful to recognize that these characteristics not only help to create a font’s voice or atmosphere, but also determine what the font will or will not be useful for, and they sometimes help determine the technological contexts for which a font is suitable.
 
 It may seem intimidating or excessively abstract to think about the design of a font in this way. However, getting used to these ideas is the key to a faster, more effective, and satisfying type design process.  
 
@@ -36,7 +36,7 @@ The letters on the left come from Playfair, which has a large x-height relative 
 
 <img src="images/Ascender%20height.png" alt="">
 
-In example above, the x-heights have been matched in order to illustrate the relative difference in ascender heights.
+In the example above, the x-heights have been matched in order to illustrate the relative difference in ascender heights.
 
 Ascenders usually exceed the cap-height by at least a little, especially in text designs. In some cases, however, they can match or even be lower than the cap-height. Longer ascenders can add elegance to the look of a typeface. They often go with smaller x-height.
 
