@@ -84,3 +84,19 @@ Finally, there are some tests performed by the validator that might not be a pro
 ## Fix problems as you edit
 
 Most of the errors that the Find problem tool and the whole font validator look for can be corrected during the editing process, so do not feel any need to defer troubleshooting while you work. For example, View &gt; Show submenu has options that highlight problem areas during editing; the Element menu hold commands like <em>Add Extrema</em> that will add the extrema points expected in most output file formats, and checkboxes to indicate whether the selected path is oriented in the clockwise or counterclockwise direction. If you flip a shape (horizontally or vertically) in the glyph editor, you will notice that its direction is automatically reversed as well. If you click on the <em>Correct Direction</em> command in the Element menu, FontForge will fix the clockwise/counterclockwise orientation immediately. Getting in the habit of doing small fixes like this as you work will save you a bit of time during the validation stage later.
+
+# Does the Design Work?  
+
+Typefaces can 'work' better or worse in two ways; readability and legibility. 
+
+
+Legibility means the designs of glyphs are distinct enough to be instantly recognised correctly. Here are some pairs that are often too similar:
+
+* the letter "L" and the number "1"
+* the letter "O" and the number "0" 
+* the letter "Z" and the number "2" 
+* the numbers "1" and "7”
+
+Readability means all the glyphs work well together for a familiar, comfortable reading experience. Creating test documents is the best way to ensure this. If you have a complete alphabet then you can typeset real text - for example using [FontFriend](http://somadesign.ca/projects/fontfriend/) to drag and drop your font into a long news article you wish to read, then printing it out.
+
+However, if you font only contains a fraction of the alphabet, you can use a test text generator such as [LibreText.org](http://libretext.org) and any word processor, desktop publication application or general illustration program (such as [Inkscape](http://www.inkscape.org) to create test documents.
