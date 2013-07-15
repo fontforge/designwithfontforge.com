@@ -99,4 +99,4 @@ Legibility means the designs of glyphs are distinct enough to be instantly recog
 
 Readability means all the glyphs work well together for a familiar, comfortable reading experience. Creating test documents is the best way to ensure this. If you have a complete alphabet then you can typeset real text - for example using [FontFriend](http://somadesign.ca/projects/fontfriend/) to drag and drop your font into a long news article you wish to read, then printing it out.
 
-However, if you font only contains a fraction of the alphabet, you can use a test text generator such as [LibreText.org](http://libretext.org) and any word processor, desktop publication application or general illustration program (such as [Inkscape](http://www.inkscape.org) to create test documents.
+However, if you font only contains a fraction of the alphabet, you can use a test text generator such as [LibreText.org](http://libretext.org) and any word processor, desktop publication application or general illustration program (such as [Inkscape](http://www.inkscape.org)) to create test documents.
