@@ -41,7 +41,7 @@ Use the command below if you also want to install the debugging information for 
 </pre>
 ## Debian / Ubuntu
 
-sudo apt get install fontforge
+sudo apt-get install fontforge
 
 sudo apt-get install python-fontforge
 
