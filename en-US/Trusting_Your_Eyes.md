@@ -66,6 +66,8 @@ In the example above, the X on the left has two unadjusted bars crossing each ot
 
 <img src="images/voltaire-X.png" alt="">
 
+TODO: Show an X that is adjusted more like Myriad
+
 As you can see in this outline view, the X that appears visually aligned involves an offset.
 
 Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the icelandic letter 'eth' (ð).
