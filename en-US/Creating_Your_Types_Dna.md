@@ -20,27 +20,27 @@ The letters you choose don't have to be the same ones we suggest. They should si
 
 An alternative is "v i d e o s p a n" which is used by the foundry Type Together to start their projects, and in their own type design workshops. Either set has enough DNA to be meaningful, and both are small so they are easy to make 'global' changes to. 
 
-While it may be easiest to simply use one of the above sets of letters, you can also build your own: Ask yourself what set of letters should you pick to add to "n" and "o"? Consider the following options:
+While it may be easiest to simply use one of the above sets of letters, you can also build your own: Ask yourself what set of letters should you pick to add to 'n' and 'o'? Consider the following options:
 
-* a - The letter 'a' is also a very common. The 'a' may also be useful in anticipating what the terminals of s may be like.
+* a - The letter 'a' is also a very common starting choice. The 'a' may also be useful in anticipating what the terminals of 's' will be like.
 
-* d - The shape of 'd' can let you know quite a lot about the design of b, p and q.
+* d - The shape of 'd' can let you know quite a lot about the design of 'b', 'p' and 'q'.
 
-* e - In English and many other languages, the letter 'e' is especially common -- which makes it especially valuable. The shape of 'e' can also be used to begin the design of 'c.'
+* e - In English and many other languages, the letter 'e' is especially common -- which makes it especially valuable. The shape of 'e' can also be used to begin the design of 'c'.
 
-* h - While 'h' can be built fairly rapidly from the 'n,' it also provides variety to the texture you want to test by offering an ascender.
+* h - While 'h' can be built fairly rapidly from the 'n', it also provides variety to the texture you want to test by offering an ascender.
 
-* i - Like 'e' the letter 'i' is also fairly common, and it has the benefit of letting you know a little bit about what 'j' is like. The shape of 'i' is also partly inferable from the shape of 'n.'
+* i - Like 'e' the letter 'i' is also fairly common, and it has the benefit of letting you know a little bit about what 'j' is like. The shape of 'i' is also partly inferable from the shape of 'n'.
 
-* s - The letter 's' is a good one to add early on because it adds visual variety to the texture of letters you will be testing. The letter 's' is also unusually hard to get right, so starting on it early makes it more likely that you will be able to spend enough time to get it right by the end of the project. The terminals of 's' may sometimes be useful for anticipating what the terminals of a, c, f, j and y could be like.
+* s - The letter 's' is a good one to add early on because it adds visual variety to the texture of letters you will be testing. The letter 's' is also unusually hard to get right, so starting on it early makes it more likely that you will be able to spend enough time to get it right by the end of the project. The terminals of 's' may sometimes be useful for anticipating what the terminals of 'a', 'c', 'f', 'j' and 'y' could be like.
 
 * v - The letter 'v' is useful for anticipating what the 'y' and 'w' may be like.
 
-One you have these letters, it will be useful to spend time refining them by testing words that are made from them. As before with the 'n' and 'o' a great deal of attention should be paid to the spacing of the letters and the relationships of the counters to these spaces.
+Once you have these letters, it will be useful to spend time refining them by testing words that are made from them. As before with the 'n' and 'o' a great deal of attention should be paid to the spacing of the letters and the relationships of the counters to these spaces.
 
 ## Build a test text
 
-There are many resources for rapidly building your test text;
+There are many resources available online for rapidly building your test text;
 
 There is a Libre software solution provided by a community of developers at <a href="http://libretext.org/">http://libretext.org</a>
 
