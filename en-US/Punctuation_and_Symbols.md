@@ -30,7 +30,7 @@ When you have your comma it will be fairly easy to make the semi colon (;).
 
 ## Exclamation mark and question mark
 
-The exclamation mark can be be deciving in that it <em>seems</em> simple to make. If you look at a range of typefaces you will see that sometimes the design is indeed fairly simple.
+The exclamation mark can be be deceiving in that it <em>seems</em> simple to make. If you look at a range of typefaces you will see that sometimes the design is indeed fairly simple.
 
 However, this is a glyph which has a surprising amount of opportunity for expressing design. It often the case that even in a font which has very little contrast, the bar above the dot is somewhat heavier at the top than the bottom. The form of the exclamation mark usually relates to the design of the comma to some degree.
 
