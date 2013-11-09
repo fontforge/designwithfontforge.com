@@ -24,7 +24,7 @@ Let's begin by identifying the main systemic characteristics in type design.
 
 <img src="images/Construction2.png" alt="">
 
-Construction refers to the underlying strokes that form a particular glyph. The kind of construction you use is arguably one of the most important questions to think about, because the construction implies so much about the remaining choices, particularly if your design is going to feel somewhat familiar to readers. In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.<img src="images/AAA.png" alt="">
+Construction refers to the underlying strokes that form a particular glyph. The kind of construction you use is arguably one of the most important questions to think about, because the construction implies so much about the remaining choices, particularly if your design is going to feel somewhat familiar to readers. Note that end conditions and serifs are generally not part of the construction. If an end condition is very special and propotionally longer, it may be part of the construction. Construction is in this sense the structure or the skeleton of the glyph, while rest - width, weight, end conditions - are the flesh. In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.<img src="images/AAA.png" alt="">
 
 ### Proportion of X-height to Cap-height
 
@@ -44,7 +44,7 @@ Ascenders usually exceed the cap-height by at least a little, especially in text
 
 <img src="images/Descender%20depth.png" alt="">
 
-Like ascenders, descenders that are long can feel elegant. Long ascenders and descenders can also be difficult to manage.
+Like ascenders, descenders that are long can feel elegant. Long ascenders and descenders can also be difficult to manage, especially for samller text row heights, when the elongations begin to overlap other glphs in the next row of text. Descenders can limit how much is a safe line height, before glyphs start ot overlap. Similarly within a word, if not designed well, the elongations (ascenders and descenders) can clash or overlap with other glyphs in the same word. 
 
 ## Width
 
@@ -115,6 +115,7 @@ It is easy to assume that your stems will simply be straight and that there are 
 <img src="images/2bowls.png" alt="">
 
 ### Terminals
+Terminals are the end conditions of the construction stroke. This is not same as a serif.
 
 <img src="images/terminals%20f.png" alt="">
 
@@ -136,6 +137,8 @@ The following characteristics are not present in all type designs, however they 
 
 Notice that in the font on top the flourish is more present in the capital letter and the second one the flourish is more in the lowercase.
 
+### Serif - To be or not to be
+This is an early choice to make in type design. This affects how the end conditions (Terminals) are treated. Serifs are so distinct that type is easily classified as serifs vs sans-serfis (without serifs).
 ### Decoration
 
 <img src="images/4decoration.png" alt="">
