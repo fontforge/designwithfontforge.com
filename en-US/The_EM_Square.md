@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 07
 category: workflow
-title: The EM square
+title: The EM Square
 ---
 
 The 'Em size' or 'UPM'
