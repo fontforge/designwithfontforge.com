@@ -12,7 +12,7 @@ Spiro drawing is different, but it can create curves in a way that Bézier tools
 
 ### The Spiro toolset
 
-Many of the same drawing tools are available in Spiro mode as those described in the ["Using the FontForge drawing tools"](Using_the_Fontforge_Drawing_Tools.html) chapter, but some of them work very differently when you are in Spiro mode.
+Many of the same drawing tools are available in Spiro mode as those described in the ["Using the FontForge drawing tools"](Using_the_FontForge_Drawing_Tools.html) chapter, but some of them work very differently when you are in Spiro mode.
 
 <img src="images/spiro_tools_labels.png" alt="" width="400">
 
