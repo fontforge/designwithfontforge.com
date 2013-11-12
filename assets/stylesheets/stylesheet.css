@@ -1,6 +1,12 @@
 .warn {
 background-color:#D1E0E0;
 padding:4px;
+<<<<<<< HEAD
+
+}
+
+
+=======
 }
 
 .imagebox {
@@ -8,6 +14,7 @@ background-color:#fff;
 padding:5px;
 border:solid 1px #ddd;
 }
+>>>>>>> gh-pages
 
 /* This stylesheet started out as the GitHub Pages 
    Architect theme by @jasonlong"
