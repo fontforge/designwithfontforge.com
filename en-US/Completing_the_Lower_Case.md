@@ -50,7 +50,7 @@ Now that you have the d, by flipping and rotating you can make a reasonable b, p
 
 ### Make the g
 
-You can start with the q, stretching and altering the tail, to make the single bowl g. No shapes closely resemble the binocular g. The binocular g usually needs to be noticbly lighter in oreder to look right when set with other letters.
+You can start with the q, stretching and altering the tail, to make the single bowl g. No shapes closely resemble the binocular g. The binocular g usually needs to be noticeably lighter in order to look right when set with other letters.
 
 <img src="images/2g.png" alt="">
 
