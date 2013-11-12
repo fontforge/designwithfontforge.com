@@ -1,6 +1,7 @@
-<<<<<<< HEAD
+<!---
 See [gh-branch](https://github.com/fontforge/designwithfontforge.com/tree/gh-pages/) for project files.
-=======
+-->
+
 [DesignWithFontforge.com](http://designwithfontforge.com)
 =======================
 
@@ -67,4 +68,3 @@ To see the site as it will appear after processing by Jekyll and review your edi
     jekyll --server
 
 Now browse [http://localhost:4000/](http://localhost:4000/)
->>>>>>> gh-pages
