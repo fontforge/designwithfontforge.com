@@ -20,6 +20,6 @@ Above is an example of a word space that is well balanced.
 
 If your type is meant to be used at large sizes then the word space can be smaller. If the font is meant to be used at very small sizes you should make the width a wider than normal.
 
-Research shows that a word space that is too big is more tollerable than one which is too small so If you are unsure you may want to err in that direction. Similarly well run scientific studies have shown that younger children in particular benefit a little from larger word spaces than would be seen as typographically normal for adult readers.
+Research shows that a word space that is too big is more tolerable than one which is too small so If you are unsure you may want to err in that direction. Similarly well run scientific studies have shown that younger children in particular benefit a little from larger word spaces than would be seen as typographically normal for adult readers.
 
 Linda Reynolds and Sue Walker (2004) 'You can't see what the words say': word spacing and letter spacing in children's reading books', <em>Journal of Research in Reading</em>, vol 27, no.1, pp. 87-98
