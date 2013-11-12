@@ -80,7 +80,7 @@ Bézier curves are described in detail in the Bézier section of the main manual
 
 ### Bidi
 
-Bi-Directional text. That is a section of text which contains both left-to-right and right-to-left scripts. English text quoting Arabic, for example. Things get even more complex with nested quotations. TheUnicode standard contains an algorithm for laying out Bidi text. See also: Boustrophedon.
+Bi-Directional text. That is a section of text which contains both left-to-right and right-to-left scripts. English text quoting Arabic, for example. Things get even more complex with nested quotations. The Unicode standard contains an algorithm for laying out Bidi text. See also: Boustrophedon.
 
 ### Black letter
 
@@ -135,7 +135,7 @@ A character set is an unordered set of characters.
 
 ### CID
 
-Character Identifier, a number. In some CJK PostScript fonts the glyphs are not named but are refered to by a CID number.
+Character Identifier, a number. In some CJK PostScript fonts the glyphs are not named but are referred to by a CID number.
 
 ### CID-keyed font
 
@@ -180,7 +180,7 @@ A concept in OpenType which allows you to enter spacing adjustments geared to ra
 
 ### Diacritics
 
-Many lanaguges use letters which have have marks above or below them of even crossing the letters. These marks are called diacritics. Sometimes they are also caleed "accents" although this is a less precise term. Examples of these letters include À à å Å Ü ü Ø ø Ç ç.
+Many languages use letters which have have marks above or below them of even crossing the letters. These marks are called diacritics. Sometimes they are also caleed "accents" although this is a less precise term. Examples of these letters include À à å Å Ü ü Ø ø Ç ç.
 
 ### Didot point
 
@@ -232,7 +232,7 @@ In font design, the extrema of a glyph are the top-most and bottom-most points o
 ## F
 ### Features (OpenType)
 
-When creating fonts for complex scripts (and even for less complex scripts) various transformations (like ligatures) must be applied to the input glyphs before they are ready for display. These transformations are identified as font features and are tagged with (in OpenType) a 4 letter tag or (in Apple) a 2 number identfier. The meanings of these features are predefined by MicroSoft and Apple. FontForge allows you to tag each lookup with one or several features when you create it (or later).
+When creating fonts for complex scripts (and even for less complex scripts) various transformations (like ligatures) must be applied to the input glyphs before they are ready for display. These transformations are identified as font features and are tagged with (in OpenType) a 4 letter tag or (in Apple) a 2 number identifier. The meanings of these features are predefined by MicroSoft and Apple. FontForge allows you to tag each lookup with one or several features when you create it (or later).
 
 ### Feature File
 
@@ -256,7 +256,7 @@ A collection of related fonts. Often including plain, italic and bold styles.
 
 ### FreeType
 
-A library for rasterizing fonts. Used extensively in FontForge to understand the behavior of truetype fonts and to do better rasterization than FontForge could accomplish unaided.
+A library for rasterizing fonts. Used extensively in FontForge to understand the behavior of TrueType fonts and to do better rasterization than FontForge could accomplish unaided.
 
 ### Fuþark (Futhark)
 
@@ -302,7 +302,7 @@ The ideographic characters used in China, Japan and Korea (and, I believe, in va
 
 ### Hangul
 
-The Korean syllabary. The only syllabary (that I'm aware of anway) based on an alphabet -- the letters of the alphabet never appear alone, but only as groups of two or three making up a syllable.
+The Korean syllabary. The only syllabary (that I'm aware of anyway) based on an alphabet -- the letters of the alphabet never appear alone, but only as groups of two or three making up a syllable.
 
 ### Hanja
 
@@ -401,7 +401,7 @@ $ configure --with-type3<br>$ make<br>$ make install
 
 ### Multiple Master Font
 
-A multiple master font is a PostScript font schema which defines an infinite number of related fonts. Multiple master fonts can vary along several axes, for example you might have a multiple master which defined both different weights and different widths of a font family, it could be used to generate: Thin, Normal, Semi-Bold, Bold, Condensed, Expanded, Bold-Condensed, etc.<br>Adobe is no longer developing this format. Apple has a format which acheives the same effect but has not produced many examples. FontForgesupports both.
+A multiple master font is a PostScript font schema which defines an infinite number of related fonts. Multiple master fonts can vary along several axes, for example you might have a multiple master which defined both different weights and different widths of a font family, it could be used to generate: Thin, Normal, Semi-Bold, Bold, Condensed, Expanded, Bold-Condensed, etc.<br>Adobe is no longer developing this format. Apple has a format which achieves the same effect but has not produced many examples. FontForge supports both.
 
 ## N
 ### Namelist
@@ -410,7 +410,7 @@ A mapping from unicode code point to glyph name.
 
 ### Non-Zero Winding Number Fill rule
 
-To determine if a pixel should be filled using this rule draw a line from here to infinity (in any direction) and count the number of times contours cross this line. If the contour crosses the line in a clockwise direction add 1, of the contour crosses in a counter clockwise direction subtract one. If the result is non-zero then fill the pixel. If it is zero leave it blank. This method is used for rasterizing fonts by truetype and older (before version 2) postscript.
+To determine if a pixel should be filled using this rule draw a line from here to infinity (in any direction) and count the number of times contours cross this line. If the contour crosses the line in a clockwise direction add 1, of the contour crosses in a counter clockwise direction subtract one. If the result is non-zero then fill the pixel. If it is zero leave it blank. This method is used for rasterizing fonts by TrueType and older (before version 2) postscript.
 
 See Also Even-Odd Fill Rule.
 
@@ -421,9 +421,9 @@ The old Celtic inscription script.
 
 ### OpenType
 
-A type of font. It is an attempt to merge postscript and truetype fonts into one specification.<br>An opentype font may contain either a truetype or a postscript font inside it.
+A type of font. It is an attempt to merge postscript and TrueType fonts into one specification.<br>An OpenType font may contain either a TrueType or a postscript font inside it.
 
-It contains many of the same data tables for information like encodings that were present in truetype fonts.
+It contains many of the same data tables for information like encodings that were present in TrueType fonts.
 
 Confusingly it is also used to mean the advanced typographic tables that Adobe and MicroSoft (but not Apple) have added to TrueType. These include things like contextual ligatures, contextual kerning, glyph substitution, etc.
 
@@ -431,7 +431,7 @@ And MS Windows uses it to mean a font with a 'DSIG' (Digital Signature) table.
 
 ### OpenType Tables
 
-Each opentype font contains a collection of tables each of which contains a certain kind of information.
+Each OpenType font contains a collection of tables each of which contains a certain kind of information.
 
 ### Oblique
 
@@ -445,7 +445,7 @@ In order for the curved shape of the "O" to appear to be the same height as the 
 
 These guidelines are based on the way the eye works and the optical illusions it generates and are taken from Peter Karow's Digital Formats for Typefaces, p. 26).
 
-The overshoot is also dependant on the point-size of a font, the larger the point-size the smaller the overshoot should be. Generally modern fonts will be used at multiple point-sizes, but in some font families there are multiple faces for the different point-sizes, and in such a case the overshoot will probably vary from face to face.
+The overshoot is also dependent on the point-size of a font, the larger the point-size the smaller the overshoot should be. Generally modern fonts will be used at multiple point-sizes, but in some font families there are multiple faces for the different point-sizes, and in such a case the overshoot will probably vary from face to face.
 
 See also X-height, Cap-height, Ascender, Descender, Baseline
 
@@ -462,7 +462,7 @@ This was the early name for FontForge. The original conception was that it would
 
 ### Phantom points
 
-In a truetype font there are a few points added to each glyph which are not specified by the contours that make up the glyph. These are called phantom points. One of these points represents the left side bearing, and the other the advance width of the glyph. Truetype instructions (hints) are allowed to move these points around just as any other points may be moved -- thus changing the left-side-bearing or the advance width. Early versions of TrueType supplied just these two phantoms, more recent versions also supply a phantom for the top sidebearing and a phantom for the vertical advance width.
+In a TrueType font there are a few points added to each glyph which are not specified by the contours that make up the glyph. These are called phantom points. One of these points represents the left side bearing, and the other the advance width of the glyph. TrueType instructions (hints) are allowed to move these points around just as any other points may be moved -- thus changing the left-side-bearing or the advance width. Early versions of TrueType supplied just these two phantoms, more recent versions also supply a phantom for the top sidebearing and a phantom for the vertical advance width.
 
 ### Pica
 
@@ -480,7 +480,7 @@ A point is a unit of measurement. There were three (at least) different definiti
 
 The didiot and pica points were so arranged that text at a given point-size would have approximately the same cap-height in both systems, the didot point would have extra white-space above the capitals to contain the accents present in most non-English Latin based scripts.
 
-This has the interesting side effect that a font designed for European usage should have a smaller proportion of the vertical em given over to the text body. I believe that computer fonts tend to ignore this, so presumably european printers now set with more leading.
+This has the interesting side effect that a font designed for European usage should have a smaller proportion of the vertical em given over to the text body. I believe that computer fonts tend to ignore this, so presumably European printers now set with more leading.
 
 As far as I can tell, computers tend to work in approximations to pica points (but this may be because I am in the US), PostScript uses a unit of 1/72nd of an inch.
 
@@ -531,7 +531,7 @@ A script is a character set and associated rules for putting characters together
 
 Back two thousand years ago when the Romans were carving their letters on stone monuments, they discovered that they could reduce the chance of the stone cracking by adding fine lines at the terminations of the main stems of a glyph.
 
-These fine lines were called serifs, and came to have an esthetic appeal of their own. Early type designers added them to their fonts for esthetic rather than functional reasons.
+These fine lines were called serifs, and came to have an aesthetic appeal of their own. Early type designers added them to their fonts for aesthetic rather than functional reasons.
 
 At the end of the nineteenth and beginning of the twentieth centuries, type-designers started designing fonts without serifs. These were initially called grotesques because their form appeared so strange, they are now generally called sans-serif.
 
@@ -592,7 +592,7 @@ The "state machine" consists of a table of states, each state in turn consists o
 
 ### Stem
 
-A stem is the part of the letterwhich is verical. The I and l are all stem except for serifs. The H consists of two stems and a crossbar. Other glyphs with stems include B b F f k k P p R r 1 and 4.
+A stem is the part of the letter which is vertical. The I and l are all stem except for serifs. The H consists of two stems and a crossbar. Other glyphs with stems include B b F f k k P p R r 1 and 4.
 
 ### Strike
 
@@ -616,12 +616,12 @@ Scalable Vector Graphics. An XML format used for drawing vector images. It inclu
 
 A syllabary is a phonetic writing system like an alphabet. Unlike an alphabet the sound-unit which is written is a syllable rather than a phoneme. In Japanese KataKana the sound "ka" is represented by one glyph. Syllabaries tend to be bigger than alphabets (Japanese KataKana requires about 60 different characters, while the Korean Hangul requires tens of thousands).
 
-See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/S_yllabary">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/S_yllabary).
+See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Syllabary">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Syllabary).
 
 ## T
 ### Terminal
 
-The terminal of a glyph is the part where the stroke ends. The Top of the f has a terminal. The s has two terminals. When a glyph has serifs the serifs are considered diffrent from the serifs. Because the bottom of the f would have a serif if it is in a serif style bottom is not considerered a terminal. The bottom of the j and y are however considered terminals. Similarly the 3 has two terminals one at the top and one the bottom. The middle is considered to be a join rather than a terminal. The clissification of thse parts is perhaps more determined by convention than by a strict logic.
+The terminal of a glyph is the part where the stroke ends. The Top of the f has a terminal. The s has two terminals. When a glyph has serifs the serifs are considered different from the serifs. Because the bottom of the f would have a serif if it is in a serif style bottom is not considered a terminal. The bottom of the j and y are however considered terminals. Similarly the 3 has two terminals one at the top and one the bottom. The middle is considered to be a join rather than a terminal. The classification of these parts is perhaps more determined by convention than by a strict logic.
 
 ### TeX
 
