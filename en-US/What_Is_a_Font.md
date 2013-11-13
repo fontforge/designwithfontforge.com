@@ -78,11 +78,17 @@ The letters in the top row of this example show a greater variety of width than 
 
 ### Contrast
 
-Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below two O glyphs that the one on the left has much greater variability in line thickness between the top and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than the one on the right.<img src="images/Contrast.png" alt="">
+Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below two O glyphs that the one on the left has much greater variability in line thickness between the top and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than the one on the right.
+
+<img src="images/Contrast.png" alt="">
+
+Type with consistent weight (stroke width) in its letterforms or no visible contrast produces a sheer distinction from uncontrasted type. Like the choice between serifs or sans-serifs, contrast is an early choice of type design. It is interesting to note that 'slab' serif designs generally use consistent stroke width in their letters, and that the design of slab serifs is not merely about the serif, as it sounds! It must be remembered that the rules of perception apply (ch3.Trusting your eyes) - contrast is about how the weight looks but not how it measures out to be.
 
 ### Angle of contrast
 
-In the below image, we see that the thin parts of the lower case letter o shapes are different. In the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right the axis is diagonal. <img src="images/Angle%20of%20contrast.png" alt="">
+In the below image, we see that the thin parts of the lower case letter o shapes are different. In the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right the axis is diagonal.
+
+<img src="images/Angle%20of%20contrast.png" alt="">
 
 ### Weight distribution
 
@@ -124,6 +130,8 @@ It is easy to assume that your stems will simply be straight and that there are 
 
 ### Bowls
 
+Note that bowls are the stroke part in the below illustrations and not the black inner forms. The inner strokes are referred as "counters". While designing type, you will often find yourself altering your work not because of the shape or width of the stroke but due to the shape and size of the counter.
+
 <img src="images/2bowls.png" alt="">
 
 ### Terminals
@@ -154,9 +162,27 @@ Notice that in the font on top the flourish is more present in the capital lette
 
 Serifs are one of the most distinct aspects of a typeface, and often the first classification of type is between serif and sans-serif type.
 
+This choice affects how the end terminals will look like. Serifs can be two sided or one sided. They can be perpendicular to stroke or have their own direction (like being always horizontal or vertical). Serifs can be with or without brackets. Any serif design is a mix of all of the above applied consistently to the type design with some deviations for particular letters, especially the S, C and Z (e.g. a type with horizontal serifs for all letters will often have s, c and z to have vertical serifs).
+
 There is a urban legend that serif types are easier to read than sans-serifs. The [serif readability myth is debunked](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html).
 
 The form of serifs are related to the forms of terminals.
+
+#### Brackets
+
+The corner portions of a serif where it connects to the main stroke are called 'brackets'. A particular design may have them giving a soft feel to the serif (Times is an example) or may choose to not have any bracket. Some designs also use brackets only on one side or with different proportions on the two sides.
+
+This is a relatively strong parameter that renders feel to the type - elegance (smooth or large brackets of [Times New Roman]) or chunky crisp (zero brackets of [Arvo]).
+
+#### Slab-serifs
+
+Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don't use brackets. Generally type design with such serifs are seen to have less contrast in their glyphs - [Rockwell], [Courier] or [American typewriter] reflect that.
+
+It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an otherwise no-contrast type design. But this is not an absolute rule.
+
+#### Serif Terminals
+
+Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the type - either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and angular ([Rockwell]).
 
 ### Decoration
 
