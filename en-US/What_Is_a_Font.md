@@ -8,11 +8,11 @@ title: What Is A Font?
 
 What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
 
-The single biggest issue that makes type design different is the need for every glyph in the typeface to work with every other glyph. This often means that the design and spacing of each part of the typeface ends up being a series of careful compromises. These compromises mean that we can best think about typeface design as the creation a wonderful collection of letters but not as a collection of wonderful letters. In other words we must think about the group and how it will perform together and prioritize this over any question of what is wonderful in a single letter.
+The single biggest issue that makes type design different is the need for every glyph in the typeface to work with every other glyph. This often means that the design and spacing of each part of the typeface ends up being a series of careful compromises. These compromises mean that we can best think about typeface design as the creation of a wonderful collection of letters but not as a collection of wonderful letters. In other words we must think about the group and how it will perform together and prioritize this over any question of what is wonderful in a single letter.
 
-This need to prioritize with the system rather than with any single part also leads to a need to analyse our design process on the level of the system. Characteristics which span letters become the things we want to focus on particularly at the begin of the design process.
+This need to prioritize with the system rather than with any single part also leads to a need to analyse our design process on the level of the system. Characteristics which span letters become the things we want to focus on, particularly at the beginning of the design process.
 
-The other oddity in type design is that to very large extent the forms we are designing are already significantly established. Our task as type designers is not so much to create an utterly new form but rather to create a new version of an existing form. This can perplex new type designers. Finding the just right amount to change in order to excite but not to alienate a reader is a tricky thing. Often designers get stuck in letter-specific thinking. This mistake can be easily avoided if you realize from the start that what is most meaningful in a typeface are the parts of it that repeat the most. This typeface design is mostly about designing the characteristics applied not just to the common forms we all recognize but to the characteristics that occur the most often.
+The other oddity in type design is that to a very large extent the forms we are designing are already significantly established. Our task as type designers is not so much to create an utterly new form but rather to create a new version of an existing form. This can perplex new type designers. Finding just the right amount to change in order to excite but not to alienate a reader is a tricky thing. Often designers get stuck in letter-specific thinking. This mistake can be easily avoided if you realize from the start that what is most meaningful in a typeface are the parts of it that repeat the most. Typeface design is not just about designing the characteristics applied to the common forms we all recognize, but also to the forms that occur most often.
 
 It is also useful to recognize that these characteristics not only help to create a font’s voice or atmosphere, but also determine what the font will or will not be useful for, and they sometimes help determine the technological contexts for which a font is suitable.
 
@@ -24,7 +24,18 @@ Let's begin by identifying the main systemic characteristics in type design.
 
 <img src="images/Construction2.png" alt="">
 
-Construction refers to the underlying strokes that form a particular glyph. The kind of construction you use is arguably one of the most important questions to think about, because the construction effects so many of the remaining choices, particularly if your design is going to feel somewhat familiar to readers. In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.<img src="images/AAA.png" alt="">
+
+Construction refers to the underlying strokes that form a particular glyph. The kind of construction you use is arguably one of the most important questions to think about, because the construction effects so many of the remaining choices, particularly if your design is going to feel somewhat familiar to readers. In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.
+
+<img src="images/AAA.png" alt="">
+
+Construction refers to the structure of the underlying strokes that form a particular glyph. Perhaps you can imagine the glyph's skeleton. The kind of construction to use is arguably one of the most important questions to think about, because the construction effects so many of the remaining choices, particularly if your design is going to feel somewhat familiar to readers. 
+
+However, the way strokes end (the 'terminals') and the 'serifs' (see below) are generally not part of what is meant by 'construction.' Construction is the skeleton of the glyph, while rest - width, weight, terminals - are all parts of the flesh. 
+
+In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.
+
+<img src="images/AAA.png" alt="">
 
 ### Proportion of X-height to Cap-height
 
@@ -44,7 +55,7 @@ Ascenders usually exceed the cap-height by at least a little, especially in text
 
 <img src="images/Descender%20depth.png" alt="">
 
-Like ascenders, descenders that are long can feel elegant. Long ascenders and descenders can also be difficult to manage.
+Like ascenders, descenders that are long can feel elegant. Long ascenders and descenders can also be difficult to manage, especially for samller text row heights, when the elongations begin to overlap other glphs in the next row of text. Descenders can limit how much is a safe line height, before glyphs start ot overlap. Similarly within a word, if not designed well, the elongations (ascenders and descenders) can clash or overlap with other glyphs in the same word. 
 
 ## Width
 
@@ -115,6 +126,7 @@ It is easy to assume that your stems will simply be straight and that there are 
 <img src="images/2bowls.png" alt="">
 
 ### Terminals
+Terminals are the end conditions of the construction stroke. This is not same as a serif.
 
 <img src="images/terminals%20f.png" alt="">
 
@@ -136,6 +148,8 @@ The following characteristics are not present in all type designs, however they 
 
 Notice that in the font on top the flourish is more present in the capital letter and the second one the flourish is more in the lowercase.
 
+### Serif - To be or not to be
+This is an early choice to make in type design. This affects how the end conditions (Terminals) are treated. Serifs are so distinct that type is easily classified as serifs vs sans-serfis (without serifs).
 ### Decoration
 
 <img src="images/4decoration.png" alt="">
