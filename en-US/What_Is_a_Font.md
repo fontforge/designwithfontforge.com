@@ -24,7 +24,7 @@ Let's begin by identifying the main systemic characteristics in type design.
 
 <img src="images/Construction2.png" alt="">
 
-Construction refers to the underlying strokes that form a particular glyph. The kind of construction you use is arguably one of the most important questions to think about, because the construction implies so much about the remaining choices, particularly if your design is going to feel somewhat familiar to readers. In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.<img src="images/AAA.png" alt="">
+Construction refers to the underlying strokes that form a particular glyph. The kind of construction you use is arguably one of the most important questions to think about, because the construction effects so many of the remaining choices, particularly if your design is going to feel somewhat familiar to readers. In the example above, the white line inside the letters indicate the approximate construction suggested by the shape of the letters themselves.<img src="images/AAA.png" alt="">
 
 ### Proportion of X-height to Cap-height
 
