@@ -72,6 +72,8 @@ Hinting refers to the use of mathematical instructions to render the vector curv
 
 FontForge allows you to hint your font (and even provides an <em>Autohint</em> function), but in practice this step is not strictly necessary. Modern operating systems often have better grid-fitting functionality built into their text rendering engines than you can create yourself without expending considerable time and effort. In fact, Mac OS X and Linux both <em>ignore</em> any hints embedded in the font file itself. If you do decide your font needs hinting for the benefit of Windows users, your best bet is to build the font without embedded hints, then use a specialized application such as <strong>ttfautohint</strong> to add hinting after the fact.
 
+For CFF hinting, see (this video from Adobe at RoboThon](http://vimeo.com/38364880)
+
 ### Check your metadata
 
 Last but certainly not least, once your font has been thoroughly prepared technically for export, you should pause and update the font metadata, making sure that important metadata information is included, and that it is up to date.
