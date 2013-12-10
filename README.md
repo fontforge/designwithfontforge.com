@@ -1,3 +1,7 @@
+<!---
+See [gh-branch](https://github.com/fontforge/designwithfontforge.com/tree/gh-pages/) for project files.
+-->
+
 [DesignWithFontforge.com](http://designwithfontforge.com)
 =======================
 
