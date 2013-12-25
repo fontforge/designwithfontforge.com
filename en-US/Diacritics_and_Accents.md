@@ -7,15 +7,15 @@ title: Diacritics and Accents
 ---
 A diacritic is a mark added to, or combining with, a letter, often used to change the sound value of the letter to which the mark is added. Some diacritical marks (such as the 'acute' and 'grave') are often called accents. Diacritical marks may appear above or below a letter, within it or between two letters.
 
-<img width="15%" src="images/dia_a_grave.png"/>
-<img width="15%" src="images/dia_a_circumflex.png"/>
-<img width="15%" src="images/dia_a_tilde.png"/>
-<img width="15%" src="images/dia_a_dieresis.png"/>
-<img width="15%" src="images/dia_c_ogonek.png"/>
-<img width="15%" src="images/dia_c_cedilla.png"/>
-<img width="15%" src="images/dia_c_dot.png"/>
-<img width="15%" src="images/dia_g_comma.png"/>
-<img width="15%" src="images/dia_hungarumlaut.png"/>
+<img width="5%" src="images/dia_a_grave.png"/>
+<img width="5%" src="images/dia_a_circumflex.png"/>
+<img width="5%" src="images/dia_a_tilde.png"/>
+<img width="5%" src="images/dia_a_dieresis.png"/>
+<img width="5%" src="images/dia_c_ogonek.png"/>
+<img width="5%" src="images/dia_c_cedilla.png"/>
+<img width="5%" src="images/dia_c_dot.png"/>
+<img width="5%" src="images/dia_g_comma.png"/>
+<img width="5%" src="images/dia_hungarumlaut.png"/>
 
 
 ### Some examples of diacritics
