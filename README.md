@@ -13,7 +13,7 @@ If you wish to contribute to this website, you are very welcome to! Here are a f
 
 1. Report an issue for someone else to resolve, by clicking the 'Issues' button at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar.
 
-2. Contribute a change directly, by forking it on GitHub and editing the plain text files, then send a pull request. (If that sounds unfamiliar, [learn how with GitHub's excellent interactive introduction]](https://help.github.com).
+2. Contribute a change directly, by forking it on GitHub and editing the plain text files, then send a pull request. (If that sounds unfamiliar, [learn how with GitHub's excellent interactive introduction](https://help.github.com)).
 
 3. Discuss general topics on the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) 
 
