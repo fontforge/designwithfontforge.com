@@ -134,6 +134,7 @@ In the second example, below, the 'acute' glyph has been selected from the 'Mark
 
 ## Other resources
 
+* http://urtd.net/projects/cod/about
 * http://ilovetypography.com/2009/01/24/on-diacritics/
 * http://diacritics.typo.cz/
 * http://scripts.sil.org/ProbsOfDiacDesign
