@@ -6,6 +6,14 @@ category: Appendices
 title: Further Reading
 ---
 
+## Websites
+
+### Curve Math
+
+* http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
+* http://raph.levien.com/phd Raph Levien's PhD on Spiro curves
+
+## Books
 
 Title: Detail in Typography (Paperback)
 
