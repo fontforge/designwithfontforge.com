@@ -154,6 +154,8 @@ Notice that in the font on top the flourish is more present in the capital lette
 
 Serifs are one of the most distinct aspects of a typeface, and often the first classification of type is between serif and sans-serif type.
 
+There is a urban legend that serif types are easier to read than sans-serifs. The [serif readability myth is debunked](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html).
+
 The form of serifs are related to the forms of terminals.
 
 ### Decoration
