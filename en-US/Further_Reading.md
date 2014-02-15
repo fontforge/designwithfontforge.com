@@ -13,6 +13,10 @@ title: Further Reading
 * http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
 * http://raph.levien.com/phd Raph Levien's PhD on Spiro curves
 
+### Cyrillic 
+
+* http://www.cyrillicsly.com/
+
 ## Books
 
 Title: Detail in Typography (Paperback)
