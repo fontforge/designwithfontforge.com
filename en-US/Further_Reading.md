@@ -15,7 +15,13 @@ title: Further Reading
 
 ### Cyrillic 
 
-* http://www.cyrillicsly.com/
+* http://learncyrillic.tumblr.com 
+* [Serbian Cyrillic](http://tipometar.org/indexEng.html)
+* [Bulgarian Cyrillic](http://www.cyrillicsly.com/)
+* [Paratype Language Help](http://www.paratype.com/help/language/) - Cyrillic encodings
+* [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
+* http://luc.devroye.org/cyrillic.html
+* The ATypI Cyrillic SIG mailing list
 
 ## Books
 
