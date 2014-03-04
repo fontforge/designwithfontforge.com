@@ -39,3 +39,27 @@ In that template, draw guidelines at `y=100, y=1100, y=(100 + {baseline, capheig
 Then import the SVG glyph you are working on into that document with `<image xlink:href="LC_p.svg" x="100" y="100" width="1000" height="1000" />`
 
 You can now hand-code you letter in one window, and refresh the browser in the other to see it drawn on top of the guidelines. 
+
+
+## Custom Glyph Lists
+
+1. Create a `namelist.txt` file, perhaps using a spreadsheet to list unicode codepoints and glyph names. For example:
+```
+0xEC00 octDotDhe
+0xEC01 octDotDheDbl
+0xEC02 octDotDheTrpl
+0xEC03 octDotDheQdrpl
+0xEC04 octDotLik
+0xEC05 octDotLikDbl
+0xEC06 octDotLikTrpl
+0xEC07 minirLik
+0xEC08 minirDhe
+0xEC09 minirBawah
+0xEC0A soroganDhe
+0x-001 soroganLik
+```
+
+For glyphs without a Unicode point, use a codepoint of -1, such as in the last line of the above example.
+
+Then load FontForge and go to `Encoding, Load NameList` and then use `Rename glyphs` (Since `Load NameList` only
+adds the custom namelist to the set of options available in subsequent rename commands.)  
