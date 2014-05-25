@@ -6,9 +6,9 @@ category: Getting To Know FontForge
 title: Drawing with Spiro
 ---
 
-Spiro is a toolkit for designing curves in an alternate method to the more traditional Bézier curves. Although it is optional, FontForge can be installed to include a Spiro mode that offers you tools to create these specific types of curves. See the chapter of Installing FontForge for more detail on how to install Spiro tool support.
+Spiro is a toolkit for designing curves in an alternate method to the more traditional B&eacute;zier curves. Although it is optional, FontForge can be installed to include a Spiro mode that offers you tools to create these specific types of curves. See the chapter of Installing FontForge for more detail on how to install Spiro tool support.
 
-Spiro drawing is different, but it can create curves in a way that Bézier tools cannot, and it can solve problems that other drawing methods cannot. Spiro can be a very cool tool to use. Please experiment!
+Spiro drawing is different, but it can create curves in a way that B&eacute;zier tools cannot, and it can solve problems that other drawing methods cannot. Spiro can be a very cool tool to use. Please experiment!
 
 ### The Spiro toolset
 
@@ -48,7 +48,9 @@ Then a G4, followed by a previous constraint, followed by a next constraint.
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_025.png" alt="">
 
-Then, add one more G4 point, and, finally, close the shape at the starting point by clicking on it using the G4 point tool. <img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt="">
+Then, add one more G4 point, and, finally, close the shape at the starting point by clicking on it using the G4 point tool.
+
+<img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt="">
 
 Now you almost have an 'S'! Begin nudging the points around to get your S to look the way you like it.
 
@@ -62,7 +64,7 @@ Now you should see something like this:
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_028.png" alt="">
 
-Toggle out of Spiro mode back into Bézier mode. You will notice there are a lot of points on the resulting curve - you -may want to clean some of them up. 
+Toggle out of Spiro mode back into B&eacute;zier mode. You will notice there are a lot of points on the resulting curve - you -may want to clean some of them up. 
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt="">
 
@@ -70,4 +72,4 @@ To clean up those extra points, go to the Element menu and select Simplify &gt; 
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt="">
 
-You can continue to experiment with Spiro mode to get a feel for how it differs from Bézier drawing.  The terminology is different, but as is the case with FontForge's other drawing and adjustment tools, practice makes perfect.
+You can continue to experiment with Spiro mode to get a feel for how it differs from B&eacute;zier drawing.  The terminology is different, but as is the case with FontForge's other drawing and adjustment tools, practice makes perfect.

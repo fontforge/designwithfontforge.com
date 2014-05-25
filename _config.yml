@@ -1,5 +1,5 @@
-auto: true
 markdown: redcarpet
+pygments: false
 permalink: none
 url: http://fontforge.github.com
 title: Design With FontForge

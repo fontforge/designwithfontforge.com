@@ -38,9 +38,11 @@ If we look at the anatomy of an 'n', we can break it apart into two or three com
 
 <table border="0" cellpadding="8" cellspacing="8"><tbody><tr><td><img src="images/n-compo-2.png" alt=""></td>
 <td><img src="images/n-compo-1_1.png" alt=""></td>
-</tr></tbody></table><p>Taking yourself forward again to the chapter on spacing and metrics, the design of the 'n' character should keep pace within the process of spacing the 'n' and 'o' characters together.
+</tr></tbody></table>
 
-Now, garnering the methods you have used to create an 'n' and 'o' character, you are ready to expand the lowercase character set. The qualities of the stem and curve components of the 'n' and 'o' will inform the way you may form other characters. If we study the characters below from Open Sans, we can see the relationships between the formal aspects of separate characters and how they can be repeated, with some adjustments, to form the components of our font.<br>
+Taking yourself forward again to the chapter on spacing and metrics, the design of the 'n' character should keep pace within the process of spacing the 'n' and 'o' characters together.
+
+Now, garnering the methods you have used to create an 'n' and 'o' character, you are ready to expand the lowercase character set. The qualities of the stem and curve components of the 'n' and 'o' will inform the way you may form other characters. If we study the characters below from Open Sans, we can see the relationships between the formal aspects of separate characters and how they can be repeated, with some adjustments, to form the components of our font.
 
 <img src="images/h-m-n-curves.png" alt="" width="50%">
 

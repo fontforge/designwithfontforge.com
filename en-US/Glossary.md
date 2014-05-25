@@ -7,6 +7,7 @@ title: Glossary
 ---
 
 ## A
+
 ### Abjad
 
 Abjad is the technical term for the type of writing system used by Semitic languages (Hebrew, Arabic, etc.), where there are glyphs for all the consonants but the reader must be prepared to guess what vowel to add between two consonants.
@@ -74,9 +75,9 @@ The baseline is the horizontal line on which the (latin, greek, cyrillic) letter
 
 See also X-height, Cap-height, Ascender, Descender, Overshoot
 
-### Bézier curve or Bézier splines
+### B&eacute;zier curve or B&eacute;zier splines
 
-Bézier curves are described in detail in the Bézier section of the main manual.
+B&eacute;zier curves are described in detail in the B&eacute;zier section of the main manual.
 
 ### Bidi
 
@@ -112,7 +113,7 @@ A (modern~1911) Chinese (Mandarin) alphabet used to provide phonetic translitera
 
 ### Boustrophedon
 
-Writing "as the ox plows", that is alternating between left to right and right to left writing directions. Early alphabets (Old Canaanite, and the very early greek writings (and, surprisingly, fuþark)) used this. Often the right to left glyphs would be mirrors of the left to right ones. As far as I know, no modern writing system uses this method (nor does OpenType have any support for it). See Also Bidi.
+Writing "as the ox plows", that is alternating between left to right and right to left writing directions. Early alphabets (Old Canaanite, and the very early greek writings (and, surprisingly, fu&thorn;ark)) used this. Often the right to left glyphs would be mirrors of the left to right ones. As far as I know, no modern writing system uses this method (nor does OpenType have any support for it). See Also Bidi.
 
 ## C
 ### Cap-height
@@ -127,7 +128,7 @@ Compact Font Format most commonly used within OpenType postscript fonts, but is 
 
 ### Character
 
-A character is a Platonic ideal reified into at least one glyph. For example the letter "s" is a character which is reified into several different glyphs: "S", "s", "s", long-s, etc. Note that these glyphs can look fairly different from each other, however although the glyph for an integral sign might be the same as the long-s glyph, these are in fact different characters.
+A character is a Platonic ideal reified into at least one glyph. For example the letter "s" is a character which is reified into several different glyphs: "S", "s", "&szlig;", long-s, etc. Note that these glyphs can look fairly different from each other, however although the glyph for an integral sign might be the same as the long-s glyph, these are in fact different characters.
 
 ### Character set
 
@@ -180,11 +181,11 @@ A concept in OpenType which allows you to enter spacing adjustments geared to ra
 
 ### Diacritics
 
-Many languages use letters which have have marks above or below them of even crossing the letters. These marks are called diacritics. Sometimes they are also caleed "accents" although this is a less precise term. Examples of these letters include À à å Å Ü ü Ø ø Ç ç.
+Many languages use letters which have have marks above or below them of even crossing the letters. These marks are called diacritics. Sometimes they are also caleed "accents" although this is a less precise term. Examples of these letters include &Agrave; &agrave; &aring; &Aring; &Uuml; &uuml; &Oslash; &oslash; &Ccedil; &ccedil;.
 
 ### Didot point
 
-The European point. 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.55pt/inch ). There is also a "metric" didiot point: .4mm.
+The European point. 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.55pt/inch ). There is also a "metric" didot point: .4mm.
 
 ### Distortable font
 
@@ -213,7 +214,7 @@ In more complicated cases it is possible to have multiple glyphs associated with
 
 ### Eth -- Edh
 
-The old germanic letter "ð" for the voiced (English) "th" sound (the sound in "this" -- most English speakers aren't even aware that "th" in English has two sounds associated with it, but it does, see also Thorn)
+The old germanic letter "&eth;" for the voiced (English) "th" sound (the sound in "this" -- most English speakers aren't even aware that "th" in English has two sounds associated with it, but it does, see also Thorn)
 
 ### Even-Odd Fill rule
 
@@ -397,7 +398,11 @@ A font in which all glyphs have the same width. These are sometimes called typew
 
 (FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, stroked, include images, have gradient fills, etc.. FontForge can be configured to support these fonts (it does not do so by default because this takes up more memory).
 
-$ configure --with-type3<br>$ make<br>$ make install
+```
+$ configure --with-type3
+$ make
+$ make install
+```
 
 ### Multiple Master Font
 
@@ -452,7 +457,7 @@ See also X-height, Cap-height, Ascender, Descender, Baseline
 ## P
 ### Panose
 
-A system for describing fonts. See <a title="Unicode consortium" href="http://www.panose.com/ProductsServices/pan1.aspx">HP's PANOSE classification metrics guide</a> (http://www.panose.com/ProductsServices/pan1.aspx). There is also an extension called <a title="Unicode consortium" href="http://www.w3.org/Fonts/Panose/pan2.html">Panose 2</a> (http://www.w3.org/Fonts/Panose/pan2.html).
+A system for describing fonts. See <a title="Unicode consortium" href="http://www.panose.com/ProductsServices/pan1.aspx">HP's PANOSE classification metrics guide</a>. There is also an extension called <a title="Unicode consortium" href="http://www.w3.org/Fonts/Panose/pan2.html">Panose 2</a>.
 
 FontForge only knows about the classification scheme for Latin fonts. Other schemes exist for other scripts.
 
@@ -468,7 +473,7 @@ In a TrueType font there are a few points added to each glyph which are not spec
 
 A unit of length defined (in the US at least) to be 35/83cm (or approximately 1/6th of an inch). This was used for measuring the length of lines of text (as "30 picas and 4 points long"), but not for measuring font heights.
 
-In Renaissance typography, before there were points, sizes of type had names, and "pica" was used in this context. As: "Great Canon", "Double Pica", "Great Primer", "English", "Pica", "Primer", "Small Pica", "Brevier", "Nonpareil" and "Pearl" (each name representing a progressively smaller size of type) and <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">See Caslon's type specimen sheet on Wikipedia</a> (http://en.wikipedia.org/wiki/Alphabet).
+In Renaissance typography, before there were points, sizes of type had names, and "pica" was used in this context. As: "Great Canon", "Double Pica", "Great Primer", "English", "Pica", "Primer", "Small Pica", "Brevier", "Nonpareil" and "Pearl" (each name representing a progressively smaller size of type) and <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">See Caslon's type specimen sheet on Wikipedia</a>.
 
 ### Pica point
 
@@ -476,7 +481,7 @@ The Anglo-American point. With 72.27 points per inch ( 2.85pt /mm).
 
 ### Point
 
-A point is a unit of measurement. There were three (at least) different definitions for "point" in common usage before the advent of computers. The one in use in the Anglo-Saxon printing world was the "pica point" with 72.27 points per inch ( 2.85pt /mm ), while the one used in continental Europe was the didot point with 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.54pt/inch ) and the French sometimes used the Mediaan point (72.78 points per inch, 2.86pt/mm).
+A point is a unit of measurement. There were three (at least) different definitions for "point" in common usage before the advent of computers. The one in use in the Anglo-Saxon printing world was the "pica point" with 72.27 points per inch ( 2.85pt /mm ), while the one used in continental Europe was the didot point with 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.54pt/inch ) and the French sometimes used the Median point (72.78 points per inch, 2.86pt/mm).
 
 The didiot and pica points were so arranged that text at a given point-size would have approximately the same cap-height in both systems, the didot point would have extra white-space above the capitals to contain the accents present in most non-English Latin based scripts.
 
@@ -484,7 +489,7 @@ This has the interesting side effect that a font designed for European usage sho
 
 As far as I can tell, computers tend to work in approximations to pica points (but this may be because I am in the US), PostScript uses a unit of 1/72nd of an inch.
 
-Originally fonts were not described by point size, but by name. It was not until the 1730s that Pierre Fournier that created the point system for specifying font heights. This was later improved upon by François Didiot (whence the name of the point). In 1878 the Chicago Type Foundry first used a point system in the US. In 1886 the US point was standardized -- the pica was defined to be 35/83cm, and the pica point defined to be 1/12th of that.
+Originally fonts were not described by point size, but by name. It was not until the 1730s that Pierre Fournier that created the point system for specifying font heights. This was later improved upon by Fran&ccedil;ois-Ambroise Didot (hence the name of the point). In 1878 the Chicago Type Foundry first used a point system in the US. In 1886 the US point was standardized -- the pica was defined to be 35/83cm, and the pica point defined to be 1/12th of that.
 
 ### Point Size
 
@@ -572,7 +577,7 @@ Supplementary Multilingual Plane (0x10000-0x1FFFF) of unicode. Used for ancient 
 
 ### Spline
 
-A curved line segment. The splines used in FontForge are all second or third order Bézier splines (quadratic or cubic), and Raph Levien's clothoid splines.
+A curved line segment. The splines used in FontForge are all second or third order B&eacute;zier splines (quadratic or cubic), and Raph Levien's clothoid splines.
 
 ### SSP
 
@@ -616,7 +621,7 @@ Scalable Vector Graphics. An XML format used for drawing vector images. It inclu
 
 A syllabary is a phonetic writing system like an alphabet. Unlike an alphabet the sound-unit which is written is a syllable rather than a phoneme. In Japanese KataKana the sound "ka" is represented by one glyph. Syllabaries tend to be bigger than alphabets (Japanese KataKana requires about 60 different characters, while the Korean Hangul requires tens of thousands).
 
-See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Syllabary">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Syllabary).
+See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Syllabary">relevant Wikipedia article</a>.
 
 ## T
 ### Terminal
@@ -633,7 +638,7 @@ The germanic letter "þ" used for the unvoiced (English) "th" sound (as in the w
 
 ### True Type
 
-A type of font invented by Apple and shared with MicroSoft. It specifies outlines with second degree (quadratic) Bézier curves, contains innovative hinting controls, and an expandable series of tables for containing whatever additional information is deemed important to the font.<br>Apple and Adobe/MicroSoft have expanded these tables in different ways to include for advanced typographic features needed for non-latin scripts (or for complex latin scripts). See Apple Advanced Typography and OpenType.
+A type of font invented by Apple and shared with MicroSoft. It specifies outlines with second degree (quadratic) B&eacute;zier curves, contains innovative hinting controls, and an expandable series of tables for containing whatever additional information is deemed important to the font.<br>Apple and Adobe/MicroSoft have expanded these tables in different ways to include for advanced typographic features needed for non-latin scripts (or for complex latin scripts). See Apple Advanced Typography and OpenType.
 
 ### TrueType Tables
 
@@ -666,12 +671,12 @@ See Monospace.
 ## U
 ### Unicode
 
-A character set/encoding which tries to contain all the characters currently used in the world, and many historical ones as well. See the <a title="Unicode consortium" href="http://www.unicode.org/">Unicode consortium</a> (http://www.unicode.org/).
+A character set/encoding which tries to contain all the characters currently used in the world, and many historical ones as well. See the <a title="Unicode consortium" href="http://www.unicode.org/">Unicode consortium</a>.
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
-* SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF) More info.
+* SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF) More info.
 
 
 

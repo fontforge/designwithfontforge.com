@@ -6,34 +6,43 @@ category: workflow
 title: The EM Square
 ---
 
-The 'Em size' or 'UPM'
-In a font, each character is fitted into it's own container of space. In traditional metal type this container was the actual metal block of each character. The height of each character piece was uniform, allowing the characters to be set neatly into rows and blocks (see below).
+&mdash; Also called the ‘em size’ or ‘UPM’.  
+In a font, each character is fitted into its own space container. In traditional metal type this
+container was the actual metal block of each character. The height of each character piece was
+uniform, allowing the characters to be set neatly into rows and blocks (see below).
 
-<img src="images/MetalTypeZoomIn.JPG"/>
+<img src="images/MetalTypeZoomIn.JPG" alt>
 
-The height of the type piece is known as the 'Em', and it originated from the width of the uppercase 'M' character; so the proportions of the uppercase M piece would have been square, known as the 'Em square'. It is the size of the Em that was used to denote the point size of metal type. So in 10 point type it is the Em that is 10 points (see below).
+The height of the type piece is known as the ‘em’, and it originates from the width of the uppercase
+‘M’ character; it was made so that the proportions of this letter would be square (hence the ‘em
+square’ denomination).  
+The em size is what the point size of metal type is calculated upon. So, a 10 points type has a 10
+points em (see below).
  
-<img src="images/em-metal-type.svg"/>
+<img src="images/em-metal-type.svg" alt>
 
+In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &ndash;
+or em size is usually set at 1000 units. In TrueType fonts, the UPM is by convention a power of two,
+generally set to 1024 or 2048.
 
-In digital type the Em is a digitally defined amount of space. In a typical Open Type postscript font, the UPM size, or the em, is usually set at 1000 units. In TrueType fonts the UPM is normally set at 1024 or 2048.
+When the font is used to set type, the em is scaled to the desired point size. This means that for
+10 pt type, the 1000 units for instance get scaled to 10 pt.
 
-When the font is used to set type,
-the em, i.e. the 1000 units, are scaled to the desired point size. This means that at 10 pt type, the 1000 font units are scaled to 10 pt.
+So if your uppercase ‘H’ is 700 units high, it will be 7 pt high on a 10 pt type.
 
-So if your uppercase H
-is 700 units high,
-it will be 7 pt high at 10 pt type.
+### Setting that up in the Glyph Window
 
+With the knowledge that your font is using a 1000, 1024, or 2048 UPM, you need to set up the drawing
+of your glyphs to ensure that all aspects of your typeface fit adequately into that UPM square.
 
-Setting up in Glyph Window
-With the knowledge that your font is using a 1000, 1024, or 2048 UPM, you need to set up the drawing of your glyphs to ensure that aspects of your typeface fit adequately into that UPM square.
+The Baseline:
 
-the Baseline
-<img src="images/baseline.png" />
+<img src="images/baseline.png" alt>
 
-the Cap Height
-<img src="images/capheight.png" />
+The Cap Height:
 
-the x-height
-<img src="images/xheight.png" />
+<img src="images/capheight.png" alt>
+
+The x-height:
+
+<img src="images/xheight.png" alt>

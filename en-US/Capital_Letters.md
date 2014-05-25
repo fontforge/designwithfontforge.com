@@ -23,14 +23,14 @@ Generally the N and V are usually similar to H but a slightly wider.
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="NVH-1.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="NVH-2.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="NVH-3.png" alt=""> </td>
-</tr></tbody></table><p>
+</tr></tbody></table>
 
 The D may be similar to H or quite a bit wider.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="HD-1.png" alt=""></td>
 <td> <img style="display: block; margin-left: auto; margin-right: auto;" src="HD-2.png" alt=""></td>
 <td> <img style="display: block; margin-left: auto; margin-right: auto;" src="HD-3.png" alt=""></td>
-</tr></tbody></table><p>
+</tr></tbody></table>
 
 The shape of O can tell you quite a lot about the C, G and Q. The shape of H tells you a bit about about I and J and the left side of B D E F K L P R.
 
@@ -42,11 +42,9 @@ It also tells you a little about T and U. The shape of A can tell you quite a lo
 </tr><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="HBDE-3.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="HBDE-2.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="HBDE-1.png" alt=""></td>
-</tr></tbody></table><p>
+</tr></tbody></table>
 
 The shape and proportions of V tells you a little about how to design Y W X. The shape of the Z is distinctive.
-
-<p dir="ltr">
 
 <table border="0" cellpadding="13"><tbody><tr><td><img src="images/VWYX-2.png" alt=""></td>
 </tr><tr><td> <img src="images/VWYX-3.png" alt=""></td>
