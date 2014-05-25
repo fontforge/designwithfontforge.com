@@ -1,11 +1,11 @@
-<div class=""  style="background:#ccc;color:white">
+<div class="navi">
 	<div class="inner">
 	<ul class="breadcrumb">
 	<!-- TODO redo this in jQuery so it links. I've installed https://github.com/tombonner/jurlp in the site, 
 	$(document).jurlp("path"); //  [["en-US", "about", "index.html"]]
 	$(document).jurlp("path").toString(); // /en-US/about/index.html
 	-->
-		<li><a href="/"><i class="icon-home"></i>Home</a> </li>
+		<li><a href="/">Home</a> </li>
 		{% assign crumbs = page.url | split: '/' %}
 		{% for crumb in crumbs offset:2 %}
 			{% unless crumb == 'index.html' %}

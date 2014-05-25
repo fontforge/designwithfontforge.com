@@ -1,12 +1,6 @@
 .warn {
 background-color:#D1E0E0;
 padding:4px;
-<<<<<<< HEAD
-
-}
-
-
-=======
 }
 
 .imagebox {
@@ -14,7 +8,6 @@ background-color:#fff;
 padding:5px;
 border:solid 1px #ddd;
 }
->>>>>>> gh-pages
 
 /* This stylesheet started out as the GitHub Pages 
    Architect theme by @jasonlong"
@@ -74,7 +67,7 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
   font-family: 'Merriweather Sans', serif;
   font-weight: 400;
-  color: #666;
+  color: #343434;
 }
 
 a {
@@ -188,7 +181,7 @@ aside a.button {
 }
 
 code, pre {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
   color: #222;
   margin-bottom: 30px;
   font-size: 13px;
@@ -251,14 +244,22 @@ form {
   
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
 
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
   font-family: 'Merriweather Sans', serif; 
-  font-size: 2.8em;
+  font-size: 30px;
   letter-spacing: -1px;
-  color: #474747;
+  margin-bottom: 8px;
+  color: #272727;
   font-weight: 300;
 } 
 
@@ -271,10 +272,10 @@ form {
 
 #main-content h2 {
   font-family: 'Merriweather Sans', serif; 
-  font-size: 22px;
+  font-size: 26px;
   font-weight: normal;
   margin-bottom: 8px;
-  color: #474747;
+  color: #272727;
 } 
 #main-content h2:before {
   content: "»";
@@ -285,38 +286,39 @@ form {
 
 #main-content h3 {
   font-family: 'Merriweather Sans', serif; 
-  font-size: 15px;
+  font-size: 22px;
   font-weight: normal;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: #474747;
+  color: #272727;
 } 
  
 #main-content h3:before {
   content: "»";
-  color: #9ddcff;
+  color: #30B5FF;
   padding-right: 0.3em;
   margin-left: -1.25em;
 }
 
 #main-content h4 {
   font-family: 'Merriweather Sans', serif; 
-  font-size: 15px;
+  font-size: 18px;
   font-weight: normal;
-  color: #474747;
+  margin-bottom: 8px;
+  color: #272727;
 } 
 
 h4:before {
   content: "////";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -2.8em;
+  margin-left: -2em;
 }
 
 #main-content h5 {
   font-family: 'Merriweather Sans', serif; 
   font-size: 14px;
-  color: #474747;
+  color: #272727;
 } 
 h5:before {
   content: "/////";
@@ -328,7 +330,7 @@ h5:before {
 #main-content h6 {
   font-family: 'Merriweather Sans', serif; 
   font-size: .8em;
-  color: #474747;
+  color: #272727;
 } 
 h6:before {
   content: "//////";
@@ -349,11 +351,20 @@ p a {
   font-weight: 400;
 }
 
+.navi {
+  background-color: #ccc;
+  color: white;
+}
+
 blockquote {
   font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
   margin-bottom: 20px;
   padding: 0 0 0 30px;
+}
+
+img {
+  margin-bottom: 1em;
 }
 
 ul li {
@@ -409,9 +420,6 @@ footer a:hover {
 /* #Media Queries
 ================================================== */
 
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
-
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .inner {
@@ -456,7 +464,7 @@ footer a:hover {
     width: 100%;
   }
   header h1 {
-    font-size: 48px;
+    font-size: 43.5px;
   }
   header h2 {
     font-size: 24px;
@@ -481,6 +489,7 @@ footer a:hover {
   header a.button small {
     font-size: 13px;
     display: inline;
+    margin-right: 5px;
   }
   #main-content,
   aside#sidebar {
@@ -509,11 +518,11 @@ footer a:hover {
   }
 }
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+@media (min-width: 768px) {
+    .navi {
+      margin-top: 10px;
+    }
+}
 
 ul.breadcrumb li {
 	display: inline;
