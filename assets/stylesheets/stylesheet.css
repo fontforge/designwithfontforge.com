@@ -1,12 +1,6 @@
 .warn {
 background-color:#D1E0E0;
 padding:4px;
-<<<<<<< HEAD
-
-}
-
-
-=======
 }
 
 .imagebox {
@@ -14,7 +8,6 @@ background-color:#fff;
 padding:5px;
 border:solid 1px #ddd;
 }
->>>>>>> gh-pages
 
 /* This stylesheet started out as the GitHub Pages 
    Architect theme by @jasonlong"
@@ -74,7 +67,7 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
   font-family: 'Merriweather Sans', serif;
   font-weight: 400;
-  color: #666;
+  color: #343434;
 }
 
 a {
@@ -258,7 +251,7 @@ form {
   font-family: 'Merriweather Sans', serif; 
   font-size: 2.8em;
   letter-spacing: -1px;
-  color: #474747;
+  color: #272727;
   font-weight: 300;
 } 
 
@@ -274,7 +267,7 @@ form {
   font-size: 22px;
   font-weight: normal;
   margin-bottom: 8px;
-  color: #474747;
+  color: #272727;
 } 
 #main-content h2:before {
   content: "»";
@@ -289,7 +282,7 @@ form {
   font-weight: normal;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: #474747;
+  color: #272727;
 } 
  
 #main-content h3:before {
@@ -303,7 +296,7 @@ form {
   font-family: 'Merriweather Sans', serif; 
   font-size: 15px;
   font-weight: normal;
-  color: #474747;
+  color: #272727;
 } 
 
 h4:before {
@@ -316,7 +309,7 @@ h4:before {
 #main-content h5 {
   font-family: 'Merriweather Sans', serif; 
   font-size: 14px;
-  color: #474747;
+  color: #272727;
 } 
 h5:before {
   content: "/////";
@@ -328,7 +321,7 @@ h5:before {
 #main-content h6 {
   font-family: 'Merriweather Sans', serif; 
   font-size: .8em;
-  color: #474747;
+  color: #272727;
 } 
 h6:before {
   content: "//////";
@@ -456,7 +449,7 @@ footer a:hover {
     width: 100%;
   }
   header h1 {
-    font-size: 48px;
+    font-size: 43.5px;
   }
   header h2 {
     font-size: 24px;
