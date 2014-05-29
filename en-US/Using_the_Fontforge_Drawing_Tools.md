@@ -14,18 +14,21 @@ From the main window, double-click on one of the glyph boxes to launch the Glyph
 
 <img src="images/glyph_window.png" alt>
 
-<div class="warn">
-**Note:** The numbers along the top where the x and y axis intersect indicate, from left to right:
+<div class="note">
+<p><b>Note:</b> The numbers along the top where the x and y axis intersect indicate, from left to
+right:</p>
 
-- The current (x,y) location of your cursor on the canvas
-- The location of the most recently selected point
-- The relative position of your cursor to the selected point
-- The distance between your cursor and the selected point
-- The angle from the selected point to the cursor (relative to the baseline)
-- The current magnification level, followed by the name of the active layer.
+<ul>
+<li>The current (x,y) location of your cursor on the canvas</li>
+<li>The location of the most recently selected point</li>
+<li>The relative position of your cursor to the selected point</li>
+<li>The distance between your cursor and the selected point</li>
+<li>The angle from the selected point to the cursor (relative to the baseline)</li>
+<li>The current magnification level, followed by the name of the active layer.</li>
+</ul>
 </div>
 
-<p class="warn">**Caution:** Sometimes, it seems like FontForge is not responding when you are inside
+<p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are inside
 the Glyph Window. It might that there is an open dialog box hidden behind it &ndash; so just move it
 and process the dialog box.</p>
 
@@ -242,28 +245,35 @@ additional layers using the plus (+) or minus (&minus;) buttons in this section 
 Layer type and curve type can also be controlled by right-clicking (once you have additional
 layers).
 
-## Basic Drawing
+## Basic drawing
 
-Next you we will go over some basic drawing workflows, which you often find yourself in need of.
+Next we will go over some basic drawing workflows, which you often find yourself in need of.
 
-### Correct Direction
+### Drawing letters
+
+What’s essential to denote about B&eacute;zier curves is that the anchor points as we saw above are
+sort of like tangents at the extremas of the curve.
+
+In order to get smooth curves, keeping anchor points at horizontal and vertical extremas and keeping
+the handles vertical or horizontal is generally enough &ndash; it avoids jagginess and gives better
+coherency between the control points.
+
+### Cutting a shape within another
 
 1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
-window.
+   window.
 2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
    <img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt width="917">
 3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
    and that you essentially punched a hole in the center of the rectangle.  
    <img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt width="917">
 
-### Remove Overlap
+### Remove overlap
 
 1. Add a star that overlaps the corner of the rectangle.  
    <img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt height="744" width="917">
-
 2. Select the star and the earlier shape. You only need to select one point of each overlapping
    shape, but it is okay to select extra points.
-
 3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
    one.  
    <img src="images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>

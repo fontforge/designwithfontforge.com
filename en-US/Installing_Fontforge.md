@@ -11,10 +11,9 @@ install it without restrictions.
 It also means that this is a community-maintained application (anyone can contribute to the source
 code).
 
-Note: If you run into a problem using FontForge, or if FontForge is missing a feature, you can open
-up an issue on the [software’s repository], which developers will have a look at. As a FontForge
-user, you are just as much a part of the community as everyone else, and your participation will
-only make FontForge better for everyone &mdash; even if you are just getting started.
+**Note:** If you run into a problem using FontForge, or if FontForge is missing a feature, you can
+open up an issue on the [software’s repository], which developers will have a look at &mdash; even
+if you are just getting started.
 
 FontForge is available for Windows, Mac OS and GNU+Linux (“Linux”) operating systems.
 
@@ -24,6 +23,14 @@ Installing from Supplied Binaries
 Clicking on the Download button on the main menu of the [FontForge website][FontForge] will take you
 to the SourceForce repository. Under the `fontforge-executables` directory you will find Windows,
 OSX, and Linux binaries. For Linux you will see rpm files which can be installed.
+
+Installing on Windows
+---------------------
+
+Jeremy Letang provides [recent builds](http://sourceforge.net/projects/fontforgebuilds/) of
+FontForge for Windows.  
+Otherwise, the stable release installer from 2012 can be found on the [old SourceForge repository]
+(http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
 
 Installing on Mac OS X
 ----------------------
@@ -129,11 +136,12 @@ functionality.
 
 If at some stage you find reproducible stability issues with fontforge you might like to install the
 debug information so that you can provide a backtrace to the FontForge team so that the issue may be
-rectified. If you have installed FontForge from your Linux distribution's package repository the
-method to install debugging information is different than the method to install debug information
-when building from source. In either case, you can use the *nm* command to check if debugging
-information is already available for your FontForge installation. Use the "type" command to find the
-location of your fontforge binary and if you see "no symbols" as shown below then you will need to
+rectified.  
+If you have installed FontForge from your Linux distribution’s package repository, the method to
+install debugging information is different than the method to install debug information when building
+from source. In either case, you can use the *nm* command to check if debugging information is
+already available for your FontForge installation. Use the “type” command to find the
+location of your `fontforge binary` and if you see “no symbols” as shown below then you will need to
 update your installation to include debug information in order to provide good feedback to the
 FontForge developers.
 
@@ -144,5 +152,8 @@ $ nm /usr/bin/fontforge
 nm: /usr/bin/fontforge: no symbols
 ```
 
+See the [Debugging] section for more information.
+
 [FontForge]: http://fontforge.github.io/
 [software’s repository]: https://github.com/fontforge/fontforge
+[Debugging]: When_Things_Go_Wrong_With_Fontforge_Itself.html

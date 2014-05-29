@@ -1,14 +1,3 @@
-.warn {
-background-color:#D1E0E0;
-padding:4px;
-}
-
-.imagebox {
-background-color:#fff;
-padding:5px;
-border:solid 1px #ddd;
-}
-
 /* This stylesheet started out as the GitHub Pages 
    Architect theme by @jasonlong"
 
@@ -208,7 +197,7 @@ pre code {
 }
 
 ul, ol, dl {
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
 
@@ -244,11 +233,11 @@ form {
   
 }
 
-em {
+em, i {
   font-style: italic;
 }
 
-strong {
+b, strong {
   font-weight: bold;
 }
 
@@ -339,8 +328,33 @@ h6:before {
   margin-left: -3.7em;
 }
 
+.note {
+  background-color: #F2F7F9;
+  border-top: .1em solid #E5EEF2;
+  border-bottom: .1em solid #E5EEF2;
+  padding: 1em .6em;
+}
+.warn {
+  background-color: #F9F9EE;
+  border-top: .1em solid #DDC;
+  border-bottom: .1em solid #DDC;
+  padding: 1em .6em;
+}
+div.note, div.warn {
+  margin-bottom: 1em;
+}
+div.note ul, div.warn ul {
+  margin-bottom: 0;
+}
+
+.imagebox {
+  background-color:#fff;
+  padding:5px;
+  border:solid 1px #ddd;
+}
+
 p {
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
  
 a {
@@ -367,9 +381,12 @@ img {
   margin-bottom: 1em;
 }
 
+ul {
+  padding-left: 20px;
+}
+
 ul li {
   list-style: disc inside;
-  padding-left: 20px;
 }
 
 ol li {
