@@ -27,6 +27,18 @@ title: Further Reading
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/wiki/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
 
+### Devanagari 
+
+* [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
+* [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago
+* [Professor Mahendra Patel](http://patelmc.wordpress.com/mahendrapatel/typedesign/)
+* [Dhruvi Tolia Graduation Report] (http://issuu.com/dhruvi/docs/graduation_report)
+* [Sanchit Sawaria Project 3 Document](http://issuu.com/sanchitsawaria/docs/kathandoc)
+* [Yashodeep Gholap - Designing a Devanagari text font for newspaper use](http://www.yashodeepgholap.com/Article.html)
+* [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
+* [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
+* Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
+
 ## Books
 
 Title: Detail in Typography (Paperback)
