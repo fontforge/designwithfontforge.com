@@ -41,6 +41,8 @@ title: Further Reading
 
 ## Books
 
+<http://www.type-library.com> has an extensive list of books
+
 Title: Detail in Typography (Paperback)
 
 Author: Jost Hochuli (Author)
