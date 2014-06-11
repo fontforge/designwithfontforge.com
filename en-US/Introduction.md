@@ -22,6 +22,8 @@ and what the state of its resolution is. Otherwise, see [here][bug] for bug repo
 
 We hope you will enjoy reading this tutorial as much as we did writing it.
 
+*&mdash; The FontForge Project Contributors*
+
 [FontForge]: http://fontforge.github.io/
 [on GitHub]: https://github.com/fontforge/designwithfontforge.com/
 [issue tracker]: https://github.com/fontforge/fontforge/issues

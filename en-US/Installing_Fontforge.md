@@ -11,11 +11,11 @@ install it without restrictions.
 It also means that this is a community-maintained application (anyone can contribute to the source
 code).
 
-**Note:** If you run into a problem using FontForge, or if FontForge is missing a feature, you can
-open up an issue on the [software’s repository], which developers will have a look at &mdash; even
-if you are just getting started.
-
 FontForge is available for Windows, Mac OS and GNU+Linux (“Linux”) operating systems.
+
+<p class="note"><b>Note:</b> If you run into a problem using FontForge, or if FontForge is missing a
+feature, you can open up an issue on the <a href="https://github.com/fontforge/fontforge">software’s
+repository</a>, which developers will have a look at &mdash; even if you’re just getting started.</p>
 
 Installing from Supplied Binaries
 ---------------------------------
@@ -155,5 +155,4 @@ nm: /usr/bin/fontforge: no symbols
 See the [Debugging] section for more information.
 
 [FontForge]: http://fontforge.github.io/
-[software’s repository]: https://github.com/fontforge/fontforge
 [Debugging]: When_Things_Go_Wrong_With_Fontforge_Itself.html

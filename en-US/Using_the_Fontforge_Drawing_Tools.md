@@ -8,7 +8,99 @@ title: Using the FontForge Drawing Tools
 
 Designing a font in FontForge will involve using a number of tools and utilities, starting with a
 set of drawing tools which may feel familiar to users with experience in vector graphics &ndash;
-there are noticeable differences through.
+there are noticeable differences through.  
+We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
+FontForge’s drawing tools themselves.
+
+## Understanding B&eacute;zier curves
+
+B&eacute;zier curves refers to the mathematical representation used to produce smooth curves
+digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used &mdash; note that
+FontForge also supports *Spiro* curves, which are an alternate representation for the designer.
+
+In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
+glyphs. *Spiro* paths will be discussed in the next section, and *Quadratic* curves are only
+found in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
+
+A typical B&eacute;zier path is composed of an anchor, with two handles that mark the overall
+direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
+see below.
+
+### Different kind of points
+
+#### Curve points (shown as round-shaped points)
+
+*Curve points* have two handles, each of them being linked to the other so that the line between
+them always stays straight, in order to produce a smooth curve on each side.
+ 
+<img src="images/tools-curve-point.png" alt>
+
+<h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
+
+*H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
+horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier forms done right
+(more on that in the next section).
+
+<img src="images/tools-HV-point.png" alt>
+
+#### Coins or corner points (shown as square-shaped points)
+
+*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independant of the
+others, making it suitable for discontinuities in the outline.  
+Without handles, coins will produce straight lines.
+
+<img src="images/tools-square-point.png" alt>
+
+<img src="images/tools_corner_point_2.png" alt>
+
+<img src="images/tools-corner-point-3.png" alt>
+
+#### Tangent points (shown as triangular-shaped points, or ‘arrowheads’)
+
+If you want to start from a straight line and then start curving smoothly, you will want to use
+*tangent points*.  
+A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
+its direction &ndash; this ensures a continous transition between the line and the curve.
+
+<img src="images/tools-tangent-point.png" alt>
+
+### Getting it right
+
+In order to produce proper curves &ndash; with minimal control points and eased rasterization, the
+anchors should always be placed at **the extremas of the curve**, and unless in places where you
+have breaks in your letterforms, the line that determines the path should be **horizontal or
+vertical**.
+
+<img src="images/bezier_sample.png" alt>
+
+<div class="note">
+<p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
+the actual extrema with a sight icon:</p>
+
+<img src="images/bezier_sample_3.png" alt>
+
+<p>You can then fix this by copying your current outline to another layer, then move the control
+points around so that it’s laid out properly &ndash; otherwise the FontForge Validation tool will
+add the point at extremas automatically, at which point you can merge your misplaced anchor with
+<i>Right-click > Merge</i>.<br>
+More about that will be said later in the <a href="Making_Sure_Your_Font_Works_Validation.html">
+Validation chapter</a>.</p>
+</div>
+
+To elaborate, there are two cases where you will have to give up horizontal/vertical B&eacute;zier
+paths:
+
+- If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
+  below that’s being kept almost flat:  
+  <img src="images/bezier_sample_2.png" alt>
+- If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
+  &ndash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
+  <img src="images/bezier_sample_4.png" alt>
+
+<p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
+direction of each handle should be tangent to the curve where it arrives.</p>
+
+## Mastering FontForge’s drawing tools
 
 From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
 
@@ -32,62 +124,14 @@ right:</p>
 the Glyph Window. It might that there is an open dialog box hidden behind it &ndash; so just move it
 and process the dialog box.</p>
 
-## A little about paths, splines, points, and handles
-
-FontForge can draw three types of paths: Cubic, Quadratic, and Spiro.  
-In this section, we will only discuss Cubic paths, as this is what’s generally used when drawing
-glyphs. Spiro paths have their own separate section in this book, and Quadratic curves are only found
-in TrueType fonts and are rarely used in drawing (they are rather generated at build time).
-
-### Paths
-
-Each Cubic path in Fontforge is composed of a series of B&eacute;zier splines (curves) and line
-segments.
-
-A Line consists of 2 points (see below).
+A *Line* consists of 2 points.
 
 <img src="images/tools_line_points.png" alt>
 
-A spline consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
-of the spline at those end points (see below).
+A *Spline* consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
+of the spline at those end points.
 
 <img src="images/tools_splines_points.png" alt>
-
-### Points
-
-FontForge has 4 types of Points.
-
-**Curve points** (denoted as round shaped points)
-
-Curve points produce smooth curves, with a B&eacute;zier curve and a handle on each side of the
-point (see below). The position of each of the handles in a curve point is linked to the others,
-giving them their distinctive ‘see-saw’ quality &ndash; moving one handle upwards will move the
-other handle downwards, and vise-versa.
- 
-<img src="images/tools-curve-point.png" alt>
-
-**H/V Curve points** (denoted as diamond shaped points)
-
-H/V curve points are similar to curve points except that their handles will always snap to the
-horizontal or vertical axes (see below), hence the ‘H/V’ &ndash; ‘horizontal/vertical’ denomination.
-
-<img src="images/tools-HV-point.png" alt>
-
-**Corner points**
-
-A corner point can have 1 or 2 B&eacute;zier handles. The position of each handle does not depend on
-that of the others nor of the angle the line leading into the point has (see below).
-
-<img src="images/tools-square-point.png" alt>
-
-<img src="images/tools_corner_point_2.png" alt>
-
-**Tangent points** (denoted as triangular shaped points, or ‘arrowheads’)
-
-A tangent point leaves a straight line on one side. The B&eacute;zier handle on the other side is in
-the direction of the straight line (see below).
-
-<img src="images/tools-tangent-point.png" alt>
 
 ### Copy, paste, cut and delete points, splines and lines
 
@@ -248,15 +292,6 @@ layers).
 ## Basic drawing
 
 Next we will go over some basic drawing workflows, which you often find yourself in need of.
-
-### Drawing letters
-
-What’s essential to denote about B&eacute;zier curves is that the anchor points as we saw above are
-sort of like tangents at the extremas of the curve.
-
-In order to get smooth curves, keeping anchor points at horizontal and vertical extremas and keeping
-the handles vertical or horizontal is generally enough &ndash; it avoids jagginess and gives better
-coherency between the control points.
 
 ### Cutting a shape within another
 
