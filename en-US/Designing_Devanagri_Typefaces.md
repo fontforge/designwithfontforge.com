@@ -1,3 +1,12 @@
+---
+published: true
+layout: bookpage
+weight: 92
+category: workflow
+title: Designing Devanagari Typefaces
+---
+
+
 _Thanks to Erin McLaughlin and Neelakash Kshetrimayum for contributing ideas to establish this page_
 
 Designing a new and original Devanagari ([wikipedia](http://en.wikipedia.org/wiki/Devanagari)) typeface follows a process much like the process for a new and original Latin. The unique benefit of libre of libre fonts is that they can be modified and reused for new purposes that their initial creators never thought of - so you can design a Devanagari and use an existing Latin font to go with it. 
