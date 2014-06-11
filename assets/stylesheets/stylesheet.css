@@ -53,10 +53,19 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5; 
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
-  font-family: 'Merriweather Sans', serif;
+  background: #FAFAFA url(../images/body-bg.jpg) 0 0 repeat;
+  font-family: 'Merriweather', serif;
   font-weight: 400;
   color: #343434;
+}
+@media (min-width: 1170px) {
+  body {
+    font-size: 19px;
+  }
+}
+
+.content-wrapper h1, .content-wrapper h2, h3, h4, h5, h6, #sidebar {
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 a {
@@ -106,6 +115,11 @@ header h2 {
   width: 940px;
   margin: 0 auto;
 }
+@media (min-width: 1170px) {
+  .inner {
+    width: 1100px;
+  }
+}
 
 #content-wrapper {
   border-top: solid 1px #fff;
@@ -115,6 +129,11 @@ header h2 {
 #main-content {
   width: 690px;
   float: left;
+}
+@media (min-width: 1170px) {
+  #main-content {
+    width: 850px;
+  }
 }
 
 #main-content img {
@@ -173,13 +192,10 @@ code, pre {
   font-family: Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
   color: #222;
   margin-bottom: 30px;
-  font-size: 13px;
 }
 
 code {
-  background-color: #f2f8fc;
-  border: solid 1px #dbe7f3;
-  padding: 0 3px;
+  padding: 0 2px;
 }
 
 pre {
@@ -247,7 +263,7 @@ b, strong {
   font-family: 'Merriweather Sans', serif; 
   font-size: 30px;
   letter-spacing: -1px;
-  margin-bottom: 8px;
+  margin-bottom: .6em;
   color: #272727;
   font-weight: 300;
 } 
@@ -263,7 +279,7 @@ b, strong {
   font-family: 'Merriweather Sans', serif; 
   font-size: 26px;
   font-weight: normal;
-  margin-bottom: 8px;
+  margin-bottom: .6em;
   color: #272727;
 } 
 #main-content h2:before {
@@ -278,7 +294,7 @@ b, strong {
   font-size: 22px;
   font-weight: normal;
   margin-top: 24px;
-  margin-bottom: 8px;
+  margin-bottom: .6em;
   color: #272727;
 } 
  
@@ -293,7 +309,7 @@ b, strong {
   font-family: 'Merriweather Sans', serif; 
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 8px;
+  margin-bottom: .4em;
   color: #272727;
 } 
 
