@@ -14,13 +14,14 @@ FontForge’s drawing tools themselves.
 
 ## Understanding B&eacute;zier curves
 
-B&eacute;zier curves refers to the mathematical representation used to produce smooth curves
-digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used &mdash; note that
-FontForge also supports *Spiro* curves, which are an alternate representation for the designer.
+The concept of “B&eacute;zier curves” refers to a particular mathematical representation used to
+produce smooth curves digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used
+&mdash; through FontForge also supports *Spiro* curves, which are an alternate representation for
+the designer.
 
 In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
-glyphs. *Spiro* paths will be discussed in the next section, and *Quadratic* curves are only
-found in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
+glyphs. *Spiro* paths will be discussed in the next chapter, and *Quadratic* curves are only found
+in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
 
 A typical B&eacute;zier path is composed of an anchor, with two handles that mark the overall
 direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
