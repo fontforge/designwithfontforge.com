@@ -11,9 +11,9 @@ _Thanks to Erin McLaughlin and Neelakash Kshetrimayum for contributing ideas to 
 
 Designing a new and original Devanagari ([wikipedia](http://en.wikipedia.org/wiki/Devanagari)) typeface follows a process much like the process for a new and original Latin. The unique benefit of libre of libre fonts is that they can be modified and reused for new purposes that their initial creators never thought of - so you can design a Devanagari and use an existing Latin font to go with it. 
 
-## Work Breakdown Structure
+## Devanagari Glyphs
 
-In any typeface design project, its a great idea to sketch out a Work Breakdown Strucutre. Your could design sets of glyphs in the following order:
+Devanagari fonts contain these different types of glyphs:
 
 * consonants (36)
 * independent vowels (28)
@@ -23,11 +23,17 @@ In any typeface design project, its a great idea to sketch out a Work Breakdown 
 * Latin numerals (new, or if already present then adjusted to work within pure Devanagari text)
 * nukta composites
 * half-forms
-* conjuncts (unique ligature glyphs - this is where most of the time goes)
+* conjuncts (unique ligature glyphs)
 * "I" vowel maatras of differing lengths
 * Devanagari punctuation, marks, and symbols
 * Latin punctuation, marks, and symbols (new, or adjusted if already present)
 * Latin letters
+
+Consult the ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
+
+## Work Breakdown Structure
+
+In any typeface design project, its a great idea to sketch out a Work Breakdown Strucutre. 
 
 For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
 
@@ -49,6 +55,14 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 ## What To Do First
 
 When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages, in addition to the "key" design glyphs to establish the personality of the typeface through fundamental shapes and spacing(which in Latin may be 'adhesion' or 'videospan') it is good to design the "height extremes", the lowest and highest glyphs. 
+
+A suggested progression would be:
+* पाव
+* पाव + किमीनुफू
+* पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes)
+* पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड
+* … continue character set
+
 
 These glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
 
