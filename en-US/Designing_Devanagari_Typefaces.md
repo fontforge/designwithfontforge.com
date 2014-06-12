@@ -56,12 +56,7 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 
 When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages, in addition to the "key" design glyphs to establish the personality of the typeface through fundamental shapes and spacing(which in Latin may be 'adhesion' or 'videospan') it is good to design the "height extremes", the lowest and highest glyphs. 
 
-A suggested progression would be:
-* पाव
-* पाव + किमीनुफू
-* पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes)
-* पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड
-* … continue character set
+A suggested progression would be:  **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … continue character set**
 
 
 These glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
