@@ -29,8 +29,6 @@ In any typeface design project, its a great idea to sketch out a Work Breakdown 
 * Latin punctuation, marks, and symbols (new, or adjusted if already present)
 * Latin letters
 
-In the earliest stages, aside from some "control" characters to determine shape/spacing, it is also useful to use some "height extremes", low and high, to determine inter-line spacing.
-
 For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
 
 Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design:
@@ -47,6 +45,18 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 * week 10 - Interpolation of slanted, general refinement
 * week 11 - General refinement of spacing, kerning & testing in all styles
 * week 12 - Finalisation
+
+## What To Do First
+
+When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages, in addition to the "key" design glyphs to establish the personality of the typeface through fundamental shapes and spacing(which in Latin may be 'adhesion' or 'videospan') it is good to design the "height extremes", the lowest and highest glyphs. 
+
+These glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
+
+Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
+
+<img src="images/myriad_pro_vs_arabic.png" />
+
+Its a nice touch that the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin!
 
 ## Useful Resources
 
