@@ -58,6 +58,15 @@ When designing a Devanagari and Latin typeface, its important to start by draw t
 
 A suggested progression would be:  **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … continue character set**
 
+(Focus on the "Au" vowel sign + reph + anusvara combo!, the Ma is just there for posterity.)
+
+Note that in the Lohit character set, the lowest glyphs are these "low" forms, meant to go below characters that descend very far below the baseline:
+
+TODO: Add image of vattu+U, vattu+Uu, U, Uu, and subscript V (for conjuncts)
+
+(Vattu is the below-base form of reph. See the [Microsoft terminology](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) page for more details)
+
+Ideally, these should stack below your lowest vertically-stacking conjunct, like the example on the left  (Lohit, which doesn't quite vertically fit, is on the right):
 
 These glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
 
@@ -68,6 +77,14 @@ Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
 Its a nice touch that the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin!
 
 ## Useful Resources
+
+### Google Fonts discussions list
+
+
+* [A note on conventions for the placement of shoulder line, descenders, ascenders and so forth in relation to the latin?](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/TaX0NKHket4)
+* [Starting from Lohit2](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/VAhs5MnjZ30) and [pdf](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/_3gtTalzKUQ)
+* [Adobe Glyph Lists](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/q8CQHVxVZ0Y)
+* [rVocalic and rrVocalic](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/eYmmBQENBb8)
 
 ### Devanagari Pen Angle
 
