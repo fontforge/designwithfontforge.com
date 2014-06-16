@@ -33,24 +33,26 @@ Consult the ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.p
 
 ## Work Breakdown Structure
 
-In any typeface design project, its a great idea to sketch out a Work Breakdown Strucutre. 
+In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
 
 For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
 
 Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design:
 
-* week 1 - Establish design, and matching weight to Latin in Regular & Bold with ttfautohint — 10 glyphs each, total 20
-* week 2 - Get native reader feedback and design the base unicode glyphs in both Regular and Bold — around 100 glyphs each
-* week 3 - Get native reader feedback, refine and add more conjuncts
-* week 4 - Get native reader feedback, refine and add more conjuncts
-* week 5 - Get native reader feedback, refine and add more conjuncts 
-* week 6 - Finalisation of Regular's conjuncts, OpenType code and mark positioning, vowel signs etc - now around 400 glyphs per style
-* week 7 - Finalisation of Bold with native reader feedback
-* week 8 - Refinements, Kerning, testing with native reader feedback — approx. 620 glyphs per style
-* week 9 - Interpolation of weights, design of slanted/italic in both Regular and Bold
-* week 10 - Interpolation of slanted, general refinement
-* week 11 - General refinement of spacing, kerning & testing in all styles
-* week 12 - Finalisation
+|Week|Goal|Glyphs|
+|--:|:--|--:|
+|1|Establish design, and matching weight to Latin in Regular & Bold with ttfautohint|10|
+|2|Get native reader feedback and design the base unicode glyphs in both Regular and Bold |100|
+|3|Get native reader feedback, refine and add more conjuncts|200|
+|4|Get native reader feedback, refine and add more conjuncts|300|
+|5|Get native reader feedback, refine and add more conjuncts|400|
+|6|Finalisation of Regular's conjuncts, OpenType code and mark positioning, vowel signs etc|500|
+|7|Finalisation of Bold with native reader feedback|500|
+|8|Refinements, Kerning, testing with native reader feedback — approx. 620 glyphs per style|600|
+|9|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|600|
+|10|Interpolated styles refinement|600|
+|11|General refinement of spacing, kerning & testing in all styles|600|
+|12|Finalisation|600|
 
 ## What To Do First
 
