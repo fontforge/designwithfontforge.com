@@ -1,4 +1,6 @@
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
 pygments: false
 permalink: none
 url: http://designwithfontforge.com
