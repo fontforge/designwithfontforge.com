@@ -638,6 +638,6 @@ ol.rectangle-list a:hover:after{
 	left: -.5em;
 	border-left-color: #2e78cd;
 }
-td {
+th, td {
 	padding:0.5em;
 }
