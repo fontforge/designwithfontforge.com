@@ -80,13 +80,20 @@ Its a nice touch that the cap height of the Latin in Myriad Arabic is the x heig
 
 ## Useful Resources
 
-### Google Fonts discussions list
+### Forum Discussions
 
+Typophile
+
+* [Adobe Devanagari](http://typophile.com/node/95460)
+
+Google Fonts Directory Discuss
 
 * [A note on conventions for the placement of shoulder line, descenders, ascenders and so forth in relation to the latin?](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/TaX0NKHket4)
 * [Starting from Lohit2](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/VAhs5MnjZ30) and [pdf](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/_3gtTalzKUQ)
 * [Adobe Glyph Lists](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/q8CQHVxVZ0Y)
 * [rVocalic and rrVocalic](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/eYmmBQENBb8)
+
+
 
 ### Devanagari Pen Angle
 
