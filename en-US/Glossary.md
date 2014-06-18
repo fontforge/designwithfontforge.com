@@ -20,9 +20,9 @@ See Also: alphabet, abugida, syllabary and the <a title="Unicode consortium" hre
 
 An abugida is somewhere in between an alphabet and a syllabary. The Indic writing systems are probably the best known abugidas.
 
-In most abugidas there are independant glyphs for the consonants, and each consonant is implicitly followed by a default vowel sound. All vowels other than the default will be marked by either diacritics or some other modification to the base consonant.
+In most abugidas there are independent glyphs for the consonants, and each consonant is implicitly followed by a default vowel sound. All vowels other than the default will be marked by either diacritics or some other modification to the base consonant.
 
-An abugida differs from a syllabary in that there is a common theme to the the images representing a syllable beginning with a given consonant (that is, the glyph for the consonant), while in a syllabary each syllable is distinct even if two start with a common consonant.
+An abugida differs from a syllabary in that there is a common theme to the images representing a syllable beginning with a given consonant (that is, the glyph for the consonant), while in a syllabary each syllable is distinct even if two start with a common consonant.
 
 An abugida differs from an abjad in that vowels (other than the default) must be marked in the abugida.
 
@@ -101,7 +101,7 @@ The first 65536 code points of Unicode. These contain most of the ordinary chara
 
 ### Bold
 
-A common font style. The stems of the glyphs are wider than in the normal font, giving the letters a darker impression. Bold is one of the fewLGC styles that translate readily to other scripts.
+A common font style. The stems of the glyphs are wider than in the normal font, giving the letters a darker impression. Bold is one of the few LGC styles that translate readily to other scripts.
 
 ### Bowl
 
@@ -124,11 +124,11 @@ See also X-height, Ascender, Descender, Overshoot, Baseline
 
 ### CFF
 
-Compact Font Format most commonly used within OpenType postscript fonts, but is a valid font format even without a SFNTwrapper. This is the native font format for fonts with PostScript Type2 charstrings.
+Compact Font Format most commonly used within OpenType postscript fonts, but is a valid font format even without a SFNT wrapper. This is the native font format for fonts with PostScript Type2 charstrings.
 
 ### Character
 
-A character is a Platonic ideal reified into at least one glyph. For example the letter "s" is a character which is reified into several different glyphs: "S", "s", "&szlig;", long-s, etc. Note that these glyphs can look fairly different from each other, however although the glyph for an integral sign might be the same as the long-s glyph, these are in fact different characters.
+A character is a Platonic ideal reified into at least one glyph. For example the letter "s" is a character which is reified into several different glyphs: "S", "s", "*s*", "&szlig;", long-s, etc. Note that these glyphs can look fairly different from each other, however although the glyph for an integral sign might be the same as the long-s glyph, these are in fact different characters.
 
 ### Character set
 
@@ -140,7 +140,7 @@ Character Identifier, a number. In some CJK PostScript fonts the glyphs are not 
 
 ### CID-keyed font
 
-A PostScript font in which the glyphs are index by CID and not by name.
+A PostScript font in which the glyphs are indexed by CID and not by name.
 
 ### CJK
 
@@ -181,7 +181,7 @@ A concept in OpenType which allows you to enter spacing adjustments geared to ra
 
 ### Diacritics
 
-Many languages use letters which have have marks above or below them of even crossing the letters. These marks are called diacritics. Sometimes they are also caleed "accents" although this is a less precise term. Examples of these letters include &Agrave; &agrave; &aring; &Aring; &Uuml; &uuml; &Oslash; &oslash; &Ccedil; &ccedil;.
+Many languages use letters which have marks above or below them or even crossing the letters. These marks are called diacritics. Sometimes they are also called "accents" although this is a less precise term. Examples of these letters include &Agrave; &agrave; &aring; &Aring; &Uuml; &uuml; &Oslash; &oslash; &Ccedil; &ccedil;.
 
 ### Didot point
 
@@ -233,7 +233,7 @@ In font design, the extrema of a glyph are the top-most and bottom-most points o
 ## F
 ### Features (OpenType)
 
-When creating fonts for complex scripts (and even for less complex scripts) various transformations (like ligatures) must be applied to the input glyphs before they are ready for display. These transformations are identified as font features and are tagged with (in OpenType) a 4 letter tag or (in Apple) a 2 number identifier. The meanings of these features are predefined by MicroSoft and Apple. FontForge allows you to tag each lookup with one or several features when you create it (or later).
+When creating fonts for complex scripts (and even for less complex scripts) various transformations (like ligatures) must be applied to the input glyphs before they are ready for display. These transformations are identified as font features and are tagged with (in OpenType) a 4 letter tag or (in Apple) a 2 number identifier. The meanings of these features are predefined by Microsoft and Apple. FontForge allows you to tag each lookup with one or several features when you create it (or later).
 
 ### Feature File
 
@@ -280,7 +280,7 @@ Before TrueType glyphs are rasterized they go through a process called grid fitt
 
 ### Gothic
 
-The German monks at the time of Gutenberg used a black-letter writing style, and he copied their handwriting in his typefaces for printing. Italian type designers (after printing spread south) sneered at the style, preferring the type designs left by the Romans. As a term of contempt they used the word gothic, the style of the goths who helped destroy the roman empire.
+The German monks at the time of Gutenberg used a black-letter writing style, and he copied their handwriting in his typefaces for printing. Italian type designers (after printing spread south) sneered at the style, preferring the type designs left by the Romans. As a term of contempt they used the word gothic, the style of the Goths who helped destroy the roman empire.
 
 ### Graphite tables
 
@@ -330,12 +330,12 @@ A single character which represents a concept without spelling it out. Generally
 
 A slanted style of a font, often used for emphasis.
 
-Italic differs from Oblique in that the transformation from the plain to the slanted form involves more than just skewing the letterforms. Generally the lower-case a changes to a, the serifs on lower-case letters like i (i) change, and the font generally gains a more flowing feeling.
+Italic differs from Oblique in that the transformation from the plain to the slanted form involves more than just skewing the letterforms. Generally the lower-case a changes to *a*, the serifs on lower-case letters like i (*i*) change, and the font generally gains a more flowing feeling.
 
 ## J
 ### Jamo
 
-The letters of the Korean alphabet. These are almost never seen alone, generally appearing in groups of three as part of a Hangul syllable. The Jamo are divided into three catagories (with considerable overlap between the first and third), the choseong -- initial consonants, the jungseong -- medial vowels, and the jongseong -- final consonants. A syllable is composed by placing a choseong glyph in the upper left of an em-square, a jungseong in the upper right, and optionally a jongseong in the lower portion of the square.
+The letters of the Korean alphabet. These are almost never seen alone, generally appearing in groups of three as part of a Hangul syllable. The Jamo are divided into three categories (with considerable overlap between the first and third), the choseong -- initial consonants, the jungseong -- medial vowels, and the jongseong -- final consonants. A syllable is composed by placing a choseong glyph in the upper left of an em-square, a jungseong in the upper right, and optionally a jongseong in the lower portion of the square.
 
 ## K
 ### Kanji
@@ -388,7 +388,7 @@ Latin, Greek, Cyrillic. These three alphabets have evolved side by side over the
 ## M
 ### Manyogana
 
-An early Japanese script, ancestral to both hiragana and katakana. Manyogana used kanji for their phontic sounds, and over the years these kanji were simplified into hiragana and katahana.
+An early Japanese script, ancestral to both hiragana and katakana. Manyogana used kanji for their phonetic sounds, and over the years these kanji were simplified into hiragana and katakana.
 
 ### Monospace
 
@@ -411,7 +411,7 @@ A multiple master font is a PostScript font schema which defines an infinite num
 ## N
 ### Namelist
 
-A mapping from unicode code point to glyph name.
+A mapping from Unicode code point to glyph name.
 
 ### Non-Zero Winding Number Fill rule
 
@@ -430,7 +430,7 @@ A type of font. It is an attempt to merge postscript and TrueType fonts into one
 
 It contains many of the same data tables for information like encodings that were present in TrueType fonts.
 
-Confusingly it is also used to mean the advanced typographic tables that Adobe and MicroSoft (but not Apple) have added to TrueType. These include things like contextual ligatures, contextual kerning, glyph substitution, etc.
+Confusingly it is also used to mean the advanced typographic tables that Adobe and Microsoft (but not Apple) have added to TrueType. These include things like contextual ligatures, contextual kerning, glyph substitution, etc.
 
 And MS Windows uses it to mean a font with a 'DSIG' (Digital Signature) table.
 
@@ -483,7 +483,7 @@ The Anglo-American point. With 72.27 points per inch ( 2.85pt /mm).
 
 A point is a unit of measurement. There were three (at least) different definitions for "point" in common usage before the advent of computers. The one in use in the Anglo-Saxon printing world was the "pica point" with 72.27 points per inch ( 2.85pt /mm ), while the one used in continental Europe was the didot point with 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.54pt/inch ) and the French sometimes used the Median point (72.78 points per inch, 2.86pt/mm).
 
-The didiot and pica points were so arranged that text at a given point-size would have approximately the same cap-height in both systems, the didot point would have extra white-space above the capitals to contain the accents present in most non-English Latin based scripts.
+The didot and pica points were so arranged that text at a given point-size would have approximately the same cap-height in both systems, the didot point would have extra white-space above the capitals to contain the accents present in most non-English Latin based scripts.
 
 This has the interesting side effect that a font designed for European usage should have a smaller proportion of the vertical em given over to the text body. I believe that computer fonts tend to ignore this, so presumably European printers now set with more leading.
 
@@ -497,15 +497,15 @@ In traditional typography a 10pt font was one where the block of metal for each 
 
 ### Point of inflection
 
-A point on a curve where it changes from being concave downwards to concave upwards (or vice versa). Or in mathematical terms (for continuous curves) where d2 y/dx2=0 or infinity.<br>Cubic splines may contain inflection points, quadratic splines may not.
+A point on a curve where it changes from being concave downwards to concave upwards (or vice versa). Or in mathematical terms (for continuous curves) where d&sup2;y/dx&sup2;=0 or infinity.<br>Cubic splines may contain inflection points, quadratic splines may not.
 
 ### PostScript
 
 PostScript is a page-layout language used by many printers. The language contains the specifications of several different font formats. The main (FontForge) manual has a section describing how PostScript differs from TrueType.
 
-* Type 1: This is the old standard for PostScript fonts. Such a font generally has the extension .pfb (or .pfa). A type 1 font is limited to a one byte encoding (ie. only 256 glyphs may be encoded).
+* Type 1: This is the old standard for PostScript fonts. Such a font generally has the extension .pfb (or .pfa). A type 1 font is limited to a one byte encoding (i.e. only 256 glyphs may be encoded).
 * Type 2/CFF: This is the format used within OpenType fonts. It is almost the same as Type 1, but has a few extensions and a more compact format. It is usually inside a CFF wrapper, which is usually inside an OpenType font. The CFF font format again only allows a 1 byte encoding, but the OpenType wrapper extends this to provide more complex encoding types.
-* Type 3: This format allows full postscript within the font, but it means that no hints are allowed, so these fonts will not look as nice at small point-sizes. Also most (screen) rasterizers are incapable of dealing with them. A type 3 font is limited to a one byte encoding (ie. only 256 glyphs may be encoded).
+* Type 3: This format allows full postscript within the font, but it means that no hints are allowed, so these fonts will not look as nice at small point-sizes. Also most (screen) rasterizers are incapable of dealing with them. A type 3 font is limited to a one byte encoding (i.e. only 256 glyphs may be encoded).
 * Type 0: This format is used for collecting many sub-fonts (of Type 1, 2 or 3) into one big font with a multi-byte encoding, and was used for CJK or Unicode fonts.
 * Type 42: A TrueType font wrapped up in PostScript. Sort of the opposite from OpenType.
 * CID: This format is used for CJK fonts with large numbers of glyphs. The glyphs themselves are specified either as type1 or type2 glyph format. The CID font itself has no encoding, just a mapping from CID (a number) to glyph. An set of external CMAP files are used to provide appropriate encodings as needed.
@@ -544,7 +544,7 @@ Other writing systems (Hebrew for one) have their own serifs. Hebrew serifs are 
 
 ### SFD
 
-SplineFont DataBase. These are FontForge's own personal font representation. The files are ASCII and vaguely readable, the format is described here. As of 14 May 2008 the format has been registered with IANA for a MIME type: application/vnd.font-fontforge-sfd.<br>Other people use sfd too. (Unfortunately)
+SplineFont Database. These are FontForge's own personal font representation. The files are ASCII and vaguely readable, the format is described here. As of 14 May 2008 the format has been registered with IANA for a MIME type: application/vnd.font-fontforge-sfd.<br>Other people use the acronym 'sfd' too. (Unfortunately)
 
 * Tops-10, on the Digital PDP-10 used sfd to mean "Sub File Directory". Tops-10 made a distinction between top-level (home) directories, called "user file directories", and sub-directories.
 * TeX uses it to mean "Sub Font Definition" where a TeX sfd file contains information on how to break a big CJK or Unicode font up into small sub-fonts, each with a 1 byte encoding which TeX (or older versions of TeX) needed.
@@ -557,7 +557,7 @@ The name for the generic font format which contains TrueType, OpenType, Apple's 
 
 ### SIP
 
-Supplementary Ideographic Plane (0x20000-0x2FFFF) of unicode. Used for rare Han characters (most are no longer in common use) See Also
+Supplementary Ideographic Plane (0x20000-0x2FFFF) of Unicode. Used for rare Han characters (most are no longer in common use) See Also
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
@@ -567,7 +567,7 @@ Supplementary Ideographic Plane (0x20000-0x2FFFF) of unicode. Used for rare Han 
 
 ### SMP
 
-Supplementary Multilingual Plane (0x10000-0x1FFFF) of unicode. Used for ancient and artificial alphabets and syllabaries -- like Linear B, Gothic, and Shavian. See Also
+Supplementary Multilingual Plane (0x10000-0x1FFFF) of Unicode. Used for ancient and artificial alphabets and syllabaries -- like Linear B, Gothic, and Shavian. See Also
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
@@ -581,7 +581,7 @@ A curved line segment. The splines used in FontForge are all second or third ord
 
 ### SSP
 
-Supplementary Special-purpose Plane (0xE0000-0xEFFFF) of unicode. Not used for much of anything. See Also
+Supplementary Special-purpose Plane (0xE0000-0xEFFFF) of Unicode. Not used for much of anything. See Also
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
@@ -597,7 +597,7 @@ The "state machine" consists of a table of states, each state in turn consists o
 
 ### Stem
 
-A stem is the part of the letter which is vertical. The I and l are all stem except for serifs. The H consists of two stems and a crossbar. Other glyphs with stems include B b F f k k P p R r 1 and 4.
+A stem is the part of the letter which is vertical. The I and l are all stem except for serifs. The H consists of two stems and a crossbar. Other glyphs with stems include B b F f K k P p R r 1 and 4.
 
 ### Strike
 
@@ -619,7 +619,7 @@ Scalable Vector Graphics. An XML format used for drawing vector images. It inclu
 
 ### Syllabary
 
-A syllabary is a phonetic writing system like an alphabet. Unlike an alphabet the sound-unit which is written is a syllable rather than a phoneme. In Japanese KataKana the sound "ka" is represented by one glyph. Syllabaries tend to be bigger than alphabets (Japanese KataKana requires about 60 different characters, while the Korean Hangul requires tens of thousands).
+A syllabary is a phonetic writing system like an alphabet. Unlike an alphabet the sound-unit which is written is a syllable rather than a phoneme. In Japanese KataKana the sound "ka" is represented by one glyph. Syllabaries tend to be bigger than alphabets (Japanese Katakana requires about 60 different characters, while the Korean Hangul requires tens of thousands).
 
 See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Syllabary">relevant Wikipedia article</a>.
 
@@ -638,7 +638,7 @@ The germanic letter "þ" used for the unvoiced (English) "th" sound (as in the w
 
 ### True Type
 
-A type of font invented by Apple and shared with MicroSoft. It specifies outlines with second degree (quadratic) B&eacute;zier curves, contains innovative hinting controls, and an expandable series of tables for containing whatever additional information is deemed important to the font.<br>Apple and Adobe/MicroSoft have expanded these tables in different ways to include for advanced typographic features needed for non-latin scripts (or for complex latin scripts). See Apple Advanced Typography and OpenType.
+A type of font invented by Apple and shared with Microsoft. It specifies outlines with second degree (quadratic) B&eacute;zier curves, contains innovative hinting controls, and an expandable series of tables for containing whatever additional information is deemed important to the font.<br>Apple and Adobe/Microsoft have expanded these tables in different ways to include advanced typographic features needed for non-latin scripts (or for complex latin scripts). See Apple Advanced Typography and OpenType.
 
 ### TrueType Tables
 
