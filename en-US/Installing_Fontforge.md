@@ -27,7 +27,7 @@ OSX, and Linux binaries. For Linux you will see rpm files which can be installed
 Installing on Windows
 ---------------------
 
-Jeremy Letang provides [recent builds](http://sourceforge.net/projects/fontforgebuilds/) of
+Jeremy Tan provides [recent builds](http://sourceforge.net/projects/fontforgebuilds/) of
 FontForge for Windows.  
 Otherwise, the stable release installer from 2012 can be found on the [old SourceForge repository]
 (http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
