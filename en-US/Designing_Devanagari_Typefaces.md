@@ -80,6 +80,10 @@ Its a nice touch that the cap height of the Latin in Myriad Arabic is the x heig
 
 ## Useful Resources
 
+### Lohit2
+
+[Lohit2 Devanagari](https://github.com/pravins/lohit2/tree/master/devanagari) is available as a UFO zip download from <https://github.com/frank-trampe/lohit2/archive/master.zip>
+
 ### Forum Discussions
 
 Typophile
