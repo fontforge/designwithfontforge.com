@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 22
 category: workflow
-title: Creating Your Type's DNA
+title: Creating Your Type’s DNA
 ---
 
 After you have completed good solid design and spacing of the 'o' and 'n', the next thing to do is to begin populating the font with letters whose structural characteristics provide useful DNA for making many of the other letters in the font.

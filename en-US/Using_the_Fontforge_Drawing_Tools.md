@@ -121,9 +121,9 @@ right:</p>
 </ul>
 </div>
 
-<p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are inside
-the Glyph Window. It might that there is an open dialog box hidden behind it &ndash; so just move it
-and process the dialog box.</p>
+<p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are
+inside the Glyph Window. It might that there is an open dialog box hidden behind it &ndash; so just
+move it and process the dialog box.</p>
 
 A *Line* consists of 2 points.
 
@@ -204,7 +204,8 @@ some unexpected things.
 
 <img src="images/knife.png" alt height="27" width="28">
 
-The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but only need part of it.
+The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but
+only need part of it.
 
 ### Ruler
 
@@ -270,7 +271,17 @@ setting, the longer the arms of the star.
 
 <img src="images/danger.png" alt height="53" width="57">
 
-<!-- TODO: add content -->
+Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
+
+- Left button (Mse1)
+- Left button + Ctrl (^Mse1)
+- Mouse wheel button (Mse2)
+- Mouse wheel button + Ctrl (^Mse2)
+
+This way, you can use a few different tools without having to repeatedly click on the toolbar.
+
+<p class="warn"><b>Caution:</b> It appears that the Mse functionality doesn’t currently work
+properly.</p>
 
 ### Layers
 
