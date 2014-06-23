@@ -104,6 +104,8 @@ The [Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf) shows
 
 The [Adhesion Text Devanagari](http://www.adhesiontext.com/devanagari/) is a special version of the a tool built by Miguel Sousa to make dummy text comprised only of the words possible to write with the glyphs you have already drawn. Insert the glyphs (अआईईउऊ etc) that you've drawn, and out will come some sample words for you to use in proofs.
 
+The Huerta Tipografica's [Devanaguide](http://devanaguide.huertatipografica.com/) is an open source tool to see and compare different devanagari fonts. It also allows you to type a text and preview it in all the fonts at the same time.
+
 ### Forum Discussions
 
 Typophile
