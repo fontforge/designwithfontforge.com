@@ -27,7 +27,7 @@ A typical B&eacute;zier path is composed of an anchor, with two handles that mar
 direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
 see below.
 
-### Different kind of points
+### Different kinds of points
 
 #### Curve points (shown as round-shaped points)
 

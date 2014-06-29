@@ -35,6 +35,10 @@ So if your uppercase ‘H’ is 700 units high, it will be 7 pt high on a 10 pt 
 With the knowledge that your font is using a 1000, 1024, or 2048 UPM, you need to set up the drawing
 of your glyphs to ensure that all aspects of your typeface fit adequately into that UPM square.
 
+The size of the em square can be set from *Element > Font Info&hellip;* then click on the General
+tab and you will see the *EM* setting, which value shall be distributed between the *Ascender* and
+*Descender* heights, respectively heights above and underneath the baseline.
+
 The Baseline:
 
 <img src="images/baseline.png" alt>
@@ -46,3 +50,13 @@ The Cap Height:
 The x-height:
 
 <img src="images/xheight.png" alt>
+
+Later when designing your type, you will have to set the Blue values which serve for PostScript
+outlines and also for the FontForge autohinter &ndash; regardless of which outlines you are working
+on.  
+You will find the setting in *Element > Font Info&hellip;*, on the *PS Private* tab. FontForge can
+initially guess the values based on your outlines, but you will have to edit them yourself for
+overshoots/undershoots &mdash; we are a few chapters ahead of this concept (see 
+[“Creating ‘o’ and ‘n’”]); let’s first get ahold of FontForge and its drawing functionalities.
+
+[“Creating ‘o’ and ‘n’”]: Creating_o_and_n.html
