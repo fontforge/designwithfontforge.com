@@ -61,12 +61,12 @@ using the G4 point tool.
 
 Now you almost have an ‘S’! Begin nudging the points around to get your S look the way you want.
 
-Oops, what happened?
+<div class="warn"><p>Oops, what happened?</p>
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
 
-Don’t worry &ndash; Spiro sometimes does some funny things. Just hit <i>Undo,</i> or keep nudging
-the points to get things back on track.
+<p>Don’t worry &ndash; Spiro sometimes does some funny things. Just hit <i>Undo,</i> or keep nudging
+the points to get things back on track.</p></div>
 
 Now, you should see something like this:
 

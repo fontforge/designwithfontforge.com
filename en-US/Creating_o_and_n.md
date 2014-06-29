@@ -71,9 +71,9 @@ two components. These separate components combine together to form an ‘n’, b
 will be re-used later when forming other characters; e.g., the stem at the left of the ‘n’ can be
 used to form the left-sided stem of all other lowercase characters.
 
-<img src="images/n-compo-2.png" style="display:inline-block; max-width: 450px" alt>
+<img src="images/n-compo-2.png" alt>
 
-<img src="images/n-compo-1_1.png" style="display:inline-block; max-width: 450px" alt>
+<img src="images/n-compo-1_1.png" alt>
 
 Taking yourself forward again to the chapter on spacing and metrics, the design of the ‘n’ character
 should keep pace within the process of spacing the ‘n’ and ‘o’ characters together.
@@ -85,11 +85,11 @@ If we study the characters below from [Open Sans], we can see the relationships 
 aspects of separate characters and how they can be repeated, with some adjustments, to form the
 components of our font.
 
-<img src="images/h-m-n-curves.png" style="display:inline-block; max-width: 450px" alt>
+<img src="images/h-m-n-curves.png" alt>
 
-<img src="images/b-c-d-e-curves.png" style="display:inline-block; max-width: 450px" alt>
+<img src="images/b-c-d-e-curves.png" alt>
 
-<img src="images/i-j-t-f-curves.png" style="display:inline-block; max-width: 450px" alt>
+<img src="images/i-j-t-f-curves.png" alt>
 
 [“What is a font?”]: What_Is_a_Font.html
 [“Spacing, Metrics, and Kerning”]: Spacing_Metrics_and_Kerning.html
