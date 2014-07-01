@@ -84,6 +84,10 @@ Its a nice touch that the cap height of the Latin in Myriad Arabic is the x heig
 
 ## Useful Resources
 
+### Article: Designing a Devanāgarī text font for newspaper use 
+
+Yashodeep Gholap, an independent type designer and calligrapher from India, wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
+
 ### Lohit2 Devanagari
 
 Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph List and OpenType Layout code. It is available as [original FontForge sources](https://github.com/pravins/lohit2/tree/master/devanagari) or as a [UFO zip download](https://github.com/frank-trampe/lohit2/archive/master.zip)
