@@ -117,7 +117,15 @@ Then, you can begin using the spacing strings shown above, in order to add more 
 
 and so on!
 
-You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward - both on screen and in print.
+You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward - both on screen and in print. Doing a vertical check is more effective than just a long line of continuous text. Here's why:
+
+When you look at the spacing strings in vertical columns, you can easily compare the spacing with the lines previously above and below the current character. In the same way that we can easily recognize "rivers" in badly-set full-justified text, it will be easier to see white gaps or dark spots in spacing if you are comparing against a spacing string that remains constant.
+
+The spacing string above allows you to compare very disparate shapes, so that spacing is more even throughout (instead of all of the round characters being too loose or too tight)
+
+And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested character against two sets of three, if you just look at Pa/Da/Pa or Da/Pa/Da.
+
+<img src="images/deva-spacing.png" />
 
 ## Useful Resources
 
