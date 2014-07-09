@@ -44,7 +44,7 @@ For the absolute beginner; do not assume that reliable results are achieved by r
 
 <img src="images/hoohooo2.png" alt=""><img src="images/hoohooo1.png" alt="">
 
-
+A tool for generating such texts is available from <http://tools.ninastoessinger.com/>
 
 ## <strong>Metrics Menu Commands for editing metrics</strong>
 
