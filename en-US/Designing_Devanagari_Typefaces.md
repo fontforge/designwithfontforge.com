@@ -37,22 +37,23 @@ In any typeface design project, its a great idea to sketch out a Work Breakdown 
 
 For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
 
-Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design:
+Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
 
 |Week|Goal|Glyphs|
 |--:|:--|--:|
-|1|Establish design, and matching weight to Latin in Regular & Bold with ttfautohint|10|
-|2|Get native reader feedback and design the base unicode glyphs in both Regular and Bold |100|
-|3|Get native reader feedback, refine and add more conjuncts|200|
-|4|Get native reader feedback, refine and add more conjuncts|300|
-|5|Get native reader feedback, refine and add more conjuncts|400|
-|6|Finalisation of Regular's conjuncts, OpenType code and mark positioning, vowel signs etc|500|
-|7|Finalisation of Bold with native reader feedback|500|
-|8|Refinements, Kerning, testing with native reader feedback — approx. 620 glyphs per style|600|
-|9|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|600|
-|10|Interpolated styles refinement|600|
-|11|General refinement of spacing, kerning & testing in all styles|600|
-|12|Finalisation|600|
+|1|Establish design in 7-10 key glyphs|10|
+|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|10|
+|3|Refine proportions with native reader feedback|20|
+|4|Get native reader feedback, refine and add more conjuncts|100|
+|5|Get native reader feedback, refine and add more conjuncts|200|
+|6|Get native reader feedback, refine and add more conjuncts|300|
+|7|Get native reader feedback, refine and add more conjuncts|400|
+|8|Derive Bold|800|
+|9|Refinements, Kerning, testing with native reader feedback|800|
+|10|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|1,200|
+|11|Interpolated styles refinement|1,200|
+|12|General refinement of spacing, kerning & testing in all styles|3,600|
+|13|Finalisation|3,600|
 
 ## What To Do First
 
