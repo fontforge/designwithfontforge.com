@@ -82,6 +82,41 @@ Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
 
 Its a nice touch that the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin!
 
+## Spacing approach
+
+Designing Latin fonts typically involves a series of spacing strings like this:
+
+> HHxHOHOxOO
+> nnXnonoXoo
+
+Where the X represents the letter you are focused on spacing, and the concept is looking at this letter next to a somewhat flat-sided character and a round character. 
+
+Pa, and Va or Da are Devanagari equivalents:
+
+> पपXपवपवXवव
+> पपXपदपदXदद
+
+When just beginning a project, start with filling a page entirely with Pa in order to get the right balance of stroke thickness, counter size, and spacing. 
+
+> पपपपपपपपपपपपपपपपपपपपप 
+
+Once the Pa has the right "color", you can begin adding these other basic, common characters:
+
+> पपपवपपपपपवपववपपव (va, randomized)
+> पपपापपपपापपाप (Aa maatra, randomized)
+> पपपदपपपपपदपददपपद (da, randomized)
+
+Then, you can begin using the spacing strings shown above, in order to add more glyphs:
+
+> पपरपदपदरदद
+> पपकपदपदकदद
+> पपलपदपदलदद
+> पपपीपदपदपीदद
+
+and so on!
+
+You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward - both on screen and in print.
+
 ## Useful Resources
 
 ### Article: Designing a Devanāgarī text font for newspaper use 
