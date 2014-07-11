@@ -129,6 +129,20 @@ And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested c
 
 ## Useful Resources
 
+### Where to look for inspiration and ideas
+
+Look at the Devanagari fonts on the <http://indiantypefoundry.com> website, and those that were just released through Google Fonts, for inspiration on shapes of letters can vary. 
+
+Another good place to search for Hindi “e-paper” newspaper sites to see actual fonts-in-use - advertisements usually have more diversity in fonts. <http://epaper.jagran.com> is a very largely circulated Indian e-paper.
+
+Flickr is also a good source of ideas for imagery:
+
+* <https://www.flickr.com/groups/devanagari-script/>
+* <https://www.flickr.com/groups/37703106@N00/>
+* <https://www.flickr.com/groups/indicscripts/>
+
+
+
 ### Article: Designing a Devanāgarī text font for newspaper use 
 
 Yashodeep Gholap, an independent type designer and calligrapher from India, wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
@@ -171,3 +185,4 @@ Google Fonts Directory Discuss
 * [Starting from Lohit2](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/VAhs5MnjZ30) and [pdf](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/_3gtTalzKUQ)
 * [Adobe Glyph Lists](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/q8CQHVxVZ0Y)
 * [rVocalic and rrVocalic](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/eYmmBQENBb8)
+* [Devanagari Character Priorities](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/7dtNw8wwJzI)
