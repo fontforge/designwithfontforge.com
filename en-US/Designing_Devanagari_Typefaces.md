@@ -7,7 +7,7 @@ title: Designing Devanagari Typefaces
 ---
 
 
-_Thanks to Erin McLaughlin and Neelakash Kshetrimayum for contributing ideas to establish this page_
+_Thanks to Erin McLaughlin, Neelakash Kshetrimayum, and Dan Reynolds for contributing many of the ideas on this page_
 
 Designing a new and original Devanagari ([wikipedia](http://en.wikipedia.org/wiki/Devanagari)) typeface follows a process much like the process for a new and original Latin. The unique benefit of libre of libre fonts is that they can be modified and reused for new purposes that their initial creators never thought of - so you can design a Devanagari and use an existing Latin font to go with it. 
 
@@ -141,7 +141,17 @@ Flickr is also a good source of ideas for imagery:
 * <https://www.flickr.com/groups/37703106@N00/>
 * <https://www.flickr.com/groups/indicscripts/>
 
+#### Historical sources
 
+Get your hands on copies of Introduction to the Devanagari Script by H. M. Lambert, Oxford University Press 1953 and Typography of Devanagari (three volumes) by B. S. Naik, Directorate of Languages, Bombay 1971.
+
+Beyond that, there are at least two general sources of 19th Century type from Europe worth looking at: the typefaces from Britain and those from Germany (mostly from Leipzig). These types were used more for the setting of Sanskrit texts than for Hindi texts.
+
+Do also try to find samples of 19th and 20th C. text typefaces from Indian type foundries. They are significantly less Europeanized, as you might expect. There is wonky stuff going on in European academic sanskritic faces from the 19th century that doesn’t seem to appear in 20th century Indian typography at all. These Indian sources are probably more difficult to find in Western libraries, but perhaps Erin McLaughlin has more leads. Matthew Carter’s 1970s Linotype Devanagari is based on typefaces from the Nirnaya Sagar foundry, for instance. Samples of their types, and the Bombay Type Foundry’s types, should be accessible in some western university and/or national libraries. I’d also recommend looking at Monotype’s Devanagari and Linotype Devanagari (the 1970s version and 1980/90s update, not the original 1935 one, which only bore the same name).
+
+There is no Devanagari type in Typefounders in The Netherlands (Charles Enschede, Harry Carter 1978). Whatever you do, don’t look at Bodoni’s types from his 1818 manual.
+
+Some German-made Devanagari type from H. Berthold AG may be seen in Alphabete und Schriftzeichen des Morgen- und des Abendlandes, from the Reichsdruckerei, Berlin 1924, p. 45–47.
 
 ### Article: Designing a Devanāgarī text font for newspaper use 
 
