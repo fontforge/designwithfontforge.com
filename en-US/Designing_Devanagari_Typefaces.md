@@ -9,7 +9,7 @@ title: Designing Devanagari Typefaces
 
 _Thanks to Erin McLaughlin, Neelakash Kshetrimayum, and Dan Reynolds for contributing many of the ideas on this page_
 
-Designing a new and original Devanagari ([wikipedia](http://en.wikipedia.org/wiki/Devanagari)) typeface follows a process much like the process for a new and original Latin. The unique benefit of libre of libre fonts is that they can be modified and reused for new purposes that their initial creators never thought of - so you can design a Devanagari and use an existing Latin font to go with it. 
+Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of - for example, designing a Devanagari and adapting an existing Latin font to go with it. 
 
 ## Devanagari Glyphs
 
@@ -31,57 +31,31 @@ Devanagari fonts contain these different types of glyphs:
 
 Consult the ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
 
-## Work Breakdown Structure
-
-In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
-
-For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
-
-Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
-
-|Week|Goal|Glyphs|
-|--:|:--|--:|
-|1|Establish design in 7-10 key glyphs|10|
-|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|10|
-|3|Refine proportions with native reader feedback|20|
-|4|Get native reader feedback, refine and add more conjuncts|100|
-|5|Get native reader feedback, refine and add more conjuncts|200|
-|6|Get native reader feedback, refine and add more conjuncts|300|
-|7|Get native reader feedback, refine and add more conjuncts|400|
-|8|Derive Bold|800|
-|9|Refinements, Kerning, testing with native reader feedback|800|
-|10|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|1,200|
-|11|Interpolated styles refinement|1,200|
-|12|General refinement of spacing, kerning & testing in all styles|3,600|
-|13|Finalisation|3,600|
-
 ## What To Do First
 
 When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages, in addition to the "key" design glyphs to establish the personality of the typeface through fundamental shapes and spacing(which in Latin may be 'adhesion' or 'videospan') it is good to design the "height extremes", the lowest and highest glyphs. 
 
-Girish Dalvi wrote in his PhD,
+The professor of typography at IIT Bombay, Dr Girish Dalvi, wrote in his PhD thesis,
 
 > Through the results of this study we can deduce that the ten letters अ इ ए ख त भ द ध थ ष can almost capture all the formal properties of remaining Devanagari letters. Within these letters the letters अ इ ख भ द ध ष are most critical as they define features for the majority of the letters. We can hence suggest that by designing these letters first; the process of Devanagari font design can be simplified for students well as type designers as the remaining letters can be derived from these ones.
 
-Erin McLaughlin suggested these glyphs as an initial progression:  **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … continue character set**
+Erin McLaughlin suggested these glyphs as an initial progression:  **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … continue character set** and suggested to focus on the "Au" vowel sign + reph + anusvara combo!, the Ma is just there for posterity.
 
-(Focus on the "Au" vowel sign + reph + anusvara combo!, the Ma is just there for posterity.)
+The height extremes glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
 
-Note that in the Lohit character set, the lowest glyphs are these "low" forms, meant to go below characters that descend very far below the baseline:
+Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
+
+<img src="images/myriad_pro_vs_arabic.png" />
+
+(Spot Adobe's designers neat decision: the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin.)
+
+Note that in the Lohit character set, the lowest glyphs are forms, meant to go below characters that descend very far below the baseline:
 
 TODO: Add image of vattu+U, vattu+Uu, U, Uu, and subscript V (for conjuncts)
 
 (Vattu is the below-base form of reph. See the [Microsoft terminology](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) page for more details)
 
 Ideally, these should stack below your lowest vertically-stacking conjunct, like the example on the left  (Lohit, which doesn't quite vertically fit, is on the right):
-
-These glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
-
-Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
-
-<img src="images/myriad_pro_vs_arabic.png" />
-
-Its a nice touch that the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin!
 
 ## Spacing approach
 
@@ -127,6 +101,30 @@ And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested c
 
 <img src="images/deva-spacing.png" />
 
+## Work Breakdown Structure
+
+In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
+
+For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
+
+Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
+
+|Week|Goal|Glyphs|
+|--:|:--|--:|
+|1|Establish design in 7-10 key glyphs|10|
+|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|10|
+|3|Refine proportions with native reader feedback|20|
+|4|Get native reader feedback, refine and add more conjuncts|100|
+|5|Get native reader feedback, refine and add more conjuncts|200|
+|6|Get native reader feedback, refine and add more conjuncts|300|
+|7|Get native reader feedback, refine and add more conjuncts|400|
+|8|Derive Bold|800|
+|9|Refinements, Kerning, testing with native reader feedback|800|
+|10|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|1,200|
+|11|Interpolated styles refinement|1,200|
+|12|General refinement of spacing, kerning & testing in all styles|3,600|
+|13|Finalisation|3,600|
+
 ## Useful Resources
 
 ### Where to look for inspiration and ideas
@@ -140,6 +138,7 @@ Flickr is also a good source of ideas for imagery:
 * <https://www.flickr.com/groups/devanagari-script/>
 * <https://www.flickr.com/groups/37703106@N00/>
 * <https://www.flickr.com/groups/indicscripts/>
+* <https://www.flickr.com/photos/pauldhunt/sets/72157603715699186>
 
 #### Historical sources
 
