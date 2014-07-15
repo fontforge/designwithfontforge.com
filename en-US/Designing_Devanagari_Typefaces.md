@@ -152,9 +152,11 @@ There is no Devanagari type in Typefounders in The Netherlands (Charles Enschede
 
 Some German-made Devanagari type from H. Berthold AG may be seen in Alphabete und Schriftzeichen des Morgen- und des Abendlandes, from the Reichsdruckerei, Berlin 1924, p. 45–47.
 
-### Article: Designing a Devanāgarī text font for newspaper use 
+### Articles
 
-Yashodeep Gholap, an independent type designer and calligrapher from India, wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
+Sarang Kulkarni wrote ["Issues with Devanagari Display Type (PDF)"](http://www.typoday.in/2013/spk_papers13/sarang-kulkarni-typographyday2013.pdf)
+
+Yashodeep Gholap wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
 
 ### Lohit2 Devanagari
 
