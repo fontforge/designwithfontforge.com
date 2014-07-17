@@ -158,6 +158,8 @@ Sarang Kulkarni wrote ["Issues with Devanagari Display Type (PDF)"](http://www.t
 
 Yashodeep Gholap wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
 
+Vaibhav Singh's MATD disertation, [Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
+
 ### Lohit2 Devanagari
 
 Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph List and OpenType Layout code. It is available as [original FontForge sources](https://github.com/pravins/lohit2/tree/master/devanagari) or as a [UFO zip download](https://github.com/frank-trampe/lohit2/archive/master.zip)
