@@ -7,7 +7,7 @@ title: Designing Devanagari Typefaces
 ---
 
 
-_Thanks to Erin McLaughlin, Neelakash Kshetrimayum, and Dan Reynolds for contributing many of the ideas on this page_
+_Thanks to Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena for contributing many of the ideas on this page_
 
 Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of - for example, designing a Devanagari and adapting an existing Latin font to go with it. 
 
@@ -31,9 +31,13 @@ Devanagari fonts contain these different types of glyphs:
 
 Consult the ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
 
+It is helpful to do some calligraphy or closely study writing manuals to learn how the script works, so you understand which letters should be like which other letters in structure. These [2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) can be used as a reference for pen angle and letter proportions.
+
 ## What To Do First
 
-When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages, in addition to the "key" design glyphs to establish the personality of the typeface through fundamental shapes and spacing(which in Latin may be 'adhesion' or 'videospan') it is good to design the "height extremes", the lowest and highest glyphs. 
+When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages are designing the "key" glyphs, to establish the personality of the typeface through fundamental shapes and spacing (which in Latin may be 'adhesion' or 'videospan'.) Design the lowest and highest "height extremes" glyphs early in the process. 
+
+You'll need plenty of vowel signs to begin testing texture and scale. 
 
 The professor of typography at IIT Bombay, Dr Girish Dalvi, wrote in his PhD thesis,
 
@@ -169,6 +173,8 @@ Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph Lis
 [Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 
 ### Devanagari Anatomy
+
+[2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J), which can be used as a reference for pen angle and letter proportions.
 
 Professor Girish Davli of IIT Bombay IDC (comparable to the USA's MIT Media Lab) published this [Devanagari Anatomy article (PDF)](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
 
