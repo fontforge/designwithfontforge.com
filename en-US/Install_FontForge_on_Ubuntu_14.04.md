@@ -52,7 +52,7 @@ Install packages to allow the building of software:
 sudo apt-get install build-essential automake flex bison
 ```
 
-Install the *unifont* package to get a full display of the reference glyphs.  Unifont (http://savannah.gnu.org/projects/unifont) includes glyphs for all Unicode codepoints, and FontForge will use it if it is installed.
+Install the *unifont* package to get a full display of the reference glyphs.  [Unifont] (http://savannah.gnu.org/projects/unifont) includes glyphs for all Unicode codepoints, and FontForge will use it if it is installed.
 
 ```
 sudo apt-get install unifont
@@ -67,7 +67,7 @@ libglib2.0-dev libxml2-dev giflib-dbg libjpeg-dev libtiff-dev uthash-dev
 
 #### Build *libspiro*
 
-FontForge uses *libspiro* (http://github.com/fontforge/libspiro) to simplify the drawing of curves.
+FontForge uses [libspiro] (http://github.com/fontforge/libspiro) to simplify the drawing of curves.
 
 Download the code:
 
@@ -89,7 +89,7 @@ cd ..
 
 #### Build *libuninameslist*
 
-FontForge uses *libuninameslist* (http://github.com/fontforge/libuninameslist) to access attribute data about each Unicode code point.
+FontForge uses [libuninameslist] (http://github.com/fontforge/libuninameslist) to access attribute data about each Unicode code point.
 
 Download the code:
 

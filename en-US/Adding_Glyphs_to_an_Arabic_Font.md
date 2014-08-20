@@ -12,11 +12,9 @@ In some cases a font may lack a glyph that is essential for its use in your appl
 
 <img src="images/beh_dal.png" />
 
-This chapter walks through adding a glyph to an Arabic font.  The font we will use is Graph (http://openfontlibrary.org/en/font/graph), and the glyph we will add is *peh* (U+067E), which does not occur in Arabic itself, but designates *p* in some languages for which Arabic script is used (for a full listing of the glyphs available for Arabic script, see the charts at http://www.unicode.org/charts).
+This chapter walks through adding a glyph to an Arabic font.  The font we will use is [Graph] (http://openfontlibrary.org/en/font/graph), and the glyph we will add is *peh* (U+067E), which does not occur in Arabic itself, but designates *p* in some languages for which Arabic script is used (for a full listing of the glyphs available for Arabic script, see the [Unicode charts] (http://www.unicode.org/charts).
 
 <img src="images/peh.png" />
-
-I am grateful to Khaled Hosny (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
 
 
 ## Make a working copy of the font
@@ -30,9 +28,9 @@ Download the font from the webpage and unzip it.  Launch FontForge and load the 
 
 If you do not rename the font, your adapted font will not install separately from the original -- you will have to uninstall the original font first.  It is also sensible to rename the font if you are going to distribute your adaptations -- if the original author of the font has reserved the font name under the Reserved Font Name (RFN) mechanism, that original name can only be used with the original author's version of the font.
 
-If you adapt a font that was originally under an open licence (eg GPL, http://gnu.org/copyleft/gpl.html, or OFL, http://scripts.sil.org/OFL-FAQ_web) and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
+If you adapt a font that was originally under an open licence (e.g. [GPL] (http://gnu.org/copyleft/gpl.html) or [OFL] ( http://scripts.sil.org/OFL-FAQ_web) and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
 
-If you adapt a font that was originally under a closed licence (eg most fonts by Microsoft, Adobe, Bitstream, Linotype, etc), you should **not** distribute it, since this is a breach of copyright.
+If you adapt a font that was originally under a closed licence (e.g. most fonts by Microsoft, Adobe, Bitstream, Linotype, etc), you should **not** distribute it, since this is a breach of copyright.
 
 #### Change the name data
 
@@ -153,7 +151,7 @@ Do the same for the submenus under the entries *'medi' Medial Forms in Arabic lo
 
 Click **OK** again to close the panel, and save the font chart (**Ctrl+S**).
 
-Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block -- glyphs in Unicode 07 (*Arabic Supplement*), eg *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
+Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block -- glyphs in Unicode 07 (*Arabic Supplement*), e.g. *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
 
 ### Generate the adapted font
 
@@ -168,3 +166,5 @@ You can then use your normal font installation procedure to install the adapted 
 <img src="images/beh_dal_peh.png" />
 
 <p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes -- otherwise it will use the previous version of the font, and not the one with the new changes.</p>
+
+Thanks to [Khaled Hosny] (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
