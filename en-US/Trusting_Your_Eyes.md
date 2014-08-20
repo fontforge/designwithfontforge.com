@@ -78,16 +78,14 @@ Now let’s look at an actual italic, applying these corrections to the glyphs:
 When a bar crosses another diagonal or a straight line, it will need adjustments to not appear as
 misaligned.
 
-<img src="images/1exes.png" alt>
+<img src="images/compare-x.png" alt>
 
 In the example above, the X on the left has two unadjusted bars crossing each other. The example on
 the right has been adjusted so that they appear to be aligned.
 
-<img src="images/voltaire-X.png" alt>
+<img src="images/myriad-x.png" alt>
 
-<!-- TODO: Show an X that is adjusted more like Myriad -->
-
-As you can see in this outline view, the X that appears visually aligned involves an offset.
+As you can see in this X with dotted line on top of it, the X that appears visually aligned involves an offset.
 
 Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the icelandic letter ‘eth’
 (&eth;).
