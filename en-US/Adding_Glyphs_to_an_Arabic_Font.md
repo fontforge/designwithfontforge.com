@@ -1,10 +1,10 @@
----
+&ndash;-
 published: true
 layout: bookpage
 weight: 93
 section: Workflow
 title: Adding Glyphs to an Arabic Font
----
+&ndash;-
 
 ## Introduction
 
@@ -26,7 +26,7 @@ Download the font from the webpage and unzip it.  Launch FontForge and load the 
 
 #### Why should I rename the font?
 
-If you do not rename the font, your adapted font will not install separately from the original -- you will have to uninstall the original font first.  It is also sensible to rename the font if you are going to distribute your adaptations -- if the original author of the font has reserved the font name under the Reserved Font Name (RFN) mechanism, that original name can only be used with the original author's version of the font.
+If you do not rename the font, your adapted font will not install separately from the original &ndash; you will have to uninstall the original font first.  It is also sensible to rename the font if you are going to distribute your adaptations &ndash; if the original author of the font has reserved the font name under the Reserved Font Name (RFN) mechanism, that original name can only be used with the original author's version of the font.
 
 If you adapt a font that was originally under an open licence (e.g. [GPL] (http://gnu.org/copyleft/gpl.html) or [OFL] ( http://scripts.sil.org/OFL-FAQ_web) and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
 
@@ -44,7 +44,7 @@ In the *TTF Names* panel, the names for *Family* and *Fullname* are taken from t
 
 If desired, you can place an 'Additional glyphs added by' message after the text already in the entry for *Designer*.
 
-Click **OK** to save these changes.  You will get a message about generating a new UniqueID (XUID) for the font -- click **Change**.
+Click **OK** to save these changes.  You will get a message about generating a new UniqueID (XUID) for the font &ndash; click **Change**.
 
 
 ## Add the glyph for the isolated form of *peh*
@@ -61,13 +61,13 @@ Click on the *beh* cell (position 1576), then right-click and select **Copy**.  
 
 <img src="images/peh_with_beh.png" />
 
-Find a glyph with three dots -- *sheen* (position 1588, U+0634) will do.  Double-click on the cell -- this will open a glyph design panel.  Press **V** to ensure the pointer tool (arrowhead) in the toolbox is selected, and press **Z** and enlarge the panel to give you a good view of the glyph.
+Find a glyph with three dots &ndash; *sheen* (position 1588, U+0634) will do.  Double-click on the cell &ndash; this will open a glyph design panel.  Press **V** to ensure the pointer tool (arrowhead) in the toolbox is selected, and press **Z** and enlarge the panel to give you a good view of the glyph.
 
 Click and drag so that the nodes of the three dots above sheen change colour from pink to beige.  If you accidentally include or omit a node, deselect or select it by pressing **Shift** and clicking.  Press **Alt+C** to copy.
 
 <img src="images/sheen_dots.png" />
 
-Go back to the font chart and double-click on the *peh* cell -- this will load *peh* into another tab in the glyph design panel, alongside the *sheen* tab.
+Go back to the font chart and double-click on the *peh* cell &ndash; this will load *peh* into another tab in the glyph design panel, alongside the *sheen* tab.
 
 Click and drag to highlight the dot below *peh*, then press **Delete**.  Press **Alt+V** to paste in the three dots, which will likely appear above the body of *peh*.  Leave the dot nodes highlighted so that you can invert and move them more easily.
 
@@ -89,7 +89,7 @@ Close the glyph design panel. There should now be a new glyph for *peh* in the f
 
 However, this is only the isolated (standalone) form of the glyph.  If you try to use your adapted font, you will find that initial, medial and final forms are not available.  These have to be created separately.  "The[se] forms are built as unencoded glyphs (glyphs whose encoding is -1 in FontForge conventions).  Th[ey] have no predefined slots." (Khaled Hosny)
 
-Select **Encoding → Add Encoding Slots** and enter the number of the glyphs you want -- in this case **3**.  FontForge will add the same number of slots at the very end of the font, and you will be moved there in the font chart.  The last three cells (positions 65537, 65538, 65539) have a question mark as a reference glyph, and it is in those cells that you will add the unencoded glyphs by repeating the process above.
+Select **Encoding → Add Encoding Slots** and enter the number of the glyphs you want &ndash; in this case **3**.  FontForge will add the same number of slots at the very end of the font, and you will be moved there in the font chart.  The last three cells (positions 65537, 65538, 65539) have a question mark as a reference glyph, and it is in those cells that you will add the unencoded glyphs by repeating the process above.
 
 <img src="images/peh_slots.png" />
 
@@ -97,7 +97,7 @@ Note that if by mistake you start typing when the font chart still has focus, yo
 
 #### Create the final form
 
-Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards.  At U+FE90 (position 65168) you will see a *behfinal* glyph -- click on it and press **Ctrl+C** to copy it.  Roll down to the third last cell in the chart (position 65537), click on it, and press **Ctrl-V** to paste in the *behfinal* glyph.
+Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards.  At U+FE90 (position 65168) you will see a *behfinal* glyph &ndash; click on it and press **Ctrl+C** to copy it.  Roll down to the third last cell in the chart (position 65537), click on it, and press **Ctrl-V** to paste in the *behfinal* glyph.
 
 <img src="images/beh_forms.png" />
 
@@ -134,7 +134,7 @@ Select **Element → Font Info → Lookups**.
 
 Click on the **+** beside the entry *'init' Initial Forms in Arabic lookup 2*.  This will open a submenu of the same name.  Click on this submenu.
 
-The *Edit Data* button on the right will now become available -- click it.
+The *Edit Data* button on the right will now become available &ndash; click it.
 
 <img src="images/peh_lookups1.png" />
 
@@ -151,7 +151,7 @@ Do the same for the submenus under the entries *'medi' Medial Forms in Arabic lo
 
 Click **OK** again to close the panel, and save the font chart (**Ctrl+S**).
 
-Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block -- glyphs in Unicode 07 (*Arabic Supplement*), e.g. *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
+Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block &ndash; glyphs in Unicode 07 (*Arabic Supplement*), e.g. *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
 
 ### Generate the adapted font
 
@@ -165,6 +165,6 @@ You can then use your normal font installation procedure to install the adapted 
 
 <img src="images/beh_dal_peh.png" />
 
-<p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes -- otherwise it will use the previous version of the font, and not the one with the new changes.</p>
+<p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes &ndash; otherwise it will use the previous version of the font, and not the one with the new changes.</p>
 
 Thanks to [Khaled Hosny] (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
