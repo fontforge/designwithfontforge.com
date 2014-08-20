@@ -59,6 +59,10 @@ Example:
 
 #### How to build the site
 
+For Linux, ensure that ruby-dev is installed on your system: e.g. for Ubuntu 14.04:
+    
+    sudo apt-get install ruby-dev
+
 First install Jekyll, with `gem`:
 
     sudo gem install jekyll
