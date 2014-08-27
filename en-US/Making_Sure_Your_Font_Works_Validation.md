@@ -6,13 +6,13 @@ category: workflow
 title: Making Sure Your Font Works, Validation
 ---
 
-In a perfect world, your font would be ready to build and install on any modern computer without any special effort, but reality is messier -- particularly during the design process. Fonts can have technical errors that prevent them from working or displaying correctly. For example, curves that intersect themselves will not render correctly because they do not have a "inside" and "outside." The various font file formats also expect glyphs to adhere to certain rules that simplify placing the text on screen, and fonts that break the rules can cause unexpected problems. An example of this type of issue is that all of the points on a curve should have coordinates that are integers. Finally, there are stylistic errors that are not technically incorrect, but that you will still want to repair -- such as lines that are intended to be perfectly horizontal or vertical, but are accidentally slightly off-kilter.
+In a perfect world, your font would be ready to build and install on any modern computer without any special effort, but reality is messier—particularly during the design process. Fonts can have technical errors that prevent them from working or displaying correctly. For example, curves that intersect themselves will not render correctly because they do not have a "inside" and "outside." The various font file formats also expect glyphs to adhere to certain rules that simplify placing the text on screen, and fonts that break the rules can cause unexpected problems. An example of this type of issue is that all of the points on a curve should have coordinates that are integers. Finally, there are stylistic errors that are not technically incorrect, but that you will still want to repair—such as lines that are intended to be perfectly horizontal or vertical, but are accidentally slightly off-kilter.
 
 FontForge offers tools that you can use to locate (and, in many cases, repair) all three categories of problem. Validating your font to eliminate these errors will thus not only ensure that it can be installed and enjoyed by users, but will ensure that finished project exhibits polish.
 
 ## Find Problems
 
-The first tool is called <em>Find Problems</em>, and is found under the Element menu. You must first select one or more glyphs -- either from in the font view, the outline view, or the metrics view -- then open the Find Problems tool. The tool presents you with an assortment of potential problems in eight separate tabs.
+The first tool is called <em>Find Problems</em>, and is found under the Element menu. You must first select one or more glyphs—either from in the font view, the outline view, or the metrics view—then open the Find Problems tool. The tool presents you with an assortment of potential problems in eight separate tabs.
 
 <img src="images/findproblemswindow.png" alt="">
 
@@ -45,11 +45,11 @@ Similarly, select all of the tests in the "ATT" tab. These tests look for missin
 
 ### Make life easier for your users: test for good behaviour
 
-The tests listed above will ensure that your font installs and renders correctly according to the rules set out by the various font formats, but there are a handful of others tests you should consider adding -- especially at the end of the design process -- simply because they check for common conventions followed by most modern typography.
+The tests listed above will ensure that your font installs and renders correctly according to the rules set out by the various font formats, but there are a handful of others tests you should consider adding—especially at the end of the design process—simply because they check for common conventions followed by most modern typography.
 
 In the "Points" tab, select <em>Control points beyond spline</em>. This test will look for control points lying beyond the endpoints of the curve segment on which they reside. There is rarely a reason that a control point should lie outside of the curve, so these instances usually signify accidents. It is also a good idea to select <em>Points too far apart</em>, which will look for points that are more than 32767 units away from the next nearest point. That distance is larger than most computers can deal with internally, and a point that far away is almost certainly unintentional (for comparison, a single glyph tends to be drawn on a grid of about 1000 units), so removing such points is important.
 
-In the "Paths" tab, both the <em>Check Missing Extrema</em> and<em> More Points Than [val]</em> tests can be valuable. The first looks for points at the extrema -- that is, the uppermost point, lowest point, and leftmost and rightmost points of the glyph. Modern font formats strongly suggest that each path have a point at each of its horizontal and vertical extrema; this makes life easier when the font is rendered on screen or on the page. check will look for missing extrema points. The second test is a sanity check on the number of points within any one glyph. FontForge's default value for this check is 1,500 points, which is the value suggested by the PostScript documentation, and it is good enough for almost all fonts.
+In the "Paths" tab, both the <em>Check Missing Extrema</em> and<em> More Points Than [val]</em> tests can be valuable. The first looks for points at the extrema—that is, the uppermost point, lowest point, and leftmost and rightmost points of the glyph. Modern font formats strongly suggest that each path have a point at each of its horizontal and vertical extrema; this makes life easier when the font is rendered on screen or on the page. check will look for missing extrema points. The second test is a sanity check on the number of points within any one glyph. FontForge's default value for this check is 1,500 points, which is the value suggested by the PostScript documentation, and it is good enough for almost all fonts.
 
 As its name suggests, the "Random" tab lists miscellaneous tests that do not fit under the other categories. Of these, the final three are valuable: <em>Check Multiple Unicode</em>, <em>Check Multiple Names</em>, and <em>Check Unicode/Name mismatch</em>. They look for metadata errors in the mapping between glyph names and Unicode slots.
 
@@ -63,7 +63,7 @@ You can use other tests to locate on-curve points that are too close to each oth
 
 ## Validate font
 
-FontForge's other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is deigned to run just those tests that examine the font for technical correctness -- essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
+FontForge's other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is deigned to run just those tests that examine the font for technical correctness—essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
 
 <img src="images/validator-integral-question.png" alt="">
 
@@ -75,11 +75,11 @@ But this window is not merely a list of errors: you can double-click on each ite
 
 <img src="images/validator-fix-problem.png" alt="">
 
-For some problems, there is no automatic fix, but seeing the issue on-screen will help you fix it immediately. For example, a self-intersecting curve has a specific place where the path crosses over itself -- it may have been too small for you to notice at a glance, but zooming in will allow you to reshape the path and eliminate the problem.
+For some problems, there is no automatic fix, but seeing the issue on-screen will help you fix it immediately. For example, a self-intersecting curve has a specific place where the path crosses over itself—it may have been too small for you to notice at a glance, but zooming in will allow you to reshape the path and eliminate the problem.
 
 For other problems, there may not be one specific point at which the error is located. For example, if a curve is traced in the wrong direction (that is, counterclockwise when it should be clockwise), the entire curve is affected. In those instances where FontForge cannot automatically fix the problem and there is no specific point on the glyph for the validator to highlight, you may have to hunt around in order to manually correct the problem.
 
-Finally, there are some tests performed by the validator that might not be a problem from the final output format you have in mind -- for example, the non-integral coordinates test mentioned earlier.  In those cases, you can click on the "ignore this problem in the future" checkbox in the error explanation window, and suppress that particular error message in future validation runs.
+Finally, there are some tests performed by the validator that might not be a problem from the final output format you have in mind—for example, the non-integral coordinates test mentioned earlier.  In those cases, you can click on the "ignore this problem in the future" checkbox in the error explanation window, and suppress that particular error message in future validation runs.
 
 ## Fix problems as you edit
 
