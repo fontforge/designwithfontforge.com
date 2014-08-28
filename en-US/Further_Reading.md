@@ -17,9 +17,13 @@ title: Further Reading
 * http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
 * http://raph.levien.com/phd Raph Levien's PhD on Spiro curves
 
+### Latin
+
+* [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
+
 ### Cyrillic 
 
-* http://learncyrillic.tumblr.com 
+* [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
 * [Bulgarian Cyrillic](http://www.cyrillicsly.com/)
 * [Paratype Language Help](http://www.paratype.com/help/language/) - Cyrillic encodings
