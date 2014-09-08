@@ -61,3 +61,10 @@ styles, but to aid making design choices about those typographic variables that 
 members of a family.  
 For a remainder of the variables you should be considering, see the chapter [“What is a
 font?”](What_Is_a_Font.html).
+
+# Technical: Version Management 
+
+You should learn to use Git and Github to store your files, and use the "SFDir" format for your sources.
+
+* <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
+* <http://justinhileman.info/article/git-pretty/>
