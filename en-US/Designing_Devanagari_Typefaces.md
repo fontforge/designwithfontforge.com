@@ -131,6 +131,10 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 
 ## Useful Resources
 
+### Introductions
+
+* <http://www.linotype.com/6896/devanagari.html>
+
 ### Where to look for inspiration and ideas
 
 Look at the Devanagari fonts on the <http://indiantypefoundry.com> website, and those that were just released through Google Fonts, for inspiration on shapes of letters can vary. 
