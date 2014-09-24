@@ -173,3 +173,7 @@ If autokerned values need to be adjusted (and they will!) then this can be done 
 - using the Metrics Window.
 
 - using the 'Kern Pair Closeup' command from the Metrics menu.
+
+## See also
+
+[Strategies for determining letter spacing](http://letterpunch.blogspot.com/2014/09/strategies-for-setting-letter-spacing-part-one)
