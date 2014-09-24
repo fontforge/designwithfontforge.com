@@ -176,4 +176,4 @@ If autokerned values need to be adjusted (and they will!) then this can be done 
 
 ## See also
 
-[Strategies for determining letter spacing](http://letterpunch.blogspot.com/2014/09/strategies-for-setting-letter-spacing-part-one)
+[Strategies for determining letter spacing](http://letterpunch.blogspot.com/2014/09/strategies-for-setting-letter-spacing-part-one.html)
