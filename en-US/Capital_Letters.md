@@ -10,7 +10,7 @@ Making the capital letters should follow a pattern very similar to the making of
 
 The first two letters to design are "H" and "O". The design these letters should not just be in relation to each other but should also relate to the existing lower case letters.
 
-It is at this stage that you determining the proportion of the lower case to the upper case. You may want to adjust the ascenders and descenders of your lower case or adjust your capitals to the lower case to create the proportin that suit the purpose of your design.
+It is at this stage that you determining the proportion of the lower case to the upper case. You may want to adjust the ascenders and descenders of your lower case or adjust your capitals to the lower case to create the proportion that suit the purpose of your design.
 
 The weight of strokes in the upper case often needs to be somewhat heavier than the strokes of the lower case. You may want to create an interpolation experiment to rapidly find how much heavier they should be.
 
