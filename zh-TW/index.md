@@ -14,6 +14,7 @@ title: FontForge 字型設計
 <ol class="rectangle-list">
 {% for weight in (1..100) %}
   {% for p in site.pages %}
+    {% if p.zh_TW == true %}
     {% if p.weight > 0 %}
     {% if p.weight == weight %}
       <li>
@@ -21,6 +22,7 @@ title: FontForge 字型設計
           {{ p.title }}
         </a>
       </li>
+    {% endif %}
     {% endif %}
     {% endif %}
   {% endfor %}

@@ -3,7 +3,8 @@ published: true
 layout: bookpage
 weight: 1
 category: Before You Begin
-title: 引言
+title: 序言
+zh_TW: true
 ---
 
 我們製作本書來幫助人們瞭解字型設計的過程。字型設計不只是視覺上看起來複雜而已，更是高度技術性的工作 &ndash; 幸好，現在製作字型不再像以往那麼困難，其中一部份是因為我們有自由免費的工具可以使用，例如 [FontForge]。雖然 FontForge 是個好用工具，但如果剛開始接觸的就是 FontForge 時，你會發現它根本不適合初學者。它擁有進階的工具組，而且就在本書撰寫的同時還在快速改善當中。
