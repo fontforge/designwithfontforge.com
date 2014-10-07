@@ -109,25 +109,30 @@ And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested c
 
 In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
 
-For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
+For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 4-6 months. 
 
 Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
 
 |Week|Goal|Glyphs|
 |--:|:--|--:|
 |1|Establish design in 7-10 key glyphs|10|
-|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|10|
-|3|Refine proportions with native reader feedback|20|
+|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|20|
+|3|Refine proportions with native reader feedback|40|
 |4|Get native reader feedback, refine and add more conjuncts|100|
 |5|Get native reader feedback, refine and add more conjuncts|200|
 |6|Get native reader feedback, refine and add more conjuncts|300|
 |7|Get native reader feedback, refine and add more conjuncts|400|
-|8|Derive Bold|800|
-|9|Refinements, Kerning, testing with native reader feedback|800|
-|10|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|1,200|
-|11|Interpolated styles refinement|1,200|
-|12|General refinement of spacing, kerning & testing in all styles|3,600|
-|13|Finalisation|3,600|
+|8|Get native reader feedback, refine and add more conjuncts|500|
+|9|Get native reader feedback, refine and add more conjuncts|600|
+|10|Get native reader feedback, refine and add more conjuncts|700|
+|11|Get native reader feedback, refine and add more conjuncts|800|
+|12|Get native reader feedback, refine and add more conjuncts|900|
+|13|Derive Bold|1,800|
+|14|Refinements, Kerning, testing with native reader feedback|1,800|
+|15|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|3,600|
+|16|Interpolated styles refinement|3,600|
+|17|General refinement of spacing, kerning & testing in all styles|3,600|
+|18|Finalisation|3,600|
 
 ## Useful Resources
 
