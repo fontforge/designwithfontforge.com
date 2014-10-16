@@ -6,29 +6,15 @@ category: Before You Begin
 title: 什么是字体?
 ---
 
-&mdash; 什么使得手写、书法、印刷和徽标的字型不同？
+&mdash; 什么使得手写、书法、印刷和Logo的字体样式不同？
 
+使字体设计不同的一个最大的问题是需要字体样式中的每一个字形与其他字形的一起工作。这通常意味着字体样式中的每一部分的设计和间距最终要成为仔细折中的一个系列。这些折中意味着我们最好能够将字体样式设计看作是创造一个字母的美妙集合而不是一个美妙字母的集合。换句话说我们必须思考整体以及他们如何一起运转，并且其优先级要高于一个字母的精妙之处的问题。
 
+这需要我们要使系统优先于每一部分，也导致了我们在系统的层面来分析我们的设计进程。特征超越字母成为我们想要关注的东西，尤其是在设计进程初期。
 
-The single biggest issue that makes type design different is the need for every glyph in the
-typeface to work with every other glyph. This often means that the design and spacing of each part
-of the typeface ends up being a series of careful compromises. These compromises mean that we can
-best think about typeface design as the creation of a wonderful collection of letters but not as a
-collection of wonderful letters. In other words we must think about the group and how it will
-perform together and prioritize this over any question of what is wonderful in a single letter.
+在字体设计中其他怪异的地方在于我们设计的形式在很大程度上已经显著建立。我们设计字体的任务并没有建立全新形式那么重，而是建立一个已有形式的新版本。这可能使新的字体设计者感到困惑。找到合适数量的改变来激励他们同时也不使读者感到疏远使一件棘手的事情。设计者通常会陷入具体字母的思考。如果你一开始意识到字体样式中最有意义的是其中重复最多的那些组成部分，那么能够很容易地避免这个错误。字体样式设计不是仅仅是关于设计特征应用在我们所认识的通用形式上，
 
-This need to prioritize with the system rather than with any single part also leads to a need to
-analyse our design process on the level of the system. Characteristics which span letters become the
-things we want to focus on, particularly at the beginning of the design process.
-
-The other oddity in type design is that to a very large extent the forms we are designing are
-already significantly established. Our task as type designers is not so much to create an utterly
-new form but rather to create a new version of an existing form. This can perplex new type
-designers. Finding just the right amount to change in order to excite but not to alienate a reader
-is a tricky thing. Often designers get stuck in letter-specific thinking. This mistake can be easily
-avoided if you realize from the start that what is most meaningful in a typeface are the parts of it
-that repeat the most. Typeface design is not just about designing the characteristics applied to the
-common forms we all recognize, but also to the forms that occur most often.
+Often designers get stuck in letter-specific thinking. This mistake can be easily avoided if you realize from the start that what is most meaningful in a typeface are the parts of it that repeat the most. Typeface design is not just about designing the characteristics applied to the common forms we all recognize, but also to the forms that occur most often.
 
 It is also useful to recognize that these characteristics not only help to create a font’s voice or
 atmosphere, but also determine what the font will or will not be useful for, and they sometimes help
