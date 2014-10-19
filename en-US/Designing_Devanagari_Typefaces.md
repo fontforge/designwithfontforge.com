@@ -55,7 +55,6 @@ Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
 
 Note that in the Lohit character set, the lowest glyphs are forms, meant to go below characters that descend very far below the baseline:
 
-TODO: Add image of vattu+U, vattu+Uu, U, Uu, and subscript V (for conjuncts)
 
 (Vattu is the below-base form of reph. See the [Microsoft terminology](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) page for more details)
 
