@@ -3,110 +3,86 @@ published: true
 layout: bookpage
 weight: 3
 category: Before You Begin
-title: Trusting Your Eyes
+title: 相信你的眼睛
 ---
 
-Font design is the process of iteratively testing the individual choices that collectively add up to
-a complete design. You will be testing your font to see if the combination of decisions you have
-made:
+字体设计是迭代地测试每个选择，共同合成一个完整的设计的进程。你将会一直测试字体，看你做出选择的合并结果是否能够：
 
-* Allows you to read the font
-* Makes the font feel right to you
-* Makes the font useful for the the jobs you want the font to be able to do.
+* 对你来说可读
+* 字体让你觉得好
+* 字体对于你希望它能够完成的工作有帮助
 
-As you test the design, you will have to trust your perceptions and design somewhat practically.
-Much of type design requires that you make letters similar and that you repeat forms.
+在你测试设计的时候，你要相信自己的认知，设计实际的东西。许多字体设计都需要你设计的字体类似并且形式上重复。
 
-It is tempting to assume that if you measure the parts and the spaces between the glyphs, then you
-will get reliable results. While very useful, this approach has real limitations. You should expect
-to make adjustments if something looks wrong to you. Furthermore, you should feel confident that
-making changes until it “looks right” is the correct thing to do.
+人么很容易认为如果你测量字形的组成部分和间距，那么你将得到可靠的结果。虽然很有用，但是这个方法有实际的限制。如果有什么看起来错了，那么你应该期望做出调整。更进一步来说，你应该确信正确的做法是作出修改指导它“开起来正确”。
 
-The reason this is true is that there are a number of natural optical illusions that all readers are
-subject to. These illusions must be accounted for by altering the shapes of letters until they look
-right to you.
+这正确的原因是由一些所有读者都会有的自然的视觉错觉。这些错觉必须在你修改字母形状的时候计算在内，指导他们看起来正确。
 
-## Examples of illusions
+## 错觉的例子
 
-Some illusions involve the perceived weight of lines, some involve the perceived length of lines,
-and others involve the eye’s perception of shapes.
+一些错觉涉及对线条的粗细的感知，一些涉及线条的长度，另一些设计形状的感知。
 
-### Horizontal vs. vertical weight
+### 水平与竖直的粗细程度
 
-The example on the left shows an ‘H’ which bars are precisely equal in thickness. This looks wrong.
-Can you feel it?  
-The other one on the right has a horizontal bar which has has been thinned to appear equal in
-thickness.
+左边的例子展示了一个条形粗细相同的“H”。这看起来是不对的。你能感受到吗？右边的另一个水平的条形做的更细，这样看起来粗细相等。
 
 <img src="images/H%20compensation2.png" alt>
 
-Glyphs in which optical adjustments have to be made are numerous and include A, E, F, L, H, f, t,
-and z.
+需要按照视觉做出调整的字形有很多，包括A、E、F、L、H、f、t和z。
 
-### Diagonal thickness
+### 斜向粗细
 
-Similarly, if you have bars of the same width and one of them is set at a diagonal, the diagonal bar
-will seem slightly heavier than the vertical bar and slightly thinner than the horizontal. If you
-want it look right, you will have to adjust it to be lighter like the horizontal example, but just a
-little less.
+类似地，如果一些条形宽度相等，其中一个放在斜线上，那么斜向的条形看起来比竖直的条形粗并且比水平的条形细。如果你想让它看起来正确，那么你不得不像水平的例子一样将其调细一点，但是知识细一点点。
 
 <img src="images/Diag%20illusion.png" alt>
 
-Glyphs in which this human perception may be relevant are quite numerous but include k, K, N, Q, R,
-v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
-&laquo;, &raquo;, &frac12;, &frac13;, &frac14;, &le;, &ge;, and &times;.
+令人产生错觉的相关字形十分多，包括k、K、N、Q、R,
+v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、&radic;、∕、&lsaquo;、&rsaquo;、
+&laquo;、&raquo;、&frac12;、&frac13;、&frac14;、&le;、&ge;和&times;。
 
-### Length and perceived diagonal angle
+### 宽度和对斜向角度的感知
 
-Longer shapes need to slant less than short shapes in order to give the appearance of same slant.
+更长的图形需要比短的图形倾斜更少，这样表面上看起来他们倾斜度相同。
 
-The image below has diagonal lines that are all at the same angle. The long one appears to be at a
-different angle.
+下面的图中的斜线倾斜角度相同。长的那个看起来角度不同。
 
 <img src="images/pdiag.png" alt>
 
-In the next picture below, the slant of the longer line has been adjusted:
+在下图中，长的线条的倾斜程度被调整过：
 
 <img src="images/pdiag2.png" alt>
 
-Now let’s look at an actual italic, applying these corrections to the glyphs:
+现在我们来看真实的斜体，在字形上应用了这些修正：
 
 <img src="images/longer%20less%20slant.png" alt>
 
-### Crossing diagonals
+### 交叉斜线
 
-When a bar crosses another diagonal or a straight line, it will need adjustments to not appear as
-misaligned.
+当一个条形穿过另一个斜线或者直线时，需要调整它以看起来补不会不对齐。
 
 <img src="images/compare-x.png" alt>
 
-In the example above, the X on the left has two unadjusted bars crossing each other. The example on
-the right has been adjusted so that they appear to be aligned.
+上面的例子中，左边的X由两个未调整的条形互相交叉。右边的例子被调整过，这样看起来是对齐的。
 
 <img src="images/myriad-x.png" alt>
 
-As you can see in this X with dotted line on top of it, the X that appears visually aligned involves an offset.
+在这个X中通过虚线你可以看到看起来显得对齐的X实际上有偏移。
 
-Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the icelandic letter ‘eth’
-(&eth;).
+涉及到这个错觉的字形包括x、X、k、K、×、#和冰岛语字幕“eth”（&eth;）。
 
-### Perceived height
+### 高度感知
 
-The shape of a glyph will contribute to how high it needs to be in order to look as if it is the
-same height as the other glyphs. Round glyphs need to overshoot the height of flat glyphs by a
-little bit. Glyphs which have pointier shapes will need to overshoot more. The sharper the shape,
-the more it will need to overshoot in order to look correct.
+一个字形的形状将会对它看起来和其他字形高度一致时的高度产生作用。圆的字形需要超过平的字形的高度一点点。包含尖的形状的字形需要超过更多。形状越尖锐，它为了看起来正确需要超过的就更多。
 
 <img src="images/3Shapes.png" alt>
 
-In the image above, the top three shapes are unadjusted &mdash; that is, they have identical
-heights. The three shapes on the bottom have been adjusted so that they appear more similar in
-height.
+在上图中，上面的三个图形没有经过调整，也就是他们有完全相同的高度。下面的三个图形经过调整，看起来有更加接近的高度。
 
-This illusion is relevant for any glyph that has parts which are either round or pointy. These
-include O, Q, C, S, A, V, W, and so on.
+这一错觉涉及到包含圆的或尖的部分的人和字形，包括O、Q、C、S、A、V、W等。
 
-## You are fully qualified to correct for these illusions
+## 你完全有资格来纠正这些错觉
+
+
 
 Because you can see both the illusion and the effect of correcting for the illusion, you will be
 able to make these corrections for yourself. You just have to trust your impressions.
