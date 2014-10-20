@@ -3,68 +3,44 @@ published: true
 layout: bookpage
 weight: 4
 category: Before You Begin
-title: Planning Your Project
+title: 计划好你的项目
 ---
 
-Now that you have a sense of how a font design can vary, you may want decide whether your project
-will have only one font, if it will be a collection of several inter-related fonts, if it will be a
-(now traditional) three or four-styles type family, or if it will be something even larger.
+现在你能感觉到一个字体如何设计是多样的。如果你的项目会是几个内部关联的字体的集合，或者是一个三四种样式（现在是惯例）的字体家族，或者是更庞大的东西，那么你可能想选择你的项目是否只有一个字体。
 
-Common styles of type families include:
+字体家族的通常样式包括：
 
-* A Regular and a Bold weight
-* Regular, Bold, Italic &ndash; eventually with a Bold Italic
-* Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black 
-* Regular, Condensed, Bold and Bold Condensed
-* Narrow, Condensed, Wide and Extra Wide
-* Regular, Semi-Flourished, Flourished, Very Flourished, Extremely Flourished.
+* 一个常规体和一个粗体
+* 常规体，粗体，斜体乃至粗斜体
+* 细体，痩体，书体，常规体，半粗体，粗体，超粗体，重体和黑体
+* 常规体，紧缩体，粗体和紧缩粗体
+* 窄体，紧缩体，宽体和超宽体
+* 常规体，半茂盛体，茂盛体，很茂盛体，极茂盛体
 
-While there are reasons that typical pattens in families exist, you may find you want a very
-different kind of grouping.
+典型的模式在字体家族中存在是有原因的，你也可能发现一个非常不同的分组。
 
-The scope of the project can be determined exclusively by your ambition and your amount of free
-time. But project scopes are often determined by the use you have for the collection or family of
-fonts, or, even further, by the needs of your client. Certainly for professional type designers,
-the latter two questions are usually the determining factors.
+项目的范围能够通过你的雄心和自由时间总数来唯一地确定。但是项目范围经常通过字体的集合或家族的用途来确定，或者更进一步说，通过你的客户的需要来确定。当然对于专业字体设计师来说，下面的两个问题通常是确定的因素。
 
-## Glyph coverage
+## 字形覆盖率
 
-A font is still a font even if it has only one glyph in it. But a font can also have a few hundred
-or even thousands of glyphs. If your project is self-initiated, then this choice is ultimately
-arbitrary. You may decide you only want capitals, or that you want to include the glyphs found in
-the other fonts you use. If you are doing work for a client, you may want to clarify which language
-or languages the font is is meant to support. Your goal could also be to extend an existing font,
-adding a few glyphs to make it work in one or more additional languages.
+即使一个字体内只有一个字形，它仍然是一个字体。但是一个字体也可以有几百甚至几千个字形。如果你的项目是自己发起的，那么这个选择最终时随意的。你可能选择你只需要大写字母，或者你希望包含你使用的其他字体。如果你为客户工作，那么你可能希望阐明字体需要支持的语言。你的目标也可能是扩展现有字体，加入一些字形使得它增加一个或多个语言下发挥作用。
 
-It’s certainly a good idea to make this choice deliberately, and to error on the side of including
-less rather than more. Often as a typeface is being made, it can be tempting to include more and
-more glyphs &ndash; but it is frequently more valuable to continue to improve the core set of glyphs
-than adding new ones.
+慎重地作出选择，包含更少而不是更多来减少错误当然是好主意。通常一个字体制作后，可能尝试去包含越来越多的字形，但是更多时候相比于添加一些新的，继续提高字形的核心集合更有价值。
 
-## Multi-style family workflow
+## 多样式字体家族工作流程
 
-If you know from the start that you will have more than one font, you will save yourself time if you
-plan and build the font family systematically, and work on the styles somewhat in parallel, rather
-than completing one style at a time.
+如果你从一开始就知道将会制作不止一个字体，系统地计划和构建字体家族，某种程度上并行地开发样式而不是一次完成一个样式，那么你将节省自己的时间。
 
-It is of course impossible to create *every* style in a completely parallel manner, but it’s
-possible to complete a given design step for each style in order to check and be sure about the
-relationships between the styles, early in the process. You may find that it is useful to complete
-one full set of test letters (such as “adhesion”) for a regular version, and then to make
-“adhesion”s for the other styles next. However, you can also make the process even more granular and
-make decisions about specific parts of the base letters (such as the ‘n’ and ‘o’) for all styles
-together.
+当然不可能采用完全并行地方式创造*每个*样式，但是有可能完成每个样式的一个特定的设计步骤，达到在进程早期检查确保样式间关系的目的。你可能发现完成一个测试字母的完整集合（例如“adhesion”）的常规体，接下来制作这些字母的其他样式是有帮助的。但是你也可以让进程粒度更小，为所有样式的基本字母的特定部分（例如“n”he“o”）共同作出选择。
 
-Depending on the size and composition of the family you are planning, you may find that it saves
-time to make interpolatable instances of glyphs, not only so you can interpolate intermediate
-styles, but to aid making design choices about those typographic variables that shift across the
-members of a family.  
-For a remainder of the variables you should be considering, see the chapter [“What is a
-font?”](What_Is_a_Font.html).
+取决于你计划的字体家族的尺寸和组成，你可能会发现制作字形的可插入实例会节约时间，这样做不仅可以插入中间样式，也可以对在字体家族成员间存在的排版变化所作出的设计选择有所补救。你应该考虑的变量在[“什么是字体”](What_Is_a_Font.html)一章。
 
-# Technical: Version Management 
+# 技术: 版本控制 
 
-You should learn to use Git and Github to store your files, and use the "SFDir" format for your sources.
+你应该学习使用Git和Github来保存你的文件，使用“SFDir”格式来存放你的源。
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
+
+[“What is a
+font?”]:What_Is_a_Font.html

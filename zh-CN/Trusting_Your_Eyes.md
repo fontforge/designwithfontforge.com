@@ -82,37 +82,18 @@ v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、
 
 ## 你完全有资格来纠正这些错觉
 
+由于你既能看到错觉，也能看到修正错觉的效果，所以你能够自行作出这些修正。你仅仅需要相信你的印象。
 
+## 测试目的的适当性
 
-Because you can see both the illusion and the effect of correcting for the illusion, you will be
-able to make these corrections for yourself. You just have to trust your impressions.
+就像你能够看到光学错觉并纠正他们一样，你也有能力去分辨一个字体是否胜任你心目中特定的用途。在这一点上你也同样需要相信你的判断。
 
-## Test for fitness of purpose
+值得一提的事没有字体能够在离开其使用方式和目的的情况下被评估。这也是测试需要从设计进程最开始一直到你觉得项目完成的原因。
 
-Just like you are able to see optical illusions and correct them, you also have the ability to tell
-if a font is working for the specific use (or uses) you may have in mind. That’s where you should
-also trust your judgment.
+这些测试会是什么样子呢？开始的测试比较简单，你只需测试第一个设计的选择。随着你的设计变得更加完整，你的测试需要跟上进度并且能够评估你所做的最新的决定相对成功还是失败&mdash;或者更好的情况是能够比较你所考虑的2个（或者3个或者更多&hellip;）选项。
 
-Quite separately, it is worth noting that no font can be evaluated apart from the way it is used and
-what it is used for. This is why it is essential to begin testing from the very beginning of the
-design process, and to continue testing until you feel the project is done.
+有时你将发现你不得不折返修改你之前认为已经足够好的设计选择。这是常态。制作一个字体需要平衡很多因素，惊奇经常会发生。设计的字体越多，你做任意选择的经验也就越多。
 
-What will these tests be like? The tests will be simple at first, allowing you to test the first
-design choices. As your design becomes more complete, your tests will need to keep pace and let you
-evaluate the relative success or failure of the newest choices you have made &mdash; or, even
-better, to compare two (or three, or more&hellip;) options you are considering.
+当接近进程的尾声的时候，如果字体采用简单的方式来使用，那么测试也应该保持简单。但是如果一个字体将会有多种使用方式，或者在大范围的打印或屏幕环境下使用，那么测试应该覆盖这些情况的所有范围，包括打印字体的各种样例。
 
-Sometimes you will find you have to double back and change a design choice you thought was already
-working well. This is normal. Making a font requires balancing many variables, and surprises often
-occur. The more you design fonts, the more experience you will have in making these arbitrary
-choices.
-
-When nearing the end of the process, if the font is to be used in a simple way, the tests should
-also just stay simple. However, if a font is to be used in many ways or in a wide range of printing
-or screen environments, then it should be tested across all that range of situations, which includes
-printing various samples of the font.
-
-It can save you design time to have a well defined idea of the final use you intend. However, this
-is not always possible and your ideas may evolve. The key thing is to think about and define the use
-cases as completely as you can, then to ensure that your tests keep pace with the questions you are
-asking yourself while designed the font.
+如果你对你打算的最终用途有明确定义的想法，那么设计时间将得到节省。但是这并不总是可行的，你的想法可能发展。关键的东西是考虑并定义尽你所能完整的用例，然后确保在设计字体时你的测试跟上你问自己的问题。
