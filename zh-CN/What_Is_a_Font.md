@@ -59,11 +59,9 @@ title: 什么是字体?
 
 字体设计的宽度将不仅改变其感觉，也会改变其用途。右边的例子来自一个文本样式。左边的例子来自一个显示设计，目的是要醒目。字母比文本样式例子更加细，能够节约空间或者用于在小的空间内放下更多文本。
 
-### 宽度不变于可变
+### 宽度不变与可变
 
 上面的一行字母的宽度变化比下面一样要更大。
-The letters in the top row of this example show a greater variety of width than do the letters in
-the bottom row.
 
 <img src="images/Width%20regularity.png" alt>
 
@@ -81,11 +79,11 @@ the bottom row.
 
 <img src="images/Contrast.png" alt>
 
-在其字母形式中有一致的粗细（笔画宽度）或者没有可见的对比的字体产生了与对比字体的完全区别。就像衬线与与无衬线之间的选择，对比时字体设计中的一个早期选择。有趣的是，厚衬线设计通常在字母中使用一致的笔画宽度。厚衬线设计不像听起来那样仅仅是关于衬线！需要记住的是感觉应用的规则（参见[“Trusting your eyes”]）&ndash;对比是关于粗细看起来怎样，而不是测量后应该是多少。
+在其字母形式中有一致的粗细（笔画宽度）或者没有可见的对比的字体产生了与对比字体的完全区别。就像衬线与与无衬线之间的选择，对比时字体设计中的一个早期选择。有趣的是，厚衬线设计通常在字母中使用一致的笔画宽度。厚衬线设计不像听起来那样仅仅是关于衬线！需要记住的是感觉应用的规则（参见[“相信你的眼睛”][“Trusting your eyes”]）&ndash;对比是关于粗细看起来怎样，而不是测量后应该是多少。
 
 ### 对比的角度
 
-在下面的图中，我们看到小写字母“o”较细部分的形状是不同的。在左边的字形里，细的点完美地落在垂直轴上。在右边的字形中坐标轴是对角线。
+在下面的图中，我们看到小写字母“o”较细部分的形状是不同的。在左边的字形里，细的点完美地落在竖直轴上。在右边的字形中坐标轴是对角线。
 
 <img src="images/Angle%20of%20contrast.png" alt>
 
@@ -93,11 +91,11 @@ the bottom row.
 
 如果你很少使用对比，那么腻并不需要考虑它。但是大多数字体都包含一定程度的对比。在这些情况下，在你的字体中如何分布权重将会有更加广泛的选择空间。
 
-#### 垂直
+#### 竖直
 
 <img src="images/verical1.png" alt>
 
-权重的垂直分布很常见。上面的9和8是尤其强烈的例子。
+权重的竖直分布很常见。上面的9和8是尤其强烈的例子。
 
 #### 水平
 
@@ -127,93 +125,67 @@ the bottom row.
 
 <img src="images/7joins.png" alt>
 
-### Bowls
+### 碗
 
-Note that bowls are the stroke part in the below illustrations and not the black inner forms. The
-inner strokes are referred as “counters”. While designing type, you will often find yourself
-altering your work not because of the shape or width of the stroke but due to the shape and size of
-the counter.
+需要注意的是碗指的是下面标示出来的笔画的部分，而不是内部的黑色部分（译者注：碗指的是在字符中创造出闭合空间的弧线笔画）。内部绘制的被称为“对立面”。在设计字体时，你可能经常发现需要修改你的作品，不是因为笔画的形状和宽度，而是由于对立面的形状和颜色。
 
 <img src="images/2bowls.png" alt>
 
-### Terminals
+### 笔画结束
 
-Terminals are the end forms of the strokes. They are not same as the serifs. They are often
-perpendicular to the angle of the stroke at its end, or sheared horizontally or vertically. They may
-also reflect the shape of the nib or other mark-making tool that the letter forms evoke.
+笔画结束指的是笔画结束的形式。它们与衬线是不同的。它们通常笔画结束的角度的垂线，或者水平或竖直地修剪。它们也反映出笔尖的形状或者字母形式的其他创作工具。
 
 <img src="images/terminals%20f.png" alt>
 
-### Speed
+### 速度
 
 <img src="images/6speed_1.png" alt>
 
-The ‘n’ on the left seems to be written much faster than the one on the right. Speed is discussed in
-more detail in the chapter [on italics].
+左边的“n”看起来比右边的字母写得要快很多。对速度更详细的讨论参见章节[斜体][on italics]。
 
-### Regularity
+### 规则性
 
 <img src="images/6regularity.png" alt>
 
-The following characteristics are not present in all type designs, however they are variables that
-may be a part of your design. If this is the case, it is worth considering the degree to which they
-will play a role as a variable.
+下列特征并不会出现在所有的字体设计中，但是它们是可能成为你设计的一部分的可变因素。如果是这样的话，值得考虑它们作为可变因素的程度。
 
-### Flourish
+### 茂盛
 
 <img src="images/5flourish.png" alt>
 
-Notice that in the font on top the flourish is more present in the capital letter and the second one
-the flourish is more in the lowercase.
+需要注意的是上方字体的茂盛更多地体现在大写字母中，而第二个的茂盛更多地体现在小写字母中。
 
-### Serif - To be or not to be
+### 衬线
 
-Serifs are one of the most distinct aspects of a typeface, and often the first classification of
-type is between serif and sans-serif type.
+衬线是一个字体中最显著区别的方面之一。通常字体的一级分类就是衬线和非衬线字体。
 
-This choice affects how the end terminals will look like. Serifs can be two sided or one sided. They
-can be perpendicular to stroke or have their own direction (like being always horizontal or
-vertical). Serifs can be with or without brackets. Any serif design is a mix of all of the above
-applied consistently to the type design with some deviations for particular letters, especially the
-‘S’, ‘C’ and ‘Z’ (e.g. a type with horizontal serifs for all letters will often have s, c and z to
-have vertical serifs).
+这个选择影响了笔画结束看起来怎么样。衬线可以是两端活着一端的。它们可以是垂直绘制的，或者有自己的方向（好像总是水平或者竖直的）。衬线可能有或者没有括号。任何衬线设计时上述的所有特征与特别字母的差异，尤其是“S”，“C”和“Z”,一致地应用在字体设计中（例如一个所有字母都包含水平衬线的字体的s，c和z字母经常有竖直的衬线。）。
 
-There is a urban legend asserting that serif types are easier to read than sans-serifs &ndash; it is
-[a sole myth](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), until further
-notice.
+一个都市传奇主张认为衬线字体笔比非衬线字体更易读&ndash;[一个独特的迷思](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html)，直到另行通知。
 
-The form of the serifs are related to the forms of the terminals.
+衬线的形式与笔画结束的形式相关。
 
-#### Brackets
+#### 支架
 
-The corner portions of a serif where it connects to the main stroke are called ‘brackets’. A
-particular design may have them giving a soft feel to the serif ([Times New Roman] is an example) or
-may choose to not have any bracket. Some designs also use brackets only on one side or with
-different proportions on the two sides.
+连接着主要笔画的衬线的拐角部分被称作“支架”。一个特别的设计可能采用它们来给衬线加入柔和感（[Times New Roman]就是一个例子）或者可能选择不加支架。一些设计可能只在一端使用支架或者两端比例不同。
 
-This is a relatively strong parameter that renders feel to the type &ndash; elegance (smooth or
-large brackets of [Times New Roman]) or chunky crisp (absent brackets of [Arvo]).
+这是一个给字体渲染感觉的比较强烈的参数&ndash;优雅（[Times New Roman]的平滑或大的支架）或者粗短干脆（[Arvo]没有支架）。
 
-#### Slab-serifs
+#### 厚板衬线
 
-Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don’t use
-brackets. Generally speaking, type design with such serifs are seen to have less contrast in their
-glyphs &ndash; [Rockwell], [Courier] or [American typewriter] reflect that.
+也成为机械活着埃及字体，厚板是厚的块状衬线。厚块衬线不使用支架。通常说来，又这样的衬线的字体设计在字形上会更少使用对比&ndash;[Rockwell], [Courier] or [American typewriter]体现了这一点。
 
-It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an
-otherwise no-contrast type design. But this is not an absolute rule.
+我们可以可靠地假设厚板衬线使用来在一个其他方面没有对比的字体设计中加入装饰或者节奏。但这也不是绝对的规则。
 
-#### Serif Terminals
+#### 衬线结束
 
-Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the
-type &ndash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
-angular ([Rockwell]).
+就像字母结束那样，衬线本身的结束形状对字体的感觉有帮助&ndash;使其柔软或短粗。衬线结束可以是柔软圆角的（[Courier]）或者有棱角的（[Rockwell]）。
 
-### Decoration
+### 装饰
 
-<img src="images/4decoration.png" alt>
+<!-- <img src="images/4decoration.png" alt> -->
 
-### Dimension
+### 维度
 
 <img src="images/3dimention.png" alt>
 
