@@ -64,47 +64,41 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 确保你的字体有效，验证</a>一章。</p>
 </div>
 
-为了详细说明，有两种情况你需要放弃水平/竖直的B&eacute;zier路径：
+详细说来，有两种情况你需要放弃水平/竖直的B&eacute;zier路径：
 
-- If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
-  below that’s being kept almost flat:  
+- 如果你希望改变你的曲线使其整体倾斜，正如下面的“a”的左上部保持者平坦：
   <img src="images/bezier_sample_2.png" alt>
-- If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
-  &ndash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
+- 如果你希望在字母形式中放置中断，正如下面的“g”的左下部&ndash;这是你希望使用拐角的典型（除了画线以外）： 
   <img src="images/bezier_sample_4.png" alt>
 
-<p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
-direction of each handle should be tangent to the curve where it arrives.</p>
+<p class="note"><b>注意：</b>正如你所看到的那样，当你用一个<i>拐角</i>设置中断的时候，每个手柄的方向应该是曲线延伸方向的切向。</p>
 
-## Mastering FontForge’s drawing tools
+## 掌握FontForge的绘制工具
 
-From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
+在主窗口中，双击其中一个字形的各自来打开字形窗口。
 
 <img src="images/glyph_window.png" alt>
 
 <div class="note">
-<p><b>Note:</b> The numbers along the top where the x and y axis intersect indicate, from left to
-right:</p>
+<p><b>注意：</b>x轴和y轴交叉的地方上面的数字从左到右分别指示：</p>
 
 <ul>
-<li>The current (x,y) location of your cursor on the canvas</li>
-<li>The location of the most recently selected point</li>
-<li>The relative position of your cursor to the selected point</li>
-<li>The distance between your cursor and the selected point</li>
-<li>The angle from the selected point to the cursor (relative to the baseline)</li>
-<li>The current magnification level, followed by the name of the active layer.</li>
+<li>你的鼠标在当前画布的(x,y)位置</li>
+<li>最近选择的点的位置</li>
+<li>你的鼠标指针与选择的点的相对位置</li>
+<li>你的鼠标指针和选择的点之间的距离</li>
+<li>选择的点和鼠标指针之间的角度（相对于基线）</li>
+<li>当前放大级别，活动图层的名称紧随其后</li>
 </ul>
 </div>
 
-<p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are
-inside the Glyph Window. It might that there is an open dialog box hidden behind it &ndash; so just
-move it and process the dialog box.</p>
+<p class="warn"><b>警告：</b>有时当你在字形窗口内时，FontForge看起来无响应。这可能是由于一个打开的对话框隐藏在其后&ndash;所以只需要移动它并处理对话框。</p>
 
-A *Line* consists of 2 points.
+2个点组成的线。
 
 <img src="images/tools_line_points.png" alt>
 
-A *Spline* consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
+一个*Spline*包含了4个点：2个结束点和2个手柄。consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
 of the spline at those end points.
 
 <img src="images/tools_splines_points.png" alt>
