@@ -3,52 +3,37 @@ published: true
 layout: bookpage
 weight: 11
 category: Getting To Know FontForge
-title: Using the FontForge Drawing Tools
+title: 使用FontForge绘制工具
 ---
 
-Designing a font in FontForge will involve using a number of tools and utilities, starting with a
-set of drawing tools which may feel familiar to users with experience in vector graphics &ndash;
-there are noticeable differences through.  
-We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
-FontForge’s drawing tools themselves.
+在FontForge中设计字体的时候将会用到一些工具和实用工具，我们开始先使用一些能让用户对矢量图形感到熟悉的绘制工具&ndash;这方面的经验有显著不同。
+我们在看FontForge的绘制工具前首先来理解Bézier曲线如何工作。
 
-## Understanding B&eacute;zier curves
+## 理解Bézier曲线
 
-The concept of “B&eacute;zier curves” refers to a particular mathematical representation used to
-produce smooth curves digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used
-&mdash; through FontForge also supports *Spiro* curves, which are an alternate representation for
-the designer.
+Bézier曲线的概念指的是一个特别的数学上的表示，用来数字化地产生平滑的曲线。通常使用*二次方*和*三次方*Bézier曲线&mdash;FontForge也支持*Spiro*曲线，设计者的另一种可以替换的表现。
 
-In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
-glyphs. *Spiro* paths will be discussed in the next chapter, and *Quadratic* curves are only found
-in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
+在本章中，我们只讨论*三阶*路径，它在绘制字形时普遍使用。*Spiro*路径将在下一章讨论，*二阶*曲线在绘制时很少用到，只会在TrueType字体中找到&ndash; 他们更常出现在构建时.
 
-A typical B&eacute;zier path is composed of an anchor, with two handles that mark the overall
-direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
-see below.
+一个典型的B&eacute;zier曲线由一个锚点和标示全部方向的两个手柄组成&mdash; 每个手柄的长度决定了一端的曲线的长度&ndash;如下。
 
-### Different kinds of points
+### 不同类型的点
 
-#### Curve points (shown as round-shaped points)
+#### 曲线点（显示为圆形的点）
 
-*Curve points* have two handles, each of them being linked to the other so that the line between
-them always stays straight, in order to produce a smooth curve on each side.
+*曲线点*有两个手柄，每个都连接到另一个，因此他们之间的线是直的, 目的是在每一端都产生平滑的曲线。
  
 <img src="images/tools-curve-point.png" alt>
 
-<h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
+#### H/V曲线点（显示为菱形的点）
 
-*H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
-horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier forms done right
-(more on that in the next section).
+*H/V曲线点*（horizontal/vertical）是对齐到水平或竖直轴曲线点的变体&ndash;一个使B&eacute;zier曲线形态正确的必要工具（其他同样作用的工具见下节）。
 
 <img src="images/tools-HV-point.png" alt>
 
-#### Coins or corner points (shown as square-shaped points)
+#### 拐角点（显示为正方形）
 
-*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independant of the
-others, making it suitable for discontinuities in the outline.  
-Without handles, coins will produce straight lines.
+*拐角点*可以有0、1或2个B&eacute;zier手柄。每个手柄的位置相对其他独立，适合用来构造不连续的轮廓。没有手柄时，拐角点产生直线。
 
 <img src="images/tools-square-point.png" alt>
 
@@ -56,40 +41,30 @@ Without handles, coins will produce straight lines.
 
 <img src="images/tools-corner-point-3.png" alt>
 
-#### Tangent points (shown as triangular-shaped points, or ‘arrowheads’)
+#### 切点（显示为三角形或箭头）
 
-If you want to start from a straight line and then start curving smoothly, you will want to use
-*tangent points*.  
-A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
-its direction &ndash; this ensures a continous transition between the line and the curve.
+如果你希望从一条直线开始然后是平滑的曲线，那么你需要使用切点。
+一个*切点*在一端留下直线，另一端的B&eacute;zier手柄是其方向&ndash;这保证了线条和曲线间连续过渡。
 
 <img src="images/tools-tangent-point.png" alt>
 
-### Getting it right
+### 使其正确
 
-In order to produce proper curves &ndash; with minimal control points and eased rasterization, the
-anchors should always be placed at **the extremas of the curve**, and unless in places where you
-have breaks in your letterforms, the line that determines the path should be **horizontal or
-vertical**.
+为了产生合适的曲线&ndash;使用最少控制点并减轻光栅化，锚点应该始终放置在**曲线极值**处，并且除非你的字母中有中断，否则确定路径的线应该是**水平或者竖直**的。
 
 <img src="images/bezier_sample.png" alt>
 
 <div class="note">
-<p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+<p><b>注意：</b>如果你的控制点没有放置在极值出，FontForge将会用一个瞄准图标指出实际的极值处：</p>
 
 <img src="images/bezier_sample_3.png" alt>
 
-<p>You can then fix this by copying your current outline to another layer, then move the control
-points around so that it’s laid out properly &ndash; otherwise the FontForge Validation tool will
-add the point at extremas automatically, at which point you can merge your misplaced anchor with
-<i>Right-click > Merge</i>.<br>
-More about that will be said later in the <a href="Making_Sure_Your_Font_Works_Validation.html">
-Validation chapter</a>.</p>
+<p>那么你这样修正：复制你当前的轮廓到另一个图层，移动周围的控制点使其排列正确&ndash;否则FontForge验证工具将会自动在极值处添加点，在该点处你可以通过<i>右击 > Merge</i>来合并<br>你放错的锚点。
+更多相关信息在稍后的<a href="Making_Sure_Your_Font_Works_Validation.html">
+确保你的字体有效，验证</a>一章。</p>
 </div>
 
-To elaborate, there are two cases where you will have to give up horizontal/vertical B&eacute;zier
-paths:
+为了详细说明，有两种情况你需要放弃水平/竖直的B&eacute;zier路径：
 
 - If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
   below that’s being kept almost flat:  
