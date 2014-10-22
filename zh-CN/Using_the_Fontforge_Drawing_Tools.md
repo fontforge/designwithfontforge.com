@@ -83,7 +83,7 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 <p><b>注意：</b>x轴和y轴交叉的地方上面的数字从左到右分别指示：</p>
 
 <ul>
-<li>你的鼠标在当前画布的(x,y)位置</li>
+<li>你的鼠标指针在当前画布的(x,y)位置</li>
 <li>最近选择的点的位置</li>
 <li>你的鼠标指针与选择的点的相对位置</li>
 <li>你的鼠标指针和选择的点之间的距离</li>
@@ -92,146 +92,120 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 </ul>
 </div>
 
-<p class="warn"><b>警告：</b>有时当你在字形窗口内时，FontForge看起来无响应。这可能是由于一个打开的对话框隐藏在其后&ndash;所以只需要移动它并处理对话框。</p>
+<p class="warn"><b>当心：</b>有时当你在字形窗口内时，FontForge看起来无响应。这可能是由于一个打开的对话框隐藏在其后&ndash;所以只需要移动它并处理对话框。</p>
 
-2个点组成的线。
+2个点组成的直线。
 
 <img src="images/tools_line_points.png" alt>
 
-一个*Spline*包含了4个点：2个结束点和2个手柄。consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
-of the spline at those end points.
+一个*样条曲线*包含了4个点：2个结束点和2个描述样条曲线在结束点的斜率的手柄。
 
 <img src="images/tools_splines_points.png" alt>
 
-### Copy, paste, cut and delete points, splines and lines
+### 样条曲线和直线的复制、粘贴、剪切和删除
 
-As with most drawing softwares, FontForge allows you to Copy, Cut, Paste or Delete any point, line
-or spline. These commands are available in the Edit menu, or using your OS’ typical keystrokes (also
-shown alongside each command in the menu).
+就像大多数绘制软件一样，FontForge允许你复制、剪切、粘贴和删除任何点、直线和样条曲线。这些命令可以在Edit菜单找到，或者使用你的操作系统的快捷键（也展示在了菜单中每个命令的旁边）。
 
-## Familiarizing yourself with the drawing tools
+## 熟悉绘制工具
 
-Now that you know your way around the canvas, it’s time to get acquainted with the tools.
+现在你已经知道了画布周边功能用法，是时候熟悉画布工具了。
 
-### Point and Zoom
+### 指针和缩放
 
 <img src="images/point_zoom.png" alt>
 
-Point and Zoom behave similarly to the equivalent tools in other applications.  
-The pointer is a selection tool, used to select points, paths, and other objects on the canvas.  
-The Zoom tool lets you zoom in (Z) easily; in order to zoom out: go to the View menu and select
-*Zoom out* (X) or *Fit*.
+指针和缩放工具的用法和其他应用的的等价工具类似。
+指针是一个选择工具，用来选择画布上的点、路径和 其他对象。
+缩放工具让你（在Z轴上）更方便地缩放；想要缩小：到View菜单下选择*Zoom out*（X）或者*Fit*。
 
-Note that you can also momentarily switch to the pointer tool while using another by holding down
-the Control (Ctrl) key.
+需要注意的是，在你使用其他工具的时候，可以通过按住Control（Ctrl）键来暂时切换到指针工具。
 
-### The Freehand tool
+### 手绘工具
 
 <img src="images/freehand_tool.png" alt height="28" width="27">
 
-The Freehand tool allows you to sketch out irregular paths.
+手绘工具让你可以画出不规则的路径。
 
-On the drawing area, click and hold, then move around to draw. Switch back to the pointer tool, and
-you can select points on the path you have drawn.
+在绘制区域，鼠标按住拖动来绘制。切换回指针工具，你可以选择你刚才绘制的路径上的点。
 
-When you select one of the points on the path, it will turn into a yellow circle. If the selected
-point is on a curve, it will display its control points with a magenta handle and a cyan handle. You
-can grab either handle and drag it around to change the shape of the curve.
+当你选择路径上的一个点的时候，它将会变成一个黄色的圈。如果选择的点在曲线上，那么他将会显示出带有一个洋红色手柄和一个青色手柄的控制点。你可以拖动他们来改变曲线的形状。
 
-### The point tools
+### 指针工具
 
-Okay, now let’s go about using the point tools.
+那么我们开始学习指针工具。
 
 <img src="images/point_tools_labelled.png" alt width="291">
 
-To add a point to a path, first select any of these tools, then click on the path and give it a
-little push. You will get a new point on the line.
+为了在路径上添加一个点，我们首先选择这些工具中的一个，然后在路径上点击并轻推一下。你就在线上添加了一个新的点。
 
-The Curve point tool is used to add a point in a curved segment.  
-The HVCurve point tool constrains the new points so that they have either horizontal or vertical
-control points &ndash; this is important for setting up extrema points.  
-The Corner point tool allows you to make a sharp bend in the path.  
-The Tangent point tool allows you to transition from a straight segment to a curved segment along
-the path.
+曲线点工具用来在曲线段上添加一个点。
+HVCurve点工具约束新点为水平或者竖直的控制点&ndash;这对设置极值点来说是重要的。
+拐角点工具用来在路径上制作尖锐的转弯。
+切点工具用来实现直线段到曲线段的沿着路径的过渡。
 
-### The Pen tool
+### 钢笔工具
 
 <img src="images/addpoint_tool.png" alt height="28" width="28">
 
-The Pen tool allows you to add a point on the curve and drag out its control points.
+钢笔工具用来在曲线上添加点并拖出其控制点。
 
 ### Spiro
 
 <img src="images/spiro.png" alt height="28" width="28">
 
-Selecting the Spiro tool puts you into Spiro drawing mode. Spiro drawing allows you to draw curves
-that reflow as you reposition the nodes. Some people prefer this to the standard approach (known as
-B&eacute;zier editing), but if you are used to B&eacute;zier editing you might find that it does
-some unexpected things.
+选择Spiro工具会进入Spiro绘制模式。Spiro绘制可以在你调整节点位置的时候重排你的曲线。有的人相对于标准方法（称为B&eacute;zier编辑），更偏好这个方法，但是如果你习惯了B&eacute;zier编辑，你可能发现这种方法会做没有料到的事情。
 
-### Knife
+### 小刀
 
 <img src="images/knife.png" alt height="27" width="28">
 
-The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but
-only need part of it.
+小刀工具让你可以将样条曲线且为两段。如果你希望绘制一个图形但是只需要一部分，那么这个工具是合用的。
 
-### Ruler
+### 尺子
 
 <img src="images/ruler.png" alt height="28" width="27">
 
-The ruler tool gives you measurement and coordinate information. When you use it, it displays a
-floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
-even more detailed measurement and coordinate information. If you bring it next to a spline, it
-gives you information about the curvature and radius. Most usefully, if you click and drag the ruler
-tool, you will see the distance you have dragged the cursor, plus every intersection that you have
-stretched across.
+尺子工具提供测量和坐标信息给你。当你使用时，在鼠标指针旁边显示一个浮动的提示框。如果你的鼠标指针悬停在一个点上，提示框提示框会展示更详细的测量和坐标信息。如果你在样条曲线上使用，它将告诉你曲率和半径。最有用的是，如果你点击拖动尺子工具，你将看到你拖动鼠标指针的距离，以及穿过图形的每个交点的信息。
 
-### The transform tools
+### 变形工具
 
-There are six transform tools:
+变形工具有6个：
 
 <img src="images/transform_tools_labelled.png" alt width="400">
 
-**Note:** For all of the Transform tools, if you double-click on the tool, you can enter numeric
-values.
+**注意：**对于每个变形工具，如果你双击工具，可以输入数值。
 
-The Scale tool lets you freehand rescale an object. Holding down the Shift key allows you to scale
-an object while constraining it to the proportional ratio.
+缩放工具可以让你自由手动缩放一个对象。按住Shift键可以在缩放的同时保持比例。
 
-The Rotate tool lets you free-rotate an object. It rotates the selected object around the position
-where you initially click.
+旋转工具可以自由地旋转一个物体。始终围绕你最初点击的位置来旋转对象。
 
-The 3D rotate tool lets you rotate an object in the third dimension, and projects the result on the
-x-y plane.
+3D旋转工具可以在第三维度旋转对象，并将结果投影在x-y平面上
 
-The Flip tool allows you to flip a selection either horizontally or vertically. The point at which
-you click the mouse is the point of origin of the transformation.
+翻转工具可以水平或者竖直地翻转选中的对象。旋转的原点是最初点击鼠标的点。
 
-**Note:** After flipping a point you will probably want to apply Element &gt; *Correct Direction*.
+**注意：**翻转一个点后你很可能需要应用Element &gt; *Correct Direction*。
 
-The Skew tool lets you horizontally skew the selection either clockwise or counterclockwise
-(withershins is how the dialog refers to counterclockwise).
+扭曲工具可以将选中的对象顺时针或者逆时针做水平扭曲。
 
-The Perspective tool gives you another way to distort a shape in a nonlinear way.
+透视工具让你能够以非线性的方式扭曲图形。
 
-**Note:** There is no numerical option for the perspective transformation.
+**注意：** 透视转换并没有数值选项。
 
-### The Rectangle/Ellipse and Polygon/Star tools
+### 矩形/椭圆和多边形/星形工具
 
-These tools allow you to draw primitive geometric shapes, which is faster than constructing those
-shapes out of separate line segments.
+这些工具让你可以绘制简单的几何形状，这样比使用分开的线段构建形状更快。
 
 <img src="images/rectangle_poly_labelled.png" alt width="500">
 
-Clicking the chevron area on these tools will give you the option to switch to the alternate tool.
-If you double-click on either of the tools, you can open the shape type’s options.
+点击工具区域可以切换到可选的另一个工具。如果你双击这个工具，会打开形状样式的选项。
 
-Rectangle options: corner style and bounding box (corner or center out).
+矩形选项：拐角样式和扩展方式（拐角还是中心扩展）。
 
-Ellipse options: bounding box or center out.
+椭圆选项：边框扩展还是中心扩展。
 
-Polygon options: number of vertices.
+多边形选项：: 顶点数量。
+
+星形选项：星形的顶点数量和
 
 Star options: number of star points and depth of points by percentage. The higher the percentage
 setting, the longer the arms of the star.
