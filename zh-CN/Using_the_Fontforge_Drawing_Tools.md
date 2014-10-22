@@ -120,11 +120,11 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 
 需要注意的是，在你使用其他工具的时候，可以通过按住Control（Ctrl）键来暂时切换到指针工具。
 
-### 手绘工具
+### 自由绘制
 
 <img src="images/freehand_tool.png" alt height="28" width="27">
 
-手绘工具让你可以画出不规则的路径。
+自由绘制让你可以画出不规则的路径。
 
 在绘制区域，鼠标按住拖动来绘制。切换回指针工具，你可以选择你刚才绘制的路径上的点。
 
@@ -205,124 +205,91 @@ HVCurve点工具约束新点为水平或者竖直的控制点&ndash;这对设置
 
 多边形选项：: 顶点数量。
 
-星形选项：星形的顶点数量和
+星形选项：星形的顶点数量和点的深度百分比。百分比设置越高，星形的角越长。
 
-Star options: number of star points and depth of points by percentage. The higher the percentage
-setting, the longer the arms of the star.
-
-### Mse1 and Mse2
+### Mse1和Mse2
 
 <img src="images/danger.png" alt height="53" width="57">
 
-Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
+在工具栏中你可以看到当前的工具和鼠标按键可以使用的操作：
 
-- Left button (Mse1)
-- Left button + Ctrl (^Mse1)
-- Mouse wheel button (Mse2)
-- Mouse wheel button + Ctrl (^Mse2)
+- 左键（Mse1）
+- 左键 + Ctrl（^Mse1）
+- 滚轮（Mse2）
+- 滚轮 + Ctrl（^Mse2）
 
-This way, you can use a few different tools without having to repeatedly click on the toolbar.
+这样你不必反复点击工具栏就可以使用一些不同的工具。
 
-<p class="warn"><b>Caution:</b> It appears that the Mse functionality doesn’t currently work
-properly.</p>
+<p class="warn"><b>当心：</b>Mse功能当前看上去不能正确工作。</p>
 
-### Layers
+### 图层
 
-The FontForge canvas has three layers by default: the Guide layer, the Background layer, and the
-Foreground layer. Guide layers are used to insert guides (such as x-height or cap-height guides).
-Foreground layers and background layers are both used for drawing, but only the topmost foreground
-layer will be rendered into your final font.
+FontForge的画布默认有3个图层：引导图层，背景图层和前景图层。引导图层用来插入引导（比如x高度或者大写高度引导）。前景图层和背景图层都是用来绘制的，但是只有最顶层的引导图层将会呈现在最终的字体上。
 
 <img src="images/layers.png" alt height="96" width="108">
 
-The eye icon indicates whether each layer is visible, and you can click to toggle the eye to make a
-layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
+眼睛图标指示每个图标是否可见，并且你可以点击眼睛图标来使图层不可见。C（或者Q）你是否在使用三阶或二阶曲线。
 
-The #, B, or F refers to whether the type of each layer is a Guide layer, Background layer, or
-Foreground layer, which is significant if you add more layers of your own. You can create and delete
-additional layers using the plus (+) or minus (&minus;) buttons in this section of the toolbar.
-Layer type and curve type can also be controlled by right-clicking (once you have additional
-layers).
+#、B或者F代表每个图层是否是引导图层、背景图层或者前景图层，在你添加了多个图层后更有意义。你可以使用工具栏的加（+）或减（&minus;）来创建和删除额外的图层。图层类型和曲线类型也可以通过右击来控制（如果你有额外的图层时）。
 
-## Basic drawing
+## 绘图基础
 
-Next we will go over some basic drawing workflows, which you often find yourself in need of.
+接下来我们重温基本绘制的工作流程。你经常会发现你需要它
 
-### Cutting a shape within another
+### 在一个图形内切掉另一个图形
 
-1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
-   window.
-2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
+1. 首先在字形窗口的绘制区域用矩形工具绘制一个矩形。
+2. 接下来使用椭圆工具在你刚刚绘制的矩形内绘制一个椭圆。 
    <img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt width="917">
-3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
-   and that you essentially punched a hole in the center of the rectangle.  
+3. 在Element菜单选择*Correct Direction*。你将会看到两个图形合并了，在矩形的中央穿出一个洞来。
    <img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt width="917">
 
-### Remove overlap
+### 移除重叠区域
 
-1. Add a star that overlaps the corner of the rectangle.  
+1. 添加一个星形，与矩形的角重叠。 
    <img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt height="744" width="917">
-2. Select the star and the earlier shape. You only need to select one point of each overlapping
-   shape, but it is okay to select extra points.
-3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
-   one.  
+2. 选中星形和之前的图形。你只需要选择每个重叠图形的一个点，但是选择额外的点也可以。
+3. 点击Element &gt; Overlap &gt; *Remove overlap*。你将会看到两个图形合成一个。
    <img src="images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
 
-### Add a Point
+### 添加一个点
 
-Using the Pen tool, click and hold in the middle of a line segment, then drag the mouse to change
-the shape.
+使用钢笔工具，在一条线段的中间点击不放，并拖动鼠标改变图形。
 
 <img src="images/O%20at%2079%20from%20Untitled1%20-_014.png" alt width="917">
 
-### Tangent points
+### 切点
 
-Select the bottom-left corner point of your new shape (the intersection of the curve and the
-straight line). From the Point menu, you will see that *Corner Point* is checked. Select *Tangent*.
-This changes the square node to a triangle, but that is all it does until you do the next step:
-extending control points.
+选中你的新图形左下角的拐角点（曲线和直线的交点）。在Point菜单可以看到*Corner Point*是勾选的。选择*Tangent*。这将方形节点改为了三角形，但是做完下一步才算全部做完：扩展控制点。
 
-To do so, choose Element &gt; *Get Info*, which opens the Point Info Window. From the Location tab
-in that window, go to the Next CP field set and set the Distance to a large number, such as 75.
-Click OK. You will see that the curve now smoothly enters the straight line.
+为了这么做，选择Element &gt; *Get Info*，打开了点信息窗口。在窗口中的Location选项卡的Next CP设置，设定一个大数，比如75。点击OK。你将会看到曲线平滑地进入直线。
 
 <img src="images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
 
-### Transformation
+### 变形
 
-Now select about a quarter of the shape &mdash; the star and part of the ellipse in the middle.
+现在选择大概图形的四分之一&mdash;星形和矩形的一部分在中间。
 
 <img src="images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
 
-Choose the 3D Rotate tool, move to the middle of the selected area, and slowly click and drag until
-you see something you like, then release. Here is an example of 3D Rotate used on the practice
-image:
+选择3D旋转工具，移动到选择区域的中央，慢慢地点击拖动知道看到你喜欢的形状，然后松开。这是在实际图像中应用3D旋转的例子：
 
 <img src="images/O%20at%2079%20from%20Untitled1%20-_017.png" alt height="739" width="914">
 
-### Set stroke shape and width
+### 设置绘制形状和宽度
 
-So far you have used the Freehand drawing tool to draw a line. If you double-click the Freehand
-tool, you get the Freehand dialog shown here, which contains a drawing window. This is where you
-select pen shape and size. This dialog also appears when you choose the *Expand Stroke* option in
-the Element menu.
+现在为止你已经使用自由绘制工具来绘制一条线。如果你双击自由绘制工具，将会展示包含一个绘制窗口的自由绘制对话框。这里是你选择笔触形状和尺寸。当你选择*Expand Stroke*选项的时候这个对话框也出现在Element菜单中。
 
 <img src="images/Freehand_018.png" alt height="676" width="420">
 
-Using the Corner tool, draw a polygon and click OK.
+使用拐角工具，绘制多边形，点击OK。
 
-Now, draw a line with the Freehand drawing tool. When you release the mouse button, the new path is
-automatically stroked with the shape you chose in the Freehand dialog, as shown here.
+现在使用自由绘制工具绘制一条线。当你松开鼠标按钮的时候，像下面一样，新的路径自动使用你在自由绘制对话框里选择的宽度和形状和绘制。
 
 <img src="images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt height="744" width="916">
 
-## Keep drawing!
+## 继续绘制！
 
-You should continue to experiment with the drawing tools until you feel comfortable that you can use
-them to draw and transform whatever shapes you need. At this point, you are equipped to start
-constructing the components of glyphs, but you should also take time to look at FontForge’s other
-set of tools.  
-The next chapter, [“Drawing with Spiro”], describes the Spiro drawing mode. Spiro drawing is
-distinct enough from B&eacute;zier curve editing that it requires an explanation of its own.
+你应该继续试验绘制工具直到你觉得可以使用它们绘制和变形出你需要的任何形状。到这个时候，你准备好开始构造字形的组成部分，但是你也应该花些时间看看FontForge的其他工具集。下一章[“绘制Spiro”][“Drawing with Spiro”]描述了Spiro绘制模式。Spiro绘制与B&eacute;zier曲线编辑太不同了，以至于需要解释其本事。
 
 [“Drawing with Spiro”]: Drawing_With_Spiro.html

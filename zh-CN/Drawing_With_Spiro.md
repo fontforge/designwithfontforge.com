@@ -3,90 +3,76 @@ published: true
 layout: bookpage
 weight: 12
 category: Getting To Know FontForge
-title: Drawing with Spiro
+title: 使用Spiro绘制
 ---
 
-Spiro is a toolkit for designing curves in an alternate method to the more traditional B&eacute;zier
-curves. Although it is optional, FontForge can be installed to include a Spiro mode that offers you
-tools to create this specific kind of curves.  
-See [“Installing FontForge”] for more details on how to include the Spiro library in your program.
+Spiro是一个使用更传统的B&eacute;zier曲线的替换方法来设计曲线的工具包。 尽管这是可选择的，FontForge可以包含Spiro模式安装，提供给你创造特定类型曲线的工具。如何在你的程序中包含Spiro库的详细信息参见[“安装FontForge”][“Installing FontForge”]。
 
-Spiro drawing has a different approach, that can help you getting your curves done in a different
-way and solving your conception problems. Please experiment!
+Spiro绘制是一个不同的方法，可以用不同的方式完成你的曲线，解决你概念上的问题。请试验一下！
 
-## The Spiro toolset
+## Spiro工具集
 
-Many of the same drawing tools are available in Spiro mode as those described in the [“Using the
-FontForge drawing tools”] chapter, but some of them work very differently when you are in Spiro mode.
+[“使用FontForge绘制工具”][“Using the
+FontForge drawing tools”]一章描述的许多工具在Spiro模式下有相同的工具，但是其中一些在Spiro模式下工作地很不同。
 
 <img src="images/spiro_tools_labels.png" alt width="400">
 
-There are five different types of Spiro points:
+Spiro点共有五种类型：
+1. G4点，用于更温和的曲线
+2. G2点，用于更尖锐的曲线
+3. 拐角点，用于尖角的连接
+4. 前约束点，在路径从曲线到直线转变的时候使用
+5. 后约束点，在路径从直线到曲线转变的时候使用
 
-1. G4 points, used for a more gentle curve
-2. G2 points, used for a sharper curve
-3. Corner points, for abrupt corner joints
-4. Previous constraint points, used when the countour of the path changes from a curve to a straight
-   line
-5. Next constraint points, used when the path changes from a straight line to a curve
+## 使用Spiro绘制一个“S”
 
-## Drawing an ‘S’ with Spiro
+做完泳Spiro绘制一个“S”的练习后，你将会熟悉Spiro。
 
-Going through the exercise of drawing an ‘S’ with Spiro will make you comfortable with Spiro.
+<p class="note"><b>提示：</b>在Spiro模式绘制的时候，经常从一个G4或者
+G2点开始。在FontForge中从其他类型的点开始并不真的生效。</p>
 
-<p class="note"><b>Tip:</b> When drawing in Spiro mode, always start with a G4 or G2 point.
-Beginning with the other types of points doesn’t really work in FontForge.</p>
-
-Start off with a G4 point at the topmost point of your ‘S,’ followed by a corner point, then another
-corner point. Work clockwise around the shape of the letter.
+在你的“S”的最上点出放置一个G4点，接下来是拐角点，然后是另一个拐角点。顺时针地完整字母的形状。
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_023.png" alt>
 
-Follow this with a G4, a previous constraint point, and a next constraint point.
+接下来是一个G4，一个前约束点和一个后约束点。
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_022.png" alt>
 
-Next, add another G4 point, followed by two more corner points.
+然后在两个拐角点后添加另一个G4点。
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_024.png" alt>
 
-Then a G4, followed by a previous constraint, followed by a next constraint.
+然后一个G4，紧跟着是一个前约束点，一个后约束点。
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_025.png" alt>
 
-Then, add one more G4 point, and finally, close the shape at the starting point by clicking on it
-using the G4 point tool.
+然后添加一个或多个G4点，最终通过在G4点工具中点击开始点，从开始点关闭图形。
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
 
-Now you almost have an ‘S’! Begin nudging the points around to get your S look the way you want.
+现在你几乎有了一个“S”！开始微调周围的点，得到一个你想要的S。
 
-<div class="warn"><p>Oops, what happened?</p>
+<div class="warn"><p>哎呀，怎么了？</p>
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
 
-<p>Don’t worry &ndash; Spiro sometimes does some funny things. Just hit <i>Undo,</i> or keep nudging
-the points to get things back on track.</p></div>
+<p>不要担心&ndash;Spiro有时会做出一些滑稽的事情。只需要点击<i>Undo,</i>或者一直微调使事情回到正轨上来。</p></div>
 
-Now, you should see something like this:
+现在你应该有了类似这样的东西：
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
 
-Toggle out of Spiro mode back into B&eacute;zier mode. You will notice there are a lot of points on
-the resulting curve &ndash; you may want to clean some of them up. 
+从Spiro模式切换回B&eacute;zier模式。你会看到得到的曲线上有许多点。你可能希望清理其中一些。 
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 
-To clean up those extra points, go to the Element menu and select <i>Simplify &gt; Simplify</i>.
-Then go to <i>Element &gt; Add Extrema</i>. Finally, go to <i>Element &gt; Round &gt; To Int</i>.
-After these clean up operations, you will see something like this:
+为了清理额外的点，到Element菜单选择<i>Simplify &gt; Simplify</i>。然后点击<i>Element &gt; Add Extrema</i>。最终点击<i>Element &gt; Round &gt; To Int</i>。做完这些操作后你将会看到类似这样的东西：
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
 
-You can continue to experiment with Spiro mode to get a feel of how it differs from B&eacute;zier
-drawing.  
-The terminology is different, but as with FontForge’s other drawing and adjustment tools, practice
-will get you the things you want.
+你可以继续试验Spiro模式，感受到与B&eacute;zier绘制的不同。
+术语是不同的，但是有了FontForge的其他绘制和调整工具，练习将会使你作出你希望的东西来。
 
 [“Installing FontForge”]: Installing_Fontforge.html
 [“Using the FontForge drawing tools”]: Using_the_Fontforge_Drawing_Tools.html
