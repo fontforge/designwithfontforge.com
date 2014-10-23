@@ -3,9 +3,9 @@ published: true
 layout: bookpage
 weight: 20
 category: workflow
-title: Font info & metadata
+title: 字体信息和元数据
 ---
 
-## Font info
+## 字体信息
 
 <img src="images/info_ps_names.png"/>

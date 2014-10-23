@@ -3,87 +3,53 @@ published: true
 layout: bookpage
 weight: 20
 category: workflow
-title: Creating ‘o’ and ‘n’
+title: 创造“o”和“n”
 ---
 
-There are many approaches to designing a font. It can be helpful to deconstruct the larger processes
-involved in order to get started quickly, and to provide a solid basis for a whole font’s worth of
-characters.  
-A popular and valuable approach to this is to design the ‘o’ and ‘n’ characters first, nailing down
-essential elements of form, space and balance, before bringing them together for the formation of
-other characters. Creating the lowercase ‘o’ and ‘n’ characters can provide us with some of the
-fundamental forms and structures that will underpin all other characters that are needed.
+设计字体有很多种方法。解构涉及的大规模的进程，以快速开始并为整个字体的字符的价值提供坚实的基础。这样做是有益的。
+达到这个目的的一个受欢迎的有价值的方法是首先设计“o”和“n”，在定下形式、间距和平衡的必要元素，然后再将它们合在一起形成其他字符。创建小写的“o”和“n”字符可以提供给我们一些基本的形式和结构，可以支撑所有其他的需要的字符。
 
-Although the design of the ‘o’ may seem like quite a simple thing, all the characteristics mentioned
-in the [“What is a font?”] chapter come into play. The choice you make about each characteristic
-should be a deliberate choice.
+尽管设计“o”可能看起来是十分容易的事情，但是所有在[“什么是字体？”][“What is a font?”]一章中提到的字符都开始起作用。你对每个字符所做出的选择应该是深思熟虑的。
 
-## Underhangs and Overshoots
+## 下垂和上突
 
-One way in which optical effects impact type design is in how curves and straight edges appear to
-the eye.  
-For instance, for a curve and a straight edge to look as though they are aligning correctly on the
-baseline, the curve must actually sit a little below the line, producing an *undershoot*. The
-portion of the character that dips just below the baseline in order to appear sitting on the
-baseline is called the *underhang* &ndash; demonstrated below. Without underhang, characters with
-curves around the baseline will appear misaligned within a line of text.
+光学效果影响字体设计的一种方式是曲线和直的边在眼睛里是如何出现。
+比如说，如果要曲线和直边看起来正确地在基线上对齐，那么实际上曲线必须放在基线以下一点点，这就产生了下突。为了看起来放置在基线上而压低到基线以下的字符的那部分称作*下垂* &ndash;如下演示。没有下垂，基线附近有曲线的字符将会看起来没有在文本的线上对齐。 
 
 <img src="images/underhang1.png" alt>
 
-Similarly to the undershoot, an area of *overshoot* is needed to provide the illusion of alignment
-at the x-height and at the cap-height (see below).
+类似于下突，提供x高度和大写高度的对齐错觉需要一部分区域*上突*（如下）。
 
 <img src="images/nox-opensans.png" alt>
 
 <img src="images/nox-merriw_1.png" alt>
 
-## Designing the lowercase ‘o’
+## 设计小写“o”
 
-The design of the ‘o’ is not just a question of the black part of the letter. While the ‘o’ provides
-the very basic bowl weight and shape, the white &ndash; or counter &ndash; provides the size and
-shape used by the rest of the font.  
-In general terms, we can also observe that the round form of the ‘o’ will be echoed in other
-characters. These include the b, c, d, e, p, and q, and the form will also implicate the shaping and
-forms of curves within any other characters of the font, such as the O, C, D, and Q.
+设计“o”不仅仅是字母中黑色部分的问题。“o”提供了非常基本的碗（bowl）的粗细和形状，白色部分&ndash;或对立面&ndash;提供了字体其他部分使用的尺寸和形状。
+一般说来，我们也可以在其他字符中看到“o”中的圆形。这些字符包括b，c，d，e，p和q，这些形式也会影响字体中其他字符的曲线的形状和形式，比如O，C，D和Q。
 
-In addition, the white inside the ‘o’ should be utilized when designing the spacing of our font; the
-‘o’ sets up the reference rhythm of spaces used between all other glyphs in the font too. These two
-values are very related, so essentially you will need to design the amount of white space that are
-the side bearings of your ‘o’ as well.  As a general principle, with the exception of slanted or
-italic fonts, the ‘o’ should have the same amount of space on the left and right sides, and the
-white space between a string of ‘o’ characters should balance the white space inside the ‘o’s.
+此外，“o”中的白色部分应该在设计字体间距的时候利用起来；“o”也会设定字体中其他字形间使用的间距。这两个值之间关联很大，因此基本上你也需要设计你的“o”两旁的空白数量。作为一般原则，除了斜体或者意大利斜体，其他字体的“o”左右两边的间距是相同，“o”字符的字符串的空白间距应该与“o”内的空白间距相平衡。
 
-Here we encroach well into the territory of spacing and metrics, so even at this early stage you
-may want to have a look at the [“Spacing, Metrics, and Kerning”] chapter, which covers the basical
-implications of spacing in a font.  
-That should get you to a well-spaced ‘o’ character, which will help you with the design of the ‘n’.
+我们已经接触了很多间距和度量，所以即使在这一较早阶段，你也可能希望看一下[“间距, 度量和紧缩”][“Spacing, Metrics, and Kerning”]一章，涵盖了字体间距的基本含意。
+这样将会使你做出间距很好的字符“o”，这样对你设计“n”也有帮助。
 
-## Design the lowercase ‘n’
+## 设计小写的“n”
 
-Once you are happy with the form and spacing of your lowercase ‘o’ character as shown with a sample
-string, the next step of this approach is to create a suitably shaped, balanced, and well-spaced
-lowercase ‘n,’ which you will inject into your string of ‘o’s.
+一旦你可以对你的小写字符“o”的形式和间距感到高兴，就像展示的示例字符串那样，那么下一步就是创造形状合适、平衡、间距良好的小写字母“n”，这样你就可以将其插入“o”的字符串。
 
-If we look at the anatomy of an ‘n’, we can break it apart into two or three components consisting of a <i>stem</i> and a <i>curve</i>.  
-This approach can give us a shortcut to keeping balance and harmony within our characters as they
-are formed, and as our set of characters grows. Looking at the sample ‘n’ below; it is broken into
-two components. These separate components combine together to form an ‘n’, but the same components
-will be re-used later when forming other characters; e.g., the stem at the left of the ‘n’ can be
-used to form the left-sided stem of all other lowercase characters.
+如果我们观察“n”的解刨，我们可以将其分割成2或3个组成部分，包括一个<i>茎</i>和一条<i>曲线</i>。
+
+这种方式可以在我们的字符集增长的时候，给你形成字符时与其他字符保持平衡和谐的捷径。  看下面的例子“n”；他被分为两部分。分开的组件合在一起就形成了一个“n”，但是同样的组件在稍后形成其他字符的时候可以再次使用；比如左边的“n”的茎可以在形成其他所有小写字母的茎的时候使用。
 
 <img src="images/n-compo-2.png" alt>
 
 <img src="images/n-compo-1_1.png" alt>
 
-Taking yourself forward again to the chapter on spacing and metrics, the design of the ‘n’ character
-should keep pace within the process of spacing the ‘n’ and ‘o’ characters together.
+你可以再次快进到间距和度量的章节，字符“n”的设计应该跟上调整字符“n”和“o”间距的进程。
 
-Now, garnering the methods you have used to create an ‘n’ and ‘o’ character, you are ready to expand
-the lowercase character set. The qualities of the stem and curve components of the ‘n’ and ‘o’ will
-inform the way you may form other characters.  
-If we study the characters below from [Open Sans], we can see the relationships between the formal
-aspects of separate characters and how they can be repeated, with some adjustments, to form the
-components of our font.
+现在利用你所使用过的方法来创造一个“n”和一个“o”字符，你已经准备好扩大小写字符集。“o”和“n”的茎和曲线组件为你形成其他字符指明道路。
+如果我们学习下面的来自[Open Sans]的字符，我们可以看到各个字符的正式面貌以及他们如何重复出现，通过一些调整形成新的字体的组件。
 
 <img src="images/h-m-n-curves.png" alt>
 
