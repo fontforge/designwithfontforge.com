@@ -3,52 +3,30 @@ published: true
 layout: bookpage
 weight: 22
 category: workflow
-title: Creating Your Type’s DNA
+title: 创造你字体的基因
 ---
 
-After you have completed good solid design and spacing of the ‘o’ and ‘n’, the next thing to do is
-to begin populating the font with letters whose structural characteristics provide a useful basis
-for making many of the other letters in the font.
+在你为“o”和“n”完成了良好的设计和间距，下一个要做的事情就是使用一些字母来繁殖字体，这些字母的结构特征为制作字体中许多其他的字母提供了有用的基础。
 
-It may be tempting to rush and populate your font as rapidly as possible with all the letters
-&ndash; resist this urge!  
-While ‘o’ and ‘n’ provide an excellent starting-point to the foundation of the design, we need to
-establish the rest of it. Rapid expansion before this is done will mean that the whole project will
-become harder to manage &ndash; and takes longer than it needs to.
+可能急切地尽快繁殖所有的字母是很诱人的&ndash;忍住这个强烈的欲望！
+尽管“o”和“n”提供了设计基础的极好的开始，但是我们需要建立剩余的部分。在这之前快速扩张意味着整个项目会变的难以管理&ndash;并且花费比必须时间更多的时间。
 
-What else do we need for the foundation of our design? &ndash; First, let’s look at what we’ve got
-with our ‘n’ and ‘o.’
+我们还需要什么来建立我们设计的基础？&ndash;首先让我们看看通过“o”和“n”我们得到了什么。
 
-Although the ‘o’ is especially useful for working out the basic spacing, it’s not going to help us
-design other characters &ndash; not necessarily even the ‘b’ or ‘d’.  
-The letter ‘n’, on the other hand, is very useful because it helps making the ‘m’, ‘h’, and ‘u’. The
-other factor that we need to weigh when choosing letters for our foundation is how frequently the
-letter is used. A letter that’s used a lot will help us make test words. Some of the letters may be
-chosen almost exclusively for this particular reason.
+尽管“o”对于计算基本间距格外有用，但是它并不能帮助我们设计其他字符&ndash;“b”或者“d”也不一定。
+另一方面，字母“n”很有用，因为它对于制作“m”、“h”和“u”有帮助。在我们为我们的基础选择字母的时候，其他我们需要权衡的因素是字母使用的频率。一个使用很多的字母将会帮助我们制作测试字。由于这个特别的原因，一些字母可能被唯一地选中。
 
-The letters you choose don’t have to be those suggested here. They should simply have the
-characteristics being discussed. So, for instance, you may want to use “a d h e s i o n” to start
-with. This set of letters is what’s used in the type design MA course at the University of Reading,
-UK.  
-An alternative is “v i d e o s p a n” which is used by the foundry *Type Together* to start their
-projects, and in their own type design workshops. Either set has enough DNA to be meaningful, and
-both are small so they are easy to make ‘global’ changes to.
+你选择的字母不必是这里推荐的。他们仅仅拥有讨论过的特征。因此实际过程中你可能希望以“a d h e s i o n”开始。这些字母集是英国雷丁大学艺术硕士的字体设计课程中所使用的。
+另一个可选的是“v i d e o s p a n”。这是*Type Together*工作室选中用来开始他们自己的字体设计项目。其中任何一个都有足够的DNA来变的有意义，两个都很小，这样可以方便地作出全局改变。
 
-While it may be easiest to simply use one of the above sets of letters, you can also build your own:
-Ask yourself what set of letters should you pick to add to ‘n’ and ‘o’? Consider the following
-options:
+最简单的方式是简单地使用上面集合中的字母，同时你也可以构建你自己的：问问应该挑选什么字母添加到“n”和“o”中？考虑下面的选项：
 
-- ‘a’ &ndash; the letter ‘a’ is also a very common starting choice. The ‘a’ may also be useful in
-  ‘anticipating what the terminals of the ‘s’ will look like.
-- ‘d’ &ndash; the shape of ‘d’ can let you know quite a lot about the design of ‘b’, ‘p’ and ‘q’.
-- ‘e’ &ndash; in English and many other languages, the letter ‘e’ is especially common &ndash; which
-  ‘makes it especially valuable. The shape of ‘e’ can also be used to begin the design of ‘c’.
-- ‘h’ &ndash; while ‘h’ can be built fairly rapidly from the ‘n’, it also provides variety to the
-  texture you want to test by offering an ascender.
-- ‘i’ &ndash; like ‘e’, the letter ‘i’ is fairly common and has the benefit of letting you know a
-  little bit about the face of the ‘j’. The shape of ‘i’ is also partly inferable from the shape of
-  the ‘n’.
-- ‘s’ &ndash; the letter ‘s’ is a good one to draw early on because it adds visual variety to the
+- ‘a’ &ndash; 字母“a”也是一个非常通用的开始选择。“a”对于“s”的结束期望的样子很有帮助。
+- ‘d’ &ndash; “d”的形状可以使你对“b”、“p”和“q”的设计认识很多。
+- ‘e’ &ndash; 在英语和许多其他语言中，字母“e”尤其多变 &ndash;这使得它尤其有价值。“e”的形状也可以用来设计“c”。
+- ‘h’ &ndash; 虽然“h”可以相当快地从“n”构造出来，但是它也提供了测试包含顶部的结构的多样性。
+- ‘i’ &ndash; 就像“e”，字母“i”相当通用，并且可以让你了解一点“j”的样子。“i”的形状也可以通过“n”的形状推断出一部分来。
+- ‘s’ &ndash; 字母“s”the letter ‘s’ is a good one to draw early on because it adds visual variety to the
   texture of the letters you will be testing. The letter ‘s’ is also unusually hard to get right,
   so starting on it early makes it more likely that you will be able to spend enough time to get it
   right by the end of the project.  
