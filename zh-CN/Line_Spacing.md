@@ -3,39 +3,39 @@ published: true
 layout: bookpage
 weight: 24
 category: workflow
-title: Line Spacing
+title: 行间距
 ---
 
-When you have the word space and the n and o set you can begin to look at the line spacing. However, a full and final decision about line spacing isn't possible until you have Capital letters and some punctuation.
+当你有了字间距和字母n与o的集合，你可以开始看行间距。但是行间距的最终选择直到你了解了大写字母和一些标点符号后才可能做出。
 
-## Think about line space intentionally
+## 有意地思考行间距
 
-As is the case with letter and word spacing, having too much or too little line spacing can make your font look awkard in real-world usage.  Above all else, finding the right line spacing balance is a matter of thinking about the question intentionally and of testing a range of options on the way to making a final decision.
+就像字母和字间距的情况，行间距太多或者太少会使得你的字体在真实世界的使用中显得尴尬。找到合适的行间距平衡就是有意地考虑这个问题并考虑测试做出最终决定的过程中的一些选项范围，这笔其他更重要。
 
-As a general rule, most new font designers tend to err on the side of having too little line spacing in their font, so if you are unsure, adding additional space is usually a good idea.
+一般规则是，大多数新的字体设计者更倾向于犯字体行间距太小的错误，所以你不确定的情况下加入额外的间距经常是个好主意。
 
-You should also consider the scope of your project's language coverage when considering line spacing. If you test your font's line spacing only with unaccented characters, you are likely to settle on a line spacing value that leaves no room for accents.  If you are certain your font will never be used with accented characters, this might be acceptable -- but the odds are that your font <em>will</em> be used to set accented text.  In that case, too little line spacing will cause the accents on one line to run into the bottoms of the glyphs above, and leave the reader with difficult (if not impossible) to read text.
+在考虑行间距的时候，你也应该考虑你的项目的语言覆盖范围。如果你只使用无重音的字符来测试你字体的行间距，那么你设定的行间距很可能没有空间来放重音。如果你确定你的字体永远不会使用带重音的字符，那么这是可以接受的&ndash;但是你的字体被用来设置重音文本的几率还存在。在那种情况下，太小的行间距将会导致一行的重音进入上面字形的底部。使得读者难以阅读文本。 
 
-One strategy to test whether your font's line spacing is proper for accented characters is to employ sample text from several languages.
+一个测试你的字体的行间距是否适合重音字符的方法是从多个语言中挑选示例文本。
 
 <img src="images/Selection_043.png" alt="" height="100" width="472">
 
 <img src="images/Selection_044_1.png" alt="" height="96" width="481">
 
-For languages heavy in diacritical marks (such as Czech), line spacing should be taller than for languages that use no diacriticals. The examples above show Czech (above) and English with the same fairly wide line spacing.
+对于变音标记重的语言（比如捷克语），行间距应该比没使用变异符号的大。例子展示了相同的行间距的捷克语（上面的）和英语。
 
-## Experiment with your font's line spacing in FontForge
+## 在FontForge中试验你字体的行间距
 
-In FontForge, you can set and adjust your font project's line spacing from within the Font Info window. Open this window by choosing <em>Font Info</em> from the "Element" menu, then click on the General tab. Note the values that FontForge has listed for Ascent and Descent. Unless you have made manual changes already, these two numbers when added together should equal the value of Em Size listed on the line below.
+在FontForge中，你可以在字体信息窗口中设置调整你的字体项目的行间距。在“Element”菜单中选择<em>Font Info</em>，然后点击General选项卡可以打开这个窗口。需要注意FontForge列在顶部（Ascent）和底部（Descent）的数值。除非你已经手动改变了数值，否则这两个数字加起来等于下一行的Em size。
 
 <img src="images/fontinfo-generl.png" alt="">
 
-Now switch to the "OS/2" tab. On almost all computers, your font's line spacing will be determined by the Ascent and Descent values that you enter in this tab, under the Metrics heading.
+现在切换到“OS/2”选项卡。你的字体在几乎所有的电脑上的行间距将由你在Metrics选项卡输入的顶部和底部值决定。下一步你应该设置所有的
 
 <img src="images/ascents-descents.png" alt="">
 
-There are three sets of values: Win Ascent and Descent, Typo Ascent and Descent, and HHead Ascent and Descent.  You should set all the Ascents to be the same as the Ascent value you noted in the General tab.  Next, you shold set all of the Descents to be the same as the Descent value you noted in the General tab, with one important exception: you must make the Typo Descent number <em>negative</em>. Leave the value the same, but put a minus sign in front of it.  Finally, uncheck all of the "is offset" options.
+这里有三组值：Win Ascent与Descent，Typo Ascent与Descent和HHead Ascent与Descent。你应该将所有的Ascent设置与你在General选项卡下的值相同。接下来你应该将所有的Descent设置为与你在General选项卡下的值相同，除非你要设置Typo Descent数值为<em>负数</em>。 在这种情况下把数值设置为相同，但是在前面输入负号。最后取消对“is offset”选项的勾选。
 
-These settings will give you a sensible starting point.  You can now proceed to test your font with this line spacing and make incremental adjustments until you arrive at eye-pleasing result.
+这些设置将给你一个可感觉到的起点。现在你可以开始通过这一行间距来测试你的字体，并且增量调整直到你得到让眼睛舒服的结构。
 
-If you find your linespacing is too tight and you don't want to or can't make the verical metrics larger you can scale the glyphs down to gain more space for linespacing.
+如果你发现你的行间距太紧并且你不希望或不能让其字体的竖直距离更大，那么你可以将字形缩小来留给行间距更多空间。

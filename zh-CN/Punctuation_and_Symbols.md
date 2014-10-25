@@ -3,66 +3,65 @@ published: true
 layout: bookpage
 weight: 25
 category: workflow
-title: Punctuation and Symbols
+title: 标点和符号
 ---
 
-Punctuation and other typographics symbols have a history of their own, separate and apart from the development of the alphabet. But you will find that the same design process still applies, including reusing and adapting component elements, and iteratively testing your design choices.
+标点和其他印刷使用的符号都有他们自己的与字母的发展独立分开的历史。但是你会发现相同的设计流程仍然可以应用，包括重用和适配组件元素和迭代地测试你的设计选择。choices.
 
-## Simple punctuation glyphs
+## 简单标点字形
 
-The first thing to do when designing punctuation is to create the '.' character, which is known as the full stop or period.
+在设计标点时首先要做的事创造“.”符号，也就是句号或句点。
 
-The shape of this glyph is often taken from the dot over the 'i,' which is sometimes called the tittle. After you copy the dot, you may want to make it a little larger. Testing several different sizes in printed text or on screen is advisable.
+这个字形的形状经常来自于“i”上面的点，有时也被称作头部。在你复制这个点之后，你可能希望让它变得大一点，在打印文本或者屏幕上测试几种不同的尺寸是合适的。
 
-Once you establish a size that you are happy with, this dot can be used as the basis for a wide variety of other punctation, including these glyphs:  ; : ? ! ¡ ¿ · …
+一旦你建立了让你觉得快乐的尺寸，这个点会被作为多种其他标点的基础，包括这些字形：; : ? ! ¡ ¿ · …
 
 <img src="images/period.png" alt="">
 
-The next glyph to make is the comma. The shape of the comma can vary to an almost suprising degree. It may be valuable for you to look at a wide rage of comma designs before you design yours.
+下一个要制作的字形是逗号。逗号的形状可以变化到让你觉得吃惊的程度。在你设计自己的逗号前看一下各种各样的逗号设计是有价值的。
 
-The image below shows two of the most common forms that the comma may take.
+下面的图片展示了逗号可能使用的两种最常用的形式。
 
 <img src="images/commas.png" alt="">
 
-The top of the comma is often slightly lighter than the period, because if it is the same it can look too heavy. In the sample image, the comma on the right is a good example of this compensation being applied. Another common mistake to watch out for with this glyph is making it too short
+逗号的上部通常比句号小一点点，因为如果一样大小的话看起来太重。在同一张图片上的右边的逗号是应用这种补偿的例子。设计这个字形需要注意的另一种错误是做的太短。
 
-When you have your comma it will be fairly easy to make the semi colon (;).
+当你有了自己的逗号时，制作分号（;）是非常容易的。
 
-## Exclamation mark and question mark
+## 叹号和问号
 
-The exclamation mark can be be deceiving in that it <em>seems</em> simple to make. If you look at a range of typefaces you will see that sometimes the design is indeed fairly simple.
+叹号可能让你产生<em>看起来</em>容易制作的错觉。如果你看了一些字体样式，你会距的优势设计真的是相当简单。
 
-However, this is a glyph which has a surprising amount of opportunity for expressing design. It often the case that even in a font which has very little contrast, the bar above the dot is somewhat heavier at the top than the bottom. The form of the exclamation mark usually relates to the design of the comma to some degree.
+但是这是一个有令人吃惊的机会总数可以表达设计的字形。即使在对比非常小的字体中，点上面的条形经常上大下小。叹号的形式经常与逗号的设计有着某种程度的联系。
 
 <img src="images/exclam.png" alt="">
 
-The question mark can also be quite difficult to make, because it requires you to balance an open curve over the dot below.
+问号也非常难制作，因为它需要你平衡点上面的开放曲线。
 
-As with the exclamation mark it is advisable to look at and even test a range of different solutions before choosing one for your design.
+设计叹号时可取的方法是在为你的设计选择一个方案之前看甚至测试一些不同的方案。
 
 <img src="images/question%20marks.png" alt="">
 
-The design of the c, C, G, s, and S glyphs may provide some basis for the design of this glyph, but you may decide to choose a form that is distinct as well.
+字形c、C、G、s和s可能提供了设计这个字形的基础，但是你也可以选择一个不同的形式。
 
-## Additional symbols
+## 额外的符号
+
 <img src="images/3quotes.png" alt="">
 
-Simple or vertical quotes -- ' and " -- are distinct from typographic quotes: ‘ ’ and “ ” ‚ „ .
+简单的或者竖直的引号&ndash;‘和"&ndash;与印刷上的引号‘ ’和“ ” ‚ „不同。
 
-Simple quotes can follow the shape of the bar over the dot in the exclamation mark, but they can also be designed separately.
-
-Usually typographic quotes are fairly closely related to the comma, however they should be longer than the comma and often curve more.
+通常印刷上的引号与逗号非常接近，但是他们应该比逗号更长，并且经常更弯。
 
 <img src="images/3quotes2.png" alt="">
 
-Brackets [ ] are relatively simple to make because they are so boxy in shape. Neverthess their design should reflect the choices you have made in the rest of the typeface.
+方括号[ ]制作起来相对简单，因为他们在形状上四四方方。不过他们的设计应该反映出你在其余字体样式上所作出的选择。
 
-The main question to decide is how tall and deep they will be. The convention is that they should exceed the height of the capitals very slightly and descend below the baseline to approximately 3/4 of the depth of your lower case descenders.
+选择的主要问题是他们应该多高多深。惯例是他们的高度应该轻微地超过大写字母的，并且底部比基线低约小写字母底深的3/4。
 
-These choices will also be reflected in the design of the parentheses () and the braces {}. The weight of the stems on all three of these symbols should be less than the weight of the stems of both the capitals and the lower case letters.
+这些选择也会反映到圆括号()和花括号{}中。这三个符号的茎应该比大写和小写字母的茎的细。
 
 <img src="images/1Brackets1.png" alt="">
 
-Parentheses should draw on the design of related shapes, such as D, C, and G.
+圆括号应该在有关形状设计的基础上绘制，比如D、C和G。
 
-Braces are notable in that their design varies to a greater degree. Braces have this in common with the question mark. The distribution of weight in braces may be like weight distribution of the numbers, in that it may sometimes violate the rules you follow in the rest of the design.
+花括号最明显的是他们的设计可以在非常大的程度上变化。花括号在这一点上与叹号相同。花括号的粗细分布可能类似数字的分布，因为它有时可能违反你在其余的设计中要遵循的规则。
