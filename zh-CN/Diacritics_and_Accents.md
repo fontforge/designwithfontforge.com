@@ -3,9 +3,10 @@ published: true
 layout: bookpage
 weight: 26
 section: Workflow
-title: Diacritics and Accents
+title: 变音和重音
 ---
-A diacritic is a mark added to, or combining with, a letter, often used to change the sound value of the letter to which the mark is added. Some diacritical marks (such as the 'acute' and 'grave') are often called accents. Diacritical marks may appear above or below a letter, within it or between two letters.
+
+变音是添加或结合到一个字母上的标记，经常用来字母的声调改变为添加的标记。一些变音标记（比如“acute”和“grave”）经常被称为重音。变音标记可能出现在一个字母的上面或者下面，一个字母内或两个字母之间。
 
 <img width="5%" src="images/dia_a_grave.png"/>
 <img width="5%" src="images/dia_a_circumflex.png"/>
@@ -18,84 +19,83 @@ A diacritic is a mark added to, or combining with, a letter, often used to chang
 <img width="5%" src="images/dia_hungarumlaut.png"/>
 
 
-### Some examples of diacritics
+### 一些变音的例子
 
 <p class="imagebox"><img src="images/dia_a_grave.png"/></p>
 
-Lowercase 'a with grave' (unicode u+00e0).
-Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
+小写的“a with grave”（unicode u+00e0）。在一个字体中通过将小写的“a”字形（unicode u+0061）和“combining grave accent”字形（unicode u+0300）联合起来创造。
 
 <p class="imagebox"><img src="images/dia_a_circumflex.png"/></p>
 
-Lowercase 'a with circumflex' (unicode u+00e2).
-Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
+
+小写的“a with circumflex”（unicode u+00e2）。在一个字体中通过将小写的“a”字形（unicode u+0061）和“combining circumflex accent”字形（unicode u+0302）联合起来创造。
 
 <p class="imagebox"><img src="images/dia_c_ogonek.png"/></p>
 
-Lowercase 'a with ogonek' (unicode u+0105).
-Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining ogonek' glyph (unicode u+0328).
+小写的“a with ogonek”（unicode u+0105）。在一个字体中通过将小写的“a”字形（unicode u+0061）和“combining ogonek”字形（unicode u+0328）联合起来创造。
 
 <p class="imagebox"><img  src="images/dia_c_cedilla.png"/></p>
 
-Lowercase 'c with cedilla' (unicode u+00e7).
-Created in a font by combining the lowercase 'c' glyph (unicode u+0063) and the 'combining cedilla' glyph (unicode u+0327).
+小写的“c with cedilla”（unicode u+00e7）。在一个字体中通过将小写的“c”字形（unicode u+0063）和“combining cedilla”字形（unicode u+0327）联合起来创造。
 
 <p class="imagebox"><img  src="images/dia_hungarumlaut.png"/></p>
 
-Lowercase 'o with double acute' (unicode u+0151).
-Created in a font by combining the lowercase 'o' glyph (unicode u+006f) and the 'combining double acute accent' glyph (unicode u+030b).
+小写的“o with double acute”（unicode u+0151）。在一个字体中通过将小写的“o”字形（unicode u+006f）和“combining double acute accent”字形（unicode u+030b）联合起来创造。
 
 <hr>
 
-FontForge can automatically create accented characters in 2 main ways;
+FontForge可以用2种主要的方式自动地创造带重音的字符：
 
-1. FontForge contains rudimentary information on where to place diacritic marks, so can automatically build most accented characters.
-2. For much greater control of diacritic placement, FontForge can place diacritic marks based on the position of user created anchor points.
+1. FontForge包含了放置变音标记位置的基本信息，所以可以自动地构建几乎所有的重音符号。
+2. 为了对变音符号放置有更好的控制，FontForge可以给予用户创建的锚点的位置来放置变音标记。
 
-<p class="note">It should be noted here that if you are not using anchors and lookup tables to position diacritic marks then if the glyph of a particular diacritic mark is not present in your font, FontForge will instead use a similar spacing character in place. For example, if the combining mark 'acutecomb' (u+0301) is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds any acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
+<div class="note">
+<p><b>注意：</b>如果你没有使用锚点和查找表来控制变音标记的位置，那么如果一个特定的变音标记没有出现在你的字体中，FontForge会使用一个类似的间隔字符来替代。例如如果要联合的“acutecomb”（u+0301）没有出现在你的字体中，那么FontForge将在自动构建任何添加acute accent的字形时会使用标准的“acute”（u+00b4）字符。如果“acutecomb”出现了，那么FontForge将会总是使用它，除非你特别强制FontForge使用间隔字符来构建有重音的字形。</p>
+</div>
 
-## FontForge's basic auto placement of diacritic marks.
+## FontForge对变音标记的基本自动替换
 
-In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character (u+00e1) , we would need to have already created the lowercase 'a' (u+0061) and the 'acutecomb' glyph (u+0301). Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acutecomb' glyph into the 'a acute' character slot (see below).
+在FontForge的“Element”菜单，有一个“Build”功能可以用来创建变音字符、某些组合字符和一些重复的字符。使用“Element > Build > Build Accented Glyph”功能可以在FontForge中自动构建带重音的字符。这个功能也可以通过快捷键“ctrl + shift + a”来使用。因此如果要使用“a acute“字符（u+00e1），我们需要已经创造出小写的“a”（u+0061）和“acutecomb”字形（u+0301）。然后选择“a acute”字符位置并使用“Element > Build > Build Accented Glyph”功能，FontForge将会放置一个到小写的“a”字形引用和一个到“acutecomb”字形的引用到“a acute”字符位置（如下）。
 
-<p class="note">It should be noted here that if the glyph of a diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example of the combining mark 'acutecomb' (u+0301)is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
+<div class="note">
+<p><b>注意：</b>如果一个变音标记字形没有出现在你的字体中，那么FontForge将会使用一个类似的间隔字符来替代。例如如果要联合的“acutecomb”（u+0301）没有出现在你的字体中，那么FontForge将在自动构建任何添加acute accent的字形时会使用标准的“acute”（u+00b4）字符。如果“acutecomb”出现了，那么FontForge将会总是使用它，除非你特别强制FontForge使用间隔字符来构建有重音的字形。</p>
+</div>
 
 <img width="500px" src="images/dia_auto_a_acute.png"/>
 
-This automatic placement of diacritic marks can be tuned by preferences, found in the 'accents' section of FontForge's preferences menu 'File > Preferences > Accents' (see below). 
+变音标记的自动放置可以通过偏好设置来调整，可以在FontForge的偏好设置菜单“File > Preferences > Accents”下的“accents”区域找到（如下）。 
 
 <img src="images/preferences_accents.png" />
 
-'PreferSpacingCharacters' - selecting this option to 'On' will force FontForge to build accented glyphs with spacing characters even if the appropriate combining characters are present. This option is ignored when using anchors to position diacritic marks.
+“PreferSpacingCharacters” - 选择这个选项为“On”将会强制FontForge使用间隔字符来构建重音字形，即使适当的联合字符出现。这个选项在使用锚点来放置变音标记时失效。
 
-'AccentOffsetPercent' controls the amount of vertical space between the base glyph and the mark glyph. The value entered here is a percentage of the em square of the font. So a value of '6' will offset the mark glyph from the base glyph by 6 percent  of the font's em square.
+“AccentOffsetPercent”控制基本字形和标记字形的竖直间距的总量。这里输入的数值时字体的em square的百分比。所以如果数值是“6”将会使标记字形到基本字形的距离将是字体的em square的百分之六。
 
-The preferences for the horizontal placement of the mark glyph can also be set. Selecting 'On'  for the   preference 'AccentCenterLowest' will centre the accent glyph to the lowest point of the base glyph.
- 
-Selecting 'AccentCenterHighest' to 'On' will centre the accent to the highest point of the base glyph.
- 
-Selecting both the above preferences to 'Off' will centre the accent into the width of the base glyph. Selecting both the above preferences to 'On' will centre the accent in the width of the character slot.
+标记字形水平放置的偏好设置页可以设置。在“AccentCenterLowest”的偏好设置选择“On”将会使重音字形处于基本字形的最低点的中央。
 
+在“AccentCenterHighest”的偏好设置选择“On”将会使重音字形处于基本字形的最高点的中央。
 
-## Using Anchor Points to place diacritics
+上面两个偏好设置都选择“Off”将会使重音放置在基本字形的宽度中央。上面两个偏好设置都选择“On”将会使重音放置到字符空间的中央。
 
-The most accurate and efficient way to build accented characters in FontForge is to use 'anchor points'.
+## 使用锚点来放置变音
 
-Anchor points allow fine control of the positioning of exactly where the diacritic mark will be positioned in relation to each base glyph in the accented characters. So, in the case of the 'a ogonek' character, the 'a' glyph is the base glyph, and it will be positioned normally, the 'ogonek' glyph is the 'mark glyph' and will be positioned so that the anchor point of the 'mark glyph' coincides with the anchor point in the base glyph.
+在FontForge中构建重音字符的最精确有效的方式是使用“锚点”。
 
-In the example below, creating an 'a ogonek' character, an anchor class has been created called 'bottom'. In the lowercase 'a' glyph, the 'bottom' anchor is placed at the bottom of the stem of the 'a'. This is the 'base glyph' form of the anchor. (see below)
+锚点允许你精确地控制变音标记在有重音的字符上相对于每个基本字形的位置。因此在字符“a ogonek”中，“a”字形时基本字形并会放置在正常位置，“ogonek”字形是“标记字形”并会放置在某个位置使得“标记字形”的锚点与基本字形的锚点一致。
+
+在下面的例子中，创造一个“a ogonek”字符，创建了一个称作“底部”的锚点类别。在小写的“a”字形中，“底部”锚点放置在“a”的茎的底部。这是“基本字形”的锚点的形式。
 
 <img src="images/dia_a_anchor.png"/>
 
-In the 'ogonek' glyph the 'bottom anchor is placed at the top of the ogonek glyph, in the form of a 'mark' anchor. (see below)
+在“ogonek”字形中，标记锚点的形式中的底部锚点放置在字形的顶部（如下）。
 
 <img src="images/dia_ogonek_anchor.png"/>
 
-Then, when the 'a ogonek' character is built (using the 'Build Accented Charcter' function) the 'bottom' mark anchor point will be placed at the same location as the 'bottom' base anchor point, ensuring that the referenced ogonek glyph is placed correctly at the foot of the stem of the referenced 'a' glyph (see below). This exact and automatic placement would not have been possible without using anchor points to position the base and mark glyphs.
+那么在“a ogonek”字符构建时（使用“Build Accented Charcter”功能），“底部”标记锚点将会放置在与“底部”基本锚点相同的位置，保证ogonek字形的引用正确地放置在“a”的引用的茎的尾部（如下）。这一精确自动的位置只有在使用锚点来放置基本和标记字形的时候才可以使用。
 
 <img src="images/dia_a_ogonek_anchors.png" />
 
-### Creating anchor points for placing diacritic marks (Mark to base positioning)
+### 为放置变音标记创建锚点（到基本位置的标记）
 
 FontForge uses lookup features know as 'mark-to-base' for creating and positioning anchor points. These mark-to-base lookups can be created and edited in the GPOS Lookups section of the Font Info of your font ( 'Element>Font Info>Lookups>GPOS').
 
