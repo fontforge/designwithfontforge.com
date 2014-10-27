@@ -83,7 +83,7 @@ FontForge可以用2种主要的方式自动地创造带重音的字符：
 
 锚点允许你精确地控制变音标记在有重音的字符上相对于每个基本字形的位置。因此在字符“a ogonek”中，“a”字形时基本字形并会放置在正常位置，“ogonek”字形是“标记字形”并会放置在某个位置使得“标记字形”的锚点与基本字形的锚点一致。
 
-在下面的例子中，创造一个“a ogonek”字符，创建了一个称作“底部”的锚点类别。在小写的“a”字形中，“底部”锚点放置在“a”的茎的底部。这是“基本字形”的锚点的形式。
+在下面的例子中，创造一个“a ogonek”字符，创建了一个称作“底部”的锚点类。在小写的“a”字形中，“底部”锚点放置在“a”的茎的底部。这是“基本字形”的锚点的形式。
 
 <img src="images/dia_a_anchor.png"/>
 
@@ -97,24 +97,27 @@ FontForge可以用2种主要的方式自动地创造带重音的字符：
 
 ### 为放置变音标记创建锚点（到基本位置的标记）
 
-FontForge uses lookup features know as 'mark-to-base' for creating and positioning anchor points. These mark-to-base lookups can be created and edited in the GPOS Lookups section of the Font Info of your font ( 'Element>Font Info>Lookups>GPOS').
+FontForge使用被称为“mark-to-base”的查找功能来创建和放置锚点。这些mark-to-base查找可以通过你的字体的Font Info的GPOS Lookups区域来创建和编辑（“Element>Font Info>Lookups>GPOS”）。
 
-From the GPOS Lookups window, click on 'Add Lookup' and choose the Type 'Mark to Base Position', then choose 'Mark Positioning' from the 'New' column of the Feature pane (see below). Click 'OK' to close the window.
+在GPOS Lookups窗口中，点击“Add Lookup”并选择类型“Mark to Base Position”，然后在Feature面板的“New”一列选择“Mark Positioning”（如下）。点击“OK”关闭窗口。
 
 <img src="images/dia_new_mark_to_base_1.png"/>
 
-With the new lookup selected, click 'Add Subtable'. In the resulting window (see below) you can create your anchor classes.
+选中新的查找，点击“Add Subtable”。在结果窗口（如下）你可以创建你的锚点类。
 
 <img src="images/dia_anchor_new_subtable.png" />
+
+在这个例子中（如下），创建了两个锚点类“top”和“bottom”。“top”锚点类将会用来放置字形上面的变音标记，“bottom”类将会用来放置字形下面的标记。
 
 In this example (below), two anchor classes have been created, 'top' and 'bottom'. The 'top' anchor class will be used to position diacritic marks that are placed above glyphs, and the 'bottom' anchor will be used for positioning marks below glyphs.
 
 <img src="images/dia_marks_classes_add.png" />
 
-To place an anchor with a glyph, simply use the right mouse click in a glyph edit window, and select the function 'Add Anchor' from the right-click menu.
-The dialogue box that appears enables you to assign whether the anchor is a base or mark anchor. The anchor's position can also be fine tuned from this dialogue box. Alternatively the anchor can be moved by being dragged to position with the mouse, or moved by using the up, down, left and right keys. The anchor point can also be edited by right clicking on the anchor point and choosing 'get info' from the mouse click menu.
+要在一个字形上放置锚点，只需要在字形编辑窗口鼠标右击，在右键菜单中选择“Add Anchor”功能。出现的对话框让你可以设置锚点是基本锚点还是标记锚点。锚点的位置也可以通过这个对话框来调整。锚点也可以通过鼠标拖拽或方向键来移动到你想要的位置。右击锚点选择右键菜单中的“get info”也可以修改锚点。
 
-### Control of Anchor Classes
+### 锚点类的控制
+
+FontForge也包含了一个有用的图形界面来控制锚点的所有类的位置，使用户可以很好地调整
 
 FontForge also contains a usefull graphical interface for controlling the position of whole classes of anchor points, enabling the user to fine tune the position of, for example, all the acute accents at once in a font, or all the anchors in a class contained in, for example, characters that reference the lowercase 'e'. In the examples below we can see how to use this graphical interface to fine tune the position of all acute accents in a font, and, to fine tune a class of anchors across all characters that reference the lowecase 'e' glyph.
 
