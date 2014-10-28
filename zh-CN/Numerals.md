@@ -3,9 +3,10 @@ published: true
 layout: bookpage
 weight: 27
 category: workflow
-title: Numerals
+title: 数字
 ---
 
+对于字体设计者来说数字经常是困难的&ndash;原因有几点。一个原因是数字有大量的曲线。另一个原因是数字经常在他们的形状中使用的约定与在字体设计的其他部分中可见的约定不同（甚至是违背）。
 Numerals are often difficult for font designers -- and for several reasons. One is that numerals have a very large number of curves. Another is that numerals often use conventions in their shapes that are different from (or are even in violation of) the visual conventions seen in the rest of the font design. Furthermore, numerals can have very large number of strokes (like 8 and 5 do), or they may have large white spaces (like 1, 7, and sometimes 2 and 4). Both situations can be hard to manage. Finally, there is the problem of how to make sure your zero looks different from the capital O.
 
 It can be useful to look at the numerals found in a wide variety of fonts to become more familiar with the ways in which designers cope with these problems.

@@ -99,7 +99,7 @@ FontForge可以用2种主要的方式自动地创造带重音的字符：
 
 FontForge使用被称为“mark-to-base”的查找功能来创建和放置锚点。这些mark-to-base查找可以通过你的字体的Font Info的GPOS Lookups区域来创建和编辑（“Element>Font Info>Lookups>GPOS”）。
 
-在GPOS Lookups窗口中，点击“Add Lookup”并选择类型“Mark to Base Position”，然后在Feature面板的“New”一列选择“Mark Positioning”（如下）。点击“OK”关闭窗口。
+在GPOS Lookups窗口中，点击“Add Lookup”并选择类型“Mark to Base Position”，然后在Feature窗格的“New”一列选择“Mark Positioning”（如下）。点击“OK”关闭窗口。
 
 <img src="images/dia_new_mark_to_base_1.png"/>
 
@@ -117,25 +117,22 @@ In this example (below), two anchor classes have been created, 'top' and 'bottom
 
 ### 锚点类的控制
 
-FontForge也包含了一个有用的图形界面来控制锚点的所有类的位置，使用户可以很好地调整
+FontForge也包含了一个有用的图形界面来控制锚点的所有类的位置，使用户可以很好地调整位置，例如一次性调整位置字体中所有的尖重音（acute accent），或者调整一个类别中包含的所有锚点，例如引用小写字母“e”的字符。下面的例子中我们可以看到如何使用这个图形界面来良好地调整一个字体中所有尖重音的位置，调整所有引用小写字母“e”字形的字符的锚点类别。
 
-FontForge also contains a usefull graphical interface for controlling the position of whole classes of anchor points, enabling the user to fine tune the position of, for example, all the acute accents at once in a font, or all the anchors in a class contained in, for example, characters that reference the lowercase 'e'. In the examples below we can see how to use this graphical interface to fine tune the position of all acute accents in a font, and, to fine tune a class of anchors across all characters that reference the lowecase 'e' glyph.
-
-Once you have created anchor classes within your mark-to-base position lookups, and added anchors to some glyphs, you can control these classes from "Element>Font Info>Lookups>GPOS" and then editing a subtable that contains anchor classes. You will then see this window;
+一旦你在你的mark-to-base位置查找中创建了锚点类别，并为一些字形添加了锚点，你可以通过“Element>Font Info>Lookups>GPOS”来控制这些类别，然后编辑包含锚点类别的子表。你将会看到下面的窗口：
 
 <img src="images/dia_anchor_control_1.png" />
 
-From here select the class you wish to edit and click on the 'Anchor Control' button. You will then be presented by a graphical interface to that class. In the examples below we are editing the control of the 'top' class. In the first example (below) the lowercase 'e' has been selected from the 'Bases' section of the drop down menu. When a base glyph is selected, all characters that reference that glyph and contain a 'top' base anchor, will be displayed in the preview pane. We can then adjust the position of the 'top' base anchor to see how it effects the position of all glyphs that contain the 'top' mark anchor.
+在这里我们可以选择你希望编辑的类别病点击“Anchor Control”按钮。这个类别的一个图形界面将会展现在你面前。在下面的例子中我们在编辑“top”类别的控制。在第一个例子中（如下），在“Bases”区域的下拉菜单中选中选中小写字母“e”。当一个基本字形被选中，所有引用这个字形并包含“top”基本锚点的字符将会显示在预览窗格。然后我们可以调整“top”基本锚点的位置来看它如何影响所有包含“top”标记锚点的字形的位置。
 
 <img src="images/dia_anchor_control_e.png" />
 
-In the second example, below, the 'acute' glyph has been selected from the 'Marks' section of the drop down menu. When a mark glyph is selected then all glyphs that reference the selected glyph and contain a 'top' mark anchor will be displayed for preview.
-
+在第二个例子中，如下，在“Makrs”区域的下拉菜单中选中“acute”字形。当一个标记字形选中时，所有引用选中字形并包含“top”标记锚点的字形将会显示预览效果。
 
 <img src="images/dia_anchor_control_mark.png" />
 
 
-## Other resources
+## 其他资源
 
 * http://urtd.net/projects/cod/about
 * http://ilovetypography.com/2009/01/24/on-diacritics/
