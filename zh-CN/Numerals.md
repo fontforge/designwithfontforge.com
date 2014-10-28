@@ -6,50 +6,46 @@ category: workflow
 title: 数字
 ---
 
-对于字体设计者来说数字经常是困难的&ndash;原因有几点。一个原因是数字有大量的曲线。另一个原因是数字经常在他们的形状中使用的约定与在字体设计的其他部分中可见的约定不同（甚至是违背）。
-Numerals are often difficult for font designers -- and for several reasons. One is that numerals have a very large number of curves. Another is that numerals often use conventions in their shapes that are different from (or are even in violation of) the visual conventions seen in the rest of the font design. Furthermore, numerals can have very large number of strokes (like 8 and 5 do), or they may have large white spaces (like 1, 7, and sometimes 2 and 4). Both situations can be hard to manage. Finally, there is the problem of how to make sure your zero looks different from the capital O.
+对于字体设计者来说数字经常是困难的&ndash;原因有几点。一个原因是数字有大量的曲线。另一个原因是数字经常在他们的形状中使用的约定与在字体设计的其他部分中可见的约定不同（甚至是违背）。此外，数字可能有非常大量的笔画（像8和5那样），或者他们有大片的空白空间（像1，7，有时包括2和4）。两种情况都可能难以处理。最后还有一个问题，如何让零看起来与大写字母O不同。
 
-It can be useful to look at the numerals found in a wide variety of fonts to become more familiar with the ways in which designers cope with these problems.
+看各种各样字体中的数字从而对设计者们应对这些问题的的方式更加熟悉，这样做是有帮助的。
 
-In those numerals with a dense number of strokes (such as 8), you may find that designers allow the stroke widths to become a little thinner than is typical of the letters in the font. A similar approach can be seen the design of the double story g.
+在笔画密集的数字（比如8）中，你可能发现设计者们允许笔画宽度变得比字体中的典型字母更细。类似的方法也可以在双眼的g种看到。
 
-Conversely, to compensate for numerals with large white space proportions, some strokes are likely to become heavier than would be typical.
+相反，为了补偿空白空间比例大的数字，一些笔画很可能比典型的更重。
 
-In the case of distinguishing the zero from the capital O, there are a wide range of solutions -- such as making the zero narrower than the O, or a zero that is perfectly round, or perhaps (especially in a monospace font) having a slash through the zero.
+区分零和大写字母O有广泛的解决方案&ndash;比如将零做得比O窄，或者零做成完美的圆，或者可能有斜线穿过零（尤其是monospace字体）。
 
-Having the zero narrower than the capital O while sharing its height is the common approach. This approach is typical of lining numerals. Lining numerals are the most common style for numerals. Examples of fonts that use this approach include: many Garamonds, Futura, and the Google web font Open Sans. Below is Open Sans showing the zero, capital O, zero and then other numerals.
+零比大写的O更窄但是高度相同是通用的方法。这是衬里数字的典型方法。衬里数字（Lining Numberal）是数字最通用的样式。使用这种方法的字体包括：许多Garamonds、Futura和Google的网页字体Open Sans。下面是Open Sans字体展示的零、大写字母O，然后是其他数字。
 
 <img src="images/open-sans-numbers.png" alt="">
 
-A perfectly round or nearly perfectly round circle is less common, but does exist. Examples of fonts that use this approach include the Google web font Volkhorn as well as other commercial types such as Mrs Eaves, Vendeta and Fleischman BT Pro. Fonts that use oldstyle proportional numerals are more likely to feature this aproach. Sometimes a zero at x-height but which is narrower will also be seen.
+一个完美的圆或者接近完美的圆圈不常用，但是也存在。使用这种方法的字体的例子包括Google网页字体Volkhorn和其他商业字体比如Mrs Eaves，Vendeta和Fleischman BT Pro。使用老式的按比例的数字的字体更多地使用了这种方法。有时也会看到一个达到x高度但是更窄的零。
 
-Numerals also come in up to 11 identifiable styles when you include fractions, superscripts and subscripts. We will look at the 5 most common ones.
+当你包含了分数、上标和下标的时候，数字可能有多达11种可以分辨的样式。我们来看其中5种最常见的。
 
-## Lining style numerals
+## 衬里样式数字
 
-The most common styles of number found in fonts are Tabular Lining and Proportional Lining. Lining refers to the heights that the numbers use. If it is a lining style the heights for all the numbers will be optically the same. The difference between Tabular Lining and Proportional Lining numbers is that in Tabular Lining all the numbers also share the same widths. This style is useful for speadsheets and any other purpose where it is helpful for numbers to stay stacked up in neat lines both horizontally and vertically. 
+字体中见到的最常用的样式是扁平衬里（Tabular Lining）和比例衬里（Proportional Lining）。衬里指的是数字使用的高度。衬里样式指的是所有数字的高度视觉上一致。扁平衬里和比例衬里数字的区别是扁平衬里中所有的数字共享宽度。这个样式的用处在于电子扁平和其他数字堆叠在整齐的水平和竖直线上有好处的地方。
 
 <img src="images/2Tabularlining2.png" alt="">
 
-
-
-Proportional lining numbers have the advantage of having the ability to looking more visually even because the forms and spacing of the numbers can vary to compensate for differing stroke density.
+比例衬里数字的好处在于其看起来更相等，因为数字的形式和间距可以补偿不同的笔画密度。
 
 <img src="images/2Lining%20Proportional.png" alt="">
 
+## 排列或者老式的数字
 
-
-## Ranging or Old style numerals
 <img src="images/2Proportional%20oldstyle.png" alt="">
 
-Tabular numbers are a relatively new invention in historical terms. Before they existed there were old style proportional numbers. Old style numbers are useful if you want the numbers to mix in and share the style of a text.
+扁平数字是历史上的术语中相对较新的发明。在其存在前有许多老式的比例数字。如果你希望数字和文字混合并使用文字的样式，那么老式的数字是有帮助的。
 
 <img src="images/2tabular%20oldstyle.png" alt="">
 
-Tabular oldstyle numbers are fairly rare. They can be useful in an annual report where you want the feeling of an old style number but the tabular spacing typical of that kind of document. The image above is from a typewriter Library catalog card. 
+扁平老式数字是非常少见的。它在年报中有用，在年报中你想要老式数字的感觉，扁平间距是这种类型文件的典型。上面的图片来自打印机制作的图书馆分类卡。
 
-## Hybrid style numerals
+## 混合类型数字
 
-Hybrid numerals don't share the font's cap-height or x-height, but instead occupy their own height. The term "hybrid" refers to a mixing of the old-style and lining numerals. Examples of fonts that use hybrid style numerals include Georgia and the Google web fonts Merriweather and Donegal. The zero, capital O, zero, 1, 2, 3, etc glyphs from Merriweather are shown below.
+混合（hybrid）数字并不使用字体的大写高度和x高度，而是使用它们自己的高度。术语“混合”指的是老式与衬里样式的数字。使用混合类型数字的字体包括Georgia和Google网页字体Merriweather和Donegal。Merriweather字体的零、大写字母O、0、1、2、3等字形展示在下面。
 
 <img src="images/Merriweather-numbers.png" alt="" height="90" width="475">
