@@ -3,22 +3,22 @@ published: true
 layout: bookpage
 weight: 28
 category: workflow
-title: Italic
+title: 斜体
 ---
 
-Italics are probably the most misunderstood style in type design, but they are also the style with the greatest potential excitement and fun due to the large number of variables for you the designer to play with.
+斜体很可能是字体设计中最容易误解的样式，但是它也有最大的潜在兴奋和乐趣，这是由于作为设计者的你有大量的变量可以玩。
 
-Italics are different from bolds in that they are not meant to appear to have a different weight than the regular. Instead, they are meant to offer a different <em>texture</em> than the regular. Greater intensity in this difference will mean that the italic is especially useful for creating a sense of contrast with the regular. This stronger effect is useful for highlighting single words or short passages of text. In contrast, a less-different texture is often useful in situations where you are setting multiple lines, whole paragraphs, or even even pages in an italic.
+斜体与粗体不同，这是由于斜体并不意味着与常规体有不同的粗细。相反他们意味着提供雨常规体不同的<em>纹理</em>。在这点不同上更大的强度意味着斜体尤其对创造与常规体的对比上有用。这一强烈影响对突出文本中单个词或短的段落有用。相反不同更小的纹理经常在你设置多条线、整个段落或整页为斜体的情况下有用。
 
-## Slant
+## 倾斜
 
-The variable most commonly associated with italics is slant. Indeed, when a web browser is asked for an italic in a CSS rule and there is no Italic, it will simply slant the regular to create a synthetic or faux italic. It is probably not surprising that when people first begin designing type they also consider this approach. The origins of this idea go back to the mid-20th Century and modernism as it was applied to design. This is why the first italics seen in typefaces such as Helvetica were also slanted versions of the regular.
+与斜体相关的最常见的变量是倾斜。事实上当网页浏览器在一个CSS规则中请求一个斜体但是不存在时，它将会简单地倾斜常规体来合成或仿造斜体。或许当人们第一次设计字体的时候会考虑这种方法，这或许并不令人惊奇。这一方法的来源要追溯到20世纪中叶现代主义应用到设计的时候。这是字体样式中最早的斜体比如Helvetica也是常规体的倾斜版本的原因。
 
-### How much slant?
+### 倾斜多少？
 
-Some italics have no slant. No, really! These italics are called upright italics. However it is likely that if your design has only one italic in it that you will choose for that italic to have some degree of slant. In general, italics tend to slant between 4-14 degrees. Most contemporary fonts slant between 6-9 degrees.
+一些斜体并不倾斜。是这样的，真的！这些斜体被称为垂直斜体。但是很可能如果你的设计中只有一个斜体，你将选择斜体来获得一定程度的倾斜。通常斜体倾向于倾斜4-14度。大多数当代字体倾斜6-9度。
 
-While slant can be important to the design of an italic, is easy to notice, and can even be done with some limited success using an automatic filter, it is not the only variable that you can use to help separate your italic from your regular. You may want to consider using one or more of the following variables in addition to slant.
+倾斜对一个斜体的设计可以是重要的，因此这很容易注意到甚至通过使用自动筛选的有限成功来实现。这不是你可以用来帮助使斜体与常规体分开的唯一变量。除了倾斜之外你可能想要考虑使用如一个或多个变量。
 
 ## Italic construction
 

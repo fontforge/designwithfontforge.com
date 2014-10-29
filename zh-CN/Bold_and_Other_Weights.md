@@ -24,6 +24,4 @@ FontForge有一个功能可以在分开的字体中做插值（在Element菜单�
 
 使用这一技术，你可以更加快速地找到你觉得你的项目更加适合的粗细程度。同样的技术甚至也可以用于帮助选择更粗的字体，比如“重体”和“黑体”，更细的如“书体”和“细体”也一样。
 
-依照这种逻辑，可能看起来最好最有效的制作常规和其他所需粗细字体的方式是制作一个非常细河一个超粗的字体，然后从这些字体生成你需要的所有字体。但是这个方法的结果过分平淡。取而代之的是，每个粗细上的重大改变将会需要起 
-
-By this logic, it may seem like the best and most efficient way of making a regular weight and all the other weights you may need, would be to make a very thin and a hyper-bold font, then generate everything you need from these. However, the result of that approach is likely to be excessively bland. Instead, it is often the case that each significant change in weight will require its own master design from which other middle weights can be made.
+依照这种逻辑，可能看起来最好最有效的制作常规和其他所需粗细字体的方式是制作一个非常细河一个超粗的字体，然后从这些字体生成你需要的所有字体。但是这个方法的结果过分乏味。取而代之的是，每个粗细上的重大改变将会需要其总体设计，其他中等粗细程度可以由总体设计来制作。
