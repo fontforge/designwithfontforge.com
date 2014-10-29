@@ -3,25 +3,27 @@ published: true
 layout: bookpage
 weight: 28
 category: workflow
-title: Bold
+title: 粗体
 ---
 
-When we talk about the style "bold," we are really talking about a broader variable, which is weight. Weight can include anything from very very thin hairline letters to enormously heavy letters. This variable is used in text typography to create strong separation between bodies of text, and it is used in graphic design either to draw attention to a word or short texts, or to give text a specific feeling (rather than to contrast it with other text).
+当我们谈论“粗体”时，我们实际谈论的是更加广泛的变量，也就是粗细。粗细可以包含从非常非常细的细线字母到非常粗的字母。这个变量用于在文字印刷上为正文创建强烈的间隔，在图形设计中引起对词或短文本的注意，或者为文本加上特殊的感觉（而不是为了与其他文本的对比）。
 
-While you may want to do a wide range of things with weight it is likely that your first experience with adjusting weight will be to try to create a bold to accompany your regular text weight.
+你可能希望做广泛的关于粗细的事情，很可能你调整粗细的初体验是尝试伴随你的常规字体的粗体。
 
-Because you are using FontForge you have a distinct advantage. Unlike many font editing programs, the results you get from FontForge style filter may actually be suitable for use -- moreso than the ones you would get in commercial type design software. This is because the algorithm it uses is exceptionally sophisticated.
+由于你使用FontForge，你有一个明显的优势。不像许多字体编辑程序，你从FontForge样式筛选得到的结果实际上可能很适合使用&ndahs;你在商业字体设计软件得到的更是如此。这是由于其使用的算法异常复杂。
 
-Creating a bold version of a font can be rapidly approximated by running a filter called <em>Change weight</em> (which you will find in he Element &gt; Styles menu) to add weight to your glyphs.
+创造一个字体的粗体版本可以通过运行一个称为<em>Change weight</em>的筛选（你可以在Element &gt; Styles菜单找到）快速地近似地加重你的字形。
 
-The automatic nature and relatively high speed of this process makes it ideal for testing what weight you may want for your bold. You may want to try running this filter several times and save several versions to compare in text next to your regular. That said, you may still need to either alter the result further after running the filter, or manually adjust individual glyphs in order to get a result which is satisfactory.
+这个自动性质和高速的进程使得它非常适合测试你的粗体想要多粗的。你可能想要尝试运行几次这个筛选并保存几个版本在文本上与你的常规字体做比较。这意味着你可能仍然需要在运行筛选后进一步修改结果，或者为了得到令人满意的结果而手动地调整独立的字形。
 
-It is also worth remembering that glyphs which do not have a density of strokes (such as 1, i, l, I, L, j and J) may need to be heavier, while glyphs which do have a density of strokes (such as a, e, g, x, B, R, 8, and &amp;) will need to be less heavy than the other glyphs.
+还需要记住的是有笔画密度的字形（比如1，i，l，I，L，j和J）可能需要更粗，而没有笔画密度的字形（比如a，e，g，x，B，R，8和&amp;）将需要比其他字形更细。
 
-## Font interpolation
+## 字体插值
 
-FontForge does have a function to interpolate between separate fonts (see the the <em>Interpolate Fonts</em> function from the Element menu). Font interpolation is a technique that can be used for creating intermediate weights from two other weights. Therefore one way of deciding about the weight of your bold is to create a bold which is definitely heavier than you need, then to interpolate several different weights between this overly bold design and your regular.
+FontForge有一个功能可以在分开的字体中做插值（在Element菜单中可以看到<em>Interpolate Fonts</em>功能）。字体插值技术可以用来创建两种字体粗细的中间粗细程度。因此选择你的粗体的粗细的一种方法是创建一个比你肯定比你所需更粗的粗体，然后在这个过粗的设计和你的常规字体之间插入几个不同的粗细程度。
 
-Using this technique you can more rapidly find the weight you feel is most appropriate for your project. The same technique can be applied to help decide about even heavier weights such as the "heavy" and "black," as well as lighter ones like "book" and "thin" styles.
+使用这一技术，你可以更加快速地找到你觉得你的项目更加适合的粗细程度。同样的技术甚至也可以用于帮助选择更粗的字体，比如“重体”和“黑体”，更细的如“书体”和“细体”也一样。
+
+依照这种逻辑，可能看起来最好最有效的制作常规和其他所需粗细字体的方式是制作一个非常细河一个超粗的字体，然后从这些字体生成你需要的所有字体。但是这个方法的结果过分平淡。取而代之的是，每个粗细上的重大改变将会需要起 
 
 By this logic, it may seem like the best and most efficient way of making a regular weight and all the other weights you may need, would be to make a very thin and a hyper-bold font, then generate everything you need from these. However, the result of that approach is likely to be excessively bland. Instead, it is often the case that each significant change in weight will require its own master design from which other middle weights can be made.
