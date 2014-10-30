@@ -16,32 +16,32 @@ title: 斜体
 
 ### 倾斜多少？
 
-一些斜体并不倾斜。是这样的，真的！这些斜体被称为垂直斜体。但是很可能如果你的设计中只有一个斜体，你将选择斜体来获得一定程度的倾斜。通常斜体倾向于倾斜4-14度。大多数当代字体倾斜6-9度。
+一些斜体并不倾斜。是这样的，真的！这些斜体被称为垂直斜体。但是很可能如果你的设计中只有一个斜体，你将选择那个斜体来获得一定程度的倾斜。通常斜体倾向于倾斜4-14度。大多数当代字体倾斜6-9度。
 
-倾斜对一个斜体的设计可以是重要的，因此这很容易注意到甚至通过使用自动筛选的有限成功来实现。这不是你可以用来帮助使斜体与常规体分开的唯一变量。除了倾斜之外你可能想要考虑使用如一个或多个变量。
+倾斜对一个斜体的设计可以是重要的，因此这很容易注意到甚至通过使用自动筛选的有限成功来实现。这不是你可以用来帮助使斜体与常规体分开的唯一变量。除了倾斜之外你可能想要考虑使用一个或多个下面的变量。
 
-## Italic construction
+## 斜体构造
 
-The term "italic" does not in fact refer to the slant seen in in many italics designs but instead refers instead to a style of writing which became popular in 14th century Italy. This style of writing was a faster and a connected form of writing which uses a different construction for its letters than is seen in regular. This different construction or pattern of strokes is what type designers are referring to when they say they have designed a "real" or "true" italic. This construction has many sub characteristics that you may choose to include in an italic design.
+术语“斜体”（Italic也称意大利斜体）实际上指的并不是在许多斜体设计中看到的倾斜，而是在14世纪的意大利开始流行的手写体。这种样式是快速连接的手写形式，其字母使用了与常规体字母不同的构造。字体设计者们说他们设计了一个“真正”的斜体时指的就是这种不同的笔画构造或模式。这个构造有许多你可能选择在斜体设计中包含的子特征。
 
-### Triangular counters
+### 三角形对立面
 
-The most obvious of these characteristics is the triangular countershape created by letters with joins. These letters include a, b, d, g, h, m, n, p, q, and u. This variable is powerful, partly because countershape is a powerful variable, but also because of the great number of letters with the feature.  That fact, combined with the high frequency of their usage in most languages, is also a very large (and probably the even greater) factor.
+这些特征中最显而易见的就是通过连接的字母创造出的三角形对立面。这些字母包括a，b，d，g，h，m，n，p，q和u。这一变量是强有力的，部分原因是对立面是一个强有力的变量，但是也由于大量有这一特征的数字。那个事实，因其在大部分语言中高频出现，也是一个非常大的因素。
 
-When designing your italic, you can very effectively tune the effect your italic gives by making relatively small adjustments to the height of the joins. Subtle changes can give surprisingly large results. Still, not all italic fonts take advantage of this variable.
+当你设计斜体时，你可以通过相对小地调整连接的高度来非常高效地调整你的斜体的效果。微妙的改变可以带来令人惊奇的大的结果。尽管如此，并不是所有的斜体字体利用了这一变量。
 
-### In and out strokes
+### 向外和向内的笔画
 
-Many italic fonts make use of asymmetical serifs, in the form of in- or out-strokes, or both. When only one is used, it is more common to use the outstroke and to have an upright style applied where the instroke might have been. The intensity of the effect that instroke and outstroke has can be controlled by the weight of the strokes and by adjusting how long they are. Like triangular counters, a great part of their utility and power comes from the fact that so many letters use them.
+许多斜体在向外和向内的笔画上使用了不对称的衬线。当使用了其中之一时，会更普遍地在向外笔画上使用，并在向内笔画存在的地方应用垂直样式。向内笔画和向外笔画的效果的强度可以通过调整笔画粗细和长度来控制。像三角形对立面，他们的效用和力量很大部分来自于许多字母使用它们这一事实。
 
-### Condensation
+### 缩合
 
-Italics are normally somewhat less wide or more condensed than the regular style. Because condensation is a feature seen across all of the letters in the italic, it is a very powerful variable. This variable can be employed in both a gross and subtle manner. If you choose to use this variable, it is necessary to adjust the weight of the strokes to make the italic appear to be the same or nearly the same weight as the regular design. The more condensed your italic is, the more you will need to make this adjustment.
+通常斜体比常规体更窄或者紧缩几分。因为缩合是出现在斜体的所有字母上的特征，是一个非常强有力的变量。这个变量可以通过粗略或者精细的方式使用。如果你选择使用这个变量，那么有必要调整笔画的粗细来使得斜体看起来相同，或者与常规体设计粗细接近。你的斜体越缩合，你越需要做更多这样的调整。
 
-## Mixing variables
+## 混合变量
 
-Most italics use all of the variables listed above in various proportions. You may find that it is useful to look at a range of italic designs and analyse which variables are being used and in what strength. When you do this, you will notice that none of the variables are used at full strength. Instead, one of the variables tends to lead, with some limited use of the others. The stronger the use of the variables the more contrast your italic will have from the regular.
+大多数斜体以多样的比例使用上面列出的全部变量。你可能会发现看一看广泛的斜体设计并分析他们的变量及多少是很有用的。当你这么做时，你将会注意到变量中的任何一个都不会用到最强。相反其中一个趋向于领先，其他有限地使用。变量使用地越强，你的斜体相对于常规体对比越强。
 
-In is also notable that in the last ten years we have seen an increasing number of type designers choose to offer not just one italic in their type families, but two or even more. It is also notable that dictionaries sometimes make use of more than one style of italic.
+在过去的十年中，我们看到了选择在其字体家族中提供两种或者更多斜体的设计者的数量在增长，这也是值得注意的。同时需要注意到字典有时使用不止一种斜体样式。
 
-When they were first made for printing, italics were not thought of as part of the same type design or type family. This idea is one which became standard over the 19th and 20th Centuries. Even the idea of mixing italics with regular was not part of the original idea behind this script. The first italic fonts were used to set entire books, instead of the upright roman style. It is probably safe to assume that the role of the italic will continue to evolve.
+当斜体最初制作出来用于打印时，斜体并不被认为是相同字体设计或字体家族中的一部分。这个主意在19世纪和20世纪变为标准。甚至将斜体与常规体混合的想法也并不是这个书写字母背后的原本想法。最早的斜体字是用于整本书的，代替处置罗马样式。认为斜体的角色将会继续发展，这很可能是可靠的假设。
