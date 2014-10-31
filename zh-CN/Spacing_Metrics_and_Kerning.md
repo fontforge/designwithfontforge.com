@@ -3,14 +3,16 @@ published: true
 layout: bookpage
 weight: 29
 category: workflow
-title: Spacing, Metrics and Kerning
+title: 间距, 度量值和紧缩
 ---
 
-The spaces between characters are an important, integral part of the design of a font.
+字符之间的距离是字体设计中重要的必须的一部分。
 
-Designing a font’s letter spacing should be carried out as an integral part of the whole process of designing a font. Good spacing is necessary for a font to function well.
+字体的字母间距的设计应该作为字体设计整个进程的必须部分来展开。好的间距对一个字体正常运行时必须的。
 
-In FontForge, the Metrics Window allows you to design the metrics of your font, alter the spacing between them, and test how glyphs look together. Metrics Windows can be opened from the ‘Window’ menu, or by using the Control-k command.
+在Font Forge中，度量值（Metrics）窗口允许你设计字体的度量值，修改他们之间的间距，并测试字形放在一起看起来怎么样。度量值窗口可以从“Window”菜单或者Control-k命令打开。
+
+
 
 The space between any two glyph has two components; the space after the first glyph, and the space before the second glyph. These spaces between glyphs are composed of the ‘side bearings’ from each glyph pair. Each glyph has a left side bearing and a right side bearing, in the example below of the lowercase ‘a’ of Open Sans the right sidebearing has a value of 166 units, and the left sidebearing has a value of 94 units.
 
