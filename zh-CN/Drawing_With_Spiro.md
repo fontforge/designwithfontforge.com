@@ -26,7 +26,7 @@ Spiro点共有五种类型：
 
 ## 使用Spiro绘制一个“S”
 
-做完泳Spiro绘制一个“S”的练习后，你将会熟悉Spiro。
+做完用Spiro绘制一个“S”的练习后，你将会熟悉Spiro。
 
 <p class="note"><b>提示：</b>在Spiro模式绘制的时候，经常从一个G4或者
 G2点开始。在FontForge中从其他类型的点开始并不真的生效。</p>

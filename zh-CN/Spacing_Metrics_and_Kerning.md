@@ -12,170 +12,167 @@ title: 间距, 度量值和紧缩
 
 在Font Forge中，度量值（Metrics）窗口允许你设计字体的度量值，修改他们之间的间距，并测试字形放在一起看起来怎么样。度量值窗口可以从“Window”菜单或者Control-k命令打开。
 
-
-
-The space between any two glyph has two components; the space after the first glyph, and the space before the second glyph. These spaces between glyphs are composed of the ‘side bearings’ from each glyph pair. Each glyph has a left side bearing and a right side bearing, in the example below of the lowercase ‘a’ of Open Sans the right sidebearing has a value of 166 units, and the left sidebearing has a value of 94 units.
+任意两个字形间的间距分为两部分；第一个字形后的间距和第二个字形前的间距。字形间的这些间距是由两个字形间的“旁边空白”组成。每个字形有一个左边空白和一个右边空白，在下面的Open Sans字体的小写字母“a”的例子中，右边空白的值是166单位，左边空白的值时94单位。
 
 <img src="images/sidebearings.png" alt="">
 
-## <strong>Basic Functions of the Metrics Window</strong>
+## 度量值窗口的基本功能
 
-The side bearings of characters can be edited in FontForge’s Metrics Window in 5 ways;
+字符的旁边空白在FontForge的度量值窗口中可以用5种方式编辑：
 
-- manually dragging each side bearing boundary.
+- 手动拖动每边空白的边界。
 
-- manually dragging a character. Note though that dragging a character will only effect the value of the left side bearing.
+- 手动拖动一个字符。需要注意的是拖动一个字符将只影响左边空白的值。
 
-- side bearing values can be altered by directly editing their value in the metrics tables of the Metrics Window.
+- 旁边空白的值可以通过在度量值窗口的Metrics表格中直接编辑。
 
-- the value of side bearings can be incremented / decremented by using the keyboard.
+- 旁边空白的值可以通过快捷键增减/减少。
 
-- using commands in the Metrics Window’s Metrics menu.
+- 使用度量值窗口的Metrics菜单中的命令。
 
-<strong>Adjusting Side Bearing Values with the keyboard.</strong>
+<strong>使用键盘调整旁边空白的值。</strong>
 
-One method of adjusting metric values quickly and accurately in FontForge is by using the up, down, left and right keys of a keyboard. The up and down keys are used to incrememt / decrement values and alt+up, alt+down, alt+left and alt+right are used for navigating around the different value fields of the Metrics Window.
+在FontForge中快速精确地调整度量值的一个方法是使用键盘的上下左右键。上下键用来增加和减少值，alt+上、alt+下、alt+左、alt+右用来到在度量值窗口中导航到周围不同的字段。
 
-## General Principles
+## 一般原则
 
-As a general principle symmetric characters such as 'A' 'H' 'I' 'M' 'N' 'O' 'T' 'U' 'V' 'W' 'X' 'Y' 'o' 'v' 'w' 'x' will have symmetric side bearings, e.g. a the left and right side bearings of an 'H' will be the same value. Note though that this is not a hard and fast rule, but a general one.
+作为一般原则，对称字符比如“A”、“H”、“I”、“M”、“N”、“O”、“T”、“U”、“V”、“W”、“X”、“Y”、“o”、“v”、“w”、“x”将会有对称的旁边空白，比如“H”的左边空白和右边空白值将会相同。需要注意的是尽管如此，这并不是一个硬性规则，而是一般规则。
 
-As you space the characters that you design, you should trust your eyes. The bottom line is to 'design - look - adjust - look again'.
+在你调整你设计的字符的空间时，你应该相信自己的眼睛。大概方法是“设计-观察-调整-再观察”。
 
-For the absolute beginner; do not assume that reliable results are achieved by relying on the measured space. For example, whilst the measurements between two characters may be unequal, the eye can see them as equal. An obvious example of this can be seen when attempting to space the characters 'H' and 'O'. So for the example below,  the side bearings of the 'H' and 'O' are equal, but look unequal. In the lower line, the side bearings are not equal but the spacing appears balanced.
+对于不折不扣的新手，不要假设可靠的结果以来测量间距来取得。例如虽然两个字符间的测量值不相等，但是眼睛看起来是相等的。一个明显的这样的例子在尝试调整字符“H”和“O”的间距的时候可以看到。因此对于下面的例子，“H”和“O”的旁边空白相等，但是看起来不相等。在下面的一条线上，旁边空白不相等但是间距看起来是平衡的。
 
 <img src="images/hoohooo2.png" alt=""><img src="images/hoohooo1.png" alt="">
 
-A tool for generating such texts is available from <http://tools.ninastoessinger.com/>
+产生这样文本的一个工具在<http://tools.ninastoessinger.com/>
 
-## <strong>Metrics Menu Commands for editing metrics</strong>
+## 用来编辑度量值的Metrics菜单命令
 
-<strong></strong>'Center in Width' - This centers the current glyph within its current width.
+“Center in Width” - 这个命令将当前字形放置在其宽度的中央。
 
-'Window Type' - FontForge's Metrics Window can be set to behave in 2 ways for metrics adjustment;
+“Window Type” - FontForge的度量值窗口内可以通过两种方式调整度量值：
 
-- 'Advance Width Only' - in this mode metrics view may only be used to adjust the advance widths of glyphs.
+- “Advance Width Only” - 在这种模式下，度量值视图只能用来调整字形的先行宽度。
 
-- 'Both' - In this mode metrics view will adjust either the advance width or kerning values.
+- “Both” - 在这种模式下度量值视图将会调整先行宽度和字距值。
 
-'Set Width' - this command allows you to change the width of the current glyph.
+“Set Width” - 这个命令允许你改变当前字形的宽度。
 
-'Set LBearing' - allows you to change the left side bearing value.
+“Set LBearing” - 允许你改变左边空白的值。
 
-'Set RBearing' - allows you to change the lright side bearing value.
+“Set RBearing” - 允许你改变右边空白的值。
 
-## <strong>A basic approach to spacing</strong>
+## 一个调整间距的基本方法
 
-The following method is designed to get you started effectively towards designing the metrics of your font.
+下面的方法是用来让你开始高效地设计你的字体的度量值。
 
-Starting with a string of lowercase 'o' characters in the metrics window, the left and right sidebearings can be adjusted until the spacing of the characters looks and feels right. One way to look for this 'rightness' is to look for the whitespace between the 'o' characters to balance the whitespace inside the 'o' characters. In general, with the exception of slanted or italic fonts, the left and right side bearings of a lowercase 'o' should be of equal value. Once you are happy with the spacing of your string of 'o' characters, introduce the 'n' character from your font (see below) and then look to adjust the side bearings of the 'n' so that it's spacing fits into the balance of the string of 'o' characters (see below). Note that due to the nature of the way our eyes see, the right side bearing of an 'n' will allways be a smaller value than the left side bearing, and the side bearings of the 'o' will be smaller than the side bearings of the 'n'.
+从度量值窗口的一个小写字母“o”的字符串开始，左边和右边的空白可以调整直到字符间距看起来感觉对。寻找这个正确的位置的一个方法是寻找“o”字符之间的空白来平衡字符“o”内的空白。通常出了斜体字体外，小写字母“o”的左边和右边空白应该值相等。一旦你满意“o”字符串间距，从你的字体中引进“n”（如下）并通过观察调整“n”的旁白空白着这样它的间距适合“o”字符串的平衡（如下）。需要注意的是由于我们的眼睛看东西的本性，“n”的右边空白值总是比左边空白的值小，“o”的旁白空白比“n”的旁边空白小。
 
 <img src="images/snapshot1_1.png" alt="">
 
- Once both the 'n' and 'o' are adequately spaced their sidebearings can be used to create the sidebearings for an array of other characters, for example;
+一旦“n”和“o”都有了充分间距，那么他们的旁边空白可以用来创建一组其他字母的旁边空白，例如：
 
-- the right side bearing of the 'o' can be used for the right side bearing of the 'c', 'd', 'e', and 'q'.
+- “o”的右边空白可以用于“c”，“d”，“e”和“q”的旁边空白。
 
-- the left side bearing of the 'o' can be used for the left side bearing of the 'b' and 'p'.
+- “o”的左边空白可以用于“b”和“p”的左边空白。
 
-- the right side bearing of the 'n' can be used for the left side bearing of the 'h' and 'm'.
+- “n”的右边空白可以用于“h”和“m”的左边空白。
 
-- the left side bearing of the 'n' can be used for the left side bearing of the 'b', 'h', 'k', 'm', 'p' and 'r'.
+- “n”的左边空白可以用于“b”，“h”，“k”，“m”，“p”和“r”的左边空白。
 
-Note - the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.
+<p class="note"><b>注意：</b>上述应该用作指南，可以用作找到这些旁边空白值的一个超有效的出发点。</p>
 
 <img src="images/snapshot2.png" alt="">
 
-From here it makes sense to then space the rest of the side bearings of the lowercase characters against strings of 'n' and 'o' characters, as seen in the diagram above. Again, trust your eyes to reach correct balance of characters.
+如上图所示，这对于使用“n”和“o”的字符串来调整剩余小写字母的旁边空白间距是有意义的。再次强调，相信你的眼睛来达到字符的正确平衡。
 
-## <strong>Uppercase characters</strong>
+## 大写字母
 
-Uppercase characters can be spaced using the same principles as above. For example, start with the string 'Hooooo' and adjust the right side bearing of the 'H' untill it feels balanced against the string of 'o' characters. With the left side bearing of the 'H' being equal to the right side bearing, the uppercase 'O' can then be spaced against the 'H' (see below).
+大写字母可以用如上相同的原则来调整间距。例如从字符串“Hooooo”开始，调整“H”的右边空白直到感觉与“o”字符串平衡。由于“H”的左边空白等于右边空白，那么大写字母“O”可以通过“H”来调整间距（如下）。
 
 <img src="images/snapshot3.png" alt="">
 
-From here all other characters can be spaced against the characters which have already been spaced. It should be noted that this method can be used as a good starting point for spacing a font, but it is likely that more minute fine tuning of spacing will also be needed to achieve higher levels of good letter spacing. Other strings of characters that are usefull in this can be arrays such as 'naxna', 'auxua', 'noxno', 'Hxndo'.
+通过已经调整好间距的字符来从这里调整所有其他字符间距。需要注意这个方法可以用作调整字体间距的好的起点，但是很可能需要花费更多时间很好地微调间距来实现较高层次的好的字母间距。其他在这里有用的字符串包括“naxna”，“auxua”，“noxno”，“Hxndo”。
 
-## <strong>Kerning</strong>
+## 紧缩
 
-Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', 'Av'. In the examples below, we can see that without kerning the spacing between the letter pairs 'T-o' and 'V-a' are too wide, whereas with kerning the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.
+紧缩是特定字母对之间间距的调整。紧缩允许你在两个字符之间应用除了字符提供的旁边空白外的独立间距。需要紧缩来改善间距的常见一对字符例子有“WA”，“Wa”，“To”，“Av”。在下面的例子中，我们可以看到没有紧缩间距的一对字母“T-o”和“V-a”太宽了，这些字符对在紧缩间距后字体的其他间距的感觉更加平衡。
 
 <img src="images/kern1.png" alt="">
 <img src="images/kern2.png" alt="">
 
+FontForge的度量值窗口可以用来设计旁边空白和紧缩值。在FontForge中紧缩值可以通过一些方法来应用，其中两种方法在下面展示，类别紧缩和独立对紧缩。
 
+## FontForge的Metrics菜单
 
-The Metrics Window in FontForge can be used to design both side bearings and kerning values. Kerning values can be applied to a font in a number of ways in FontForge, 2 of these are shown below, kerning with classes and kerning with individual pairs;
+“Window Type” - FontForge的Metrics窗口可以通过两种方式实现紧缩调整：
 
-## <strong>FontForge's Metrics menu</strong>
+- “Kerning Only” - 在这种模式下度量值视图只能用来调整紧缩。
 
-'Window Type' - FontForge's Metrics window can be set to behave in 2 different ways to enable kerning adjustment;<strong></strong>
+- “Both” - 在这种模式下度量值视图将会调整先行宽度或紧缩值。
 
-- 'Kerning Only' - in this mode the metrics view may only be used to adjust kerning.
+“Kern By Classes” - 这个命令提供一个操作紧缩类别的对话框给用户。
 
-- 'Both' - In this mode metrics view will adjust either the advance width or kerning values.
-
-'Kern By Classes' - This command provides the user with a dialog to manipulate kerning classes.
-
-'Kern Pair Closeup' - This command provides the user with a dialog from which you can adjust already existing kerned pairs or create new pairs (see below).
+“Kern Pair Closeup” - 这个命令提供一个可以调整已有的紧缩对或者创建新的紧缩对的对话框给用户（如下）。
 
 <img src="images/kerncloseup.png" alt="" height="686" width="632">
 
-## <strong>Adjusting kerning values with the keyboard</strong>
+## 使用键盘调整紧缩值
 
-Just like with adjusting side bearing values, kerning values can be quickly and accurately edited in FontForge by using the 'up', 'down', 'left' and 'right' keys of a keyboard. The 'up and 'down' keys are used to incrememt / decrement values and 'alt+up', 'alt+down', 'alt+left' and 'alt+right' are used for navigating around the different value fields of the metrics window.
+像调整旁边空白值一样，在FontForge中紧缩值也可以通过键盘的上下左右键快速准确修改。上键和下键用来增加/减少值，alt+上、alt+下、alt+左、alt+右用来在度量值窗口中导航到周围的不同字段。
 
-## <strong>Kerning individual pairs</strong>
+## 紧缩独立的对
 
-This is the most basic level of creating kerning pairs in FontForge. In the Metrics Window the kerning value between 2 characters can be manually adjusted either by dragging the right-hand character to or from the left-hand character, or by editing the kerning value directly in the metrics table of the window. To change kerning values by dragging characters use the kern-tool handle that appears when the mouse cursor is hovered between 2 characters (see screeenshot below). The kerning value in the metrics table can be edited by manuallly entering values or by incrementing / decrementing the value using your keyboards up / down keys.
+在FontForge中这是创造紧缩的对的最基本的方法。在度量值窗口中，两个字符的紧缩值可以通过拖动右边字符接近或远离左边字符或者在窗口的度量值表格中直接编辑紧缩值来手动调整。通过拖动字符来修改紧缩值，则使用在鼠标指针悬停在两个字符之间时出现的紧缩工具手柄（屏幕截图如下）。度量值表格中的紧缩值可以通过手动输入值编辑或者使键盘上下键来增加/减少值。
 
 <img src="images/mnl-kern.png" alt="">
 
-## <strong>Kerning with classes</strong>
+## 使用类别紧缩
 
-A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will allways have the same kerning value when preceeded by, for example, the character 'T'. The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. Effectively, class kerning can save you a lot of time.
+“紧缩类别”可以在FontForge中创造来构建拥有相同紧缩值的字符组。例如我们创造了一个称为“o_left_bowl”的类别，其中包括的字符“o”、“c”、“d”、“e”、“q”在前面有字符例如“T”的时候将总是有相同的紧缩值。“T”本身也可以是包含其他字符的另一个类别，比如Tcaron和Tbar的成员。类别紧缩可以有效地节省你的许多时间。
 
-The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu.
+创造紧缩类别的最直接的方式是使用FontForge的度量值菜单的“Kern by classes”。
  
--   Select "Kern by classes" and you will be presented by the "new lookup" window.
+- 选择“Kern by classes”，可以看到“new lookup”按钮。
 
--   Click on the "New Lookup" button and another window will pop up, where you can create a kerning feature lookup.
+- 点击“New Lookup”按钮，另一个窗口将会弹出，你可以在这里创建一个紧缩特征查找。
 
--   Chose the item "pair position kerning" from the "Type" drop down menu.
+- 在“Type”下拉列表中选者“pair position kerning”条目。
 
--   Now click on the down arrow next to "NEW" in the "Feature" column, and choose "Horizontal Kerning" from the drop down menu.
+- 现在点击“Feature”列“NEW”旁边的向下剪头，在下拉列表中选择“Horizontal Kerning”。
 
--   Click on "OK". You can keep the default names that fontforge creates for you. 
+- 点击“OK”。你可以保留FontForge为你创造的默认名称。 
 
 <img src="images/kern_classes_1.png" />
-Now you are presented by the window where you can build you actual kerning classes (see above). The first character of a kerning pair will be chosen from the left hand column, and the second character of a pair will be chosen from the right column.
 
-The Element &gt; Font Info &gt; Lookups tab provides an interface to class kerning in FontForge. The same interface is also got at via the<br> It brings up a dialog showing all the GPOS lookups (of which kerning is one) and their subtables. See screenshot below;
+现在你可以看到一个窗口，可以在其中构建你的实际紧缩类别（如上）。紧缩对的第一个字符可以从左边的列中选择，第二个字符可以从右边的列中选择。
+
+在FontForge中Element &gt; Font Info &gt; Lookups选项卡提供了一个类别紧缩的界面。它提供了一个对话框展示所有的GPOS查找（紧缩是其中之一）和其子表。屏幕截图如下：
 
 <img src="images/kernclass1.png" alt="">
 
-To create a new kerning lookup click on 'Add Lookup' and choose 'Pair Position (kerning)' as the lookup type and give the lookup its own, unique name (see below).
+为了创建一个新的紧缩查找，点击“Add Lookup”并选择“Pair Position（kerning）”作为查找类型，并赋予这个查找自己的唯一的名字（如下）。
 
 <img src="images/kernclass2.png" alt="">
 
-Each set of kerning classes lives in its own subtable. To create a subtable, click on 'Add Subtable'. When you create a kerning subtable you will be asked whether you want a set of individual kerning pairs or a matrix based on classes. If you chose classes you will be presented with a following dialogue where you can create your classes. Note that you can choose to enable FontForge to 'guess' or 'autokern' the kerning values between the classes you are creating in the dialogue. If using FontForge to guess kerning values you will undoubtedly need an amount of trial and error and experimentation, but it can make sense to use the autokern function as a starting point to kerning your font.
+紧缩类别的每个集合都存在他自己的子表中。为了创建一个子表，点击“Add Subtable”。当你创建一个紧缩子表的时候，你会被询问想要一个独立紧缩对的集合还是基于类别的矩阵。如果你选择类别，你将会看到如下对话框，你可以在其中创建类别。需要注意的是你可以选择启用FontForge来“推测”或“自动紧缩”你在对话框中创建的类别之间的紧缩值。如果使用FontForge来推测紧缩值，你将确实需要许多尝试和错误和试验，但是使用自动紧缩功能作为紧缩你的字体的起点是有意义的。
 
 <img src="images/kernclass3.png" alt="">
 
-For example in the screenshot above, 2 classes have been created; one class containing the 'T' character, and one class containing the 'o' character. On clicking 'ok' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two 'T' and 'o' classes.
+例如在上面的屏幕截图中，创建了2个类别；一个类别包含字符“T”，另一个包含字符“o”。点击上面对话框中的“OK”，你将会看到下面的对话框，在里面你可以很好地调整这两个“T”和“o”类别之间的紧缩总量。
 
 <img src="images/kernclass4.png" alt="">
 
-## Manual kerning
+## 手动紧缩
 
-If autokerned values need to be adjusted (and they will!) then this can be done in a number of ways.
+如果自动紧缩的值需要调整（他们将会需要！），那么你可以用几种方法来完成。
 
-- via the 'kerning by classes' dialog window.
+- 通过“kerning by classes”对话框窗口。
 
-- using the Metrics Window.
+- 使用度量值窗口。
 
-- using the 'Kern Pair Closeup' command from the Metrics menu.
+- 使用度量值窗口中的“Kern Pair Closeup”命令。
 
-## See also
+## 另请参阅
 
-[Strategies for determining letter spacing](http://letterpunch.blogspot.com/2014/09/strategies-for-setting-letter-spacing-part-one.html)
+[决定字符间距的策略](http://letterpunch.blogspot.com/2014/09/strategies-for-setting-letter-spacing-part-one.html)
