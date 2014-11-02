@@ -3,67 +3,66 @@ published: true
 layout: bookpage
 weight: 30
 category: workflow
-title: Making Sure Your Font Works, Validation
+title: 确保你的字体有效，验证
 ---
 
-In a perfect world, your font would be ready to build and install on any modern computer without any special effort, but reality is messier—particularly during the design process. Fonts can have technical errors that prevent them from working or displaying correctly. For example, curves that intersect themselves will not render correctly because they do not have a "inside" and "outside." The various font file formats also expect glyphs to adhere to certain rules that simplify placing the text on screen, and fonts that break the rules can cause unexpected problems. An example of this type of issue is that all of the points on a curve should have coordinates that are integers. Finally, there are stylistic errors that are not technically incorrect, but that you will still want to repair—such as lines that are intended to be perfectly horizontal or vertical, but are accidentally slightly off-kilter.
+在一个完美的世界中，你的字体随时可以构建并安装在任何现代计算机上而不需要做任何额外的努力，但是现实是混乱的&ndash;尤其是在设计进程中。字体可能有阻止他们正常工作和显示的技术性错误。例如和自己相交的曲线不会正确渲染，因为他们没有“里面”和“外面”。各种各样的字体文件类型也期望字形附加在某些简化文本放在屏幕上的某些规则，破坏这些规则的字体可能引起意外问题。这种类型问题的一个例子是一条曲线上的所有点的坐标应该是整数。最后，有一些非技术性错误的样式错误，但是你也要修复它们&ndash;比如想要完全水平或竖直的线，但是偶尔轻微离开。
 
-FontForge offers tools that you can use to locate (and, in many cases, repair) all three categories of problem. Validating your font to eliminate these errors will thus not only ensure that it can be installed and enjoyed by users, but will ensure that finished project exhibits polish.
+FontForge提供了工具让你可以定位（并且在许多情况下修复）所有的三类问题。验证你的字体来消除这些错误不仅可以确保用户可以安装并享受字体，而且可以确保完成的项目表现得耀眼。
 
-## Find Problems
+## 发现问题
 
-The first tool is called <em>Find Problems</em>, and is found under the Element menu. You must first select one or more glyphs—either from in the font view, the outline view, or the metrics view—then open the Find Problems tool. The tool presents you with an assortment of potential problems in eight separate tabs.
+第一个工具叫做em>Find Problems</em>，可以在Element菜单下找到。你必须首先选择一个或多个字形&ndash;从字体视图或者轮廓视图或者度量值视图&ndash;然后打开Find Problems工具。这个工具在八个分开的选项卡下展示潜在问题的混合。
 
 <img src="images/findproblemswindow.png" alt="">
 
-You can select which problems you are interested in looking for by checking the checkbox next to each, and in some cases providing a numeric value to check the font against. When you click the OK button, the tool will examine all of the selected glyphs, and report any problems it finds in a dialog box.
+你选择你感兴趣寻找的问题，方法是勾选它们旁边的复选框，有些还提供了用于检查字体的数字值。当你点击OK按钮时，这个工具将会检查所有选中的字形并在一个对话框内报告它找到的任何问题的报告。
 
-The problems that the Find Problems tool can look for are sorted into these eight groups:
+Find Problems工具找到的问题被分成八类：
 
-* Problems related to points
-* Problems with paths and curves
-* Problems with references
-* Problems with hinting
-* Problems with ATT
-* Problems specific to CID-keyed fonts
-* Problems with bounding boxes
-* Miscellaneous other problems
+* 点相关的问题
+* 路径和曲线的问题
+* 引用的问题
+* 提示的问题
+* ATT的问题
+* CID字体特有的问题
+* 边界框问题
+* 各种其他问题
 
+并不是每个检查都是必要的；一些只应用在特定的脚本或者语言（比如“CID”选项卡中的那些），另一些只应用在特定可选择的字体特性（比如在引用选项卡中的检查）。但是你应该检查你的字体是否通过字形的必要特性的测试和一些可选但是通常的行为的测试。几个其他测试在设计进程中为你提供给了反馈和指导，因此值得探索。
 
+### 先说重要的：测试必要特性
 
-Not every check is necessary; some apply only to specific scripts or languages (such as those in the "CID" tab), while others apply only to specific, optional font features (such as the checks in the references tab). But you should check that your font passes those tests that examine the glyphs for required features, and several tests that look for optional but commonly-expected behavior. Several of the other tests provide feedback and guidance to you during the design process, and are worth exploring for that reason.
+在“Points”选项卡，选择<em>Non-Integral Coordinates</em>测试。这个测试确保每个字形中的所有点（包括弧线上的点和控制点）都有整数坐标。并不是每个字体输出格式需要这个行为，但是一些需要。
 
-### First things first: test for required features
+在“Paths”选项卡，选择选项<em>Open paths</em>和<em>Check outermost paths clockwise</em>。他们都是所有字体的强制特性；第一个寻找任何不是闭合形状的曲线，第二个确保每个字形的外部曲线是沿着顺时针顺序。这也是一个检查<em>交叉路径</em>的非常好的主意；尽管现代字体格式可以支持两个交叉路经，但是并不允许与自己交叉的曲线。另外如果一个字形有与自己相交的路径那么FontForge不能执行<em>Check outermost paths clockwise</em>测试。
 
-In the "Points" tab, select the <em>Non-Integral Coordinates</em> test. This test makes sure that all of the points in each glyph (including both on-curve points and control points) have integer coordinates. Not every font output format requires this behaviour, but some do.
+在“Refs”选项卡，选择所有的6个测试。这些将检查所有相关的引用，引用中一个字形包含另一个字形的路径。例如一个带重音的字母包含了一个到原始（无重音的）字母的引用，加上一个到重音自负的引用。在“Refs”选项卡下的所有测试至少对于一个通常输出格式是强制的，对所有的来说是好主意。
 
-In the "Paths" tab, select the options <em>Open paths</em> and <em>Check outermost paths clockwise</em>. These are both mandatory features in all fonts; the first looks for any curves that are not closed shapes, and the second makes sure that the outer curves of every glyph are traced in clockwise order. It is a very good idea to check <em>Intersecting paths</em> as well; although modern font formats can support two intersecting paths, curves that insect with themselves are not allowed. In addition, if a glyph has any self-intersecting paths then FontForge cannot perform the <em>Check outermost paths clockwise</em> test.
+类似地，选择“ATT”选项卡下的所有测试。这些测试寻找缺失的字形名称，引用不存在字形的替代规则，和其他字形名称活OpenType特性相关的问题。它们防止的问题并不常用，但是所有的都将导致字体被一个或多个电脑系统认为是无效的，因此它们值得被包含进来。
 
-In the "Refs" tab, select all six tests. These checks all relate to references, in which a glyph includes paths from another glyph. For example, an accented letter includes a reference to the original (unaccented) letter, plus a reference to the accent character. All of the tests in the "Refs" tab are mandatory for at least one common output format, and all are good ideas.
+### 让你的用户生活更容易：测试好的行为
 
-Similarly, select all of the tests in the "ATT" tab. These tests look for missing glyph names, substitution rules that refer to non-existent glyphs, and other problems related to glyph names or OpenType features. The problems they guard against are uncommon, but all will cause the font to be considered invalid by one or more computer system, so they are worth including.
+上面列出的测试将会保证你的字体按照多种字体格式设置的规则集合正确地安装和渲染，但是你应该在考虑添加一些其他测试&ndash;尤其是在设计进程的结束&ndash;仅仅因为它们检查大部分现代印刷格式遵循的公约。
 
-### Make life easier for your users: test for good behaviour
+在“Points”选项卡，选择<em>Control points beyond spline</em>。这个测试将寻找处于其所属的曲线段的端点外的控制点。很少有一个控制点应该处于曲线以外的原因，因此这样的情况通常意味着意外。选择<em>Points too far apart</em>也是一个好主意，它将会查找距离最近的点超过32767单位的点。这个距离比大多数计算机能够内部处理的更大，并且一个那么远的点几乎必然不是故意的（可以对比的是，一个字形倾向于会只在一个大约1000单位的网格中），因此删除这样的点是重要的。
 
-The tests listed above will ensure that your font installs and renders correctly according to the rules set out by the various font formats, but there are a handful of others tests you should consider adding—especially at the end of the design process—simply because they check for common conventions followed by most modern typography.
+在“Paths”选项卡，<em>Check Missing Extrema</em>和<em> More Points Than [val]</em>测试可以是有价值的。第一个寻找处于极值的点&ndash;也就是字形的最高点、最低点和最左点和最右点。现代字体格式强烈建议每个路径都有一个处于其水平和垂直上极值的点；在字体渲染在屏幕或页面上时，这将让生活更美好。检查将会查找缺失的极值点。第二个测试是一个对字形中点的数量的明智的检查。FontForge中这个检查的默认值是1500个点，这是PostScript文档中建议的值，对几乎所有字体都足够好。
 
-In the "Points" tab, select <em>Control points beyond spline</em>. This test will look for control points lying beyond the endpoints of the curve segment on which they reside. There is rarely a reason that a control point should lie outside of the curve, so these instances usually signify accidents. It is also a good idea to select <em>Points too far apart</em>, which will look for points that are more than 32767 units away from the next nearest point. That distance is larger than most computers can deal with internally, and a point that far away is almost certainly unintentional (for comparison, a single glyph tends to be drawn on a grid of about 1000 units), so removing such points is important.
+正如其名字一样，“Random”选项卡列出不属于其他类别的杂项测试。当然，最后三个是有价值的：<em>Check Multiple Unicode</em>，<em>Check Multiple Names</em>和<em>Check Unicode/Name mismatch</em>。它们寻找字形名称和Unicode码之间映射的元数据错误。
 
-In the "Paths" tab, both the <em>Check Missing Extrema</em> and<em> More Points Than [val]</em> tests can be valuable. The first looks for points at the extrema—that is, the uppermost point, lowest point, and leftmost and rightmost points of the glyph. Modern font formats strongly suggest that each path have a point at each of its horizontal and vertical extrema; this makes life easier when the font is rendered on screen or on the page. check will look for missing extrema points. The second test is a sanity check on the number of points within any one glyph. FontForge's default value for this check is 1,500 points, which is the value suggested by the PostScript documentation, and it is good enough for almost all fonts.
+### 帮助你自己: 运行测试可以援助设计
 
-As its name suggests, the "Random" tab lists miscellaneous tests that do not fit under the other categories. Of these, the final three are valuable: <em>Check Multiple Unicode</em>, <em>Check Multiple Names</em>, and <em>Check Unicode/Name mismatch</em>. They look for metadata errors in the mapping between glyph names and Unicode slots.
+Find Problems工具中的许多其他测试有助于找到并定位你的字形集中的矛盾之处；不是错的或者无效的但是作为设计者的你希望打磨的东西。例如“Points”选项卡中的<em>Y near standard heights</em>测试将字形与一个有用的竖直测量值集合来比较，包括基线、字形“x”的高度、字母“p”的最低点和最高点等。在一个一致的字体样式中，大多数字母将依附到这些标准测量值中的几个，因此一个并不靠近其中任何一个的字形需要大量的工作。
 
-### Help yourself: run tests that can aid design
+在“Paths”选项卡中的<em>Edges near horizontal/vertical/italic</em>功能寻找几乎是精确地处于水平、竖直或者处于字体倾斜角度的线段。将你几乎竖直的线条做成完美竖直意味着在你的字体使用时图形将会锐利地渲染，这个测试是找到在眼睛没有帮桌的情况下难以察觉到的不十分正确的线段的可靠的手段。
 
-Many of the other tests in the Find Problems tool can be useful to find and locate inconsistencies in your collection of glyphs; things that are not wrong or invalid, but that you as a designer will want to polish. For example, the <em>Y near standard heights</em> test in the "Points" tab compares glyphs to a set of useful vertical measurements: the baseline, the height of the "x" glyph, the lowest point of the descender on the letter "p", and so on. In a consistent typeface, most letters will adhere to at least a couple of these standard measurements, so the odds are that a glyph that is nowhere near any of them needs a lot of work.
+你可以使用其他测试来定位曲线上互相太靠近的点而没有意义，来比较形状类似字形的旁边空白，来执行一些当你有古怪的字符时揭露问题。改善进程的一部分是采用你最初的设计并使他们更加精确；像字体设计的其他方面一样，这是一个迭代的任务，因此使用使用内建的工具以减少一些重复工作。
 
-The <em>Edges near horizontal/vertical/italic</em> test in the "Paths" tab looks for line segments that are almost exactly horizontal, vertical, or at the font's italic angle. Making your almost-vertical lines perfectly vertical means that shapes will render sharply when the font is used, and this test is a reliable way to track down the not-quite-right segments that might be hard to spot with the unaided eye.
+## 验证字体
 
-You can use other tests to locate on-curve points that are too close to each other to be meaningful, to compare the side bearings of similarly-shaped glyphs, and to perform a range of other tests that reveal when you have glyphs with oddities. Part of the refinement process is taking your initial designs and making them more precise; like other aspects of font design, this is an iterative task, so using the built-in tools reduces some of the repetition.
-
-## Validate font
-
-FontForge's other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is deigned to run just those tests that examine the font for technical correctness—essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
+FontForge的其他验证工具时全字体验证器，
+'s other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is deigned to run just those tests that examine the font for technical correctness—essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
 
 <img src="images/validator-integral-question.png" alt="">
 
