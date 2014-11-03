@@ -61,41 +61,39 @@ Find Problems工具中的许多其他测试有助于找到并定位你的字形�
 
 ## 验证字体
 
-FontForge的其他验证工具时全字体验证器，
-'s other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is deigned to run just those tests that examine the font for technical correctness—essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
+FontForge的其他验证工具时全字体验证器，在整个字体上做一系列的测试和检查。由于验证器是用来检查整个字体的，因此你只能从字体视图窗口运行他；你可以再Element菜单的Validation子菜单中找到它。验证器设计用于运行一些检查字体技术上正确性的测试&ndash;本质上是上面“测试必要特性”一节描述的测试。但是它确实在整个字体上执行测试，并且比你自己用Find Problems工具一步步完成的进程要迅速很多。
 
 <img src="images/validator-integral-question.png" alt="">
 
-The first time you run the validator during a particular editing session, it will pop up a dialog box asking you whether or not it should flag non-integer point coordinates to be an error. The safe answer is to choose "Report as an error," since sticking with integral coordinates is good design practice.  When the validator completes its scan of the font (which will be mere seconds later), it will open up a new dialog box named Validation of <em>Whatever Your Font Name Is</em>. This window will list every problem the validator found, presented in a list sorted by glyph.
+在一个特别的编辑期间你第一次运行验证器的时候，他将会弹出一个对话框询问你它是否应该将非整型的点坐标当作是错误。安全的答案是选择“Report as an error”，因为附着在整型坐标上是一个好的设计实践。当验证器完成它对字体的扫描时（将仅仅是几秒钟之后），它将会弹出一个新的名为<em>Whatever Your Font Name Is</em>的验证对话框这个窗口将会列出验证器找到的所有问题，展现在按字形排序的列表中。
 
 <img src="images/valiator-output.png" alt="">
 
-But this window is not merely a list of errors: you can double-click on each item in the list, and FontForge will jump to the relevant glyph and highlight the exact problem, complete with a text explanation in its own window. You can then fix the problem in the glyph editor, and the associated error item will immediately disappear from the validator's error list. In many cases, the error will be something FontForge can automatically repair; in those cases the explanation window will have a "Fix" button at the bottom. You can click it and perform the repair without additional effort.
+但是这个窗口不仅仅是一个错误的列表；你可以双击列表中的每个条目，FontForge将会跳转到相关字形并高亮显示确切的问题，最后在它自己的窗口中展示文本说明。然后你可以再字形编辑器中修复问题，关联的错误条目将会立即从验证器的错误列表中消失。在许多情况下，错误可以被FontForge自动修复；在这些情况下说明窗口将会在底部包含一个“Fix”按钮。你可以点击它执行修复而不需要额外努力。
 
 <img src="images/validator-fix-problem.png" alt="">
 
-For some problems, there is no automatic fix, but seeing the issue on-screen will help you fix it immediately. For example, a self-intersecting curve has a specific place where the path crosses over itself—it may have been too small for you to notice at a glance, but zooming in will allow you to reshape the path and eliminate the problem.
+对于一些问题，并不能自动修复，但是在屏幕上看到问题将有助于你立即修复。例如一个自交曲线在一个特定的地方上路径穿过它自己&ndash;这对于你来说可能很难一眼瞥到，按时放大后你就可以改造形状消除问题。
 
-For other problems, there may not be one specific point at which the error is located. For example, if a curve is traced in the wrong direction (that is, counterclockwise when it should be clockwise), the entire curve is affected. In those instances where FontForge cannot automatically fix the problem and there is no specific point on the glyph for the validator to highlight, you may have to hunt around in order to manually correct the problem.
+对于另一些问题来说，并不能将错误定位到某一个特定的点。例如如果一条曲线沿着错误的方向（也就是应该是顺时针的时候反而是逆时针），那么整个曲线都会受到影响。在这些情况下FontForge不能自动修复问题，验证器也无法高亮没有字形中特定的点，你可能四处寻找以期手动改正问题。
 
-Finally, there are some tests performed by the validator that might not be a problem from the final output format you have in mind—for example, the non-integral coordinates test mentioned earlier.  In those cases, you can click on the "ignore this problem in the future" checkbox in the error explanation window, and suppress that particular error message in future validation runs.
+最后，有一些验证器执行的测试可能并不是来自你心里想要的最终输出格式的问题&ndash;例如之前提到的非整型坐标。在这些情况下你可以点击错误说明窗口“ignore this problem in the future”复选框，在未来运行验证的时候抑制特定错误信息。
 
-## Fix problems as you edit
+## 在你编辑时修复问题
 
-Most of the errors that the Find problem tool and the whole font validator look for can be corrected during the editing process, so do not feel any need to defer troubleshooting while you work. For example, View &gt; Show submenu has options that highlight problem areas during editing; the Element menu hold commands like <em>Add Extrema</em> that will add the extrema points expected in most output file formats, and checkboxes to indicate whether the selected path is oriented in the clockwise or counterclockwise direction. If you flip a shape (horizontally or vertically) in the glyph editor, you will notice that its direction is automatically reversed as well. If you click on the <em>Correct Direction</em> command in the Element menu, FontForge will fix the clockwise/counterclockwise orientation immediately. Getting in the habit of doing small fixes like this as you work will save you a bit of time during the validation stage later.
+大多数Find Problem工具和整个字体验证器找到的错误可以在编辑进程中改正，因此在你工作时不要觉得有任何推迟故障排除的需要。例如View &gt; Show 子菜单有选项可以在编辑时高亮问题区域；Element菜单下的命令比如<em>Add Extrema</em>将会为大多数输出文件格式添加期望的极值点，复选框指示指示选择的路径是否朝向顺时针还是逆时针方向。如果你在字形编辑器中翻转一个图形（水平或者竖直翻转），那么你讲注意到它的方向也被自动颠倒。如果你点击Element菜单下的<em>Correct Direction</em>命令，FontForge将会立即修复顺时针/逆时针方向。养成在工作时像这样做小的修复的习惯，将会在随后的验证阶段为你节约一点时间。
 
-# Does the Design Work?  
+# 设计是否起作用?  
 
-Typefaces can 'work' better or worse in two ways; readability and legibility. 
+字体样式可以通过两种方式工作地更好或更差；可读性可易读性。
 
+易读性意味着字形的设计足够明显可以立即正确地认出。有一些经常太过类似的字符对：
 
-Legibility means the designs of glyphs are distinct enough to be instantly recognised correctly. Here are some pairs that are often too similar:
+* 字母“L”和数字“1”
+* 字母“O”和数字“0”
+* 字母“Z”和数字“2”
+* 数字“1”和“7”
 
-* the letter "L" and the number "1"
-* the letter "O" and the number "0" 
-* the letter "Z" and the number "2" 
-* the numbers "1" and "7”
+可读性意味着所有字形为了更熟悉、舒适的阅读体验而共同工作。创建测试文档是最好的确保这一点的方式。如果你有完整的字母表，那么你可以排版真实的文本&ndash;例如使用[FontFriend](http://somadesign.ca/projects/fontfriend/)将你的字体拖动你希望读的一个长新闻中，然后打印出它来。
 
-Readability means all the glyphs work well together for a familiar, comfortable reading experience. Creating test documents is the best way to ensure this. If you have a complete alphabet then you can typeset real text - for example using [FontFriend](http://somadesign.ca/projects/fontfriend/) to drag and drop your font into a long news article you wish to read, then printing it out.
-
-However, if you font only contains a fraction of the alphabet, you can use a test text generator such as [LibreText.org](http://libretext.org) and any word processor, desktop publication application or general illustration program (such as [Inkscape](http://www.inkscape.org)) to create test documents.
+但是如果你的字体只包含字母部分，你可以使用一个测试文本生成器，比如[LibreText.org](http://libretext.org)和任何字处理器，桌面出版应用程序或者一般演示程序（比如[Inkscape](http://www.inkscape.org)）来创建测试文档。
