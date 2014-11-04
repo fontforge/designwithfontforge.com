@@ -3,34 +3,34 @@ published: true
 layout: bookpage
 weight: 31
 category: workflow
-title: The Final Output, Generating Font Files
+title: 最终输出，生成字体文件
 ---
 
-Although you can do a wide range of testing within FontForge itself, you will need to generate installable font files in order to perform real-world testing during the development process.  In addition, your ultimate goal is of course to create font that you can make available in an output format for other people to install and use. You will use the <em>Generate Fonts </em>tool (found in the File menu) to build a usable output font regardless of whether you are making it for your own testing purposes or to publish it for consumption by others, but you will want to employ a few extra steps when building the finished product.
+尽管你可以在FontForge中做大范围的测试，但是你将会需要生成可安装的字体文件，从而在开发进程中执行真实世界的测试。此外，你的终极目标当然是创造一个其他人可以安装和使用的输出格式的字体。不管构建字体是为了测试目的还是为其他人使用而发布，你将使用<em>Generate Fonts </em>工具（在File菜单可以找到）来构建一个有用的输出字体。但是在构建最终产品的时候，你会希望使用一些额外的步骤。
 
-FontForge can export your font to a variety of different formats, but in practice only two are important: TrueType (which is found with the <em>.ttf</em> filename extension) and OpenType CFF (which is found with the <em>.otf</em> extension). Technically the OpenType format can encompass a range of other options, but the CFF type is the one in widespread use.
+FontForge可以将你的字体导出为各种不同的格式，但是在实践中只有两种是重要的：TrueType（使用<em>.ttf</em>文件名扩展）和OpenType CFF（使用<em>.otf</em>文件扩展名）。从技术上来说OpenType格式可以包含一些其他选项，但是CEF类型是广泛使用的一个。
 
-## Quick and dirty generation for testing
+## 用于测试的快速的脏的一代
 
-To build a font file for testing purposes -- such as to examine the spacing in a web browser -- you need only to ensure that your font passes the required validation tests.
+为了测试目的的构建字体文件&ndash;比如在一个网页浏览器中检查艰巨&ndash;你需要只确保你的字体通过了必要的验证测试。
 
-You can use the <em>Validate Font</em> tool found in the Element menu to do this (see the chapter on validating fonts for a more detailed explanation), or you can select all of the glyphs (hit Control-A or choose "Select" -&gt; "Select All" from the "Edit" menu) then run a few commands to apply some basic changes in bulk. Be sure to save your work before you proceed any further, though: some of the changes required to validate your font for export will alter the shapes of your glyphs in subtle ways.
+你可以使用Element菜单下的<em>Validate Font</em>工具（更详细的解释参见验证字体一章），或者你可以选择所有的字形（按Control-A或者从“Edit”菜单选择Select -&gt; Select All），然后运行一些命令来应用一些零散的基本改变。确保在你的进程更进一步之前保存你的工作，一些为了导出的验证会以微妙的方式修改你的字形的形状。
 
-For OpenType fonts, first correct the direction of all of your paths. Hit Control-Shift-D or choose "Correct Direction" from the "Element" menu. Next, check to make sure that you have not left any unclosed paths. Choose "Find problems" from the "Element" menu, select the <em>Open paths</em> option in the "Paths" tab, and click OK to run the test. Once your font passes the test without errors, you are ready to generate OpenType output.
+对于OpenType字体来说，首先要修正所有路径的方向。按Control-Shift-D或者在“Element”菜单下选择Correct Direction”。接下来检查确保并没有漏掉未闭合的路径。勾选“Paths”选项卡下的<em>Open paths</em>选项，点击OK来运行测试。一旦你的字体通过测试没有错误，你就准备好生成OpenType输出。
 
-For TrueType fonts, a few additional steps are required. You should first correct the direction of all of your paths as described above. Next, adjust all points to have integer coordinates: either hit Control-Shift-_ (underscore), or choose <em>To Int</em> from the "Element" -&gt; "Round" menu. Finally, open the "Find problems" tool, select the <em>Open paths</em> test as described above, and also select all of the tests in the "Refs" tab.
+对于TrueType字体来说，需要一些额外的步骤。你应该首先想上面描述的一样修正所有路径的方向。接下来调整所有的点使其拥有整型坐标：按Control-Shift-_（下划线）或者从Element -&gt; Round菜单中选择<em>To Int</em>。最终，像上面描述的那样打开“Find Problems”工具，选择<em>Open paths</em>，同时在“Refs”选项卡下选中所有。
 
-After you can run these tests without errors, you will then need to convert your paths to quadratic curves. Open the "Font Info" window from the "Element" menu. Click on the "Layers" tab, and check the <em>All layers quadratic</em> option. Click OK at the bottom of the window, and you are ready to generate TrueType output.
+在你运行这些测试没有错误时，你需要将你的路径转换为二次曲线。从“Element”菜单打开“Font Info”窗口。点击“Layers”选项卡，勾选<em>All layers quadratic</em>选项。点击窗口底部的OK，你就准备好生成TrueType输出。
 
-### Building the font files
+### 构建字体文件爱你
 
-Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. The top half of the window shows the familiar file-chooser options -- a list of the files found in the current directory, a text-entry box for you to enter a filename, and buttons to navigate to other folders and directories if necessary. This is strictly a means to help you quickly find the right place to save your output file, or to choose an existing font file if you intend to overwrite a previous save. All of the options you need to look at are found in the bottom half of the window.
+打开“File”菜单下的<em>Generate Fonts</em>窗口。窗口的上半部分展示了熟悉的文件选择视图&ndash;当前目录的文件列表，一个文本框可以让你输入文件名，和导航到其他文件夹或者目录的按钮。这确实是帮你快速找到保存你的输出文件位置或者在你希望覆盖之前保存的字体文件时选择已有字体的方法。所有你需要看的选项在窗口下半部分。
 
 <img src="images/generate.png" alt="">
 
-On the left-hand side is a pull-down menu from which you select the format of the font you wish to generate. You should choose either <em>TrueType</em> or <em>OpenType (CFF)</em>, as discussed earlier. On the right-hand side, make sure <em>No Bitmap Fonts</em> is selected. On the line below, make sure <em>No Rename</em> is selected for the "Force glyph names to:" option. You can check the "Validate Before Saving" option if you wish (to potentially catch additional errors), but this is optional. Leave the "Append a FONTLOG entry," "Prepend timestamp," and "Upload to the Open Font Library" options unchecked.
+在左边是一个下拉菜单，你可以选择你希望输出的字体格式。如上所述你应该选择<em>TrueType</em>或<em>OpenType (CFF)</em>。右边确保选中<em>No Bitmap Fonts</em>。在下面一行，确保“Force glyph names to:”的选项<em>No Rename</em>选中。你如果你希望，你可以检查“Validate Before Saving”选项，但是这是可选的。保留“Append a FONTLOG entry”、“Prepend timestamp”和“Upload to the Open Font Library”不勾选。
 
-Click the "Generate" button, and FontForge will build your font file. You can load the font in other applications and run any tests, but when you are ready to return to editing, remember to re-open the saved version of your font that you created before generating your <em>.ttf</em> or <em>.otf</em> output.
+点击“Generate”按钮，FontForge将会构建你的字体文件。你可以用其他应用程序夹在字体，并运行任何测试，但是当你返回编辑时，记得在生成你的<em>.ttf</em>或<em>.otf</em>输出时，重新打开你保存的版本。
 
 ## Generating for final release
 
