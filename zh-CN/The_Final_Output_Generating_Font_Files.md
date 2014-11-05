@@ -22,7 +22,7 @@ FontForge可以将你的字体导出为各种不同的格式，但是在实践�
 
 在你运行这些测试没有错误时，你需要将你的路径转换为二次曲线。从“Element”菜单打开“Font Info”窗口。点击“Layers”选项卡，勾选<em>All layers quadratic</em>选项。点击窗口底部的OK，你就准备好生成TrueType输出。
 
-### 构建字体文件爱你
+### 构建字体文件
 
 打开“File”菜单下的<em>Generate Fonts</em>窗口。窗口的上半部分展示了熟悉的文件选择视图&ndash;当前目录的文件列表，一个文本框可以让你输入文件名，和导航到其他文件夹或者目录的按钮。这确实是帮你快速找到保存你的输出文件位置或者在你希望覆盖之前保存的字体文件时选择已有字体的方法。所有你需要看的选项在窗口下半部分。
 
@@ -30,25 +30,25 @@ FontForge可以将你的字体导出为各种不同的格式，但是在实践�
 
 在左边是一个下拉菜单，你可以选择你希望输出的字体格式。如上所述你应该选择<em>TrueType</em>或<em>OpenType (CFF)</em>。右边确保选中<em>No Bitmap Fonts</em>。在下面一行，确保“Force glyph names to:”的选项<em>No Rename</em>选中。你如果你希望，你可以检查“Validate Before Saving”选项，但是这是可选的。保留“Append a FONTLOG entry”、“Prepend timestamp”和“Upload to the Open Font Library”不勾选。
 
-点击“Generate”按钮，FontForge将会构建你的字体文件。你可以用其他应用程序夹在字体，并运行任何测试，但是当你返回编辑时，记得在生成你的<em>.ttf</em>或<em>.otf</em>输出时，重新打开你保存的版本。
+点击“Generate”按钮，FontForge将会构建你的字体文件。你可以用其他应用程序夹在字体，并运行任何测试，但是当你返回编辑时，记得重新打开在生成你的<em>.ttf</em>或<em>.otf</em>输出之前保存的字体的版本。
 
-## Generating for final release
+## 生成最终版本
 
-Designing your font is an iterative process, but eventually the day when come when you must declare your font finished -- or at least ready for public consumption. At that point, you will again generate a .ttf or .otf output file (perhaps even both), but before doing so you will need to work through a few additional steps to create the most standards-compliant and user-friendly version of your font file.
+设计你的字体是一个迭代的进程，但是最终你必须宣布你的字体完成或者至少准备好公众消费的那天到来了。在那时，你将会再次生成一个.ttf或者.otf输出文件（或者甚至两者都有），但是在做这之前，你将需要进行一些额外步骤来创建最符合标准和用户友好的字体文件版本。
 
-First, follow the same preparation steps outlined in the section on quick and dirty generation for testing purposes. In particular, remember to change your font to <em>All layers quadratic</em> if you are creating a TrueType file.
+首先，遵循用于测试的快速的脏的一代一节概述的相同的准备步骤。尤其是如果你准备创建一个TrueType文件时，记得修改你的字体为<em>All layers quadratic</em>。
 
-### Remove overlaps
+### 删除重叠部分
 
-As you know, it is a good idea to keep your letter-forms as combinations of discrete components as you design: stems, bowls, serifs, and other pieces of each glyph. But although this technique is great for designing and refining forms,you want your final, published font to have simple outlines of each glyph instead. This reduces file size a bit, but more importantly it cuts down on rendering errors.
+如你所知，保持你的字母形式为独立组件的联合是好主意：茎、弧、衬线和每个字形的其他部分。但是尽管这一技术对于设计和改善形式来说非常好，但是你希望你最终发布的字体每个字形有简单的轮廓。这会减少一点文件大小，但是更重要的是它减少渲染错误。
 
-FontForge has a <em>Remove Overlap</em> command that will automatically combine the separate components of a glyph into a single outline. Select a glyph (or even select all glyphs with Control-A), then hit Control-Shift-O or choose Remove Overlap from the "Element" -&gt; "Overlap" menu. One caveat is worth watching out for, however: FontForge cannot merge shapes if one of the shapes is traced in the wrong direction (that is, if the outermost path is counterclockwise). A path traced in the wrong direction is an error of its own, though, which you should fix anyway.
+FontForge有<em>Remove Overlap</em>命令可以自动联合一个字形分开的组件组成一个轮廓。选择一个字形（或者甚至使用Control-A来选择所有字形），然后按Control-Shift-O或者从“Element” －&gt; “Overlap”菜单选择Remove Overlap。但是一个警告值得注意：如果一些形状中有一个形状沿着错误的方向（也就是形状最外边时逆时针方向），那么FontForge不能合并这些形状。尽管无论如何你应该修复一个沿着错误方向的错误，但是这个错误的路径是它自己存在的错误。
 
-### Simplify contours and add extrema points
+### 简化轮廓和添加极值点
 
-You should also simplify your glyphs where possible -- not eliminating details, but eliminating redundant points. This reduces files size slightly for every glyph, which adds up considerably over the entire set of characters in the font.
+你也应该尽可能简化你的字形&ndash;不是消除细节而是消除无用的点。这会轻微减小每个字形的文件大小，字体中全部字符集合加起来非常可观。
 
-From the "Element" menu, choose "Simplify" -&gt; <em>Simplify</em> (or hit Control-Shift-M). This command will merge away redundant on-curve points in all of the selected glyphs. In some cases, there will be only a few points removed, in others there may be many. But it should perform the simplification without noticeably changing the shape of any glyphs. If you notice a particular glyph that <em>is</em> altered too much by <em>Simplify</em>, feel free to undo the operation. You can also experiment with the <em>Simplify More</em> command also located in the same menu; it offers tweakable parameters that could prove helpful.
+从“Element”菜单选择“Simplify” -&gt; <em>Simplify</em>（或者按Control-Shift-M）。这个命令将会合并去掉所有选择的字形上的多余的曲线上的点。在某些情况下，仅会有一些点被删除，其他情况下可能有很多。但是应该执行简化后并不显著地改变任何字形的形状。如果你注意到一个特定的字形被<em>Simplify</em>被修改了太多，随意撤销这个操作。你也可以尝试使用相同菜单下的<em>Simplify More</em>命令；它提供了可调分组参数可能会很有帮助。
 
 In any event, after you have completed the simplification step, you will need to add any missing extrema points. Choose <em>Add Extrema</em> from the "Element" menu (or hit Control-Shift-X). As discussed earlier, it is a good idea to place on-curve points at the extrema of every glyph as you edit. Nevertheless, you must still perform this step when preparing for final output generation because the <em>Simplify</em> step will occasionally remove an extrema point.
 
