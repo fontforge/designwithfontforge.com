@@ -50,31 +50,31 @@ FontForge有<em>Remove Overlap</em>命令可以自动联合一个字形分开的
 
 从“Element”菜单选择“Simplify” -&gt; <em>Simplify</em>（或者按Control-Shift-M）。这个命令将会合并去掉所有选择的字形上的多余的曲线上的点。在某些情况下，仅会有一些点被删除，其他情况下可能有很多。但是应该执行简化后并不显著地改变任何字形的形状。如果你注意到一个特定的字形被<em>Simplify</em>被修改了太多，随意撤销这个操作。你也可以尝试使用相同菜单下的<em>Simplify More</em>命令；它提供了可调分组参数可能会很有帮助。
 
-In any event, after you have completed the simplification step, you will need to add any missing extrema points. Choose <em>Add Extrema</em> from the "Element" menu (or hit Control-Shift-X). As discussed earlier, it is a good idea to place on-curve points at the extrema of every glyph as you edit. Nevertheless, you must still perform this step when preparing for final output generation because the <em>Simplify</em> step will occasionally remove an extrema point.
+无论如何，在你完成了简化步骤后，你将需要添加丢失的极值点。从“Element”菜单选择<em>Add Extrema</em>（或者按Control-Shift-X）。如前所述，在你编辑时在每个字形的极值处放置曲线上的点是好主意。然而你仍然必须在准备最终输出版本时执行这一步，因为<em>Simplify</em>步骤偶尔会删除极值点。
 
-### Round everything to integer coordinates
+### 一切取整为整型坐标
 
-The final preparation step to perform is to round all points (both on-curve points and control points) to integer coordinates. This is mandatory for generating TrueType output, but is highly recommended for OpenType output as well. It can result in sharper rendering and better grid-fitting when the fonts are displayed, without any additional design work.
+最后执行的准备步骤是将所有点（包括曲线上的点和控制点）取整为整型坐标。这对于生成TrueType输出来说是强制的，但是对OpenType来说也是非常推荐的。它会导致在字体显示时更锐利的渲染和更适合网格，而不需要任何额外的设计工作。
 
-To round all points to integer coordinates, choose "Element" -&gt; "Round" -&gt; <em>To Int</em>.
+为了使所有点取整为整型坐标，选择“Element” -&gt; “Round” -&gt; <em>To Int</em>。
 
-As soon as this operation is completed, you may notice something puzzling. Sometimes, simply due to the peculiarities of the curves involved, the processes of rounding to integer coordinates, simplifying glyphs, and adding missing extrema can work against each other. An example of when this might occur is when a curved outer edge has a control point that lies just past the horizontal or vertical; in this situation rounding it to integer coordinates can shift the curve slightly and change where the extrema lies.
+一旦这个操作完成，你可能注意到有东西令人迷惑。有时候仅仅由于曲线独特性引起，取整到整型坐标的进程，简化字形，增加缺失的极值点可能互相冲突。这种情况出现的一个例子是一个曲线外边有一个控制点错过了水平或者竖直方向；在这种情况下对它取整到整型坐标可能轻微地移动曲线并改变其极值点位置。
 
-There is not a one-shot solution to this conundrum; the only guaranteed fix is to repeat the cycle of steps for the affected glyphs until they stabilize at a point where the three operations no longer interfere with each other. This may take multiple cycles, but it is a rare occurrence.
+这并不是这个难题的一个一蹴而就的解决方案；仅有的保证的修复是对受影响的字形循环重复步骤直到它们在一个点稳定下来，三个操作不再互相干扰。这可能需要耗费多次循环，但是它发生是罕见的。
 
-### Validate
+### 验证
 
-Your font should pass the required validation tests before you generate your final output. As with the rounding-points-to-integer-coordinates step, though, sometimes the other preparatory operations can introduce errors, so it is always a good idea to run the whole-font validator at this stage before building the final output. The chapter on FontForge's validation tools will give you more detail on what to check.
+你的字体在生成最终输出之前应该通过必要的验证测试。像将点取整到整型坐标步骤一样，尽管有时其他准备操作能提出错误，因此在构建最终输出之前运行全字体验证是好主意。FontForge的验证工具一章将会给你检查什么的细节。
 
-### A word about hinting
+### 关于提示（Hinting）
 
-Hinting refers to the use of mathematical instructions to render the vector curves in a font in such a way that they line up nicely with the pixel grid of the rasterized output device (whether that grid is composed of dots of ink or toner on paper, or luminescent dots on a computer monitor).
+提示指的是使用数学上的指引在字体中渲染矢量曲线，渲染的方式是用栅格化输出设备的像素网格（不论是墨水点或墨粉在纸上构成的网格还是计算机显示器的发光点构成的网格）精细地排列起来。
 
-FontForge allows you to hint your font (and even provides an <em>Autohint</em> function), but in practice this step is not strictly necessary. Modern operating systems often have better grid-fitting functionality built into their text rendering engines than you can create yourself without expending considerable time and effort. In fact, Mac OS X and Linux both <em>ignore</em> any hints embedded in the font file itself. If you do decide your font needs hinting for the benefit of Windows users, your best bet is to build the font without embedded hints, then use a specialized application such as <strong>ttfautohint</strong> to add hinting after the fact.
+FontForge允许你提示你的字体（甚至提供了一个<em>Autohint</em>功能），但是实际上这个步骤并不是严格必须的。现代操作系统经常有构建在其文本渲染引擎中的更好的网格适合功能，而不需要话费可观的时间和努力。实际上Mac OS X和Linux都会<em>忽略</em>任何嵌入字体文件中的提示。如果为了Windows用户的利益，你确实选择你的字体确实需要提示，那么你最好的办法是不使用嵌入的提示来构建字体，然后使用专门的程序比如<strong>ttfautohint</strong>来事后增加提示。
 
-For CFF hinting, see (this video from Adobe at RoboThon](http://vimeo.com/38364880)
+CFF提示参见（视频来自RoboThon的Adobe](http://vimeo.com/38364880）
 
-### Check your metadata
+### 检查你的元数据
 
 Last but certainly not least, once your font has been thoroughly prepared technically for export, you should pause and update the font metadata, making sure that important metadata information is included, and that it is up to date.
 
