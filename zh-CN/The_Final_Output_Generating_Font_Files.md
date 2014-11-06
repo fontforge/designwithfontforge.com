@@ -76,36 +76,36 @@ CFF提示参见（视频来自RoboThon的Adobe](http://vimeo.com/38364880）
 
 ### 检查你的元数据
 
-Last but certainly not least, once your font has been thoroughly prepared technically for export, you should pause and update the font metadata, making sure that important metadata information is included, and that it is up to date.
+最后但不是最小的事情是，一但你的字体在技术上已经完全准备好导出，你应该暂停并升级字体的元数据，确保重要的元数据信息包含在内并且是最新的。
 
-First, if this is the initial release of your font, open the <em>Font Info</em> dialog from the "Element" window, and select the "PS Names" tab. Fill in the font's Family Name and Weight first, then copy that information into the "Name for Humans" box. Although using version numbers is not required, it is extremely helpful for you as a designer to differentiate between different revisions of your work. Enter "1.0" as the "Version" number if you are not sure. Next, visit the "TTF Names" tab and enter the same information.
+首先，如果这是你字体的初始发布版本，从“Element”窗口打开<em>Font Info</em>对话框，选择“PS Names”选项卡。首先填写字体的Family Name和Weight，然后复制这个信息到“Name for Humans”框。尽管使用版本号不是必要的，但是它对于你这样的设计者区分你的工作的版本是非常有帮助的。如果你不确定的话输入“1.0”作为版本号。接下来打开“TTF Names”选项卡并输入同样的信息。
 
 <img src="images/fontinfo.png" alt="">
 
-As is the case with version numbers, it is helpful in the long run for you to make log entries for each revision. Go to the "FONTLOG" tab and write a brief sentence or two explaining what changes if any have gone into the revision that you are building for release. If this is your initial log entry, you should also describe your font and its purpose in a sentence or two.
+在使用版本号的情况下，长期为每个版本制作日志项是有帮助的。切换到“FONTLOG”选项卡并写下简明的一两句话解释你为了发布正在构建的这个版本加入的改变。如果这是你的初始日志项，那么你也应该用一两句话描述你的字体和目的。
 
-Fonts, like all creative works, need to have a license, so users will know what they are and are not allowed to do. FontForge has a button in the "TTF Nmes" tab labeled "Add SIL Open Font License." The Open Font License (OFL) is a font license designed to allow you to share your font with the public with very few restrictions on how where it is used, while still protecting you as the designer from having others take credit for your work or creative derivatives of your font that wil be confused for the original. Clicking the button will add "License" and "License URL" strings to the TTF Names metadata. If you have another license you would prefer to use instead of the OFL, enter it in the "License" field instead.
+字体像所有的创意作品一样需要有一个证书，这样用户将会知道它们允许做什么不允许做什么。FontForge的“TTF Names”选项卡有一个“Add SIL Open Font License”标签的按钮。Open Font License（OFL）是一个字体证书，设计用于允许你分享你的字体给公众，而使用的时间和用在哪里的限制很少，同事仍然保护你这样的设计者不会被其他人将你的字体归功于他自己或者创造容易被误读为原创的你的字体的衍生物。惦记按钮将会为TTF Names元数据添加“License”和“License URL”字符串。如果你更愿意使用另一个许可证而不是OFL，那么在“License”域输入它。
 
 <img src="images/metadata.png" alt="">
 
-If you have made significant changes to other features of your font, it is a good idea to double-check the other font-wide settings in the Font Info window, and make sure everything is still up to date. Line spacing information, for example, is found in the "OS/2" tab under "Metrics."
+如果你对你的字体的其他特点做了显著的改变，那么在Font Info窗口加倍检查字宽设置，确保一切仍然是最新是好主意。例如行间距信息可以再“Mertrics”下的“OS/2”选项卡下找到。
 
-### Building the font files
+### 构建字体文件
 
-The process for generating the font output files is the same when you are building the final release as it is when you are building a quick-and-dirty copy for testing, but you will want to pay closer attention to some of the options.
+生成字体输出文件的进程与你构建最终发布版，测试为构建快的脏的复制版本一样，但是你将希望对选项中的一些花费更大精力。
 
-Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. Again, the top half of the window allows you to choose the directory and file name to give to your output file -- just be careful that you do not overwrite a previous save.
+通过选择“File”下的<em>Generate Fonts</em>来打开这个窗口。窗口的上半部分再次允许你选择输出文件的目录和文件名&ndash;仅需要主意你并没有覆盖上次保存的。
 
-In the left-hand side pull-down menu, select the format of the font you are generating, either <em>TrueType</em> or <em>OpenType (CFF)</em>, as discussed earlier. On the right-hand side, make sure <em>No Bitmap Fonts</em> is selected. On the line below, make sure <em>No Rename</em> is selected for the "Force glyph names to:" option. You can check the "Validate Before Saving" option if you wish (to potentially catch additional errors), but this is optional. Leave the "Append a FONTLOG entry," "Prepend timestamp," and "Upload to the Open Font Library" options unchecked.
+像前面讲的一样，在左边的下拉菜单中选择你生成的字体的格式，<em>TrueType</em>或者<em>OpenType (CFF)</em>。在右边确保<em>No Bitmap Fonts</em>被选中。在下面的一行确保“Force glyph names to:”一项选中<em>No Rename</em>。如果你希望（可能捕获额外的错误）就可以勾选“Validate Before Saving”，但这是可选的。“Append a FONTLOG entry”、“Prepend timestamp”和“Upload to the Open Font Library”选项保持不勾选。
 
-Next, click on the "Options" button. Select the <em>PS Glyph Names</em>, <em>OpenType</em>, and <em>Dummy DSIG</em> options in the window that pops up, and deselect everything else.
+接下来点击“Options”按钮，在弹出的窗口中选中<em>PS Glyph Names</em>、<em>OpenType</em>和<em>Dummy DSIG</em>选项，并且不选中其他所有项。
 
 <img src="images/opentype-options-window.png" alt="">
 
-Click the "Generate" button, and FontForge will build your font file. One final ord: it is important not to overwrite the saved version of your FontForge work with the modifications you made in this section solely to generate your <em>.ttf</em> or <em>.otf</em> output.  For example, you lose a lot of individual glyph components when you perform the <em>Remove overlaps</em> operation.  But the next time you resume work on your font, you will definitely want to pick up where you left off in the original, individual-glyph-component-filled version.
+点击“Generate”按钮，FontForge将会构建你的字体文件。最后一句话：重要的是不要用你在这一节单独为了生成你的<em>.ttf</em>或<em>.otf</em>输出而做的修改覆盖你的FontForge工作保存的版本。例如你当你执行<em>Remove overlaps</em>操作的时候丢失了许多独立字形组件。但是下次你继续你的字体工作时，你将肯定希望找回你在原作中丢下的独立字形组件填充的版本。
 
-Consequently, if you decide to save the modified version of your FontForge file, be sure that you rename it in a memorable way, such as <em>MyFont-TTF.sfd</em> or <em>MyFont-OTF.sfd</em>. But you do not necessarily need to save these output-oriented variations of your file at all -- in practice, the next time you revise your original work in FontForge, you will work through the output preparation steps again anyway.
+因此，如果你决定保存你的FontForge文件修改过的版本，确保将其重命名为显著的名字，比如<em>MyFont-TTF.sfd</em>或<em>MyFont-OTF.sfd</em>。但是你完全不必保存你的文件的这些面向输出的多种版本&ndash;实际上下次你在FontForge中修改你的原作时，无论如何你将再次做完输出准备步骤。
 
-Congratulations are in order! You have now created your first font. All that remains now is for you to share your work: upload it to the web, post it to your blog, and go tell your friends.
+接下来要恭喜了！你创建了你的第一个字体。对你来说剩下的只是分享你的作品；上传到网上，贴到博客中，告诉你的朋友们。
 
-Without doubt, you will be back and continue revising and refining your typeface -- after all, as you have seen, font design is an highly iterative process. But be sure that you pause and take this moment to enjoy what you have accomplished first.
+毫无疑问你将会继续校正和改善你的字体样式&ndash;如你所见，字体设计终究是一个高度迭代的进程。但是确保你暂停一下，先把握这个时刻享受你所完成的。

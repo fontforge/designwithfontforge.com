@@ -3,26 +3,17 @@ published: true
 layout: bookpage
 weight: 91
 category: Appendices
-title: When Things Go Wrong With FontForge Itself
+title: 当FontForge自己出错时
 ---
 
-If you find FontForge crashing whilst in use you might like to send information to the [FontForge
-developer mailing list](https://lists.sourceforge.net/lists/listinfo/fontforge-devel). This way, a
-software developer might be able to work out where the code is going wrong and apply a fix. You can
-then either patch your local FontForge, or just grab the sources from github as detailed in the
-Installing chapter to get an updated FontForge free of the defect you reported.
+当你使用FontForge的时候发现它崩溃了，那么你可能想要发送信息到[FontForge
+developer mailing list](https://lists.sourceforge.net/lists/listinfo/fontforge-devel)。使用这种方式，一个软件开发者可能能够找到代码哪里出错并修复。然后你可以给你本地的FontForge打补丁或者只是像安装一章描述的那样从Github获取源来的到一个不包含你报告的缺陷的升级后的FontForge。
 
-To help developers find out what is going wrong, they will want a backtrace from your session. The
-backtrace includes a list of which program functions have called which other ones to get to where
-the program has stopped working. The backtrace is most useful if it also contains the line numbers
-of the functions. Because the backtrace will make reference to source files and line numbers, don’t
-forget to also tell the developers which version of FontForge you are using. Optionally, you might
-also like to mention what you were doing leading up to the crash.
+为了帮助开发者找到什么出错了，它们可能想要你的会话的回溯。回溯包括一个程序函数调用其他函数到达程序停止工作位置的函数调用的列表。如果回溯包含了函数的行号，那么它将是最有用的。因为回溯将会制作到源文件和行号的引用，因此不要忘记也告诉开发者你在使用的FontForge版本。可选择地，你可能也希望提到你在做什么的时候导致了崩溃。
 
-## Using the GNU Debugger to report crashes
+## 使用GNU Debugger来报告崩溃
 
-A backtrace is generated using the GNU Project Debugger (gdb). You can either attach gdb to an
-already running FontForge, or start FontForge inside the gdb session itself as shown below.
+一个回溯是使用GNU Project Debugger (gdb)来生成的。你可以附加gdb到一个已经运行的FontForge上或者在gdb会话中启动FontForge，如下：
 
 ```
 $ gdb fontforge
@@ -38,7 +29,7 @@ For bug reporting instructions, please see:
 Reading symbols from /usr/local/bin/fontforge...done.
 ```
 
-Then once you issue the debugger the run command, FontForge will open on screen:
+然后一旦你给调试器发出了运行命令，FontForge将会在屏幕上打开。
 
 ```
 (gdb) run
@@ -50,23 +41,13 @@ Copyright (c) 2000-2012 by George Williams.
  Library based on sources from 14:57 GMT 31-Jul-2012.
 ```
 
-From here you can use FontForge in the usual way, but with the advantage of being able to
-effectively capture and report any issues that FontForge may have.
+到这里你可以用通常的方法使用FontForge，但是FontForge拥有了有效捕获并报告问题的好处。
 
-One major difference that running FontForge inside gdb makes is how a crash is made apparent.
-Without gdb, when FontForge crashes it will disappear from your screen. When you are running
-FontForge inside gdb however, a crashed FontForge will remain open along with its windows and user
-interface.
+从gdb内运行FontForge造成的一个主要不同之处在于如何让你一个崩溃变得明显。没有gdb时，当FontForge崩溃时它将从你的屏幕消失。但是当你在gdb中运行FontForge时，崩溃的FontForge及其窗口和用户界面将保持打开。
 
-If you find that your interface is unresponsive, switch back to the terminal where you ran gdb and
-you might see something like “SIGSEGV” in the text followed by the (gdb) prompt. If you see the
-(gdb) prompt then FontForge is no longer executing. At this stage, use the “bt” command to get a
-backtrace as shown in the example below.
+如果你发现你的界面不响应，切换回你启动gdb的终端，你可能在（gdb）提示后面的文本中看到一些东西比如“SIGSEGV”。如果你看到（gdb）提示那么FontForge不再运行。在此时使用“bt”命令来的到回溯，如下面的例子所示。
 
-As you can see in the example backtrace FontForge has crashed inside the `copy()` function. The
-`copy()` function was itself called from the `KCD_AutoKernAClass` function. The backtrace will tell
-a software developer the exact lines these calls were made, and also use the tip that the parameter
-passed to `copy()` was invalid (out of bounds) to work out what the code is doing wrong.
+如你在示例回溯中看到的，FontForge在`copy()`函数内崩溃。`copy()`函数被`KCD_AutoKernAClass`函数调用。回溯将会告诉一个软件开发者这些调用的确切行，同时也提示传给`copy()`的参数无效（超出边界），从而去解决程序出错的地方。
 
 ```
 Program received signal SIGSEGV, Segmentation fault. 
@@ -115,8 +96,4 @@ A debugging session is active.
 
 Quit anyway? (y or n) y
 ```
-
-Use the quit gdb command to exit from gdb and to close the crashed FontForge. If you can send a good
-backtrace to the fontforge developers then you can help to improve the stability of the program for
-everybody! Don’t feel shy about reporting these issues, a crash that doesn’t get reported is a crash
-that is far less likely to be fixed.
+在gdb中使用gdb的quit命令来退出gdb并关闭崩溃的FontForge。如果你可以发送好的回溯给FontForge开发者，那么你可以为每个人提升程序的稳定性！不要对报告这些问题感到害羞，一个没有报告的崩溃是一个不太坑修复的蹦阔。
