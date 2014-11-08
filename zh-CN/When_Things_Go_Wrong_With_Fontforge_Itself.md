@@ -96,4 +96,4 @@ A debugging session is active.
 
 Quit anyway? (y or n) y
 ```
-在gdb中使用gdb的quit命令来退出gdb并关闭崩溃的FontForge。如果你可以发送好的回溯给FontForge开发者，那么你可以为每个人提升程序的稳定性！不要对报告这些问题感到害羞，一个没有报告的崩溃是一个不太坑修复的蹦阔。
+在gdb中使用gdb的quit命令来退出gdb并关闭崩溃的FontForge。如果你可以发送好的回溯给FontForge开发者，那么你可以为每个人提升程序的稳定性！不要对报告这些问题感到害羞，一个没有报告的崩溃是一个不太可能被修复的蹦阔。

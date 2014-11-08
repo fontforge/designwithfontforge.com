@@ -3,47 +3,48 @@ published: true
 layout: bookpage
 weight: 92
 category: Appendices
-title: Importing Glyphs from Other Programs
+title: 从其他程序导入字形
 ---
 
-It is possible to draw glyphs in a general purpose illustration application (Inkscape, Adobe Illustrator, etc) and import them as EPS or SVG. 
+在通用插图应用程序（Inkscape，Adobe Illustrator等）中绘制字形并将其作为EPS或SVG导入是有可能的。
 
-## Hand-coded SVG
+## 手编SVG
 
-#### How to prepare
+#### 如何准备
 
-* The SVG file does need `viewBox="0 0 1000 1000"`
+* SVG文件确实需要`viewBox="0 0 1000 1000"`
 
-* Width actually doesn't matter, as long as it is wider than your glyph. But the height at 1000 is important for easiest import.
+* 宽度事实上并不重要，只要它比你的字形更宽。但是高度是1000对最容易的导入来说是重要的。
 
-* `y=0` will be the ascender line and `y=1000` will be the descender line.
+* `y=0`将会是顶部线并且`y=1000`将会是底部线。
 
-* (There may be a few glyphs that go beyond those lines, perhaps FontForge will do the right thing but we haven't tested it.)
+* (可能有一些字形超出了这些线，FontForge可能会正确处理，但是我们并未测试。)
 
-* By default FontForge will set up your baseline at `y=800`. In the FontForge coordinate system, the baseline is at their `0` point on their vertical access.
+* FontForge默认会设置你的基线为`y=800`。在FontForge的坐标系统中，基线处在竖直范围的`0`点处。
 
-* To set the baseline where you want it in FontForge, take the y coordinate for your baseline in SVG. That will be the FontForge vertical point for the ascender line in their coordinate system. (1000 - y) for the descender. Go to `Element, Font Info` and in the General menu, place the ascender value in the "Ascent" input and the decender in the "Descent" menu. Both will be positive. The Em Size should remain at 1000 (as that is the height in SVG units)
+* 为了在FontForge中设置基线到你希望的地方，在SVG中将y坐标作为你的基线。在FontForge的坐标系统中，这将是其顶部线的竖直点。
+To set the baseline where you want it in FontForge, take the y coordinate for your baseline in SVG. That will be the FontForge vertical point for the ascender line in their coordinate system. (1000 - y)作为底部。打开`Element -> Font Info`，在General选项卡下的“Ascent”和“Descent”输入框输入顶部值和底部值。两者都是正数。字模高度（Em Size）应该保留1000（因为这是SVG单位的高度）。
 
-* When drawing the glyph, I like to use relative coordinates. So I start the glyph with `<path d="M Xvalue,Yvalue`. If I can draw the glyph starting at a point all the way on the left, then XValue will be the default LeftBearing that FontForge uses. You can adjust that easily after glyph import and may need to anyway after testing the font. The Yvalue, when I can start drawing from the baseline, it's nice to use that baseline value for Yvalue.
+* 当绘制字形时，我喜欢使用相对坐标。因此我以`<path d="M Xvalue,Yvalue`作为字形的开始。如果我可以自始至终从左边的点开始绘制字形，那么Xvalue将会是FontForge使用的默认的左边空白。你可以在字形导入后容易地调整它，并可能在测试字体后无论如何都需要调整。当我可以从基线开始绘制时，将基线值作为Yvalue很好。
 
-* Always finish the path d attribute with a z. It will import without it, but the glyph won't display right in the main window until you restart fontforge if you forget to put a z after the last point in the path.
+* 总是使用a z来结束路径的d属性。导入的时候不会导入它，但是如果你忘记在路径最后的点后放置a z，那么在主窗口中字形不会显示正确除非你重启FontForge。
 
-* When drawing holes (like for letter P) don't start a new path node, just use a z at end of the first path and start new with mNewX,NewY to then start drawing the hole. Use the attribute fill-rule="evenodd" for the path and it will work right.
+* 当绘制洞（像字母P）的时候，不要开始一个新的路径节点，只需要在第一个路径的结尾使用a z并使用mNewX,NewY开始新的路径，然后开始绘制洞。为路径使用属性fill-rule="evenodd"，它将会工作正常。
 
-#### Workflow
+#### 工作流程
 
-Use a web browser to render the SVG you are working on. You can use a file called "template.svg" that is 1200 by 1200 but renders at 800 by 800 so that it doesn't scroll in the browser window.
+使用一个网页浏览器来渲染你正在制作的SVG。你可以使用一个被称作“template.svg”的1200乘1200的文件却渲染为800乘800，这样它在浏览器窗口中不会滚动。
 
-In that template, draw guidelines at `y=100, y=1100, y=(100 + {baseline, capheight, etc.}, x=100, x=1100`
+在模板中，在`y=100, y=1100, y=(100 + {baseline, capheight, etc.}, x=100, x=1100`绘制引导线。
 
-Then import the SVG glyph you are working on into that document with `<image xlink:href="LC_p.svg" x="100" y="100" width="1000" height="1000" />`
+然后使用文档`<image xlink:href="LC_p.svg" x="100" y="100" width="1000" height="1000" />`将你正在制作的SVG字形导入。
 
-You can now hand-code you letter in one window, and refresh the browser in the other to see it drawn on top of the guidelines. 
+现在你可以在一个窗口中手工编码你的字母，刷新浏览器来看它是否绘制在引导线的顶部。
 
+## 自定义字形列表
 
-## Custom Glyph Lists
+1. 创建一个`namelist.txt`文件，可能使用一个电子表格来列出Unicode码点和字形名。例如：
 
-1. Create a `namelist.txt` file, perhaps using a spreadsheet to list unicode codepoints and glyph names. For example:
 ```
 0xEC00 octDotDhe
 0xEC01 octDotDheDbl
@@ -59,7 +60,6 @@ You can now hand-code you letter in one window, and refresh the browser in the o
 0x-001 soroganLik
 ```
 
-For glyphs without a Unicode point, use a codepoint of -1, such as in the last line of the above example.
+对于没有Unicode点的字形来说，使用-1的码点，正如上面例子的最后一行。
 
-Then load FontForge and go to `Encoding, Load NameList` and then use `Rename glyphs` (Since `Load NameList` only
-adds the custom namelist to the set of options available in subsequent rename commands.)  
+然后夹在FontForge并打开`Encoding -> Load NameList`然后使用`Rename glyphs`（由于`Load NameList`只添加自定义名称列表到重命名之后的命令 的可用选项集合）。

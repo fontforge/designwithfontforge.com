@@ -3,115 +3,116 @@ published: true
 layout: bookpage
 weight: 92
 category: workflow
-title: Designing Devanagari Typefaces
+title: 设计天城体样式
 ---
 
 
-_Thanks to Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena, Dr Girish Dalvi for contributing many of the ideas on this page_
+_感谢Adam Twardoch、Erin McLaughlin、Neelakash Kshetrimayum、Dan Reynolds、Pooja Saxena、Dr Girish Dalvi为本页贡献了如此多的想法_
 
-Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of - for example, designing a Devanagari and adapting an existing Latin font to go with it. 
+设计一个新的原创的[天城体](http://en.wikipedia.org/wiki/Devanagari)样式遵循的流程非常类似设计新的原创的拉丁文的流程。从自由字体的_自由_中能够获得的独特的好处是你可以为字体的初创者从没相处的新目的修改并重用它们&ndash;例如设计一个天城体并改造一个已有的拉丁字体来解决它。
 
-## Devanagari Glyphs
+## 天城体字形
 
-Devanagari fonts contain these different types of glyphs:
+天城体包含这些不同类型的字形：
 
-* consonants (36)
-* independent vowels (28)
-* vowel maatras
-* word space(s)
-* Devanagari numerals (10)
-* Latin numerals (new, or if already present then adjusted to work within pure Devanagari text)
-* nukta composites
-* half-forms
-* conjuncts (unique ligature glyphs)
-* "I" vowel maatras of differing lengths
-* Devanagari punctuation, marks, and symbols
-* Latin punctuation, marks, and symbols (new, or adjusted if already present)
-* Latin letters
+* 辅音（36）
+* 独立的元音（28）
+* 元音maatras
+* 字距
+* 天城体数字（10）
+* 拉丁数字（新的或者或者将已有的调整到与天城文字相适应）
+* nukta组合
+* 半形式
+* 连接（独特的捆扎字形）
+* 不同长度的“I”元音maatras
+* 天城体标点符号
+* 拉丁标点符号（新的或者调整已有的）
+* 拉丁字母
 
-Consult the ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
+咨询（[天城体Unicode页面](http://www.unicode.org/charts/PDF/U0900.pdf)）和（[微软天城体OpenType字体开发页面](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)）来学习更多关于这些字形和印度语形状引擎如何工作的内容。
 
-It is helpful to do some calligraphy or closely study writing manuals to learn how the script works, so you understand which letters should be like which other letters in structure. These [2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) can be used as a reference for pen angle and letter proportions.
+写书法或者与此接近学习字帖来学习脚本如何工作是有帮助的，这样你会明白什么字母在结构上应该与什么其他字母相似。这些[Aksharaya的天城体书法字帖中的2页](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J)可以用作笔的角度和字母比例的参考。.
 
-## What To Do First
+## 首先做什么
 
-When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages are designing the "key" glyphs, to establish the personality of the typeface through fundamental shapes and spacing (which in Latin may be 'adhesion' or 'videospan'.) Design the lowest and highest "height extremes" glyphs early in the process. 
+在设计一个天城体和拉丁字体样式时，以在天城体旁边绘制拉丁文字开始是重要的。最早一步是设计“关键”字形，以此通过基础形状和间距（这在拉丁文中可能是‘adhesion’或者‘videospan’）来建立字体样式的个性。进程早期设计最低和最高的“高度极值”。
 
-You'll need plenty of vowel signs to begin testing texture and scale. 
+你将会需要大量的元音标记来开始质地和缩放的测试。
 
-The professor of typography at IIT Bombay, Dr Girish Dalvi, wrote in his PhD thesis,
+印度理工大学孟买分校的字体排印教授Girish Dalvi博士在他的博士论文中写到，
 
-> Through the results of this study we can deduce that the ten letters अ इ ए ख त भ द ध थ ष can almost capture all the formal properties of remaining Devanagari letters. Within these letters the letters अ इ ख भ द ध ष are most critical as they define features for the majority of the letters. We can hence suggest that by designing these letters first; the process of Devanagari font design can be simplified for students well as type designers as the remaining letters can be derived from these ones.
+> 通过这一研究的结果我们可以推断出10个字母अ इ ए ख त भ द ध थ ष可以捕获几乎所有的剩余天城体字母的正式属性。在这些字母中，字母अ इ ख भ द ध ष定义了大多数字母的特性，是最具决定性的。因此我们认为通过首先设计这些字母，天城体设计的流程可以为学生和字体设计师简化，剩下的字母可以通过这些衍生出来。
 
-Erin McLaughlin suggested these glyphs as an initial progression:  **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … continue character set** and suggested to focus on the "Au" vowel sign + reph + anusvara combo!, the Ma is just there for posterity.
+Erin McLaughlin建议将这些字形作为一个初始连字：**पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … 连续字符集合**并建议关注“Au”元音标记 + reph + anusvara连字！这里的Ma是为了后继。
 
-The height extremes glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
+字形的高度极值允许你确定竖直度量值和如何缩放两个书写系统来共同工作。Adobe发布了非常大的字体家族覆盖各种不同的正字法。它们根据共享的一般比例分成不同的家族；Myriad Pro包含Latin,、Greek和Cyrillic，而Hebrew与Arabic设计打包成分来的家族，包含在**改进的**Latin中. 
 
-Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
+下面是Myriad Pro Latin和Myriad Arabic并排：
 
 <img src="images/myriad_pro_vs_arabic.png" />
 
-(Spot Adobe's designers neat decision: the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin.)
+（认出Adobe的整洁的选择：Myriad Arabic的大写高度是Myriad Pro Latin的x高度）
 
-Note that in the Lohit character set, the lowest glyphs are forms, meant to go below characters that descend very far below the baseline:
+需要注意的是在Lohit字符集中，最低的字形是形式，意味着靠下的字符将会下沉到比基线低很多的地方：
 
 TODO: Add image of vattu+U, vattu+Uu, U, Uu, and subscript V (for conjuncts)
 
-(Vattu is the below-base form of reph. See the [Microsoft terminology](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) page for more details)
+（Vattu是底基线样式的reph。详情参见[微软术语](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm)页面）
 
-Ideally, these should stack below your lowest vertically-stacking conjunct, like the example on the left  (Lohit, which doesn't quite vertically fit, is on the right):
+理想地，这些应该堆叠在你最低的竖直堆叠结合以下，就像左边的例子（Lohit并不完全竖直适应，在右边）
 
-## Spacing approach
+## 间距方法
 
-Designing Latin fonts typically involves a series of spacing strings like this:
+设计拉丁字体有代表性地涉及了一系列艰巨字符串像这样：
 
 > HHxHOHOxOO  
 > nnXnonoXoo
 
-Where the X represents the letter you are focused on spacing, and the concept is looking at this letter next to a somewhat flat-sided character and a round character. 
+其中X代表了你关注间距的字母，概念是看这个字母挨着有点平的字符和圆的自负。
 
-Pa, and Va or Da are Devanagari equivalents:
+Pa与Va或Da是天城体相等的：
 
 > पपXपवपवXवव  
 > पपXपदपदXदद
 
-When just beginning a project, start with filling a page entirely with Pa in order to get the right balance of stroke thickness, counter size, and spacing. 
+当刚刚开始一个项目的时候，从使用Pa完全填充一个页面开始，以此得到笔画粗细、对立面大小和间距的正确平衡。
 
 > पपपपपपपपपपपपपपपपपपपपप 
 
-Once the Pa has the right "color", you can begin adding these other basic, common characters:
+一旦Pa有了正确的“color”，你可以开始添加其他基本常见的字符：
 
-> पपपवपपपपपवपववपपव (va, randomized)  
-> पपपापपपपापपाप (Aa maatra, randomized)  
-> पपपदपपपपपदपददपपद (da, randomized)  
+> पपपवपपपपपवपववपपव （）va，随机化的）  
+> पपपापपपपापपाप （Aa maatra，岁计划的）  
+> पपपदपपपपपदपददपपद （da，随机化的）  
 
-
-Then, you can begin using the spacing strings shown above, in order to add more glyphs:
+然后你可以开始使用上面的间距字符串来添加新的字形：
 
 > पपरपदपदरदद  
 > पपकपदपदकदद  
 > पपलपदपदलदद  
 > पपपीपदपदपीदद
 
-and so on!
+诸如此类！
 
-You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward - both on screen and in print. Doing a vertical check is more effective than just a long line of continuous text. Here's why:
+你将希望在一个像那样长的列表中看看这些，这样你可以在屏幕或打印介质上向下滚动时一个一个地比较字形。做竖直检查比只是长的一行连续文本更有效。原因是：
 
-When you look at the spacing strings in vertical columns, you can easily compare the spacing with the lines previously above and below the current character. In the same way that we can easily recognize "rivers" in badly-set full-justified text, it will be easier to see white gaps or dark spots in spacing if you are comparing against a spacing string that remains constant.
+当你在竖直列中看间距字符串时，你可以很容易地比较当前字符到上下行之间的间距。按同样的方式，你可以容易地从坏地设置完全调整的文本中识别出“rivers”，如果你比较剩下的间距字符串，那么可以容易地在间距上看到白色间隙或者暗点。
 
-The spacing string above allows you to compare very disparate shapes, so that spacing is more even throughout (instead of all of the round characters being too loose or too tight)
+上面的间距字符串允许你比较非常不同的形状，这样间距甚至更加贯穿（而不是所有太松或太紧的圆的字符）。
 
-And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested character against two sets of three, if you just look at Pa/Da/Pa or Da/Pa/Da.
+中间的四个字形Pa/Da/Pa/Da允许你将比较字符与两个三字符集合相比较，也就是Pa/Da/Pa或者Da/Pa/Da。
 
 <img src="images/deva-spacing.png" />
 
-## Work Breakdown Structure
+在对一些元音和辅音绘制和调整间距后，你将能够只使用这些字母做出数量有限的词并开始用实际文本测试你的设计。
 
-In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
+## 作品分解结构
 
-For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 4-6 months. 
+在任何一个字体样式设计项目中，描绘出一个作品分解结构是好主意。
 
-Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
+对于一些非常熟悉的人来说，有可能在大约4-6个月内设计出天城体样式的初始的细体和粗体。
+
+这里有一个经验丰富的设计者在设计有些简单的“sans”时，制作9种不同粗细、直立和倾斜的插值替换的字体家族的时间表：
 
 |Week|Goal|Glyphs|
 |--:|:--|--:|
@@ -134,83 +135,85 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 |17|General refinement of spacing, kerning & testing in all styles|3,600|
 |18|Finalisation|3,600|
 
-## Useful Resources
+## 有用的资源
 
-### Introductions
+### 简介
 
 * <http://www.linotype.com/6896/devanagari.html>
 
-### Where to look for inspiration and ideas
+### 从哪里寻找灵感和创意
 
-Look at the Devanagari fonts on the <http://indiantypefoundry.com> website, and those that were just released through Google Fonts, for inspiration on shapes of letters can vary. 
+在<http://indiantypefoundry.com>Google Fonts发布的网站查看天城体，来找到字体形状变化的灵感。
 
-Another good place to search for Hindi “e-paper” newspaper sites to see actual fonts-in-use - advertisements usually have more diversity in fonts. <http://epaper.jagran.com> is a very largely circulated Indian e-paper.
+另一个好的地方是搜索印地语“e-paper”电子报网站来看实际使用字体的广告通常有更多的字体多样性。<http://epaper.jagran.com>是一个流通非常广泛的印度电子报纸。
 
-Flickr is also a good source of ideas for imagery:
+Flickr也是一个形象化创意的好的来源：
 
 * <https://www.flickr.com/groups/devanagari-script/>
 * <https://www.flickr.com/groups/37703106@N00/>
 * <https://www.flickr.com/groups/indicscripts/>
 * <https://www.flickr.com/photos/pauldhunt/sets/72157603715699186>
 
-#### Historical sources
+#### 历史资源
 
-Get your hands on copies of Introduction to the Devanagari Script by H. M. Lambert, Oxford University Press 1953 and Typography of Devanagari (three volumes) by B. S. Naik, Directorate of Languages, Bombay 1971.
+得到H. M. Lambert编写的由牛津大学出版社于1953年出版的Introduction to the Devanagari Script和B. S. Naik编写的孟买语言理事会1971年出版的Typography of Devanagari（3卷）的副本。
 
-Beyond that, there are at least two general sources of 19th Century type from Europe worth looking at: the typefaces from Britain and those from Germany (mostly from Leipzig). These types were used more for the setting of Sanskrit texts than for Hindi texts.
+除了那些，还有至少两种欧洲19世纪字体的一般来源值得一看：英国和德国（主要是莱比锡）的字体样式。这些字体更多地用来设置梵文字文本而非印度文本。
 
-Do also try to find samples of 19th and 20th C. text typefaces from Indian type foundries. They are significantly less Europeanized, as you might expect. There is wonky stuff going on in European academic sanskritic faces from the 19th century that doesn’t seem to appear in 20th century Indian typography at all. These Indian sources are probably more difficult to find in Western libraries, but perhaps Erin McLaughlin has more leads. Matthew Carter’s 1970s Linotype Devanagari is based on typefaces from the Nirnaya Sagar foundry, for instance. Samples of their types, and the Bombay Type Foundry’s types, should be accessible in some western university and/or national libraries. I’d also recommend looking at Monotype’s Devanagari and Linotype Devanagari (the 1970s version and 1980/90s update, not the original 1935 one, which only bore the same name).
+同时也尝试从印度字体铸造中找到19世纪和20世纪的文本字体样式的例子。像你期望的那样，它们明显很少欧化。从19世纪起在欧洲学院 梵文字体中有一些靠不住的东西，它们看起来根本不存在于20世纪的印度的排印中。这些印度来源可能更难从西方图书馆中找到，但是可能Erin McLaughlin更加领先。例如Matthew Carter的19世纪70年代的天城体Linotype排字机是基于Nirnaya Sagar铸造厂的字体样式。它们的字体和孟买字体铸造厂的字体应该可以在一些西方大学或者国家图书馆中找到。我也推荐查找Monotype的天城体和LinoType天城体（1970年代版和1980/90年代版，而非指示同名的原始的1935版）。
 
-There is no Devanagari type in Typefounders in The Netherlands (Charles Enschede, Harry Carter 1978). Whatever you do, don’t look at Bodoni’s types from his 1818 manual.
+在荷兰的Typefounders并没有天城体（Charles Enschede, Harry Carter 1978）。无论你做什么，不要看Bodoni在1818年手工制作的字体。
 
-Some German-made Devanagari type from H. Berthold AG may be seen in Alphabete und Schriftzeichen des Morgen- und des Abendlandes, from the Reichsdruckerei, Berlin 1924, p. 45–47.
+一些来自H. Berthold AG的德国制造的天城体可能在Reichsdruckerei于1924年在柏林出版的Alphabete und Schriftzeichen des Morgen- und des Abendlandes的45-47页看到。
 
-### Articles
+### 文章
 
-Sarang Kulkarni wrote ["Issues with Devanagari Display Type (PDF)"](http://www.typoday.in/2013/spk_papers13/sarang-kulkarni-typographyday2013.pdf)
+Sarang Kulkarni写了["Issues with Devanagari Display Type (PDF)"](http://www.typoday.in/2013/spk_papers13/sarang-kulkarni-typographyday2013.pdf)
 
-Yashodeep Gholap wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
+Yashodeep Gholap写了[Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
 
-Vaibhav Singh's MATD disertation, [Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
+Vaibhav Singh的MATD论文[Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 
-### Lohit2 Devanagari
+### Lohit2天城体
 
-Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph List and OpenType Layout code. It is available as [original FontForge sources](https://github.com/pravins/lohit2/tree/master/devanagari) or as a [UFO zip download](https://github.com/frank-trampe/lohit2/archive/master.zip)
+Lohit2天城体可以通过使用其字形列表和OpenType布局码来作为新OFL字体的基础。想要使用可以通过[原始FontForge来源](https://github.com/pravins/lohit2/tree/master/devanagari) or as a [UFO zip下载](https://github.com/frank-trampe/lohit2/archive/master.zip)
 
-### OpenType Layout
+### OpenType布局
 
-[Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
+[微软天城体OpenType字体开发页面](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 
-### Devanagari Anatomy
+### 天城体刨析
 
-[2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J), which can be used as a reference for pen angle and letter proportions.
+[Aksharaya的天城体书法指南的2页](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J)，可以用来作为笔锋角度和字母比例的参考。
 
-Professor Girish Davli of IIT Bombay IDC (comparable to the USA's MIT Media Lab) published this [Devanagari Anatomy article (PDF)](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
+印度理工学院孟买分校（比得上美国的麻省理工学院媒体实验室）的Girish Davli教授发表了这个[天城体刨析文章（PDF）](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
 
-If you're new to Devanagari script, it's important to become aware of traditional calligraphic pen stress, which is different than in Latin. Here's a quick demonstration of the stroke angle, and how curves were traditionally weighted. Your design will be more successful, and appear less "Latinized", if you draw your curves according to these weight principles, rather than cutting-and-pasting Latin alphabet letter parts. <br /><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
+如果你对天城体脚本的不熟悉，那么知道传统书法笔锋力道是重要的，这与拉丁不同。这里有一个笔画角度和曲线如何传统地赋予粗细的快速文档。如果你遵循这些粗细原则来绘制你的曲线，而不是剪切粘贴拉丁字母的一部分，那么你的设计将会更加成功，并且看起来更少“拉丁化”。<br /><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
 
-The [Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf) shows the basic letters, but not the conjuncts
+[天城体Unicode页面](http://www.unicode.org/charts/PDF/U0900.pdf) 展示了基本字母，但没有连字。
 
-### Testing Tools
+### 测试工具
 
-[Pablo Impallari's Devanagari Testing Page](http://www.impallari.com/testing/devatest.php) (with [sources on github!](https://github.com/impallari/font-testing-page/)) provides some ready-made testing layouts, and you can drag and drop your OTF or TTF right into the page to load it.
+Adobe InDesign对非欧洲脚本的OpenType字体的支持只有在Creative Cloud中才可靠，甚至最新版本也没有改善。自由Harfbuzz与微软OpenType的实现是完成度最高的，因此你应该在Windows和Mac OS X下使用最新版本的Chrome、Firefox和微软Word来测试你的字体，以保证形状上的错误来自于字体而非底层引擎。
 
-[Pooja Saxena's Type Tools](https://anexasajoop.github.io/devanagari-type-tools) (with [sources on github!](https://github.com/anexasajoop/devanagari-type-tools)) generates test texts for letter combinations.
+[Pablo Impallari的天城体测试页面](http://www.impallari.com/testing/devatest.php) （以及[Github上的源码](https://github.com/impallari/font-testing-page/)）提供了一些已经制作好的测试布局，你可以拖动你的OTF或者TTF字体到页面上来加载它。
 
-The [Adhesion Text Devanagari](http://www.adhesiontext.com/devanagari/) is a special version of the a tool built by Miguel Sousa to make dummy text comprised only of the words possible to write with the glyphs you have already drawn. Insert the glyphs (अआईईउऊ etc) that you've drawn, and out will come some sample words for you to use in proofs.
+[Pooja Saxena的字体工具](https://anexasajoop.github.io/devanagari-type-tools)（以及[Github上的源码](https://github.com/anexasajoop/devanagari-type-tools)）来生成字母连接的测试文本。
 
-The Huerta Tipografica's [Devanaguide](http://devanaguide.huertatipografica.com/) is an open source tool to see and compare different devanagari fonts. It also allows you to type a text and preview it in all the fonts at the same time.
+[Adhesion天城体文本](http://www.adhesiontext.com/devanagari/)是Miguel Sousa构建的用来制造只包含可能使用你已经绘制的字形来书写的单词的假文本 的工具的一个特殊版本。插入你已经绘制的字形（अआईईउऊ等），将会诞生一些你用于证明的示例单词。
 
-### Forum Discussions
+Huerta Tipografica的[Devanaguide](http://devanaguide.huertatipografica.com/)是一个开源工具，用来看和比较不同的天城体。它也允许你打字并同时在所有字体上预览。Devanaguide也包含了一个[天城体词表](https://github.com/andrestelex/devanaguide/blob/master/deva-dictionary.txt)，对测试文本设计有帮助。
+
+### 论坛讨论
 
 Typophile
 
-* [Adobe Devanagari](http://typophile.com/node/95460)
+* [Adobe天城体](http://typophile.com/node/95460)
 
-Google Fonts Directory Discuss
+Google字体目录讨论
 
-* [A note on conventions for the placement of shoulder line, descenders, ascenders and so forth in relation to the latin?](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/TaX0NKHket4)
-* [Starting from Lohit2](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/VAhs5MnjZ30) and [pdf](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/_3gtTalzKUQ)
-* [Adobe Glyph Lists](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/q8CQHVxVZ0Y)
-* [rVocalic and rrVocalic](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/eYmmBQENBb8)
-* [Devanagari Character Priorities](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/7dtNw8wwJzI)
+* [关于相比于拉丁，放置肩线、顶部、底部等等的约定？](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/TaX0NKHket4)
+* [从Lohit2开始](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/VAhs5MnjZ30)与[pdf](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/_3gtTalzKUQ)
+* [Adobe字形列表](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/q8CQHVxVZ0Y)
+* [rVocalic与rrVocalic](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/eYmmBQENBb8)
+* [天城体字符优先顺序](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/7dtNw8wwJzI)
