@@ -206,6 +206,11 @@ The Huerta Tipografica's [Devanaguide](http://devanaguide.huertatipografica.com/
 It also allows you to type a text and preview it in all the fonts at the same time.
 The Devanaguide also includes a [Devanagari word list](https://github.com/andrestelex/devanaguide/blob/master/deva-dictionary.txt) which is helpful for test text design.
 
+### Other Links
+
+[Books & Referances for Devanagari typography Projects](http://dsquare.in/devft/en/books.php) is a list of resources which will probably fulfill most of the research requirements of most projects. Compiled by Professor Girish Davli of IIT Bombay IDC.
+
+
 ### Forum Discussions
 
 Typophile
