@@ -3,13 +3,14 @@ published: true
 layout: bookpage
 weight: 93
 category: Appendices
-title: Glossary
+title: 术语表
 ---
 
 ## A
 
-### Abjad
+### 辅音音素文字
 
+辅音音素文字是一个技术术语，用
 Abjad is the technical term for the type of writing system used by Semitic languages (Hebrew, Arabic, etc.), where there are glyphs for all the consonants but the reader must be prepared to guess what vowel to add between two consonants.
 
 Both Hebrew and Arabic have optional vowel marks and are called "impure" abjads. Ancient Phoenician had nothing but consonants and is a "pure" abjad.

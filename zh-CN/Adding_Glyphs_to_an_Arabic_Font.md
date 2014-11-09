@@ -3,166 +3,163 @@ published: true
 layout: bookpage
 weight: 93
 section: Workflow
-title: Adding Glyphs to an Arabic Font
+title: 添加字形到阿拉伯字体
 ---
 
-## Introduction
+## 简介
 
-In some cases a font may lack a glyph that is essential for its use in your application. Arabic fonts present special issues here, because the shape of the glyph depends not only on its position in the word, but also on the attributes of the letter itself. Thus (using the nonsense sequence *babab*), the letter *beh* has three different shapes depending on whether it comes initially, medially, or finally. However (using the nonsense sequence *dadad*), the letter *dal* has only one shape, no matter where it occurs in the word.
+在某些情况下一个字体可能缺少一个在你的应用程序中使用时必要的字形。阿拉伯字体在这里展示了特殊的问题，由于字形的形状不仅依赖于它在词中的位置，也依赖于字母本身的属性。因此（使用无意义的序列*babab*），字母*beh*有三种不同的形状，依赖于是否处于开头、中间还是结尾。然而（使用无意义的序列*dadad*），字母*dal*只有一个形状，而无论其处于词中的什么位置。
 
-Fonts under open licenses (e.g. [GPL] (http://gnu.org/copyleft/gpl.html) or [OFL] ( http://scripts.sil.org/OFL-FAQ_web) allow the user to make modifications. If you adapt a font that was originally under an open licence and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
+在开源协议（例如[GPL](http://gnu.org/copyleft/gpl.html)或[OFL]( http://scripts.sil.org/OFL-FAQ_web）下的字体允许用户做出修改。如果你修改了一个基于一个开源协议的字体然后分发它，那么你必须保持原作者的版权条款和许可信息，尽管你可以在你的分发版本的版权条款后添加你的条款。
 
 <img src="images/beh_dal.png" />
 
-This chapter walks through adding a glyph to an Arabic font. The font we will use is [Graph] (http://openfontlibrary.org/en/font/graph), and the glyph we will add is *peh* (U+067E), which does not occur in Arabic itself, but designates *p* in some languages for which Arabic script is used (for a full listing of the glyphs available for Arabic script, see the [Unicode charts] (http://www.unicode.org/charts).
+本章介绍为一个阿拉伯字体添加一个字形。我们将使用的字体是[Graph](http://openfontlibrary.org/en/font/graph)，我们将添加的字形是*peh*（U+067E），它在阿拉伯字体中并不出现，但是在使用阿拉伯脚本的一些语言中指定*p*（阿拉伯脚本的字形全列表参见[Unicode图表](http://www.unicode.org/charts)）。
 
 <img src="images/peh.png" />
 
+## 制作字体的工作副本
 
-## Make a working copy of the font
-
-Download the font from the webpage and unzip it. Launch FontForge and load the font. Save it as an *sfd* file, editing the suggested name to read **GraphNew.sfd** before saving.
+从网页下载并字体并解压。运行FontForge并加载字体。将其保存为*sfd*，在保存前编辑建议的名字来读取**GraphNew.sfd**。
 
 
-## Rename the font
+## 重命名字体
 
-#### Why should I rename the font?
+#### 为什么要重命名字体？
 
-If you do not rename the font, your adapted font will not install separately from the original &ndash; you will have to uninstall the original font first. It is also sensible to rename the font if you are going to distribute your adaptations &ndash; if the original author of the font has reserved the font name under the Reserved Font Name (RFN) mechanism, that original name can only be used with the original author's version of the font.
+如果你不重命名字体，你修改的字体将不会与原始的区分开安装&ndash;你将不得不首先卸载原始字体。如果你准备分发你的修改版的时候重命名字体也是明智的&ndash;如果字体原作者使用Reserved Font Name（RFN）机制保留了字体名，那么原始名字只能用于原作者的字体版本。
 
-#### Change the name data
+#### 修改名称数据
 
-Select **Element → Font Info**, and in the *PS Names* panel, change *Fontname*, *Family Name*, and *Name For Humans* to **GraphNew**.
+选择**Element -> Font Info**，在*PS Names*面板下将*Fontname*，*Family Name*和*Name For Humans*修改为**GraphNew**。
 
 <img src="images/font_rename.png" />
 
-If desired, you can place an 'Additional glyphs added by' message after the text already in the entry for *Copyright*.
+如果有必要，你可以在*Copyright*一项的文本后添加一条信息“Additional glyphs added by”。
 
-In the *TTF Names* panel, the names for *Family* and *Fullname* are taken from the *PS Names* entries, and should already be showing *GraphNew* (you cannot edit them directly). Change the entries for *Preferred Family* and *Compatible Full* to **GraphNew**. These name changes will now allow you to install this font alongside the original one if you wish.
+在*TTF Names*面板下的, t*Family*和*Fullname*的名称取自*PS Names*一项，应该显示的是*GraphNew*（你不能直接编辑他们）。将*Preferred Family*和*Compatible Full*两项修改为**GraphNew**。现在如你所希望的那样，这些名称的修改将会允许你将字体与原始字体安装在一起。
 
-If desired, you can place an 'Additional glyphs added by' message after the text already in the entry for *Designer*.
+如果有必要，你可以在*Designer*一项的文本后添加一条信息“Additional glyphs added by”。
 
-Click **OK** to save these changes. You will get a message about generating a new UniqueID (XUID) for the font &ndash; click **Change**.
+点击**OK**来保存修改。你将会看到一条关于为字体生成一个新的UniqueID（XUID）的消息&ndash;点击**Change**。
 
 
-## Add the glyph for the isolated form of *peh*
+## 为*peh*的孤立形式添加字形
 
-Go to the Arabic section of the font chart: select **View → Go to**, click the dropdown box and select **Arabic**, then click **OK**.
+打开字体图表的阿拉伯区域：选择**View -> Go to**，点击下拉框并选择**Arabic**，然后点击**OK**。
 
-Clicking on a cell in the font chart will show its Unicode number and name in blue at the top of the panel. Go to position 1662 , which will show in blue as *1662 (0x67e) U+067E ``uni067E'' ARABIC LETTER PEH*. The cell below the reference glyph contains a grey X, showing that the font does not include this glyph.
+点击字体图表中的一个单元格将会在面板顶部用蓝色显示其Unicode数字和名称。转到位置1662，将会显示蓝色的*1662 (0x67e) U+067E "uni067E" ARABIC LETTER PEH*。引用的字形下面的单元格包含一个灰色的X，意味着字体并不包含这个字形。
 
 <img src="images/peh_blank.png" />
 
-We will make *peh* by copying *beh* (U+0628) and swapping its single dot for three dots.
+我们将通过复制*beh*（U+0628）并将其一个点替换为三个点来制作*peh*。
 
-Click on the *beh* cell (position 1576), then right-click and select **Copy**. Then right-click on the *peh* cell and select **Paste**. Now that *beh* is now copied into the *peh* cell, the next thing is to change the dot.
+点击*beh*单元格（位置1576），然后右击并选择**Copy**。然后右击*peh*单元格并选择**Paste**。现在*beh*被复制进*peh*单元格，接下来要修改的是点。
 
 <img src="images/peh_with_beh.png" />
 
-Find a glyph with three dots &ndash; *sheen* (position 1588, U+0634) will do. Double-click on the cell &ndash; this will open a glyph design panel. Press **V** to ensure the pointer tool (arrowhead) in the toolbox is selected, and press **Z** and enlarge the panel to give you a good view of the glyph.
+找到一个包含三个点的字形&ndash;*sheen*（位置1588，U+0634）符合。双击这个单元格&ndash;将会打开一个字形设计面板。按**V**来确保工具箱的指针工具（剪头）选中，按**Z**扩大面板来给你一个字形的好的视图。
 
-Click and drag so that the nodes of the three dots above sheen change colour from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing **Shift** and clicking. Press **Alt+C** to copy.
+点击拖动sheen上的三个点的节点，颜色从粉色变为米色。如果你意外地包含或者忽略了一个节点，那么取消选择或者通过按**Shift**并点击来选择。按**Alt+C**来复制。
 
 <img src="images/sheen_dots.png" />
 
-Go back to the font chart and double-click on the *peh* cell &ndash; this will load *peh* into another tab in the glyph design panel, alongside the *sheen* tab.
+返回字体表格并双击*peh*单元格&ndash;这会将*peh*加载到字形设计面板*sheen*选项卡旁边的另一个选项卡。
 
-Click and drag to highlight the dot below *peh*, then press **Delete**. Press **Alt+V** to paste in the three dots, which will likely appear above the body of *peh*. Leave the dot nodes highlighted so that you can invert and move them more easily.
+点击拖动来高亮*peh*下面的点，然后按**Delete**。按**Alt+V**来粘贴三个点，很可能出现在*peh*主体的上面。留下高亮的点的节点，这样你可以很容易地翻转或者移动他们。
 
 <img src="images/peh_dots1.png" />
 
-Invert the dots: select the flip tool (two triangles with a red dashed line between them) from the toolbox. (Alternatively, right-click in the middle of the dots, and select **Flip the selection** from the popup.)  Click on one of the dot nodes and drag the mouse slightly left or right.
+翻转点：从工具箱选择翻转工具（两个三角形中间有一条红色虚线）。（也可以右击点的中间，从弹出菜单中选择**Flip the selection**。）点击点的节点中的一个，轻微向左或右拖动鼠标。
 
 <img src="images/peh_dots2.png" />
 
-Move the inverted dots: press **V** to select the pointer tool again, click on one of the dot nodes, and drag them down below the body of the glyph. Position them centrally, above the *ArabicBelow* mark.
+移动翻转的点：按**V**来再次选择指针工具，点击点的节点中的一个，然后将其拖动到字形主体的下面。将他们放在*ArabicBelow*标记上的中间位置。
 
 <img src="images/peh_dots3.png" />
 
-Close the glyph design panel. There should now be a new glyph for *peh* in the font chart. Save the adapted font (**File → Save**).
+关闭字形设计面板。现在字体表格中的*peh*应该有一个新的字形。保存修改的字体（**File -> Save**）。
 
 <img src="images/peh_new.png" />
 
-## Add the glyphs for the connected forms of *peh*
+## 为*peh*的连接形式添加字形
 
-However, this is only the isolated (standalone) form of the glyph. If you try to use your adapted font, you will find that initial, medial and final forms are not available. These have to be created separately. "The[se] forms are built as unencoded glyphs (glyphs whose encoding is -1 in FontForge conventions). Th[ey] have no predefined slots." (Khaled Hosny)
+但是这只是字形的孤立（独立）形式。如果你尝试使用你修改过的字体，你将会发现开头、中间和结尾形式并不可用。它们必须被分开制造。“这些形式作为未编码字符（FontForge约定编码是-1的字形）来构建。它们没有预定义的位置。”（Khaled Hosny）
 
-Select **Encoding → Add Encoding Slots** and enter the number of the glyphs you want &ndash; in this case **3**. FontForge will add the same number of slots at the very end of the font, and you will be moved there in the font chart. The last three cells (positions 65537, 65538, 65539) have a question mark as a reference glyph, and it is in those cells that you will add the unencoded glyphs by repeating the process above.
+选择**Encoding -> Add Encoding Slots**并输入你想要的字形的数量&ndash;在这种情况下是**3**。FontForge将会在字体的后部添加同样数量的位置，你将会被移动到字体表格中那个位置。最后三个单元格（位置65537，65538，65539）的引用字形处有一个问号，在这些单元格中你将会通过重复上面的流程添加未编码字形。
 
 <img src="images/peh_slots.png" />
 
-Note that if by mistake you start typing when the font chart still has focus, you get moved to the European section at the top. To get back to the bottom, select **View → Go to**, click the dropdown box and select **Not a Unicode Character**,  and then click **OK**.</p>
+需要注意的是如果你在字体表格仍然拥有叫点的时候错误地开始输入，你会移动到顶部的European区域。要回到底部，选择**View -> Go to**，点击下拉框并选择**Not a Unicode Character**，然后点击**OK**。
 
-#### Create the final form
+#### 创建最终形式
 
-Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards. At U+FE90 (position 65168) you will see a *behfinal* glyph &ndash; click on it and press **Ctrl+C** to copy it. Roll down to the third last cell in the chart (position 65537), click on it, and press **Ctrl-V** to paste in the *behfinal* glyph.
+向上滚动一点字体表格直到你向前到达位置65152（U+FE80）的一系列阿拉伯字形。在U+FE90（位置65168）你讲看到一个*behfinal*字形&ndash;点击它并按**Ctrl+C**来复制它。向下滚动到表格的倒数第三个单元格（位置65537），点击它，并按**Ctrl-V**来粘贴*behfinal*字形。
 
 <img src="images/beh_forms.png" />
 
-Right-click on the cell and select **Glyph Info**. The naming convention is to use the number of the isolated glyph + a suffix for the form, so change *Glyph Name* to **uni067E.fina**,  and click **OK**. The question mark in the reference cell will change to *peh*.
+右击单元格并选择**Glyph Info**。命名规范是使用孤立字形的数字 + 一个形式的后缀，因此将*Glyph Name*修改为**uni067E.fina**，然后点击**OK**。引用单元格的问号将会修改为*peh*。
 
 <img src="images/peh_final.png" />
 
-Get the three dots: double-click on *sheen* (U+FEB5) to load it into the glyph design panel, select the three dots and press **Ctrl+C**.
+得到三个点：双击*sheen*（U+FEB5）来将它加载到字形设计面板，选择三个点并按**Ctrl+C**。
 
-Double-click on the new *pehfinal* to load it into the glyph design panel, click and drag to highlight the nodes of the dot and press **Delete**.
+双击新的*pehfinal*来将它加载到字形设计面板，点击拖动来高亮点的节点并按**Delete**。
 
-Ctrl+V to insert the three dots from *sheen*, flip them, and move them into position below the glyph body. Press **Ctrl+S** to save the revised font chart.
+Ctrl+V来插入来自*sheen*的三个点，翻转它们，将它们移动到字形主体以下的位置。按来保存修改过的字体表格。
 
-#### Create the initial and medial forms
+#### 创建开头和中间的形式
 
-Copy the initial form U+FE91 (position 65169) to the penultimate cell (position 65538), delete the single dot and paste in the three dots.
+复制初始形式U+FE91（位置65169）到倒数第二个单元格（位置65538），删除单个点并粘贴三个点。
 
-Right-click the cell, select **Glyph Info**, change *Glyph Name* to **uni067E.init**, and click **OK**.
+右击单元格，选择**Glyph Info**，将*Glyph Name*修改为**uni067E.init**，并点击**OK**。
 
-Copy the medial form U+FE92 (position 65170) to the last cell (position 65539), delete the single dot and paste in the three dots.
+复制中间形式U+FE92（位置65170）到最后一个单元格（位置65539），删除单个点并粘贴三个点。
 
-Right-click the cell, select **Glyph Info**, change *Glyph Name* to **uni067E.medi**, and click **OK**.
+右击单元格选择**Glyph Info**，将*Glyph Name*修改为**uni067E.medi**，并点击**OK**。
 
 <img src="images/peh_forms.png" />
 
-Select **File → Save** to save the revised font chart.
+选择**File -> Save**来保存修改过的字体表格。
 
+## 添加查找
 
-## Add the lookups
+孤立的形式必须被映射（连接）到它的开头、中间和结尾形式。
 
-The isolated form has to be mapped (linked) to its initial, medial and final forms.
+选择**Element -> Font Info -> Lookups**。
 
-Select **Element → Font Info → Lookups**.
+点击*'init' Initial Forms in Arabic lookup 2*旁边的**+**。这将会打开同名的子菜单。点击这个子菜单。
 
-Click on the **+** beside the entry *'init' Initial Forms in Arabic lookup 2*. This will open a submenu of the same name. Click on this submenu.
-
-The *Edit Data* button on the right will now become available &ndash; click it.
+右边的*Edit Data*按钮现在将会变成可用&ndash;点击它。
 
 <img src="images/peh_lookups1.png" />
 
-In the *Lookup Subtable* panel that pops up, ensure that the *Unicode* button is checked. Roll the list of characters down until you come to the end.
+在弹出的*Lookup Subtable*面板中，确保*Unicode*按钮勾选。将字符列表向下滚动知道最后。
 
-In the box beside *Default Using Suffix*, enter the relevant suffix (in this case, **init**), and then click **Default Using Suffix**.
+在*Default Using Suffix*旁边的输入框里，输入相关的后缀（在这种情况下是**init**）, 然后点击**Default Using Suffix**。
 
-A new mapping will be added to the list of characters, from uni067E (the isolated form of *peh*) to uni067E.init (the initial form).
-Click **OK**.
+一个新的映射将会被添加到字符列表，从uni067E（*peh*的孤立形式）到uni067E.init（初始形式）。点击**OK**。
 
 <img src="images/peh_lookups2.png" />
 
-Do the same for the submenus under the entries *'medi' Medial Forms in Arabic lookup 2* and *'fina' Terminal Forms in Arabic lookup 2*, choosing *medi* and *fina* as the relevant suffix.
+对*'medi' Medial Forms in Arabic lookup 2*和*'fina' Terminal Forms in Arabic lookup 2*下的子菜单做同样的操作，选择*medi*和*fina*作为相关的后缀。
 
-Click **OK** again to close the panel, and save the font chart (**Ctrl+S**).
+再次点击**OK**来关闭面板，并保存字体表格（**Ctrl+S**）。
 
-Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block &ndash; glyphs in Unicode 07 (*Arabic Supplement*), e.g. *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
+需要注意的是*Default Using Suffix*看起来只能工作在Unicode 06（*Arabic*）块&ndash;在Unicode 07（*Arabic Supplement*），比如带两个点的*ain*，可能必须通过点击带行标记的*New*并输入名称来手动添加。
 
-### Generate the adapted font
+### 生成修改的字体
 
-Select **File → Generate Fonts**.
+选择**File -> Generate Fonts**。
 
-In the dropdown showing *PS Type 1 (Binary)*, select **TrueType**, and check that the filename reads *GraphNew.ttf*.
+在*PS Type 1 (Binary)*的下拉框中选择**TrueType**，并检查文件名是*GraphNew.ttf*。
 
-Navigate to where you want to save the font, and then click **Generate**. Click **Yes** and **Generate** to the two information messages that come up.
+跳转到你想要保存字体的地方，然后点击**Generate**。在弹出的两个信息消息中点击**Yes**和**Generate**。
 
-You can then use your normal font installation procedure to install the adapted font. The new glyph *peh* can then be used alongside the existing glyphs in the same nonsense examples as at the beginning of this chapter:
+然后你可以使用一般字体安装步骤来安装修改的字体。然后新的字形*peh*可以与已有的字形在相同的本章开始提到的无意义的例子中一起使用：
 
 <img src="images/beh_dal_peh.png" />
 
-<p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes &ndash; otherwise it will use the previous version of the font, and not the one with the new changes.</p>
+<p class="note"><b>注意：</b>如果你在LibreOffice中使用一个字体并修改了这个字体，那么你需要重启LibreOffice来看到任何改变&ndash;否则它将使用之前的字体而不是改变了的。</p>
 
-Thanks to [Khaled Hosny] (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
+感谢[Khaled Hosny](http://khaledhosny.org)对使用FontForge编辑阿拉伯字形的建议。
