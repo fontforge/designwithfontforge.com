@@ -3,25 +3,25 @@ published: true
 layout: bookpage
 weight: 93
 category: Appendices
-title: ÊõÓï±í
+title: æœ¯è¯­è¡¨
 ---
 
 ## A
 
 ### Abjad
 
-Abjad£¨¸¨ÒôÒôËØÎÄ×Ö£©ÊÇÒ»¸öÉÁ×å£¨Semitic£©ÓïÑÔÊ¹ÓÃµÄÊéĞ´ÏµÍ³ÀàĞÍ£¨Hebrew£¬ArabicµÈ£©µÄ¼¼ÊõÊõÓï£¬ÓĞ±íÊ¾ËùÓĞ¸¨ÒôµÄ×ÖĞÎµ«ÊÇ¶ÁÕß±ØĞë×¼±¸ºÃ²Â²âÁ½¸ö¸¨ÒôÖ®¼äÌí¼ÓÊ²Ã´ÔªÒô¡£
+Abjadï¼ˆè¾…éŸ³éŸ³ç´ æ–‡å­—ï¼‰æ˜¯ä¸€ä¸ªé—ªæ—ï¼ˆSemiticï¼‰è¯­è¨€ä½¿ç”¨çš„ä¹¦å†™ç³»ç»Ÿç±»å‹ï¼ˆHebrewï¼ŒArabicç­‰ï¼‰çš„æŠ€æœ¯æœ¯è¯­ï¼Œæœ‰è¡¨ç¤ºæ‰€æœ‰è¾…éŸ³çš„å­—å½¢ä½†æ˜¯è¯»è€…å¿…é¡»å‡†å¤‡å¥½çŒœæµ‹ä¸¤ä¸ªè¾…éŸ³ä¹‹é—´æ·»åŠ ä»€ä¹ˆå…ƒéŸ³ã€‚
 
-HebrewÓëArabicÓĞ¿ÉÑ¡µÄÔªÒô±ê¼Ç£¬±»³Æ×÷¡°²»´¿µÄ¡±¸¨ÒôÒòËØÎÄ×Ö¡£
+Hebrewä¸Arabicæœ‰å¯é€‰çš„å…ƒéŸ³æ ‡è®°ï¼Œè¢«ç§°ä½œâ€œä¸çº¯çš„â€è¾…éŸ³å› ç´ æ–‡å­—ã€‚
 
 
-ÁíÇë²ÎÔÄ£º×ÖÄ¸±í£¬ÔªÒô¸½±êÎÄ×Ö£¬Òô½Ú±íºÍÏà¹ØµÄÎ¬»ù°Ù¿ÆÎÄÕÂ£¨[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)£©¡£
+å¦è¯·å‚é˜…ï¼šå­—æ¯è¡¨ï¼Œå…ƒéŸ³é™„æ ‡æ–‡å­—ï¼ŒéŸ³èŠ‚è¡¨å’Œç›¸å…³çš„ç»´åŸºç™¾ç§‘æ–‡ç« ï¼ˆ[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)ï¼‰ã€‚
 
 ### Abugida
 
-Abugida£¨ÔªÒô¸½±êÎÄ×Ö£©ÊÇ×ÖÄ¸±íºÍÒô½Ú±íÖ®¼äµÄµØ·½¡£Ó¡¶ÈÓïÊéĞ´ÏµÍ³¿ÉÄÜÊÇ×îÖøÃûµÄÔªÒô¸½±êÎÄ×Ö¡£
+Abugidaï¼ˆå…ƒéŸ³é™„æ ‡æ–‡å­—ï¼‰æ˜¯å­—æ¯è¡¨å’ŒéŸ³èŠ‚è¡¨ä¹‹é—´çš„åœ°æ–¹ã€‚å°åº¦è¯­ä¹¦å†™ç³»ç»Ÿå¯èƒ½æ˜¯æœ€è‘—åçš„å…ƒéŸ³é™„æ ‡æ–‡å­—ã€‚
 
-ÔÚ´ó¶àÊıÔªÒô¸½±êÎÄ×ÖÖĞÓĞ¶ÀÁ¢µÄ¸¨Òô×ÖĞÎ£¬Ã¿¸ö¸¨Òô¶¼Òşº¬µØºóÃæ¸ú×ÅÒ»¸öÄ¬ÈÏµÄÔªÒô·¢Òô¡£ËùÓĞµÄÔªÒô³ıÁËÄ¬ÈÏµÄ¶¼½«±»±ê¼Ç±äÒô·ûºÅ»òÒ»Ğ©ÆäËû»ù±¾¸¨ÒôµÄĞŞ¸Ä¡£
+åœ¨å¤§å¤šæ•°å…ƒéŸ³é™„æ ‡æ–‡å­—ä¸­æœ‰ç‹¬ç«‹çš„è¾…éŸ³å­—å½¢ï¼Œæ¯ä¸ªè¾…éŸ³éƒ½éšå«åœ°åé¢è·Ÿç€ä¸€ä¸ªé»˜è®¤çš„å…ƒéŸ³å‘éŸ³ã€‚æ‰€æœ‰çš„å…ƒéŸ³é™¤äº†é»˜è®¤çš„éƒ½å°†è¢«æ ‡è®°å˜éŸ³ç¬¦å·æˆ–ä¸€äº›å…¶ä»–åŸºæœ¬è¾…éŸ³çš„ä¿®æ”¹ã€‚
 
 An abugida differs from a syllabary in that there is a common theme to the images representing a syllable beginning with a given consonant (that is, the glyph for the consonant), while in a syllabary each syllable is distinct even if two start with a common consonant.
 
@@ -260,7 +260,7 @@ A collection of related fonts. Often including plain, italic and bold styles.
 
 A library for rasterizing fonts. Used extensively in FontForge to understand the behavior of TrueType fonts and to do better rasterization than FontForge could accomplish unaided.
 
-### FuÃ¾ark (Futhark)
+### Fué•ark (Futhark)
 
 The old germanic runic script.
 
@@ -635,7 +635,7 @@ A typesetting package.
 
 ### Thorn
 
-The germanic letter "Ã¾" used for the unvoiced (English) "th" sound (as in the word "thorn"), I believe this is approximately the same sound value as Greek Theta. Currently a corrupt version of this glyph survives as "ye" for "the". See also Eth.
+The germanic letter "é•" used for the unvoiced (English) "th" sound (as in the word "thorn"), I believe this is approximately the same sound value as Greek Theta. Currently a corrupt version of this glyph survives as "ye" for "the". See also Eth.
 
 ### True Type
 
