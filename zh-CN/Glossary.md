@@ -8,20 +8,20 @@ title: 术语表
 
 ## A
 
-### 辅音音素文字
+### Abjad
 
-辅音音素文字是一个技术术语，用
-Abjad is the technical term for the type of writing system used by Semitic languages (Hebrew, Arabic, etc.), where there are glyphs for all the consonants but the reader must be prepared to guess what vowel to add between two consonants.
+Abjad（辅音音素文字）是一个闪族（Semitic）语言使用的书写系统类型（Hebrew，Arabic等）的技术术语，有表示所有辅音的字形但是读者必须准备好猜测两个辅音之间添加什么元音。
 
-Both Hebrew and Arabic have optional vowel marks and are called "impure" abjads. Ancient Phoenician had nothing but consonants and is a "pure" abjad.
+Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素文字。
 
-See Also: alphabet, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Abjad">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Abjad).
+
+另请参阅：字母表，元音附标文字，音节表和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
 
 ### Abugida
 
-An abugida is somewhere in between an alphabet and a syllabary. The Indic writing systems are probably the best known abugidas.
+Abugida（元音附标文字）是字母表和音节表之间的地方。印度语书写系统可能是最著名的元音附标文字。
 
-In most abugidas there are independent glyphs for the consonants, and each consonant is implicitly followed by a default vowel sound. All vowels other than the default will be marked by either diacritics or some other modification to the base consonant.
+在大多数元音附标文字中有独立的辅音字形，每个辅音都隐含地后面跟着一个默认的元音发音。所有的元音除了默认的都将被标记变音符号或一些其他基本辅音的修改。
 
 An abugida differs from a syllabary in that there is a common theme to the images representing a syllable beginning with a given consonant (that is, the glyph for the consonant), while in a syllabary each syllable is distinct even if two start with a common consonant.
 
