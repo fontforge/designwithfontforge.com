@@ -6,7 +6,7 @@ category: Before You Begin
 title: Planning Your Project
 ---
 
-Now that you have a sense of how a font design can vary, you may want decide whether your project
+Now that you have a sense of how a font design can vary, you may want to decide whether your project
 will have only one font, if it will be a collection of several inter-related fonts, if it will be a
 (now traditional) three or four-styles type family, or if it will be something even larger.
 
@@ -33,10 +33,10 @@ A font is still a font even if it has only one glyph in it. But a font can also 
 or even thousands of glyphs. If your project is self-initiated, then this choice is ultimately
 arbitrary. You may decide you only want capitals, or that you want to include the glyphs found in
 the other fonts you use. If you are doing work for a client, you may want to clarify which language
-or languages the font is is meant to support. Your goal could also be to extend an existing font,
+or languages the font is meant to support. Your goal could also be to extend an existing font,
 adding a few glyphs to make it work in one or more additional languages.
 
-It’s certainly a good idea to make this choice deliberately, and to error on the side of including
+It’s certainly a good idea to make this choice deliberately, and to err on the side of including
 less rather than more. Often as a typeface is being made, it can be tempting to include more and
 more glyphs &ndash; but it is frequently more valuable to continue to improve the core set of glyphs
 than adding new ones.
