@@ -139,4 +139,4 @@ printing various samples of the font.
 It can save you design time to have a well defined idea of the final use you intend. However, this
 is not always possible and your ideas may evolve. The key thing is to think about and define the use
 cases as completely as you can, then to ensure that your tests keep pace with the questions you are
-asking yourself while designed the font.
+asking yourself while designing the font.
