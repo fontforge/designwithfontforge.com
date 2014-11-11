@@ -10,110 +10,111 @@ title: 术语表
 
 ### Abjad
 
-Abjad（辅音音素文字）是一个闪族（Semitic）语言使用的书写系统类型（Hebrew，Arabic等）的技术术语，有表示所有辅音的字形但是读者必须准备好猜测两个辅音之间添加什么元音。
+辅音音素文字（Abjad）是一个闪族（Semitic）语言使用的书写系统类型（Hebrew，Arabic等）的技术术语，有表示所有辅音的字形但是读者必须准备好猜测两个辅音之间添加什么元音。
 
 Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素文字。
 
 
-另请参阅：字母表，元音附标文字，音节表和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
+另请参阅：字母表，元音附标文字，音节字母和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
 
 ### Abugida
 
-Abugida（元音附标文字）是字母表和音节表之间的地方。印度语书写系统可能是最著名的元音附标文字。
+元音附标文字（Abugida）是字母表和音节字母之间的地方。印度语书写系统可能是最著名的元音附标文字。
 
 在大多数元音附标文字中有独立的辅音字形，每个辅音都隐含地后面跟着一个默认的元音发音。所有的元音除了默认的都将被标记变音符号或一些其他基本辅音的修改。
 
-An abugida differs from a syllabary in that there is a common theme to the images representing a syllable beginning with a given consonant (that is, the glyph for the consonant), while in a syllabary each syllable is distinct even if two start with a common consonant.
+一个元音附标文字与音节字母区别在于代表以给定的辅音为开始的音节的图片（也就是辅音的字形）有一个共同主题，而音节字母中即使两个以共同辅音为开始的音节字母其音节也不同。
 
-An abugida differs from an abjad in that vowels (other than the default) must be marked in the abugida.
+一个元音附标文字与辅音音素文字不同之处在于元音（除了默认的）必须标记在在元音附标文字上。
 
-See Also: alphabet, abjad, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Abugida">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Abugida).
+另请参阅：字母表, 辅音音素文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
 
-### Accent
+### 重音
 
-See Diacritics
+参见变音符号
 
-### Advance Width
+### 先行宽度
 
-The distance between the start of this glyph and the start of the next glyph. Sometimes called the glyph's width. See also Vertical Advance Width.
+当前字形的开始与下个字形的开始之间的距离。有时候被称作是字形的宽度。另请参阅竖直先行宽度。
 
-### Alphabet
+### 字母表
 
-A writing system where there are glyphs for all phonemes -- consonants and vowels alike -- and (in theory anyway) all phonemes in a word will be marked by an appropriate glyph.
+一个拥有所有因素的字形书写系统&ndash;类似于辅音和元音&ndash;并且（无论如何在理论上）一个词中所有的音素会被标记上一个适当的字形。
 
-See Also: abjad, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Alphabet).
+另请参阅：辅音音素文字，元音附标文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Alphabet](http://en.wikipedia.org/wiki/Alphabet)）
 
 ### Apple Advanced Typography
 
-Apple's extension to basic TrueType fonts. Includes contextual substitutions, ligatures, kerning, etc. Also includes distortable fonts.
+Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字距调整等。也包括变形的字体。
 
 ### Arm
 
-The piece of the letter r that hangs off to the right.
+字母悬挂离开右边的部分。
 
 ### Ascender
 
-A stem on a lower case letter which extends above the x-height. "l" has an ascender.<br>See also X-height, Cap-height, Descender, Overshoot, Baseline
+顶部（Ascender）是小写字母超出x高度的茎。“l”有一个顶部。
 
-### Anchor Class
+另请参阅x高度，大写高度，底部，上突，基线。
 
-Used to specify mark-to-base and cursive GPOS subtables.
+### 锚类
+
+用来指定标记到基本字形和手写体GPOS子表。
 
 ### Ascent 
 
-In traditional typography the ascent of a font was the distance from the top of a block of type to the baseline.
+在传统的排印中一个字体的顶部是块的顶到基线的距离。
 
-Its precise meaning in modern typography seems to vary with different definers.
+在现代排印中得确切意义似乎在不同的定义者中会变化。
 
 ### ATSUI
 
-Apple's advanced typographical system. Also called Apple Advanced Typography.
+苹果的先进的排印系统。也称为Apple Advanced Typography。
 
 ## B
 ### Baseline
 
-The baseline is the horizontal line on which the (latin, greek, cyrillic) letters sit. The baseline will probably be in a different place for different scripts. In Indic scripts most letters descend below the baseline. In CJK scripts there is also a vertical baseline usually in the middle of the glyph. The BASE and bsln tables allow you to specify how the baselines of different scripts should be aligned with respect to each other.
+基线（Baseline）是（latin, greek, cyrillic）字母放置的水平线。基线在不同的脚本中可能有不同的位置。在印度语脚本中多数字母下降超过基线。在CJK脚本中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同脚本的基线相对于其他应该如何对齐。
 
-See also X-height, Cap-height, Ascender, Descender, Overshoot
+另请参阅x高度，大写高度，顶部，底部，上突。
 
-### B&eacute;zier curve or B&eacute;zier splines
+### B&eacute;zier曲线或者B&eacute;zier样条曲线
 
-B&eacute;zier curves are described in detail in the B&eacute;zier section of the main manual.
+B&eacute;zier曲线在手册主要部分的B&eacute;zier一章。
 
 ### Bidi
 
-Bi-Directional text. That is a section of text which contains both left-to-right and right-to-left scripts. English text quoting Arabic, for example. Things get even more complex with nested quotations. The Unicode standard contains an algorithm for laying out Bidi text. See also: Boustrophedon.
+双向字符集文本。这是包含从左到右和从右到左脚本的文本区域。例如英文文本引用阿拉伯语。嵌套引用可能让事情更加复杂。Unicode标准包含了一个放置Bidi文本的算法。另请参阅：Boustrophedon。
 
 ### Black letter
 
-Any of various type families based on medieval handwriting.
+黑体（Black letter）是基于中世纪手写的任何类型字体家族。
 
-See also gothic.
+另请参阅哥特体（gothic）。
 
 ### BMP (Basic Multilingual Plane)
 
-The first 65536 code points of Unicode. These contain most of the ordinary characters in the modern world. See Also
+Unicode的前65536码点。它们包含了现代世界中大多数的普通字符。另请参阅
 
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
 * SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF)
 
-
-
 ### Bold
 
-A common font style. The stems of the glyphs are wider than in the normal font, giving the letters a darker impression. Bold is one of the few LGC styles that translate readily to other scripts.
+粗体（Bold）是一个常见的字体样式。字形的茎比普通字体更宽，给字体以较暗的印象。粗体是几个容易地转换成其他脚本的LGC样式中的一种。
 
 ### Bowl
 
-The round part of the letter.
+弧（Bowl）是字母的圆的部分。
 
 ### Bopomofo
 
-A (modern~1911) Chinese (Mandarin) alphabet used to provide phonetic transliteration of Han ideographs in dictionaries.
+汉语拼音字母（Bopomofo）是一个（现代~1911）汉语（普通话）字母表，用来在字典中表示汉字的拼音。
 
 ### Boustrophedon
 
+牛耕式转行书写法指的是“像牛耕一样”书写，书写方向从左到右和从右到左交替。
 Writing "as the ox plows", that is alternating between left to right and right to left writing directions. Early alphabets (Old Canaanite, and the very early greek writings (and, surprisingly, fu&thorn;ark)) used this. Often the right to left glyphs would be mirrors of the left to right ones. As far as I know, no modern writing system uses this method (nor does OpenType have any support for it). See Also Bidi.
 
 ## C

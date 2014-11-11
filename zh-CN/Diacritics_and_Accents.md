@@ -83,7 +83,7 @@ FontForge可以用2种主要的方式自动地创造带重音的字符：
 
 锚点允许你精确地控制变音标记在有重音的字符上相对于每个基本字形的位置。因此在字符“a ogonek”中，“a”字形时基本字形并会放置在正常位置，“ogonek”字形是“标记字形”并会放置在某个位置使得“标记字形”的锚点与基本字形的锚点一致。
 
-在下面的例子中，创造一个“a ogonek”字符，创建了一个称作“底部”的锚点类。在小写的“a”字形中，“底部”锚点放置在“a”的茎的底部。这是“基本字形”的锚点的形式。
+在下面的例子中，创造一个“a ogonek”字符，创建了一个称作“底部”的锚类。在小写的“a”字形中，“底部”锚点放置在“a”的茎的底部。这是“基本字形”的锚点的形式。
 
 <img src="images/dia_a_anchor.png"/>
 
@@ -103,11 +103,11 @@ FontForge使用被称为“mark-to-base”的查找功能来创建和放置锚�
 
 <img src="images/dia_new_mark_to_base_1.png"/>
 
-选中新的查找，点击“Add Subtable”。在结果窗口（如下）你可以创建你的锚点类。
+选中新的查找，点击“Add Subtable”。在结果窗口（如下）你可以创建你的锚类。
 
 <img src="images/dia_anchor_new_subtable.png" />
 
-在这个例子中（如下），创建了两个锚点类“top”和“bottom”。“top”锚点类将会用来放置字形上面的变音标记，“bottom”类将会用来放置字形下面的标记。
+在这个例子中（如下），创建了两个锚类“top”和“bottom”。“top”锚类将会用来放置字形上面的变音标记，“bottom”类将会用来放置字形下面的标记。
 
 In this example (below), two anchor classes have been created, 'top' and 'bottom'. The 'top' anchor class will be used to position diacritic marks that are placed above glyphs, and the 'bottom' anchor will be used for positioning marks below glyphs.
 
@@ -115,11 +115,11 @@ In this example (below), two anchor classes have been created, 'top' and 'bottom
 
 要在一个字形上放置锚点，只需要在字形编辑窗口鼠标右击，在右键菜单中选择“Add Anchor”功能。出现的对话框让你可以设置锚点是基本锚点还是标记锚点。锚点的位置也可以通过这个对话框来调整。锚点也可以通过鼠标拖拽或方向键来移动到你想要的位置。右击锚点选择右键菜单中的“get info”也可以修改锚点。
 
-### 锚点类的控制
+### 锚类的控制
 
-FontForge也包含了一个有用的图形界面来控制锚点的所有类的位置，使用户可以很好地调整位置，例如一次性调整位置字体中所有的尖重音（acute accent），或者调整一个类别中包含的所有锚点，例如引用小写字母“e”的字符。下面的例子中我们可以看到如何使用这个图形界面来良好地调整一个字体中所有尖重音的位置，调整所有引用小写字母“e”字形的字符的锚点类别。
+FontForge也包含了一个有用的图形界面来控制锚点的所有类的位置，使用户可以很好地调整位置，例如一次性调整位置字体中所有的尖重音（acute accent），或者调整一个类别中包含的所有锚点，例如引用小写字母“e”的字符。下面的例子中我们可以看到如何使用这个图形界面来良好地调整一个字体中所有尖重音的位置，调整所有引用小写字母“e”字形的字符的锚类别。
 
-一旦你在你的mark-to-base位置查找中创建了锚点类别，并为一些字形添加了锚点，你可以通过“Element>Font Info>Lookups>GPOS”来控制这些类别，然后编辑包含锚点类别的子表。你将会看到下面的窗口：
+一旦你在你的mark-to-base位置查找中创建了锚类别，并为一些字形添加了锚点，你可以通过“Element>Font Info>Lookups>GPOS”来控制这些类别，然后编辑包含锚类别的子表。你将会看到下面的窗口：
 
 <img src="images/dia_anchor_control_1.png" />
 
