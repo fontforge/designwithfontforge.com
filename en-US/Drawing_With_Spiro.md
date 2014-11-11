@@ -59,7 +59,7 @@ using the G4 point tool.
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
 
-Now you almost have an ‘S’! Begin nudging the points around to get your S look the way you want.
+Now you almost have an ‘S’! Begin nudging the points around to get your S to look the way you want.
 
 <div class="warn"><p>Oops, what happened?</p>
 
