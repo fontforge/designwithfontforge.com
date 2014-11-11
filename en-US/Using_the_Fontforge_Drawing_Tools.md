@@ -122,7 +122,7 @@ right:</p>
 </div>
 
 <p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are
-inside the Glyph Window. It might that there is an open dialog box hidden behind it &ndash; so just
+inside the Glyph Window. It might be that there is an open dialog box hidden behind it &ndash; so just
 move it and process the dialog box.</p>
 
 A *Line* consists of 2 points.
@@ -137,7 +137,7 @@ of the spline at those end points.
 ### Copy, paste, cut and delete points, splines and lines
 
 As with most drawing softwares, FontForge allows you to Copy, Cut, Paste or Delete any point, line
-or spline. These commands are available in the Edit menu, or using your OS’ typical keystrokes (also
+or spline. These commands are available in the Edit menu, or using your OS’s typical keystrokes (also
 shown alongside each command in the menu).
 
 ## Familiarizing yourself with the drawing tools
