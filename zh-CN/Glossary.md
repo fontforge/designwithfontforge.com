@@ -114,21 +114,20 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 ### Boustrophedon
 
-牛耕式转行书写法指的是“像牛耕一样”书写，书写方向从左到右和从右到左交替。
-Writing "as the ox plows", that is alternating between left to right and right to left writing directions. Early alphabets (Old Canaanite, and the very early greek writings (and, surprisingly, fu&thorn;ark)) used this. Often the right to left glyphs would be mirrors of the left to right ones. As far as I know, no modern writing system uses this method (nor does OpenType have any support for it). See Also Bidi.
+牛耕式转行书写法（Boustrophedon）指的是“像牛耕一样”书写，书写方向从左到右和从右到左交替。早期字母表（老迦南语和非常早的希腊语（和出人意料的fuþark））使用它。从右到左的字形常常是从左到右的字形的镜像。据我所知，没有现代书写系统使用这种方法（OpenType也对它没有任何支持）。参见Bidi。
 
 ## C
 ### Cap-height
 
-The height of a capital letter above the baseline (a letter with a flat top like "I" as opposed to one with a curved one like "O").
+大写高度（Cap-height）是一个大写字母在基线上的高度（一个顶部平的字母比如“I”与弯曲的字母比如“O”截然相反）。
 
-See also X-height, Ascender, Descender, Overshoot, Baseline
+另请参阅X高度，顶部，底部，上突，基线。
 
 ### CFF
 
-Compact Font Format most commonly used within OpenType postscript fonts, but is a valid font format even without a SFNT wrapper. This is the native font format for fonts with PostScript Type2 charstrings.
+紧凑字体格式（Compact Font Format）在OpenType postscript字体内使用最普遍，即使没有SFNT包装也是一个有效的字体格式。这是带有PostScript Type2 CharStrings的字体的原生字体格式。
 
-### Character
+### 字符
 
 A character is a Platonic ideal reified into at least one glyph. For example the letter "s" is a character which is reified into several different glyphs: "S", "s", "*s*", "&szlig;", long-s, etc. Note that these glyphs can look fairly different from each other, however although the glyph for an integral sign might be the same as the long-s glyph, these are in fact different characters.
 
