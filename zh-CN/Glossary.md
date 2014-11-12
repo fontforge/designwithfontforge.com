@@ -127,57 +127,60 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 紧凑字体格式（Compact Font Format）在OpenType postscript字体内使用最普遍，即使没有SFNT包装也是一个有效的字体格式。这是带有PostScript Type2 CharStrings的字体的原生字体格式。
 
-### 字符
+### Character
 
-A character is a Platonic ideal reified into at least one glyph. For example the letter "s" is a character which is reified into several different glyphs: "S", "s", "*s*", "&szlig;", long-s, etc. Note that these glyphs can look fairly different from each other, however although the glyph for an integral sign might be the same as the long-s glyph, these are in fact different characters.
+字符（Character）是柏拉图式的理想具体化到至少一个字形中。例如字母“s”是一个具体化到几种不同字形的字符，包括“S”，“s”，“*s*”，“&szlig;”，long-s等。需要注意的是这些字形可能看起来互相非常不同，但是尽管积分符号的字形可能与long-s字形相同，但它们是不同的字符。
 
 ### Character set
 
-A character set is an unordered set of characters.
+字符集（character set is）是字符的一个无序集合。
 
 ### CID
 
-Character Identifier, a number. In some CJK PostScript fonts the glyphs are not named but are referred to by a CID number.
+字符识别符（Character Identifier），一个数字。在一些CJK PostScript字体中，字形并没有命名但是通过字符识别符数字来引用。
 
 ### CID-keyed font
 
-A PostScript font in which the glyphs are indexed by CID and not by name.
+以CID为键的字体（CID-keyed font）中的字形通过CID而不是名称来索引。
 
 ### CJK
 
-Chinese, Japanese, Korean. These three languages require fonts with a huge number of glyphs. All three share a writing system based on Chinese ideographs (though they have undergone separate evolution in each country, indeed mainland Chinese fonts are different from those used in Taiwan and Hong Kong).
+中文，日文，韩文（Chinese, Japanese, Korean）。这三种语言的需要字体带有数量庞大字形。这三者使用了相同的基于汉字的书写系统（尽管它们在各自国家经历了分割演化，中国大陆的字体也确实与台湾和香港所使用的不同）。
 
-Japanese and Korean also have phonetic syllabaries. The Japanese have two syllabaries, Hiragana and katakana which have about 60 syllables. The Koreans have one syllabary, hangul with tens of thousands of syllables.
+日文和韩文也有语音音节表。日文有两个音节表，平假名和有约60个音节的片假名。韩文有一个音节表，有数万个音节的韩文（Hangul）。
 
 ### CJKV
 
-Chinese, Japanese, Korean, Vietnamese. These four languages require fonts with a huge number of glyphs.
+中文，日文，韩文，越南文（Chinese, Japanese, Korean, Vietnamese）。这四种语言需要字体有数量庞大的字形。
 
 ### Condensed
 
-A condensed font is one where the space between the stems of the glyphs, and the distance between glyphs themselves has been reduced.
+紧缩（Condensed）字体的字形的茎之间的间距和字形之间的间距被缩减。
 
 ### Conflicting hints
 
-If a glyph contains two hints where the start or end point of one is within the range of the other then these hints conflict. They may not be active simultaneously.
+如果一个字形包含两个提示，其中一个的开始或者结束点在另一个的范围内，那么这两个提示冲突。它们可能不会同时有效。
 
 ### Counter
 
+一个字形的对立面（Counter）是字形中完全或部分闭合的白色部分。o和n都有对立面。i和l没有。e有对立面。B有两个对立面。
 The counter of a glyph is the white part which is either fully or partially enclosed. The o and n both have counters. The i and l do not. The e and both have counters. The B has two counters.
 
 ## D
 ### Descender
 
-A stem on a lower case letter which extends below the baseline. "p" has a descender.<br>See also X-height, Cap-height, Ascender, Overshoot, Baseline
+底部（Descender）是扩展到基线以下的小写字母的茎。“p”有一个底部。
+另请参阅x高度，大写高度，顶部，上突，基线。
 
 ### Descent
 
-In traditional typography the descent of a font was the distance from the bottom of a block of type to the baseline.
+在传统排印中字体的下降是从字体块的底部到基线的距离。
 
-Its meaning in modern typography has become less precise.
+这意味着在现代排印中变得精确度更低。
 
 ### Device Table
 
+设备表（Device Table）是OpenType中的一个概念，允许您
 A concept in OpenType which allows you to enter spacing adjustments geared to rasterization at particular pixel sizes. If a kerning value that works most of the time leads to an ugly juxtaposition of glyphs on a 12 pixel high font, then you can add a special tweak to the spacing that only is applicable at 12 pixels (and another one at 14 and 18, or whatever is needed). Similar functionality is needed for anchored marks.
 
 ### Diacritics
