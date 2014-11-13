@@ -180,38 +180,38 @@ The counter of a glyph is the white part which is either fully or partially encl
 
 ### Device Table
 
-设备表（Device Table）是OpenType中的一个概念，允许您
-A concept in OpenType which allows you to enter spacing adjustments geared to rasterization at particular pixel sizes. If a kerning value that works most of the time leads to an ugly juxtaposition of glyphs on a 12 pixel high font, then you can add a special tweak to the spacing that only is applicable at 12 pixels (and another one at 14 and 18, or whatever is needed). Similar functionality is needed for anchored marks.
+设备表（Device Table）是OpenType中的一个概念，允许您输入间距的调整以准备好光栅化到特定的像素尺寸。如果一个在大多数时间都有效的字距值在一个12像素字体的字形中排列起来很丑，那么你可以添加一个特别的 到只应用在12像素的间距上（另一个是14，18，或者你需要的任何大小）。类似的功能锚标记也需要。
 
 ### Diacritics
 
-Many languages use letters which have marks above or below them or even crossing the letters. These marks are called diacritics. Sometimes they are also called "accents" although this is a less precise term. Examples of these letters include &Agrave; &agrave; &aring; &Aring; &Uuml; &uuml; &Oslash; &oslash; &Ccedil; &ccedil;.
+许多语言采用了顶部或底部有标记字母，有时标记甚至穿过字母。这些标记被称作变音符号（Diacritics）。有时它们也被称作“重音（accents）”，尽管这是个不太准确的术语。这些字母的例子包括&Agrave; &agrave; &aring; &Aring; &Uuml; &uuml; &Oslash; &oslash; &Ccedil; &ccedil;。
 
 ### Didot point
 
-The European point. 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.55pt/inch ). There is also a "metric" didot point: .4mm.
+迪多磅（Didot point）是欧洲的一种磅。每23.566毫米是62 2/3磅（2.66磅/毫米活着67.55磅每英寸）。也有“公制”的迪多磅：.4毫米。
 
-### Distortable font
+### 变形字体
 
-See Multi-Master
+参见多主子字体。
 
 ## E
 ### em
 
-A linear unit equal to the point size of the font. In a 10 point font, the em will be 10 points. An em-space is white-space that is as wide as the point size. An em-dash is a horizontal bar that is as wide as the point size.
+一个线性单位，等于字体的磅值。在一个10磅的字体中，em将会是10磅。em-space是与磅值一样宽的空白空间。em-dash是一个与磅值一样宽的水平的条形。
 
-An em-square is a square one em to each side. In traditional typography (when each letter was cast in metal) the glyph had to be drawn within the em-square.
+em-square是一个每个边都是1em的正方形。在传统排印中（此时每个字母被铸造在金属上）字形必须绘制在em-square中。
 
 ### em unit
 
-In a scalable font the "em" is subdivided into units. In a postscript font there are usually 1000 units to the em. In a TrueType font there might be 512, 1024 or 2048 units to the em. In an Ikarus font there are 15,000 units. FontForge uses these units as the basis of its coordinate system.
+在一个可伸缩的字体中，“em”细分到单位。在一个Postscript字体中通常em有1000个单位。在一个TrueType字体中em可能有512，1024或2048个单位。在一个Ikarus字体中有15000个单位。FontForge使用这些单位作为其坐标系统的基础。
 
 ### en
 
-One half of an "em"
+“em”的一半
 
 ### Encoding
 
+编码（Encoding）是
 An encoding is a mapping from a set of bytes onto a character set. It is what determines which byte sequence represents which character. The words "encoding" and "character set" are often used synonymously. The specification for ASCII specifies both a character set and an encoding. But CJK character sets often have multiple encodings for the character set (and multiple character sets for some encodings).
 
 In more complicated cases it is possible to have multiple glyphs associated with each character (as in arabic where most characters have at least 4 different glyphs) and the client program must pick the appropriate glyph for the character in the current context.
