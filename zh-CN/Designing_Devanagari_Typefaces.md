@@ -31,7 +31,7 @@ _感谢Adam Twardoch、Erin McLaughlin、Neelakash Kshetrimayum、Dan Reynolds�
 
 咨询（[天城体Unicode页面](http://www.unicode.org/charts/PDF/U0900.pdf)）和（[微软天城体OpenType字体开发页面](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)）来学习更多关于这些字形和印度语形状引擎如何工作的内容。
 
-写书法或者与此接近学习字帖来学习脚本如何工作是有帮助的，这样你会明白什么字母在结构上应该与什么其他字母相似。这些[Aksharaya的天城体书法字帖中的2页](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J)可以用作笔的角度和字母比例的参考。.
+写书法或者与此接近学习字帖来学习书写字母如何工作是有帮助的，这样你会明白什么字母在结构上应该与什么其他字母相似。这些[Aksharaya的天城体书法字帖中的2页](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J)可以用作笔的角度和字母比例的参考。.
 
 ## 首先做什么
 
@@ -188,13 +188,13 @@ Lohit2天城体可以通过使用其字形列表和OpenType布局码来作为新
 
 印度理工学院孟买分校（比得上美国的麻省理工学院媒体实验室）的Girish Davli教授发表了这个[天城体刨析文章（PDF）](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
 
-如果你对天城体脚本的不熟悉，那么知道传统书法笔锋力道是重要的，这与拉丁不同。这里有一个笔画角度和曲线如何传统地赋予粗细的快速文档。如果你遵循这些粗细原则来绘制你的曲线，而不是剪切粘贴拉丁字母的一部分，那么你的设计将会更加成功，并且看起来更少“拉丁化”。<br /><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
+如果你对天城体书写字母的不熟悉，那么知道传统书法笔锋力道是重要的，这与拉丁不同。这里有一个笔画角度和曲线如何传统地赋予粗细的快速文档。如果你遵循这些粗细原则来绘制你的曲线，而不是剪切粘贴拉丁字母的一部分，那么你的设计将会更加成功，并且看起来更少“拉丁化”。<br /><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 [天城体Unicode页面](http://www.unicode.org/charts/PDF/U0900.pdf) 展示了基本字母，但没有连字。
 
 ### 测试工具
 
-Adobe InDesign对非欧洲脚本的OpenType字体的支持只有在Creative Cloud中才可靠，甚至最新版本也没有改善。自由Harfbuzz与微软OpenType的实现是完成度最高的，因此你应该在Windows和Mac OS X下使用最新版本的Chrome、Firefox和微软Word来测试你的字体，以保证形状上的错误来自于字体而非底层引擎。
+Adobe InDesign对非欧洲书写字母的OpenType字体的支持只有在Creative Cloud中才可靠，甚至最新版本也没有改善。自由Harfbuzz与微软OpenType的实现是完成度最高的，因此你应该在Windows和Mac OS X下使用最新版本的Chrome、Firefox和微软Word来测试你的字体，以保证形状上的错误来自于字体而非底层引擎。
 
 [Pablo Impallari的天城体测试页面](http://www.impallari.com/testing/devatest.php) （以及[Github上的源码](https://github.com/impallari/font-testing-page/)）提供了一些已经制作好的测试布局，你可以拖动你的OTF或者TTF字体到页面上来加载它。
 

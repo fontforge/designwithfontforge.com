@@ -14,7 +14,7 @@ title: 添加字形到阿拉伯字体
 
 <img src="images/beh_dal.png" />
 
-本章介绍为一个阿拉伯字体添加一个字形。我们将使用的字体是[Graph](http://openfontlibrary.org/en/font/graph)，我们将添加的字形是*peh*（U+067E），它在阿拉伯字体中并不出现，但是在使用阿拉伯脚本的一些语言中指定*p*（阿拉伯脚本的字形全列表参见[Unicode图表](http://www.unicode.org/charts)）。
+本章介绍为一个阿拉伯字体添加一个字形。我们将使用的字体是[Graph](http://openfontlibrary.org/en/font/graph)，我们将添加的字形是*peh*（U+067E），它在阿拉伯字体中并不出现，但是在使用阿拉伯书写字母的一些语言中指定*p*（阿拉伯书写字母的字形全列表参见[Unicode图表](http://www.unicode.org/charts)）。
 
 <img src="images/peh.png" />
 

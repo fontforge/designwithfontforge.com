@@ -15,7 +15,7 @@ title: 术语表
 Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素文字。
 
 
-另请参阅：字母表，元音附标文字，音节字母和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
+参见：字母表，元音附标文字，音节字母和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
 
 ### Abugida
 
@@ -27,7 +27,7 @@ Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素�
 
 一个元音附标文字与辅音音素文字不同之处在于元音（除了默认的）必须标记在在元音附标文字上。
 
-另请参阅：字母表, 辅音音素文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
+参见：字母表, 辅音音素文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
 
 ### 重音
 
@@ -35,13 +35,13 @@ Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素�
 
 ### 先行宽度
 
-当前字形的开始与下个字形的开始之间的距离。有时候被称作是字形的宽度。另请参阅竖直先行宽度。
+当前字形的开始与下个字形的开始之间的距离。有时候被称作是字形的宽度。参见竖直先行宽度。
 
 ### 字母表
 
 一个拥有所有因素的字形书写系统&ndash;类似于辅音和元音&ndash;并且（无论如何在理论上）一个词中所有的音素会被标记上一个适当的字形。
 
-另请参阅：辅音音素文字，元音附标文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Alphabet](http://en.wikipedia.org/wiki/Alphabet)）
+参见：辅音音素文字，元音附标文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Alphabet](http://en.wikipedia.org/wiki/Alphabet)）
 
 ### Apple Advanced Typography
 
@@ -55,7 +55,7 @@ Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字�
 
 顶部（Ascender）是小写字母超出x高度的茎。“l”有一个顶部。
 
-另请参阅x高度，大写高度，底部，上突，基线。
+参见x高度，大写高度，底部，上突，基线。
 
 ### 锚类
 
@@ -74,9 +74,9 @@ Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字�
 ## B
 ### Baseline
 
-基线（Baseline）是（latin, greek, cyrillic）字母放置的水平线。基线在不同的脚本中可能有不同的位置。在印度语脚本中多数字母下降超过基线。在CJK脚本中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同脚本的基线相对于其他应该如何对齐。
+基线（Baseline）是（latin, greek, cyrillic）字母放置的水平线。基线在不同的书写字母中可能有不同的位置。在印度语书写字母中多数字母下降超过基线。在CJK书写字母中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同书写字母的基线相对于其他应该如何对齐。
 
-另请参阅x高度，大写高度，顶部，底部，上突。
+参见x高度，大写高度，顶部，底部，上突。
 
 ### B&eacute;zier曲线或者B&eacute;zier样条曲线
 
@@ -84,17 +84,17 @@ B&eacute;zier曲线在手册主要部分的B&eacute;zier一章。
 
 ### Bidi
 
-双向字符集文本。这是包含从左到右和从右到左脚本的文本区域。例如英文文本引用阿拉伯语。嵌套引用可能让事情更加复杂。Unicode标准包含了一个放置Bidi文本的算法。另请参阅：Boustrophedon。
+双向字符集文本。这是包含从左到右和从右到左书写字母的文本区域。例如英文文本引用阿拉伯语。嵌套引用可能让事情更加复杂。Unicode标准包含了一个放置Bidi文本的算法。参见：Boustrophedon。
 
 ### Black letter
 
 黑体（Black letter）是基于中世纪手写的任何类型字体家族。
 
-另请参阅哥特体（gothic）。
+参见哥特体（gothic）。
 
 ### BMP (Basic Multilingual Plane)
 
-Unicode的前65536码点。它们包含了现代世界中大多数的普通字符。另请参阅
+Unicode的前65536码点。它们包含了现代世界中大多数的普通字符。参见
 
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
@@ -102,7 +102,7 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 ### Bold
 
-粗体（Bold）是一个常见的字体样式。字形的茎比普通字体更宽，给字体以较暗的印象。粗体是几个容易地转换成其他脚本的LGC样式中的一种。
+粗体（Bold）是一个常见的字体样式。字形的茎比普通字体更宽，给字体以较暗的印象。粗体是几个容易地转换成其他书写字母的LGC样式中的一种。
 
 ### Bowl
 
@@ -121,7 +121,7 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 大写高度（Cap-height）是一个大写字母在基线上的高度（一个顶部平的字母比如“I”与弯曲的字母比如“O”截然相反）。
 
-另请参阅X高度，顶部，底部，上突，基线。
+参见X高度，顶部，底部，上突，基线。
 
 ### CFF
 
@@ -170,7 +170,7 @@ The counter of a glyph is the white part which is either fully or partially encl
 ### Descender
 
 底部（Descender）是扩展到基线以下的小写字母的茎。“p”有一个底部。
-另请参阅x高度，大写高度，顶部，上突，基线。
+参见x高度，大写高度，顶部，上突，基线。
 
 ### Descent
 
@@ -211,69 +211,70 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Encoding
 
-编码（Encoding）是
-An encoding is a mapping from a set of bytes onto a character set. It is what determines which byte sequence represents which character. The words "encoding" and "character set" are often used synonymously. The specification for ASCII specifies both a character set and an encoding. But CJK character sets often have multiple encodings for the character set (and multiple character sets for some encodings).
+编码（Encoding）是一个字节码集合到一个字符集之间的映射。它确定了什么字节串代表什么字符。名词“编码”和“字符集”经常作为同义词使用。ASCII规范同时指定了一个字符集和一个编码。但是CJK字符集经常会一个字符集有多个编码（并且一些编码有多个字符集）。
 
-In more complicated cases it is possible to have multiple glyphs associated with each character (as in arabic where most characters have at least 4 different glyphs) and the client program must pick the appropriate glyph for the character in the current context.
+在更复杂的情况下，有可能有多个字形关联到每个字符（在阿拉伯文中大多数字符有至少4个不同的字形）并且客户端程序必须选取适合当前上下文字符的字形。
 
 ### Eth -- Edh
 
-The old germanic letter "&eth;" for the voiced (English) "th" sound (the sound in "this" -- most English speakers aren't even aware that "th" in English has two sounds associated with it, but it does, see also Thorn)
+旧日尔曼语字母“&eth;”对应浊音的（英文的）“th”发音（“this”中的发音&ndash;大多数说英语的人甚至不知道英语中的“th”有两个发音关联到它，但它确实如此，参见Thorn）。
 
 ### Even-Odd Fill rule
 
-To determine if a pixel should be filled using this rule, draw a line from the pixel to infinity (in any direction) then count the number of times contours cross this line. If that number is odd then fill the point, if it is even then do not fill the point. This method is used for fonts by postscript rasterizers after level 2.0 of PostScript. See Also Non-Zero Winding Number Fill.
+为了使用奇偶填充规则（Even-Odd Fill rule）确定一个像素是否应该填充，从一个点到无限（在任何方向上）绘制一条线，然后数轮廓穿过这条线的次数。如果数字是奇数，那么填充这个点，如果是偶数，那么不填充这个点。这个方法被2.0级别以后的Postscript光栅化用在字体上。参见Non-Zero Winding Number Fill。
 
 ### Extended
 
-An extended font is one where the space between the stems of the glyphs, and the distance between glyphs themselves has been increased.
+一个扩展（Extended）字体是一种字形的茎之间的间距和字形之间的间距增加的字体。
 
 ### Extremum <em>(plural:</em> Extrema<em> )</em>
 
-An extremum is the point on a mathematical curve where the curve attains its maximum or minimum value. On a continuous curve this can happen at the endpoints (which is dull) or where dx/dt=0 or dy/dt=0.
+极值（Extremum）是数学上的曲线上的一点，曲线在这点达到其最大值或最小值。在一个连续曲线上，这个点会出现在端点（是钝的）或者dx/dt=0或dy/dt=0处。
 
-In font design, the extrema of a glyph are the top-most and bottom-most points of the outline, as well as its left-most and right-most points. Making sure that a glyph has on-curve points at all of its extrema is important, because it simplifies text rendering when the font is used.
+在字体设计中，字形的极值是轮廓的最高或最低点，也包括其最左点和最右点。确保一个字形所有极值处都有曲线上的点是重要的，因为在字体使用时它简化了文本渲染。
 
 ## F
 ### Features (OpenType)
 
-When creating fonts for complex scripts (and even for less complex scripts) various transformations (like ligatures) must be applied to the input glyphs before they are ready for display. These transformations are identified as font features and are tagged with (in OpenType) a 4 letter tag or (in Apple) a 2 number identifier. The meanings of these features are predefined by Microsoft and Apple. FontForge allows you to tag each lookup with one or several features when you create it (or later).
+当为复杂书写字母创建字体时（甚至为不复杂的书写字母）各种各样的转换必须在准备好显示之前应用到输入字形中。这些转换被认定为字体特性并（在OpenType中）被打上a 4字母标记或者（在苹果中）被打上a 2数字标识符。这些特性的意义被微软和苹果预定义了。FontForge允许你在创建时（或之后）为每个查找标记上一个或多个特性。
 
 ### Feature File
 
-This is a text syntax designed by Adobe to describe OpenType features. It can be used to move feature and lookup information from one font to another.
+这是Adobe设计的用来描述OpenType特性的文本语法。他可以用来将特性和查找信息从一个字体移动到另一个。
 
 ### Feature/Settings (Apple)
 
-These are roughly equivalent to OpenType's Features above, they are defined by Apple.
+它们粗略地等于上面的OpenType的特性，它们是由苹果定义的。
 
 ### Font
 
-A collection of glyphs, generally with at least one glyph associated with each character in the font's character set, often with an encoding.
+字形的一个集合，通常有至少一个字形关联到字体的字符集中的每个字符，通常还有带有编码。
 
-A font contains much of the information needed to turn a sequence of bytes into a set of pictures representing the characters specified by those bytes.
+一个字体包含将字节串转换成代表这些字节指定的字符的图片集所需的信息。
 
-In traditional typesetting a font was a collection of little blocks of metal each with a graven image of a letter on it. Traditionally there was a different font for each point-size.
+在传统的排字中，一个字体是小金属块的集合，每个上面都有雕刻字母的图像。传统上每个磅尺寸都有一个不同的字体。
 
 ### Font Family, or Family
 
-A collection of related fonts. Often including plain, italic and bold styles.
+字体家族（Font Family，或者Family）是相关字体的集合。经常包含普通体，斜体和粗体样式。
 
 ### FreeType
 
-A library for rasterizing fonts. Used extensively in FontForge to understand the behavior of TrueType fonts and to do better rasterization than FontForge could accomplish unaided.
+一个光栅化字体的库。在FontForge中广泛地用来理解TrueType字体的行为并能够比FontForge在不受帮助下完成的光栅化更好。
 
-### Fu镁ark (Futhark)
+### Fuþark (Futhark)
 
-The old germanic runic script.
+老日尔曼语的古代北欧书写字母。
 
 ## G
 ### Ghost Hint
 
-Sometimes it is important to indicate that a horizontal edge is indeed horizontal. But the edge has no corresponding edge with which to make a normal stem. In this case a special hint is used with a width of -20 (or -21). A ghost hint must lie entirely within a glyph. If it is at the top of a contour use a width of -20, if at the bottom use -21. Ghost hints should also lie within BlueZones.<br>(The spec also mentions vertical ghost hints, but as there are no vertical bluezones it is not clear how these should be used).
+有时指出水平边缘确实是水平的是重要的。但是边缘并没有制作普通的茎的相应的边缘。在这种情况下一个特殊的提示在-20（或-21）宽度下使用。一个幽灵提示（Ghost Hint）必须全部放置在一个字形总。如果它处在一个轮廓的顶部使用-20宽度，如果在底部则使用-21。幽灵提示也应该处在BlueZones中。
+（这一规格也提到竖直的幽灵提示，但是由于没有竖直BlueZones，所以并不清楚它们是不是应该被使用）。
 
 ### Glyph
 
+一个字形是一张图片，
 A glyph is an image, often associated with one or several characters. So the glyph used to draw "f" is associated with the character f, while the glyph for the "fi" ligature is associated with both f and i. In simple latin fonts the association is often one to one (there is exactly one glyph for each character), while in more complex fonts or scripts there may be several glyphs per character (In renaissance printing the letter "s" had two glyphs associated with it, one, the long-s, was used initially and medially, the other, the short-s, was used only at the end of words). And in the ligatures one glyph is associated with two or more characters.
 
 Fonts are collections of glyphs with some form of mapping from character to glyph.
