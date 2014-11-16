@@ -67,7 +67,9 @@ There are many resources available online for rapidly building your test text:
 - [LibreText] is a libre software solution.
 - [Adhesion Text], made by Miguel Sousa was the first resource of this kind.
 - [JAF Generator], by Just Another Type Foundry.
+- [Typable], by Ondrej Job
 
 [LibreText]: http://libretext.org
 [Adhesion Text]: http://www.adhesiontext.com/
 [JAF Generator]: http://justanotherfoundry.com/generator
+[Typable]: http://www.urtd.net/data/typable/
