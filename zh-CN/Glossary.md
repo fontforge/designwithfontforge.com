@@ -274,68 +274,67 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Glyph
 
-一个字形是一张图片，
-A glyph is an image, often associated with one or several characters. So the glyph used to draw "f" is associated with the character f, while the glyph for the "fi" ligature is associated with both f and i. In simple latin fonts the association is often one to one (there is exactly one glyph for each character), while in more complex fonts or scripts there may be several glyphs per character (In renaissance printing the letter "s" had two glyphs associated with it, one, the long-s, was used initially and medially, the other, the short-s, was used only at the end of words). And in the ligatures one glyph is associated with two or more characters.
+一个字形是一张图片，通常关联到一个或多个字符。所以用来绘制“f”的字形关联到字符f，而连字“fi”的字形同时关联到f和i。在简单的拉丁字体中，关联关系通常是一对一（也就是一个字形恰好地关联到一个字符），而在更复杂的字体或手写中可能两个字形关联到每个字符（在文艺复兴时期的印刷中字母“s”与两个字形关联，一个是long-s，用在开头和中间，另一个是short-s，用在词的结尾）。在手写中一个字形关联到两个或更多字符。
 
-Fonts are collections of glyphs with some form of mapping from character to glyph.
+字体是字形和一些从字符到字形的映射形式的集合。
 
-### Grid Fitting
+### 网格适应
 
-Before TrueType glyphs are rasterized they go through a process called grid fitting where a tiny program (associated with each glyph) is run which moves the points on the glyph's outlines around until they fit the pixel grid better.
+在TrueType字形栅格化之前，它们要经过一个被称为网格适应的过程，会运行一个 很小的程序（关联到每个字形），这个程序将会移动字形轮廓周围的点直到它们更好地适应像素网格。
 
 ### Gothic
 
-The German monks at the time of Gutenberg used a black-letter writing style, and he copied their handwriting in his typefaces for printing. Italian type designers (after printing spread south) sneered at the style, preferring the type designs left by the Romans. As a term of contempt they used the word gothic, the style of the Goths who helped destroy the roman empire.
+德国僧侣在古腾堡生活的时代使用的一个黑体字书写样式，他在他的印刷字体样式中复制了它们的书写。意大利的字体设计者（在印刷术传播到南方以后）嘲笑这个样式，它们更喜欢罗马人留下的字体设计。它们使用表示轻蔑的哥特（Gothic）一词，帮助破坏罗马王朝的哥特人的样式。
 
 ### Graphite tables
 
-Graphite is an extension to TrueType which embeds several tables into a font containing rules for contextual shaping, ligatures, reordering, split glyphs, bidirectionality, stacking diacritics, complex positioning, etc.
+Graphite是TrueType的一个扩展，将几个表嵌入到一个字体中，包括上下文形状、连字、重排序、分割字形、双向、变音符号堆叠、复杂位置等的规则。
 
-This sounds rather like OpenType -- except that OpenType depends on the text layout routines knowing a lot about the glyphs involved. This means that OpenType fonts cannot be designed for a new language or script without shipping a new version of the operating system. Whereas Graphite tables contain all that hidden information.
+这听起来更像OpenType&ndash;除了OpenType依赖于文本布局惯例来了解关于涉及字形的许多东西。这意味着OpenType字体在没有新版本操作系统推出的情况下不能设计用于一种新的语言或者手写。而Graphite表包含了所有这些隐藏的信息。
 
-Apple's Advanced Typography provides a better comparison, but Graphite tables are supposed to be easier to build.
+Apple's Advanced Typography提供了更好的对比，但是Graphite表被认为更容易构建。
 
-SIL International provides a free Graphite compiler .
+SIL International提供了一个自由的Graphite编译器。
 
 ### Grotesque
 
-See also sans-serif.
+参见sans-serif。
 
 ## H
 ### Han characters
 
-The ideographic characters used in China, Japan and Korea (and, I believe, in various other asian countries as well (Vietnam?)), all based on the writing style that evolved in China.
+在中国、日本、韩国使用的表意文字（并且我认为在许多其他亚洲国家也是这样（越南？）），都基于在中国形成的书写系统。
 
 ### Hangul
 
-The Korean syllabary. The only syllabary (that I'm aware of anyway) based on an alphabet -- the letters of the alphabet never appear alone, but only as groups of two or three making up a syllable.
+韩文音节表。基于一个字母表的唯一的音节表（无论如何我这么认为）&ndash;字母表中的字母从不单独出现，只有两个或三个作为一组才能组成一个音节。
 
 ### Hanja
 
-The Korean name for the Han characters
+汉字的韩文名称。
 
 ### Hints
 
-These are described in detail in the main manual. They help the rasterizer to draw a glyph well at small pointsizes.
+它们在手册主要部分详细描述了。它们帮助光栅化程序在小的磅值下绘制好字形。
 
 ### Hint Masks
 
-At any given point on a contour hints may not conflict. However different points in a glyph may need conflicting hints. So every now and then a contour will change which hints are active. Each list of active hints is called a hint mask.
+在轮廓上的任何给定点上提示（Hint）可能不会冲突。但是一个字形中不同点上可能有冲突的提示。因此偶尔一个轮廓可能改变那个提示是激活的。激活的提示的每个列表被称作提示遮罩（Hint Mask）。
 
 ### Hiragana
 
-One of the two Japanese syllabaries. Both Hiragana and Katakana have the same sounds.
+两个日语音节表中的一个。平假名（Hiragana）和片假名（Katakana）有相同的发音。
 
 ## I
 ### Ideographic character
 
-A single character which represents a concept without spelling it out. Generally used to mean Han (Chinese) characters.
+不必拼写出来就可以代表一个概念的单个字符。通常用来表示汉字。
 
 ### Italic
 
-A slanted style of a font, often used for emphasis.
+斜体（Italic，也称意大利体）字体的一个倾斜的样式，用来表示强调。
 
-Italic differs from Oblique in that the transformation from the plain to the slanted form involves more than just skewing the letterforms. Generally the lower-case a changes to *a*, the serifs on lower-case letters like i (*i*) change, and the font generally gains a more flowing feeling.
+斜体与倾斜（Oblique）不同之处在于从水平到倾斜形式所涉及的不仅仅是偏斜字体。通常小写的a修改为*a*，小写字母的衬线比如i（*i*）改变，并且字体通常获得更加流动的感觉。
 
 ## J
 ### Jamo

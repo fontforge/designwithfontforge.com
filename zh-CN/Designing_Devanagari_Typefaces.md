@@ -23,7 +23,7 @@ _感谢Adam Twardoch、Erin McLaughlin、Neelakash Kshetrimayum、Dan Reynolds�
 * 拉丁数字（新的或者或者将已有的调整到与天城文字相适应）
 * nukta组合
 * 半形式
-* 连接（独特的捆扎字形）
+* 连接（独特的连字字形）
 * 不同长度的“I”元音maatras
 * 天城体标点符号
 * 拉丁标点符号（新的或者调整已有的）
