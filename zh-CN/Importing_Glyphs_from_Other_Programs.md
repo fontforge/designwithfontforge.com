@@ -25,7 +25,7 @@ title: 从其他程序导入字形
 * 为了在FontForge中设置基线到你希望的地方，在SVG中将y坐标作为你的基线。在FontForge的坐标系统中，这将是其顶部线的竖直点。
 To set the baseline where you want it in FontForge, take the y coordinate for your baseline in SVG. That will be the FontForge vertical point for the ascender line in their coordinate system. (1000 - y)作为底部。打开`Element -> Font Info`，在General选项卡下的“Ascent”和“Descent”输入框输入顶部值和底部值。两者都是正数。字模高度（Em Size）应该保留1000（因为这是SVG单位的高度）。
 
-* 当绘制字形时，我喜欢使用相对坐标。因此我以`<path d="M Xvalue,Yvalue`作为字形的开始。如果我可以自始至终从左边的点开始绘制字形，那么Xvalue将会是FontForge使用的默认的左边空白。你可以在字形导入后容易地调整它，并可能在测试字体后无论如何都需要调整。当我可以从基线开始绘制时，将基线值作为Yvalue很好。
+* 当绘制字形时，我喜欢使用相对坐标。因此我以`<path d="M Xvalue,Yvalue`作为字形的开始。如果我可以自始至终从左边的点开始绘制字形，那么Xvalue将会是FontForge使用的默认的左跨距。你可以在字形导入后容易地调整它，并可能在测试字体后无论如何都需要调整。当我可以从基线开始绘制时，将基线值作为Yvalue很好。
 
 * 总是使用a z来结束路径的d属性。导入的时候不会导入它，但是如果你忘记在路径最后的点后放置a z，那么在主窗口中字形不会显示正确除非你重启FontForge。
 

@@ -33,9 +33,9 @@ Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素�
 
 参见变音符号
 
-### 先行宽度
+### 步进宽度
 
-当前字形的开始与下个字形的开始之间的距离。有时候被称作是字形的宽度。参见竖直先行宽度。
+当前字形的开始与下个字形的开始之间的距离。有时候被称作是字形的宽度。参见竖直步进宽度。
 
 ### 字母表
 
@@ -192,7 +192,7 @@ The counter of a glyph is the white part which is either fully or partially encl
 
 ### 变形字体
 
-参见多主子字体。
+参见多主字体。
 
 ## E
 ### em
@@ -339,68 +339,68 @@ SIL International提供了一个自由的Graphite编译器。
 ## J
 ### Jamo
 
-The letters of the Korean alphabet. These are almost never seen alone, generally appearing in groups of three as part of a Hangul syllable. The Jamo are divided into three categories (with considerable overlap between the first and third), the choseong -- initial consonants, the jungseong -- medial vowels, and the jongseong -- final consonants. A syllable is composed by placing a choseong glyph in the upper left of an em-square, a jungseong in the upper right, and optionally a jongseong in the lower portion of the square.
+韩文字母表中的字母。它们几乎从不单独出现，通常作为Hangul音节的一部分以三个为一组出现。Jamo被分为三类（第一个和第三个有相当大的重叠），choseong&ndash;词首辅音，jungseong&ndash;中元音，jongseong&ndash;词尾辅音。一个音节通过将choseong放在em-square的左上，jungseong放在右上，可选地将jongseong放在下部来组成。
 
 ## K
 ### Kanji
 
-The Japanese name for the Han characters.
+汉字的日文名称。
 
 ### Katakana
 
-One of the two (modern) Japanese syllabaries. Both Hiragana and Katakana have the same sounds.
+两个（现代）日文音节表之一。平假名（Hiragana）和片假名（Katakana）有相同的发音。
 
 ### Kerning
 
-When the default spacing between two glyphs is inappropriate the font may include extra information to indicate that when a given glyph (say "T") is followed by another glyph (say "o") then the advance width of the "T" should be adjusted by a certain amount to make for a more pleasing display.
+当两个字形之间的默认间距不适合，字体可能包含额外信息来指出当一个给定的字形（比如“T”）后面跟着另一个字形（比如“o”）那么“T”的步进宽度应该调整一定数量来获得更加讨人喜欢的显示。这个过程就是字距调整（Kerning）。
 
-In the days of metal type, metal actually had to be shaved off the slug of type to provide a snugger fit. In the image on the side, the "F" on the left has had some metal removed so that a lower case letter could snuggle closer to it.
+在使用金属字体的时候，实际上不得不切削字体金属块上的金属来提供更整洁的适应。
 
 ### Kern pair
 
-A pair of glyphs for which kerning information has been specified.
+字距调整信息所指定的一个字距调整对。
 
 ### Kerning by classes
 
-The glyphs of the font are divided into classes of glyphs and there is a large table which specifies kerning for every possible combination of classes. Generally this will be smaller than the equivalent set of kerning pairs because each class will usually contain several glyphs.
+字体中的字形被分开到一些字形类别。有一张很大的表来指定列别之间所有可能的联合的字距调整。通常由于每个类别经常包含多个字形，所以这将会比设置字距调整对要小。
 
 ### Knuth, Donald
 
-A mathematician who got so fed up with bad typesetting back in the 1970 &amp; 80s that he created his own font design system and typographical layout program called, respectively, MetaFont and TeX.
+他是一个数学家，对糟糕的排版感到如此厌倦以至于在十九世纪七八十年代创造了自己的字体设计系统排字布局程序，分别被称作MetaFont和TeX。
 
 ## L
 ### Left side bearing
 
-The horizontal distance from a glyph's origin to its leftmost extent. This may be negative or positive.
+从一个字形的原点到其最左扩展的水平距离。这可能是正数或负数。
 
 ### Lemur
 
-A monotypic genus of prosimian primates, now found only on Madagascar but formally (about 50 million years ago) members of this family were much more wide spread.
+狐猴（Lemur）是原猴亚目的猴灵长类动物的一个单型属，目前只在马达加斯加发现，但是该科的正式成员（大约五千万年前）曾经更加广泛地传播。
 
 ### Ligature
 
-A single glyph which is composed of two adjacent glyphs. A common example in the latin script is the "fi" ligature which has a nicer feel to it than the sequence.
+连字（Ligature）是由两个毗连的字形组成的单个字形。拉丁文手写中的一个常见的例子是“fi”连字比顺序排列感觉更好。
 
 ### Linespace
 
-The distance between successive lines of type.
+行距是字体的连续的行之间的距离。
 
 ### LGC
 
-Latin, Greek, Cyrillic. These three alphabets have evolved side by side over the last few thousand years. The letter forms are very similar (and some letters are shared). Many concepts such as "lower case", "italic" are applicable to these three alphabets and not to any others. (OK, Armenian also has lower case letters).
+拉丁语，希腊语和斯拉夫语。这三个字母表在过去的几千年里一起进化。字母形式非常累死（一些字母是共享的）。许多概念比如“小写”，“斜体”可以应用在这三个字母表上而不能应用在任何其他上面（好吧，亚美尼亚语也有小写字母）。
 
 ## M
 ### Manyogana
 
-An early Japanese script, ancestral to both hiragana and katakana. Manyogana used kanji for their phonetic sounds, and over the years these kanji were simplified into hiragana and katakana.
+一个早期的日语手写体，是平假名和片假名的祖先。Manyogana使用汉字作为它们的发音，许多年后这些汉字简化为平假名和片假名。
 
 ### Monospace
 
-A font in which all glyphs have the same width. These are sometimes called typewriter fonts.
+等宽字体（Monospace）是一种所有字形都有相同宽度的字体。它们有时也被称作是打字机字体。
 
 ### Multi-layered fonts
 
-(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, stroked, include images, have gradient fills, etc.. FontForge can be configured to support these fonts (it does not do so by default because this takes up more memory).
+多层字体是FontForge的自有术语。PostScript type3字体和SVG字体比普通字体拥有更多的绘制可能性。普通字体可能只能被来自图形环境的一种颜色填充。这两种字体可以被几种不同的颜色填充或描边，包括图片，渐变条虫等。FontForge可以配置为支持这些字体（由于需要占用更多的内存，它默认并不这么做）。
 
 ```
 $ configure --with-type3
@@ -410,7 +410,8 @@ $ make install
 
 ### Multiple Master Font
 
-A multiple master font is a PostScript font schema which defines an infinite number of related fonts. Multiple master fonts can vary along several axes, for example you might have a multiple master which defined both different weights and different widths of a font family, it could be used to generate: Thin, Normal, Semi-Bold, Bold, Condensed, Expanded, Bold-Condensed, etc.<br>Adobe is no longer developing this format. Apple has a format which achieves the same effect but has not produced many examples. FontForge supports both.
+一个多主字体（Multiple Master Font）是一种定义了无穷的相关字体的一个PostScript字体模式。多主字体可以在沿着几个轴变化，例如你可能有一个定义了一个字体家族的不同粗细和不同宽度多主，它可以用来生成：细体，普通体，半粗体，粗体，紧缩字体，扩展字体，粗紧缩字体等。
+Adobe不再开发这种格式。苹果有一种格式可以实现同样的效果但是不会产生许多例子。FontForge对两者都支持。
 
 ## N
 ### Namelist
