@@ -188,7 +188,7 @@ The counter of a glyph is the white part which is either fully or partially encl
 
 ### Didot point
 
-迪多磅（Didot point）是欧洲的一种磅。每23.566毫米是62 2/3磅（2.66磅/毫米活着67.55磅每英寸）。也有“公制”的迪多磅：.4毫米。
+迪罗磅（Didot point）是欧洲的一种磅。每23.566毫米是62 2/3磅（2.66磅/毫米或者67.55磅每英寸）。也有“公制”的迪罗磅：.4毫米。
 
 ### 变形字体
 
@@ -371,7 +371,7 @@ SIL International提供了一个自由的Graphite编译器。
 ## L
 ### Left side bearing
 
-从一个字形的原点到其最左扩展的水平距离。这可能是正数或负数。
+左跨距（Left side bearing）从一个字形的原点到其最左扩展的水平距离。这可能是正数或负数。
 
 ### Lemur
 
@@ -475,33 +475,33 @@ This was the early name for FontForge. The original conception was that it would
 
 ### Phantom points
 
-In a TrueType font there are a few points added to each glyph which are not specified by the contours that make up the glyph. These are called phantom points. One of these points represents the left side bearing, and the other the advance width of the glyph. TrueType instructions (hints) are allowed to move these points around just as any other points may be moved -- thus changing the left-side-bearing or the advance width. Early versions of TrueType supplied just these two phantoms, more recent versions also supply a phantom for the top sidebearing and a phantom for the vertical advance width.
+在TrueType字体中有一些添加到每个字形上的点，它们并不被组成字形的轮廓所指定。它们被称作幽灵点（Phantom points）。这些点中的一个代表左跨距，另一个是字形的步进宽度。TrueType说明（提示，hints）允许移动这些点，就像其他任何可能被移动的点&ndash;从而改变左跨距或者步进宽度。TrueType的早期版本只提供这两种幽灵点，较新的版本也支持上跨距幽灵点和竖直步进宽度的幽灵点。
 
 ### Pica
 
-A unit of length defined (in the US at least) to be 35/83cm (or approximately 1/6th of an inch). This was used for measuring the length of lines of text (as "30 picas and 4 points long"), but not for measuring font heights.
+宽度的一个单位（至少在美国）定义为35/83cm（或者大约1/6英寸）。它用来测量文本行高（比如“30picas和4磅长”），但是不是用来测量字体高度。
 
-In Renaissance typography, before there were points, sizes of type had names, and "pica" was used in this context. As: "Great Canon", "Double Pica", "Great Primer", "English", "Pica", "Primer", "Small Pica", "Brevier", "Nonpareil" and "Pearl" (each name representing a progressively smaller size of type) and <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">See Caslon's type specimen sheet on Wikipedia</a>.
+在文艺复兴排印中，在有磅之前字体的尺寸有有名称，“pica”用在这种上下文环境中。比如：“Great Canon”, "Double Pica”, "Great Primer”，“English”，“Pica”，“Primer”，“Small Pica”，“Brevier”，“Nonpareil”和“Pearl”（每个名称代表一个渐进更小的字体尺寸）和[参见Wikipedia上Caslon的字体范例表](http://en.wikipedia.org/wiki/Alphabet)。
 
 ### Pica point
 
-The Anglo-American point. With 72.27 points per inch ( 2.85pt /mm).
+英美磅值。72.27磅美英寸（2.85磅/毫米）。
 
 ### Point
 
-A point is a unit of measurement. There were three (at least) different definitions for "point" in common usage before the advent of computers. The one in use in the Anglo-Saxon printing world was the "pica point" with 72.27 points per inch ( 2.85pt /mm ), while the one used in continental Europe was the didot point with 62 2/3 points per 23.566mm ( 2.66pt/mm or 67.54pt/inch ) and the French sometimes used the Median point (72.78 points per inch, 2.86pt/mm).
+磅是一个度量单位。在计算机诞生之前（至少）有三种不同的对“磅”的常用定义。一个用在Anglo-Saxon印刷世界的是72.27磅每英寸（2.85磅/毫米）的“pica point”，用在欧洲大陆的是62 2/3磅每23.566毫米的迪罗磅（2.66磅/毫米或者67.54磅/英寸），法国有时使用中值磅（Median point，72.78磅每英寸，2.86磅/毫米）。
 
-The didot and pica points were so arranged that text at a given point-size would have approximately the same cap-height in both systems, the didot point would have extra white-space above the capitals to contain the accents present in most non-English Latin based scripts.
+迪罗磅和pica磅被安排成在两种系统下使用给定的磅值文本将会有近似相同的大写高度，迪罗磅将会在大写上有额外的空白来包含在大多数非英语拉丁文手写体中经常出现的重音。
 
-This has the interesting side effect that a font designed for European usage should have a smaller proportion of the vertical em given over to the text body. I believe that computer fonts tend to ignore this, so presumably European printers now set with more leading.
+这有有趣的副作用，为欧洲人使用而设计的字体的文本主体给出的竖直em应该有更小的比例。我认为计算机字体倾向于忽略这点，因此大概欧洲的打印机现在设置了更多行距。
 
-As far as I can tell, computers tend to work in approximations to pica points (but this may be because I am in the US), PostScript uses a unit of 1/72nd of an inch.
+如我可以告诉你的，计算机倾向于以pica磅的近似值工作（但是这可能是因为我在美国），PostScript使用1/72英寸的单位。
 
-Originally fonts were not described by point size, but by name. It was not until the 1730s that Pierre Fournier that created the point system for specifying font heights. This was later improved upon by Fran&ccedil;ois-Ambroise Didot (hence the name of the point). In 1878 the Chicago Type Foundry first used a point system in the US. In 1886 the US point was standardized -- the pica was defined to be 35/83cm, and the pica point defined to be 1/12th of that.
+最初字体并不通过磅值来描述，而是通过名称。直到17世纪30年代Pierre Fournier创造了用于指定字体高度的磅系统。接下来这被François-Ambroise Didot改进（因此有了磅的名称）。在1878年芝加哥字体公司首先在美国使用磅系统。在1886年美国磅被标准化&ndash;pica被定义为35/83厘米，pica磅被定义为它的1/12。
 
 ### Point Size
 
-In traditional typography a 10pt font was one where the block of metal for each glyph was 10 points high. The point size of a font is the unleaded baseline to baseline distance.
+在传统的排印中一个10磅的字体是每个字形的金属块都10磅高的字体。一个字体的磅值不插铅条的基线到基线的距离。
 
 ### Point of inflection
 

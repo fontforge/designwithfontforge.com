@@ -25,7 +25,7 @@ title: 大写字母
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-3.png" alt=""> </td>
 </tr></tbody></table>
 
-D可能类似于H活着更宽一点点。
+D可能类似于H或者更宽一点点。
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-1.png" alt=""></td>
 <td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-2.png" alt=""></td>
