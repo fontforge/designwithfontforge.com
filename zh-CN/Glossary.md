@@ -45,7 +45,7 @@ Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素�
 
 ### Apple Advanced Typography
 
-Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字距调整等。也包括变形的字体。
+Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字距紧缩等。也包括变形的字体。
 
 ### Arm
 
@@ -221,7 +221,7 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Even-Odd Fill rule
 
-为了使用奇偶填充规则（Even-Odd Fill rule）确定一个像素是否应该填充，从一个点到无限（在任何方向上）绘制一条线，然后数轮廓穿过这条线的次数。如果数字是奇数，那么填充这个点，如果是偶数，那么不填充这个点。这个方法被2.0级别以后的Postscript光栅化用在字体上。参见Non-Zero Winding Number Fill。
+为了使用奇偶填充规则（Even-Odd Fill rule）确定一个像素是否应该填充，从一个点到无穷远（在任何方向上）绘制一条线，然后数轮廓穿过这条线的次数。如果数字是奇数，那么填充这个点，如果是偶数，那么不填充这个点。这个方法被2.0级别以后的Postscript光栅化用在字体上。参见Non-Zero Winding Number Fill。
 
 ### Extended
 
@@ -352,17 +352,17 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### Kerning
 
-当两个字形之间的默认间距不适合，字体可能包含额外信息来指出当一个给定的字形（比如“T”）后面跟着另一个字形（比如“o”）那么“T”的步进宽度应该调整一定数量来获得更加讨人喜欢的显示。这个过程就是字距调整（Kerning）。
+当两个字形之间的默认间距不适合，字体可能包含额外信息来指出当一个给定的字形（比如“T”）后面跟着另一个字形（比如“o”）那么“T”的步进宽度应该调整一定数量来获得更加讨人喜欢的显示。这个过程就是字距紧缩（Kerning）。
 
 在使用金属字体的时候，实际上不得不切削字体金属块上的金属来提供更整洁的适应。
 
 ### Kern pair
 
-字距调整信息所指定的一个字距调整对。
+字距紧缩信息所指定的一个字距紧缩对。
 
 ### Kerning by classes
 
-字体中的字形被分开到一些字形类别。有一张很大的表来指定列别之间所有可能的联合的字距调整。通常由于每个类别经常包含多个字形，所以这将会比设置字距调整对要小。
+字体中的字形被分开到一些字形类别。有一张很大的表来指定列别之间所有可能的联合的字距紧缩。通常由于每个类别经常包含多个字形，所以这将会比设置字距紧缩对要小。
 
 ### Knuth, Donald
 
@@ -416,44 +416,47 @@ Adobe不再开发这种格式。苹果有一种格式可以实现同样的效果
 ## N
 ### Namelist
 
+名称表（Namelist）是Unicode码点到字形名称的一个映射
 A mapping from Unicode code point to glyph name.
 
 ### Non-Zero Winding Number Fill rule
 
-To determine if a pixel should be filled using this rule draw a line from here to infinity (in any direction) and count the number of times contours cross this line. If the contour crosses the line in a clockwise direction add 1, of the contour crosses in a counter clockwise direction subtract one. If the result is non-zero then fill the pixel. If it is zero leave it blank. This method is used for rasterizing fonts by TrueType and older (before version 2) postscript.
+为了使用非零环绕数填充规则（Non-Zero Winding Number Fill rule）确定是否应该填充一个像素，从这点到无穷远绘制一条直线（沿任意方向）并计算轮廓穿过这条线的次数。如果轮廓沿着顺时针方向穿过这条线则加1，如果轮廓按逆时针方向穿过则减一。如果结果非零则填充像素。如果是零则留空。这个方法被TrueType和更老（版本2之前）的PostScript字体用来栅格化字体。
 
-See Also Even-Odd Fill Rule.
+参见奇偶填充规则
 
 ## O
 ### Ogham
 
-The old Celtic inscription script.
+欧甘文（Ogham）是古老的凯尔特铭文手写体。
 
 ### OpenType
 
-A type of font. It is an attempt to merge postscript and TrueType fonts into one specification.<br>An OpenType font may contain either a TrueType or a postscript font inside it.
+字体的一个类型。是合并PostScript和TrueType字体到一个规范的一次尝试。
+一个OpenType字体可能包含一个TrueType或者一个PostScript。
 
-It contains many of the same data tables for information like encodings that were present in TrueType fonts.
+它包含了许多与TrueType相同的信息数据表，像编码。
 
-Confusingly it is also used to mean the advanced typographic tables that Adobe and Microsoft (but not Apple) have added to TrueType. These include things like contextual ligatures, contextual kerning, glyph substitution, etc.
+令人困惑的时它也用来表示Adobe和微软（没有苹果）添加到TrueType中得先进的印刷表。这些包括上下文连字，上下文字距紧缩，字形替换等。
 
-And MS Windows uses it to mean a font with a 'DSIG' (Digital Signature) table.
+并且微软Windows使用它表示包含“DSIG”（Digital Signature）表的字体。
 
 ### OpenType Tables
 
-Each OpenType font contains a collection of tables each of which contains a certain kind of information.
+每个OpenType字体包含表的一个集合，表包含一个特定类型的信息。
 
 ### Oblique
 
-A slanted style of a font, generally used for emphasis.
+字体的一个倾斜样式，通常用来表示强调。
 
-Oblique differs from Italic in that the transformation from the plain to the slanted form involves a mathematical or mechanical skewing the letterforms.
+倾斜（Oblique）与斜体（意大利斜体）不同之处在于从水平到倾斜形式涉及到一个数学上或机械上的偏斜字母形式。
 
 ### Overshoot    
 
-In order for the curved shape of the "O" to appear to be the same height as the flat top of the "I" it tends to "overshoot" the cap-height (or x-height), or undershoot the baseline by about 3% of the cap-height (or x-height). For a triangular shape (such as "A") the overshoot is even greater, perhaps 5%.
+为了“O”的弧形与“I”的平坦顶部看起来高度一致，它倾向于“上凸（Overshoot）”大写高度（或者x高度），或者将基线下凸（undershoot）大约大写高度（或x高度）的3%。对于一个三角形（比如“A”）来说上突甚至更大，或许是5%。
 
-These guidelines are based on the way the eye works and the optical illusions it generates and are taken from Peter Karow's Digital Formats for Typefaces, p. 26).
+这些指引基于我们眼睛的工作方式和其产生的视觉错觉，来自Peter Karow的Digital Formats for Typefaces，第26页。
+
 
 The overshoot is also dependent on the point-size of a font, the larger the point-size the smaller the overshoot should be. Generally modern fonts will be used at multiple point-sizes, but in some font families there are multiple faces for the different point-sizes, and in such a case the overshoot will probably vary from face to face.
 
