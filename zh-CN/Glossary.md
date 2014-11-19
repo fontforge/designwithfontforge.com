@@ -180,7 +180,7 @@ The counter of a glyph is the white part which is either fully or partially encl
 
 ### Device Table
 
-设备表（Device Table）是OpenType中的一个概念，允许您输入间距的调整以准备好光栅化到特定的像素尺寸。如果一个在大多数时间都有效的字距值在一个12像素字体的字形中排列起来很丑，那么你可以添加一个特别的 到只应用在12像素的间距上（另一个是14，18，或者你需要的任何大小）。类似的功能锚标记也需要。
+设备表（Device Table）是OpenType中的一个概念，允许您输入间距的调整以准备好栅格化到特定的像素尺寸。如果一个在大多数时间都有效的字距值在一个12像素字体的字形中排列起来很丑，那么你可以添加一个特别的 到只应用在12像素的间距上（另一个是14，18，或者你需要的任何大小）。类似的功能锚标记也需要。
 
 ### Diacritics
 
@@ -221,7 +221,7 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Even-Odd Fill rule
 
-为了使用奇偶填充规则（Even-Odd Fill rule）确定一个像素是否应该填充，从一个点到无穷远（在任何方向上）绘制一条线，然后数轮廓穿过这条线的次数。如果数字是奇数，那么填充这个点，如果是偶数，那么不填充这个点。这个方法被2.0级别以后的Postscript光栅化用在字体上。参见Non-Zero Winding Number Fill。
+为了使用奇偶填充规则（Even-Odd Fill rule）确定一个像素是否应该填充，从一个点到无穷远（在任何方向上）绘制一条线，然后数轮廓穿过这条线的次数。如果数字是奇数，那么填充这个点，如果是偶数，那么不填充这个点。这个方法被2.0级别以后的Postscript栅格化用在字体上。参见Non-Zero Winding Number Fill。
 
 ### Extended
 
@@ -260,7 +260,7 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### FreeType
 
-一个光栅化字体的库。在FontForge中广泛地用来理解TrueType字体的行为并能够比FontForge在不受帮助下完成的光栅化更好。
+一个栅格化字体的库。在FontForge中广泛地用来理解TrueType字体的行为并能够比FontForge在不受帮助下完成的栅格化更好。
 
 ### Fuþark (Futhark)
 
@@ -315,7 +315,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### Hints
 
-它们在手册主要部分详细描述了。它们帮助光栅化程序在小的磅值下绘制好字形。
+它们在手册主要部分详细描述了。它们帮助栅格化程序在小的磅值下绘制好字形。
 
 ### Hint Masks
 
@@ -387,7 +387,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### LGC
 
-拉丁语，希腊语和斯拉夫语。这三个字母表在过去的几千年里一起进化。字母形式非常累死（一些字母是共享的）。许多概念比如“小写”，“斜体”可以应用在这三个字母表上而不能应用在任何其他上面（好吧，亚美尼亚语也有小写字母）。
+拉丁语，希腊语和西里尔语。这三个字母表在过去的几千年里一起进化。字母形式非常累死（一些字母是共享的）。许多概念比如“小写”，“斜体”可以应用在这三个字母表上而不能应用在任何其他上面（好吧，亚美尼亚语也有小写字母）。
 
 ## M
 ### Manyogana
@@ -428,7 +428,7 @@ A mapping from Unicode code point to glyph name.
 ## O
 ### Ogham
 
-欧甘文（Ogham）是古老的凯尔特铭文手写体。
+欧甘文（Ogham）是旧的凯尔特铭文手写体。
 
 ### OpenType
 
@@ -504,54 +504,57 @@ FontForge只知道拉丁字体的分类方案。其他方案为其他手写体�
 
 ### Point of inflection
 
-A point on a curve where it changes from being concave downwards to concave upwards (or vice versa). Or in mathematical terms (for continuous curves) where d&sup2;y/dx&sup2;=0 or infinity.<br>Cubic splines may contain inflection points, quadratic splines may not.
+曲线上的一个点，在此处它从下凹变为上凹（反之亦然）。或者在数学表示上（连续曲线上）d²y/dx²=0或无穷大处。
+三次样条曲线可能包含拐点，二次样条曲线可能不包含。
 
 ### PostScript
 
-PostScript is a page-layout language used by many printers. The language contains the specifications of several different font formats. The main (FontForge) manual has a section describing how PostScript differs from TrueType.
+PostScript是许多打印机使用的页布局语言。语言包含集中不同字体格式的规范。手册主体（FontForge）有一节描述PostScript与TrueType如何不同。
 
-* Type 1: This is the old standard for PostScript fonts. Such a font generally has the extension .pfb (or .pfa). A type 1 font is limited to a one byte encoding (i.e. only 256 glyphs may be encoded).
-* Type 2/CFF: This is the format used within OpenType fonts. It is almost the same as Type 1, but has a few extensions and a more compact format. It is usually inside a CFF wrapper, which is usually inside an OpenType font. The CFF font format again only allows a 1 byte encoding, but the OpenType wrapper extends this to provide more complex encoding types.
-* Type 3: This format allows full postscript within the font, but it means that no hints are allowed, so these fonts will not look as nice at small point-sizes. Also most (screen) rasterizers are incapable of dealing with them. A type 3 font is limited to a one byte encoding (i.e. only 256 glyphs may be encoded).
-* Type 0: This format is used for collecting many sub-fonts (of Type 1, 2 or 3) into one big font with a multi-byte encoding, and was used for CJK or Unicode fonts.
-* Type 42: A TrueType font wrapped up in PostScript. Sort of the opposite from OpenType.
-* CID: This format is used for CJK fonts with large numbers of glyphs. The glyphs themselves are specified either as type1 or type2 glyph format. The CID font itself has no encoding, just a mapping from CID (a number) to glyph. An set of external CMAP files are used to provide appropriate encodings as needed.
-
-
+* Type 1：这是PostScript字体的一个旧的标准。这样的字体通常有.pfb（或.pfa）的扩展名。一个Type 1字体被限制为单字节编码（比如只有256个字形可能被编码）。
+* Type 2/CFF：这是一个OpenType字体内使用的格式。它几乎与Type 1相同，但是有一些扩展和一个更紧凑的格式。它通常处于OpenType字体经常包含的CFF包装内。同样CFF字体格式只允许单字节编码，但是OpenType包装扩展它来提供更复杂的编码字体。
+* Type 3：这个格式在字体内完整支持PostScript，但是这意味着不允许有任何提示，因此这些字体在小的磅值下看起来不好。同时大多数（屏幕）栅格花程序并不能处理他们。一个Type 3字体被限制为单字节拜纳姆（比如只有256个字形可能被编码）。
+* Type 0：这个格式用来将许多（Type 1，2或3的）子字体用多字节编码收集到一个大的字体中，用于CJK或Unicode字体。
+* Type 42：一个包装在PostScript中的TrueType字体。某种程度上是OpenType的对手。
+* CID：这个格式用于CJK字体，包含了大量的字形。字形本身被指定为Type 1或Type 2字形格式。CID字体本身没有编码，只是一个CID（一个数字）到字形的映射。一系列外部的CMAP文件用来提供所需的合适的编码。
 
 ### Python
-<div>A computer programming language that emphasizes code readability.</div>
+
+一种强调代码可读性的计算机编程语言。
+
 ## R
 ### Reference
 
-A reference is a way of storing the outlines of one glyph in another (for example in accented glyphs). Sometimes called a component.
+一个引用（Reference）是在一个字形中保存另一个字形的一种方式（比如重音字形中的例子）。有时也被成为一个组件。
 
 ### Right side bearing
 
-The horizontal distance from a glyph's rightmost extent to the glyph's advance width. This may be positive or negative.
+右跨距（Right side bearing）是一个字形最右扩展到字形步进宽度的水平距离。它可能是正数或负数。
 
 ## S
 ### Sans Serif
 
-See Serif.
+参见Serif。
 
 ### Script
 
-A script is a character set and associated rules for putting characters together. Latin, arabic, katakana and hanja are all scripts.
+手写体（Script）是一个字符集和将字符放在一起的相关规则。拉丁文，阿拉伯文，片假名和朝鲜汉子都是手写体。
 
 ### Serif
 
-Back two thousand years ago when the Romans were carving their letters on stone monuments, they discovered that they could reduce the chance of the stone cracking by adding fine lines at the terminations of the main stems of a glyph.
+回溯到两千年前罗马人在石碑上雕刻它们的字母的时候，它们发现可以通过在字形主茎的结尾添加精细的线条来减少石头破裂的机会。
 
-These fine lines were called serifs, and came to have an aesthetic appeal of their own. Early type designers added them to their fonts for aesthetic rather than functional reasons.
+这些精细的线条被称作衬线（Serif），能够增加美的作用。早期的字体设计者将它添加到它们自己的字体是为了美观而不是功能性的原因。
 
-At the end of the nineteenth and beginning of the twentieth centuries, type-designers started designing fonts without serifs. These were initially called grotesques because their form appeared so strange, they are now generally called sans-serif.
+在十九世纪末二十世纪初，字体设计者开始设计无衬线的字体。它们最初因为形式看起来如此奇怪而被称为畸形字体（grotesques），它们现在通常被成为无衬线字体。
 
-Other writing systems (Hebrew for one) have their own serifs. Hebrew serifs are rather different from latin (cyrillic, greek) serifs and I don't know their history. Hebrew serifs only occur at the top of a glyph.
+
+其他书写系统（希伯来文算一个）有它们自己的衬线。希伯来文衬线与拉丁文（西里尔文或希腊文）衬线非常不同，我也不知道它们的历史。希伯来文衬线只出现在一个字形的顶部。
 
 ### SFD
 
-SplineFont Database. These are FontForge's own personal font representation. The files are ASCII and vaguely readable, the format is described here. As of 14 May 2008 the format has been registered with IANA for a MIME type: application/vnd.font-fontforge-sfd.<br>Other people use the acronym 'sfd' too. (Unfortunately)
+SplineFont Database。这些是FontForge自己的个人字体标示。文件是ASCII的并且含糊难读，这里描述格式。2008年5月14日格式在IANA注册为一个多用途互联网邮件扩展类型（MIME）类型： application/vnd.font-fontforge-sfd。
+（不幸的是）其他人也是用首字母缩写“sfd”。
 
 * Tops-10, on the Digital PDP-10 used sfd to mean "Sub File Directory". Tops-10 made a distinction between top-level (home) directories, called "user file directories", and sub-directories.
 * TeX uses it to mean "Sub Font Definition" where a TeX sfd file contains information on how to break a big CJK or Unicode font up into small sub-fonts, each with a 1 byte encoding which TeX (or older versions of TeX) needed.
