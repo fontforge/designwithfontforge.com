@@ -554,20 +554,18 @@ PostScript是许多打印机使用的页布局语言。语言包含集中不同�
 ### SFD
 
 SplineFont Database。这些是FontForge自己的个人字体标示。文件是ASCII的并且含糊难读，这里描述格式。2008年5月14日格式在IANA注册为一个多用途互联网邮件扩展类型（MIME）类型： application/vnd.font-fontforge-sfd。
-（不幸的是）其他人也是用首字母缩写“sfd”。
+（不幸的是）其他人也使用首字母缩写“sfd”。
 
-* Tops-10, on the Digital PDP-10 used sfd to mean "Sub File Directory". Tops-10 made a distinction between top-level (home) directories, called "user file directories", and sub-directories.
-* TeX uses it to mean "Sub Font Definition" where a TeX sfd file contains information on how to break a big CJK or Unicode font up into small sub-fonts, each with a 1 byte encoding which TeX (or older versions of TeX) needed.
-
-
+* Digital PDP-10迷你电脑的Tops-10操作系统使用sfd来表示“子文件目录”。Tops-10在被称作“用户文件目录”的顶层（Home）目录和子目录之间加以区别。
+* TeX使用它来表示“子字体定义”，一个Tex的sfd文件包含如何为CJK或Unicode字体拆分成小的子字体的信息，每个都有Tex（或者旧版的Tex）需要的单字节编码。
 
 ### SFNT
 
-The name for the generic font format which contains TrueType, OpenType, Apple's bitmap only, X11's bitmap only, obsolete 'typ1' fonts and Adobe's SING fonts (and no doubt others). The SFNT format describes how font tables should be laid out within a file. Each of the above formats follow this general idea but include more specific requirements (such as what tables are needed, and the format of each table).
+名称用来表示一般字体格式，包含TrueType、OpenType、苹果的位图、X11的位图、过时的“typ1”字体和Adobe的SING字体（毫无疑问还有其他）。SFNT格式描述字体表如何在一个文件中放置。每个上面格式都遵循这一一般想法但是包含了更多的具体要求（比如需要什么表和每个表的格式）。
 
 ### SIP
 
-Supplementary Ideographic Plane (0x20000-0x2FFFF) of Unicode. Used for rare Han characters (most are no longer in common use) See Also
+Unicode的表意文字补充平面（Supplementary Ideographic Plane，0x20000-0x2FFFF）。用在罕见的汉字上（大多数平时不再使用）。参见
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
@@ -577,27 +575,23 @@ Supplementary Ideographic Plane (0x20000-0x2FFFF) of Unicode. Used for rare Han 
 
 ### SMP
 
-Supplementary Multilingual Plane (0x10000-0x1FFFF) of Unicode. Used for ancient and artificial alphabets and syllabaries -- like Linear B, Gothic, and Shavian. See Also
+Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表&ndash;像Linear B, Gothic, and Shavian。参见
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
 * SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF)
 
-
-
 ### Spline
 
-A curved line segment. The splines used in FontForge are all second or third order B&eacute;zier splines (quadratic or cubic), and Raph Levien's clothoid splines.
+样条曲线（Spline）是一条弯曲的线段。FontForge中使用的样条曲线都是第二类或第三类样条曲线（平方或立方）和Raph Levien的回旋样条曲线。
 
 ### SSP
 
-Supplementary Special-purpose Plane (0xE0000-0xEFFFF) of Unicode. Not used for much of anything. See Also
+Unicode的特别用途补充平面（Supplementary Special-purpose Plane，0xE0000-0xEFFFF）。用得并不多。参见
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
-
-
 
 ### State machine
 
