@@ -457,21 +457,20 @@ A mapping from Unicode code point to glyph name.
 
 这些指引基于我们眼睛的工作方式和其产生的视觉错觉，来自Peter Karow的Digital Formats for Typefaces，第26页。
 
+上凸也依赖于一个字体的磅值，磅值越大上凸应该越小。通常现代字体将会用在多个磅值上，但是在一些字体家族中对不同的磅值有不同的字体样式，在这一情况下上凸将会依样式不同而变化。
 
-The overshoot is also dependent on the point-size of a font, the larger the point-size the smaller the overshoot should be. Generally modern fonts will be used at multiple point-sizes, but in some font families there are multiple faces for the different point-sizes, and in such a case the overshoot will probably vary from face to face.
-
-See also X-height, Cap-height, Ascender, Descender, Baseline
+参见X高度，大写高度，顶部，底部，基线
 
 ## P
 ### Panose
 
-A system for describing fonts. See <a title="Unicode consortium" href="http://www.panose.com/ProductsServices/pan1.aspx">HP's PANOSE classification metrics guide</a>. There is also an extension called <a title="Unicode consortium" href="http://www.w3.org/Fonts/Panose/pan2.html">Panose 2</a>.
+描述字体的一个系统。参见[HP's PANOSE classification metrics guide](http://www.panose.com/ProductsServices/pan1.aspx)。也有一个扩展叫做[Panose 2](http://www.w3.org/Fonts/Panose/pan2.html)。
 
-FontForge only knows about the classification scheme for Latin fonts. Other schemes exist for other scripts.
+FontForge只知道拉丁字体的分类方案。其他方案为其他手写体而存在。
 
 ### PfaEdit
 
-This was the early name for FontForge. The original conception was that it would only edit type1 ASCII fonts (hence the name), it quickly metamorphosed beyond that point, but it took me three years to rename it.
+这是FontForge的早期名称。最初的设想是它应该只编辑type1 ASCII字体（因此得名），它迅速演化超过了这一点，但是重命名花掉了我三年时间。
 
 ### Phantom points
 
