@@ -9,6 +9,7 @@ title: Further Reading
 ## Videos
 
 * [Optical Compensation](https://www.youtube.com/watch?v=LR-CG5eB3nQ) by Thomas Phinney and FontLab
+* [Type Review Videos](https://vimeo.com/typereview/videos)
 
 ## Websites
 
