@@ -26,6 +26,8 @@ The reason this is true is that there are a number of natural optical illusions 
 subject to. These illusions must be accounted for by altering the shapes of letters until they look
 right to you.
 
+You can get a feel of where to look and what elements to adjust in these (Type Review Videos)[https://vimeo.com/typereview/videos](External Link)
+
 ## Examples of illusions
 
 Some illusions involve the perceived weight of lines, some involve the perceived length of lines,
