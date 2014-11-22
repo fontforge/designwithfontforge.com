@@ -595,136 +595,136 @@ Unicode的特别用途补充平面（Supplementary Special-purpose Plane，0xE00
 
 ### State machine
 
-A state machine is like a very simple little program, they are used on the mac for performing contextual substitutions and kerning. The state machine dialog is reachable from Element-&gt;Font Info-&gt;Lookups.
+状态机（State machine）就像是一个非常简单的小程序，它们用在mac上来执行上下文替换和字距紧缩。状态机对话框可以从Element-&gt;Font Info-&gt;Lookups打开。
 
-The "state machine" consists of a table of states, each state in turn consists of a series of potential transitions (to the same or different states) depending on the input. In state machines within fonts, the machine starts out in a special state called the start state, and reads the glyph stream of the text. Each individual glyph will cause a state transition to occur. As these transitions occur the machine may also specify changes to the glyph stream (conditional substitutions or kerning).
+“状态机”包含了一个状态表，每个状态依次包含了一系列依赖于输入的潜在转换（到相同或不同的状态）。在字体内的状态机中，机器从一个被称作起始状态的特殊状态开始，读取文本中的字形流。每个独立的字形将会导致一个状态转换的发生。机器中发生的转换也可能指定字形流的改变（条件替换或紧缩）。
 
 ### Stem
 
-A stem is the part of the letter which is vertical. The I and l are all stem except for serifs. The H consists of two stems and a crossbar. Other glyphs with stems include B b F f K k P p R r 1 and 4.
+茎（Stem）是字母中竖直的部分。I和l除了衬线外都是茎。H由两个茎和一个横梁组成。其他包含茎的字形有B b F f K k P p R r 1 and 4。
 
 ### Strike
 
-A particular instance of a font. Most commonly a bitmap strike is a particular pixelsize of a font.
+删除线（Strike）是一个字体的特殊实例。最常见的位图删除线是字体的一个特殊的像素尺寸。
 
 ### Style
 
-There are various conventional variants of a font. In probably any writing system the thickness of the stems of the glyphs may be varied, this is called the weight of a font. Common weights are normal and bold.
+一个字体有多种常规的变形。大概在任何书写系统中字形的茎的厚度可能是变化的，被称作是字体的粗细（weight）。常见的粗细是普通体和粗体。
 
-In LGC alphabets an italic (or oblique) style has arisen and is used for emphasis.
 
-Fonts are often compressed into a condensed style, or expanded out into an extended style.
+在LGC字母表中一个斜体出现并用来表示强调。
 
-Various other styles are in occasional use: underline, overstrike, outline, shadow.
+字体经常被压缩为一个紧缩的样式，或者扩展成为一个扩展样式。
+
+各种其他系统偶尔用到：underline，overstrike，outline，shadow。
 
 ### SVG
 
-Scalable Vector Graphics. An XML format used for drawing vector images. It includes a font format.
+Scalable Vector Graphics。一个用于绘制矢量图的XML格式。它包含了一个字体格式。
 
 ### Syllabary
 
-A syllabary is a phonetic writing system like an alphabet. Unlike an alphabet the sound-unit which is written is a syllable rather than a phoneme. In Japanese KataKana the sound "ka" is represented by one glyph. Syllabaries tend to be bigger than alphabets (Japanese Katakana requires about 60 different characters, while the Korean Hangul requires tens of thousands).
+音节表（Syllabary）像字母表一样，是一个语音上的书写系统。与字母表不同，书写的发音单元是音节而不是音位。在日文片假名中“ka”音由一个字形来代表。音节表倾向于比字母表大（日文片假名需要大约60个不同的字符，而韩文Hangul需要几万个）。
 
-See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Syllabary">relevant Wikipedia article</a>.
+参见：abjad，abugida，alphabet和[相关维基百科文章](http://en.wikipedia.org/wiki/Syllabary)。
 
 ## T
 ### Terminal
 
-The terminal of a glyph is the part where the stroke ends. The Top of the f has a terminal. The s has two terminals. When a glyph has serifs the serifs are considered different from the serifs. Because the bottom of the f would have a serif if it is in a serif style bottom is not considered a terminal. The bottom of the j and y are however considered terminals. Similarly the 3 has two terminals one at the top and one the bottom. The middle is considered to be a join rather than a terminal. The classification of these parts is perhaps more determined by convention than by a strict logic.
+一个字形的末端（Terminal）是末端的那部分。f的顶部有一个末端。s有两个末端。当一个字形有多个衬线时，衬线可能与衬线不同。因为如果f在一个衬线样式中那么底部将有一个衬线，那么不认为底部是一个末端。但是j和y的底部被认为是末端。同样3有两个末端，一个在顶部一个在底部。中部被认为是连接而不是末端。这些部分的分类可能更多地通过惯例来确定而非严格的逻辑。
 
 ### TeX
 
-A typesetting package.
+一个排字程序包。
 
 ### Thorn
 
-The germanic letter "镁" used for the unvoiced (English) "th" sound (as in the word "thorn"), I believe this is approximately the same sound value as Greek Theta. Currently a corrupt version of this glyph survives as "ye" for "the". See also Eth.
+用于不发音（英文的）“th”发音（正如单词“thorn”中）的德文字母“þ”，我认为这与希腊语Theta有相同的发音值。目前这个字形的损坏的版本存在于“the”中的“ye”。参见Eth。
 
 ### True Type
 
-A type of font invented by Apple and shared with Microsoft. It specifies outlines with second degree (quadratic) B&eacute;zier curves, contains innovative hinting controls, and an expandable series of tables for containing whatever additional information is deemed important to the font.<br>Apple and Adobe/Microsoft have expanded these tables in different ways to include advanced typographic features needed for non-latin scripts (or for complex latin scripts). See Apple Advanced Typography and OpenType.
+苹果发明并分享给微软的一个字体。它用来指明轮廓的是二次（二次方）B&eacute;zier曲线，包含创新的提示控制和包含任何认为对字体重要的附加信息表的一个可扩展的系列。
+苹果和Adobe/微软用不同的方式扩展这些表来包含非拉丁手写体（或复杂的拉丁手写体）所需要的先进的排字特性。参见Apple Advanced Typography和OpenType。
 
 ### TrueType Tables
 
-Each truetype font contains a collection of tables each of which contains a certain kind of information.
+每个TrueType字体包含表的一个集合，每个表包含一些特定的信息。
 
 ### Type 1
 
-A type of PostScript font.
+PostScript字体的一个类型。
 
 ### Type 2
 
-A type of PostScript font, used within OpenType font wrappers.
+PostScript字体的一个类型，在OpenType字体包装中使用。
 
 ### Type 3
 
-A very general type of PostScript font.
+PostScript字体的一个非常普通的类型。
 
 ### Type 0
 
-A type of PostScript font.
+PostScript字体的一个类型。
 
 ### Type High
 
-In the days of metal type this was the height of the piece of metal -- the distance from the printing surface to the platform on which it rested.
+在金属字体的年代，这是金属块的高度&ndash;印刷面到它所放置的平台的距离。
 
 ### Typewriter
 
-See Monospace.
+参见Monospace。
 
 ## U
 ### Unicode
 
-A character set/encoding which tries to contain all the characters currently used in the world, and many historical ones as well. See the <a title="Unicode consortium" href="http://www.unicode.org/">Unicode consortium</a>.
+一个字符集/编码，尝试包含当前世界上使用的所有字符，也包含许多历史上使用的。更多信息参见[Unicode consortium](http://www.unicode.org/)。
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
-* SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF) More info.
-
-
+* SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF) 
 
 ### Undershoot
 
-See Overshoot.
+参见Overshoot.
 
 ### UniqueID
 
-This is a field in a PostScript font, it was formerly used as a mechanism for identifying fonts uniquely, then Adobe decided it was not sufficient and created the XUID (extended Unique ID) field. Adobe has now decided that both are unneeded.
+这是PostScript字体使用的一个字段，以前作为唯一确认字体的机制，随后Adobe做出决定认为它不够好并创建了XUID（扩展的Unique ID）字段。Adobe现在决定不需要两者。
 
-There is a very similar field in the TrueType 'name' table.
+TrueType的“name”表中有一个非常类似的字段。
 
 ### UseMyMetrics
 
-This is a truetype concept which forces the width of an composite glyph (for example an accented letter) to be the same as the width of one of its components (for example the base letter being accented).
+这是一个TrueType的概念，强制一个复合字形（例如一个带重音的字母）的宽度与其组件相同（例如被添加重音的基本字母）。
 
 ## V
 ### Vertical Advance Width
 
-CJK text is often written vertically (and sometimes horizontally), so each CJK glyph has a vertical advance as well as a horizontal advance.
+CJK文本经常会按竖直方向书写（有时按水平方向），因此和水平步进一样，每个CJK字形有一个竖直步进。
 
 ## W
 ### Weight
 
-The weight of a font is how thick (dark) the stems of the glyphs are. Traditionally weight is named, but recently numbers have been applied to weights.
+一个字体的粗细是字形的茎多么粗（暗）。传统上粗细是被命名的，但是目前数字被应用在粗细上。
 
-Thin<br>100
+细体（Thin）<br>100
 
-Extra-Light<br>200
+超轻体（Extra-Light）<br>200
 
-Light<br>300
+轻体（Light）<br>300
 
-Normal<br>400
+常规体（Normal）<br>400
 
-Medium<br>500
+中等体（Medium）<br>500
 
-Demi-Bold<br>600
+半粗体（Demi-Bold）<br>600
 
-Bold<br>700
+粗体（Bold）<br>700
 
-Heavy<br>800
+重体（Heavy）<br>800
 
-Black<br>900
+黑体（Black）<br>900
 
 Nord
 
@@ -732,19 +732,19 @@ Ultra
 
 ### White space
 
-The white space of the type design includes the space between lines of text, the space between the letters, the word space and the spaces inside the letters. It is a broad and encompassing term.
+字体设计的空白间距包括文本行的距离，字母间的距离，字距和字母内的距离。这是一个广泛的包罗万象的术语。
 
 ### Width
 
-This is a slightly ambiguous term and is sometimes used to mean the advance width (the distance from the start of this glyph to the start of the next glyph), and sometimes used to mean the distance from the left side bearing to the right side bearing.
+这是一个轻微模糊的术语，又是用来表示步进宽度（从字形开始到下一个字形开始的距离），又是用来表示从左跨距到右跨距的距离。
 
 ## X
 ### X-height
 
-The height of a lower case letter above the base line (with a flat top like "x" or "z" or "v" as opposed to one with a curved top like "o" or one with an ascender like "l") .
+基线上小写字母（顶部平坦的像“x”或“z”或“v”，相反的顶部弯曲的像“o”或者有顶部的像“l”）的高度。
 
-See also Cap-height, Ascender, Descender, Overshoot, Baseline.
+参见大写高度，顶部，底部，上凸，基线。
 
 ### XUID
 
-Extended Unique ID in a PostScript font. Now somewhat obsolete. See Unique ID.
+PostScript字体的Extended Unique ID。现在有些过时。参见Unique ID。
