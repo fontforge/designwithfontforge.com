@@ -184,6 +184,8 @@ Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph Lis
 
 ### Devanagari Anatomy
 
+[TDIL Devanagari Script Grammar (PDF)](http://www.tdil-dc.in/tdildcMain/articles/82170Devanagari%20Script%20Behaviour%20for%20Hindi%20%20ver%201.4.10.pdf)
+
 [2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J), which can be used as a reference for pen angle and letter proportions.
 
 Professor Girish Davli of IIT Bombay IDC (comparable to the USA's MIT Media Lab) published this [Devanagari Anatomy article (PDF)](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
