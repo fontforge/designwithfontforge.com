@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 20
 category: workflow
 title: 字体信息和元数据
@@ -8,4 +8,4 @@ title: 字体信息和元数据
 
 ## 字体信息
 
-<img src="images/info_ps_names.png"/>
+<img src="../en-US/images/info_ps_names.png"/>

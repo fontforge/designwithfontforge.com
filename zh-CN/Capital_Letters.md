@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 23
 category: workflow
 title: 大写字母
@@ -20,34 +20,34 @@ title: 大写字母
 
 通常说来，N和V经常类似于H但是更宽一点。
 
-<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-1.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-2.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-3.png" alt=""> </td>
+<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/NVH-1.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/NVH-2.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/NVH-3.png" alt=""> </td>
 </tr></tbody></table>
 
 D可能类似于H或者更宽一点点。
 
-<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-1.png" alt=""></td>
-<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-2.png" alt=""></td>
-<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-3.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HD-1.png" alt=""></td>
+<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HD-2.png" alt=""></td>
+<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HD-3.png" alt=""></td>
 </tr></tbody></table>
 
 O的形状可以在设计C、G和Q时参考很多。H的形状会让你知道I和J和B D E F K L P R的左边的一些信息。
 
 它也告诉你T和U的一点信息。A的形状可以让你知道非常多V的信息。
 
-<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/OCGQ-2.png" alt=""></td>
-<td style="text-align: center;"> <img src="images/OCGQ-1.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/OCGQ-3.png" alt=""></td>
-</tr><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-3.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-2.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-1.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/OCGQ-2.png" alt=""></td>
+<td style="text-align: center;"> <img src="../en-US/images/OCGQ-1.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/OCGQ-3.png" alt=""></td>
+</tr><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HBDE-3.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HBDE-2.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HBDE-1.png" alt=""></td>
 </tr></tbody></table>
 
 V的形状和比例告诉你一点如何设计Y W X的信息。Z的形状是与众不同的。
 
-<table border="0" cellpadding="13"><tbody><tr><td><img src="images/VWYX-2.png" alt=""></td>
-</tr><tr><td> <img src="images/VWYX-3.png" alt=""></td>
-</tr><tr><td> <img src="images/VWYX-4.png" alt=""></td>
-</tr><tr><td> <img src="images/VWYX-1.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img src="../en-US/images/VWYX-2.png" alt=""></td>
+</tr><tr><td> <img src="../en-US/images/VWYX-3.png" alt=""></td>
+</tr><tr><td> <img src="../en-US/images/VWYX-4.png" alt=""></td>
+</tr><tr><td> <img src="../en-US/images/VWYX-1.png" alt=""></td>
 </tr></tbody></table>

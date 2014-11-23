@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 3
 category: Before You Begin
 title: 相信你的眼睛
@@ -26,7 +26,7 @@ title: 相信你的眼睛
 
 左边的例子展示了一个条形粗细相同的“H”。这看起来是不对的。你能感受到吗？右边的另一个水平的条形做的更细，这样看起来粗细相等。
 
-<img src="images/H%20compensation2.png" alt>
+<img src="../en-US/images/H%20compensation2.png" alt>
 
 需要按照视觉做出调整的字形有很多，包括A、E、F、L、H、f、t和z。
 
@@ -34,7 +34,7 @@ title: 相信你的眼睛
 
 类似地，如果一些条形宽度相等，其中一个放在斜线上，那么斜向的条形看起来比竖直的条形粗并且比水平的条形细。如果你想让它看起来正确，那么你不得不像水平的例子一样将其调细一点，但是知识细一点点。
 
-<img src="images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag%20illusion.png" alt>
 
 令人产生错觉的相关字形十分多，包括k、K、N、Q、R,
 v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、&radic;、∕、&lsaquo;、&rsaquo;、
@@ -46,25 +46,25 @@ v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、
 
 下面的图中的斜线倾斜角度相同。长的那个看起来角度不同。
 
-<img src="images/pdiag.png" alt>
+<img src="../en-US/images/pdiag.png" alt>
 
 在下图中，长的线条的倾斜程度被调整过：
 
-<img src="images/pdiag2.png" alt>
+<img src="../en-US/images/pdiag2.png" alt>
 
 现在我们来看真实的斜体，在字形上应用了这些修正：
 
-<img src="images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer%20less%20slant.png" alt>
 
 ### 交叉斜线
 
 当一个条形穿过另一个斜线或者直线时，需要调整它以看起来补不会不对齐。
 
-<img src="images/compare-x.png" alt>
+<img src="../en-US/images/compare-x.png" alt>
 
 上面的例子中，左边的X由两个未调整的条形互相交叉。右边的例子被调整过，这样看起来是对齐的。
 
-<img src="images/myriad-x.png" alt>
+<img src="../en-US/images/myriad-x.png" alt>
 
 在这个X中通过虚线你可以看到看起来显得对齐的X实际上有偏移。
 
@@ -74,7 +74,7 @@ v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、
 
 一个字形的形状将会对它看起来和其他字形高度一致时的高度产生作用。圆的字形需要超过平的字形的高度一点点。包含尖的形状的字形需要超过更多。形状越尖锐，它为了看起来正确需要超过的就更多。
 
-<img src="images/3Shapes.png" alt>
+<img src="../en-US/images/3Shapes.png" alt>
 
 在上图中，上面的三个图形没有经过调整，也就是他们有完全相同的高度。下面的三个图形经过调整，看起来有更加接近的高度。
 

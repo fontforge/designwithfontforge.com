@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 10
 category: Getting To Know FontForge
 title: 安装FontForge

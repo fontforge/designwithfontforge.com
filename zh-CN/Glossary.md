@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 93
 category: Appendices
 title: 术语表
@@ -27,7 +27,7 @@ Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素�
 
 一个元音附标文字与辅音音素文字不同之处在于元音（除了默认的）必须标记在在元音附标文字上。
 
-参见：字母表, 辅音音素文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
+参见：字母表，辅音音素文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
 
 ### 重音
 
@@ -74,7 +74,7 @@ Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字�
 ## B
 ### Baseline
 
-基线（Baseline）是（latin, greek, cyrillic）字母放置的水平线。基线在不同的书写字母中可能有不同的位置。在印度语书写字母中多数字母下降超过基线。在CJK书写字母中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同书写字母的基线相对于其他应该如何对齐。
+基线（Baseline）是（latin，greek，cyrillic）字母放置的水平线。基线在不同的书写字母中可能有不同的位置。在印度语书写字母中多数字母下降超过基线。在CJK书写字母中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同书写字母的基线相对于其他应该如何对齐。
 
 参见x高度，大写高度，顶部，底部，上突。
 
@@ -145,13 +145,13 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 ### CJK
 
-中文，日文，韩文（Chinese, Japanese, Korean）。这三种语言的需要字体带有数量庞大字形。这三者使用了相同的基于汉字的书写系统（尽管它们在各自国家经历了分割演化，中国大陆的字体也确实与台湾和香港所使用的不同）。
+中文，日文，韩文（Chinese，Japanese，Korean）。这三种语言的需要字体带有数量庞大字形。这三者使用了相同的基于汉字的书写系统（尽管它们在各自国家经历了分割演化，中国大陆的字体也确实与台湾和香港所使用的不同）。
 
 日文和韩文也有语音音节表。日文有两个音节表，平假名和有约60个音节的片假名。韩文有一个音节表，有数万个音节的韩文（Hangul）。
 
 ### CJKV
 
-中文，日文，韩文，越南文（Chinese, Japanese, Korean, Vietnamese）。这四种语言需要字体有数量庞大的字形。
+中文，日文，韩文，越南文（Chinese，Japanese，Korean，Vietnamese）。这四种语言需要字体有数量庞大的字形。
 
 ### Condensed
 
@@ -480,7 +480,7 @@ FontForge只知道拉丁字体的分类方案。其他方案为其他手写体�
 
 宽度的一个单位（至少在美国）定义为35/83cm（或者大约1/6英寸）。它用来测量文本行高（比如“30picas和4磅长”），但是不是用来测量字体高度。
 
-在文艺复兴排印中，在有磅之前字体的尺寸有有名称，“pica”用在这种上下文环境中。比如：“Great Canon”, "Double Pica”, "Great Primer”，“English”，“Pica”，“Primer”，“Small Pica”，“Brevier”，“Nonpareil”和“Pearl”（每个名称代表一个渐进更小的字体尺寸）和[参见Wikipedia上Caslon的字体范例表](http://en.wikipedia.org/wiki/Alphabet)。
+在文艺复兴排印中，在有磅之前字体的尺寸有有名称，“pica”用在这种上下文环境中。比如：“Great Canon”，"Double Pica”，"Great Primer”，“English”，“Pica”，“Primer”，“Small Pica”，“Brevier”，“Nonpareil”和“Pearl”（每个名称代表一个渐进更小的字体尺寸）和[参见Wikipedia上Caslon的字体范例表](http://en.wikipedia.org/wiki/Alphabet)。
 
 ### Pica point
 
@@ -575,7 +575,7 @@ Unicode的表意文字补充平面（Supplementary Ideographic Plane，0x20000-0
 
 ### SMP
 
-Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表&ndash;像Linear B, Gothic, and Shavian。参见
+Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表&ndash;像Linear B，Gothic和Shavian。参见
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)

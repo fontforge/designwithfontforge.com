@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 25
 category: workflow
 title: 标点和符号
@@ -16,13 +16,13 @@ title: 标点和符号
 
 一旦你建立了让你觉得快乐的尺寸，这个点会被作为多种其他标点的基础，包括这些字形：; : ? ! ¡ ¿ · …
 
-<img src="images/period.png" alt="">
+<img src="../en-US/images/period.png" alt="">
 
 下一个要制作的字形是逗号。逗号的形状可以变化到让你觉得吃惊的程度。在你设计自己的逗号前看一下各种各样的逗号设计是有价值的。
 
 下面的图片展示了逗号可能使用的两种最常用的形式。
 
-<img src="images/commas.png" alt="">
+<img src="../en-US/images/commas.png" alt="">
 
 逗号的上部通常比句号小一点点，因为如果一样大小的话看起来太重。在同一张图片上的右边的逗号是应用这种补偿的例子。设计这个字形需要注意的另一种错误是做的太短。
 
@@ -34,25 +34,25 @@ title: 标点和符号
 
 但是这是一个有令人吃惊的机会总数可以表达设计的字形。即使在对比非常小的字体中，点上面的条形经常上大下小。叹号的形式经常与逗号的设计有着某种程度的联系。
 
-<img src="images/exclam.png" alt="">
+<img src="../en-US/images/exclam.png" alt="">
 
 问号也非常难制作，因为它需要你平衡点上面的开放曲线。
 
 设计叹号时可取的方法是在为你的设计选择一个方案之前看甚至测试一些不同的方案。
 
-<img src="images/question%20marks.png" alt="">
+<img src="../en-US/images/question%20marks.png" alt="">
 
 字形c、C、G、s和s可能提供了设计这个字形的基础，但是你也可以选择一个不同的形式。
 
 ## 额外的符号
 
-<img src="images/3quotes.png" alt="">
+<img src="../en-US/images/3quotes.png" alt="">
 
 简单的或者竖直的引号&ndash;‘和"&ndash;与印刷上的引号‘ ’和“ ” ‚ „不同。
 
 通常印刷上的引号与逗号非常接近，但是他们应该比逗号更长，并且经常更弯。
 
-<img src="images/3quotes2.png" alt="">
+<img src="../en-US/images/3quotes2.png" alt="">
 
 方括号[ ]制作起来相对简单，因为他们在形状上四四方方。不过他们的设计应该反映出你在其余字体样式上所作出的选择。
 
@@ -60,7 +60,7 @@ title: 标点和符号
 
 这些选择也会反映到圆括号()和花括号{}中。这三个符号的茎应该比大写和小写字母的茎的细。
 
-<img src="images/1Brackets1.png" alt="">
+<img src="../en-US/images/1Brackets1.png" alt="">
 
 圆括号应该在有关形状设计的基础上绘制，比如D、C和G。
 

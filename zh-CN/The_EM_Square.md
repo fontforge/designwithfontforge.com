@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 07
 category: workflow
 title: EM Square
@@ -8,11 +8,11 @@ title: EM Square
 
 &mdash; 也被称作“EM size”或者“UPM”。在一个字体中，每个字符都放置在其空间容器内。在传统的金属字模中，这个容器就是每个字符的实际金属块。每个字符的高度是统一的，这样每个字模可以整齐地放进行和块中（如下）。
 
-<img src="images/MetalTypeZoomIn.JPG" alt>
+<img src="../en-US/images/MetalTypeZoomIn.JPG" alt>
 
 字模的高度被称为“em”，起源于大写的字符“M”的宽度；这个字母的比例被做成了方形（因此有了“EM Square”的称呼）。em size是根据字模计算出的点值。因此一个10磅的字体em也是10磅（如下）。
  
-<img src="images/em-metal-type.svg" alt>
+<img src="../en-US/images/em-metal-type.svg" alt>
 
 在数字化字体中，em是空间的数字化定义总量。在OpenType字体中，UPM或em大小通常是1000单位。在TrueType字体中，UPM约定是2的幂，通常是1024或2048。
 
@@ -28,15 +28,15 @@ em square的大小设定方法是*Element > Font Info&hellip;*然后点击Genera
 
 基线：
 
-<img src="images/baseline.png" alt>
+<img src="../en-US/images/baseline.png" alt>
 
 大写高度:
 
-<img src="images/capheight.png" alt>
+<img src="../en-US/images/capheight.png" alt>
 
 x高度:
 
-<img src="images/xheight.png" alt>
+<img src="../en-US/images/xheight.png" alt>
 
 在你设计字体的后期，你需要设置Blue值，这个值为PostScript画轮廓而保留，也保留给FonttForge自动微调&ndash;无论你在做哪个轮廓。
 

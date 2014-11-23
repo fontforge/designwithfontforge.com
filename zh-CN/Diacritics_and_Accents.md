@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 26
 section: Workflow
 title: 变音和重音
@@ -8,37 +8,37 @@ title: 变音和重音
 
 变音是添加或结合到一个字母上的标记，经常用来字母的声调改变为添加的标记。一些变音标记（比如“acute”和“grave”）经常被称为重音。变音标记可能出现在一个字母的上面或者下面，一个字母内或两个字母之间。
 
-<img width="5%" src="images/dia_a_grave.png"/>
-<img width="5%" src="images/dia_a_circumflex.png"/>
-<img width="5%" src="images/dia_a_tilde.png"/>
-<img width="5%" src="images/dia_a_dieresis.png"/>
-<img width="5%" src="images/dia_c_ogonek.png"/>
-<img width="5%" src="images/dia_c_cedilla.png"/>
-<img width="5%" src="images/dia_c_dot.png"/>
-<img width="5%" src="images/dia_g_comma.png"/>
-<img width="5%" src="images/dia_hungarumlaut.png"/>
+<img width="5%" src="../en-US/images/dia_a_grave.png"/>
+<img width="5%" src="../en-US/images/dia_a_circumflex.png"/>
+<img width="5%" src="../en-US/images/dia_a_tilde.png"/>
+<img width="5%" src="../en-US/images/dia_a_dieresis.png"/>
+<img width="5%" src="../en-US/images/dia_c_ogonek.png"/>
+<img width="5%" src="../en-US/images/dia_c_cedilla.png"/>
+<img width="5%" src="../en-US/images/dia_c_dot.png"/>
+<img width="5%" src="../en-US/images/dia_g_comma.png"/>
+<img width="5%" src="../en-US/images/dia_hungarumlaut.png"/>
 
 
 ### 一些变音的例子
 
-<p class="imagebox"><img src="images/dia_a_grave.png"/></p>
+<p class="imagebox"><img src="../en-US/images/dia_a_grave.png"/></p>
 
 小写的“a with grave”（unicode u+00e0）。在一个字体中通过将小写的“a”字形（unicode u+0061）和“combining grave accent”字形（unicode u+0300）联合起来创造。
 
-<p class="imagebox"><img src="images/dia_a_circumflex.png"/></p>
+<p class="imagebox"><img src="../en-US/images/dia_a_circumflex.png"/></p>
 
 
 小写的“a with circumflex”（unicode u+00e2）。在一个字体中通过将小写的“a”字形（unicode u+0061）和“combining circumflex accent”字形（unicode u+0302）联合起来创造。
 
-<p class="imagebox"><img src="images/dia_c_ogonek.png"/></p>
+<p class="imagebox"><img src="../en-US/images/dia_c_ogonek.png"/></p>
 
 小写的“a with ogonek”（unicode u+0105）。在一个字体中通过将小写的“a”字形（unicode u+0061）和“combining ogonek”字形（unicode u+0328）联合起来创造。
 
-<p class="imagebox"><img  src="images/dia_c_cedilla.png"/></p>
+<p class="imagebox"><img  src="../en-US/images/dia_c_cedilla.png"/></p>
 
 小写的“c with cedilla”（unicode u+00e7）。在一个字体中通过将小写的“c”字形（unicode u+0063）和“combining cedilla”字形（unicode u+0327）联合起来创造。
 
-<p class="imagebox"><img  src="images/dia_hungarumlaut.png"/></p>
+<p class="imagebox"><img  src="../en-US/images/dia_hungarumlaut.png"/></p>
 
 小写的“o with double acute”（unicode u+0151）。在一个字体中通过将小写的“o”字形（unicode u+006f）和“combining double acute accent”字形（unicode u+030b）联合起来创造。
 
@@ -61,11 +61,11 @@ FontForge可以用2种主要的方式自动地创造带重音的字符：
 <p><b>注意：</b>如果一个变音标记字形没有出现在你的字体中，那么FontForge将会使用一个类似的间隔字符来替代。例如如果要联合的“acutecomb”（u+0301）没有出现在你的字体中，那么FontForge将在自动构建任何添加acute accent的字形时会使用标准的“acute”（u+00b4）字符。如果“acutecomb”出现了，那么FontForge将会总是使用它，除非你特别强制FontForge使用间隔字符来构建有重音的字形。</p>
 </div>
 
-<img width="500px" src="images/dia_auto_a_acute.png"/>
+<img width="500px" src="../en-US/images/dia_auto_a_acute.png"/>
 
 变音标记的自动放置可以通过偏好设置来调整，可以在FontForge的偏好设置菜单“File > Preferences > Accents”下的“accents”区域找到（如下）。 
 
-<img src="images/preferences_accents.png" />
+<img src="../en-US/images/preferences_accents.png" />
 
 “PreferSpacingCharacters” - 选择这个选项为“On”将会强制FontForge使用间隔字符来构建重音字形，即使适当的联合字符出现。这个选项在使用锚点来放置变音标记时失效。
 
@@ -85,15 +85,15 @@ FontForge可以用2种主要的方式自动地创造带重音的字符：
 
 在下面的例子中，创造一个“a ogonek”字符，创建了一个称作“底部”的锚类。在小写的“a”字形中，“底部”锚点放置在“a”的茎的底部。这是“基本字形”的锚点的形式。
 
-<img src="images/dia_a_anchor.png"/>
+<img src="../en-US/images/dia_a_anchor.png"/>
 
 在“ogonek”字形中，标记锚点的形式中的底部锚点放置在字形的顶部（如下）。
 
-<img src="images/dia_ogonek_anchor.png"/>
+<img src="../en-US/images/dia_ogonek_anchor.png"/>
 
 那么在“a ogonek”字符构建时（使用“Build Accented Charcter”功能），“底部”标记锚点将会放置在与“底部”基本锚点相同的位置，保证ogonek字形的引用正确地放置在“a”的引用的茎的尾部（如下）。这一精确自动的位置只有在使用锚点来放置基本和标记字形的时候才可以使用。
 
-<img src="images/dia_a_ogonek_anchors.png" />
+<img src="../en-US/images/dia_a_ogonek_anchors.png" />
 
 ### 为放置变音标记创建锚点（到基本位置的标记）
 
@@ -101,17 +101,15 @@ FontForge使用被称为“mark-to-base”的查找功能来创建和放置锚�
 
 在GPOS Lookups窗口中，点击“Add Lookup”并选择类型“Mark to Base Position”，然后在Feature窗格的“New”一列选择“Mark Positioning”（如下）。点击“OK”关闭窗口。
 
-<img src="images/dia_new_mark_to_base_1.png"/>
+<img src="../en-US/images/dia_new_mark_to_base_1.png"/>
 
 选中新的查找，点击“Add Subtable”。在结果窗口（如下）你可以创建你的锚类。
 
-<img src="images/dia_anchor_new_subtable.png" />
+<img src="../en-US/images/dia_anchor_new_subtable.png" />
 
 在这个例子中（如下），创建了两个锚类“top”和“bottom”。“top”锚类将会用来放置字形上面的变音标记，“bottom”类将会用来放置字形下面的标记。
 
-In this example (below), two anchor classes have been created, 'top' and 'bottom'. The 'top' anchor class will be used to position diacritic marks that are placed above glyphs, and the 'bottom' anchor will be used for positioning marks below glyphs.
-
-<img src="images/dia_marks_classes_add.png" />
+<img src="../en-US/images/dia_marks_classes_add.png" />
 
 要在一个字形上放置锚点，只需要在字形编辑窗口鼠标右击，在右键菜单中选择“Add Anchor”功能。出现的对话框让你可以设置锚点是基本锚点还是标记锚点。锚点的位置也可以通过这个对话框来调整。锚点也可以通过鼠标拖拽或方向键来移动到你想要的位置。右击锚点选择右键菜单中的“get info”也可以修改锚点。
 
@@ -121,15 +119,15 @@ FontForge也包含了一个有用的图形界面来控制锚点的所有类的�
 
 一旦你在你的mark-to-base位置查找中创建了锚类别，并为一些字形添加了锚点，你可以通过“Element>Font Info>Lookups>GPOS”来控制这些类别，然后编辑包含锚类别的子表。你将会看到下面的窗口：
 
-<img src="images/dia_anchor_control_1.png" />
+<img src="../en-US/images/dia_anchor_control_1.png" />
 
 在这里我们可以选择你希望编辑的类别病点击“Anchor Control”按钮。这个类别的一个图形界面将会展现在你面前。在下面的例子中我们在编辑“top”类别的控制。在第一个例子中（如下），在“Bases”区域的下拉菜单中选中选中小写字母“e”。当一个基本字形被选中，所有引用这个字形并包含“top”基本锚点的字符将会显示在预览窗格。然后我们可以调整“top”基本锚点的位置来看它如何影响所有包含“top”标记锚点的字形的位置。
 
-<img src="images/dia_anchor_control_e.png" />
+<img src="../en-US/images/dia_anchor_control_e.png" />
 
 在第二个例子中，如下，在“Makrs”区域的下拉菜单中选中“acute”字形。当一个标记字形选中时，所有引用选中字形并包含“top”标记锚点的字形将会显示预览效果。
 
-<img src="images/dia_anchor_control_mark.png" />
+<img src="../en-US/images/dia_anchor_control_mark.png" />
 
 
 ## 其他资源

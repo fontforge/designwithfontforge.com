@@ -16,11 +16,13 @@ title: Design With FontForge
   {% for p in site.pages %}
     {% if p.weight > 0 %}
     {% if p.weight == weight %}
+    {% if p.path contains 'en-US' %}
       <li>
         <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
           {{ p.title }}
         </a>
       </li>
+    {% endif %}
     {% endif %}
     {% endif %}
   {% endfor %}

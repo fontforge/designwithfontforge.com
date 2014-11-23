@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 20
 category: workflow
 title: 创造“o”和“n”
@@ -16,13 +16,13 @@ title: 创造“o”和“n”
 光学效果影响字体设计的一种方式是曲线和直的边在眼睛里是如何出现。
 比如说，如果要曲线和直边看起来正确地在基线上对齐，那么实际上曲线必须放在基线以下一点点，这就产生了下突。为了看起来放置在基线上而压低到基线以下的字符的那部分称作*下垂* &ndash;如下演示。没有下垂，基线附近有曲线的字符将会看起来没有在文本的线上对齐。 
 
-<img src="images/underhang1.png" alt>
+<img src="../en-US/images/underhang1.png" alt>
 
 类似于下突，提供x高度和大写高度的对齐错觉需要一部分区域*上突*（如下）。
 
-<img src="images/nox-opensans.png" alt>
+<img src="../en-US/images/nox-opensans.png" alt>
 
-<img src="images/nox-merriw_1.png" alt>
+<img src="../en-US/images/nox-merriw_1.png" alt>
 
 ## 设计小写“o”
 
@@ -31,7 +31,7 @@ title: 创造“o”和“n”
 
 此外，“o”中的白色部分应该在设计字体间距的时候利用起来；“o”也会设定字体中其他字形间使用的间距。这两个值之间关联很大，因此基本上你也需要设计你的“o”两旁的空白数量。作为一般原则，除了斜体或者意大利斜体，其他字体的“o”左右两边的间距是相同，“o”字符的字符串的空白间距应该与“o”内的空白间距相平衡。
 
-我们已经接触了很多间距和度量值，所以即使在这一较早阶段，你也可能希望看一下[“间距, 度量值和紧缩”][“Spacing, Metrics, and Kerning”]一章，涵盖了字体间距的基本含意。
+我们已经接触了很多间距和度量值，所以即使在这一较早阶段，你也可能希望看一下[“间距，度量值和紧缩”][“Spacing, Metrics, and Kerning”]一章，涵盖了字体间距的基本含意。
 这样将会使你做出间距很好的字符“o”，这样对你设计“n”也有帮助。
 
 ## 设计小写的“n”
@@ -42,20 +42,20 @@ title: 创造“o”和“n”
 
 这种方式可以在我们的字符集增长的时候，给你形成字符时与其他字符保持平衡和谐的捷径。  看下面的例子“n”；他被分为两部分。分开的组件合在一起就形成了一个“n”，但是同样的组件在稍后形成其他字符的时候可以再次使用；比如左边的“n”的茎可以在形成其他所有小写字母的茎的时候使用。
 
-<img src="images/n-compo-2.png" alt>
+<img src="../en-US/images/n-compo-2.png" alt>
 
-<img src="images/n-compo-1_1.png" alt>
+<img src="../en-US/images/n-compo-1_1.png" alt>
 
 你可以再次快进到间距和度量值的章节，字符“n”的设计应该跟上调整字符“n”和“o”间距的进程。
 
 现在利用你所使用过的方法来创造一个“n”和一个“o”字符，你已经准备好扩大小写字符集。“o”和“n”的茎和曲线组件为你形成其他字符指明道路。
 如果我们学习下面的来自[Open Sans]的字符，我们可以看到各个字符的正式面貌以及他们如何重复出现，通过一些调整形成新的字体的组件。
 
-<img src="images/h-m-n-curves.png" alt>
+<img src="../en-US/images/h-m-n-curves.png" alt>
 
-<img src="images/b-c-d-e-curves.png" alt>
+<img src="../en-US/images/b-c-d-e-curves.png" alt>
 
-<img src="images/i-j-t-f-curves.png" alt>
+<img src="../en-US/images/i-j-t-f-curves.png" alt>
 
 [“What is a font?”]: What_Is_a_Font.html
 [“Spacing, Metrics, and Kerning”]: Spacing_Metrics_and_Kerning.html

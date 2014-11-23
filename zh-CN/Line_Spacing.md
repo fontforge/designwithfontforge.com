@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 24
 category: workflow
 title: 行间距
@@ -18,9 +18,9 @@ title: 行间距
 
 一个测试你的字体的行间距是否适合重音字符的方法是从多个语言中挑选示例文本。
 
-<img src="images/Selection_043.png" alt="" height="100" width="472">
+<img src="../en-US/images/Selection_043.png" alt="" height="100" width="472">
 
-<img src="images/Selection_044_1.png" alt="" height="96" width="481">
+<img src="../en-US/images/Selection_044_1.png" alt="" height="96" width="481">
 
 对于变音标记重的语言（比如捷克语），行间距应该比没使用变异符号的大。例子展示了相同的行间距的捷克语（上面的）和英语。
 
@@ -28,11 +28,11 @@ title: 行间距
 
 在FontForge中，你可以在字体信息窗口中设置调整你的字体项目的行间距。在“Element”菜单中选择<em>Font Info</em>，然后点击General选项卡可以打开这个窗口。需要注意FontForge列在顶部（Ascent）和底部（Descent）的数值。除非你已经手动改变了数值，否则这两个数字加起来等于下一行的Em size。
 
-<img src="images/fontinfo-generl.png" alt="">
+<img src="../en-US/images/fontinfo-generl.png" alt="">
 
 现在切换到“OS/2”选项卡。你的字体在几乎所有的电脑上的行间距将由你在Metrics选项卡输入的顶部和底部值决定。下一步你应该设置所有的
 
-<img src="images/ascents-descents.png" alt="">
+<img src="../en-US/images/ascents-descents.png" alt="">
 
 这里有三组值：Win Ascent与Descent，Typo Ascent与Descent和HHead Ascent与Descent。你应该将所有的Ascent设置与你在General选项卡下的值相同。接下来你应该将所有的Descent设置为与你在General选项卡下的值相同，除非你要设置Typo Descent数值为<em>负数</em>。 在这种情况下把数值设置为相同，但是在前面输入负号。最后取消对“is offset”选项的勾选。
 

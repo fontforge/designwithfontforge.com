@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 31
 category: workflow
 title: 最终输出，生成字体文件
@@ -26,7 +26,7 @@ FontForge可以将你的字体导出为各种不同的格式，但是在实践�
 
 打开“File”菜单下的<em>Generate Fonts</em>窗口。窗口的上半部分展示了熟悉的文件选择视图&ndash;当前目录的文件列表，一个文本框可以让你输入文件名，和导航到其他文件夹或者目录的按钮。这确实是帮你快速找到保存你的输出文件位置或者在你希望覆盖之前保存的字体文件时选择已有字体的方法。所有你需要看的选项在窗口下半部分。
 
-<img src="images/generate.png" alt="">
+<img src="../en-US/images/generate.png" alt="">
 
 在左边是一个下拉菜单，你可以选择你希望输出的字体格式。如上所述你应该选择<em>TrueType</em>或<em>OpenType (CFF)</em>。右边确保选中<em>No Bitmap Fonts</em>。在下面一行，确保“Force glyph names to:”的选项<em>No Rename</em>选中。你如果你希望，你可以检查“Validate Before Saving”选项，但是这是可选的。保留“Append a FONTLOG entry”、“Prepend timestamp”和“Upload to the Open Font Library”不勾选。
 
@@ -80,13 +80,13 @@ CFF提示参见（视频来自RoboThon的Adobe](http://vimeo.com/38364880）
 
 首先，如果这是你字体的初始发布版本，从“Element”窗口打开<em>Font Info</em>对话框，选择“PS Names”选项卡。首先填写字体的Family Name和Weight，然后复制这个信息到“Name for Humans”框。尽管使用版本号不是必要的，但是它对于你这样的设计者区分你的工作的版本是非常有帮助的。如果你不确定的话输入“1.0”作为版本号。接下来打开“TTF Names”选项卡并输入同样的信息。
 
-<img src="images/fontinfo.png" alt="">
+<img src="../en-US/images/fontinfo.png" alt="">
 
 在使用版本号的情况下，长期为每个版本制作日志项是有帮助的。切换到“FONTLOG”选项卡并写下简明的一两句话解释你为了发布正在构建的这个版本加入的改变。如果这是你的初始日志项，那么你也应该用一两句话描述你的字体和目的。
 
 字体像所有的创意作品一样需要有一个证书，这样用户将会知道它们允许做什么不允许做什么。FontForge的“TTF Names”选项卡有一个“Add SIL Open Font License”标签的按钮。Open Font License（OFL）是一个字体证书，设计用于允许你分享你的字体给公众，而使用的时间和用在哪里的限制很少，同事仍然保护你这样的设计者不会被其他人将你的字体归功于他自己或者创造容易被误读为原创的你的字体的衍生物。惦记按钮将会为TTF Names元数据添加“License”和“License URL”字符串。如果你更愿意使用另一个许可证而不是OFL，那么在“License”域输入它。
 
-<img src="images/metadata.png" alt="">
+<img src="../en-US/images/metadata.png" alt="">
 
 如果你对你的字体的其他特点做了显著的改变，那么在Font Info窗口加倍检查字宽设置，确保一切仍然是最新是好主意。例如行间距信息可以再“Mertrics”下的“OS/2”选项卡下找到。
 
@@ -100,7 +100,7 @@ CFF提示参见（视频来自RoboThon的Adobe](http://vimeo.com/38364880）
 
 接下来点击“Options”按钮，在弹出的窗口中选中<em>PS Glyph Names</em>、<em>OpenType</em>和<em>Dummy DSIG</em>选项，并且不选中其他所有项。
 
-<img src="images/opentype-options-window.png" alt="">
+<img src="../en-US/images/opentype-options-window.png" alt="">
 
 点击“Generate”按钮，FontForge将会构建你的字体文件。最后一句话：重要的是不要用你在这一节单独为了生成你的<em>.ttf</em>或<em>.otf</em>输出而做的修改覆盖你的FontForge工作保存的版本。例如你当你执行<em>Remove overlaps</em>操作的时候丢失了许多独立字形组件。但是下次你继续你的字体工作时，你将肯定希望找回你在原作中丢下的独立字形组件填充的版本。
 

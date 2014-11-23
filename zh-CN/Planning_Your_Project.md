@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 4
 category: Before You Begin
 title: 计划好你的项目
@@ -41,6 +41,3 @@ title: 计划好你的项目
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
-
-[“What is a
-font?”]:What_Is_a_Font.html

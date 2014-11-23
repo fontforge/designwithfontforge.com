@@ -1,8 +1,8 @@
 ---
 published: true
-layout: homepage
+layout: homepage_zh-CN
 weight: 0
-title: 用FontForge设计
+title: 使用FontForge进行设计
 ---
 
 <!--
@@ -16,11 +16,13 @@ title: 用FontForge设计
   {% for p in site.pages %}
     {% if p.weight > 0 %}
     {% if p.weight == weight %}
+    {% if p.path contains 'zh-CN' %}
       <li>
         <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
           {{ p.title }}
         </a>
       </li>
+    {% endif %}
     {% endif %}
     {% endif %}
   {% endfor %}

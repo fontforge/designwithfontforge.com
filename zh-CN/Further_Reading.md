@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 93
 category: Appendices
-标题: 延伸阅读
+title: 延伸阅读
 ---
 
 ## 视频
@@ -53,7 +53,7 @@ category: Appendices
 
 标题: Detail in Typography (Paperback)
 
-坐着: Jost Hochuli (Author)
+作者: Jost Hochuli (Author)
 
 <tt>ISBN: 9780907259343</tt>
 
@@ -61,7 +61,7 @@ category: Appendices
 
 标题: Adrian Frutiger - Typefaces: The Complete Works
 
-坐着: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
+作者: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
 
 <tt>ISBN: 9783764385811</tt>
 
@@ -75,7 +75,7 @@ category: Appendices
 
 标题: Creative Characters Format: Flexibound
 
-坐着: Jan Middendorp (Editor)
+作者: Jan Middendorp (Editor)
 
 <tt>ISBN: 9789063692247</tt>
 

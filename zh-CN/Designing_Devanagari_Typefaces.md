@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 92
 category: workflow
 title: 设计天城体样式
@@ -49,13 +49,13 @@ Erin McLaughlin建议将这些字形作为一个初始连字：**पाव + क
 
 下面是Myriad Pro Latin和Myriad Arabic并排：
 
-<img src="images/myriad_pro_vs_arabic.png" />
+<img src="../en-US/images/myriad_pro_vs_arabic.png" />
 
 （认出Adobe的整洁的选择：Myriad Arabic的大写高度是Myriad Pro Latin的x高度）
 
 需要注意的是在Lohit字符集中，最低的字形是形式，意味着靠下的字符将会下沉到比基线低很多的地方：
 
-TODO: Add image of vattu+U, vattu+Uu, U, Uu, and subscript V (for conjuncts)
+待办事项：添加vattu+U，vattu+Uu，U，Uu和subscript V（用于合词）的图片
 
 （Vattu是底基线样式的reph。详情参见[微软术语](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm)页面）
 
@@ -102,7 +102,7 @@ Pa与Va或Da是天城体相等的：
 
 中间的四个字形Pa/Da/Pa/Da允许你将比较字符与两个三字符集合相比较，也就是Pa/Da/Pa或者Da/Pa/Da。
 
-<img src="images/deva-spacing.png" />
+<img src="../en-US/images/deva-spacing.png" />
 
 在对一些元音和辅音绘制和调整间距后，你将能够只使用这些字母做出数量有限的词并开始用实际文本测试你的设计。
 

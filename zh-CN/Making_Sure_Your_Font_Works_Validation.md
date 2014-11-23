@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 30
 category: workflow
 title: 确保你的字体有效，验证
@@ -14,7 +14,7 @@ FontForge提供了工具让你可以定位（并且在许多情况下修复）�
 
 第一个工具叫做em>Find Problems</em>，可以在Element菜单下找到。你必须首先选择一个或多个字形&ndash;从字体视图或者轮廓视图或者度量值视图&ndash;然后打开Find Problems工具。这个工具在八个分开的选项卡下展示潜在问题的混合。
 
-<img src="images/findproblemswindow.png" alt="">
+<img src="../en-US/images/findproblemswindow.png" alt="">
 
 你选择你感兴趣寻找的问题，方法是勾选它们旁边的复选框，有些还提供了用于检查字体的数字值。当你点击OK按钮时，这个工具将会检查所有选中的字形并在一个对话框内报告它找到的任何问题的报告。
 
@@ -63,15 +63,15 @@ Find Problems工具中的许多其他测试有助于找到并定位你的字形�
 
 FontForge的其他验证工具时全字体验证器，在整个字体上做一系列的测试和检查。由于验证器是用来检查整个字体的，因此你只能从字体视图窗口运行他；你可以再Element菜单的Validation子菜单中找到它。验证器设计用于运行一些检查字体技术上正确性的测试&ndash;本质上是上面“测试必要特性”一节描述的测试。但是它确实在整个字体上执行测试，并且比你自己用Find Problems工具一步步完成的进程要迅速很多。
 
-<img src="images/validator-integral-question.png" alt="">
+<img src="../en-US/images/validator-integral-question.png" alt="">
 
 在一个特别的编辑期间你第一次运行验证器的时候，他将会弹出一个对话框询问你它是否应该将非整型的点坐标当作是错误。安全的答案是选择“Report as an error”，因为附着在整型坐标上是一个好的设计实践。当验证器完成它对字体的扫描时（将仅仅是几秒钟之后），它将会弹出一个新的名为<em>Whatever Your Font Name Is</em>的验证对话框这个窗口将会列出验证器找到的所有问题，展现在按字形排序的列表中。
 
-<img src="images/valiator-output.png" alt="">
+<img src="../en-US/images/valiator-output.png" alt="">
 
 但是这个窗口不仅仅是一个错误的列表；你可以双击列表中的每个条目，FontForge将会跳转到相关字形并高亮显示确切的问题，最后在它自己的窗口中展示文本说明。然后你可以再字形编辑器中修复问题，关联的错误条目将会立即从验证器的错误列表中消失。在许多情况下，错误可以被FontForge自动修复；在这些情况下说明窗口将会在底部包含一个“Fix”按钮。你可以点击它执行修复而不需要额外努力。
 
-<img src="images/validator-fix-problem.png" alt="">
+<img src="../en-US/images/validator-fix-problem.png" alt="">
 
 对于一些问题，并不能自动修复，但是在屏幕上看到问题将有助于你立即修复。例如一个自交曲线在一个特定的地方上路径穿过它自己&ndash;这对于你来说可能很难一眼瞥到，按时放大后你就可以改造形状消除问题。
 

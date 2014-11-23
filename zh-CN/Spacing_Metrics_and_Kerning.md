@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 29
 category: workflow
-title: 间距, 度量值和紧缩
+title: 间距，度量值和紧缩
 ---
 
 字符之间的距离是字体设计中重要的必须的一部分。
@@ -14,7 +14,7 @@ title: 间距, 度量值和紧缩
 
 任意两个字形间的间距分为两部分；第一个字形后的间距和第二个字形前的间距。字形间的这些间距是由两个字形间的“旁边空白”组成。每个字形有一个左跨距和一个右跨距，在下面的Open Sans字体的小写字母“a”的例子中，右跨距的值是166单位，左跨距的值时94单位。
 
-<img src="images/sidebearings.png" alt="">
+<img src="../en-US/images/sidebearings.png" alt="">
 
 ## 度量值窗口的基本功能
 
@@ -42,7 +42,7 @@ title: 间距, 度量值和紧缩
 
 对于不折不扣的新手，不要假设可靠的结果以来测量间距来取得。例如虽然两个字符间的测量值不相等，但是眼睛看起来是相等的。一个明显的这样的例子在尝试调整字符“H”和“O”的间距的时候可以看到。因此对于下面的例子，“H”和“O”的旁边空白相等，但是看起来不相等。在下面的一条线上，旁边空白不相等但是间距看起来是平衡的。
 
-<img src="images/hoohooo2.png" alt=""><img src="images/hoohooo1.png" alt="">
+<img src="../en-US/images/hoohooo2.png" alt=""><img src="../en-US/images/hoohooo1.png" alt="">
 
 产生这样文本的一个工具在<http://tools.ninastoessinger.com/>
 
@@ -68,7 +68,7 @@ title: 间距, 度量值和紧缩
 
 从度量值窗口的一个小写字母“o”的字符串开始，左边和右边的空白可以调整直到字符间距看起来感觉对。寻找这个正确的位置的一个方法是寻找“o”字符之间的空白来平衡字符“o”内的空白。通常出了斜体字体外，小写字母“o”的左边和右跨距应该值相等。一旦你满意“o”字符串间距，从你的字体中引进“n”（如下）并通过观察调整“n”的旁白空白着这样它的间距适合“o”字符串的平衡（如下）。需要注意的是由于我们的眼睛看东西的本性，“n”的右跨距值总是比左跨距的值小，“o”的旁白空白比“n”的旁边空白小。
 
-<img src="images/snapshot1_1.png" alt="">
+<img src="../en-US/images/snapshot1_1.png" alt="">
 
 一旦“n”和“o”都有了充分间距，那么他们的旁边空白可以用来创建一组其他字母的旁边空白，例如：
 
@@ -82,7 +82,7 @@ title: 间距, 度量值和紧缩
 
 <p class="note"><b>注意：</b>上述应该用作指南，可以用作找到这些旁边空白值的一个超有效的出发点。</p>
 
-<img src="images/snapshot2.png" alt="">
+<img src="../en-US/images/snapshot2.png" alt="">
 
 如上图所示，这对于使用“n”和“o”的字符串来调整剩余小写字母的旁边空白间距是有意义的。再次强调，相信你的眼睛来达到字符的正确平衡。
 
@@ -90,7 +90,7 @@ title: 间距, 度量值和紧缩
 
 大写字母可以用如上相同的原则来调整间距。例如从字符串“Hooooo”开始，调整“H”的右跨距直到感觉与“o”字符串平衡。由于“H”的左跨距等于右跨距，那么大写字母“O”可以通过“H”来调整间距（如下）。
 
-<img src="images/snapshot3.png" alt="">
+<img src="../en-US/images/snapshot3.png" alt="">
 
 通过已经调整好间距的字符来从这里调整所有其他字符间距。需要注意这个方法可以用作调整字体间距的好的起点，但是很可能需要花费更多时间很好地微调间距来实现较高层次的好的字母间距。其他在这里有用的字符串包括“naxna”，“auxua”，“noxno”，“Hxndo”。
 
@@ -98,8 +98,8 @@ title: 间距, 度量值和紧缩
 
 紧缩是特定字母对之间间距的调整。紧缩允许你在两个字符之间应用除了字符提供的旁边空白外的独立间距。需要紧缩来改善间距的常见一对字符例子有“WA”，“Wa”，“To”，“Av”。在下面的例子中，我们可以看到没有紧缩间距的一对字母“T-o”和“V-a”太宽了，这些字符对在紧缩间距后字体的其他间距的感觉更加平衡。
 
-<img src="images/kern1.png" alt="">
-<img src="images/kern2.png" alt="">
+<img src="../en-US/images/kern1.png" alt="">
+<img src="../en-US/images/kern2.png" alt="">
 
 FontForge的度量值窗口可以用来设计旁边空白和紧缩值。在FontForge中紧缩值可以通过一些方法来应用，其中两种方法在下面展示，类别紧缩和独立对紧缩。
 
@@ -115,7 +115,7 @@ FontForge的度量值窗口可以用来设计旁边空白和紧缩值。在FontF
 
 “Kern Pair Closeup” - 这个命令提供一个可以调整已有的紧缩对或者创建新的紧缩对的对话框给用户（如下）。
 
-<img src="images/kerncloseup.png" alt="" height="686" width="632">
+<img src="../en-US/images/kerncloseup.png" alt="" height="686" width="632">
 
 ## 使用键盘调整紧缩值
 
@@ -125,7 +125,7 @@ FontForge的度量值窗口可以用来设计旁边空白和紧缩值。在FontF
 
 在FontForge中这是创造紧缩的对的最基本的方法。在度量值窗口中，两个字符的紧缩值可以通过拖动右边字符接近或远离左边字符或者在窗口的度量值表格中直接编辑紧缩值来手动调整。通过拖动字符来修改紧缩值，则使用在鼠标指针悬停在两个字符之间时出现的紧缩工具手柄（屏幕截图如下）。度量值表格中的紧缩值可以通过手动输入值编辑或者使键盘上下键来增加/减少值。
 
-<img src="images/mnl-kern.png" alt="">
+<img src="../en-US/images/mnl-kern.png" alt="">
 
 ## 使用类别紧缩
 
@@ -143,25 +143,25 @@ FontForge的度量值窗口可以用来设计旁边空白和紧缩值。在FontF
 
 - 点击“OK”。你可以保留FontForge为你创造的默认名称。 
 
-<img src="images/kern_classes_1.png" />
+<img src="../en-US/images/kern_classes_1.png" />
 
 现在你可以看到一个窗口，可以在其中构建你的实际紧缩类别（如上）。紧缩对的第一个字符可以从左边的列中选择，第二个字符可以从右边的列中选择。
 
 在FontForge中Element &gt; Font Info &gt; Lookups选项卡提供了一个类别紧缩的界面。它提供了一个对话框展示所有的GPOS查找（紧缩是其中之一）和其子表。屏幕截图如下：
 
-<img src="images/kernclass1.png" alt="">
+<img src="../en-US/images/kernclass1.png" alt="">
 
 为了创建一个新的紧缩查找，点击“Add Lookup”并选择“Pair Position（kerning）”作为查找类型，并赋予这个查找自己的唯一的名字（如下）。
 
-<img src="images/kernclass2.png" alt="">
+<img src="../en-US/images/kernclass2.png" alt="">
 
 紧缩类别的每个集合都存在他自己的子表中。为了创建一个子表，点击“Add Subtable”。当你创建一个紧缩子表的时候，你会被询问想要一个独立紧缩对的集合还是基于类别的矩阵。如果你选择类别，你将会看到如下对话框，你可以在其中创建类别。需要注意的是你可以选择启用FontForge来“推测”或“自动紧缩”你在对话框中创建的类别之间的紧缩值。如果使用FontForge来推测紧缩值，你将确实需要许多尝试和错误和试验，但是使用自动紧缩功能作为紧缩你的字体的起点是有意义的。
 
-<img src="images/kernclass3.png" alt="">
+<img src="../en-US/images/kernclass3.png" alt="">
 
 例如在上面的屏幕截图中，创建了2个类别；一个类别包含字符“T”，另一个包含字符“o”。点击上面对话框中的“OK”，你将会看到下面的对话框，在里面你可以很好地调整这两个“T”和“o”类别之间的紧缩总量。
 
-<img src="images/kernclass4.png" alt="">
+<img src="../en-US/images/kernclass4.png" alt="">
 
 ## 手动紧缩
 

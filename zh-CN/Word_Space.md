@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_zh-CN
 weight: 21
 category: workflow
 title: 字间距
@@ -9,15 +9,15 @@ title: 字间距
 特别关注字间距可能听起来是可笑的，但是它是字体设计中最通用的部分之一。
 太宽或者太窄的字间距将会毁掉字体的设计。在你刚刚建立了第一个字符的时候就开始考虑字间距并不会太早。在这一点上你做的决定会在字体设计的过程中逐渐调整。
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt height="251" width="486">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt height="251" width="486">
 
 字间距太紧了&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt height="273" width="474">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt height="273" width="474">
 
 &hellip;这里又太宽了。
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt height="270" width="466">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt height="270" width="466">
 
 现在这个平衡地很好.
 
