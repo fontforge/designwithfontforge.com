@@ -12,7 +12,7 @@ While you may want to do a wide range of things with weight it is likely that yo
 
 Because you are using FontForge you have a distinct advantage. Unlike many font editing programs, the results you get from FontForge style filter may actually be suitable for use -- moreso than the ones you would get in commercial type design software. This is because the algorithm it uses is exceptionally sophisticated.
 
-Creating a bold version of a font can be rapidly approximated by running a filter called <em>Change weight</em> (which you will find in he Element &gt; Styles menu) to add weight to your glyphs.
+Creating a bold version of a font can be rapidly approximated by running a filter called <em>Change weight</em> (which you will find in the Element &gt; Styles menu) to add weight to your glyphs.
 
 The automatic nature and relatively high speed of this process makes it ideal for testing what weight you may want for your bold. You may want to try running this filter several times and save several versions to compare in text next to your regular. That said, you may still need to either alter the result further after running the filter, or manually adjust individual glyphs in order to get a result which is satisfactory.
 
