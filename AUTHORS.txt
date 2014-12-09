@@ -1,0 +1,10 @@
+# This file lists authors for copyright purposes
+
+Nathan Willis
+Vernon Adams
+Eben Sorkin
+Jason Pagura
+Ben Martin
+Matthew Skala
+Martin B Brilliant
+Google, Inc
