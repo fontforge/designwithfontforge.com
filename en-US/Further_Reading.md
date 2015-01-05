@@ -158,8 +158,8 @@ Title: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
 
 <hr />
 
-Title: The Unicode Standard, Version 5.0
+Title: [The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)
 
 Author: The Unicode Consortium (Author)
 
-<tt>ISBN-10: 0321480910 | ISBN-13: 978-0321480910</tt>
+<tt>ISBN: 978-1-936213-09-2</tt>
