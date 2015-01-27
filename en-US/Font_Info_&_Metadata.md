@@ -21,4 +21,4 @@ This means for font designers that our font family names should be set up in a w
 
 Here is a table, based on information shared by Polish font expert Adam Twardoch:
 
-<iframe src="https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">Font Naming Table</iframe>
