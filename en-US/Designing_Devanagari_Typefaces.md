@@ -135,6 +135,17 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 |17|General refinement of spacing, kerning & testing in all styles|3,600|
 |18|Finalisation|3,600|
 
+You may want to work with a font that has no sources available, only binary OpenType GPOS/GSUB tables. 
+There are a few tools that can convert those into the Adobe FEA syntax, including FontForge, but the output of each tool will require reworking by hand.
+
+The Adobe FDK contains a 'spot' tool, that can be used like this:
+
+> spot -t GSUB=7 Font.otf > GSUB.fea
+
+The noto project has a [dump_otl.py](https://code.google.com/p/noto/source/browse/nototools/dump_otl.py)
+
+The 'Fontlab Studio' and 'OpenType Master' proprietary application have converters too. 
+
 ## Useful Resources
 
 ### Introductions
