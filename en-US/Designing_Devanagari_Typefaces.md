@@ -207,7 +207,7 @@ The [Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf) shows
 
 ### Testing Tools
 
-Adobe InDesign's support for OpenType Fonts for non-European scripts only became reliable with Creative Cloud, and even the latest version can be improved. The libre harfbuzz and Microsoft OpenType implementations are the most complete, so you should test your fonts in the latest versions of Chrome, Firefox and Microsoft Word, on both Windows and Mac OS X, to ensure errors in shaping are due to the fonts and not the underlying engine. 
+Adobe InDesign's support for OpenType Fonts for non-European scripts only became reliable with Creative Cloud, and [the World Ready Composer paragraph option must be enabled](http://blogs.adobe.com/vikrant/2012/05/indesign-cs6-indic-support-and-preferences/); even the latest version can be improved. The libre harfbuzz and Microsoft OpenType implementations are the most complete, so you should test your fonts in the latest versions of Chrome, Firefox and Microsoft Word, on both Windows and Mac OS X, to ensure errors in shaping are due to the fonts and not the underlying engine. 
 
 [Pablo Impallari's Devanagari Testing Page](http://www.impallari.com/testing/devatest.php) (with [sources on github!](https://github.com/impallari/font-testing-page/)) provides some ready-made testing layouts, and you can drag and drop your OTF or TTF right into the page to load it.
 
