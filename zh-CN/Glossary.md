@@ -10,16 +10,16 @@ title: 术语表
 
 ### Abjad
 
-辅音音素文字（Abjad）是一个闪族（Semitic）语言使用的书写系统类型（Hebrew，Arabic等）的技术术语，有表示所有辅音的字形但是读者必须准备好猜测两个辅音之间添加什么元音。
+辅音音素文字（Abjad）是一个闪语族（Semitic）语言使用的书写系统类型（希伯来文、阿拉伯文等）的技术术语，有表示所有辅音的字形但是读者必须准备好猜测两个辅音之间添加什么元音。
 
-Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素文字。
+希伯来文与阿拉伯文有可选的元音标记，被称作“不纯的”辅音因素文字。
 
 
-参见：字母表，元音附标文字，音节字母和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
+参见：字母表，元音附标文字，音节字母和相关的维基百科条目（[http://en.wikipedia.org/wiki/Abjad](http://en.wikipedia.org/wiki/Abjad)）。
 
 ### Abugida
 
-元音附标文字（Abugida）是字母表和音节字母之间的地方。印度语书写系统可能是最著名的元音附标文字。
+元音附标文字（Abugida）是字母表和音节字母之间的地方。印度语言书写系统可能是最著名的元音附标文字。
 
 在大多数元音附标文字中有独立的辅音字形，每个辅音都隐含地后面跟着一个默认的元音发音。所有的元音除了默认的都将被标记变音符号或一些其他基本辅音的修改。
 
@@ -27,21 +27,21 @@ Hebrew与Arabic有可选的元音标记，被称作“不纯的”辅音因素�
 
 一个元音附标文字与辅音音素文字不同之处在于元音（除了默认的）必须标记在在元音附标文字上。
 
-参见：字母表，辅音音素文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
+参见：字母表，辅音音素文字，音节文字和相关的维基百科条目（[http://en.wikipedia.org/wiki/Abugida](http://en.wikipedia.org/wiki/Abugida)）。
 
-### 重音
+### Accent（重音）
 
 参见变音符号
 
-### 步进宽度
+### Advance Width（步进宽度）
 
 当前字形的开始与下个字形的开始之间的距离。有时候被称作是字形的宽度。参见竖直步进宽度。
 
-### 字母表
+### Alphabet（字母表）
 
-一个拥有所有因素的字形书写系统&ndash;类似于辅音和元音&ndash;并且（无论如何在理论上）一个词中所有的音素会被标记上一个适当的字形。
+一个拥有所有因素的字形书写系统&mdash;&mdash;类似于辅音和元音&mdash;&mdash;并且（无论如何在理论上）一个词中所有的音素会被标记上一个适当的字形。
 
-参见：辅音音素文字，元音附标文字，音节文字和相关的维基百科文章（[http://en.wikipedia.org/wiki/Alphabet](http://en.wikipedia.org/wiki/Alphabet)）
+参见：辅音音素文字，元音附标文字，音节文字和相关的维基百科条目（[http://en.wikipedia.org/wiki/Alphabet](http://en.wikipedia.org/wiki/Alphabet)）
 
 ### Apple Advanced Typography
 
@@ -74,13 +74,13 @@ Apple对基本TrueType字体的扩展。包括上下文的替换，连字，字�
 ## B
 ### Baseline
 
-基线（Baseline）是（latin，greek，cyrillic）字母放置的水平线。基线在不同的书写字母中可能有不同的位置。在印度语书写字母中多数字母下降超过基线。在CJK书写字母中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同书写字母的基线相对于其他应该如何对齐。
+基线（Baseline）是字母（拉丁字母、希腊字母、西里尔字母）放置的水平线。基线在不同的书写字母中可能有不同的位置。在印度语书写字母中多数字母下降超过基线。在CJK书写字母中竖直基线通常在字形的中间。BASE与bsln表允许你指定不同书写字母的基线相对于其他应该如何对齐。
 
 参见x高度，大写高度，顶部，底部，上突。
 
-### B&eacute;zier曲线或者B&eacute;zier样条曲线
+### 贝兹曲线或者贝兹样条曲线
 
-B&eacute;zier曲线在手册主要部分的B&eacute;zier一章。
+贝兹（B&eacute;zier）曲线在手册主要部分的贝兹一章。
 
 ### Bidi
 
@@ -92,7 +92,7 @@ B&eacute;zier曲线在手册主要部分的B&eacute;zier一章。
 
 参见哥特体（gothic）。
 
-### BMP (Basic Multilingual Plane)
+### BMP（Basic Multilingual Plane，基本多语种平面）
 
 Unicode的前65536码点。它们包含了现代世界中大多数的普通字符。参见
 
@@ -110,7 +110,7 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 ### Bopomofo
 
-汉语拼音字母（Bopomofo）是一个（现代~1911）汉语（普通话）字母表，用来在字典中表示汉字的拼音。
+注音符号（Bopomofo）是一个（现代~1911）汉语（普通话）字母表，用来在字典中表示汉字的注音。
 
 ### Boustrophedon
 
@@ -129,7 +129,7 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 
 ### Character
 
-字符（Character）是柏拉图式的理想具体化到至少一个字形中。例如字母“s”是一个具体化到几种不同字形的字符，包括“S”，“s”，“*s*”，“&szlig;”，long-s等。需要注意的是这些字形可能看起来互相非常不同，但是尽管积分符号的字形可能与long-s字形相同，但它们是不同的字符。
+字符（Character）是柏拉图式的理想具体化到至少一个字形中。例如字母“s”是一个具体化到几种不同字形的字符，包括“S”，“s”，“*s*”，“&szlig;”，长s等。需要注意的是这些字形可能看起来互相非常不同，但是尽管积分符号的字形可能与长s字形相同，但它们是不同的字符。
 
 ### Character set
 
@@ -164,7 +164,6 @@ Unicode的前65536码点。它们包含了现代世界中大多数的普通字�
 ### Counter
 
 一个字形的对立面（Counter）是字形中完全或部分闭合的白色部分。o和n都有对立面。i和l没有。e有对立面。B有两个对立面。
-The counter of a glyph is the white part which is either fully or partially enclosed. The o and n both have counters. The i and l do not. The e and both have counters. The B has two counters.
 
 ## D
 ### Descender
@@ -190,7 +189,7 @@ The counter of a glyph is the white part which is either fully or partially encl
 
 迪罗磅（Didot point）是欧洲的一种磅。每23.566毫米是62 2/3磅（2.66磅/毫米或者67.55磅每英寸）。也有“公制”的迪罗磅：.4毫米。
 
-### 变形字体
+### Distortable font（变形字体）
 
 参见多主字体。
 
@@ -217,7 +216,7 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Eth -- Edh
 
-旧日尔曼语字母“&eth;”对应浊音的（英文的）“th”发音（“this”中的发音&ndash;大多数说英语的人甚至不知道英语中的“th”有两个发音关联到它，但它确实如此，参见Thorn）。
+旧日尔曼语字母“&eth;”对应浊音的（英文的）“th”发音（“this”中的发音&mdash;&mdash;大多数说英语的人甚至不知道英语中的“th”有两个发音关联到它，但它确实如此，参见Thorn）。
 
 ### Even-Odd Fill rule
 
@@ -274,11 +273,11 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Glyph
 
-一个字形是一张图片，通常关联到一个或多个字符。所以用来绘制“f”的字形关联到字符f，而连字“fi”的字形同时关联到f和i。在简单的拉丁字体中，关联关系通常是一对一（也就是一个字形恰好地关联到一个字符），而在更复杂的字体或手写中可能两个字形关联到每个字符（在文艺复兴时期的印刷中字母“s”与两个字形关联，一个是long-s，用在开头和中间，另一个是short-s，用在词的结尾）。在手写中一个字形关联到两个或更多字符。
+一个字形是一张图片，通常关联到一个或多个字符。所以用来绘制“f”的字形关联到字符f，而连字“fi”的字形同时关联到f和i。在简单的拉丁字体中，关联关系通常是一对一（也就是一个字形恰好地关联到一个字符），而在更复杂的字体或手写中可能两个字形关联到每个字符（在文艺复兴时期的印刷中字母“s”与两个字形关联，一个是长s，用在开头和中间，另一个是短s，用在词的结尾）。在手写中一个字形关联到两个或更多字符。
 
 字体是字形和一些从字符到字形的映射形式的集合。
 
-### 网格适应
+### Grid Fitting（网格适应）
 
 在TrueType字形栅格化之前，它们要经过一个被称为网格适应的过程，会运行一个 很小的程序（关联到每个字形），这个程序将会移动字形轮廓周围的点直到它们更好地适应像素网格。
 
@@ -290,9 +289,9 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 Graphite是TrueType的一个扩展，将几个表嵌入到一个字体中，包括上下文形状、连字、重排序、分割字形、双向、变音符号堆叠、复杂位置等的规则。
 
-这听起来更像OpenType&ndash;除了OpenType依赖于文本布局惯例来了解关于涉及字形的许多东西。这意味着OpenType字体在没有新版本操作系统推出的情况下不能设计用于一种新的语言或者手写。而Graphite表包含了所有这些隐藏的信息。
+这听起来更像OpenType&mdash;&mdash;除了OpenType依赖于文本布局惯例来了解关于涉及字形的许多东西。这意味着OpenType字体在没有新版本操作系统推出的情况下不能设计用于一种新的语言或者手写。而Graphite表包含了所有这些隐藏的信息。
 
-Apple's Advanced Typography提供了更好的对比，但是Graphite表被认为更容易构建。
+Apple Advanced Typography提供了更好的对比，但是Graphite表被认为更容易构建。
 
 SIL International提供了一个自由的Graphite编译器。
 
@@ -301,13 +300,13 @@ SIL International提供了一个自由的Graphite编译器。
 参见sans-serif。
 
 ## H
-### Han characters
+### Han characters（汉字）
 
-在中国、日本、韩国使用的表意文字（并且我认为在许多其他亚洲国家也是这样（越南？）），都基于在中国形成的书写系统。
+汉字，在中国、日本、韩国使用的表意文字（并且我认为在许多其他亚洲国家也是这样（越南？）），都基于在中国形成的书写系统。
 
 ### Hangul
 
-韩文音节表。基于一个字母表的唯一的音节表（无论如何我这么认为）&ndash;字母表中的字母从不单独出现，只有两个或三个作为一组才能组成一个音节。
+韩文音节表。基于一个字母表的唯一的音节表（无论如何我这么认为）&mdash;&mdash;字母表中的字母从不单独出现，只有两个或三个作为一组才能组成一个音节。
 
 ### Hanja
 
@@ -339,7 +338,7 @@ SIL International提供了一个自由的Graphite编译器。
 ## J
 ### Jamo
 
-韩文字母表中的字母。它们几乎从不单独出现，通常作为Hangul音节的一部分以三个为一组出现。Jamo被分为三类（第一个和第三个有相当大的重叠），choseong&ndash;词首辅音，jungseong&ndash;中元音，jongseong&ndash;词尾辅音。一个音节通过将choseong放在em-square的左上，jungseong放在右上，可选地将jongseong放在下部来组成。
+韩文字母表中的字母（Jamo）。它们几乎从不单独出现，通常作为Hangul音节的一部分以三个为一组出现。字母被分为三类（第一类和第三类有相当大的重叠），choseong&mdash;&mdash;初声，词首辅音，jungseong&mdash;&mdash;中声，中元音，jongseong&mdash;&mdash;终声，词尾辅音。一个音节通过将初声放在em-square的左上，中声放在右上，终声可选地放在下部来组成。
 
 ## K
 ### Kanji
@@ -364,7 +363,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 字体中的字形被分开到一些字形类别。有一张很大的表来指定列别之间所有可能的联合的字距紧缩。通常由于每个类别经常包含多个字形，所以这将会比设置字距紧缩对要小。
 
-### Knuth, Donald
+### Knuth, Donald（高德纳）
 
 他是一个数学家，对糟糕的排版感到如此厌倦以至于在十九世纪七八十年代创造了自己的字体设计系统排字布局程序，分别被称作MetaFont和TeX。
 
@@ -387,12 +386,12 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### LGC
 
-拉丁语，希腊语和西里尔语。这三个字母表在过去的几千年里一起进化。字母形式非常累死（一些字母是共享的）。许多概念比如“小写”，“斜体”可以应用在这三个字母表上而不能应用在任何其他上面（好吧，亚美尼亚语也有小写字母）。
+拉丁文，希腊文和西里尔文。这三个字母表在过去的几千年里一起进化。字母形式非常累死（一些字母是共享的）。许多概念比如“小写”，“斜体”可以应用在这三个字母表上而不能应用在任何其他上面（好吧，亚美尼亚语也有小写字母）。
 
 ## M
 ### Manyogana
 
-一个早期的日语手写体，是平假名和片假名的祖先。Manyogana使用汉字作为它们的发音，许多年后这些汉字简化为平假名和片假名。
+一个早期的日语手写体，是平假名和片假名的祖先。万叶假名（Manyogana）使用汉字表示它们的发音，许多年后这些汉字简化为平假名和片假名。
 
 ### Monospace
 
@@ -416,8 +415,7 @@ Adobe不再开发这种格式。苹果有一种格式可以实现同样的效果
 ## N
 ### Namelist
 
-名称表（Namelist）是Unicode码点到字形名称的一个映射
-A mapping from Unicode code point to glyph name.
+名称表（Namelist）是Unicode码点到字形名称的一个映射。
 
 ### Non-Zero Winding Number Fill rule
 
@@ -449,7 +447,7 @@ A mapping from Unicode code point to glyph name.
 
 字体的一个倾斜样式，通常用来表示强调。
 
-倾斜（Oblique）与斜体（意大利斜体）不同之处在于从水平到倾斜形式涉及到一个数学上或机械上的偏斜字母形式。
+伪斜体（Oblique）与斜体（意大利斜体）不同之处在于从水平到倾斜形式涉及到一个数学上或机械上的偏斜字母形式。
 
 ### Overshoot    
 
@@ -474,7 +472,7 @@ FontForge只知道拉丁字体的分类方案。其他方案为其他手写体�
 
 ### Phantom points
 
-在TrueType字体中有一些添加到每个字形上的点，它们并不被组成字形的轮廓所指定。它们被称作幽灵点（Phantom points）。这些点中的一个代表左跨距，另一个是字形的步进宽度。TrueType说明（提示，hints）允许移动这些点，就像其他任何可能被移动的点&ndash;从而改变左跨距或者步进宽度。TrueType的早期版本只提供这两种幽灵点，较新的版本也支持上跨距幽灵点和竖直步进宽度的幽灵点。
+在TrueType字体中有一些添加到每个字形上的点，它们并不被组成字形的轮廓所指定。它们被称作幽灵点（Phantom points）。这些点中的一个代表左跨距，另一个是字形的步进宽度。TrueType说明（提示，hints）允许移动这些点，就像其他任何可能被移动的点&mdash;&mdash;从而改变左跨距或者步进宽度。TrueType的早期版本只提供这两种幽灵点，较新的版本也支持上跨距幽灵点和竖直步进宽度的幽灵点。
 
 ### Pica
 
@@ -496,7 +494,7 @@ FontForge只知道拉丁字体的分类方案。其他方案为其他手写体�
 
 如我可以告诉你的，计算机倾向于以pica磅的近似值工作（但是这可能是因为我在美国），PostScript使用1/72英寸的单位。
 
-最初字体并不通过磅值来描述，而是通过名称。直到17世纪30年代Pierre Fournier创造了用于指定字体高度的磅系统。接下来这被François-Ambroise Didot改进（因此有了磅的名称）。在1878年芝加哥字体公司首先在美国使用磅系统。在1886年美国磅被标准化&ndash;pica被定义为35/83厘米，pica磅被定义为它的1/12。
+最初字体并不通过磅值来描述，而是通过名称。直到17世纪30年代Pierre Fournier创造了用于指定字体高度的磅系统。接下来这被François-Ambroise Didot改进（因此有了磅的名称）。在1878年芝加哥字体公司首先在美国使用磅系统。在1886年美国磅被标准化&mdash;&mdash;pica被定义为35/83厘米，pica磅被定义为它的1/12。
 
 ### Point Size
 
@@ -538,7 +536,7 @@ PostScript是许多打印机使用的页布局语言。语言包含集中不同�
 
 ### Script
 
-手写体（Script）是一个字符集和将字符放在一起的相关规则。拉丁文，阿拉伯文，片假名和朝鲜汉子都是手写体。
+文字（Script）是一个字符集和将字符放在一起的相关规则。拉丁文，阿拉伯文，片假名和朝鲜汉字都是文字。
 
 ### Serif
 
@@ -575,7 +573,7 @@ Unicode的表意文字补充平面（Supplementary Ideographic Plane，0x20000-0
 
 ### SMP
 
-Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表&ndash;像Linear B，Gothic和Shavian。参见
+Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表&mdash;&mdash;像Linear B，Gothic和Shavian。参见
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
@@ -620,13 +618,13 @@ Unicode的特别用途补充平面（Supplementary Special-purpose Plane，0xE00
 
 ### SVG
 
-Scalable Vector Graphics。一个用于绘制矢量图的XML格式。它包含了一个字体格式。
+可缩放矢量图形（Scalable Vector Graphics）。一个用于绘制矢量图的XML格式。它包含了一个字体格式。
 
 ### Syllabary
 
 音节表（Syllabary）像字母表一样，是一个语音上的书写系统。与字母表不同，书写的发音单元是音节而不是音位。在日文片假名中“ka”音由一个字形来代表。音节表倾向于比字母表大（日文片假名需要大约60个不同的字符，而韩文Hangul需要几万个）。
 
-参见：abjad，abugida，alphabet和[相关维基百科文章](http://en.wikipedia.org/wiki/Syllabary)。
+参见：abjad，abugida，alphabet和[相关维基百科条目](http://en.wikipedia.org/wiki/Syllabary)。
 
 ## T
 ### Terminal
@@ -635,7 +633,7 @@ Scalable Vector Graphics。一个用于绘制矢量图的XML格式。它包含�
 
 ### TeX
 
-一个排字程序包。
+一个文字排版程序包。
 
 ### Thorn
 
@@ -643,7 +641,7 @@ Scalable Vector Graphics。一个用于绘制矢量图的XML格式。它包含�
 
 ### True Type
 
-苹果发明并分享给微软的一个字体。它用来指明轮廓的是二次（二次方）B&eacute;zier曲线，包含创新的提示控制和包含任何认为对字体重要的附加信息表的一个可扩展的系列。
+苹果发明并分享给微软的一个字体。它用来指明轮廓的是二次（二次方）贝兹曲线，包含创新的提示控制和包含任何认为对字体重要的附加信息表的一个可扩展的系列。
 苹果和Adobe/微软用不同的方式扩展这些表来包含非拉丁手写体（或复杂的拉丁手写体）所需要的先进的排字特性。参见Apple Advanced Typography和OpenType。
 
 ### TrueType Tables
@@ -668,7 +666,7 @@ PostScript字体的一个类型。
 
 ### Type High
 
-在金属字体的年代，这是金属块的高度&ndash;印刷面到它所放置的平台的距离。
+在金属字体的年代，这是金属块的高度&mdash;&mdash;印刷面到它所放置的平台的距离。
 
 ### Typewriter
 
@@ -686,7 +684,7 @@ PostScript字体的一个类型。
 
 ### Undershoot
 
-参见Overshoot.
+参见Overshoot。
 
 ### UniqueID
 
