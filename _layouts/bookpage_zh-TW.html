@@ -1,0 +1,43 @@
+{% include html-start.html %}
+
+	{% include header-masthead_zh-TW.html %}
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </section>
+
+        <aside id="sidebar">
+<!--          <a href="" class="button">
+            <small>Download book as</small>
+            PDF
+          </a>-->
+          <ol class="rectangle-list">
+          {% for weight in (1..100) %}
+            {% for p in site.pages %}
+              {% if p.weight > 0 %}
+              {% if p.weight == weight %}
+              {% if p.path contains 'zh-TW' %}
+                <li>
+                  <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                    {{ p.title }}
+                  </a>
+                </li>
+              {% endif %}
+              {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          </ol>
+          <p>本書即是自由文化，<a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">採 GitHub 代管</a>。歡迎提供補丁、建議、校正。</p>
+          <p><a class"" href="https://github.com/fontforge/designwithfontforge.com/commits/gh-pages">檢閱最近的更改</a></p>
+          <p><a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">編修此頁</a> (<a href="https://github.com/fontforge/designwithfontforge.com">瞭解作法</a>)</p></p>
+        </aside>
+      </div>
+    </div>
+
+{% include footer_zh-TW.html %}
+
+{% include html-end.html %}

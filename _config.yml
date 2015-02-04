@@ -5,4 +5,6 @@ pygments: false
 permalink: none
 url: http://designwithfontforge.com
 title: Design With FontForge
+title_zh-TW: FontForge 與字體設計
 subtitle: A book about how to create new typefaces using FontForge
+subtitle_zh-TW: 介紹以 FontForge 製作新字型的書
