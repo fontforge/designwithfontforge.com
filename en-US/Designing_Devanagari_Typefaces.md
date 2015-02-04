@@ -7,7 +7,7 @@ title: Designing Devanagari Typefaces
 ---
 
 
-_Thanks to Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena, Dr Girish Dalvi for contributing many of the ideas on this page_
+_Thanks to Adam Twardoch, Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena, Dr Girish Dalvi for contributing many of the ideas on this page_
 
 Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of - for example, designing a Devanagari and adapting an existing Latin font to go with it. 
 
@@ -55,7 +55,6 @@ Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
 
 Note that in the Lohit character set, the lowest glyphs are forms, meant to go below characters that descend very far below the baseline:
 
-TODO: Add image of vattu+U, vattu+Uu, U, Uu, and subscript V (for conjuncts)
 
 (Vattu is the below-base form of reph. See the [Microsoft terminology](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) page for more details)
 
@@ -105,29 +104,47 @@ And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested c
 
 <img src="images/deva-spacing.png" />
 
+After drawing and spacing a handful of vowels and consonants, you'll be able to make a limited number of words with only those letters, and begin testing your design with real text. 
+
 ## Work Breakdown Structure
 
 In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
 
-For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 2 to 3 months. 
+For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 4-6 months. 
 
 Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
 
 |Week|Goal|Glyphs|
 |--:|:--|--:|
 |1|Establish design in 7-10 key glyphs|10|
-|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|10|
-|3|Refine proportions with native reader feedback|20|
+|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|20|
+|3|Refine proportions with native reader feedback|40|
 |4|Get native reader feedback, refine and add more conjuncts|100|
 |5|Get native reader feedback, refine and add more conjuncts|200|
 |6|Get native reader feedback, refine and add more conjuncts|300|
 |7|Get native reader feedback, refine and add more conjuncts|400|
-|8|Derive Bold|800|
-|9|Refinements, Kerning, testing with native reader feedback|800|
-|10|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|1,200|
-|11|Interpolated styles refinement|1,200|
-|12|General refinement of spacing, kerning & testing in all styles|3,600|
-|13|Finalisation|3,600|
+|8|Get native reader feedback, refine and add more conjuncts|500|
+|9|Get native reader feedback, refine and add more conjuncts|600|
+|10|Get native reader feedback, refine and add more conjuncts|700|
+|11|Get native reader feedback, refine and add more conjuncts|800|
+|12|Get native reader feedback, refine and add more conjuncts|900|
+|13|Derive Bold|1,800|
+|14|Refinements, Kerning, testing with native reader feedback|1,800|
+|15|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|3,600|
+|16|Interpolated styles refinement|3,600|
+|17|General refinement of spacing, kerning & testing in all styles|3,600|
+|18|Finalisation|3,600|
+
+You may want to work with a font that has no sources available, only binary OpenType GPOS/GSUB tables. 
+There are a few tools that can convert those into the Adobe FEA syntax, including FontForge, but the output of each tool will require reworking by hand.
+
+The Adobe FDK contains a 'spot' tool, that can be used like this:
+
+> spot -t GSUB=7 Font.otf > GSUB.fea
+
+The noto project has a [dump_otl.py](https://code.google.com/p/noto/source/browse/nototools/dump_otl.py)
+
+The 'Fontlab Studio' and 'OpenType Master' proprietary application have converters too. 
 
 ## Useful Resources
 
@@ -178,6 +195,8 @@ Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph Lis
 
 ### Devanagari Anatomy
 
+[TDIL Devanagari Script Grammar (PDF)](http://www.tdil-dc.in/tdildcMain/articles/82170Devanagari%20Script%20Behaviour%20for%20Hindi%20%20ver%201.4.10.pdf)
+
 [2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J), which can be used as a reference for pen angle and letter proportions.
 
 Professor Girish Davli of IIT Bombay IDC (comparable to the USA's MIT Media Lab) published this [Devanagari Anatomy article (PDF)](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
@@ -188,13 +207,22 @@ The [Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf) shows
 
 ### Testing Tools
 
+Adobe InDesign's support for OpenType Fonts for non-European scripts only became reliable with Creative Cloud, and [the World Ready Composer paragraph option must be enabled](http://blogs.adobe.com/vikrant/2012/05/indesign-cs6-indic-support-and-preferences/); even the latest version can be improved. The libre harfbuzz and Microsoft OpenType implementations are the most complete, so you should test your fonts in the latest versions of Chrome, Firefox and Microsoft Word, on both Windows and Mac OS X, to ensure errors in shaping are due to the fonts and not the underlying engine. 
+
 [Pablo Impallari's Devanagari Testing Page](http://www.impallari.com/testing/devatest.php) (with [sources on github!](https://github.com/impallari/font-testing-page/)) provides some ready-made testing layouts, and you can drag and drop your OTF or TTF right into the page to load it.
 
 [Pooja Saxena's Type Tools](https://anexasajoop.github.io/devanagari-type-tools) (with [sources on github!](https://github.com/anexasajoop/devanagari-type-tools)) generates test texts for letter combinations.
 
 The [Adhesion Text Devanagari](http://www.adhesiontext.com/devanagari/) is a special version of the a tool built by Miguel Sousa to make dummy text comprised only of the words possible to write with the glyphs you have already drawn. Insert the glyphs (अआईईउऊ etc) that you've drawn, and out will come some sample words for you to use in proofs.
 
-The Huerta Tipografica's [Devanaguide](http://devanaguide.huertatipografica.com/) is an open source tool to see and compare different devanagari fonts. It also allows you to type a text and preview it in all the fonts at the same time.
+The Huerta Tipografica's [Devanaguide](http://devanaguide.huertatipografica.com/) is an open source tool to see and compare different devanagari fonts.
+It also allows you to type a text and preview it in all the fonts at the same time.
+The Devanaguide also includes a [Devanagari word list](https://github.com/andrestelex/devanaguide/blob/master/deva-dictionary.txt) which is helpful for test text design.
+
+### Other Links
+
+[Books & Referances for Devanagari typography Projects](http://dsquare.in/devft/en/books.php) is a list of resources which will probably fulfill most of the research requirements of most projects. Compiled by Professor Girish Davli of IIT Bombay IDC.
+
 
 ### Forum Discussions
 

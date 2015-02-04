@@ -54,7 +54,7 @@ italic fonts, the ‘o’ should have the same amount of space on the left and r
 white space between a string of ‘o’ characters should balance the white space inside the ‘o’s.
 
 Here we encroach well into the territory of spacing and metrics, so even at this early stage you
-may want to have a look at the [“Spacing, Metrics, and Kerning”] chapter, which covers the basical
+may want to have a look at the [“Spacing, Metrics, and Kerning”] chapter, which covers the basic
 implications of spacing in a font.  
 That should get you to a well-spaced ‘o’ character, which will help you with the design of the ‘n’.
 
@@ -76,7 +76,7 @@ used to form the left-sided stem of all other lowercase characters.
 <img src="images/n-compo-1_1.png" alt>
 
 Taking yourself forward again to the chapter on spacing and metrics, the design of the ‘n’ character
-should keep pace within the process of spacing the ‘n’ and ‘o’ characters together.
+should keep pace with the process of spacing the ‘n’ and ‘o’ characters together.
 
 Now, garnering the methods you have used to create an ‘n’ and ‘o’ character, you are ready to expand
 the lowercase character set. The qualities of the stem and curve components of the ‘n’ and ‘o’ will

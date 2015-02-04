@@ -26,6 +26,8 @@ The reason this is true is that there are a number of natural optical illusions 
 subject to. These illusions must be accounted for by altering the shapes of letters until they look
 right to you.
 
+You can get a feel of where to look and what elements to adjust in these [Type Review Videos](https://vimeo.com/typereview/videos) (External Link)
+
 ## Examples of illusions
 
 Some illusions involve the perceived weight of lines, some involve the perceived length of lines,
@@ -139,4 +141,4 @@ printing various samples of the font.
 It can save you design time to have a well defined idea of the final use you intend. However, this
 is not always possible and your ideas may evolve. The key thing is to think about and define the use
 cases as completely as you can, then to ensure that your tests keep pace with the questions you are
-asking yourself while designed the font.
+asking yourself while designing the font.

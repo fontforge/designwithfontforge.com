@@ -1,0 +1,4 @@
+# This file will list anyone who wishes to be named as a contributor, but
+# who does not hold the copyright to their work
+
+Dave Crossland

@@ -283,4 +283,4 @@ angular ([Rockwell]).
 [Courier]: http://typedia.com/explore/typeface/courier/
 [American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
 
-*TODO: How formal elements are encultured and how culture is manifested through shapes and spaces between letters is the 'secret' stuff no one teaches in design school, which this page should explain :)*
+
