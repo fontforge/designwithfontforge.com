@@ -1,8 +1,8 @@
 ---
 published: true
-layout: homepage
+layout: homepage_zh-TW
 weight: 0
-title: FontForge 字型設計
+title: FontForge 字體設計
 ---
 
 <!--
@@ -16,11 +16,13 @@ title: FontForge 字型設計
   {% for p in site.pages %}
     {% if p.weight > 0 %}
     {% if p.weight == weight %}
+    {% if p.path contains 'zh-TW' %}
       <li>
         <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
           {{ p.title }}
         </a>
       </li>
+    {% endif %}
     {% endif %}
     {% endif %}
   {% endfor %}
