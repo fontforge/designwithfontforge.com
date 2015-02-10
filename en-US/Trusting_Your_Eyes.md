@@ -37,7 +37,7 @@ and others involve the eye’s perception of shapes.
 
 The example on the left shows an ‘H’ which bars are precisely equal in thickness. This looks wrong.
 Can you feel it?  
-The other one on the right has a horizontal bar which has has been thinned to appear equal in
+The other one on the right has a horizontal bar which has been thinned to appear equal in
 thickness.
 
 <img src="images/H%20compensation2.png" alt>
