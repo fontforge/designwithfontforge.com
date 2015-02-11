@@ -641,12 +641,12 @@ ol.rectangle-list a:hover:after{
 th, td {
 	padding: 0.5em;
 }
-div.lang{
+div.lang, div.ebook{
   margin-top: 8px;
 }
-div.lang, a.lang{
+div.lang, a.lang, div.ebook, a.ebook{
   color: #fff;
 }
-a.lang:hover{
+a.lang:hover, a.ebook:hover{
   color: #9ddcff;
 }
