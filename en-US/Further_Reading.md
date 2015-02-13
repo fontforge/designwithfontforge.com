@@ -21,6 +21,7 @@ title: Further Reading
 ### Latin
 
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
+* [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
 
 ### Cyrillic 
 
