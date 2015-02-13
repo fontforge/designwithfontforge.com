@@ -51,7 +51,8 @@ title: Further Reading
 
 ## Books
 
-<http://www.type-library.com> has an extensive list of books
+* [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
+* <http://www.type-library.com> has an extensive list of books
 
 Title: Detail in Typography (Paperback)
 
