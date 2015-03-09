@@ -365,7 +365,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### Knuth, Donald（高德纳）
 
-他是一个数学家，对糟糕的排版感到如此厌倦以至于在十九世纪七八十年代创造了自己的字体设计系统排字布局程序，分别被称作MetaFont和TeX。
+他是一个数学家，对糟糕的排版感到如此厌倦以至于在二十世纪七八十年代创造了自己的字体设计系统排字布局程序，分别被称作MetaFont和TeX。
 
 ## L
 ### Left side bearing
