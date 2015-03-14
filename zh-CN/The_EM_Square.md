@@ -24,7 +24,7 @@ title: EM Square
 
 知道了你的字体将会使用1000，1024或2048UPM后，你需要设定你的字形的绘制，以保证你字体样式的所有面都充分地填入UPM空间内。
 
-em square的大小设定方法是*Element > Font Info&hellip;*然后点击General选项卡，你将会看到*EM*设置。这个值将会分配到*顶高*和*底深*上，分别在基线的上下。
+Em square的大小设定方法是*Element > Font Info&hellip;*然后点击General选项卡，你将会看到*EM*设置。这个值将会分配到*顶高*和*底深*上，分别在基线的上下。
 
 基线：
 
@@ -38,8 +38,8 @@ x高度:
 
 <img src="../en-US/images/xheight.png" alt>
 
-在你设计字体的后期，你需要设置Blue值，这个值为PostScript画轮廓而保留，也保留给FonttForge自动微调&ndash;无论你在做哪个轮廓。
+在你设计字体的后期，你需要设置Blue值，这个值为PostScript画轮廓而保留，也保留给FontForge自动微调&ndash;无论你在做哪个轮廓。
 
-你可以在*Element > Font Info&hellip;*，*PS Private*中找到这个设定。FontForge可以首先根据你的轮廓猜测初始值，但是为了上突/下突，你必须自行修改&mdash;这个概念在几章后的[创造“o”和“n”][“Creating ‘o’ and ‘n’”]中；让我们先上手FontForg及其绘制功能。
+你可以在*Element > Font Info&hellip;*，*PS Private*中找到这个设定。FontForge可以首先根据你的轮廓猜测初始值，但是为了上突/下突，你必须自行修改&mdash;这个概念在几章后的[创造“o”和“n”][“Creating ‘o’ and ‘n’”]中；让我们先上手FontForge及其绘制功能。
 
 [“Creating ‘o’ and ‘n’”]: Creating_o_and_n.html
