@@ -26,7 +26,7 @@ title: 行间距
 
 ## 在FontForge中试验你字体的行间距
 
-在FontForge中，你可以在字体信息窗口中设置调整你的字体项目的行间距。在“Element”菜单中选择<em>Font Info</em>，然后点击General选项卡可以打开这个窗口。需要注意FontForge列在顶部（Ascent）和底部（Descent）的数值。除非你已经手动改变了数值，否则这两个数字加起来等于下一行的Em size。
+在FontForge中，你可以在字体信息窗口中设置调整你的字体项目的行间距。在“Element”菜单中选择<em>Font Info</em>，然后点击General选项卡可以打开这个窗口。需要注意FontForge列在顶部（Ascent）和底部（Descent）的数值。除非你已经手动改变了数值，否则这两个数字加起来等于Em size的值。
 
 <img src="../en-US/images/fontinfo-generl.png" alt="">
 
