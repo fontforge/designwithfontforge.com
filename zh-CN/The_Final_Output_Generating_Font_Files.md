@@ -72,7 +72,7 @@ FontForge有<em>Remove Overlap</em>命令可以自动联合一个字形分开的
 
 FontForge允许你提示你的字体（甚至提供了一个<em>Autohint</em>功能），但是实际上这个步骤并不是严格必须的。现代操作系统经常有构建在其文本渲染引擎中的更好的网格适合功能，而不需要话费可观的时间和努力。实际上Mac OS X和Linux都会<em>忽略</em>任何嵌入字体文件中的提示。如果为了Windows用户的利益，你确实选择你的字体确实需要提示，那么你最好的办法是不使用嵌入的提示来构建字体，然后使用专门的程序比如<strong>ttfautohint</strong>来事后增加提示。
 
-CFF提示参见（视频来自RoboThon的Adobe](http://vimeo.com/38364880）
+CFF提示参见RoboThon上来自Adobe的[这段视频](http://vimeo.com/38364880)。
 
 ### 检查你的元数据
 
