@@ -441,7 +441,7 @@ Adobe不再开发这种格式。苹果有一种格式可以实现同样的效果
 
 ### OpenType Tables
 
-每个OpenType字体包含表的一个集合，表包含一个特定类型的信息。
+每个OpenType字体中都包含一系列的表(OpenType Table)，每一个表分别包含某一特定类型的信息。
 
 ### Oblique
 
