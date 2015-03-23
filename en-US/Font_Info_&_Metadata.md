@@ -15,17 +15,17 @@ It may appear cryptic at first, but using it can help learn some familiarity wit
 
 ## Version Numbering
 
-Follow the [Semantic Versioning](http://semver.org) convention for your fonts.
+Follow the [Semantic Versioning](http://semver.org) convention for your fonts. In a way, fonts are an "API" for text to access some associative feelings in readers. 
 
-A MAJOR version would be after a complete redesign. Compare www.google.com/fonts/specimen/Exo and www.google.com/fonts/specimen/Exo+2 - if you have a document using Exo, you don't want to jump into Exo 2, because the 'voice' or 'flavor' -- the feeling evoked -- are (albeit maybe subtly) different.
+A MAJOR version would be after a complete redesign. Compare www.google.com/fonts/specimen/Exo and www.google.com/fonts/specimen/Exo+2 - if you have a document using Exo, you don't want to jump into Exo 2, because the 'voice' or 'flavor' -- the feeling evoked -- are (albeit maybe subtly) different. Adding support for one or more new scripts, or a substantial number of languages, could also constitute a MAJOR revision. Something that substantially changes the vertical or horizontal metrics could also count.
 
-A MINOR version would be anything that changes the metrics, such as respacing, improving kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example:
+A MINOR version would be anything that subtly changes the metrics, such as vertical metrics, horizontal sidebearings or improved kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example from <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>:
 
 ![Comparison of Roboto v1 and Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
 
-From <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>
+Adding just a few or a dozen glyphs to "complete" coverage of a previously intended character set or to add support for just a few more languages is probably MINOR, especially if it doesn't change the vertical metrics. 
 
-A PATCH version would be anything that improves the font without changing the metrics or changes a glyph design in a visible way; 1.0.0 might not have fsType set to 0 or be run through fontcrunch, and changing both those things in a 1.0.1 release won't be visible or reflow anything.
+A PATCH version would be anything that improves the font without changing the metrics or changes a glyph design in a visible way, that don't affect the final text layout. Your 1.0.0 might not have fsType set to 0 or be run through fontcrunch, and changing both those things in a 1.0.1 release won't be visible or reflow anything. Changes to hinting or metadata. 
 
 If you release libre fonts, the [Github Releases](https://www.google.com/search?q=github+releases) features are very useful.
 
