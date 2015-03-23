@@ -19,7 +19,11 @@ Follow the [Semantic Versioning](http://semver.org) convention for your fonts.
 
 A MAJOR version would be after a complete redesign. Compare www.google.com/fonts/specimen/Exo and www.google.com/fonts/specimen/Exo+2 - if you have a document using Exo, you don't want to jump into Exo 2, because the 'voice' or 'flavor' -- the feeling evoked -- are (albeit maybe subtly) different.
 
-A MINOR version would be anything that changes the metrics, such as respacing, improving kerning, or making minor corrections to some glyphs - http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg from http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products - because such updates will cause documents using the font to reflow (albeit subtly in many cases)
+A MINOR version would be anything that changes the metrics, such as respacing, improving kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example:
+
+![Comparison of Roboto v1 and Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
+
+From <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>
 
 A PATCH version would be anything that improves the font without changing the metrics or changes a glyph design in a visible way; 1.0.0 might not have fsType set to 0 or be run through fontcrunch, and changing both those things in a 1.0.1 release won't be visible or reflow anything.
 
