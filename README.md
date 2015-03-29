@@ -34,6 +34,8 @@ If you’re not familiar with GitHub, they have [excellent help pages](https://h
 - `assets/`: CSS, JS and image files
 - `_config.yml`: Configuration for Jekyll (ignore this file)
 - `en-US/`: the site’s contents, in US English
+- `en-US/XX-Title.md`: XX represents the order of the page in the sidebar and homepage lists
+- `en-US/images/precompressed/`: Directory of the original, pre-compressed content images
 
 #### File Formats
 
@@ -41,7 +43,7 @@ Each page is in Markdown format, with a `.md` file extension. These files are co
 
 - published: if the page should not be published, set this to `false`
 - layout: `bookpage` is the default
-- weight: an integer value from 1 to 100 that effects the ordering of the page in the sidebar and homepage lists
+- ~~weight: an integer value from 1 to 100 that effects the ordering of the page in the sidebar and homepage lists~~ Deprecated. Now ordering the page by prefixing the file name.
 - category: the category the page belongs in
 - title: the page title used in the title tag and h1 of the page
 
@@ -51,7 +53,6 @@ Example:
     ---
     published: true
     layout: bookpage
-    weight: 60
     category: Workflow
     title: Page Title
     ---
@@ -72,3 +73,22 @@ To see the site as it will appear after processing by Jekyll and review your edi
     jekyll serve --watch
 
 Now browse [http://localhost:4000/](http://localhost:4000/).
+
+#### How to compress images with Grunt
+
+Put all the raw images inside this directory:
+
+    `en-US/images/precompressed/`
+
+Make sure npm is already installed in your computer, then install all the dependencies with:
+    
+    npm install
+
+Once the installations are done, you can go ahead to minify all the images with this Grunt command:
+
+    grunt
+
+Wait for Grunt to notify you, and all the compressed images will be inside:
+    
+    `en-US/images/`
+

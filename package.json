@@ -1,0 +1,15 @@
+{
+  "name": "Design-With-FontForge",
+  "version": "0.0.0",
+  "description": "A Book About How To Create New Typefaces Using FontForge",
+  "keywords": [
+    "fontforge",
+    "typeface",
+    "book"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-notify": "^0.4.1"
+  }
+}
