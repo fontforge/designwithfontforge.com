@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 07
+weight: 7
 category: workflow
 title: The EM Square
 ---

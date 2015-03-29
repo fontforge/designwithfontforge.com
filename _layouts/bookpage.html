@@ -2,11 +2,62 @@
 
 	{% include header-masthead.html %}
 
+    {% assign pageList = site.pages | sort: 'name' %}
+
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
           <h1>{{ page.title }}</h1>
           {{ content }}
+          <nav id="post-nav" class="clearfix">
+            {% for p in pageList reversed %}
+
+              {% if p.path contains 'en-US' %}
+
+                {% if currentPost %}
+                  <a class="prev" href="{{p.url}}"> 
+                    <p>Last chapter:</p>
+                    <p>{{p.title}}</p>
+                  </a>
+                  {% assign currentPost = false %}
+                  {% break %}
+                {% endif %}
+
+                {% if p.url == page.url %}
+                  {% assign currentPost = true %}
+                {% else %}
+                  {% assign currentPost = false %}
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+
+            {% assign currentPost = false %}
+
+            {% for p in pageList %}
+
+              {% if p.path contains 'en-US' %}
+
+                {% if currentPost and p.title != 'Design With FontForge' %}
+                  <a class="next" href="{{p.url}}"> 
+                    <p>Next chapter:</p>
+                    <p>{{p.title}}</p>
+                  </a>
+                  {% assign currentPost = false %}
+                  {% break %}
+                {% endif %}
+
+                {% if p.url == page.url %}
+                  {% assign currentPost = true %}
+                {% else %}
+                  {% assign currentPost = false %}
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+          </nav>
         </section>
 
         <aside id="sidebar">
@@ -15,21 +66,15 @@
             PDF
           </a>-->
           <ol class="rectangle-list">
-          {% for weight in (1..100) %}
-            {% for p in site.pages %}
-              {% if p.weight > 0 %}
-              {% if p.weight == weight %}
-              {% if p.path contains 'en-US' %}
+            {% for p in pageList %}
+              {% if p.path contains 'en-US' and p.title != 'Design With FontForge' %}
                 <li>
                   <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
                     {{ p.title }}
                   </a>
                 </li>
               {% endif %}
-              {% endif %}
-              {% endif %}
             {% endfor %}
-          {% endfor %}
           </ol>
           <p>This book is free culture, <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">hosted on GitHub</a>. Patches, suggestions, and corrections are welcome.</p>
           <p><a class"" href="https://github.com/fontforge/designwithfontforge.com/commits/gh-pages">Review recent changes</a></p>

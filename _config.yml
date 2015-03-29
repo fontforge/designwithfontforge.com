@@ -3,6 +3,7 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 pygments: false
 permalink: none
+exclude: []
 url: http://designwithfontforge.com
 title: Design With FontForge
 title_zh-CN: FontForge 与字体设计

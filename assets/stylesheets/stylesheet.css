@@ -18,35 +18,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* LAYOUT STYLES */
@@ -138,6 +138,30 @@ header h2 {
 
 #main-content img {
   max-width: 100%;
+}
+
+nav#post-nav {
+  width: 100%;
+  margin-top: 3em;
+}
+
+nav#post-nav a {
+  display: block;
+  width: 45%;
+  float: left;
+}
+
+nav#post-nav .prev {
+  margin-right: 10%;
+}
+
+nav#post-nav .next {
+  margin-left: 55%;
+  text-align: right;
+}
+
+nav#post-nav .prev + .next {
+  margin-left: 0;
 }
 
 aside#sidebar {
@@ -426,7 +450,7 @@ footer {
 }
 
 footer p {
-	margin: 0;
+  margin: 0;
 }
 
 footer a {
@@ -558,88 +582,88 @@ footer a:hover {
 }
 
 ul.breadcrumb li {
-	display: inline;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	text-transform: capitalize;
-	font-weight: 300;
+  display: inline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-weight: 300;
 }
 
 /* Rectangle List style from
    http://www.red-team-design.com/css3-ordered-list-styles */
 
 ol.rectangle-list li {
-	list-style: none;
-	/*text-transform: capitalize;*/
+  list-style: none;
+  /*text-transform: capitalize;*/
 }
 
 .rectangle-list {
-	counter-reset: li;
-	list-style: none;
-	*list-style: decimal;
-	padding: 0;
-	margin-bottom: 4em;
-	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
 ol.rectangle-list ol {
-	margin: 0 0 0 2em;
+  margin: 0 0 0 2em;
 }
 
 ol.rectangle-list a {
-	position: relative;
-	display: block;
-	padding: .4em .4em .4em .8em;
-	*padding: .4em;
-	margin: .5em 0 .5em 2.5em;
-	background: #ddd;
-	color: #444;
-	text-decoration: none;
-	transition: all .3s ease-out;	
-	font-weight: 300;
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  *padding: .4em;
+  margin: .5em 0 .5em 2.5em;
+  background: #ddd;
+  color: #444;
+  text-decoration: none;
+  transition: all .3s ease-out; 
+  font-weight: 300;
 }
 
 ol.rectangle-list a.active {
-	background: #eee;
+  background: #eee;
 }
 
 ol.rectangle-list a:hover{
-	background: #eee;
-}	
+  background: #eee;
+} 
 
 ol.rectangle-list a:before{
-	content: counter(li);
-	counter-increment: li;
-	position: absolute;	
-	left: -2.5em;
-	top: 50%;
-	margin-top: -1em;
-	background: #2e78cd;
-	color: #fff;
-	height: 2em;
-	width: 2em;
-	line-height: 2em;
-	text-align: center;
-	font-weight: 300;
+  content: counter(li);
+  counter-increment: li;
+  position: absolute; 
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #2e78cd;
+  color: #fff;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: 300;
 }
 
 ol.rectangle-list a:after{
-	position: absolute;	
-	content: '';
-	border: .5em solid transparent;
-	left: -1em;
-	top: 50%;
-	margin-top: -.5em;
-	transition: all .3s ease-out;
+  position: absolute; 
+  content: '';
+  border: .5em solid transparent;
+  left: -1em;
+  top: 50%;
+  margin-top: -.5em;
+  transition: all .3s ease-out;
 }
 
 ol.rectangle-list a:hover:after{
-	left: -.5em;
-	border-left-color: #2e78cd;
+  left: -.5em;
+  border-left-color: #2e78cd;
 }
 th, td {
-	padding: 0.5em;
+  padding: 0.5em;
 }
 div.lang, div.ebook{
   margin-top: 8px;
