@@ -76,9 +76,7 @@ Now browse [http://localhost:4000/](http://localhost:4000/).
 
 #### How to compress images with Grunt
 
-Put all the raw images inside this directory:
-
-    `en-US/images/precompressed/`
+Put all the raw images inside `en-US/images/precompressed/`
 
 Make sure npm is already installed in your computer, then install all the dependencies with:
     
@@ -88,7 +86,5 @@ Once the installations are done, you can go ahead to minify all the images with 
 
     grunt
 
-Wait for Grunt to notify you, and all the compressed images will be inside:
-    
-    `en-US/images/`
+Wait for Grunt to notify you, and all the compressed images will be inside `en-US/images/`
 
