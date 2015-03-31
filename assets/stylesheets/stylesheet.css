@@ -150,18 +150,65 @@ nav#post-nav a {
   width: 45%;
   float: left;
 }
+@media (max-width: 767px) {
+  nav#post-nav a {
+    width: 73%;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    padding: 15px;
+    background: #2e78cd;
+    color: #fff;
+  }
+}
+
+nav#post-nav span {
+  display: block;
+  margin-bottom: 1em;
+}
+
+nav#post-nav span:last-child {
+  margin-bottom: 0;
+}
 
 nav#post-nav .prev {
   margin-right: 10%;
+}
+@media (max-width: 767px) {
+  nav#post-nav .prev {
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
 }
 
 nav#post-nav .next {
   margin-left: 55%;
   text-align: right;
 }
+@media (max-width: 767px) {
+  nav#post-nav .next {
+    margin-left: auto;
+    text-align: center;
+  }
+}
 
 nav#post-nav .prev + .next {
   margin-left: 0;
+}
+@media (max-width: 767px) {
+  nav#post-nav .prev + .next {
+    margin-left: auto;
+  }
+}
+
+nav#post-nav .chapter:after {
+  content: "：";
+}
+
+@media (max-width: 767px) {
+  nav#post-nav .chapter:after {
+    content: "";
+  }
 }
 
 aside#sidebar {

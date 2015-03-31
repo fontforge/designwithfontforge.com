@@ -2,7 +2,7 @@
 
 	{% include header-masthead.html %}
 
-    {% assign pageList = site.pages | sort: 'name' %}
+    {% assign pageList = site.pages | sort: 'weight' %}
 
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -14,10 +14,10 @@
 
               {% if p.path contains 'en-US' %}
 
-                {% if currentPost %}
+                {% if currentPost and p.title != 'Design With FontForge' %}
                   <a class="prev" href="{{p.url}}"> 
-                    <p>Last chapter:</p>
-                    <p>{{p.title}}</p>
+                    <span class="chapter">Last chapter</span>
+                    <span>{{p.title}}</span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}
@@ -41,8 +41,8 @@
 
                 {% if currentPost and p.title != 'Design With FontForge' %}
                   <a class="next" href="{{p.url}}"> 
-                    <p>Next chapter:</p>
-                    <p>{{p.title}}</p>
+                    <span class="chapter">Next chapter</span>
+                    <span>{{p.title}}</span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}

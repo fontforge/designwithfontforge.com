@@ -2,7 +2,7 @@
 
 	{% include header-masthead_zh-TW.html %}
 
-    {% assign pageList = site.pages | sort: 'name' %}
+    {% assign pageList = site.pages | sort: 'weight' %}
 
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -14,10 +14,10 @@
 
               {% if p.path contains 'zh-TW' %}
 
-                {% if currentPost %}
+                {% if currentPost and p.title != 'FontForge 字體設計' %}
                   <a class="prev" href="{{p.url}}"> 
-                    <p>上一章：</p>
-                    <p>{{p.title}}</p>
+                    <span class="chapter">上一章</span>
+                    <span>{{p.title}}</span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}
@@ -41,8 +41,8 @@
 
                 {% if currentPost and p.title != 'FontForge 字體設計' %}
                   <a class="next" href="{{p.url}}"> 
-                    <p>下一章：</p>
-                    <p>{{p.title}}</p>
+                    <span class="chapter">下一章</span>
+                    <span>{{p.title}}</span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}

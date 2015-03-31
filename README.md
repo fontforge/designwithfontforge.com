@@ -34,7 +34,6 @@ If you’re not familiar with GitHub, they have [excellent help pages](https://h
 - `assets/`: CSS, JS and image files
 - `_config.yml`: Configuration for Jekyll (ignore this file)
 - `en-US/`: the site’s contents, in US English
-- `en-US/XX-Title.md`: XX represents the order of the page in the sidebar and homepage lists
 - `en-US/images/precompressed/`: Directory of the original, pre-compressed content images
 
 #### File Formats
@@ -43,7 +42,7 @@ Each page is in Markdown format, with a `.md` file extension. These files are co
 
 - published: if the page should not be published, set this to `false`
 - layout: `bookpage` is the default
-- ~~weight: an integer value from 1 to 100 that effects the ordering of the page in the sidebar and homepage lists~~ Deprecated. Now ordering the page by prefixing the file name.
+- weight: an integer value starts from 1 that effects the ordering of the page in the sidebar and homepage lists
 - category: the category the page belongs in
 - title: the page title used in the title tag and h1 of the page
 
@@ -54,9 +53,29 @@ Example:
     published: true
     layout: bookpage
     category: Workflow
+    weight: 3
     title: Page Title
     ---
 ```
+
+#### Weight list
+
+Weight lists are used to help contributors determine and document the weight of all pages. Please follow the following rules:
+
+1. Please update the according list if any chapter/page is added or removed.
+2. If the new chapter is in between existing chapters, Just add a weight between existing weights.
+3. If the new chapter is after any exising chapters, Add the weight number by 3.
+4. If no more full numbers can be add between the exising weights, start using decimals.
+5. Only edit the weight list for your chapter's language.
+
+Example:
+
+| Weight | Page                                       |
+|--------|--------------------------------------------|
+| 0      | Index                                      |
+| 1      | Introduction                               |
+| 3      | What Is a Font                             |
+
 
 #### How to build the site
 

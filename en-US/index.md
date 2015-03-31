@@ -12,7 +12,7 @@ title: Design With FontForge
 -->
 
 <ol class="rectangle-list">
-  {% assign pageList = site.pages | sort: 'name' %}
+  {% assign pageList = site.pages | sort: 'weight' %}
   {% for p in pageList %}
     {% if p.path contains 'en-US' and p.title != page.title %}
       <li>

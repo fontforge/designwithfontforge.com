@@ -12,7 +12,7 @@ title: 使用FontForge进行设计
 -->
 
 <ol class="rectangle-list">
-  {% assign pageList = site.pages | sort: 'name' %}
+  {% assign pageList = site.pages | sort: 'weight' %}
   {% for p in pageList %}
     {% if p.path contains 'zh-CN' and p.title != page.title %}
       <li>
