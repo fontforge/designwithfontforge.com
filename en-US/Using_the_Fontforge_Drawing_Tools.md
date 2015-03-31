@@ -158,7 +158,7 @@ the Control (Ctrl) key.
 
 ### The Freehand tool
 
-<img src="images/freehand_tool.png" alt height="28" width="27">
+<img src="images/freehand_tool.png" alt>
 
 The Freehand tool allows you to sketch out irregular paths.
 
@@ -173,7 +173,7 @@ can grab either handle and drag it around to change the shape of the curve.
 
 Okay, now let’s go about using the point tools.
 
-<img src="images/point_tools_labelled.png" alt width="291">
+<img src="images/point_tools_labelled.png" alt>
 
 To add a point to a path, first select any of these tools, then click on the path and give it a
 little push. You will get a new point on the line.
@@ -187,13 +187,13 @@ the path.
 
 ### The Pen tool
 
-<img src="images/addpoint_tool.png" alt height="28" width="28">
+<img src="images/addpoint_tool.png" alt>
 
 The Pen tool allows you to add a point on the curve and drag out its control points.
 
 ### Spiro
 
-<img src="images/spiro.png" alt height="28" width="28">
+<img src="images/spiro.png" alt>
 
 Selecting the Spiro tool puts you into Spiro drawing mode. Spiro drawing allows you to draw curves
 that reflow as you reposition the nodes. Some people prefer this to the standard approach (known as
@@ -202,14 +202,14 @@ some unexpected things.
 
 ### Knife
 
-<img src="images/knife.png" alt height="27" width="28">
+<img src="images/knife.png" alt>
 
 The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but
 only need part of it.
 
 ### Ruler
 
-<img src="images/ruler.png" alt height="28" width="27">
+<img src="images/ruler.png" alt>
 
 The ruler tool gives you measurement and coordinate information. When you use it, it displays a
 floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
@@ -222,7 +222,7 @@ stretched across.
 
 There are six transform tools:
 
-<img src="images/transform_tools_labelled.png" alt width="400">
+<img src="images/transform_tools_labelled.png" alt>
 
 **Note:** For all of the Transform tools, if you double-click on the tool, you can enter numeric
 values.
@@ -253,7 +253,7 @@ The Perspective tool gives you another way to distort a shape in a nonlinear way
 These tools allow you to draw primitive geometric shapes, which is faster than constructing those
 shapes out of separate line segments.
 
-<img src="images/rectangle_poly_labelled.png" alt width="500">
+<img src="images/rectangle_poly_labelled.png" alt>
 
 Clicking the chevron area on these tools will give you the option to switch to the alternate tool.
 If you double-click on either of the tools, you can open the shape type’s options.
@@ -269,7 +269,7 @@ setting, the longer the arms of the star.
 
 ### Mse1 and Mse2
 
-<img src="images/danger.png" alt height="53" width="57">
+<img src="images/danger.png" alt>
 
 Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
 
@@ -290,7 +290,7 @@ Foreground layer. Guide layers are used to insert guides (such as x-height or ca
 Foreground layers and background layers are both used for drawing, but only the topmost foreground
 layer will be rendered into your final font.
 
-<img src="images/layers.png" alt height="96" width="108">
+<img src="images/layers.png" alt>
 
 The eye icon indicates whether each layer is visible, and you can click to toggle the eye to make a
 layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
@@ -310,15 +310,15 @@ Next we will go over some basic drawing workflows, which you often find yourself
 1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
    window.
 2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt width="917">
+   <img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
 3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
    and that you essentially punched a hole in the center of the rectangle.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt width="917">
+   <img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
 
 ### Remove overlap
 
 1. Add a star that overlaps the corner of the rectangle.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt height="744" width="917">
+   <img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
 2. Select the star and the earlier shape. You only need to select one point of each overlapping
    shape, but it is okay to select extra points.
 3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
@@ -330,7 +330,7 @@ Next we will go over some basic drawing workflows, which you often find yourself
 Using the Pen tool, click and hold in the middle of a line segment, then drag the mouse to change
 the shape.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_014.png" alt width="917">
+<img src="images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
 
 ### Tangent points
 
@@ -355,7 +355,7 @@ Choose the 3D Rotate tool, move to the middle of the selected area, and slowly c
 you see something you like, then release. Here is an example of 3D Rotate used on the practice
 image:
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_017.png" alt height="739" width="914">
+<img src="images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
 
 ### Set stroke shape and width
 
@@ -364,14 +364,14 @@ tool, you get the Freehand dialog shown here, which contains a drawing window. T
 select pen shape and size. This dialog also appears when you choose the *Expand Stroke* option in
 the Element menu.
 
-<img src="images/Freehand_018.png" alt height="676" width="420">
+<img src="images/Freehand_018.png" alt>
 
 Using the Corner tool, draw a polygon and click OK.
 
 Now, draw a line with the Freehand drawing tool. When you release the mouse button, the new path is
 automatically stroked with the shape you chose in the Freehand dialog, as shown here.
 
-<img src="images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt height="744" width="916">
+<img src="images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
 
 ## Keep drawing!
 
