@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 31
+weight: 66
 category: workflow
 title: 最终输出，生成字体文件
 ---

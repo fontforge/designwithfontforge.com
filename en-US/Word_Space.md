@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 21
+weight: 30
 category: workflow
 title: Word Spacing
 ---

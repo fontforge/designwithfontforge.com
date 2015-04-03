@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 20
+weight: 27
 category: workflow
 title: 字体信息和元数据
 ---

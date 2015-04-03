@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 26
+weight: 45
 category: workflow
 title: Completing the Lower Case
 ---

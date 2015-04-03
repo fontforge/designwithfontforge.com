@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 91
+weight: 69
 category: Appendices
 title: 当FontForge自己出错时
 ---

@@ -12,19 +12,14 @@ title: FontForge 字體設計
 -->
 
 <ol class="rectangle-list">
-{% for weight in (1..100) %}
-  {% for p in site.pages %}
-    {% if p.weight > 0 %}
-    {% if p.weight == weight %}
-    {% if p.path contains 'zh-TW' %}
+  {% assign pageList = site.pages | sort: 'weight' %}
+  {% for p in pageList %}
+    {% if p.path contains 'zh-TW' and p.title != page.title %}
       <li>
         <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
           {{ p.title }}
         </a>
       </li>
     {% endif %}
-    {% endif %}
-    {% endif %}
   {% endfor %}
-{% endfor %}
 </ol>

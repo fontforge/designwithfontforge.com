@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 92
+weight: 75
 category: Appendices
 title: 从其他程序导入字形
 ---

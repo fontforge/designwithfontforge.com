@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 22
+weight: 33
 category: workflow
 title: Creating Your Type’s DNA
 ---

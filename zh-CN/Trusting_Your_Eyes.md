@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 3
+weight: 6
 category: Before You Begin
 title: 相信你的眼睛
 ---

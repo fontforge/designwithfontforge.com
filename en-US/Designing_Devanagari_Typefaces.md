@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 92
+weight: 72
 category: workflow
 title: Designing Devanagari Typefaces
 ---

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 92
+weight: 75
 category: Appendices
 title: Importing Glyphs from Other Programs
 ---

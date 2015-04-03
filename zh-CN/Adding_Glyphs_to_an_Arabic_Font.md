@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 93
+weight: 78
 section: Workflow
 title: 添加字形到阿拉伯字体
 ---

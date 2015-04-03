@@ -1,8 +1,28 @@
+{% assign urlList = site.pages | map: 'url' %}
+
 <header>
   <div class="inner">
     <h1><a href="/">{{ site.title_zh-TW }}</a></h1>
     <h2>{{ site.subtitle_zh-TW }}</h2>
-    <div class="lang"><a href="../en-US/index.html" class="lang">[English Version]</a>&nbsp;|&nbsp;<a href="../zh-CN/index.html" class="lang">[简体中文版]</a>&nbsp;|&nbsp;<a href="../zh-TW/index.html" class="lang">[正體中文版]</a></div>
+    <div class="lang">
+    	<a href="
+    		{% assign ENurl = page.name | replace: '.md', '.html' | prepend: '/en-US/' %}
+    		{% if urlList contains ENurl %}
+    			{{ page.name | prepend: '../en-US/' | replace: '.md', '.html' }}
+    		{% else %}
+    			../en-US/index.html
+    		{% endif %}	
+    	" class="lang">[English Version]</a>&nbsp;|&nbsp;
+    	<a href="
+    		{% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
+    		{% if urlList contains CNurl %}
+    			{{ page.name | prepend: '../zh-CN/' | replace: '.md', '.html' }}
+    		{% else %}
+    			../zh-CN/index.html
+    		{% endif %}	
+    	"class="lang">[简体中文版]</a>&nbsp;|&nbsp;
+    	<a href="#" class="lang">[正體中文版]</a>
+    </div>
     <div class="ebook">下載 <a href="/ebook/design-with-fontforge_zh-TW.epub" class="ebook" rel="nofollow"><b>[ePUB]</b></a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_zh-TW.mobi" class="ebook" rel="nofollow"><b>[MOBI]</b></a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_zh-TW.pdf" class="ebook" rel="nofollow"><b>[PDF]</b></a></div>
     <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>View project on</small>GitHub</a>
   </div>

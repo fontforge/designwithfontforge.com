@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 31
+weight: 66
 category: workflow
 title: The Final Output, Generating Font Files
 ---

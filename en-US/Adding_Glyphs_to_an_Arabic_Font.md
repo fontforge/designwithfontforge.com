@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 93
+weight: 78
 section: Workflow
 title: Adding Glyphs to an Arabic Font
 ---

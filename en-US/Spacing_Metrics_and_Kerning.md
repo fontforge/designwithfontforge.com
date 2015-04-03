@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 29
+weight: 60
 category: workflow
 title: Spacing, Metrics and Kerning
 ---

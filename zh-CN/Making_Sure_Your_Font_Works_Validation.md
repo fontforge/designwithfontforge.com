@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 30
+weight: 63
 category: workflow
 title: 确保你的字体有效，验证
 ---

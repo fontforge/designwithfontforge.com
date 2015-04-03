@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 91
+weight: 69
 category: Appendices
 title: When Things Go Wrong With FontForge Itself
 ---

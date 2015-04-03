@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 2
+weight: 3
 category: Before You Begin
 title: What Is A Font?
 ---

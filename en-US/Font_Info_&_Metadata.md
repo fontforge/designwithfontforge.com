@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 20
+weight: 27
 category: workflow
 title: Font Info & Metadata
 ---

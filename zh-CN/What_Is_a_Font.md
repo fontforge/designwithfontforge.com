@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 2
+weight: 3
 category: Before You Begin
 title: 什么是字体?
 ---

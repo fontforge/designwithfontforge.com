@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 12
+weight: 21
 category: Getting To Know FontForge
 title: 使用Spiro绘制
 ---

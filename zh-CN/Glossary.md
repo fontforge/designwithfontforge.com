@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 93
+weight: 84
 category: Appendices
 title: 术语表
 ---

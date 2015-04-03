@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 29
+weight: 60
 category: workflow
 title: 间距，度量值和紧缩
 ---

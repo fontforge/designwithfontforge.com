@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 30
+weight: 63
 category: workflow
 title: Making Sure Your Font Works, Validation
 ---

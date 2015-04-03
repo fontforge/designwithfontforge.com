@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 93
+weight: 84
 category: Appendices
 title: Glossary
 ---

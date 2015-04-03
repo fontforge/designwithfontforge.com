@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 22
+weight: 33
 category: workflow
 title: 创造你字体的基因
 ---

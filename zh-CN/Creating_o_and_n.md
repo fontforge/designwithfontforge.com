@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 20
+weight: 24
 category: workflow
 title: 创造“o”和“n”
 ---

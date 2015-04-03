@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 11
+weight: 18
 category: Getting To Know FontForge
 title: 使用FontForge绘制工具
 ---

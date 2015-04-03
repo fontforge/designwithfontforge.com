@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 20
+weight: 24
 category: workflow
 title: Creating ‘o’ and ‘n’
 ---

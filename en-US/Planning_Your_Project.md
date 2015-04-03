@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage
-weight: 4
+weight: 9
 category: Before You Begin
 title: Planning Your Project
 ---

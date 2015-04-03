@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_zh-CN
-weight: 4
+weight: 9
 category: Before You Begin
 title: 计划好你的项目
 ---
