@@ -166,10 +166,7 @@ cd ..
 sudo ldconfig
 ```
 
-你可能尝试使用`--with-freetype-source`配置选项。这个选项只有在你在单步调试TrueType字体提示或者其他高级功能的时候才需要。
-You might be tempted to use the `--with-freetype-source` configure option. This option should only
-be needed if you are debugging TrueType font hints by stepping through them or other advanced
-functionality.
+如果你需要单步调试TrueType字体提示或者其他高级功能，还需要使用`--with-freetype-source`配置选项。
 
 
 ## 调试FontForge软件
