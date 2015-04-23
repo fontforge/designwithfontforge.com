@@ -13,6 +13,10 @@ title: Further Reading
 
 ## Websites
 
+### Other Resource Lists
+
+* [Thomas Phinney's Type Design Resources](http://www.thomasphinney.com/type-design-resources/)
+
 ### Curve Math
 
 * http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
