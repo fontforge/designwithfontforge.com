@@ -58,6 +58,12 @@ body {
   font-weight: 400;
   color: #343434;
 }
+
+body > div, footer {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;   
+}
+
 @media (min-width: 1170px) {
   body {
     font-size: 19px;
