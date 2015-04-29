@@ -62,7 +62,7 @@ of the letters and the relationships of the counters to these spaces.
 
 ## Building a test text
 
-There are many resources available online for rapidly building your test text:
+There are many resources available online for rapidly building your dummy test text:
 
 - [LibreText] is a libre software solution.
 - [Adhesion Text], made by Miguel Sousa was the first resource of this kind.
@@ -73,3 +73,18 @@ There are many resources available online for rapidly building your test text:
 [Adhesion Text]: http://www.adhesiontext.com/
 [JAF Generator]: http://justanotherfoundry.com/generator
 [Typable]: http://www.urtd.net/data/typable/
+
+
+## Use real text
+
+Those _dummy texts_ are in a way "blind" texts; you can not actually, really, read them.
+
+But once you have a dozen or so letters, you can construct **real** text to experience *immersive reading*.
+This is essential for deeply understanding how the design performs, so its good to get to this stage quickly.
+
+But watch out for the **stale text** effect.
+If you re-use the same real text for testing your typeface, it can become so familiar that you lose some perception abilities for how the typeface is performing.
+
+Once you have a full alphabet, to ensure fresh text, you can set your operating system font, email application, or web browser's default font to be your font. 
+
+This was discussed on the Type Drawers forum [On The Use of Blind Texts](http://typedrawers.com/discussion/918/on-the-use-of-blind-texts) thread.
