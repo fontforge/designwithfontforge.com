@@ -7,18 +7,9 @@ title: When Things Go Wrong With FontForge Itself
 ---
 
 FontForge is developed on Github. 
-Where something is going wrong, the FontForge team uses the Github Issue tracker to discuss the issue, and then someone develops a solution and proposes it as a _Pull Requests_.
+The FontForge team uses Github Issues to discuss problems, errors and ideas for improvements, and then someone develops a solution and proposes it as a _Pull Request_.
 
-There is plenty of good documentation for all this around the web:
-
-* <https://guides.github.com>
-* <https://guides.github.com/activities/contributing-to-open-source>
-* <https://guides.github.com/features/issues>
-* <https://www.codeschool.com/courses/mastering-github>
-* <https://training.github.com/>
-* <https://try.github.io>
-* <https://help.github.com/articles/good-resources-for-learning-git-and-github/>
-
+To learn more about Github, check out [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
 ## Paying for Support
 
@@ -32,17 +23,17 @@ When other font editors with similar comprehensive features cost hundreds of US 
 - Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
 - Revisit the issue and add a comment with the link to the freedom sponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed
 
-## Improvements and New Features
+## How To Create An Issue
 
-If you have an idea for an improvement or a new feature, here's how to participate in the development of FontForge and contribute your idea. 
-The process is just the same for reporting a crash or other kinds of bugs.
+* Create a new issue in the [FontForge Github Issue Tracker](https://github.com/fontforge/fontforge/issues). 
+* Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement
+* **Tip:** Drag and drop screenshot or other images directly into the issue page to include them
+* **Idea:** Make a narrated screencast and upload it to YouTube or a similar video sharing site, and include a link
 
-Create a new issue in the [FontForge Github Issue Tracker](https://github.com/fontforge/fontforge/issues). 
-Click the green "New Issue" button, and then describe what you did to trigger the crash. 
-You can drag and drop screenshot or other images directly into the issue page to include them.
-You can also make a narrated screencast and upload it to YouTube or a similar video sharing site, and include a link.
+That's all there is to participating in the development of FontForge.
+The process is just the same for reporting a crash or other kinds of bugs as it is for new features or questions.
 
-## Crashes
+### How To Report Crashes
 
 If you find FontForge crashing whilst in use, create an issue as above.
 If you have a particular font file (SFD, UFO, OTF, TTF, etc) that triggers the crash, you can either upload it to a new Github repository yourself (or Dropbox or whatever) and include a link, or post your email and ask a developer to email you to get a copy privately.
@@ -57,7 +48,7 @@ You can
 * check if a daily build is available (often possible for [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), or 
 * wait until the next release (often within a few weeks.)
 
-### Using the GNU Debugger to report crashes
+#### Using the GNU Debugger to report crashes
 
 To help developers find out what is going wrong, they typically will ask you for a backtrace from your session. 
 Here's how to make one.
