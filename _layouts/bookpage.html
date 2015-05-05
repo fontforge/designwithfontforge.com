@@ -1,6 +1,6 @@
 {% include html-start.html %}
 
-	{% include header-masthead.html %}
+  {% include header-masthead.html %}
 
     {% assign pageList = site.pages | sort: 'weight' %}
 
@@ -15,9 +15,9 @@
               {% if p.path contains 'en-US' %}
 
                 {% if currentPost and p.title != 'Design With FontForge' %}
-                  <a class="prev" href="{{p.url}}"> 
-                    <span class="chapter">Last chapter</span>
-                    <span>{{p.title}}</span>
+                  <a class="prev" href="{{p.url}}">
+                    <span>Prev</span>
+                    <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}
@@ -40,9 +40,9 @@
               {% if p.path contains 'en-US' %}
 
                 {% if currentPost and p.title != 'Design With FontForge' %}
-                  <a class="next" href="{{p.url}}"> 
-                    <span class="chapter">Next chapter</span>
-                    <span>{{p.title}}</span>
+                  <a class="next" href="{{p.url}}">
+                    <span>Next</span>
+                    <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}

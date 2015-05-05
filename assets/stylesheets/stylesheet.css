@@ -1,7 +1,7 @@
-/* This stylesheet started out as the GitHub Pages 
+/* This stylesheet started out as the GitHub Pages
    Architect theme by @jasonlong"
 
-   http://meyerweb.com/eric/tools/css/reset/ 
+   http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -26,7 +26,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -52,7 +52,7 @@ table {
 /* LAYOUT STYLES */
 body {
   font-size: 15px;
-  line-height: 1.5; 
+  line-height: 1.5;
   background: #FAFAFA url(../images/body-bg.jpg) 0 0 repeat;
   font-family: 'Merriweather', serif;
   font-weight: 400;
@@ -61,7 +61,7 @@ body {
 
 body > div, footer {
    -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;   
+   -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 1170px) {
@@ -70,21 +70,25 @@ body > div, footer {
   }
 }
 
-.content-wrapper h1, .content-wrapper h2, h3, h4, h5, h6, #sidebar {
+#main-content h1, #main-content h2, h3, h4, h5, h6, #sidebar {
   font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+}
+#sidebar {
+  font-weight: 400;
 }
 
-a {
+a, #main-content a h3 {
   color: #2879d0;
 }
-a:hover {
+a:hover, #main-content a:hover h3 {
   color: #2268b2;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -119,7 +123,7 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
-  margin: 0 auto;
+  margin: 2em auto 0;
 }
 @media (min-width: 1170px) {
   .inner {
@@ -148,13 +152,21 @@ header h2 {
 
 nav#post-nav {
   width: 100%;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 nav#post-nav a {
   display: block;
   width: 45%;
   float: left;
+}
+nav#post-nav a h3 {
+  margin: 0;
+}
+nav#post-nav a h3:before {
+  content: "";
+  padding-right: 0;
+  margin: 0;
 }
 @media (max-width: 767px) {
   nav#post-nav a {
@@ -164,13 +176,19 @@ nav#post-nav a {
     text-align: center;
     padding: 15px;
     background: #2e78cd;
+  }
+  nav#post-nav h3 {
+    margin: 0;
+    color: #fff;
+  }
+  nav#post-nav a:hover h3, nav#post-nav span {
     color: #fff;
   }
 }
 
 nav#post-nav span {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 nav#post-nav span:last-child {
@@ -207,16 +225,6 @@ nav#post-nav .prev + .next {
   }
 }
 
-nav#post-nav .chapter:after {
-  content: "：";
-}
-
-@media (max-width: 767px) {
-  nav#post-nav .chapter:after {
-    content: "";
-  }
-}
-
 aside#sidebar {
   width: 200px;
   padding-left: 20px;
@@ -244,7 +252,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 a.button small {
   display: block;
@@ -316,14 +324,14 @@ th {
 
 td {
   border: 1px solid #ebebeb;
-  text-align: center; 
+  text-align: center;
   font-weight: 300;
 }
 
 form {
   background: #f2f2f2;
   padding: 20px;
-  
+
 }
 
 em, i {
@@ -337,13 +345,12 @@ b, strong {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Merriweather Sans', serif; 
   font-size: 30px;
   letter-spacing: -1px;
   margin-bottom: .6em;
+  margin-top: 1em;
   color: #272727;
-  font-weight: 300;
-} 
+}
 
 #main-content h1:before {
   content: "»";
@@ -353,12 +360,11 @@ b, strong {
 }
 
 #main-content h2 {
-  font-family: 'Merriweather Sans', serif; 
   font-size: 26px;
-  font-weight: normal;
   margin-bottom: .6em;
+  margin-top: 3em;
   color: #272727;
-} 
+}
 #main-content h2:before {
   content: "»";
   color: #9ddcff;
@@ -367,14 +373,12 @@ b, strong {
 }
 
 #main-content h3 {
-  font-family: 'Merriweather Sans', serif; 
   font-size: 22px;
-  font-weight: normal;
-  margin-top: 24px;
+  margin-top: 3em;
   margin-bottom: .6em;
   color: #272727;
-} 
- 
+}
+
 #main-content h3:before {
   content: "»";
   color: #30B5FF;
@@ -383,12 +387,10 @@ b, strong {
 }
 
 #main-content h4 {
-  font-family: 'Merriweather Sans', serif; 
   font-size: 18px;
-  font-weight: normal;
   margin-bottom: .4em;
   color: #272727;
-} 
+}
 
 h4:not(.quiet):before {
   content: "////";
@@ -398,10 +400,9 @@ h4:not(.quiet):before {
 }
 
 #main-content h5 {
-  font-family: 'Merriweather Sans', serif; 
   font-size: 14px;
   color: #272727;
-} 
+}
 h5:before {
   content: "/////";
   color: #9ddcff;
@@ -410,10 +411,9 @@ h5:before {
 }
 
 #main-content h6 {
-  font-family: 'Merriweather Sans', serif; 
   font-size: .8em;
   color: #272727;
-} 
+}
 h6:before {
   content: "//////";
   color: #9ddcff;
@@ -449,7 +449,7 @@ div.note ul, div.note p:last-child, div.warn ul, div.warn p:last-child {
 p {
   margin-bottom: 1em;
 }
- 
+
 a {
   text-decoration: none;
 }
@@ -505,15 +505,9 @@ footer {
 footer p {
   margin: 0;
 }
-
 footer a {
-  color: #999;
-  font-weight: 300;
+  opacity: 0.5;
 }
-footer a:hover {
-  color: #666;
-}
-
 /* MISC */
 .clearfix:after {
   clear: both;
@@ -592,9 +586,7 @@ footer a:hover {
     line-height: 1;
     background-color: #9ddcff;
     color: #2879d0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;                     
-    border-radius: 5px;    
+    border-radius: 5px;
   }
   header a.button small {
     font-size: 13px;
@@ -673,7 +665,8 @@ ol.rectangle-list a {
   background: #ddd;
   color: #444;
   text-decoration: none;
-  transition: all .3s ease-out; 
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
   font-weight: 300;
 }
 
@@ -683,12 +676,12 @@ ol.rectangle-list a.active {
 
 ol.rectangle-list a:hover{
   background: #eee;
-} 
+}
 
 ol.rectangle-list a:before{
   content: counter(li);
   counter-increment: li;
-  position: absolute; 
+  position: absolute;
   left: -2.5em;
   top: 50%;
   margin-top: -1em;
@@ -702,12 +695,13 @@ ol.rectangle-list a:before{
 }
 
 ol.rectangle-list a:after{
-  position: absolute; 
+  position: absolute;
   content: '';
   border: .5em solid transparent;
   left: -1em;
   top: 50%;
   margin-top: -.5em;
+  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
 
