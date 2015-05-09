@@ -51,12 +51,13 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5;
   background: #FAFAFA url(../images/body-bg.jpg) 0 0 repeat;
-  font-family: 'Merriweather', serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 400;
   color: #343434;
+  margin-bottom: 40px;
 }
 
 body > div, footer {
@@ -66,12 +67,12 @@ body > div, footer {
 
 @media (min-width: 1170px) {
   body {
-    font-size: 19px;
+    font-size: 23px;
   }
 }
 
 #main-content h1, #main-content h2, h3, h4, h5, h6, #sidebar {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
 }
 #sidebar {
@@ -231,13 +232,14 @@ aside#sidebar {
   min-height: 504px;
   float: right;
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
-  font-size: 12px;
+  font-size: .62em;
   line-height: 1.3;
+  font-weight: 400;
 }
 
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #downloads {
@@ -274,27 +276,24 @@ aside a.button {
 }
 
 code, pre {
-  font-family: Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
-  color: #222;
-  margin-bottom: 30px;
-}
-
-code {
-  padding: 0 2px;
-}
-
-pre {
-  padding: 20px;
-  background: #fff;
-  text-shadow: none;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 20px;
+  background-color: #e6edf0;
   overflow: auto;
-  border: solid 1px #f2f2f2;
+  text-shadow: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.75em;
+  vertical-align: text-top;
+  white-space: nowrap;
 }
+code {
+  padding: 3px 5  px;  
+}
+
 pre code {
-  color: #2879d0;
-  background-color: #fff;
-  border: none;
   padding: 0;
+  font-size: 1em;  
 }
 
 ul, ol, dl {
@@ -319,13 +318,13 @@ table {
 }
 
 th {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 td {
   border: 1px solid #ebebeb;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 form {
@@ -341,11 +340,14 @@ em, i {
 b, strong {
   font-weight: bold;
 }
+.underline {
+  text-decoration: underline;
+}
 
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-size: 30px;
+  font-size: 2.6em;
   letter-spacing: -1px;
   margin-bottom: .6em;
   margin-top: 1em;
@@ -356,70 +358,79 @@ b, strong {
   content: "»";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -1.25em;
+  margin-left: -.8em;
 }
 
 #main-content h2 {
-  font-size: 26px;
+  font-size: 1.6em;
   margin-bottom: .6em;
-  margin-top: 3em;
+  margin-top: 1.9em;
   color: #272727;
 }
 #main-content h2:before {
   content: "»";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -1.25em;
+  margin-left: -.8em;
 }
 
 #main-content h3 {
-  font-size: 22px;
-  margin-top: 3em;
+  font-size: 1.2em;
+  margin-top: 2.3em;
   margin-bottom: .6em;
   color: #272727;
 }
 
+/*
 #main-content h3:before {
   content: "»";
   color: #30B5FF;
   padding-right: 0.3em;
   margin-left: -1.25em;
 }
+*/
 
 #main-content h4 {
-  font-size: 18px;
+  font-size: 1em;
   margin-bottom: .4em;
   color: #272727;
+  margin-top: 2.5em;
 }
 
+/*
 h4:not(.quiet):before {
   content: "////";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2em;
 }
+*/
 
 #main-content h5 {
   font-size: 14px;
   color: #272727;
 }
+/*
 h5:before {
   content: "/////";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -3.2em;
 }
+*/
 
 #main-content h6 {
   font-size: .8em;
   color: #272727;
 }
+/*
 h6:before {
   content: "//////";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -3.7em;
 }
+*/
 
 .note {
   background-color: #F2F7F9;
@@ -497,9 +508,9 @@ footer {
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
-  font-size: 13px;
+  font-size: .62em;
   color: #aaa;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 footer p {
@@ -632,7 +643,7 @@ ul.breadcrumb li {
   margin: 0;
   padding: 0;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* Rectangle List style from
@@ -640,7 +651,6 @@ ul.breadcrumb li {
 
 ol.rectangle-list li {
   list-style: none;
-  /*text-transform: capitalize;*/
 }
 
 .rectangle-list {
@@ -649,7 +659,6 @@ ol.rectangle-list li {
   *list-style: decimal;
   padding: 0;
   margin-bottom: 4em;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
 ol.rectangle-list ol {
@@ -667,15 +676,12 @@ ol.rectangle-list a {
   text-decoration: none;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
-  font-weight: 300;
 }
 
-ol.rectangle-list a.active {
-  background: #eee;
-}
-
-ol.rectangle-list a:hover{
-  background: #eee;
+ol.rectangle-list a.active, 
+ol.rectangle-list a:hover {
+  background: #2e78cd;
+  color: #fff;
 }
 
 ol.rectangle-list a:before{
@@ -691,7 +697,6 @@ ol.rectangle-list a:before{
   width: 2em;
   line-height: 2em;
   text-align: center;
-  font-weight: 300;
 }
 
 ol.rectangle-list a:after{
