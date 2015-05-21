@@ -280,7 +280,6 @@ aside a.button {
 
 code, pre {
   font-family: 'Source Code Pro', monospace;
-  margin-bottom: 20px;
   background-color: #e6edf0;
   overflow: auto;
   text-shadow: none;
@@ -288,9 +287,14 @@ code, pre {
   border-radius: 5px;
   font-size: 0.75em;
   white-space: pre;
-  display: inline-block;
   max-width: 100%;
 }
+
+pre {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 
 pre code {
   padding: 0;
