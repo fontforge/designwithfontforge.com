@@ -13,7 +13,7 @@ To learn more about Github, check out [Good Resources for Learning Git and GitHu
 
 ## Paying for Support
 
-This might be a suprise, but it really is possible to pay for FontForge support when things go wrong. 
+This might be a surprise, but it both possible and encourage to pay for FontForge support when things go wrong. 
 
 When other font editors with similar comprehensive features cost hundreds of US Dollars, if we each pay a similar amount to FontForge developers to get our most annoying bugs fixed, FontForge will become better and better. 
 
@@ -23,18 +23,36 @@ When other font editors with similar comprehensive features cost hundreds of US 
 - Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
 - Revisit the issue and add a comment with the link to the freedom sponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed
 
-## How To Create An Issue
+## Report A Bug
 
-* Create a new issue in the [FontForge Github Issue Tracker](https://github.com/fontforge/fontforge/issues). 
-* Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement
-* **Tip:** Drag and drop screenshot or other images directly into the issue page to include them
-* **Idea:** Make a narrated screencast and upload it to YouTube or a similar video sharing site, and include a link
+1. Visit the [FontForge Github Issue Tracker](https://github.com/fontforge/fontforge/issues) and sign in to Github (after creating an account, if you don't have one yet.)
+- In the Issues search box try searching for similar issues, to see if the problem you are facing was reported already. 
+If it was, and your issue is related but not quite the same, please comment on that issue with your own take on the issue.
+- If it was not already reported, open up a new issue. 
+Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement.
 
-That's all there is to participating in the development of FontForge.
-The process is just the same for reporting a crash or other kinds of bugs as it is for new features or questions.
+Include relevant details, such as:
+
+* your Operating System and version, 
+* your FontForge version and where you got it from, 
+* **what happens, step by step, to produce the issue** 
+* **what error messages you see,**
+* **what you expect to happen**
+
+You can drag and drop screenshots or other images directly into the issue page to include them
+
+An easy way to report issues is to record a screencast videos where you explain in a narrated voiceover the things you are interested in as they happen, and then upload it to YouTube and include a link to your video
+
+To reproduce the issue, it can helpful to share with the developer community the files you are working with. 
+If you can make a file that is small and only contains what is needed to reproduce the issue, please fork the fontforge repo and add these files to [/tests/fonts](https://github.com/fontforge/fontforge/tree/master/tests/fonts) and submit a pull request. 
+You can also place files on your own website or a file sharing service temporarily (such as MegaUpload, DropBox, Google Drive, etc.) 
+Finally, if you do not wish to make your files publicly available, you can provide an email address for a FontForge developer to contact you at to get a private copy of the file.
+
+Please don't close other people's issues - ask them to close the issue if it is closed to their satisfaction.
 
 ## How To Report A Crash
 
+The process is just the same for reporting a crash or other kinds of bugs as it is for new features or questions.
 Sending a good crash report to the FontForge developers really does help them a lot to improve the stability of the program for everybody! 
 Don’t feel shy about reporting such issues, because a crash that isn’t reported is a crash that is far less likely to be fixed.
 
