@@ -27,6 +27,22 @@ time. But project scopes are often determined by the use you have for the collec
 fonts, or, even further, by the needs of your client. Certainly for professional type designers,
 the latter two questions are usually the determining factors.
 
+## Feeling
+
+The most important thing about a type design is the feelings it evokes. 
+This is notoriously hard to verbalise, but it is what makes a particular typeface meaningfully different from any other. 
+
+A type designer in Portugal, Natanael Gama, designed the [Exo family](https://www.google.com/fonts/specimen/Exo) with FontForge. 
+On his homepage he describes another project for the sculptor [John Williams](http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
+
+* Figurative to Abstract 50%
+* Graceful to Robust: 30%
+* Calm to Energetic: 0%
+* Puzzling to Plain: 15%
+* Experimental to Standard: 15%
+* Prestigious to Ordinary: 15%
+* Other Ideas: Beautiful, Outside Spaces, Human Condition
+
 ## Glyph coverage
 
 A font is still a font even if it has only one glyph in it. But a font can also have a few hundred
@@ -62,9 +78,13 @@ members of a family.
 For a remainder of the variables you should be considering, see the chapter [“What is a
 font?”](What_Is_a_Font.html).
 
-# Technical: Version Management 
+## Technical: Version Management 
 
 You should learn to use Git and Github to store your files, and use the "SFDir" format for your sources.
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
+
+## Further Reading
+
+* Aoife Mooney's presentation on the type design process at TypeCon 2014: <https://vimeo.com/107421895>
