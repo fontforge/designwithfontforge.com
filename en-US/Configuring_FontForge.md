@@ -6,15 +6,15 @@ category: Getting To Know FontForge
 title: Configuring FontForge
 ---
 
-FontForge can be fine-tuned in various ways. 
+FontForge can be fine-tuned in various ways.
 Here are some tips and tricks for doing so.
-You have many options for optimizing FontForge for your platform and workflow. 
+You have many options for optimizing FontForge for your platform and workflow.
 
 Please [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute) us if you have a tip you want to share.
 
 #### First Things First
 
-When making any configuration changes, be sure to follow this simple 
+When making any configuration changes, be sure to follow this simple
 
 1. First, quit FontForge (and X11)
 2. Then, make the changes
@@ -27,14 +27,14 @@ If you think of something, [tell us](https://github.com/fontforge/designwithfont
 
 ## GNU+Linux
 
-Currently we have nothing specific to any GNU+Linux distribution. 
+Currently we have nothing specific to any GNU+Linux distribution.
 If you think of something, [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
 
 ## Mac OS X
 
 To open a long file or folder location path provided below:
 
-1. Copy the path 
+1. Copy the path
 2. `⌘ Tab` to switch to Finder
 3. `⇧⌘G` to open the Go menu&nbsp;&nbsp;→&nbsp;&nbsp;Go to Folder item
 4. `⌘V` to paste in the path
@@ -43,11 +43,11 @@ To open a long file or folder location path provided below:
 #### Keyboard Shortcuts
 
 Many dialog and menu items have one letter that is u<span class="underline">n</span>derlined.
-These can be accessed immediately by pressing `Ctrl-Alt` and that key. 
+These can be accessed immediately by pressing `Ctrl-Alt` and that key.
 For example, if a dialog asks you if you're <span class="underline">O</span>K, press `Ctrl + Alt + o`
 
 If you do not use a US English keyboard, you may find some of the keyboard shortcuts are silly.
-Or, you might just want to customize them to be the way that you expect. 
+Or, you might just want to customize them to be the way that you expect.
 To change these keys open and edit the `default` text file, located here:
 
 ```
@@ -65,12 +65,12 @@ Open and edit the `resources` text file, located here:
 /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/resources
 ```
 
-Add the line `Gdraw.ScreenWidthCentimeters: 34` if your screen is 34cm wide. 
+Add the line `Gdraw.ScreenWidthCentimeters: 34` if your screen is 34cm wide.
 Try different values until you're happy.
 
 #### Bookmarks
 
-In the file dialog there is a button to `Bookmark Current Dir`, but `Remove Bookmark...` doesn't work. 
+In the file dialog there is a button to `Bookmark Current Dir`, but `Remove Bookmark...` doesn't work.
 This has been reported to the developers as [Issue #2054](https://github.com/fontforge/fontforge/issues/2054).
 To work around this, edit the list manually, in the `FCBookmarks` section of the `prefs` file, located at
 
@@ -84,31 +84,24 @@ Reset your bookmarks by opening Terminal and pasting the following text into Ter
 sed -i bak -e 's/^FCBookmarks.*/FCBookmarks:     ~\/Library\/Fonts\/;\/Library\/Fonts\/;\/System\/Library\/Fonts\//g' ~/.config/fontforge/prefs;
 ```
 
-Then press Enter to run this command. 
+Then press Enter to run this command.
 If you see no errors, it worked correctly.
 
 #### 3 button mouse
 
-FontForge uses three mouse button clicks for some extra functions. 
+FontForge uses three mouse button clicks for some extra functions.
 If you don't have a three button mouse you can emulate that by enabling it in X11/Xquartz preferences, in the `Input` section's option `Emulate three button mouse`
 
 #### Change X11/XQuartz icon to FF icon
 
-If you primarily use X11 for FontForge, you can change its icon.
+If you primarily use X11 for FontForge, you can change its icon. Copy and paste the following text into the terminal and follow the instructions
 
-1. Open Terminal
-2. Copy and paste the following text
 ```
-sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app
+sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app 
 ```
-4. Press Enter
-5. Type your Mac password (to log in, unlock screensaver, etc)
-6. Press Enter again
-
-If you see no errors, it worked correctly.
 
 
 #### Window management
 
 FontForge isn't a native Mac app, so window handling can be slighty "off," especially on dual monitor systems.
-To regain control of window positions, use the free, libre, open source [ShiftIt](https://github.com/fikovnik/ShiftIt) utility to assign keyboard shortcuts to set window positions. 
+To regain control of window positions, use the free, libre, open source [ShiftIt](https://github.com/fikovnik/ShiftIt) utility to assign keyboard shortcuts to set window positions.
