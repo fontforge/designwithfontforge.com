@@ -61,7 +61,7 @@ Without handles, coins will produce straight lines.
 If you want to start from a straight line and then start curving smoothly, you will want to use
 *tangent points*.  
 A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
-its direction &ndash; this ensures a continous transition between the line and the curve.
+its direction &ndash; this ensures a continuous transition between the line and the curve.
 
 <img src="images/tools-tangent-point.png" alt>
 

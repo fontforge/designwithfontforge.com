@@ -19,7 +19,7 @@ Common styles of type families include:
 * Narrow, Condensed, Wide and Extra Wide
 * Regular, Semi-Flourished, Flourished, Very Flourished, Extremely Flourished.
 
-While there are reasons that typical pattens in families exist, you may find you want a very
+While there are reasons that typical patterns in families exist, you may find you want a very
 different kind of grouping.
 
 The scope of the project can be determined exclusively by your ambition and your amount of free
