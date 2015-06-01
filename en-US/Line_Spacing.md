@@ -10,7 +10,7 @@ When you have the word space and the n and o set you can begin to look at the li
 
 ## Think about line space intentionally
 
-As is the case with letter and word spacing, having too much or too little line spacing can make your font look awkard in real-world usage.  Above all else, finding the right line spacing balance is a matter of thinking about the question intentionally and of testing a range of options on the way to making a final decision.
+As is the case with letter and word spacing, having too much or too little line spacing can make your font look awkward in real-world usage. Above all else, finding the right line spacing balance is a matter of thinking about the question intentionally and of testing a range of options on the way to making a final decision.
 
 As a general rule, most new font designers tend to err on the side of having too little line spacing in their font, so if you are unsure, adding additional space is usually a good idea.
 
@@ -34,7 +34,7 @@ Now switch to the "OS/2" tab. On almost all computers, your font's line spacing 
 
 <img src="images/ascents-descents.png" alt="">
 
-There are three sets of values: Win Ascent and Descent, Typo Ascent and Descent, and HHead Ascent and Descent.  You should set all the Ascents to be the same as the Ascent value you noted in the General tab.  Next, you shold set all of the Descents to be the same as the Descent value you noted in the General tab, with one important exception: you must make the Typo Descent number <em>negative</em>. Leave the value the same, but put a minus sign in front of it.  Finally, uncheck all of the "is offset" options.
+There are three sets of values: Win Ascent and Descent, Typo Ascent and Descent, and HHead Ascent and Descent.  You should set all the Ascents to be the same as the Ascent value you noted in the General tab.  Next, you should set all of the Descents to be the same as the Descent value you noted in the General tab, with one important exception: you must make the Typo Descent number <em>negative</em>. Leave the value the same, but put a minus sign in front of it.  Finally, uncheck all of the "is offset" options.
 
 These settings will give you a sensible starting point.  You can now proceed to test your font with this line spacing and make incremental adjustments until you arrive at eye-pleasing result.
 

@@ -20,13 +20,13 @@ Having the zero narrower than the capital O while sharing its height is the comm
 
 <img src="images/open-sans-numbers.png" alt="">
 
-A perfectly round or nearly perfectly round circle is less common, but does exist. Examples of fonts that use this approach include the Google web font Volkhorn as well as other commercial types such as Mrs Eaves, Vendeta and Fleischman BT Pro. Fonts that use oldstyle proportional numerals are more likely to feature this aproach. Sometimes a zero at x-height but which is narrower will also be seen.
+A perfectly round or nearly perfectly round circle is less common, but does exist. Examples of fonts that use this approach include the Google web font Volkhorn as well as other commercial types such as Mrs Eaves, Vendeta and Fleischman BT Pro. Fonts that use oldstyle proportional numerals are more likely to feature this approach. Sometimes a zero at x-height but which is narrower will also be seen.
 
 Numerals also come in up to 11 identifiable styles when you include fractions, superscripts and subscripts. We will look at the 5 most common ones.
 
 ## Lining style numerals
 
-The most common styles of number found in fonts are Tabular Lining and Proportional Lining. Lining refers to the heights that the numbers use. If it is a lining style the heights for all the numbers will be optically the same. The difference between Tabular Lining and Proportional Lining numbers is that in Tabular Lining all the numbers also share the same widths. This style is useful for speadsheets and any other purpose where it is helpful for numbers to stay stacked up in neat lines both horizontally and vertically. 
+The most common styles of number found in fonts are Tabular Lining and Proportional Lining. Lining refers to the heights that the numbers use. If it is a lining style the heights for all the numbers will be optically the same. The difference between Tabular Lining and Proportional Lining numbers is that in Tabular Lining all the numbers also share the same widths. This style is useful for spreadsheets and any other purpose where it is helpful for numbers to stay stacked up in neat lines both horizontally and vertically. 
 
 <img src="images/2Tabularlining2.png" alt="">
 

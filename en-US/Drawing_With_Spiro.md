@@ -26,7 +26,7 @@ There are five different types of Spiro points:
 1. G4 points, used for a more gentle curve
 2. G2 points, used for a sharper curve
 3. Corner points, for abrupt corner joints
-4. Previous constraint points, used when the countour of the path changes from a curve to a straight
+4. Previous constraint points, used when the contour of the path changes from a curve to a straight
    line
 5. Next constraint points, used when the path changes from a straight line to a curve
 

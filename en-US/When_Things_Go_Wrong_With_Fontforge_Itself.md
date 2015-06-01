@@ -19,7 +19,7 @@ When other font editors with similar comprehensive features cost hundreds of US 
 
 [FreedomSponsors.org](https://freedomsponsors.org/project/220/) offers a transparent system for paying FontForge developers to fix issues you care about in a timely fashion. 
 
-1. Create a FontForge issue descibing what you want to be changed (see below.) Copy the URL of the issue to the clipboard.
+1. Create a FontForge issue describing what you want to be changed (see below.) Copy the URL of the issue to the clipboard.
 - Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
 - Revisit the issue and add a comment with the link to the freedom sponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed
 
