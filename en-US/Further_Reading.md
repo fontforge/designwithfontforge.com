@@ -22,10 +22,30 @@ title: Further Reading
 * http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
 * http://raph.levien.com/phd Raph Levien's PhD on Spiro curves
 
+### Business
+
+* [ILT: Why Did I Start A Foundry](http://ilovetypography.com/2010/05/06/why-did-i-start-a-type-foundry/)
+* [ILT Leonidas on Typeface Design practice](http://ilovetypography.com/2010/03/25/a-few-things-i%E2%80%99ve-learned-about-typeface-design/)
+
 ### Latin
 
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
 * [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
+* [On Tilde](http://www.shadycharacters.co.uk/2015/03/miscellany-60-tilde/)
+* [ILT: On Diacritics](http://ilovetypography.com/2009/01/24/on-diacritics/)
+* [Twardoch: Polish Diacritics](http://www.twardoch.com/download/polishhowto/)
+
+ILT Example Projects:
+
+* [Novel](http://ilovetypography.com/2012/05/15/making-fonts-novel-typeface/)
+* [Questa](http://ilovetypography.com/2014/10/08/questa-fonts-project/)
+* [Sindelar](http://ilovetypography.com/2015/05/05/making-fonts-sindelar)
+* [GT Sectra](http://ilovetypography.com/2015/01/13/making-fonts-gt-sectra)
+* [FF Tundra](http://ilovetypography.com/2011/10/05/the-making-of-ff-tundra/)
+* [Acorde](http://ilovetypography.com/2010/10/10/the-making-of-acorde-2/)
+* [Ode](http://ilovetypography.com/2010/09/01/ode-fresh-start-for-a-broken-script/)
+* [Biome](http://ilovetypography.com/2010/07/01/font-design-biome-the-making-of-a-typeface/)
+* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [github.com/motaitalic/vesper-libre](https://github.com/motaitalic/vesper-libre)
 
 ### Cyrillic 
 
@@ -40,6 +60,7 @@ title: Further Reading
 ### Arabic
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/wiki/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
+* [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)
 
 ### Devanagari 
 
