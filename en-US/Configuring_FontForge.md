@@ -10,20 +10,24 @@ FontForge can be fine-tuned in various ways.
 Here are some tips and tricks for doing so.
 You have many options for optimizing FontForge for your platform and workflow.
 
-Please [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute) us if you have a tip you want to share.
+Please [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute) us if you have any tips you want to share.
 
 #### First Things First
 
-When making any configuration changes, be sure to follow this simple
+When making any configuration changes, be sure to follow this:
 
-1. First, quit FontForge (and X11)
-2. Then, make the changes
-3. Finally, start FontForge and test your changes
+1. Quit FontForge (and X11)
+2. Make the changes
+3. Start FontForge and test your changes
 
 ## Windows
 
-Currently we have nothing specific to Windows.
-If you think of something, [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
+####Copy/Paste
+Copying text from another app and pasting it into FontForge is currently a bit buggy on windows because clicking on a textbox in FontForge clears the clipboard. Workaround: 
+1: Select textbox/input field in FontForge
+2: Switch to another app and copy the text
+3: Switch back to FF without clicking the textbox
+4: Paste
 
 ## GNU+Linux
 
