@@ -31,6 +31,7 @@ title: Further Reading
 ### Latin
 
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
+* [Adobe: Designing Multiple Master Typefaces](https://www.google.com/search?q=Designing+Multiple+Master+Typefaces)
 * [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
 * [On Tilde](http://www.shadycharacters.co.uk/2015/03/miscellany-60-tilde/)
 * [ILT: On Diacritics](http://ilovetypography.com/2009/01/24/on-diacritics/)
