@@ -78,15 +78,6 @@ If you see no errors, it worked correctly.
 
 FontForge uses three mouse button clicks for some extra functions. You can emulate a three mouse button in X11/Xquartz preferences, in the `Input` section's option `Emulate three button mouse`
 
-#### Change X11/XQuartz icon to FF icon
-
-If you primarily use X11 for FontForge, you can change its icon. Copy and paste the following text into the terminal and follow the instructions
-
-```
-sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app
-```
-
-
 #### Window management
 
 Window handling can a bit buggy especially on dual monitor systems. Use [ShiftIt](https://github.com/fikovnik/ShiftIt) to control window positions via keyboard shortcuts.
