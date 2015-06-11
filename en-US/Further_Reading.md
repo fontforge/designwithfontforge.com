@@ -28,6 +28,10 @@ title: Further Reading
 * [ILT: Why Did I Start A Foundry](http://ilovetypography.com/2010/05/06/why-did-i-start-a-type-foundry/)
 * [ILT Leonidas on Typeface Design practice](http://ilovetypography.com/2010/03/25/a-few-things-i%E2%80%99ve-learned-about-typeface-design/)
 
+### Typography
+
+* [Typekit: Practice](http://practice.typekit.com/)
+
 ### Latin
 
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
