@@ -36,6 +36,7 @@ title: Further Reading
 * [On Tilde](http://www.shadycharacters.co.uk/2015/03/miscellany-60-tilde/)
 * [ILT: On Diacritics](http://ilovetypography.com/2009/01/24/on-diacritics/)
 * [Twardoch: Polish Diacritics](http://www.twardoch.com/download/polishhowto/)
+* [Logotype: Quora logo](https://www.quora.com/How-is-the-new-Quora-logo-different-from-the-old-one/answer/Christian-Schwartz-1)
 
 ILT Example Projects:
 
