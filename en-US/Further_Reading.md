@@ -34,6 +34,8 @@ title: Further Reading
 
 ### Latin
 
+* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/)
+* [Frere Jones: Typeface Mechanics 2](http://www.frerejones.com/blog/typeface-mechanics-002/)
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
 * [Adobe: Designing Multiple Master Typefaces](https://www.google.com/search?q=Designing+Multiple+Master+Typefaces)
 * [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
