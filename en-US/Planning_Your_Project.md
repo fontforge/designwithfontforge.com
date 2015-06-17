@@ -85,6 +85,10 @@ You should learn to use Git and Github to store your files, and use the "SFDir" 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
 
+## Overall Process
+
+<iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
+
 ## Further Reading
 
 * Aoife Mooney's presentation on the type design process at TypeCon 2014: <https://vimeo.com/107421895>
