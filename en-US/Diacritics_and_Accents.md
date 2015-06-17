@@ -139,3 +139,4 @@ In the second example, below, the 'acute' glyph has been selected from the 'Mark
 * http://diacritics.typo.cz/
 * http://scripts.sil.org/ProbsOfDiacDesign
 * http://www.microsoft.com/typography/developers/fdsspec/diacritics.htm
+* https://twitter.com/fostertype/status/610292546971893760
