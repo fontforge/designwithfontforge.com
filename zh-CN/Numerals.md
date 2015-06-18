@@ -20,7 +20,7 @@ title: 数字
 
 <img src="../en-US/images/open-sans-numbers.png" alt="">
 
-一个完美的圆或者接近完美的圆圈不常用，但是也存在。使用这种方法的字体的例子包括Google网页字体Volkhorn和其他商业字体比如Mrs Eaves，Vendeta和Fleischman BT Pro。使用老式的按比例的数字的字体更多地使用了这种方法。有时也会看到一个达到x高度但是更窄的零。
+一个完美的圆或者接近完美的圆圈不常用，但是也存在。使用这种方法的字体的例子包括Google网页字体Vollkorn和其他商业字体比如Mrs Eaves，Vendeta和Fleischman BT Pro。使用老式的按比例的数字的字体更多地使用了这种方法。有时也会看到一个达到x高度但是更窄的零。
 
 当你包含了分数、上标和下标的时候，数字可能有多达11种可以分辨的样式。我们来看其中5种最常见的。
 
