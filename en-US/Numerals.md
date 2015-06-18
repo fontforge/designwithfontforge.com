@@ -20,7 +20,7 @@ Having the zero narrower than the capital O while sharing its height is the comm
 
 <img src="images/open-sans-numbers.png" alt="">
 
-A perfectly round or nearly perfectly round circle is less common, but does exist. Examples of fonts that use this approach include the Google web font Volkhorn as well as other commercial types such as Mrs Eaves, Vendeta and Fleischman BT Pro. Fonts that use oldstyle proportional numerals are more likely to feature this approach. Sometimes a zero at x-height but which is narrower will also be seen.
+A perfectly round or nearly perfectly round circle is less common, but does exist. Examples of fonts that use this approach include the Google web font Vollkorn as well as other commercial types such as Mrs Eaves, Vendeta and Fleischman BT Pro. Fonts that use oldstyle proportional numerals are more likely to feature this approach. Sometimes a zero at x-height but which is narrower will also be seen.
 
 Numerals also come in up to 11 identifiable styles when you include fractions, superscripts and subscripts. We will look at the 5 most common ones.
 
