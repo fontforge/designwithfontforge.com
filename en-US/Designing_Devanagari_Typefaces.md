@@ -142,7 +142,7 @@ The Adobe FDK contains a 'spot' tool, that can be used like this:
 
 > spot -t GSUB=7 Font.otf > GSUB.fea
 
-The noto project has a [dump_otl.py](https://code.google.com/p/noto/source/browse/nototools/dump_otl.py)
+The noto project has a [dump_otl.py](https://github.com/googlei18n/nototools/blob/master/nototools/dump_otl.py)
 
 The 'Fontlab Studio' and 'OpenType Master' proprietary application have converters too. 
 
