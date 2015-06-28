@@ -74,9 +74,8 @@ Try different values until you're happy.
 
 #### Bookmarks
 
-In the file dialog there is a button to `Bookmark Current Dir`, but `Remove Bookmark...` doesn't work.
-This has been reported to the developers as [Issue #2054](https://github.com/fontforge/fontforge/issues/2054).
-To work around this, edit the list manually, in the `FCBookmarks` section of the `prefs` file, located at
+In the file dialog there is a button to `Bookmark Current Dir`, but `Remove Bookmark...` doesn't work [#2054](https://github.com/fontforge/fontforge/issues/2054).
+You can edit the list manually in the `FCBookmarks` section of the `prefs` file located at
 
 ```
 ~/.config/fontforge/prefs
