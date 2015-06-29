@@ -52,7 +52,7 @@ approximate construction suggested by the shape of the letters themselves.
 
 Construction refers to the structure of the underlying strokes that form a particular glyph. Perhaps
 you can imagine the glyph’s skeleton. The kind of construction to use is arguably one of the most
-important questions to think about, because the construction effects so many of the remaining
+important questions to think about, because the construction affects so many of the remaining
 choices, particularly if your design is going to feel somewhat familiar to readers.
 
 However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see below) are generally not part
