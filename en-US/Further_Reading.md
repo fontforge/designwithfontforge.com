@@ -56,6 +56,10 @@ ILT Example Projects:
 * [Biome](http://ilovetypography.com/2010/07/01/font-design-biome-the-making-of-a-typeface/)
 * [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [github.com/motaitalic/vesper-libre](https://github.com/motaitalic/vesper-libre)
 
+### Greek
+
+* [Greek Typefaces Worth Studying](http://leonidas.org/greek-type-design/greek-typefaces-worth-studying/)
+
 ### Cyrillic 
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
