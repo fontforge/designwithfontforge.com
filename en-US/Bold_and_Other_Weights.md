@@ -25,3 +25,7 @@ FontForge does have a function to interpolate between separate fonts (see the th
 Using this technique you can more rapidly find the weight you feel is most appropriate for your project. The same technique can be applied to help decide about even heavier weights such as the "heavy" and "black," as well as lighter ones like "book" and "thin" styles. You can also set negative values on interpolation, for example you will get a "bold" style if you interpolate a "regular" with "thin" at -50%. 
 
 By this logic, it may seem like the best and most efficient way of making a regular weight and all the other weights you may need, would be to make a very thin and a hyper-bold font, then generate everything you need from these. However, the result of that approach is likely to be excessively bland. Instead, it is often the case that each significant change in weight will require its own master design from which other middle weights can be made.
+
+## Further Reading
+
+* <http://bigelowandholmes.typepad.com/bigelow-holmes/2015/07/on-font-weight.html>
