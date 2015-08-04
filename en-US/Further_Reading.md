@@ -76,6 +76,7 @@ ILT Example Projects:
 * [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)
 * [Parachut: Interview with Hasan Abu Afash](http://upscaletypography.com/?p=1646)
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
+* [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)
 
 ### Devanagari 
 
