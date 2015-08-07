@@ -166,3 +166,7 @@ You can then use your normal font installation procedure to install the adapted 
 <p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes &ndash; otherwise it will use the previous version of the font, and not the one with the new changes.</p>
 
 Thanks to [Khaled Hosny] (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
+
+## Further Reading
+
+* <http://lists.nongnu.org/archive/html/freetype-devel/2015-08/msg00016.html> has a tip about how to draw the overlapping parts of Arabic glyphs
