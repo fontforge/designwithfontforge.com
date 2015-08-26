@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 51
 category: workflow
-title: Numerals
+title: Numeral
 ---
 
 Numerals are often difficult for font designers -- and for several reasons. One is that numerals have a very large number of curves. Another is that numerals often use conventions in their shapes that are different from (or are even in violation of) the visual conventions seen in the rest of the font design. Furthermore, numerals can have very large number of strokes (like 8 and 5 do), or they may have large white spaces (like 1, 7, and sometimes 2 and 4). Both situations can be hard to manage. Finally, there is the problem of how to make sure your zero looks different from the capital O.

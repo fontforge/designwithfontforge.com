@@ -3,30 +3,30 @@ published: true
 layout: bookpage
 weight: 84
 category: Appendices
-title: Glossary
+title: ගැටපද එළිය
 ---
 
-## A
+## අ
 
-### Abjad
+### අබ්ජාඩ් ක්‍රමය
 
-Abjad is the technical term for the type of writing system used by Semitic languages (Hebrew, Arabic, etc.), where there are glyphs for all the consonants but the reader must be prepared to guess what vowel to add between two consonants.
+සෙමිටික් (හිබෲ, අරාබි ආදී...) භාෂාවල ලේඛණ ක්‍රමය හැඳින්වීමට යොදන තාක්ෂණික යෙදුම. මෙහිදී සියලුම ව්‍යංජන අක්ෂර ලිඛිත සංකේත ස්වරූපයෙන් දැක්විය හැකි නමුත් ව්‍යංජන අක්ෂර දෙකක් අතර යෙදිය  යුතු ස්වර අක්ෂරය කුමක්දැයි අනුමාන කරන්නට කියවන්නාට සිදුවේ.
 
-Both Hebrew and Arabic have optional vowel marks and are called "impure" abjads. Ancient Phoenician had nothing but consonants and is a "pure" abjad.
+පුරාණ ෆිනීෂියානු බස ස්වර අක්ෂර රහිත ව්‍යංජනාක්ෂර පමණක් තිබූ ශුද්ධ අබ්ජාඩ් බසක් වන අතර හිබෲ සහ අරාබි භාෂා දෙකෙහි අතිරේක ස්වර සංකේත ඇති බැවින් අශුද්ධ අබ්ජාඩ් භාෂා ලෙස හැඳින්වේ.
 
-See Also: alphabet, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Abjad">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Abjad).
+වැඩි විස්තර සඳහා හෝඩිය, අබුගිඩා ක්‍රමය, මාත්‍රාව යටතේ සහ http://en.wikipedia.org/wiki/Abjad පිටුව බලන්න.
 
-### Abugida
+### අබුගිඩා ක්‍රමය
 
-An abugida is somewhere in between an alphabet and a syllabary. The Indic writing systems are probably the best known abugidas.
+අක්ෂර සහ මාත්‍රා ලේඛණ ක්‍රම දෙකෙහි සංකලනයකි. අබුගිඩා ලේඛණ ක්‍රමය සඳහා හොඳම නිදර්ශක වන්නේ ඉන්දු ලේඛණ ක්‍රමවල ස්වරූපය තුල හඳුනාගත හැක.
 
-In most abugidas there are independent glyphs for the consonants, and each consonant is implicitly followed by a default vowel sound. All vowels other than the default will be marked by either diacritics or some other modification to the base consonant.
+පොදුවේ බොහෝ අබුගිඩා ලේඛණ ක්‍රම තුල ව්‍යංජන අක්ෂර සඳහා ස්වාධීන කේත අඩංගු වන අතර ඒවා සැමවිටම පාහේ නිශ්චිත මූලික ස්වරයක් සමඟ බැඳී පවතී. ඊට වෙනස් ස්වරයන් හා සංයෝග වනවිට පිලි හෝ වෙනත් උච්චාරණ සලකුණු යෙදීමෙන් ව්‍යංජනය වෙනස් කරනු ලැබේ.
 
-An abugida differs from a syllabary in that there is a common theme to the images representing a syllable beginning with a given consonant (that is, the glyph for the consonant), while in a syllabary each syllable is distinct even if two start with a common consonant.
+අබුගිඩා ක්‍රමයේදී ඒ ඒ ව්‍යංජනයෙන් සංයුක්ත අක්ෂරයක් සෑදෙන විට ලැබෙන අවසාන අක්ෂරවල ස්වරූපයන් එකම තේමාවක පවතින අතර මාත්‍රා ක්‍රමයේදී එකම ව්‍යංජනයකින් සංයුක්ත අක්ෂර සෑදෙන විට ලැබෙන අවසාන අක්ෂර විවිධ ස්වරූප ගනී.
 
-An abugida differs from an abjad in that vowels (other than the default) must be marked in the abugida.
+අබුගිඩා ක්‍රමය අබ්ජාඩ් ක්‍රමයෙන් වෙනස් වන්නේ අබුගිඩා ක්‍රමයේදී මූලික ස්වරය හා සම්බන්ධ වනවිට හැර අනෙක් සෑමවිටම ස්වරය පිල්ලක් මඟින් ලකුණු කලයුතු වීම මඟිනි.
 
-See Also: alphabet, abjad, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Abugida">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Abugida).
+වැඩි විස්තර සඳහා හෝඩිය, අබ්ජාඩ්, මාත්‍රාව යටතේ සහ http://en.wikipedia.org/wiki/Abugida පිටුව බලන්න.
 
 ### Accent
 
