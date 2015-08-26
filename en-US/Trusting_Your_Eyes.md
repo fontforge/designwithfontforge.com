@@ -146,3 +146,4 @@ asking yourself while designing the font.
 ## Further Reading
 
 * <http://typographica.org/on-typography/making-geometric-type-work/>
+* <http://typedrawers.com/discussion/1085/the-letter-s>
