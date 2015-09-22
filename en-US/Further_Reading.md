@@ -78,6 +78,10 @@ ILT Example Projects:
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
 * [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)
 
+### Hebrew
+
+* [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
+
 ### Devanagari 
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
