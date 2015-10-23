@@ -43,6 +43,7 @@ title: Further Reading
 * [ILT: On Diacritics](http://ilovetypography.com/2009/01/24/on-diacritics/)
 * [Twardoch: Polish Diacritics](http://www.twardoch.com/download/polishhowto/)
 * [Logotype: Quora logo](https://www.quora.com/How-is-the-new-Quora-logo-different-from-the-old-one/answer/Christian-Schwartz-1)
+* [Victor Gaultney: Latin Diacritics](http://gaultney.org/jvgtype/research/)
 
 ILT Example Projects:
 
