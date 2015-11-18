@@ -74,6 +74,13 @@ FontForge allows you to hint your font (and even provides an <em>Autohint</em> f
 
 For CFF hinting, see [this video](http://vimeo.com/38364880) from Adobe at RoboThon.
 
+To set the PS hinting with Python is possible: `private` is a list of tuples (Thanks [Sungsit](https://github.com/fontuni/boon/issues/26#issuecomment-157640491)!)
+
+    font.private['BlueValues'] = (-20, 0, 600, 620, 780, 800, 810, 830)
+    font.private['OtherBlues'] = (-225, -210)
+    font.private['StdHW'] = 100,
+    font.private['StdVW'] = 137,
+
 ### Check your metadata
 
 Last but certainly not least, once your font has been thoroughly prepared technically for export, you should pause and update the font metadata, making sure that important metadata information is included, and that it is up to date.
