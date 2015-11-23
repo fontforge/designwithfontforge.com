@@ -89,6 +89,23 @@ You should learn to use Git and Github to store your files, and use the "SFDir" 
 
 <iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
 
+## Testing Environments
+
+When planning your project, you must consider the medium of typography you are intending the typeface for primarily and secondarily:
+Mobile and web, or digital projectors, or cheap office bubblejet and laser printers, or high end print bureau laser printers, or magazine offset lithographic printing, or high-speed high-volume newspaper printing... and so on. 
+You should then try to acquire or arrange access to those typesetting technologies, so you can see the real results of your work.
+
+Throughout the type design process, you will find it very helpful to preview text set with your (prototype) typeface at a higher resolution than your laptop or workstation screen. 
+Following the [TypeDrawers printer-recommendations-for-proofing discussion](http://typedrawers.com/discussion/314/printer-recommendations-for-proofing) this typically means a laser printer with "true" 1200 DPI and Adobe PostScript 3. 
+For individuals it is possible purchase something like this for around $500, and some 2013 recommendations were:
+
+* HP P2055d
+* Xerox Phaser 4510 
+* Xerox Phaser 5550
+* Nashua/Ricoh P7026N
+
+In May 2013, the [Production Type](http://productiontype.com) studio has a Xerox 7525 with "fiery" controller, which costs around €12,000 to purchase but is €300 a month to lease with toner, parts and maintenance.
+
 ## Further Reading
 
 * Aoife Mooney's presentation on the type design process at TypeCon 2014: <https://vimeo.com/107421895>
