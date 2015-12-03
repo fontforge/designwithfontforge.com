@@ -43,6 +43,7 @@ title: Further Reading
 * [ILT: On Diacritics](http://ilovetypography.com/2009/01/24/on-diacritics/)
 * [Twardoch: Polish Diacritics](http://www.twardoch.com/download/polishhowto/)
 * [Logotype: Quora logo](https://www.quora.com/How-is-the-new-Quora-logo-different-from-the-old-one/answer/Christian-Schwartz-1)
+* [Victor Gaultney: Latin Diacritics](http://gaultney.org/jvgtype/research/)
 
 ILT Example Projects:
 
@@ -77,6 +78,10 @@ ILT Example Projects:
 * [Parachut: Interview with Hasan Abu Afash](http://upscaletypography.com/?p=1646)
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
 * [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)
+
+### Hebrew
+
+* [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
 
 ### Devanagari 
 
