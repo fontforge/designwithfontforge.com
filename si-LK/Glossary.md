@@ -28,19 +28,19 @@ title: ගැටපද එළිය
 
 වැඩි විස්තර සඳහා හෝඩිය, අබ්ජාඩ්, මාත්‍රාව යටතේ සහ http://en.wikipedia.org/wiki/Abugida පිටුව බලන්න.
 
-### Accent
+### Accent උච්චාරණ විධිය
 
-See Diacritics
+උච්චාරණ සලකුණු යටතේ බලන්න.
 
-### Advance Width
+### Advance Width වර්ධිත පළල/ එකතුවන පළල
 
-The distance between the start of this glyph and the start of the next glyph. Sometimes called the glyph's width. See also Vertical Advance Width.
+අකුරක ආරම්භයේ සිට ඊළඟ අකුරේ ආරම්භය දක්වා ඇති දුර. අක්ෂර පළල නමින්ද හඳුන්වයි. වැඩි විස්තර සඳහා සිරස් එකතුවන පළල යටතේ බලන්න.
 
-### Alphabet
+### Alphabet හෝඩිය
 
-A writing system where there are glyphs for all phonemes -- consonants and vowels alike -- and (in theory anyway) all phonemes in a word will be marked by an appropriate glyph.
+භාෂාවක සියලුම ශබ්ධ අණු සඳහා වන ලිඛිත සංකේත මාලාව. ස්වර සහ ව්‍යංජන ලෙස කොටස් දෙකකට හඳුනාගත හැක. න්‍යායිකව, වචනයක අඩංගු සියලුම ශබ්ධ අණු ඊට අදාල නියමිත සංකේතයකින් පෙන්විය හැක.
 
-See Also: abjad, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Alphabet).
+වැඩි විස්තර සඳහා අබ්ජාඩ් ක්‍රමය, අබුගිඩා ක්‍රමය, මාත්‍රාව යටතේ සහ http://en.wikipedia.org/wiki/Alphabet පිටුව යටතේ බලන්න.
 
 ### Apple Advanced Typography
 
