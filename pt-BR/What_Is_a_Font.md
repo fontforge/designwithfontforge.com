@@ -3,42 +3,36 @@ published: true
 layout: bookpage
 weight: 3
 category: Before You Begin
-title: What Is A Font?
+title: O que é uma Fonte?
 ---
 
-&mdash; What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
+&mdash; O que diferencia a tipografia da escrita manual, caligrafia, letreiramento ou de logotipos?
 
-The single biggest issue that makes type design different is the need for every glyph in the
-typeface to work with every other glyph. This often means that the design and spacing of each part
-of the typeface ends up being a series of careful compromises. These compromises mean that we can
-best think about typeface design as the creation of a wonderful collection of letters but not as a
-collection of wonderful letters. In other words we must think about the group and how it will
-perform together and prioritize this over any question of what is wonderful in a single letter.
+A grande questão que faz o design de tipos diferente é a necessidade de cada glifo presente em uma fonte
+funcionar em relação a todos os outros. Isso significa que o design e o espaçamento de cada parte
+da tipografia exige uma série de decisões cuidadosas. Estas decisões significam que podemos
+pensar melhor sobre o design tipográfico como a criação de uma maravilhosa coleção de letras, mas não como uma
+coleção de letras maravilhosas. Em outras palavras, devemos pensar no grupo e como ele vai
+funcionar em conjunto e priorizar isto sobre qualquer questão sobre quão maravilhosa pode ser uma única letra.
 
-This need to prioritize with the system rather than with any single part also leads to a need to
-analyse our design process on the level of the system. Characteristics which span letters become the
-things we want to focus on, particularly at the beginning of the design process.
+A necessidade de priorizar o conjunto ao invés de uma parte única, também leva a um indispensável
+comprometimento com o processo de design em nível sistêmico. É importante focar em algumas características 
+que diferenciam as letras, especialmente no início do processo de design.
 
-The other oddity in type design is that to a very large extent the forms we are designing are
-already significantly established. Our task as type designers is not so much to create an utterly
-new form but rather to create a new version of an existing form. This can perplex new type
-designers. Finding just the right amount to change in order to excite but not to alienate a reader
-is a tricky thing. Often designers get stuck in letter-specific thinking. This mistake can be easily
-avoided if you realize from the start that what is most meaningful in a typeface are the parts of it
-that repeat the most. Typeface design is not just about designing the characteristics applied to the
-common forms we all recognize, but also to the forms that occur most often.
+Uma outra particularidade no design de tipos é que, em grande medida, as formas que estamos projetando já foram
+significativamente estabelecidas. Nossa tarefa como designers de tipos está mais próxima da criação de novas versões sobre formas existentes do que a invenção de formas completamente novas. Isso pode confundir type designers iniciantes.
+Encontrar a quantidade certa de mudança om o objetivo de aguçar e não indispor o leitor é uma tarefa complicada. 
+Muitas vezes, designers ficam presos no desenho de letras específicas. Este erro pode ser facilmente evitado se você perceber desde o início que o mais importante em uma fonte é a identificação das partes que mais se repetem. Design de tipos não é só sobre projetar as características aplicadas às formas comuns que reconhecemos, mas também as formas que ocorrem frequentemente.
 
-It is also useful to recognize that these characteristics not only help to create a font’s voice or
-atmosphere, but also determine what the font will or will not be useful for, and they sometimes help
-determine the technological contexts for which a font is suitable.
+É bem útil reconhecer que estas características não só ajudam a criar uma voz ou atmosfera para uma fonte, como também determinam se ela será ou não eficiente em determinado contexto tecnológico.
 
-It may seem intimidating or excessively abstract to think about the design of a font in this way.
-However, getting used to these ideas is the key to a faster, more effective, and satisfying type
-design process.
+Pode parecer intimidador ou excessivamente abstrato pensar sobre o design de uma fonte desta maneira.
+No entanto, se acostumar com essas idéias é a chave para um rápido, eficaz e satisfatório
+processo no design de tipos.
 
-Let’s begin by identifying the main systemic characteristics in type design.
+Vamos começar a identificação das principais características sistêmicas no design de tipos.
 
-### Construction
+### Construção
 
 <img src="images/Construction2.png" alt>
 
