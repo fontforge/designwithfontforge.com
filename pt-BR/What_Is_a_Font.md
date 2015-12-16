@@ -20,73 +20,78 @@ comprometimento com o processo de design em nível sistêmico. É importante foc
 que diferenciam as letras, especialmente no início do processo de design.
 
 Uma outra particularidade no design de tipos é que, em grande medida, as formas que estamos projetando já foram
-significativamente estabelecidas. Nossa tarefa como designers de tipos está mais próxima da criação de novas versões sobre formas existentes do que a invenção de formas completamente novas. Isso pode confundir type designers iniciantes.
-Encontrar a quantidade certa de mudança om o objetivo de aguçar e não indispor o leitor é uma tarefa complicada. 
-Muitas vezes, designers ficam presos no desenho de letras específicas. Este erro pode ser facilmente evitado se você perceber desde o início que o mais importante em uma fonte é a identificação das partes que mais se repetem. Design de tipos não é só sobre projetar as características aplicadas às formas comuns que reconhecemos, mas também as formas que ocorrem frequentemente.
+significativamente estabelecidas. Nossa tarefa como designers de tipos está mais próxima de criar novas versões 
+sobre formas existentes do que inventar formas completamente novas. Isso pode confundir type designers iniciantes.
+Encontrar a quantidade certa de mudança com o objetivo de aguçar o leitor e não irritá-lo é uma tarefa complicada. 
+Muitas vezes, designers ficam presos no desenho de letras específicas. Este erro pode ser facilmente evitado se você 
+perceber desde o início que o mais importante em uma fonte é a identificação das partes que mais se repetem. 
+Design de tipos não é só sobre projetar determinadas características aplicadas às formas comuns que nós reconhecemos, 
+mas também as formas que ocorrem com mais frequência.
 
-É bem útil reconhecer que estas características não só ajudam a criar uma voz ou atmosfera para uma fonte, como também determinam se ela será ou não eficiente em determinado contexto tecnológico.
+É muito útil reconhecer que estas características não só ajudam a criar uma voz ou atmosfera para uma fonte,
+como também determinam se ela será ou não eficiente em determinado contexto tecnológico.
 
 Pode parecer intimidador ou excessivamente abstrato pensar sobre o design de uma fonte desta maneira.
 No entanto, se acostumar com essas idéias é a chave para um rápido, eficaz e satisfatório
 processo no design de tipos.
 
-Vamos começar a identificação das principais características sistêmicas no design de tipos.
+Vamos começar a identificar as principais características sistêmicas no design de tipos.
 
 ### Construção
 
 <img src="images/Construction2.png" alt>
 
-Construction refers to the underlying strokes that form a particular glyph. The kind of construction
-you use is arguably one of the most important questions to think about, because the construction
-effects so many of the remaining choices, particularly if your design is going to feel somewhat
-familiar to readers. In the example above, the white line inside the letters indicate the
-approximate construction suggested by the shape of the letters themselves.
+Nos referimos a Construção quando analisamos os traços fundamentais que dão forma a um particular glifo. 
+O tipo de construção que utilizamos é sem dúvida uma das questões mais importantes para se pensar, pois trará
+efeitos sobre muitas das opções restantes, particularmente se o seu projeto de alguma forma vai se sentir familiar para os leitores.
+
+No exemplo acima, a linha branca dentro das letras indica a construção aproximada sugerida pela forma das próprias letras.
 
 <img src="images/AAA.png" alt>
 
-Construction refers to the structure of the underlying strokes that form a particular glyph. Perhaps
-you can imagine the glyph’s skeleton. The kind of construction to use is arguably one of the most
-important questions to think about, because the construction affects so many of the remaining
-choices, particularly if your design is going to feel somewhat familiar to readers.
+Nos referimos a Construção quando analisamos a estrutura dos traços fundamentais que dão forma particular a um glifo. 
+Possivelmente você pode imaginar o esqueleto do glifo. O tipo de construção utilizada é sem dúvida uma das questões 
+mais importantes de se pensar, pois trará efeitos sobre muitas das opções restantes, particularmente se o seu projeto 
+de alguma forma vai se sentir familiar para os leitores.
 
-However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see below) are generally not part
-of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &ndash;
-width, weight, terminals &ndash; are all parts of the flesh.
+No entanto, a forma como os traços terminam (os ‘terminais’) e as ‘serifas’ (abaixo) não são geralmente parte do que chamamos
+por ‘construção’. Construção é o esqueleto do glifo, enquanto o restante; – largura, peso, terminais – são todas as partes do corpo.
 
-In the example above, the white line inside the letters indicate the approximate construction
-suggested by the shape of the letters themselves.
+No exemplo acima, a linha branca dentro das letras indica a construção aproximada
+sugerida pela forma das próprias letras.
 
 <img src="images/AAA.png" alt>
 
-### Proportion of X-height to Cap-height
+### Proporções da altura-x para a altura da Caixa-alta
 
 <img src="images/Prop.png" alt>
 
-The letters on the left come from [Playfair Display], which has a large x-height relative to its
-cap-height. The letters on the right are from [EB Garamond], which has a smaller x-height. In the
-sample above, the size of the H has been adjusted so that they match.
+As letras posicionadas ao lado esquerdo fazem parte da fonte [ Playfair Display], que tem uma altura-x grande em relação à altura
+da sua caixa-alta. As letras à direita são da fonte [ EB Garamond ], que tem uma altura-x menor. 
+No exemplo acima, o tamanho do H foi ajustado para ficar na mesma altura.
 
-### Ascender Height
+### Altura Ascendente
 
 <img src="images/Ascender%20height.png" alt>
 
-In the example above, the x-heights have been matched in order to illustrate the relative difference
-in ascender heights.
+No exemplo acima, as alturas de x foram ajustadas para ilustrar a diferença de relação
+entre as alturas ascendentes.
 
-Ascenders usually exceed the cap-height by at least a little, especially in text designs. In some
-cases, however, they can match or even be lower than the cap-height. Longer ascenders can add
-elegance to the look of a typeface. They often go with smaller x-height.
+Ascendentes geralmente ultrapassam pelo menos um pouco a altura das capitulares, especialmente em fontes para texto. Em alguns
+casos, no entanto, elas podem ser iguais ou mais baixas que a altura das capitulares. Ascendentes mais longas podem adicionar
+elegância para o visual de uma fonte. Elas costumam ter altura de x menor.
 
-### Descender depth
+
+### Descendentes
 
 <img src="images/Descender%20depth.png" alt>
 
-Like ascenders, descenders that are long can feel elegant. 
+Assim como nas ascendentes, as descendentes longas aparentam elegância.
 
-Taken together, long ascenders and descenders can become difficult to manage. If the typeface will
-be used with small line heights, the elongation means letter can collide across rows of text.
+Apresentadas em conjunto, ascendentes e descendentes longas podem se tornar difíceis de gerenciar. Se sua fonte
+for utilizada com uma entrelinha pequena, as letras alongadas podem colidir sobre as linhas do texto.
 
-## Width
+## Largura
 
 <img src="images/width.png" alt>
 
@@ -94,6 +99,12 @@ The width of a type design will alter not just how it feels but also what it is 
 example on the right is from a text face. The example on the left is from a display design meant to
 be eye catching. Letters that are more narrow than the text face example are also possible and can
 be used to save space or to fit more text in a smaller space.
+
+A largura de um projeto tipográfico irá alterar não só a sua aparência mas também a sua usabilidade.
+O exemplo da direita é de uma fonte para texto, o da esquerda é de uma fonte display que pretende atrair 
+mais rapidamente a atenção do leitor. Letras mais estreitas que a fonte de texto do exemplo também são possíveis
+e podem ser utilizadas para economizar espaço por exemplo para encaixar mais texto em espaços restritos.
+
 
 ### Width regularity versus variability
 
