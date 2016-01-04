@@ -104,9 +104,9 @@ For individuals it is possible purchase something like this for around $500, and
 * Xerox Phaser 5550
 * Nashua/Ricoh P7026N
 
-In May 2013, the [Production Type](http://productiontype.com) studio has a Xerox 7525 with "fiery" controller, which costs around €12,000 to purchase but is €300 a month to lease with toner, parts and maintenance.
+In May 2013, the [Production Type](http://productiontype.com) studio has a Xerox 7525 with "fiery" controller, which costs around €12,000 to purchase but is €300 per month to lease with toner, parts and maintenance.
 In late 2015, Octavio Pardo leased a [Xerox Phaser 7100](
-http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) in a similar way.
+http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) in a similar way for €30 per month.
 
 ## Further Reading
 
