@@ -95,80 +95,74 @@ for utilizada com uma entrelinha pequena, as letras alongadas podem colidir sobr
 
 <img src="images/width.png" alt>
 
-The width of a type design will alter not just how it feels but also what it is useful for. The
-example on the right is from a text face. The example on the left is from a display design meant to
-be eye catching. Letters that are more narrow than the text face example are also possible and can
-be used to save space or to fit more text in a smaller space.
-
-A largura de um projeto tipográfico irá alterar não só a sua aparência mas também a sua usabilidade.
+A largura do seu tipo irá alterar não só a sua aparência mas também sua usabilidade.
 O exemplo da direita é de uma fonte para texto, o da esquerda é de uma fonte display que pretende atrair 
 mais rapidamente a atenção do leitor. Letras mais estreitas que a fonte de texto do exemplo também são possíveis
-e podem ser utilizadas para economizar espaço por exemplo para encaixar mais texto em espaços restritos.
+e podem ser utilizadas para economizar espaço, por exemplo para encaixar mais texto em espaços menores.
 
+### Largura regular versus largura variável
 
-### Width regularity versus variability
-
-The letters in the top row of this example show a greater variety of width than do the letters in
-the bottom row.
+As letras na linha de cima deste exemplo apresentam uma maior variedade de largura que as letras na
+linha de baixo.
 
 <img src="images/Width%20regularity.png" alt>
 
-### Weight
+### Peso
+
 
 <img src="images/Weight.png" alt>
 
-### Slant
+### Inclinação
 
 <img src="images/Slant.png" alt>
 
-### Contrast
+### Contraste
 
-Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below
-two ‘O’ glyphs that the one on the left has much greater variability in line thickness between the top
-and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than
-the one on the right.
+Ao falarmos Contraste nos referimos a variação de largura do traço encontrada em um glifo.
+Percebe-se nos dois glifos ’O’ abaixo que o da esquerda apresenta maior variação na espessura de linha entre 
+o topo e as laterais do glifo. Ambos tem contraste, mas o exemplo da esquerda tem muito mais que o da direita.
 
 <img src="images/Contrast.png" alt>
 
-Type with consistent weight (stroke width) in its letterforms or no visible contrast produces a
-sheer distinction from uncontrasted type. Like the choice between serifs or sans-serifs, contrast is
-an early choice of type design. It is interesting to note that ‘slab’ serif designs generally use
-consistent stroke width in their letters, and that the design of slab serifs is not merely about the
-serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting your
-eyes”]) &ndash; contrast is about how the weight looks but not how it measures out to be.
+Tipos com peso consistente (largura do traço) em seus glifos ou sem contraste visível, produzem
+uma distinção pura dos tipos sem contraste. Assim como a escolha entre tipos com ou sem serifa,
+contraste é uma escolha inicial no design de tipos. É interessante notar que o design de serifas
+’slab’(quadradas) geralmente usa uma largura consistente do traço em suas letras, e que o design de
+serifas quadradas não se trata somente sobre serifas por mais que falemos delas! Devemos lembrar de
+aplicar as regras de percepção (veja {“Confiando em seus olhos”]) &ndash;  contraste é mais sobre como
+o peso aparenta do que a sua medida exata.
 
-### Angle of contrast
+### Ângulo de contraste
 
-In the below image, we see that the thin parts of the lower case letter ‘o’ shapes are different. In
-the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right,
-the axis is diagonal.
+Na imagem abaixo, vemos que as formas das partes finas das letras ‘o’ minúsculas são diferentes.
+No glifo da esquerda, as partes finas se encontram em um eixo vertical perfeito. No glifo da direita,
+o eixo é diagonal.
 
 <img src="images/Angle%20of%20contrast.png" alt>
 
-### Weight distribution
+### Distribuição do peso
 
-If your font uses very little to no contrast, you don’t really need to think of it.  
-Most fonts, however, have at least some degree of contrast. In these cases, you have a wide variety
-of options to choose from when it comes to how to distribute the weight in your font.
+Se sua fonte apresenta contraste mínimo ou quase inexistente, você não precisa pensar muito sobre isso.
+No entanto a maioria das fontes tem pelo menos algum grau de contraste. Nesses casos, você tem uma ampla
+variedade de opções para escolher quando chegar a hora de distribuir o peso em sua fonte.
 
 #### Vertical
 
 <img src="images/verical1.png" alt>
 
-Vertical distribution of weight is very common. The 9 and 8 above are a particularly intense
-example.
+Distribuição vertical de peso é muito comum. O 9 e 8 abaixo são um bom exemplo em particular.
 
 #### Horizontal
 
 <img src="images/horizontal%20weight.png" alt>
 
-Horizontal weight distribution is much less common, but is nonetheless seen in many fonts.
+Distribuição de peso horizontal é bem menos comum no entanto é vista em muitas fontes.
 
-#### Bottom-heavy
+#### Peso na base
 
 <img src="images/2bottomheavy.png" alt>
 
-#### Top-heavy
+#### Peso no topo
 
 <img src="images/2topheavy%20metal.png" alt>
 
@@ -176,13 +170,12 @@ Horizontal weight distribution is much less common, but is nonetheless seen in m
 
 <img src="images/Irregular%20weight.png" alt>
 
-### Stems
+### Hastes
 
 <img src="images/8stems.png" alt>
 
-It is easy to assume that your stems will simply be straight and that this isn’t a real concern, but
-both the weight and the shape of your stems are things you can and should make deliberate choices
-about.
+É fácil assumir que as suas hastes serão retas e que esta não é uma preocupação real, mas
+ambos peso e forma das hastes, são caminhos que podem e devem fazer parte de suas escolhas.
 
 ### Joins
 
