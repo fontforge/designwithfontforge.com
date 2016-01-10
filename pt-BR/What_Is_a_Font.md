@@ -142,21 +142,21 @@ o eixo é diagonal.
 
 ### Distribuição do peso
 
-Se sua fonte apresenta contraste mínimo ou quase inexistente, você não precisa pensar muito sobre isso.
-No entanto a maioria das fontes tem pelo menos algum grau de contraste. Nesses casos, você tem uma ampla
-variedade de opções para escolher quando chegar a hora de distribuir o peso em sua fonte.
+Se sua fonte apresenta contraste mínimo ou inexistente, você não precisa pensar muito sobre isso.
+No entanto a maioria das fontes tem pelo menos algum grau de contraste. Nesses casos, você tem muitas
+opções para escolher quando chegar a hora de distribuir o peso em sua tipografia.
 
 #### Vertical
 
 <img src="images/verical1.png" alt>
 
-Distribuição vertical de peso é muito comum. O 9 e 8 abaixo são um bom exemplo em particular.
+Distribuição vertical de peso é muito comum. Os números 9 e 8 abaixo são em particular um bom exemplo.
 
 #### Horizontal
 
 <img src="images/horizontal%20weight.png" alt>
 
-Distribuição de peso horizontal é bem menos comum no entanto é vista em muitas fontes.
+A distribuição de peso horizontal é bem menos comum, no entanto é encontrada em muitas fontes.
 
 #### Peso na base
 
@@ -166,7 +166,7 @@ Distribuição de peso horizontal é bem menos comum no entanto é vista em muit
 
 <img src="images/2topheavy%20metal.png" alt>
 
-#### Irregular
+#### Irregularidade
 
 <img src="images/Irregular%20weight.png" alt>
 
@@ -175,7 +175,7 @@ Distribuição de peso horizontal é bem menos comum no entanto é vista em muit
 <img src="images/8stems.png" alt>
 
 É fácil assumir que as suas hastes serão retas e que esta não é uma preocupação real, mas
-ambos peso e forma das hastes, são caminhos que podem e devem fazer parte de suas escolhas.
+ambos peso e forma das hastes são caminhos que podem e devem fazer parte de suas escolhas.
 
 ### Joins
 
@@ -190,53 +190,57 @@ the counter.
 
 <img src="images/2bowls.png" alt>
 
-### Terminals
+### Terminais
 
-Terminals are the end forms of the strokes. They are not same as the serifs. They are often
-perpendicular to the angle of the stroke at its end, or sheared horizontally or vertically. They may
-also reflect the shape of the nib or other mark-making tool that the letter forms evoke.
+Terminais são as formas finais dos traços. Não são o mesmo que serifas. Se apresentam geralmente
+perpendiculares ao ângulo do traço em seu final ou cortados de maneira rente de forma horizontal ou vertical.
+Os terminais geralmente refletem a forma da pena ou de outra ferramenta que inspirou o desenho das letras.
 
 <img src="images/terminals%20f.png" alt>
 
-### Speed
+### Velocidade
 
 <img src="images/6speed_1.png" alt>
 
 The ‘n’ on the left seems to be written much faster than the one on the right. Speed is discussed in
 more detail in the chapter [on italics].
 
-### Regularity
+O ’n’ da esquerda parece ter sido escrito com muito mais velocidade que o da direita. Velocidade é
+discutida em detalhes no capítulo [itálicos].
+
+### Regularidade
 
 <img src="images/6regularity.png" alt>
 
-The following characteristics are not present in all type designs, however they are variables that
-may be a part of your design. If this is the case, it is worth considering the degree to which they
-will play a role as a variable.
+As características a seguir apresentadas não estão presentes em todas as fontes, de qualquer 
+maneira são variações que podem fazer parte do seu design. Se for este o caso, é válido considerar 
+o grau que elas irão desempenhar seu papel.
 
-### Flourish
+### Floreios
 
 <img src="images/5flourish.png" alt>
 
-Notice that in the font on top the flourish is more present in the capital letter and the second one
-the flourish is more in the lowercase.
+Observe que o floreio se encontra mais presente na letra maiúscula B no exemplo de cima 
+e na letra minúscula f no exemplo da parte de baixo.
 
-### Serif - To be or not to be
+### Serifas - Ser ou não ser
 
-Serifs are one of the most distinct aspects of a typeface, and often the first classification of
-type is between serif and sans-serif type.
+Serifas são apenas um dos aspectos que distinguem uma fonte, frequentemente a primeira forma de
+classificação de tipos é com serifas ou sem serifas.
 
-This choice affects how the end terminals will look like. Serifs can be two sided or one sided. They
-can be perpendicular to stroke or have their own direction (like being always horizontal or
-vertical). Serifs can be with or without brackets. Any serif design is a mix of all of the above
-applied consistently to the type design with some deviations for particular letters, especially the
-‘S’, ‘C’ and ‘Z’ (e.g. a type with horizontal serifs for all letters will often have s, c and z to
-have vertical serifs).
+Esta escolha influencia como os terminais serão. Serifas podem ter um ou dois lados. Podem
+ser perpendiculares ao traço ou ter direção própria (como sempre na horizontal ou na vertical). 
+Serifas podem ser com ou sem brackets. Todo o projeto de serifas é uma mistura dos itens acima aplicados
+de forma consistente para o design de tipos com algumas mudanças para letras em particular, especialmente 
+no 'S', 'C' e 'Z' (por exemplo, um tipo com serifas horizontais em todas as letras frequentemente têm 
+s, c e z com serifas verticais).
 
-There is a urban legend asserting that serif types are easier to read than sans-serifs &ndash; it is
-[a sole myth](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), until further
-notice.
+Existe uma lenda urbana afirmando que os tipos com serifa são mais fáceis de ler do que os sem serifa &ndash; 
+ele é [um mito único](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), até novo aviso.
 
 The form of the serifs are related to the forms of the terminals.
+
+A forma das serifas estão relacionados às formas dos terminais.
 
 #### Brackets
 
@@ -248,7 +252,7 @@ different proportions on the two sides.
 This is a relatively strong parameter that renders feel to the type &ndash; elegance (smooth or
 large brackets of [Times New Roman]) or chunky crisp (absent brackets of [Arvo]).
 
-#### Slab-serifs
+#### Serifas quadradas
 
 Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don’t use
 brackets. Generally speaking, type design with such serifs are seen to have less contrast in their
@@ -257,17 +261,17 @@ glyphs &ndash; [Rockwell], [Courier] or [American typewriter] reflect that.
 It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an
 otherwise no-contrast type design. But this is not an absolute rule.
 
-#### Serif Terminals
+#### Terminais Serifados
 
 Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the
 type &ndash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
 angular ([Rockwell]).
 
-### Decoration
+### Decoração
 
 <img src="images/4decoration.png" alt>
 
-### Dimension
+### Dimensão
 
 <img src="images/3dimention.png" alt>
 
