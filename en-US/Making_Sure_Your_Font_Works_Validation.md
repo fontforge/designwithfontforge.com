@@ -104,3 +104,7 @@ However, if you font only contains a fraction of the alphabet, you can use a tes
 # Testing the font in different environments
 
 When testing fonts on Microsoft Windows, the [Font properties extension](https://www.microsoft.com/typography/TrueTypeProperty21.mspx) can be helpful for quickly reviewing the internal font metadata, such as version numbers.
+
+If you install development fonts that make Windows behave erratically, [John Hudson](http://typedrawers.com/discussion/1322/otf-fonts-from-glyphs-not-working-with-windows-word) described how to clear out corrupt fonts on TypeDrawers:
+
+> Restart Windows in recovery console mode. In the console, navigate to the Windows/Fonts folder, and delete all entries for the Rhodium font. Then navigate to Windows/System32 and delete the 'FNTCACHE.DAT' file **(not the .dll)** Then restart Windows. The font cache .dat file will be rebuilt, and then you can reinstall a clean copy of the Rhodium font and see if it behaves. (Don't worry if you still get a message saying the font is already installed: at that stage Windows is lying to you.)
