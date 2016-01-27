@@ -44,7 +44,7 @@ Microsoft works hard to ensure that a program written for a previous version of 
 
 This means for font designers that our font family names should be set up in a way that all our fonts can be used in all operating systems. The OpenType format allows for this, complementing the Family and Style Name values with "Preferred Family Name" and "Preferred Style Name" values that will take precedence in OpenType-aware software.
 
-This ([Family Naming Google Docs Spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0)) is based on information shared by Polish font expert Adam Twardoch and discussed in the [Fontlab forum](http://forum.fontlab.com/index.php?topic=313.0).
+This [Family Naming Google Docs Spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0) is based on information shared by Polish font expert Adam Twardoch and discussed in the [Fontlab forum](http://forum.fontlab.com/index.php?topic=313.0).
 
 Also:
 
