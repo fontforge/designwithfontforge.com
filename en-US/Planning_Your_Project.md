@@ -108,6 +108,18 @@ In May 2013, the [Production Type](http://productiontype.com) studio has a Xerox
 In late 2015, Octavio Pardo leased a [Xerox Phaser 7100](
 http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) in a similar way for €30 per month.
 
+## OpenType Features
+
+You can plan the OpenType features of your project before you begin drawing.
+Common features include
+
+* `liga` Ligatures
+* `onum`, `lnum` Numerals
+
+The OpenType specification allows for some kinds of features which are not recommend:
+
+* `hist` feature. Read more in this [discussion on TypeDrawers](http://typedrawers.com/discussion/1358/what-are-the-best-practices-for-the-hist-feature-long-s).
+
 ## Further Reading
 
 * Aoife Mooney's presentation on the type design process at TypeCon 2014: <https://vimeo.com/107421895>
