@@ -96,7 +96,7 @@ Mobile and web, or digital projectors, or cheap office bubblejet and laser print
 You should then try to acquire or arrange access to those typesetting technologies, so you can see the real results of your work.
 
 Throughout the type design process, you will find it very helpful to preview text set with your (prototype) typeface at a higher resolution than your laptop or workstation screen. 
-Following the [TypeDrawers printer-recommendations-for-proofing discussion](http://typedrawers.com/discussion/314/printer-recommendations-for-proofing) this typically means a laser printer with "true" 1200 DPI and Adobe PostScript 3. 
+This typically means a laser printer with "true" 1200 DPI and Adobe PostScript 3. 
 For individuals it is possible purchase something like this for around $500, and some 2013 recommendations were:
 
 * HP P2055d
@@ -123,3 +123,4 @@ The OpenType specification allows for some kinds of features which are not recom
 ## Further Reading
 
 * Aoife Mooney's presentation on the type design process at TypeCon 2014: <https://vimeo.com/107421895>
+* TypeDrawers discussion of [Printer recommendations for proofing](http://typedrawers.com/discussion/314/printer-recommendations-for-proofing)
