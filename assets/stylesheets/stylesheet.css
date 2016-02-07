@@ -341,6 +341,7 @@ form {
 
 em, i {
   font-style: italic;
+  font-size-adjust: 0.47;
 }
 
 b, strong {
@@ -507,6 +508,7 @@ ol li {
 dl dd {
   font-style: italic;
   font-weight: 100;
+  font-size-adjust: 0.47;
 }
 
 footer {
