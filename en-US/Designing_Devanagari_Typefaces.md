@@ -29,7 +29,7 @@ Devanagari fonts contain these different types of glyphs:
 * Latin punctuation, marks, and symbols (new, or adjusted if already present)
 * Latin letters
 
-Consult the ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
+Consult the [Unicode Chapter 12 on Indian Scripts](http://www.unicode.org/versions/Unicode8.0.0/ch12.pdf), ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
 
 It is helpful to do some calligraphy or closely study writing manuals to learn how the script works, so you understand which letters should be like which other letters in structure. These [2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) can be used as a reference for pen angle and letter proportions.
 
