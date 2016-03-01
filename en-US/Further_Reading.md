@@ -34,6 +34,8 @@ title: Further Reading
 
 ### Latin
 
+**The MyFonts Foundry Guides are fantastic: [foundry.myfonts.com/guides](https://foundry.myfonts.com/guides/)**
+
 * [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/)
 * [Frere Jones: Typeface Mechanics 2](http://www.frerejones.com/blog/typeface-mechanics-002/)
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
