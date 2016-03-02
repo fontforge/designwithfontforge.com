@@ -202,9 +202,6 @@ Os terminais geralmente refletem a forma da pena ou de outra ferramenta que insp
 
 <img src="images/6speed_1.png" alt>
 
-The ‘n’ on the left seems to be written much faster than the one on the right. Speed is discussed in
-more detail in the chapter [on italics].
-
 O ’n’ da esquerda parece ter sido escrito com muito mais velocidade que o da direita. Velocidade é
 discutida em detalhes no capítulo [itálicos].
 
@@ -225,8 +222,8 @@ e na letra minúscula f no exemplo da parte de baixo.
 
 ### Serifas - Ser ou não ser
 
-Serifas são apenas um dos aspectos que distinguem uma fonte, frequentemente a primeira forma de
-classificação de tipos é com serifas ou sem serifas.
+Serifas são apenas um dos aspectos que distinguem uma fonte, frequentemente a primeira maneira de
+classificar tipos é com serifas ou sem serifas.
 
 Esta escolha influencia como os terminais serão. Serifas podem ter um ou dois lados. Podem
 ser perpendiculares ao traço ou ter direção própria (como sempre na horizontal ou na vertical). 
@@ -238,34 +235,32 @@ s, c e z com serifas verticais).
 Existe uma lenda urbana afirmando que os tipos com serifa são mais fáceis de ler do que os sem serifa &ndash; 
 ele é [um mito único](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), até novo aviso.
 
-The form of the serifs are related to the forms of the terminals.
-
-A forma das serifas estão relacionados às formas dos terminais.
+A forma das serifas estão relacionadas às formas dos terminais.
 
 #### Brackets
 
-The corner portions of a serif where it connects to the main stroke are called ‘brackets’. A
-particular design may have them giving a soft feel to the serif ([Times New Roman] is an example) or
-may choose to not have any bracket. Some designs also use brackets only on one side or with
-different proportions on the two sides.
+As partes do canto de uma serifa que se conectam ao traço principal são chamadas de ‘brackets’. Um
+design particular pode apresentá-los para dar uma sensação suave à serifa ([Times New Roman] é um exemplo) 
+ou pode optar por não ter nenhum bracket. Alguns designs também usam brackets só de um lado ou com
+diferentes proporções nos dois lados.
 
-This is a relatively strong parameter that renders feel to the type &ndash; elegance (smooth or
-large brackets of [Times New Roman]) or chunky crisp (absent brackets of [Arvo]).
+Este é um parâmetro relativamente forte que trás ao tipo a sensação de &ndash; elegância (suaves e
+grandes brackets da [Times New Roman]) ou robustos e quebradiços (brackets ausentes da [Arvo]) .
 
 #### Serifas quadradas
 
-Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don’t use
-brackets. Generally speaking, type design with such serifs are seen to have less contrast in their
-glyphs &ndash; [Rockwell], [Courier] or [American typewriter] reflect that.
+Também conhecidas como tipografia mecana ou egípcia, Slabs são serifas grossas como blocos. Slab serifs não usam
+brackets. Genericamente falando, type design com esse tipo de serifa tem menos contraste em seus 
+glifos &ndash; [Rockwell], [Courier] or [American typewriter] refletem isso.
 
-It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an
-otherwise no-contrast type design. But this is not an absolute rule.
+Pode ser seguro afirmar que slab serifs tem sido usadas para adicionar algum ornamento ou ritmo 
+de alguma maneira a um type design sem contraste. Mas isto não é uma regra absoluta.
 
-#### Terminais Serifados
+#### Terminais das serifas
 
-Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the
-type &ndash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
-angular ([Rockwell]).
+Assim como os terminais das letras, a forma final das serifas contribui para a sensação do
+tipo &ndash; seja macia ou grossa. Terminais das serifas podem ser suaves e arredondados ([Courier])
+ou bruscos e angulares ({Rockwell]).
 
 ### Decoração
 
