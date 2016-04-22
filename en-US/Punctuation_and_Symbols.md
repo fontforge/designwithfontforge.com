@@ -61,6 +61,8 @@ The main question to decide is how tall and deep they will be. The convention is
 
 These choices will also be reflected in the design of the parentheses () and the braces {}. The weight of the stems on all three of these symbols should be less than the weight of the stems of both the capitals and the lower case letters.
 
+Be warned: when testing the characters [ ] # in the metrics window, they may not show up. This is because they are reserved by the program. Instead of typing [ ] and # , you must type /bracketleft /bracketright and /numbersign .
+
 <img src="images/1Brackets1.png" alt="">
 
 Parentheses should draw on the design of related shapes, such as D, C, and G.
