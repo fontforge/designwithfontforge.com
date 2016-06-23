@@ -60,6 +60,9 @@ Once you have these letters, it’s good to spend time refining them by testing 
 from them. As before with the ‘n’ and ‘o’, a great deal of attention should be paid to the spacing
 of the letters and the relationships of the counters to these spaces.
 
+Here is a TypeDrawers thread on determining the ascender and descender heights: 
+<http://typedrawers.com/discussion/1620/ascender-descenders-in-latin-type-design>
+
 ## Building a test text
 
 There are many resources available online for rapidly building your dummy test text:
