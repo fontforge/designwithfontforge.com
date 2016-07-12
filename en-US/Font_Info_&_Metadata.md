@@ -46,8 +46,3 @@ This means for font designers that our font family names should be set up in a w
 
 This [Family Naming Google Docs Spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0) is based on information shared by Polish font expert Adam Twardoch and discussed in the [Fontlab forum](http://forum.fontlab.com/index.php?topic=313.0). 
 It supercedes the [OpenType specification example](https://www.microsoft.com/typography/otspec/namesmp.htm). 
-
-Also:
-
-* Remove all NAME table keys with PID=1 - those are for MacOS 9 and earlier, and thus over 10 years behind us; and 
-* Remove NAME table id 18 if present, it is only needed for MacOS 9 too
