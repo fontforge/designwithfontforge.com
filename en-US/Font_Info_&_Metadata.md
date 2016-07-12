@@ -34,7 +34,8 @@ Your 1.001 release might not have fsType set to 0 or be run through fontcrunch, 
 Sadly, the third PATCH version number isn't available in OpenType font version metadata fields.
 Instead, increment the MINOR version number for such changes to hinting or metadata. 
 
-Also, the version should have no more than 5 decimal places, eg `2.00099`
+Also, the version should have no more than 3 decimal places, and this may be represented with 5 in a TTX file.
+Eg `2.001` is typical, and may appear as `2.00099` in TTX XML. 
 
 If you release libre fonts, the [Github Releases](https://www.google.com/search?q=github+releases) features are very useful.
 
