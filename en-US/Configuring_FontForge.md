@@ -22,12 +22,8 @@ When making any configuration changes, be sure to follow this:
 
 ## Windows
 
-####Copy/Paste
-Copying text from another app and pasting it into FontForge is currently a bit buggy on windows because clicking on a textbox in FontForge clears the clipboard. Workaround: 
-1: Select textbox/input field in FontForge
-2: Switch to another app and copy the text
-3: Switch back to FF without clicking the textbox
-4: Paste
+Currently we have nothing specific to the Windows distribution.
+If you think of something, [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
 
 ## GNU+Linux
 
