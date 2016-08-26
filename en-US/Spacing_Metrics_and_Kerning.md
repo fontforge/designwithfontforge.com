@@ -72,11 +72,11 @@ Starting with a string of lowercase 'o' characters in the metrics window, the le
 
  Once both the 'n' and 'o' are adequately spaced their sidebearings can be used to create the sidebearings for an array of other characters, for example;
 
-- the right side bearing of the 'o' can be used for the right side bearing of the 'c', 'd', 'e', and 'q'.
+- the left side bearing of the 'o' can be used for the left side bearing of the 'c', 'd', 'e', and 'q'.
 
-- the left side bearing of the 'o' can be used for the left side bearing of the 'b' and 'p'.
+- the right side bearing of the 'o' can be used for the right side bearing of the 'b' and 'p'.
 
-- the right side bearing of the 'n' can be used for the left side bearing of the 'h' and 'm'.
+- the right side bearing of the 'n' can be used for the right side bearing of the 'h' and 'm'.
 
 - the left side bearing of the 'n' can be used for the left side bearing of the 'b', 'h', 'k', 'm', 'p' and 'r'.
 
