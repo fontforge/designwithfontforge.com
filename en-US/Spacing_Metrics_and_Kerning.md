@@ -20,15 +20,11 @@ The space between any two glyph has two components; the space after the first gl
 
 The side bearings of characters can be edited in FontForge’s Metrics Window in 5 ways;
 
-- manually dragging each side bearing boundary.
-
-- manually dragging a character. Note though that dragging a character will only effect the value of the left side bearing.
-
-- side bearing values can be altered by directly editing their value in the metrics tables of the Metrics Window.
-
-- the value of side bearings can be incremented / decremented by using the keyboard.
-
-- using commands in the Metrics Window’s Metrics menu.
+- Manually dragging each side bearing boundary.
+- Manually dragging a character. Note though that dragging a character will only effect the value of the left side bearing.
+- Side bearing values can be altered by directly editing their value in the metrics tables of the Metrics Window.
+- The value of side bearings can be incremented / decremented by using the keyboard.
+- Using commands in the Metrics Window’s Metrics menu.
 
 <strong>Adjusting Side Bearing Values with the keyboard.</strong>
 
@@ -53,7 +49,6 @@ A tool for generating such texts is available from <http://tools.ninastoessinger
 'Window Type' - FontForge's Metrics Window can be set to behave in 2 ways for metrics adjustment;
 
 - 'Advance Width Only' - in this mode metrics view may only be used to adjust the advance widths of glyphs.
-
 - 'Both' - In this mode metrics view will adjust either the advance width or kerning values.
 
 'Set Width' - this command allows you to change the width of the current glyph.
@@ -72,13 +67,10 @@ Starting with a string of lowercase 'o' characters in the metrics window, the le
 
  Once both the 'n' and 'o' are adequately spaced their sidebearings can be used to create the sidebearings for an array of other characters, for example;
 
-- the right side bearing of the 'o' can be used for the right side bearing of the 'c', 'd', 'e', and 'q'.
-
-- the left side bearing of the 'o' can be used for the left side bearing of the 'b' and 'p'.
-
-- the right side bearing of the 'n' can be used for the left side bearing of the 'h' and 'm'.
-
-- the left side bearing of the 'n' can be used for the left side bearing of the 'b', 'h', 'k', 'm', 'p' and 'r'.
+- The right side bearing of the 'o' can be used for the right side bearing of the 'c', 'd', 'e', and 'q'.
+- The left side bearing of the 'o' can be used for the left side bearing of the 'b' and 'p'.
+- The right side bearing of the 'n' can be used for the left side bearing of the 'h' and 'm'.
+- The left side bearing of the 'n' can be used for the left side bearing of the 'b', 'h', 'k', 'm', 'p' and 'r'.
 
 Note - the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.
 
@@ -110,7 +102,6 @@ The Metrics Window in FontForge can be used to design both side bearings and ker
 'Window Type' - FontForge's Metrics window can be set to behave in 2 different ways to enable kerning adjustment;<strong></strong>
 
 - 'Kerning Only' - in this mode the metrics view may only be used to adjust kerning.
-
 - 'Both' - In this mode metrics view will adjust either the advance width or kerning values.
 
 'Kern By Classes' - This command provides the user with a dialog to manipulate kerning classes.
@@ -136,13 +127,9 @@ A 'kern class' in FontForge can be created to build groups of characters who wil
 The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu.
  
 -   Select "Kern by classes" and you will be presented by the "new lookup" window.
-
 -   Click on the "New Lookup" button and another window will pop up, where you can create a kerning feature lookup.
-
 -   Chose the item "pair position kerning" from the "Type" drop down menu.
-
 -   Now click on the down arrow next to "NEW" in the "Feature" column, and choose "Horizontal Kerning" from the drop down menu.
-
 -   Click on "OK". You can keep the default names that fontforge creates for you. 
 
 <img src="images/kern_classes_1.png" />
@@ -168,11 +155,9 @@ For example in the screenshot above, 2 classes have been created; one class cont
 
 If autokerned values need to be adjusted (and they will!) then this can be done in a number of ways.
 
-- via the 'kerning by classes' dialog window.
-
-- using the Metrics Window.
-
-- using the 'Kern Pair Closeup' command from the Metrics menu.
+- Via the 'kerning by classes' dialog window.
+- Using the Metrics Window.
+- Using the 'Kern Pair Closeup' command from the Metrics menu.
 
 ## See also
 
