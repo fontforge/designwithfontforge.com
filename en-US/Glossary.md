@@ -396,13 +396,7 @@ A font in which all glyphs have the same width. These are sometimes called typew
 
 ### Multi-layered fonts
 
-(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, stroked, include images, have gradient fills, etc.. FontForge can be configured to support these fonts (it does not do so by default because this takes up more memory).
-
-```
-$ configure --with-type3
-$ make
-$ make install
-```
+(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, stroked, include images, have gradient fills, etc.. 
 
 ### Multiple Master Font
 
