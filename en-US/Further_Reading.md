@@ -68,9 +68,10 @@ ILT Example Projects:
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
 * [Bulgarian Cyrillic](http://www.cyrillicsly.com/)
+* <http://www.lettersoup.de/what-shall-be-done-for-bulgarian-cyrillic-loclbgr/>
 * [Paratype Language Help](http://www.paratype.com/help/language/) - Cyrillic encodings
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
-* http://luc.devroye.org/cyrillic.html
+* <http://luc.devroye.org/cyrillic.html>
 * The ATypI Cyrillic SIG mailing list
 
 ### Arabic
