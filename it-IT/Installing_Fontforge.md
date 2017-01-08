@@ -27,7 +27,7 @@ Il metodo più semplice per ottenere FontForge sulla vostra macchina Linux è qu
 
 The FontForge package included in Ubuntu 14.04 by default dates from 2012, so it is preferable to install the more up-to-date package from the FontForge [Personal Package Archive (PPA)] (https://launchpad.net/~fontforge/+archive/ubuntu/fontforge).
 
-Verificare che il helper script `add-apt-repository` è installato:
+Verificare che il helper script `add-apt-repository` sia installato:
     
 ```sh
 sudo apt-get install software-properties-common;
@@ -53,15 +53,15 @@ sudo apt-get install fontforge;
 
 #### Fedora
 
-To install FontForge on your Fedora Linux desktop machine run the following yum command as the root user. 
-This will require about 10MiB of download to complete.
+Per installare FontForge sulla vostra macchina desktop Fedora Linux eseguire il seguente comando yum come utente root.
+Il download richiederà circa 10MiB per completare.
 
 ```
 yum install fontforge;
 ```
 
-If you have not compiled software on your Fedora machine, after installing gcc, automake, autoconf and others then you might get an error during the execution of autogen.sh with libtoolize. 
-If that is the case you might need to install the libtool-ltdl-devel package on Fedora or a similar development package on another GNU+Linux distribution.
+Se non è stato compilato il software sul vostro computer Fedora, dopo l'installazione di gcc, automake, autoconf e altri allora si potrebbe ottenere un errore durante l'esecuzione di autogen.sh con libtoolize. 
+Se questo è il caso potrebbe essere necessario installare il pacchetto libtool-ltdl-devel su Fedora o di un pacchetto di sviluppo simile su un'altra distribuzione GNU + Linux.
 
 After issuing the yum install you should be able to run FontForge from your menu or directly from the konsole or gnome-terminal by issuing the `fontforge` command.
 
