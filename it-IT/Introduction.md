@@ -19,7 +19,7 @@ della progettazione dei caratteri, e offre anche consigli su come rendere il flu
 Se vuoi aiutarci, puoi contribuire a rendere FontForge migliore, dando un feedback o anche contribuendo
 con contenuti e correzioni [su GitHub].
 
-Ci auguriamo che troviate la lettura di questo tutorial piacevole tanto quanto abbiamo fatto scriverlo.
+Ci auguriamo che troviate la lettura di questo tutorial piacevole tanto quanto abbiamo fatto noi nel scriverlo.
 
 *&mdash; I Collaboratori del Progetto FontForge*
 
