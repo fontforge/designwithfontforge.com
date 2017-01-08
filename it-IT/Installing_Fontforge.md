@@ -13,33 +13,33 @@ FontForge è disponibile in pacchetti facili da installare per i sistemi operati
 
 ### Installare FontForge su Windows
 
-An [installation guide](http://fontforge.github.io/en-US/downloads/windows/) is available for the official Windows builds, prepared by Jeremy Tan.
+Una [guida di installazione](http://fontforge.github.io/en-US/downloads/windows/) è disponibile per la versioni ufficiali di Windows, preparato da Jeremy Tan.
 
 ### Installare FontForge su Mac OS X
 
-An [installation guide](http://fontforge.github.io/en-US/downloads/mac/) is available for the official Mac builds, prepared by Dr Ben Martin. 
+Una [guida di installazione](http://fontforge.github.io/en-US/downloads/mac/) è disponibile per la versioni ufficiali Mac, preparato da il Dr Ben Martin. 
 
 ### Installare su GNU/Linux
 
-The easiest method to get FontForge on your Linux machine is to use your Linux distribution’s package repository.
+Il metodo più semplice per ottenere FontForge sulla vostra macchina Linux è quello di usare la repository di pacchetti della propria distribuzione Linux.
 
 #### Debian o Ubuntu
 
 The FontForge package included in Ubuntu 14.04 by default dates from 2012, so it is preferable to install the more up-to-date package from the FontForge [Personal Package Archive (PPA)] (https://launchpad.net/~fontforge/+archive/ubuntu/fontforge).
 
-Check that the helper script `add-apt-repository` is installed:
+Verificare che il helper script `add-apt-repository` è installato:
     
 ```sh
 sudo apt-get install software-properties-common;
 ```
 
-Add the FontForge PPA (which will also add the authentication key):
+Aggiungere il FontForge PPA (che inoltre aggiungerà la chiave di autenticazione):
     
 ```sh
 sudo add-apt-repository ppa:fontforge/fontforge;
 ```
 
-Update the software list to include packages from the PPA:
+Aggiornare l'elenco del software per includere pacchetti dal PPA:
     
 ```sh
 sudo apt-get update;
