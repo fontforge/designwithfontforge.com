@@ -17,16 +17,13 @@ made:
 As you test the design, you will have to trust your perceptions and design somewhat practically.
 Much of type design requires that you make letters similar and that you repeat forms.
 
-It is tempting to assume that if you measure the parts and the spaces between the glyphs, then you
-will get reliable results. While very useful, this approach has real limitations. You should expect
+Si è tentati di pensare che se si misura le parti e gli spazi tra i glifi, quindi si otterrà risultati affidabili. While very useful, this approach has real limitations. You should expect
 to make adjustments if something looks wrong to you. Furthermore, you should feel confident that
 making changes until it “looks right” is the correct thing to do.
 
-The reason this is true is that there are a number of natural optical illusions that all readers are
-subject to. These illusions must be accounted for by altering the shapes of letters until they look
-right to you.
+Il motivo di questo è che ci sono una serie di illusioni ottiche naturali che tutti i lettori sono soggetti. These illusions must be accounted for by altering the shapes of letters until they look right to you.
 
-You can get a feel of where to look and what elements to adjust in these [Type Review Videos](https://vimeo.com/typereview/videos) (External Link)
+È possibile avere un'idea dove guardare e quali sono gli elementi da regolare in questi [Type Review Videos](https://vimeo.com/typereview/videos) (Link Esterno)
 
 ## Esempi di illusioni
 
@@ -35,7 +32,7 @@ and others involve the eye’s perception of shapes.
 
 ### Orizzontale vs. peso verticale
 
-The example on the left shows an ‘H’ which bars are precisely equal in thickness. Questo sembra sbagliato.
+L'esempio a sinistra mostra un‘H’ che le barre sono esattamente uguale nello spessore. Questo sembra sbagliato.
 Can you feel it?
 L'altro a destra ha una barra orizzontale che è stata assottigliata per apparire uguale nello spessore.
 
@@ -43,10 +40,9 @@ L'altro a destra ha una barra orizzontale che è stata assottigliata per apparir
 
 I glifi in cui gli aggiustamenti ottici devono essere fatte sono numerose e comprendono A, E, F, L, H, f, t, e z.
 
-### Diagonal thickness
+### Spessore diagonale
 
-Similarly, if you have bars of the same width and one of them is set at a diagonal, the diagonal bar
-will seem slightly heavier than the vertical bar and slightly thinner than the horizontal. If you
+Allo stesso modo, se avete barre della stessa larghezza e una di loro è impostata su una diagonale, la barra diagonale sembrerà leggermente più pesante la barra verticale e leggermente più sottile rispetto a quella orizzontale. If you
 want it look right, you will have to adjust it to be lighter like the horizontal example, but just a
 little less.
 
@@ -60,8 +56,8 @@ v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &
 
 Longer shapes need to slant less than short shapes in order to give the appearance of same slant.
 
-The image below has diagonal lines that are all at the same angle. The long one appears to be at a
-different angle.
+L'immagine sotto ha linee diagonali che sono tutti allo stessa angolazione. La lunga sembra essere ad un
+angolazione differente.
 
 <img src="images/pdiag.png" alt>
 
@@ -106,16 +102,13 @@ height.
 This illusion is relevant for any glyph that has parts which are either round or pointy. These
 include O, Q, C, S, A, V, W, and so on.
 
-## You are fully qualified to correct for these illusions
+## Sei pienamente qualificato per correggere queste illusioni
 
-Because you can see both the illusion and the effect of correcting for the illusion, you will be
-able to make these corrections for yourself. You just have to trust your impressions.
+Poiché è possibile vedere sia l'illusione e l'effetto of correcting for the illusion, sarete in grado di fare queste correzioni per te stesso. Devi solo avere fiducia delle tue impressioni.
 
 ## Test for fitness of purpose
 
-Just like you are able to see optical illusions and correct them, you also have the ability to tell
-if a font is working for the specific use (or uses) you may have in mind. That’s where you should
-also trust your judgment.
+Proprio come si è in grado di vedere illusioni ottiche e correggerle, si ha anche la possibilità di dire se un carattere sta funzionando per l'uso specifico (o usi) che si può avere in mente. Ed è qui che occorre inoltre fidarti del tuo giudizio.
 
 Quite separately, it is worth noting that no font can be evaluated apart from the way it is used and
 what it is used for. This is why it is essential to begin testing from the very beginning of the
