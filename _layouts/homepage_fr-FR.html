@@ -1,0 +1,27 @@
+{% include html-start.html %}
+
+	{% include header-masthead_fr-FR.html %}
+
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+
+          <p>{{ content }}</p>
+        </section>
+
+        <aside id="sidebar">
+<!--          <a href="" class="button">
+            <small>Download book as</small>
+            PDF
+          </a> -->
+          <p>Ce livre est libre et <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">hébergé sur GitHub</a>. Les correctifs et suggestions sont les bienvenus.</p>
+          <p><a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">Modifier cette page</a> (<a href="https://github.com/fontforge/designwithfontforge.com">apprendre comment</a>)</p></p>
+        </aside>
+
+      </div>
+    </div>
+
+{% include footer_fr-FR.html %}
+
+{% include html-end.html %}
