@@ -13,7 +13,7 @@ To learn more about Github, check out [Good Resources for Learning Git and GitHu
 
 ## Paying for Support
 
-This might be a surprise, but it both possible and encourage to pay for FontForge support when things go wrong. 
+This might be a surprise, but it is both possible, and encouraged to pay for FontForge support when things go wrong. 
 
 When other font editors with similar comprehensive features cost hundreds of US Dollars, if we each pay a similar amount to FontForge developers to get our most annoying bugs fixed, FontForge will become better and better. 
 

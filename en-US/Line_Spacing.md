@@ -14,7 +14,7 @@ As is the case with letter and word spacing, having too much or too little line 
 
 As a general rule, most new font designers tend to err on the side of having too little line spacing in their font, so if you are unsure, adding additional space is usually a good idea.
 
-You should also consider the scope of your project's language coverage when considering line spacing. If you test your font's line spacing only with unaccented characters, you are likely to settle on a line spacing value that leaves no room for accents.  If you are certain your font will never be used with accented characters, this might be acceptable -- but the odds are that your font <em>will</em> be used to set accented text.  In that case, too little line spacing will cause the accents on one line to run into the bottoms of the glyphs above, and leave the reader with difficult (if not impossible) to read text.
+You should also consider the scope of your project's language coverage when considering line spacing. If you test your font's line spacing only with unaccented characters, you are likely to settle on a line spacing value that leaves no room for accents.  If you are certain your font will never be used with accented characters, this might be acceptable — but the odds are that your font <em>will</em> be used to set accented text.  In that case, too little line spacing will cause the accents on one line to run into the bottoms of the glyphs above, and leave the reader with difficult (if not impossible) to read text.
 
 One strategy to test whether your font's line spacing is proper for accented characters is to employ sample text from several languages.
 

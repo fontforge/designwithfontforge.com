@@ -47,7 +47,7 @@ The design of the c, C, G, s, and S glyphs may provide some basis for the design
 ## Additional symbols
 <img src="images/3quotes.png" alt="">
 
-Simple or vertical quotes -- ' and " -- are distinct from typographic quotes: ‘ ’ and “ ” ‚ „ .
+Simple or vertical quotes — ' and " -- are distinct from typographic quotes: ‘ ’ and “ ” ‚ „ .
 
 Simple quotes can follow the shape of the bar over the dot in the exclamation mark, but they can also be designed separately.
 
@@ -60,6 +60,8 @@ Brackets [ ] are relatively simple to make because they are so boxy in shape. Ne
 The main question to decide is how tall and deep they will be. The convention is that they should exceed the height of the capitals very slightly and descend below the baseline to approximately 3/4 of the depth of your lower case descenders.
 
 These choices will also be reflected in the design of the parentheses () and the braces {}. The weight of the stems on all three of these symbols should be less than the weight of the stems of both the capitals and the lower case letters.
+
+Be warned: when testing the characters [ ] # in the metrics window, they may not show up. This is because they are reserved by the program. Instead of typing [ ] and # , you must type /bracketleft /bracketright and /numbersign .
 
 <img src="images/1Brackets1.png" alt="">
 

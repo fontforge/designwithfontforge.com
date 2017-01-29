@@ -38,7 +38,7 @@ The distance between the start of this glyph and the start of the next glyph. So
 
 ### Alphabet
 
-A writing system where there are glyphs for all phonemes -- consonants and vowels alike -- and (in theory anyway) all phonemes in a word will be marked by an appropriate glyph.
+A writing system where there are glyphs for all phonemes — consonants and vowels alike -- and (in theory anyway) all phonemes in a word will be marked by an appropriate glyph.
 
 See Also: abjad, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Alphabet).
 
@@ -212,9 +212,9 @@ An encoding is a mapping from a set of bytes onto a character set. It is what de
 
 In more complicated cases it is possible to have multiple glyphs associated with each character (as in arabic where most characters have at least 4 different glyphs) and the client program must pick the appropriate glyph for the character in the current context.
 
-### Eth -- Edh
+### Eth — Edh
 
-The old germanic letter "&eth;" for the voiced (English) "th" sound (the sound in "this" -- most English speakers aren't even aware that "th" in English has two sounds associated with it, but it does, see also Thorn)
+The old germanic letter "&eth;" for the voiced (English) "th" sound (the sound in "this" — most English speakers aren't even aware that "th" in English has two sounds associated with it, but it does, see also Thorn)
 
 ### Even-Odd Fill rule
 
@@ -286,7 +286,7 @@ The German monks at the time of Gutenberg used a black-letter writing style, and
 
 Graphite is an extension to TrueType which embeds several tables into a font containing rules for contextual shaping, ligatures, reordering, split glyphs, bidirectionality, stacking diacritics, complex positioning, etc.
 
-This sounds rather like OpenType -- except that OpenType depends on the text layout routines knowing a lot about the glyphs involved. This means that OpenType fonts cannot be designed for a new language or script without shipping a new version of the operating system. Whereas Graphite tables contain all that hidden information.
+This sounds rather like OpenType — except that OpenType depends on the text layout routines knowing a lot about the glyphs involved. This means that OpenType fonts cannot be designed for a new language or script without shipping a new version of the operating system. Whereas Graphite tables contain all that hidden information.
 
 Apple's Advanced Typography provides a better comparison, but Graphite tables are supposed to be easier to build.
 
@@ -303,7 +303,7 @@ The ideographic characters used in China, Japan and Korea (and, I believe, in va
 
 ### Hangul
 
-The Korean syllabary. The only syllabary (that I'm aware of anyway) based on an alphabet -- the letters of the alphabet never appear alone, but only as groups of two or three making up a syllable.
+The Korean syllabary. The only syllabary (that I'm aware of anyway) based on an alphabet — the letters of the alphabet never appear alone, but only as groups of two or three making up a syllable.
 
 ### Hanja
 
@@ -335,7 +335,7 @@ Italic differs from Oblique in that the transformation from the plain to the sla
 ## J
 ### Jamo
 
-The letters of the Korean alphabet. These are almost never seen alone, generally appearing in groups of three as part of a Hangul syllable. The Jamo are divided into three categories (with considerable overlap between the first and third), the choseong -- initial consonants, the jungseong -- medial vowels, and the jongseong -- final consonants. A syllable is composed by placing a choseong glyph in the upper left of an em-square, a jungseong in the upper right, and optionally a jongseong in the lower portion of the square.
+The letters of the Korean alphabet. These are almost never seen alone, generally appearing in groups of three as part of a Hangul syllable. The Jamo are divided into three categories (with considerable overlap between the first and third), the choseong — initial consonants, the jungseong -- medial vowels, and the jongseong -- final consonants. A syllable is composed by placing a choseong glyph in the upper left of an em-square, a jungseong in the upper right, and optionally a jongseong in the lower portion of the square.
 
 ## K
 ### Kanji
@@ -396,7 +396,7 @@ A font in which all glyphs have the same width. These are sometimes called typew
 
 ### Multi-layered fonts
 
-(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, stroked, include images, have gradient fills, etc.. 
+(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, be stroked, include images, have gradient fills, etc.. 
 
 ### Multiple Master Font
 
@@ -461,7 +461,7 @@ This was the early name for FontForge. The original conception was that it would
 
 ### Phantom points
 
-In a TrueType font there are a few points added to each glyph which are not specified by the contours that make up the glyph. These are called phantom points. One of these points represents the left side bearing, and the other the advance width of the glyph. TrueType instructions (hints) are allowed to move these points around just as any other points may be moved -- thus changing the left-side-bearing or the advance width. Early versions of TrueType supplied just these two phantoms, more recent versions also supply a phantom for the top sidebearing and a phantom for the vertical advance width.
+In a TrueType font there are a few points added to each glyph which are not specified by the contours that make up the glyph. These are called phantom points. One of these points represents the left side bearing, and the other the advance width of the glyph. TrueType instructions (hints) are allowed to move these points around just as any other points may be moved — thus changing the left-side-bearing or the advance width. Early versions of TrueType supplied just these two phantoms, more recent versions also supply a phantom for the top sidebearing and a phantom for the vertical advance width.
 
 ### Pica
 
@@ -483,7 +483,7 @@ This has the interesting side effect that a font designed for European usage sho
 
 As far as I can tell, computers tend to work in approximations to pica points (but this may be because I am in the US), PostScript uses a unit of 1/72nd of an inch.
 
-Originally fonts were not described by point size, but by name. It was not until the 1730s that Pierre Fournier that created the point system for specifying font heights. This was later improved upon by Fran&ccedil;ois-Ambroise Didot (hence the name of the point). In 1878 the Chicago Type Foundry first used a point system in the US. In 1886 the US point was standardized -- the pica was defined to be 35/83cm, and the pica point defined to be 1/12th of that.
+Originally fonts were not described by point size, but by name. It was not until the 1730s that Pierre Fournier that created the point system for specifying font heights. This was later improved upon by Fran&ccedil;ois-Ambroise Didot (hence the name of the point). In 1878 the Chicago Type Foundry first used a point system in the US. In 1886 the US point was standardized — the pica was defined to be 35/83cm, and the pica point defined to be 1/12th of that.
 
 ### Point Size
 
@@ -561,7 +561,7 @@ Supplementary Ideographic Plane (0x20000-0x2FFFF) of Unicode. Used for rare Han 
 
 ### SMP
 
-Supplementary Multilingual Plane (0x10000-0x1FFFF) of Unicode. Used for ancient and artificial alphabets and syllabaries -- like Linear B, Gothic, and Shavian. See Also
+Supplementary Multilingual Plane (0x10000-0x1FFFF) of Unicode. Used for ancient and artificial alphabets and syllabaries — like Linear B, Gothic, and Shavian. See Also
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
@@ -656,7 +656,7 @@ A type of PostScript font.
 
 ### Type High
 
-In the days of metal type this was the height of the piece of metal -- the distance from the printing surface to the platform on which it rested.
+In the days of metal type this was the height of the piece of metal — the distance from the printing surface to the platform on which it rested.
 
 ### Typewriter
 

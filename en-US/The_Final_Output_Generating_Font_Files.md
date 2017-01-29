@@ -12,7 +12,7 @@ FontForge can export your font to a variety of different formats, but in practic
 
 ## Quick and dirty generation for testing
 
-To build a font file for testing purposes -- such as to examine the spacing in a web browser -- you need only to ensure that your font passes the required validation tests.
+To build a font file for testing purposes — such as to examine the spacing in a web browser -- you need only to ensure that your font passes the required validation tests.
 
 You can use the <em>Validate Font</em> tool found in the Element menu to do this (see the chapter on validating fonts for a more detailed explanation), or you can select all of the glyphs (hit Control-A or choose "Select" -&gt; "Select All" from the "Edit" menu) then run a few commands to apply some basic changes in bulk. Be sure to save your work before you proceed any further, though: some of the changes required to validate your font for export will alter the shapes of your glyphs in subtle ways.
 
@@ -24,7 +24,7 @@ After you can run these tests without errors, you will then need to convert your
 
 ### Building the font files
 
-Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. The top half of the window shows the familiar file-chooser options -- a list of the files found in the current directory, a text-entry box for you to enter a filename, and buttons to navigate to other folders and directories if necessary. This is strictly a means to help you quickly find the right place to save your output file, or to choose an existing font file if you intend to overwrite a previous save. All of the options you need to look at are found in the bottom half of the window.
+Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. The top half of the window shows the familiar file-chooser options — a list of the files found in the current directory, a text-entry box for you to enter a filename, and buttons to navigate to other folders and directories if necessary. This is strictly a means to help you quickly find the right place to save your output file, or to choose an existing font file if you intend to overwrite a previous save. All of the options you need to look at are found in the bottom half of the window.
 
 <img src="images/generate.png" alt="">
 
@@ -34,7 +34,7 @@ Click the "Generate" button, and FontForge will build your font file. You can lo
 
 ## Generating for final release
 
-Designing your font is an iterative process, but eventually the day when come when you must declare your font finished -- or at least ready for public consumption. At that point, you will again generate a .ttf or .otf output file (perhaps even both), but before doing so you will need to work through a few additional steps to create the most standards-compliant and user-friendly version of your font file.
+Designing your font is an iterative process, but eventually the day when come when you must declare your font finished — or at least ready for public consumption. At that point, you will again generate a .ttf or .otf output file (perhaps even both), but before doing so you will need to work through a few additional steps to create the most standards-compliant and user-friendly version of your font file.
 
 First, follow the same preparation steps outlined in the section on quick and dirty generation for testing purposes. In particular, remember to change your font to <em>All layers quadratic</em> if you are creating a TrueType file.
 
@@ -46,7 +46,7 @@ FontForge has a <em>Remove Overlap</em> command that will automatically combine 
 
 ### Simplify contours and add extrema points
 
-You should also simplify your glyphs where possible -- not eliminating details, but eliminating redundant points. This reduces files size slightly for every glyph, which adds up considerably over the entire set of characters in the font.
+You should also simplify your glyphs where possible — not eliminating details, but eliminating redundant points. This reduces files size slightly for every glyph, which adds up considerably over the entire set of characters in the font.
 
 From the "Element" menu, choose "Simplify" -&gt; <em>Simplify</em> (or hit Control-Shift-M). This command will merge away redundant on-curve points in all of the selected glyphs. In some cases, there will be only a few points removed, in others there may be many. But it should perform the simplification without noticeably changing the shape of any glyphs. If you notice a particular glyph that <em>is</em> altered too much by <em>Simplify</em>, feel free to undo the operation. You can also experiment with the <em>Simplify More</em> command also located in the same menu; it offers tweakable parameters that could prove helpful.
 
@@ -101,7 +101,7 @@ If you have made significant changes to other features of your font, it is a goo
 
 The process for generating the font output files is the same when you are building the final release as it is when you are building a quick-and-dirty copy for testing, but you will want to pay closer attention to some of the options.
 
-Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. Again, the top half of the window allows you to choose the directory and file name to give to your output file -- just be careful that you do not overwrite a previous save.
+Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. Again, the top half of the window allows you to choose the directory and file name to give to your output file — just be careful that you do not overwrite a previous save.
 
 In the left-hand side pull-down menu, select the format of the font you are generating, either <em>TrueType</em> or <em>OpenType (CFF)</em>, as discussed earlier. On the right-hand side, make sure <em>No Bitmap Fonts</em> is selected. On the line below, make sure <em>No Rename</em> is selected for the "Force glyph names to:" option. You can check the "Validate Before Saving" option if you wish (to potentially catch additional errors), but this is optional. Leave the "Append a FONTLOG entry," "Prepend timestamp," and "Upload to the Open Font Library" options unchecked.
 
@@ -111,8 +111,8 @@ Next, click on the "Options" button. Select the <em>PS Glyph Names</em>, <em>Ope
 
 Click the "Generate" button, and FontForge will build your font file. One final ord: it is important not to overwrite the saved version of your FontForge work with the modifications you made in this section solely to generate your <em>.ttf</em> or <em>.otf</em> output.  For example, you lose a lot of individual glyph components when you perform the <em>Remove overlaps</em> operation.  But the next time you resume work on your font, you will definitely want to pick up where you left off in the original, individual-glyph-component-filled version.
 
-Consequently, if you decide to save the modified version of your FontForge file, be sure that you rename it in a memorable way, such as <em>MyFont-TTF.sfd</em> or <em>MyFont-OTF.sfd</em>. But you do not necessarily need to save these output-oriented variations of your file at all -- in practice, the next time you revise your original work in FontForge, you will work through the output preparation steps again anyway.
+Consequently, if you decide to save the modified version of your FontForge file, be sure that you rename it in a memorable way, such as <em>MyFont-TTF.sfd</em> or <em>MyFont-OTF.sfd</em>. But you do not necessarily need to save these output-oriented variations of your file at all — in practice, the next time you revise your original work in FontForge, you will work through the output preparation steps again anyway.
 
 Congratulations are in order! You have now created your first font. All that remains now is for you to share your work: upload it to the web, post it to your blog, and go tell your friends.
 
-Without doubt, you will be back and continue revising and refining your typeface -- after all, as you have seen, font design is a highly iterative process. But be sure that you pause and take this moment to enjoy what you have accomplished first.
+Without doubt, you will be back and continue revising and refining your typeface — after all, as you have seen, font design is a highly iterative process. But be sure that you pause and take this moment to enjoy what you have accomplished first.
