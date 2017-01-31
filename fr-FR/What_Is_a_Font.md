@@ -15,7 +15,7 @@ que la conception et l'espacement de chaque partie de la police de caractères f
 de compromis méticuleux. Ces compromis signifient que nous devons voir la conception de caractères
 comme la création d'une merveilleuse collection de lettres, et non comme une collection de lettres
 merveilleuses. En d'autres termes, nous devons penser au groupe et à la façon dont il se comportera
-ensemble et prioriser cela sur toute question à propos de ce qui est merveilleux dans une seule lettre.
+ensemble et prioriser cela sur toute question à propos de ce qui est magnifique dans une seule lettre.
 
 Ce besoin de prioriser avec le système plutôt qu'avec n'importe quelle partie unique mène également
 à un besoin d'analyser notre processus de conception au niveau du système. Les caractéristiques qui
@@ -47,226 +47,234 @@ Commençons par identifier les principales caractéristiques systémiques dans l
 
 <img src="images/Construction2.png" alt>
 
-Construction refers to the structure of the underlying strokes that form a particular glyph. Perhaps
-you can imagine the glyph’s skeleton. The kind of construction to use is arguably one of the most
-important questions to think about, because the construction affects so many of the remaining
-choices, particularly if your design is going to feel somewhat familiar to readers. In the example 
-above, the white line inside the letters indicate the approximate construction suggested by the shape 
-of the letters themselves.
+La construction désigne la structure des traits sous-jacents qui forment un glyphe particulier,
+c'est-à-dire le squelette du glyphe. Le type de construction à utiliser est sans doute l'une des
+questions les plus importantes à penser, parce que la construction affecte tant de choix, en particulier
+si votre conception va sembler quelque peu familière aux lecteurs. Dans l'exemple ci-dessus, la ligne
+blanche à l'intérieur des lettres indique la construction approximative suggérée par la forme des lettres
+elles-mêmes.
 
 <img src="images/AAA.png" alt>
 
-However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see below) are generally not part
-of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &ndash;
-width, weight, terminals &ndash; are all parts of the flesh.
+Cependant, la façon dont les traits se terminent (les 'terminaisons' et les 'empattement' (voir ci-dessous)
+ne font pas partie généralement de ce que nous entendons par 'construction'. La construction est le
+squelette du glyphe, tandis que le reste &ndash; la largeur, la graisse, les terminaisons &ndash; font toutes
+parties de la chair.
 
-In the example above, the white line inside the letters indicate the approximate construction
-suggested by the shape of the letters themselves.
+Dans l'exemple ci-dessus, la ligne blanche à l'intérieur des lettres indique la construction approximative
+suggérée par la forme des lettres elles-mêmes.
 
 <img src="images/AAA.png" alt>
 
-### Proportion of X-height to Cap-height
+### Proportion de la hauteur d'x à la hauteur de capitale
 
 <img src="images/Prop.png" alt>
 
-The letters on the left come from [Playfair Display], which has a large x-height relative to its
-cap-height. The letters on the right are from [EB Garamond], which has a smaller x-height. In the
-sample above, the size of the H has been adjusted so that they match.
+Les lettres sur la gauche proviennent de [Playfair Display], qui a une grande hauteur d'x par rapport à sa
+hauteur de capitale. Les lettres sur la droite sont de [EB Garamond], qui ont une plus petite hauteur d'x.
+Dans l'exemple ci-dessus, la taille du H a été ajustée pour qu'ils correspondent.
 
-### Ascender Height
+### Hauteur de l'ascendante
 
 <img src="images/Ascender%20height.png" alt>
 
-In the example above, the x-heights have been matched in order to illustrate the relative difference
-in ascender heights.
+Dans l'exemple ci-dessus, les hauteurs d'x ont été adaptées afin d'illustrer la différence relative
+des hauteurs de l'ascendante.
 
-Ascenders usually exceed the cap-height by at least a little, especially in text designs. In some
-cases, however, they can match or even be lower than the cap-height. Longer ascenders can add
-elegance to the look of a typeface. They often go with smaller x-height.
+Les ascendantes dépassent habituellement la hauteur de capitale de quelque peu, en particulier dans
+les designs de texte. Dans certains cas, cependant, elles peuvent égaler ou même être inférieures à la
+hauteur de capitale. Des ascendantes plus longues peuvent ajouter de l'élégance à l'apparence d'une police
+de caractères. Elles vont souvent de paire avec de plus petite hauteur d'x.
 
-### Descender depth
+### Profondeur de la descendante
 
 <img src="images/Descender%20depth.png" alt>
 
-Like ascenders, descenders that are long can feel elegant. 
+Comme les ascendantes, les descendantes qui sont longues peuvent sembler élégantes.
 
-Taken together, long ascenders and descenders can become difficult to manage. If the typeface will
-be used with small line heights, the elongation means letter can collide across rows of text.
+Prises ensembles, de longues ascendantes et descendantes peuvent devenir difficiles à gérer. Si la police
+de caractères est utilisée avec de petites hauteurs de ligne, l'allongement moyen des lettres peut
+causer une collision entre les lignes de texte.
 
-## Width
+## Largeur
 
 <img src="images/width.png" alt>
 
-The width of a type design will alter not just how it feels but also what it is useful for. The
-example on the right is from a text face. The example on the left is from a display design meant to
-be eye catching. Letters that are more narrow than the text face example are also possible and can
-be used to save space or to fit more text in a smaller space.
+La largeur de design d'une police va modifier non seulement à quoi elle ressemble, mais aussi à quoi
+elle est utile. L'exemple sur la droite est celui d'une police de texte. L'exemple sur la gauche est
+celui d'un design d'affichage destiné à être accrocheur. Des lettres qui sont plus étroites que l'exemple
+de police de texte sont également possibles et peuvent être utilisées pour économiser de l'espace ou pour
+permettre plus de texte dans un espace plus petit.
 
-### Width regularity versus variability
+### Largeur régulière versus variable
 
-The letters in the top row of this example show a greater variety of width than do the letters in
-the bottom row.
+Les lettres dans la ligne supérieure de cet exemple montrent une plus grande variété de largeur que les
+lettres dans la ligne inférieure.
+
 
 <img src="images/Width%20regularity.png" alt>
 
-### Weight
+### Graisse
 
 <img src="images/Weight.png" alt>
 
-### Slant
+### Inclination
 
 <img src="images/Slant.png" alt>
 
-### Contrast
+### Contraste
 
-Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below
-two ‘O’ glyphs that the one on the left has much greater variability in line thickness between the top
-and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than
-the one on the right.
+Le contraste désigne la variation de la largeur du trait dans un glyphe. Remarquez dans les deux glyphes
+'O' ci-dessous que celui de gauche a une plus grande variabilité dans l'épaisseur de ligne entre le haut
+et les côtés du glyphe. Les deux glyphes ont un certain contraste, mais celui de gauche en a beaucoup plus
+que celui de droite.
 
 <img src="images/Contrast.png" alt>
 
-Type with consistent weight (stroke width) in its letterforms or no visible contrast produces a
-sheer distinction from uncontrasted type. Like the choice between serifs or sans-serifs, contrast is
-an early choice of type design. It is interesting to note that ‘slab’ serif designs generally use
-consistent stroke width in their letters, and that the design of slab serifs is not merely about the
-serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting your
-eyes”]) &ndash; contrast is about how the weight looks but not how it measures out to be.
+Une police avec graisse constante (largeur du trait) dans ses formes de lettre ou aucun contraste visible
+se distingue grandement d'une police contrastée. Comme le choix entre serifs ou sans-serifs, le contraste
+est un choix primordial de la conception de police. Il est intéressant de noter que les designs avec
+empattement rectangulaire utilisent généralement une largeur de trait constante dans leurs lettres, et que
+le design des empattements rectangulaires n'est pas seulement à propos des empattements, comme on peut
+l'imaginer! Il faut se rappeler que les règles de la perception s'appliquent (voir [“Faîtes confiance à vos
+yeux”]) &ndash; le contraste a plus rapport à la façon dont la graisse apparaît que comment elle est mesurée.
 
-### Angle of contrast
+### Angle de contraste
 
-In the below image, we see that the thin parts of the lower case letter ‘o’ shapes are different. In
-the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right,
-the axis is diagonal.
+Dans l'image ci-dessous, nous voyons que les parties minces des formes de la lettre minuscule 'o' sont
+différentes. Dans le glyphe à gauche, les points minces reposent sur un axe parfaitement vertical. Dans le
+glyphe à droite, l'axe est diagonal.
 
 <img src="images/Angle%20of%20contrast.png" alt>
 
-### Weight distribution
+### Distribution de la graisse
 
-If your font uses very little to no contrast, you don’t really need to think of it.  
-Most fonts, however, have at least some degree of contrast. In these cases, you have a wide variety
-of options to choose from when it comes to how to distribute the weight in your font.
+Si votre police utilise très peu ou pas de contraste, vous n'avez pas vraiment besoin d'y penser.
+La plupart des fontes, cependant, ont au moins un certain degré de contraste. Dans ce cas, vous avez une
+grande variété d'options à choisir quand il s'agit distribuer la graisse dans votre fonte.
 
-#### Vertical
+#### Verticale
 
 <img src="images/verical1.png" alt>
 
-Vertical distribution of weight is very common. The 9 and 8 above are a particularly intense
-example.
+Une distribution verticale de la graisse est très commune. Le 9 et le 8 ci-dessus sont des exemples
+particulièrement frappant.
 
-#### Horizontal
+#### Horizontale
 
 <img src="images/horizontal%20weight.png" alt>
 
-Horizontal weight distribution is much less common, but is nonetheless seen in many fonts.
+Une distribution de graisse horizontale est beaucoup moins commune, mais est néanmoins visible dans de
+nombreuses polices.
 
-#### Bottom-heavy
+#### Forte à la base
 
 <img src="images/2bottomheavy.png" alt>
 
-#### Top-heavy
+#### Forte au sommet
 
 <img src="images/2topheavy%20metal.png" alt>
 
-#### Irregular
+#### Irrégulière
 
 <img src="images/Irregular%20weight.png" alt>
 
-### Stems
+### Fûts
 
 <img src="images/8stems.png" alt>
 
-It is easy to assume that your stems will simply be straight and that this isn’t a real concern, but
-both the weight and the shape of your stems are things you can and should make deliberate choices
-about.
+Il est facile de supposer que vos fûts seront tout simplement droits et que ce n'est pas une préoccupation
+réelle, mais à la fois la graisse et la forme de vos fûts sont des choix délibérés que vous pouvez et devez
+faire.
 
-### Joins
+### Jonctions
 
 <img src="images/7joins.png" alt>
 
-### Bowls
+### Panses
 
-Note that bowls are the stroke part in the below illustrations and not the black inner forms. The
-inner strokes are referred as “counters”. While designing type, you will often find yourself
-altering your work not because of the shape or width of the stroke but due to the shape and size of
-the counter.
+Notez que les panses sont les traits courbes dans les illustrations ci-dessous et non les formes noires
+intérieures. Les traits internes sont appelés "contrepoinçons". Lors de la conception d'une police, vous
+devrez souvent altérer votre travail non pas en raison de la forme ou la largeur du trait, mais en raison
+de la forme et de la taille du contrepoinçoin.
 
 <img src="images/2bowls.png" alt>
 
-### Terminals
+### Terminaisons
 
-Terminals are the end forms of the strokes. They are not same as the serifs. They are often
-perpendicular to the angle of the stroke at its end, or sheared horizontally or vertically. They may
-also reflect the shape of the nib or other mark-making tool that the letter forms evoke.
+Les terminaisons sont les formes aux extrémités des traits. Ce ne sont pas des empattements. Elles sont
+souvent perpendiculaires à l'angle du trait à son extrémité, ou ciselés horizontalement ou verticalement.
+Elles peuvent également refléter la forme de la pointe ou des autres outils de marquage que les lettres évoquent.
 
 <img src="images/terminals%20f.png" alt>
 
-### Speed
+### Vitesse
 
 <img src="images/6speed_1.png" alt>
 
-The ‘n’ on the left seems to be written much faster than the one on the right. Speed is discussed in
-more detail in the chapter [on italics].
+Le ‘n’ de gauche semble être écrit beaucoup plus vite ce celui de droite. La vitesse est discutée plus en
+détail dans le chapitre [sur les italiques]
 
-### Regularity
+### Régularité
 
 <img src="images/6regularity.png" alt>
 
-The following characteristics are not present in all type designs, however they are variables that
-may be a part of your design. If this is the case, it is worth considering the degree to which they
-will play a role as a variable.
+Les caractéristiques suivantes ne sont pas présentes dans toutes les designs de police, mais ce sont des
+variables qui peuvent faire partie de votre conception. Si tel est le cas, il convient de considérer le
+degré auquel elles joueront un rôle de variable.
 
-### Flourish
+### Ornements
 
 <img src="images/5flourish.png" alt>
 
-Notice that in the font on top the flourish is more present in the capital letter and the second one
-the flourish is more in the lowercase.
+Notez que dans la police du dessus, les ornements sont plus présents dans la lettre majuscule et que
+dans celle du bas, les ornements le sont plus dans la minuscule.
 
-### Serif - To be or not to be
+### Empattement - Être ou ne pas être
 
-Serifs are one of the most distinct aspects of a typeface, and often the first classification of
-type is between serif and sans-serif type.
+Les empattements sont l'un des aspects les plus distincts d'une police de caractères, et souvent la
+première classification de police est de distinguer les polices avec empattements (serif) et sans
+empattements (sans-serif).
 
-This choice affects how the end terminals will look like. Serifs can be two sided or one sided. They
-can be perpendicular to stroke or have their own direction (like being always horizontal or
-vertical). Serifs can be with or without brackets. Any serif design is a mix of all of the above
-applied consistently to the type design with some deviations for particular letters, especially the
-‘S’, ‘C’ and ‘Z’ (e.g. a type with horizontal serifs for all letters will often have s, c and z to
-have vertical serifs).
+Ce choix affecte à quoi les terminaisons vont ressembler. Les empattements peuvent être des deux cotés
+ou d'un seul côté. Ils peuvent être perpendiculaires au trait ou avoir leur propre direction (comme être
+toujours horizontal ou vertical). Les empattements peuvent être avec ou sans congé. Tout design d'empattement
+est un mélange de tout ce qui précède appliqué uniformément au design de la police avec quelques déviations
+pour les lettres particulières, en particulier les ‘S’, ‘C’ et ‘Z’ (i.e. une police avec empattement
+horizontale pour toutes les lettres aura souvent s, c et z avec un empattement vertical).
 
-There is a urban legend asserting that serif types are easier to read than sans-serifs &ndash; it is
-[a sole myth](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), until further
-notice.
+Il existe une légende urbaine affirmant que les polices avec empattement sont plus faciles à lire que sans
+empattement &ndash; cela est [seulement un mythe](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), jusqu'à nouvel ordre.
 
-The form of the serifs are related to the forms of the terminals.
+La forme des empattements est liée aux formes des terminaisons.
 
-#### Brackets
+#### Congés
 
-The corner portions of a serif where it connects to the main stroke are called ‘brackets’. A
-particular design may have them giving a soft feel to the serif ([Times New Roman] is an example) or
-may choose to not have any bracket. Some designs also use brackets only on one side or with
-different proportions on the two sides.
+Les parties en coin d'un empattement où il se connecte au trait principal sont appelées ‘congés’. Un
+design particulier peut donner une apparence douce à l'empattement ([Times New Roman] est un exemple) ou
+peut ne pas inclure aucun congé. Certains designs utilisent également des empattements seulement d'un côté
+ou avec des proportions différentes sur les deux côtés.
 
-This is a relatively strong parameter that renders feel to the type &ndash; elegance (smooth or
-large brackets of [Times New Roman]) or chunky crisp (absent brackets of [Arvo]).
+Il s'agit d'un paramètre relativement fort qui donne une touche spéciale à la police &ndash; élégance (congés
+doux ou grands de [Times New Roman]) ou lourdeur (congés absents de [Arvo]).
 
-#### Slab-serifs
+#### Empattements rectangulaires
 
-Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don’t use
-brackets. Generally speaking, type design with such serifs are seen to have less contrast in their
-glyphs &ndash; [Rockwell], [Courier] or [American typewriter] reflect that.
+Également appelé de type mécane ou égyptien, les empattements rectangulaires sont épaisses et en bloc. Les
+empattements rectangulaires n'utilisent pas de congé. D'une manière générale, le design de police avec de tels
+empattements est considéré comme ayant moins de contraste dans leurs glyphes &ndash; [Rockwell], [Courier] ou
+[American Typewriter] reflètent cela.
 
-It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an
-otherwise no-contrast type design. But this is not an absolute rule.
+On peut supposer que les empattements rectangulaires ont été utilisés pour ajouter un peu d'ornement ou de rythme
+à un design de police autrement sans contraste. Mais ce n'est pas une règle absolue.
 
-#### Serif Terminals
+#### Terminaisons d'empattement
 
-Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the
-type &ndash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
-angular ([Rockwell]).
+Tout comme les terminaisons de lettres, la forme finale des empattements eux-mêmes contribue à l'aspect de la
+police &ndash; soit doux ou lourd. Les terminaisons d'empattement peuvent être douces et arrondies ([Courier])
+ou émoussées et angulaires ([Rockwell]).
 
-### Decoration
+### Décoration
 
 <img src="images/4decoration.png" alt>
 
@@ -276,12 +284,10 @@ angular ([Rockwell]).
 
 [Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
-[“Trusting your eyes”]: Trusting_Your_Eyes.html
-[on italics]: Italic.html
+[“Faîtes confiance à vos yeux”]: Trusting_Your_Eyes.html
+[sur les italiques]: Italic.html
 [Times New Roman]: http://practicaltypography.com/times-new-roman.html
 [Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
 [Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
 [Courier]: http://typedia.com/explore/typeface/courier/
 [American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
-
-

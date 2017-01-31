@@ -1,31 +1,28 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 9
 category: Before You Begin
-title: Planning Your Project
+title: Planification de votre projet
 ---
 
-Now that you have a sense of how a font design can vary, you may want to decide whether your project
-will have only one font, if it will be a collection of several inter-related fonts, if it will be a
-(now traditional) three or four-styles type family, or if it will be something even larger.
+Maintenant que vous avez une idée de la façon dont un design de police peut varier, vous pouvez décider si
+votre projet aura une seule police, si ce sera une collection de plusieurs polices inter-connexes, si ce sera
+une famille de trois ou quatre styles (maintenant classique) ou si ce sera quelque chose de plus grand encore.
 
-Common styles of type families include:
+Les styles communs de familles de polices comprennent:
 
-* A Regular and a Bold weight
-* Regular, Bold, Italic &ndash; eventually with a Bold Italic
-* Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black 
-* Regular, Condensed, Bold and Bold Condensed
-* Narrow, Condensed, Wide and Extra Wide
-* Regular, Semi-Flourished, Flourished, Very Flourished, Extremely Flourished.
+* Une graisse régulière et grasse
+* Régulier, gras, italique &ndash; éventuellement avec un italique gras
+* Mince, léger, book, régulier, semi-gras, gras, extra-gras, noir
+* Régulier, condensé, gras et gras condensé
+* Étroit, condensé, large et extra large
+* Régulier, semi-orné, orné, très orné, extrêmement orné.
 
-While there are reasons that typical patterns in families exist, you may find you want a very
-different kind of grouping.
+Bien qu'il existe des raisons pour lesquelles des modèles typiques dans les familles existent, vous pouvez décider
+que vous voulez un genre très différent de regroupement.
 
-The scope of the project can be determined exclusively by your ambition and your amount of free
-time. But project scopes are often determined by the use you have for the collection or family of
-fonts, or, even further, by the needs of your client. Certainly for professional type designers,
-the latter two questions are usually the determining factors.
+La portée du projet peut être déterminée exclusivement par votre ambition et votre quantité de temps libre. Mais les objectifs de projet sont souvent déterminés par l'utilisation que vous avez pour la collection ou la famille de polices, ou, encore plus, par les besoins de votre client. Certes, pour les concepteurs de type professionnel, les deux dernières questions sont généralement les facteurs déterminants.
 
 ## Feeling
 

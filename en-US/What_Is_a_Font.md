@@ -122,7 +122,7 @@ the one on the right.
 <img src="images/Contrast.png" alt>
 
 Type with consistent weight (stroke width) in its letterforms or no visible contrast produces a
-sheer distinction from uncontrasted type. Like the choice between serifs or sans-serifs, contrast is
+sheer distinction from contrasted type. Like the choice between serifs or sans-serifs, contrast is
 an early choice of type design. It is interesting to note that ‘slab’ serif designs generally use
 consistent stroke width in their letters, and that the design of slab serifs is not merely about the
 serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting your

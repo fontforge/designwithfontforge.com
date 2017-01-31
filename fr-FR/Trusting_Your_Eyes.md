@@ -1,149 +1,153 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 6
 category: Before You Begin
-title: Trusting Your Eyes
+title: Faîtes confiance à vos yeux
 ---
 
-Font design is the process of iteratively testing the individual choices that collectively add up to
-a complete design. You will be testing your font to see if the combination of decisions you have
-made:
+Le design de polices est le processus de tester itérativement les choix individuels qui, collectivement,
+composent le design complet. Vous allez tester votre police pour voir si la combinaison de décisions que
+vous avez prises:
 
-* Allows you to read the font
-* Makes the font feel right to you
-* Makes the font useful for the the jobs you want the font to be able to do.
+* Permet de lire la police
+* Confère à la police l'aspect que vous désirez
+* Rend la police utile pour les travaux que vous voulez que la police soit capable de faire.
 
-As you test the design, you will have to trust your perceptions and design somewhat practically.
-Much of type design requires that you make letters similar and that you repeat forms.
+Lorsque vous testez le design, vous devez faire confiance à vos perceptions et à votre design de façon
+pratique. Une grande partie du design de police nécessite que vous fassiez des lettres similaires et que vous
+répétiez des formes.
 
-It is tempting to assume that if you measure the parts and the spaces between the glyphs, then you
-will get reliable results. While very useful, this approach has real limitations. You should expect
-to make adjustments if something looks wrong to you. Furthermore, you should feel confident that
-making changes until it “looks right” is the correct thing to do.
+Il est tentant de supposer que si vous mesurez les parties et les espaces entre les glyphes, vous obtiendrez
+des résultats fiables. Bien que très utile, cette approche présente des limitations réelles. Vous devriez
+vous attendre à faire des ajustements si quelque chose vous semble incorrect. De plus, vous devriez vous
+sentir confiant que de faire des changements jusqu'à ce que cela "semble bon" soit la bonne chose à faire.
 
-The reason this is true is that there are a number of natural optical illusions that all readers are
-subject to. These illusions must be accounted for by altering the shapes of letters until they look
-right to you.
+La raison pour laquelle cela est vrai, c'est qu'il ya un certain nombre d'illusions d'optique naturelle auquel
+tous les lecteurs sont soumis. Ces illusions doivent être prises en compte en modifiant les formes des lettres
+jusqu'à ce qu'elles vous semblent bien.
 
-You can get a feel of where to look and what elements to adjust in these [Type Review Videos](https://vimeo.com/typereview/videos) (External Link)
+Pour avoir une idée de par où commencer et quels éléments ajuster, consultez ces [vidéos de révision de
+police](https://vimeo.com/typereview/videos) (lien externe)
 
-## Examples of illusions
+## Exemples d'illusions
 
-Some illusions involve the perceived weight of lines, some involve the perceived length of lines,
-and others involve the eye’s perception of shapes.
+Certaines illusions impliquent la graisse perçue des lignes, certaines impliquent la longueur perçue des lignes,
+et d'autres impliquent la perception de l'oeil des formes.
 
-### Horizontal vs. vertical weight
+### Graisse horizontale vs. verticale
 
-The example on the left shows an ‘H’ which bars are precisely equal in thickness. This looks wrong.
-Can you feel it?  
-The other one on the right has a horizontal bar which has been thinned to appear equal in
-thickness.
+L'exemple de gauche montre un ‘H’ dont les barres sont exactement égales en épaisseur. Cela semble mauvais.
+Pouvez-vous le voir?
+L'autre sur la droite a une barre horizontale qui a été amincie pour apparaître égale en épaisseur.
 
 <img src="images/H%20compensation2.png" alt>
 
-Glyphs in which optical adjustments have to be made are numerous and include A, E, F, L, H, f, t,
-and z.
+Les glyphes dans lesquels des ajustements optiques ont dû être faits sont nombreux et incluent A, E, F, L, H,
+f, t et z.
 
-### Diagonal thickness
+### Épaisseur de diagonale
 
-Similarly, if you have bars of the same width and one of them is set at a diagonal, the diagonal bar
-will seem slightly heavier than the vertical bar and slightly thinner than the horizontal. If you
-want it look right, you will have to adjust it to be lighter like the horizontal example, but just a
-little less.
+De même, si vous avez des barres de la même largeur et que l'une d'elles est placée en diagonal, la barre
+diagonale semblera légèrement plus lourde que la barre verticale et légèrement plus mince que l'horizontale.
+Si vous voulez que cela paraîsse bien, vous devrez l'ajuster pour être plus légère comme l'exemple horizontal,
+mais juste un peu moins.
 
 <img src="images/Diag%20illusion.png" alt>
 
-Glyphs in which this human perception may be relevant are quite numerous but include k, K, N, Q, R,
-v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
-&laquo;, &raquo;, &frac12;, &frac13;, &frac14;, &le;, &ge;, and &times;.
+Les glyphes dans lesquels cette perception humaine peut être importante sont assez nombreux et incluent
+k, K, N, Q, R, v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
+&laquo;, &raquo;, &frac12;, &frac13;, &frac14;, &le;, &ge;, et &times;.
 
-### Length and perceived diagonal angle
+### Longueur et angle de diagonale perçu
 
-Longer shapes need to slant less than short shapes in order to give the appearance of same slant.
+Les formes plus longues ont besoin de moins d'inclinaison que les les plus courtes pour donner l'apparence
+d'une même inclinaison.
 
-The image below has diagonal lines that are all at the same angle. The long one appears to be at a
-different angle.
+L'image ci-dessous a des lignes diagonales qui ont toutes le même angle. Les plus longues semblent être à un
+angle différent.
 
 <img src="images/pdiag.png" alt>
 
-In the next picture below, the slant of the longer line has been adjusted:
+Dans l'image suivante, l'inclinaison de la ligne plus longue a été ajustée:
 
 <img src="images/pdiag2.png" alt>
 
-Now let’s look at an actual italic, applying these corrections to the glyphs:
+Maintenant, regardons une italique en fait, en appliquant ces corrections aux glyphes:
 
 <img src="images/longer%20less%20slant.png" alt>
 
-### Crossing diagonals
+### Croisement des diagonales
 
-When a bar crosses another diagonal or a straight line, it will need adjustments to not appear as
-misaligned.
+Lorsqu'une barre franchit une autre diagonale ou une ligne droite, elle aura besoin d'être ajustée
+pour ne pas apparaître comme étant mal alignée.
 
 <img src="images/compare-x.png" alt>
 
-In the example above, the X on the left has two unadjusted bars crossing each other. The example on
-the right has been adjusted so that they appear to be aligned.
+Dans l'exemple ci-dessus, le X à gauche comporte deux barres non ajustées qui se croisent. L'exemple
+de droite a été ajusté de façon à ce qu'ils semblent alignés.
 
 <img src="images/myriad-x.png" alt>
 
-As you can see in this X with dotted line on top of it, the X that appears visually aligned involves an offset.
+Comme vous pouvez le voir dans ce X avec une ligne pointillée au-dessus, le X qui apparaît visuellement
+aligné implique un décalage.
 
-Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the icelandic letter ‘eth’
-(&eth;).
+Les glyphes dans lesquels cette illusion est applicable incluent x, X, k, K, ×, # et la lettre islandaise
+‘eth’ (&eth;).
 
-### Perceived height
+### Hauteur perçue
 
-The shape of a glyph will contribute to how high it needs to be in order to look as if it is the
-same height as the other glyphs. Round glyphs need to overshoot the height of flat glyphs by a
-little bit. Glyphs which have pointier shapes will need to overshoot more. The sharper the shape,
-the more it will need to overshoot in order to look correct.
+La forme d'un glyphe contribuera à la hauteur qu'il doit avoir afin de paraître de même hauteur
+que les autres glyphes. Les glyphes ronds doivent dépasser un peu la hauteur des glyphes plats.
+Les glyphes qui ont des formes pointues devront les surpasser davantage. Plus la forme est nette,
+plus elle aura besoin de dépasser pour avoir l'air correcte.
 
 <img src="images/3Shapes.png" alt>
 
-In the image above, the top three shapes are unadjusted &mdash; that is, they have identical
-heights. The three shapes on the bottom have been adjusted so that they appear more similar in
-height.
+Dans l'image ci-dessus, les trois formes supérieures sont non corrigées &mdash; c'est-à-dire
+qu'elles ont des hauteurs identiques. Les trois formes inférieures ont été ajustées afin qu'elles
+apparaîsse les mêmes en hauteur.
 
-This illusion is relevant for any glyph that has parts which are either round or pointy. These
-include O, Q, C, S, A, V, W, and so on.
+Cette illusion est applicable à tout glyphe qui a des parties qui sont soit rondes ou pointues.
+Ceux-ci comprennent O, Q, C, S, A, V, W et ainsi de suite.
 
-## You are fully qualified to correct for these illusions
+## Vous êtes pleinement qualifié pour corriger ces illusions
 
-Because you can see both the illusion and the effect of correcting for the illusion, you will be
-able to make these corrections for yourself. You just have to trust your impressions.
+Parce que vous pouvez voir à la fois l'illusion et l'effet de la correction sur l'illusion, vous
+serez en mesure de faire ces corrections par vous-même. Il suffit de faire confiance à vos impressions.
 
-## Test for fitness of purpose
+## Testez l'aptitude à l'emploi
 
-Just like you are able to see optical illusions and correct them, you also have the ability to tell
-if a font is working for the specific use (or uses) you may have in mind. That’s where you should
-also trust your judgment.
+Comme vous êtes capable de voir des illusions d'optique et de les corriger, vous avez également la
+capacité de dire si une police fonctionne pour l'utilisation spécifique (ou les utilisations) que vous
+avez à l'esprit. C'est là que vous devriez également faire confiance à votre jugement.
 
-Quite separately, it is worth noting that no font can be evaluated apart from the way it is used and
-what it is used for. This is why it is essential to begin testing from the very beginning of the
-design process, and to continue testing until you feel the project is done.
+Tout à fait séparément, il est intéressant de noter qu'aucune police ne peut être évaluée en dehors
+de la façon dont elle est utilisé et ce à quoi elle servira. C'est pourquoi il est essentiel de
+commencer à tester dès le début du processus de conception, et de continuer à tester jusqu'à ce que
+vous sentiez que le projet est terminé.
 
-What will these tests be like? The tests will be simple at first, allowing you to test the first
-design choices. As your design becomes more complete, your tests will need to keep pace and let you
-evaluate the relative success or failure of the newest choices you have made &mdash; or, even
-better, to compare two (or three, or more&hellip;) options you are considering.
+À quoi ressembleront ces tests? Les tests seront simples au début, vous permettant de tester les
+premiers choix de design. Comme votre design devient plus complet, vos tests devront suivre le rythme
+et vous permettront d'évaluer le succès relatif ou l'échec des nouveaux choix que vous avez fait &mdash;
+ou, mieux encore, de comparer deux (ou trois, ou plus&hellip;) options que vous envisagez.
 
-Sometimes you will find you have to double back and change a design choice you thought was already
-working well. This is normal. Making a font requires balancing many variables, and surprises often
-occur. The more you design fonts, the more experience you will have in making these arbitrary
-choices.
+Parfois, vous trouverez que vous devez enlever et modifier un choix de design que vous pensiez
+fonctionnel. C'est normal. Pour créer une police, il faut équilibrer de nombreuses variables et des
+surprises se produisent souvent. Plus vous concevez des polices, plus vous aurez d'expérience dans ces
+choix arbitraires.
 
-When nearing the end of the process, if the font is to be used in a simple way, the tests should
-also just stay simple. However, if a font is to be used in many ways or in a wide range of printing
-or screen environments, then it should be tested across all that range of situations, which includes
-printing various samples of the font.
+En approchant de la fin du processus, si la police doit être utilisée de façon simple, les tests devraient
+également rester simples. Cependant, si une police doit être utilisée de nombreuses façons ou dans un large 
+éventail d'environnements d'impression ou d'écran, elle doit être testée dans toutes ces situations, ce qui
+inclut l'impression de divers échantillons de la police.
 
-It can save you design time to have a well defined idea of the final use you intend. However, this
-is not always possible and your ideas may evolve. The key thing is to think about and define the use
-cases as completely as you can, then to ensure that your tests keep pace with the questions you are
-asking yourself while designing the font.
+Avoir une idée bien définie de l'utilisation finale peut vous faire épargner du temps de design. Cependant,
+cela n'est pas toujours possible et vos idées peuvent évoluer. La clé est de penser et de définir les cas
+d'utilisation aussi complètement que vous pouvez, puis de veiller à ce que vos tests gardent le rythme avec
+les questions que vous vous posez tout en concevant la police.
 
-## Further Reading
+## Lecture complémentaire (en anglais)
 
 * <http://typographica.org/on-typography/making-geometric-type-work/>
 * <http://typedrawers.com/discussion/1085/the-letter-s>

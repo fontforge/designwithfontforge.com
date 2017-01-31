@@ -4,15 +4,15 @@
 | 1      | Introduction                               |
 | 3      | Qu'est-ce qu'une fonte                     |
 | 6      | Faîtes confiance à vos yeux                |
-| 9      | Planifiez votre projet                     |
+| 9      | Planification de votre projet              |
 | 12     | Le cadratin (unité EM)                     |
 | 15     | Installation de Fontforge                  |
 | 18     | Utilisation des outils de Fontforge        |
 | 21     | Dessiner avec Spiro                        |
-| 24     | Creating “o” and “n”                       |
-| 27     | Font Info & Metadata                       |
+| 24     | Création de “o” et “n”                     |
+| 27     | Info fonte et métadonnées                  |
 | 30     | Word Space                                 |
-| 33     | Creating Your Type DNA                     |
+| 33     | Création de l'ADN de votre police          |
 | 36     | Capital Letters                            |
 | 39     | Line Spacing                               |
 | 42     | Punctuation and Symbols                    |
