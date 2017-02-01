@@ -1,51 +1,52 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 15
 category: Getting To Know FontForge
-title: Installing FontForge
+title: Installation de FontForge
 ---
 
-FontForge is libre software, so you can download, share and install copies without any restrictions on usage - both commercial or personal use is encouraged.
-It is a community-maintained application, and anyone can contribute to the source code.
+FontForge est un logiciel libre, vous pouvez donc télécharger, partager et installer des copies sans aucune
+restriction sur l'utilisation - l'utilisation commerciale ou personnelle est encouragée.
+Il s'agit d'une application gérée par la communauté et n'importe qui peut contribuer au code source.
 
-FontForge is available in easy to install packages for Windows, Mac OS X and GNU+Linux operating systems. 
+FontForge est disponible en paquets faciles à installer pour les systèmes d'exploitation Windows, Mac OS X et GNU+Linux.
 
-### Installing FontForge on Windows
+### Installation de FontForge sur Windows
 
-An [installation guide](http://fontforge.github.io/en-US/downloads/windows/) is available for the official Windows builds, prepared by Jeremy Tan.
+Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/windows/) est disponible pour les versions officielles de Windows, préparées par Jeremy Tan.
 
-### Installing FontForge on Mac OS X
+### Installation de FontForge sur Mac OS X
 
-An [installation guide](http://fontforge.github.io/en-US/downloads/mac/) is available for the official Mac builds, prepared by Dr Ben Martin. 
+Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/mac/) est disponible pour les versions officielles Mac, préparé par le Dr Ben Martin. 
 
-### Installing on GNU/Linux
+### Installation sur GNU/Linux
 
-The easiest method to get FontForge on your Linux machine is to use your Linux distribution’s package repository.
+La méthode la plus simple pour obtenir FontForge sur votre machine Linux est d'utiliser le dépôt de paquets de votre distribution Linux.
 
-#### Debian or Ubuntu
+#### Debian ou Ubuntu
 
-The FontForge package included in Ubuntu 14.04 by default dates from 2012, so it is preferable to install the more up-to-date package from the FontForge [Personal Package Archive (PPA)] (https://launchpad.net/~fontforge/+archive/ubuntu/fontforge).
+Le paquet FontForge inclus dans Ubuntu 14.04 par défaut date de 2012, il est donc préférable d'installer le paquet plus à jour à partir de la [PPA (Personal Package Archive)](https://launchpad.net/~fontforge/+archive/ubuntu/fontforge) de FontForge.
 
-Check that the helper script `add-apt-repository` is installed:
+Vérifiez que le script d'aide `add-apt-repository` est installé:
     
 ```sh
 sudo apt-get install software-properties-common;
 ```
 
-Add the FontForge PPA (which will also add the authentication key):
+Ajoutez la PPA FontForge (qui ajoutera également la clé d'authentification):
     
 ```sh
 sudo add-apt-repository ppa:fontforge/fontforge;
 ```
 
-Update the software list to include packages from the PPA:
+Mettez à jour la liste des logiciels pour inclure les paquets de la PPA:
     
 ```sh
 sudo apt-get update;
 ```
 
-Install FontForge:
+Installez FontForge:
     
 ```sh
 sudo apt-get install fontforge;
@@ -53,26 +54,29 @@ sudo apt-get install fontforge;
 
 #### Fedora
 
-To install FontForge on your Fedora Linux desktop machine run the following yum command as the root user. 
-This will require about 10MiB of download to complete.
+Pour installer FontForge sur votre machine Fedora Linux, exécutez la commande yum suivante en tant
+qu'utilisateur root.
+Environn 10 Mo devront être téléchargé pour terminer.
+
 
 ```
 yum install fontforge;
 ```
 
-If you have not compiled software on your Fedora machine, after installing gcc, automake, autoconf and others then you might get an error during the execution of autogen.sh with libtoolize. 
-If that is the case you might need to install the libtool-ltdl-devel package on Fedora or a similar development package on another GNU+Linux distribution.
+Si vous n'avez pas compilé de logiciel sur votre machine Fedora, après avoir installé gcc, automake, autoconf et autres, vous pourriez obtenir une erreur lors de l'exécution de autogen.sh avec libtoolize.
+Si c'est le cas, vous devrez peut-être installer le paquet libtool-ltdl-devel sur Fedora ou un package de développement similaire sur une autre distribution GNU+Linux.
 
-After issuing the yum install you should be able to run FontForge from your menu or directly from the konsole or gnome-terminal by issuing the `fontforge` command.
+Après l'installation de yum, vous devriez être en mesure d'exécuter FontForge à partir de votre menu ou directement à partir de la konsole ou gnome-terminal en émettant la commande `fontforge`.
 
-## Compile your own version from Github
+## Compilez votre propre version à partir de Github
 
-GitHub is a source-code hosting service where everyone can contribute to the development of a piece of software. 
-It stores the current leading state of development of the application.
-In some cases, perhaps because you want access to a feature not yet available in the release packages, you may wish to compile your own version from Github.
+GitHub est un service d'hébergement de code source où tout le monde peut contribuer au développement d'un logiciel.
+Il stocke l'état de développement actuel de l'application.
+S vous souhaitez accéder à une fonctionnalité qui n'est pas encore disponible dans les paquets officiels, vous pouvez créer votre propre version à partir de Github.
 
-Full instructions are at <https://github.com/fontforge/fontforge/blob/master/INSTALL-git.md>
+Des instructions complètes (en anglais) sont disponibles à l'adresse <https://github.com/fontforge/fontforge/blob/master/INSTALL-git.md>
 
-## Debugging the FontForge software
+## Débogage de FontForge
 
-When you See the [Debugging](When_Things_Go_Wrong_With_Fontforge_Itself) section for more information.
+Voir la section [Débogage](When_Things_Go_Wrong_With_Fontforge_Itself) pour plus d'informations.
+

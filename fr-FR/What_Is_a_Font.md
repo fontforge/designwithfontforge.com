@@ -9,9 +9,9 @@ title: Qu'est-ce qu'une fonte?
 &mdash; Qu'est-ce qui rend les polices différentes de l'écriture manuscrite, de la calligraphie, du
 lettrage et des logos?
 
-Le problème le plus important qui différencie la conception de polices est la nécessité pour chaque
-glyphe dans la police de caractères de fonctionner avec tous les autres glyphes. Cela signifie souvent
-que la conception et l'espacement de chaque partie de la police de caractères finit par être une série
+Ce qui est différent dans la conception de polices est la nécessité pour chaque glyphe dans la
+police de caractères de fonctionner avec tous les autres glyphes. Cela signifie souvent que la
+conception et l'espacement de chaque partie de la police de caractères finit par être une série
 de compromis méticuleux. Ces compromis signifient que nous devons voir la conception de caractères
 comme la création d'une merveilleuse collection de lettres, et non comme une collection de lettres
 merveilleuses. En d'autres termes, nous devons penser au groupe et à la façon dont il se comportera

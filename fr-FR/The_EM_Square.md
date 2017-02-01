@@ -3,60 +3,61 @@ published: true
 layout: bookpage_fr-FR
 weight: 12
 category: workflow
-title: Le cadratin (unité EM)
+title: Le cadratin (EM)
 ---
 
-&mdash; Also called the ‘em size’ or ‘UPM’.  
-In a font, each character is fitted into its own space container. In traditional metal type this
-container was the actual metal block of each character. The height of each character piece was
-uniform, allowing the characters to be set neatly into rows and blocks (see below).
+&mdash; Aussi appelée 'em size' ou 'UPM' en anglais.
+Dans une police, chaque caractère est placé dans son propre espace défini. Dans la police
+de métal traditionnelle cette esace était le bloc de métal réel de chaque caractère. La hauteur de
+chaque morceau de caractère était uniforme, permettant aux caractères d'être rangés soigneusement
+en rangées et en blocs (voir ci-dessous).
 
 <img src="images/MetalTypeZoomIn.JPG" alt>
 
-The height of the type piece is known as the ‘em’, and it originates from the width of the uppercase
-‘M’ character; it was made so that the proportions of this letter would be square (hence the ‘em
-square’ denomination).  
-The em size is what the point size of metal type is calculated upon. So, a 10 points type has a 10
-points em (see below).
+La hauteur d'une police est connue sous le nom de 'em' ou cadratin, et elle provient de la largeur du
+caractère majuscule ‘M’; il a été fait en sorte que les proportions de cette lettre soit carrée
+(d'où la dénomination 'cadratin').
+La taille em est la taille de point sur laquelle une police de métal est calculée. Ainsi, une police de
+10 points a une taille em de 10 points (voir ci-dessous).
  
 <img src="images/em-metal-type.svg" alt>
 
-In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &ndash;
-or em size is usually set at 1000 units. In TrueType fonts, the UPM is by convention a power of two,
-generally set to 1024 or 2048.
+Dans une police numérique, l'em est une quantité d'espace définie numériquement. Dans une police OpenType,
+l'UPM &ndash; ou la taille em est généralement fixé à 1000 unités. Dans les polices TrueType, l'UPM est par
+convention une puissance de deux, généralement définie à 1024 ou 2048.
 
-When the font is used to set type, the em is scaled to the desired point size. This means that for
-10 pt type, the 1000 units for instance get scaled to 10 pt.
+Lorsque la police est utilisée pour définir le caractère, l'em est mis à l'échelle à la taille de point
+souhaité. Cela signifie que, pour une police de 10 pt, les 1000 unités par exemple sont réduites à 10 pt.
 
-So if your uppercase ‘H’ is 700 units high, it will be 7 pt high on a 10 pt type.
+Donc, si votre ‘H’ majuscule est de 700 unités de haut, il sera de 7 pt de haut sur une police de 10 pt.
 
-### Setting that up in the Glyph Window
+### Mise en place dans la fenêtre de glyphes
 
-With the knowledge that your font is using a 1000, 1024, or 2048 UPM, you need to set up the drawing
-of your glyphs to ensure that all aspects of your typeface fit adequately into that UPM square.
+En sachant que votre police utilise un UPM de 1000, 1024 ou 2048, vous devez configurer le dessin de vos
+glyphes pour vous assurer que tous les aspects de votre police de caractères correspondent bien à ce carré UPM.
 
-The size of the em square can be set from *Element > Font Info&hellip;* then click on the General
-tab and you will see the *EM* setting, which value shall be distributed between the *Ascender* and
-*Descender* heights, respectively heights above and underneath the baseline.
+La taille du carré em peut être définie à partir de *Élément > Infos fonte&hellip;* puis cliquez sur
+l'onglet Général et vous verrez le paramètre *EM*, lequel sera réparti entre les hauteurs *Ascendante* et
+*Descendante*, les hauteurs respectives au-dessus et au-dessous de la ligne de base.
 
-The Baseline:
+La ligne de base:
 
 <img src="images/baseline.png" alt>
 
-The Cap Height:
+La hauteur de capitale:
 
 <img src="images/capheight.png" alt>
 
-The x-height:
+La hauteur d'x:
 
 <img src="images/xheight.png" alt>
 
-Later when designing your type, you will have to set the Blue values which serve for PostScript
-outlines and also for the FontForge autohinter &ndash; regardless of which outlines you are working
-on.  
-You will find the setting in *Element > Font Info&hellip;*, on the *PS Private* tab. FontForge can
-initially guess the values based on your outlines, but you will have to edit them yourself for
-overshoots/undershoots &mdash; we are a few chapters ahead of this concept (see 
-[“Creating ‘o’ and ‘n’”]); let’s first get ahold of FontForge and its drawing functionalities.
+Plus tard, lors de la conception de votre police, vous devrez définir les valeurs bleues qui servent
+pour les contours PostScript et également pour l'autohinter de FontForge &ndash; indépendamment des
+contours sur lesquels vous travaillez.
+Vous trouverez le paramètre dans *Élément > Infos fonte&hellip;*, sur l'onglet *Dictionnaire PS privé*.
+FontForge peut d'abord deviner les valeurs en fonction de vos contours, mais vous devrez les modifier
+vous-même pour régler les valeurs trop basses/trop hautes &mdash; mais nous sommes quelques chapitres en avance sur
+ce concept (voir [“Création de ‘o’ et de ‘n’”]); apprenons d'abord FontForge et ses fonctionnalités de dessin.
 
-[“Creating ‘o’ and ‘n’”]: Creating_o_and_n.html
+[“Création de ‘o’ et de ‘n’”]: Creating_o_and_n.html

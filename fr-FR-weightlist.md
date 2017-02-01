@@ -5,8 +5,9 @@
 | 3      | Qu'est-ce qu'une fonte                     |
 | 6      | Faîtes confiance à vos yeux                |
 | 9      | Planification de votre projet              |
-| 12     | Le cadratin (unité EM)                     |
+| 12     | Le cadratin (EM)                           |
 | 15     | Installation de Fontforge                  |
+| 16     | Configuration de Fontforge                 |
 | 18     | Utilisation des outils de Fontforge        |
 | 21     | Dessiner avec Spiro                        |
 | 24     | Création de “o” et “n”                     |
@@ -24,7 +25,7 @@
 | 60     | Spacing, Metrics and Kerning               |
 | 63     | Making Sure Your Font Works, Validation    |
 | 66     | The Final Output Generating Font Files     |
-| 69     | When Things Go Wrong With Fontforge Itself |
+| 69     | Quand les choses tournent mal avec FF      |
 | 72     | Designing Devanagari Typefaces             |
 | 75     | Importing Glyphs from Other Programs       |
 | 78     | Adding Glyphs to an Arabic Font            |

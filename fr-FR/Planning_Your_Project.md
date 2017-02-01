@@ -24,102 +24,112 @@ que vous voulez un genre très différent de regroupement.
 
 La portée du projet peut être déterminée exclusivement par votre ambition et votre quantité de temps libre. Mais les objectifs de projet sont souvent déterminés par l'utilisation que vous avez pour la collection ou la famille de polices, ou, encore plus, par les besoins de votre client. Certes, pour les concepteurs de type professionnel, les deux dernières questions sont généralement les facteurs déterminants.
 
-## Feeling
+## Sentiment
 
-The most important thing about a type design is the feelings it evokes. 
-This is notoriously hard to verbalise, but it is what makes a particular typeface meaningfully different from any other. 
+L'aspect le plus important d'un design de police est le sentiment qu'elle évoque. C'est notoirement
+difficile à verbaliser, mais c'est ce qui rend une police de caractères significativement différente de toute autre.
 
-A type designer in Portugal, Natanael Gama, designed the [Exo family](https://www.google.com/fonts/specimen/Exo) with FontForge. 
-On his homepage he describes another project for the sculptor [John Williams](http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
+Un concepteur de police du Portugal, Natanael Gama, a conçu la [famille Exo](https://www.google.com/fonts/specimen/Exo) avec FontForge.
+Sur sa page d'accueil, il décrit un autre projet pour le sculpteur [John Williams](http://ndiscovered.com/john-williams/) et inclut
+un graphique montrant son exposé dans une matrice de continuums de sentiments:
 
-* Figurative to Abstract 50%
-* Graceful to Robust: 30%
-* Calm to Energetic: 0%
-* Puzzling to Plain: 15%
-* Experimental to Standard: 15%
-* Prestigious to Ordinary: 15%
-* Other Ideas: Beautiful, Outside Spaces, Human Condition
+* Figuratif à abstrait 50%
+* Gracieux à robuste: 30%
+* Calme à énergique: 0%
+* Déroutant à uni: 15%
+* Expérimental à standard: 15%
+* Prestigieux à ordinaire: 15%
+* Autres idées: Beau, Espaces extérieurs, Condition humaine
 
-## Glyph coverage
+## Couverture des glyphes
 
-A font is still a font even if it has only one glyph in it. But a font can also have a few hundred
-or even thousands of glyphs. If your project is self-initiated, then this choice is ultimately
-arbitrary. You may decide you only want capitals, or that you want to include the glyphs found in
-the other fonts you use. If you are doing work for a client, you may want to clarify which language
-or languages the font is meant to support. Your goal could also be to extend an existing font,
-adding a few glyphs to make it work in one or more additional languages.
+Une police est toujours une police, même si elle ne contient qu'un seul glyphe. Mais une police peut
+également avoir quelques centaines voire des milliers de glyphes. Si votre projet est auto-initié,
+alors ce choix est finalement arbitraire. Vous pouvez décider que vous voulez seulement des capitales,
+ou que vous voulez inclure les glyphes trouvés dans les autres polices que vous utilisez. Si vous
+travaillez pour un client, vous voudrez peut-être préciser la langue ou les langues que la police est
+destiné à soutenir. Votre objectif pourrait également être d'étendre une police existante, en ajoutant
+quelques glyphes pour l'utiliser dans une ou plusieurs langues supplémentaires.
 
-It’s certainly a good idea to make this choice deliberately, and to err on the side of including
-less rather than more. Often as a typeface is being made, it can be tempting to include more and
-more glyphs &ndash; but it is frequently more valuable to continue to improve the core set of glyphs
-than adding new ones.
+C'est certainement une bonne idée de faire ce choix délibérément, et de rester du côté sûr en incluant
+moins plutôt que trop. Souvent au fur et à mesure que la police de caractères est réalisée, il peut être
+tentant d'inclure de plus en plus de glyphes &ndash; mais il est souvent plus bénéfique de continuer à
+améliorer l'ensemble de glyphes que d'en ajouter de nouveaux.
 
-## Multi-style family workflow
+## Flux de travail pour famille multi-styles
 
-If you know from the start that you will have more than one font, you will save yourself time if you
-plan and build the font family systematically, and work on the styles somewhat in parallel, rather
-than completing one style at a time.
+Si vous savez dès le début que vous aurez plus d'une police, vous économiserez du temps si vous planifiez
+et construisez la famille de polices systématiquement, et travaillez sur les styles en parallèle, 
+plutôt que de compléter un style à la fois.
 
-It is of course impossible to create *every* style in a completely parallel manner, but it’s
-possible to complete a given design step for each style in order to check and be sure about the
-relationships between the styles, early in the process. You may find that it is useful to complete
-one full set of test letters (such as “adhesion”) for a regular version, and then to make
-“adhesion”s for the other styles next. However, you can also make the process even more granular and
-make decisions about specific parts of the base letters (such as the ‘n’ and ‘o’) for all styles
-together.
+Il est bien sûr impossible de créer *chaque* style d'une manière complètement parallèle, mais il est
+possible de terminer une étape de conception donnée pour chaque style afin de vérifier et d'être sûr des
+relations entre les styles, au début du processus. Vous trouverez peut-être qu'il est utile de terminer
+un ensemble complet de lettres de test (comme “adhésion”) pour une version régulière, puis de faire des
+“adhésion” pour les autres styles suivants. Cependant, vous pouvez également rendre le processus encore
+plus granulaire et prendre des décisions sur des parties spécifiques des lettres de base (comme le ‘n’ et
+‘o’) pour tous les styles ensemble.
 
-Depending on the size and composition of the family you are planning, you may find that it saves
-time to make interpolatable instances of glyphs, not only so you can interpolate intermediate
-styles, but to aid making design choices about those typographic variables that shift across the
-members of a family.  
-For a remainder of the variables you should be considering, see the chapter [“What is a
-font?”](What_Is_a_Font.html).
+En fonction de la taille et de la composition de la famille que vous planifiez, vous constaterez que
+de créer des exemples interpolables de glyphes pourrait vous faire gagner du temps, non seulement pour
+interpoler des styles intermédiaires, mais pour aider à faire des choix de conception au sujet de ces
+variables typographiques qui se répètent à travers les membres d'une famille.
+Pour une description des variables que vous devriez envisager, consultez le chapitre ["Qu'est-ce qu'une
+fonte?"](What_Is_a_Font.html).
 
-## Technical: Version Management 
+## Technique: Gestion des versions 
 
-You should learn to use Git and Github to store your files, and use the "SFDir" format for your sources.
+Vous devriez apprendre à utiliser Git et Github pour stocker vos fichiers et utiliser le format "SFDir"
+pour vos sources.
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
 
-## Overall Process
+## Processus général
 
 <iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
 
-## Testing Environments
+## Environnements de test
 
-When planning your project, you must consider the medium of typography you are intending the typeface for primarily and secondarily:
-Mobile and web, or digital projectors, or cheap office bubblejet and laser printers, or high end print bureau laser printers, or magazine offset lithographic printing, or high-speed high-volume newspaper printing... and so on. 
-You should then try to acquire or arrange access to those typesetting technologies, so you can see the real results of your work.
+Lors de la planification de votre projet, vous devez considérer le médium typographique auquel la police de caractères sera
+destinée principalement et secondairement:
+Mobile et web, ou projecteurs numériques, ou imprimantes à jet d'encre et laser de bureau à bas prix, ou imprimantes laser pour
+impression haut de gamme, ou impression offset de magazine, ou impression de journaux à grande volume... et ainsi de suite.
+Vous devriez alors essayer d'acquérir ou avoir accès à ces technologies de composition, afin que vous puissiez voir les
+résultats réels de votre travail.
 
-Throughout the type design process, you will find it very helpful to preview text set with your (prototype) typeface at a higher resolution than your laptop or workstation screen. 
-This typically means a laser printer with "true" 1200 DPI and Adobe PostScript 3. 
-For individuals it is possible purchase something like this for around $500, and some 2013 recommendations were:
+Tout au long du processus de conception de police, vous trouverez très utile de prévisualiser le jeu de texte avec votre police
+(prototype) à une résolution supérieure à celle de votre ordinateur portable ou de votre poste de travail. Cela signifie
+typiquement une imprimante laser avec «vraie» DPI de 1200 et Adobe PostScript 3. Pour les particuliers, il est possible d'en
+acheter une pour environ 500 $.  En 2013, ces imprimantes étaient recommandées:
 
 * HP P2055d
-* Xerox Phaser 4510 
+* Xerox Phaser 4510
 * Xerox Phaser 5550
-* Nashua/Ricoh P7026N
+* Nashua / Ricoh P7026N
 
-In May 2013, the [Production Type](http://productiontype.com) studio has a Xerox 7525 with "fiery" controller, which costs around €12,000 to purchase but is €300 per month to lease with toner, parts and maintenance.
-In late 2015, Octavio Pardo leased a [Xerox Phaser 7100](
-http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) in a similar way for €30 per month.
+En mai 2013, le studio [Production Type](http://productiontype.com) offrait une Xerox 7525 avec un contrôleur "fiery", qui
+coûtait environ 12 000 € à l'achat mais qui était de 300 € par mois en location avec toner, pièces et maintenance .
+À la fin de 2015, Octavio Pardo a loué un [Xerox Phaser 7100](
+Http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) de manière similaire pour 30 € par mois.
 
-## OpenType Features
 
-You can plan the OpenType features of your project before you begin drawing.
-Common features include
+## Fonctionnalités OpenType
+
+Vous pouvez planifier les fonctionnalités OpenType de votre projet avant de commencer à dessiner.
+Les caractéristiques communes incluent:
 
 * `liga` Ligatures
-* `onum`, `lnum` Numerals
+* `onum`, `lnum` Numéros
 
-For some languages `locl` works but for others it doesn't, so it is best to expose language specific forms via both `locl` and `ssNN` or `cvNN`.
+Pour certaines langues `locl` fonctionne mais pour d'autres il ne marche pas, il est donc préférable d'exposer des formes 
+spécifiques à la langue via` locl` et `ssNN` ou` cvNN`.
 
-The OpenType specification allows for some kinds of features which are not recommend:
+La spécification OpenType permet certaines caractéristiques qui ne sont pas recommandées:
 
-* `hist` feature. Read more in this [discussion on TypeDrawers](http://typedrawers.com/discussion/1358/what-are-the-best-practices-for-the-hist-feature-long-s).
+* Fonction `hist`.  Lire la suite dans cette [discussion sur TypeDrawers](http://typedrawers.com/discussion/1358/what-are-the-best-practices-for-the-hist-feature-long-s).
 
-## Further Reading
+## Lecture complémentaire (en anglais)
 
 * Aoife Mooney's presentation on the type design process at TypeCon 2014: <https://vimeo.com/107421895>
 * TypeDrawers discussion of [Printer recommendations for proofing](http://typedrawers.com/discussion/314/printer-recommendations-for-proofing)
