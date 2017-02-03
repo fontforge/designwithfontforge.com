@@ -6,101 +6,101 @@ category: Getting To Know FontForge
 title: Configuration de FontForge
 ---
 
-FontForge can be fine-tuned in various ways.
-Here are some tips and tricks for doing so.
-You have many options for optimizing FontForge for your platform and workflow.
 
-Please [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute) us if you have any tips you want to share.
+FontForge peut être peaufiné de différentes façons.
+Voici quelques trucs et astuces pour le faire.
+Vous avez beaucoup d'options pour optimiser FontForge pour votre plateforme et flux de travail.
 
-#### First Things First
+S'il vous plaît, [dites-nous](https://github.com/fontforge/designwithfontforge.com#how-to-contribute) si vous avez des conseils que vous souhaitez partager.
 
-When making any configuration changes, be sure to follow this:
+#### Commençons par le commencement
 
-1. Quit FontForge (and X11)
-2. Make the changes
-3. Start FontForge and test your changes
+Lors de toute modification de configuration, assurez-vous de suivre ceci:
+
+1. Quittez FontForge (et X11)
+2. Effectuez les modifications
+3. Démarrez FontForge et testez vos modifications
 
 ## Windows
 
-Currently we have nothing specific to the Windows distribution.
-If you think of something, [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
+Actuellement, nous n'avons rien de spécifique à la distribution Windows.
+Si vous pensez à quelque chose, [dites-le nous](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
 
 ## GNU+Linux
 
-Currently we have nothing specific to any GNU+Linux distribution.
-If you think of something, [tell us](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
+Actuellement, nous n'avons rien de spécifique à aucune distribution GNU+Linux.
+Si vous pensez à quelque chose, [dites-le nous](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
 
 ## Mac OS X
 
-To open a long file or folder location path provided below:
+Pour ouvrir l'emplacement d'un long fichier ou dossier:
 
-1. Copy the path
-2. `⌘ Tab` to switch to Finder
-3. `⇧⌘G` to open the Go menu&nbsp;&nbsp;→&nbsp;&nbsp;Go to Folder item
-4. `⌘V` to paste in the path
-5. `Go` to open a new Finder window at that location
+1. Copiez le chemin
+2. `⌘ Tab` pour passer au Finder
+3. `⇧⌘G` pour ouvrir le menu Aller &nbsp;&nbsp;→&nbsp;&nbsp; Aller au dossier...
+4. `⌘V` pour coller dans le chemin
+5. `Aller` pour ouvrir une nouvelle fenêtre Finder à cet emplacement
 
-#### Keyboard Shortcuts
+#### Raccourcis clavier
 
-Many dialog and menu items have one letter that is u<span class="underline">n</span>derlined.
-These can be accessed immediately by pressing `Ctrl-Alt` and that key.
-For example, if a dialog asks you if you're <span class="underline">O</span>K, press `Ctrl + Alt + o`
+De nombreux dialogues et éléments de menu ont une lettre qui est s<span class = "underline">o</span>ulignée.
+Vous pouvez y accéder immédiatement en appuyant sur `Ctrl-Alt` et sur cette touche.
+Par exemple, si une boîte de dialogue vous demande si c'est <span class = "underline">O</span>K, appuyez sur `Ctrl + Alt + o`.
 
-If you do not use a US English keyboard, you may find some of the keyboard shortcuts are silly.
-Or, you might just want to customize them to be the way that you expect.
-To change these keys open and edit the `default` text file, located here:
+Si vous n'utilisez pas un clavier anglais américain, vous pouvez trouver que certains des raccourcis clavier sont idiots. Ou, vous voudrez peut-être simplement les personnaliser pour être ce que vous vous en attendez.
+Pour modifier ces touches, ouvrez et modifiez le fichier texte `default`, situé ici:
 
 ```
 /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/hotkeys/default
 ```
+Lorsque vous installerez la prochaine version, tous les fichiers à l'intérieur de `/Applications/FontForge.app` seront écrasés, donc sauvegardez une copie de votre fichier `default` ailleurs.
 
-When you install the next release, all files inside `/Applications/FontForge.app` will be overwritten, so save a duplicate copy of your `default` file somewhere else, too.
+#### Taille de l'interface utilisateur
 
-#### UI Size
-
-If the UI looks too big or too small, it can be scaled to better fit your computer.
-Open and edit the `resources` text file, located here:
+Si l'interface utilisateur semble trop grande ou trop petite, elle peut être mise à l'échelle pour s'adapter à votre ordinateur.
+Ouvrez et modifiez le fichier texte `resources`, situé ici:
 
 ```
 /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/resources
 ```
 
-Add the line `Gdraw.ScreenWidthCentimeters: 34` if your screen is 34cm wide.
-Try different values until you're happy.
+Ajoutez la ligne `Gdraw.ScreenWidthCentimeters: 34` si la largeur de votre écran est de 34 cm.
+Essayez différentes valeurs jusqu'à ce que vous soyez satisfait.
 
-#### Bookmarks
+#### Signets
 
-In the file dialog there is a button to `Bookmark Current Dir`, but `Remove Bookmark...` doesn't work [#2054](https://github.com/fontforge/fontforge/issues/2054).
-You can edit the list manually in the `FCBookmarks` section of the `prefs` file located at
+Dans la boîte de dialogue Fichier, il y a une option `Ajouter un signet à cet emplacement`, mais l'option `Supprimer le signet...` ne fonctionne pas [# 2054](https://github.com/fontforge/fontforge/issues/2054).
+Vous pouvez modifier la liste manuellement dans la section `FCBookmarks` du fichier` prefs` situé à
 
 ```
 ~/.config/fontforge/prefs
 ```
 
-Reset your bookmarks by opening Terminal and pasting the following text into Terminal:
+Réinitialisez vos signets en ouvrant le terminal et en collant le texte suivant:
 
 ```
 sed -i bak -e 's/^FCBookmarks.*/FCBookmarks:     ~\/Library\/Fonts\/;\/Library\/Fonts\/;\/System\/Library\/Fonts\//g' ~/.config/fontforge/prefs;
 ```
 
-Then press Enter to run this command.
-If you see no errors, it worked correctly.
+Appuyez ensuite sur Entrée pour exécuter cette commande.
+Si vous ne voyez pas d'erreurs, elle devrait avoir fonctionné correctement.
 
-#### 3 button mouse
+#### Souris à 3 boutons
 
-FontForge uses three mouse button clicks for some extra functions.
-If you don't have a three button mouse you can emulate that by enabling it in X11/Xquartz preferences, in the `Input` section's option `Emulate three button mouse`
+FontForge peut utiliser les clics d'une souris à trois boutons pour certaines fonctions supplémentaires.
+Si vous n'avez pas de souris à trois boutons, vous pouvez l'émuler en l'activant dans les préférences X11/Xquartz, dans l'option `Input` de la section `Emulate three button mouse`
 
-#### Change X11/XQuartz icon to FF icon
+#### Changez l'icône de X11/XQuartz pour l'icône de FF
 
-If you primarily use X11 for FontForge, you can change its icon. Copy and paste the following text into the terminal and follow the instructions
+Si vous utilisez principalement X11 pour FontForge, vous pouvez modifier son icône. Copiez et collez le texte suivant dans le terminal et suivez les instructions
 
 ```
 sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app 
 ```
 
 
-#### Window management
+#### Gestion de fenêtre
 
-FontForge isn't a native Mac app, so window handling can be slighty "off," especially on dual monitor systems.
-To regain control of window positions, use the free, libre, open source [ShiftIt](https://github.com/fikovnik/ShiftIt) utility to assign keyboard shortcuts to set window positions.
+FontForge n'est pas une application Mac native, donc le traitement des fenêtres peut être légèrement décalé, en particulier sur les systèmes à double moniteur.
+Pour reprendre le contrôle du positionnement des fenêtres, utilisez l'utilitaire libre [ShiftIt](https://github.com/fikovnik/ShiftIt) pour attribuer des raccourcis clavier définissant les positions de fenêtres.
+

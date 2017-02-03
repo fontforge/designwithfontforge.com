@@ -1,51 +1,50 @@
 ---
 published: true
-layout: bookpage
-weight: 16
+layout: bookpage_fr-FR
+weight: 17
 category: Getting To Know FontForge
-title: General UI Introduction
+title: Aperçu de l'interface utilisateur
 ---
 
-FontForge has the same interface on Windows, Mac OS and GNU/Linux operating systems. 
+FontForge a la même interface sur les systèmes d'exploitation Windows, Mac OS et GNU/Linux.
 
-Here is a short introduction to the essential features by Dave Crossland at a Crafting Type workshop, a non-profit type design workshop that supports the FontForge project:
+Voici une brève introduction aux caractéristiques essentielles donné par Dave Crossland à l'atelier Crafting Type, un atelier de conception de police sans but lucratif qui soutient le projet FontForge:
 
 <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/_EhwHL1aloI?rel=0&amp;showinfo=0&t=1m55s" frameborder="0" allowfullscreen></iframe>
 
-There are 4 main windows: 
+Il y a 4 fenêtres principales:
 
-#### 1. The Font View Window
+#### 1. La fenêtre de fonte
 
-This window appears when you first run FontForge. 
-It shows a table of the glyphs in the font. 
+Cette fenêtre apparaît lorsque vous exécutez FontForge.
+Elle montre un tableau des glyphes dans la police.
 
-#### 2. The Character View Window
+#### 2. La fenêtre de glyphe
 
-Double click a glyph in the Font View to open it in the Character View. 
-This is where you can draw and edit glyphs, either one at a time with a tab interface, or side by side with a prepared text file of words to step through.
+Double-cliquez sur un glyphe dans la fenêtre de fonte pour l'ouvrir dans la fenêtre de glyphe.
+C'est là que vous pouvez dessiner et modifier des glyphes, soit un à la fois avec une interface graphique, soit côte à côte avec un fichier texte de mots à parcourir préparé.
 
-#### 3. The Metrics View Window
+#### 3. La fenêtre de métriques
 
-Go to Window, Metrics, or Metrics, Window. 
-Or select some glyphs in the Font View and hit `Ctrl-K`. 
-You can also drag and drop glyphs from the Font View to the Metrics View.
+Allez à Métriques ou Fenêtres et sélectionnez Ouvrir fenêtre de métriques.
+Ou sélectionnez certains glyphes dans la fenêtre de glyphe et appuyez sur «Ctrl-K».
+Vous pouvez également glisser et déposer des glyphes depuis la fenêtre de glyphe vers la fenêtre de métriques.
 
-This is where you can adjust the spacing and kerning of your font.
-You can also step through a prepared word list text file here.
+C'est là que vous pouvez ajuster l'espacement et le crénage de votre police.
+Vous pouvez également parcourir un fichier texte de liste de mots préparé ici.
 
-#### 4. The Font Info Window
+#### 4. La fenêtre des infos sur la fonte
 
-Go to Elements, Font Info. 
-Here you'll find all the _metadata_ about the font. 
+Allez à Éléments, Infos fonte... 
+Ici vous trouverez toutes les _métadonnées_ au sujet de la police.
 
-#### 5. The Typesetting Environment, for Testing
+#### 5. L'environnement de composition, pour les tests
 
-Outside any font editor, you'll need a typesetting system to test your fonts in use. 
-This is one of the **big secrets** of professional type designers: 
-A lot of the most important work in a typeface design project is done outside the font editor, in testing documents created in a typesetting system. 
-The main systems are:
+En plus de tout éditeur de polices, vous aurez besoin d'un système de composition pour tester vos polices en cours d'utilisation. C'est l'un des **grands secrets** des designers de polices professionnels:
+Une grande partie du travail le plus important d'un projet de conception de police est faite en dehors de l'éditeur de polices, dans des documents de test créés avec un système de composition.
+Les principaux systèmes sont:
 
 * Web (Firefox, Chromium, etc)
-* DTP tools (Scribus, Inkscape, etc)
-* Word Processors (Libre Office, AbiWord, Calligra Words, etc)
-* Programming Page Layout Processors (LaTeX, ConTeXt, SILE, ShoeBot, Even, etc)
+* Outils PAO (Scribus, Inkscape, etc.)
+* Traitements de texte (Libre Office, AbiWord, Calligra Words, etc)
+* Systèmes de composition de documents (LaTeX, ConTeXt, SILE, ShoeBot, Even, etc)

@@ -8,10 +8,11 @@
 | 12     | Le cadratin (EM)                           |
 | 15     | Installation de Fontforge                  |
 | 16     | Configuration de Fontforge                 |
+| 17     | Aperçu de l'interface utilisateur          |
 | 18     | Utilisation des outils de Fontforge        |
 | 21     | Dessiner avec Spiro                        |
 | 24     | Création de “o” et “n”                     |
-| 27     | Info fonte et métadonnées                  |
+| 27     | Infos fonte et métadonnées                 |
 | 30     | Word Space                                 |
 | 33     | Création de l'ADN de votre police          |
 | 36     | Capital Letters                            |

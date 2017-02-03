@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 18
 category: Getting To Know FontForge
-title: Using the FontForge Drawing Tools
+title: Utilisation des outils de FontForge
 ---
 
 Designing a font in FontForge will involve using a number of tools and utilities, starting with a

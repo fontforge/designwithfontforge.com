@@ -19,12 +19,7 @@ d'un projet de conception de police et offre également des conseils sur la faç
 flux de travail plus efficace.
 
 Si vous souhaitez nous aider, vous pouvez contribuer à l'amélioration de FontForge en donnant des
-<<<<<<< HEAD
-commentaires ou même en contribuant au contenu et à des corrections [sur GitHub]
-=======
-commentaires ou même en contribuant au contenu et aux corrections [sur GitHub].
->>>>>>> 7c6a907d056c053b534e2fcf78089ce4ba24367d
-
+commentaires ou même en contribuant au contenu et à des corrections [sur GitHub].
 Si vous faites face à un bogue dans FontForge, recherchez dans le [suivi de problème] sur GitHub pour
 voir si vous avez rencontré un bogue connu et quel est l'état de sa résolution. Sinon, consultez [ici]
 [bogue] pour les directives de création de rapport de bogues.
