@@ -1,76 +1,76 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 33
 category: workflow
-title: Creating Your Type’s DNA
+title: Création de l'ADN de votre police
 ---
 
-After you have completed good solid design and spacing of the ‘o’ and ‘n’, the next thing to do is
-to begin populating the font with letters whose structural characteristics provide a useful basis
-for making many of the other letters in the font.
+Après avoir terminé un solide design ainsi que l'espacement entre le 'o' et le 'n', la prochaine
+chose à faire est de commencer à remplir la police avec des lettres dont les caractéristiques
+structurales fournissent une base utile pour faire beaucoup d'autres lettres dans la police.
 
-It may be tempting to rush and populate your font as rapidly as possible with all the letters
-&mdash; resist this urge!  
-While ‘o’ and ‘n’ provide an excellent starting-point to the foundation of the design, we need to
-establish the rest of it. Rapid expansion before this is done will mean that the whole project will
-become harder to manage &mdash; and takes longer than it needs to.
+Il peut être tentant de se précipiter et de peupler votre police aussi rapidement que possible avec
+toutes les lettres &mdash; résister à cette envie!
+Alors que le 'o' et le 'n' fournissent un excellent point de départ à la fondation du design, nous
+devons établir le reste. Une expansion rapide avant que cela ne soit fait signifie que le projet
+complet deviendra plus difficile à gérer &mdash; et prendra plus de temps qu'il n'en faudrait.
 
-What else do we need for the foundation of our design? &mdash; First, let’s look at what we’ve got
-with our ‘n’ and ‘o.’
+De quoi avons-nous besoin pour la fondation de notre design? &mdash; Tout d'abord, regardons ce que
+nous avons avec nos 'n' et nos 'o'.
 
-Although the ‘o’ is especially useful for working out the basic spacing, it’s not going to help us
-design other characters &mdash; not necessarily even the ‘b’ or ‘d’.  
-The letter ‘n’, on the other hand, is very useful because it helps making the ‘m’, ‘h’, and ‘u’. The
-other factor that we need to weigh when choosing letters for our foundation is how frequently the
-letter is used. A letter that’s used a lot will help us make test words. Some of the letters may be
-chosen almost exclusively for this particular reason.
+Bien que le ‘o’ soit particulièrement utile pour calculer l'espacement de base, cela ne nous aidera
+pas à concevoir d'autres caractères &mdash; pas même nécessairement le b’ ou le ‘d’. La lettre ‘n’,
+d'autre part, est très utile car elle aide à faire le ‘m’, ‘h’, et ‘u’. L'autre facteur que nous
+devons peser lors du choix des lettres pour notre fondation est la fréquence à laquelle la lettre est
+utilisée. Une lettre qui est utilisée beaucoup nous aidera à faire des mots de test. Certaines lettres
+peuvent être choisies presque exclusivement pour cette raison particulière.
 
-The letters you choose don’t have to be those suggested here. They should simply have the
-characteristics being discussed. So, for instance, you may want to use “a d h e s i o n” to start
-with. This set of letters is what’s used in the type design MA course at the University of Reading,
-UK.  
-An alternative is “v i d e o s p a n” which is used by the foundry *Type Together* to start their
-projects, and in their own type design workshops. Either set has enough DNA to be meaningful, and
-both are small, so they are easy to make ‘global’ changes to.
+Les lettres que vous choisissez ne doivent pas nécessairement être celles suggérées ici. Elles devraient
+simplement avoir les caractéristiques qui sont discutées. Ainsi, par exemple, vous pouvez utiliser
+“a d h e s i o n” pour commencer. Cet ensemble de lettres est ce qui est utilisé dans le cours de
+Maîtrise de l'Art sur la conception de polices à l'Université de Reading, au Royaume-Uni.
+Une alternative est “v i d e o s p a n” qui est utilisée par la fonderie *Type Together* pour démarrer
+leurs projets dans leurs ateliers de conception de police. L'un ou l'autre ensemble a assez
+d'ADN pour être significatif, et les deux sont petits, ainsi ils sont faciles à changer ‘globalement’.
 
-While it may be easiest to simply use one of the above sets of letters, you can also build your own.
-Ask yourself what set of letters you should pick to add to ‘n’ and ‘o’. Consider the following
-options:
+Bien qu'il peut être plus facile d'utiliser simplement l'un des ensembles ci-dessus de lettres, vous
+pouvez également construire le vôtre. Demandez-vous quel ensemble de lettres vous devriez choisir pour
+ajouter à 'n' et 'o'. Considérez les options suivantes:
 
-- ‘a’ &mdash; the letter ‘a’ is also a very common starting choice. The ‘a’ may also be useful in
-  ‘anticipating what the terminals of the ‘s’ will look like.
-- ‘d’ &mdash; the shape of ‘d’ can let you know quite a lot about the design of ‘b’, ‘p’ and ‘q’.
-- ‘e’ &mdash; in English and many other languages, the letter ‘e’ is especially common &mdash; which
-  ‘makes it especially valuable. The shape of ‘e’ can also be used to begin the design of ‘c’.
-- ‘h’ &mdash; while ‘h’ can be built fairly rapidly from the ‘n’, it also provides variety to the
-  texture you want to test by offering an ascender.
-- ‘i’ &mdash; like ‘e’, the letter ‘i’ is fairly common and has the benefit of letting you know a
-  little bit about the face of the ‘j’. The shape of ‘i’ is also partly inferable from the shape of
-  the ‘n’.
-- ‘s’ &mdash; the letter ‘s’ is a good one to draw early on because it adds visual variety to the
-  texture of the letters you will be testing. The letter ‘s’ is also unusually hard to get right,
-  so starting on it early makes it more likely that you will be able to spend enough time to get it
-  right by the end of the project.  
-  The terminals of the ‘s’ may sometimes be useful for anticipating what the terminals of ‘a’, ‘c’,
-  ‘f’, ‘j’ and ‘y’ could be like.
-- ‘v’ &mdash; the letter ‘v’ is useful for anticipating what the ‘y’ and ‘w’ may be like.
+- ‘a’ &mdash; la lettre ‘a’ est aussi un choix de départ très courant. Le ‘a’ peut également être utile
+   pour anticiper à quoi ressembleront les terminaisons du ‘s’.
+- ‘d’ &mdash; la forme du ‘d’ peut vous apprendre beaucoup de choses sur la conception de ‘b’, ‘p’ et ‘q’.
+- ‘e’ &mdash; en anglais et dans bien d'autres langues, la lettre ‘e’ est particulièrement courante &mdash;
+   ce qui la rend particulièrement précieuce. La forme du ‘e’ peut également être utilisée pour commencer
+   la conception du ‘c’.
+- ‘h’ &mdash; tandis que ‘h’ peut être construit assez rapidement à partir du ‘n’, il donne également de
+   la variété à la gamme que vous souhaitez tester en offrant une ascendante.
+- ‘i’ &mdash; comme le ‘e’, la lettre ‘i’ est assez courante et a l'avantage de vous proposer un peu la
+   forme du  ‘j’. La forme du ‘i’ est aussi partiellement dérivée de la forme du ‘n’.
+- ‘s’ &mdash; la lettre ‘s’ est un bonne pour commencer à dessiner car elle ajoute une variété visuelle à
+   la gamme des lettres que vous tester. La lettre ‘s’ est également exceptionnellement difficile à réussir.
+   Alors la commencer tôt, vous permettra de passer suffisamment de temps sur celle-ci pour qu'elle soit
+   parfaite à la fin du projet.
+   Les terminaisons du ‘s’ peuvent parfois être utiles pour anticiper ce que pourraient être les terminaisons
+   des ‘a’, ‘c’, ‘f’, ‘j’ et ‘y’.
+- ‘v’ &mdash; la lettre ‘v’ est utile pour anticiper ce que peuvent être les ‘y’ et ‘w’.
 
-Once you have these letters, it’s good to spend time refining them by testing words that are made
-from them. As before with the ‘n’ and ‘o’, a great deal of attention should be paid to the spacing
-of the letters and the relationships of the counters to these spaces.
+Une fois que vous avez ces lettres, il est bon de passer du temps à les affiner en testant des mots qui sont
+faits à partir d'elles. Comme précédemment avec le ‘n’ et ‘o’, il faut accorder une grande attention à
+l'espacement des lettres et aux relations des contrepoinçoins avec ces espaces.
 
-Here is a TypeDrawers thread on determining the ascender and descender heights: 
+Voici un fil de discussion de TypeDrawers pour déterminer les hauteurs d'ascendantes et de descendantes:
 <http://typedrawers.com/discussion/1620/ascender-descenders-in-latin-type-design>
 
-## Building a test text
+## Création d'un texte d'essai
 
-There are many resources available online for rapidly building your dummy test text:
+Il existe de nombreuses ressources disponibles en ligne pour construire rapidement votre texte de test fictif:
 
-- [LibreText] is a libre software solution.
-- [Adhesion Text], made by Miguel Sousa was the first resource of this kind.
-- [JAF Generator], by Just Another Type Foundry.
-- [Typable], by Ondrej Job
+- [LibreText] est une solution de logiciel libre.
+- [Adhesion Text], réalisé par Miguel Sousa était la première ressource de ce genre.
+- [JAF Generator], par Just Another Type Foundry.
+- [Typable], par Ondrej Job
 
 [LibreText]: http://libretext.org
 [Adhesion Text]: http://www.adhesiontext.com/
@@ -78,16 +78,19 @@ There are many resources available online for rapidly building your dummy test t
 [Typable]: http://www.urtd.net/data/typable/
 
 
-## Use real text
+## Utiliser du texte réel
 
-Those _dummy texts_ are in a way "blind" texts; you can not actually, really, read them.
+Ces _textes fictifs_ sont en quelque sorte des textes "à l'aveugle"; vous ne pouvez pas vraiment les lire.
 
-But once you have a dozen or so letters, you can construct **real** text to experience *immersive reading*.
-This is essential for deeply understanding how the design performs, so its good to get to this stage quickly.
+Mais une fois que vous avez une douzaine de lettres, vous pouvez construire du texte **réel** pour expérimenter
+une *lecture immersive*. Ceci est essentiel pour une compréhension approfondie de la façon dont le design se déroule.
+Il est donc bon d'arriver à cette étape rapidement.
 
-But watch out for the **stale text** effect.
-If you re-use the same real text for testing your typeface, it can become so familiar that you lose some perception abilities for how the typeface is performing.
+Mais attention à l'effet de **texte surutilisé**.
+Si vous réutilisez le même texte réel pour tester votre police de caractères, il peut devenir si familier que vous
+perdez certaines capacités de perception afin de voir comment la police de caractères exerce ses fonctions.
 
-Once you have a full alphabet, to ensure fresh text, you can set your operating system font, email application, or web browser's default font to be your font. 
+Une fois que vous avez un alphabet complet, afin de s'assurer de texte frais, vous pouvez définir votre police de système
+d'exploitation, d'application de courrier électronique ou la police par défaut du navigateur Web comme étant votre police.
 
-This was discussed on the Type Drawers forum [On The Use of Blind Texts](http://typedrawers.com/discussion/918/on-the-use-of-blind-texts) thread.
+Ceci a été discuté sur le forum Type Drawers dans le fil [sur l'utilisation des textes à l'aveugle](http://typedrawers.com/discussion/918/on-the-use-of-blind-texts).

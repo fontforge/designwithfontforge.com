@@ -1,40 +1,49 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 36
 category: workflow
-title: Capital letters
+title: Lettres capitales
 ---
 
-Making the capital letters should follow a pattern very similar to the making of the lower case letters. You begin by designing key letters whose shapes and characteristics lend themselves to the design of chararacters which share a common shape. Just like with lower case letters the frequency with which letters are used also remain an important factor in the choice of the letters.
+Faire les lettres capitales devrait suivre un modèle très semblable à la conception des lettres minuscules.
+Vous commencez par concevoir des lettres-clés dont les formes et les caractéristiques se prêtent à la conception
+de chararactères qui partagent une forme commune. Tout comme pour les lettres minuscules, la fréquence
+d'utilisation des lettres reste également un facteur important dans le choix des lettres.
 
-The first two letters to design are "H" and "O". The design these letters should not just be in relation to each other but should also relate to the existing lower case letters.
+Les deux premières lettres à dessiner sont "H" et "O". La conception de ces lettres ne doit pas être seulement
+en relation avec les unes avec les autres, mais devrait également se rapporter aux lettres minuscules existantes.
 
-It is at this stage that you determining the proportion of the lower case to the upper case. You may want to adjust the ascenders and descenders of your lower case or adjust your capitals to the lower case to create the proportion that suit the purpose of your design.
+C'est à ce stade que vous déterminez la proportion de la minuscule à la capitale. Vous voudrez peut-être ajuster
+les ascendantes et descendantes de votre minuscule ou ajuster vos capitales à la minuscule pour créer la proportion
+qui correspondent au but de votre conception.
 
-The weight of strokes in the upper case often needs to be somewhat heavier than the strokes of the lower case. You may want to create an interpolation experiment to rapidly find how much heavier they should be.
+La graisse des traits dans le cas des majuscules doit souvent être un peu plus lourde que les traits de minuscules.
+Vous devrez peut-être expérimenter par interpolation pour trouver rapidement combien plus lourde elles devraient être.
 
-The next set of letters to consider adding are A E S I N and either P or D and maybe V.
+Le prochain jeu de lettres à envisager d'ajouter est A, E, S, I, N et soit P ou D et peut-être V.
 
-Depending on the style of the font you are making you may find that the capital letters require more variation in width than you have in the lower case letters. The width of the E S and P may be substantially narrower than the H or may be similar. 
+Selon le style de la police que vous faites, vous pouvez constater que les lettres capitales exigent plus de variation
+de largeur qu'il y a dans les lettres minuscules. La largeur des E S et P peut être sensiblement plus étroite que celle
+du H ou peut être similaire.
 
-Generally the N and V are usually similar to H but a slightly wider.
+Généralement, les N et les V sont généralement semblables à H, mais légèrement plus larges.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-1.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-2.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-3.png" alt=""> </td>
 </tr></tbody></table>
 
-The D may be similar to H or quite a bit wider.
+Le D peut être semblable à H ou un peu plus large.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-1.png" alt=""></td>
 <td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-2.png" alt=""></td>
 <td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-3.png" alt=""></td>
 </tr></tbody></table>
 
-The shape of O can tell you quite a lot about the C, G and Q. The shape of H tells you a bit about about I and J and the left side of B D E F K L P R.
-
-It also tells you a little about T and U. The shape of A can tell you quite a lot about the shape of V.
+La forme du O peut vous en dire beaucoup sur les C, G et Q. La forme du H vous en dit un peu plus sur le I et le J et sur
+le côté gauche des B D E F K L P R. Il vous en apprend aussi un peu sur le T et le U. La forme du A peut vous en dire
+beaucoup sur la forme du V.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/OCGQ-2.png" alt=""></td>
 <td style="text-align: center;"> <img src="images/OCGQ-1.png" alt=""></td>
@@ -44,7 +53,7 @@ It also tells you a little about T and U. The shape of A can tell you quite a lo
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-1.png" alt=""></td>
 </tr></tbody></table>
 
-The shape and proportions of V tells you a little about how to design Y W X. The shape of the Z is distinctive.
+La forme et les proportions du V vous indiquent un peu comment concevoir les Y W X. La forme du Z est distinctive.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img src="images/VWYX-2.png" alt=""></td>
 </tr><tr><td> <img src="images/VWYX-3.png" alt=""></td>

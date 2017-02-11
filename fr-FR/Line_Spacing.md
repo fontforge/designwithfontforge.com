@@ -1,41 +1,41 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 39
 category: workflow
-title: Line Spacing
+title: Interligne
 ---
 
-When you have the word space and the n and o set you can begin to look at the line spacing. However, a full and final decision about line spacing isn't possible until you have Capital letters and some punctuation.
+Lorsque vous avez l'inter-mots et un jeu de n et o, vous pouvez commencer à regarder l'interligne. Toutefois, une décision complète et définitive sur l'espacement des lignes n'est pas possible jusqu'à ce que vous ayez des lettres capitales et une ponctuation.
 
-## Think about line space intentionally
+## Pensez à l'interligne intentionnellement
 
-As is the case with letter and word spacing, having too much or too little line spacing can make your font look awkward in real-world usage. Above all else, finding the right line spacing balance is a matter of thinking about the question intentionally and of testing a range of options on the way to making a final decision.
+Comme c'est le cas avec l'espacement des lettres et des mots, avoir trop ou trop peu d'espacement entre les lignes peut rendre votre police difficile à utiliser dans le monde réel. Par-dessus tout, trouver le juste équilibre entre les lignes est une question d'y réfléchier et de tester une gamme d'options avant de prendre une décision finale.
 
-As a general rule, most new font designers tend to err on the side of having too little line spacing in their font, so if you are unsure, adding additional space is usually a good idea.
+Règle générale, la plupart des nouveaux concepteurs de police ont tendance à pencher du côté d'avoir trop peu d'interligne dans leur police. Donc si vous n'êtes pas sûr, ajouter de l'espace supplémentaire est généralement une bonne idée.
 
-You should also consider the scope of your project's language coverage when considering line spacing. If you test your font's line spacing only with unaccented characters, you are likely to settle on a line spacing value that leaves no room for accents.  If you are certain your font will never be used with accented characters, this might be acceptable — but the odds are that your font <em>will</em> be used to set accented text.  In that case, too little line spacing will cause the accents on one line to run into the bottoms of the glyphs above, and leave the reader with difficult (if not impossible) to read text.
+Vous devriez également considérer la portée linguistique de votre projet lorsque vous considérez l'interligne. Si vous tester l'interligne de votre police uniquement avec des caractères non accentués, vous êtes susceptible de choisir une valeur d'interligne qui ne laisse aucune place pour les accents. Si vous êtes certain que votre police ne sera jamais utilisée avec des caractères accentués, cela pourrait être acceptable — mais les chances sont que votre police <em>sera</em> utilisée pour définir un texte accentué. Dans ce cas, un interligne trop petite entraînera l'empiètement des accents sur le bas des glyphes de la ligne supérieure, et laissera au lecteur la tâche difficile (voire impossible) de lire le texte.
 
-One strategy to test whether your font's line spacing is proper for accented characters is to employ sample text from several languages.
+Une stratégie pour tester si l'interligne de votre police est appropriée pour les caractères accentués consiste à utiliser des exemples de texte à partir de plusieurs langues.
 
 <img src="images/Selection_043.png" alt="" height="100" width="472">
 
 <img src="images/Selection_044_1.png" alt="" height="96" width="481">
 
-For languages heavy in diacritical marks (such as Czech), line spacing should be taller than for languages that use no diacriticals. The examples above show Czech (above) and English with the same fairly wide line spacing.
+Pour les langues chargées de signes diacritiques (comme le tchèque), l'interligne doit être plus élevée que pour les langues qui n'utilisent pas de signes diacritiques. Les exemples ci-dessus montrent le tchèque (ci-dessus) et l'anglais avec le même interligne assez large.
 
-## Experiment with your font's line spacing in FontForge
+## Expérimentez avec l'interligne de votre police dans FontForge
 
-In FontForge, you can set and adjust your font project's line spacing from within the Font Info window. Open this window by choosing <em>Font Info</em> from the "Element" menu, then click on the General tab. Note the values that FontForge has listed for Ascent and Descent. Unless you have made manual changes already, these two numbers when added together should equal the value of Em Size listed on the line below.
+Dans FontForge, vous pouvez définir et ajuster l'interligne de votre projet de polices à partir de la fenêtre Infos fonte. Ouvrez cette fenêtre en choisissant <em>Infos fonte</em> dans le menu "Elément", puis cliquez sur l'onglet Général. Notez les valeurs que FontForge a répertoriées pour Ascent et Descent. À moins que vous ayez déjà apporté des modifications manuelles, ces deux nombres, lorsqu'ils sont additionnés, devraient être égaux à la valeur de la taille en cadratin (Em) indiquée sur la ligne en dessous.
 
-<img src="images/fontinfo-generl.png" alt="">
+<img src="images/fontinfo-generl-fr-FR.png" alt="">
 
-Now switch to the "OS/2" tab. On almost all computers, your font's line spacing will be determined by the Ascent and Descent values that you enter in this tab, under the Metrics heading.
+Passez maintenant à l'onglet "OS/2". Sur presque tous les ordinateurs, l'interligne de votre police sera déterminée par les valeurs d'ascent et de descent que vous entrez dans cet onglet, sous l'en-tête Métriques.
 
-<img src="images/ascents-descents.png" alt="">
+<img src="images/ascents-descents-fr-FR.png" alt="">
 
-There are three sets of values: Win Ascent and Descent, Typo Ascent and Descent, and HHead Ascent and Descent.  You should set all the Ascents to be the same as the Ascent value you noted in the General tab.  Next, you should set all of the Descents to be the same as the Descent value you noted in the General tab, with one important exception: you must make the Typo Descent number <em>negative</em>. Leave the value the same, but put a minus sign in front of it.  Finally, uncheck all of the "is offset" options.
+Il existe trois jeux de valeurs: Win Ascent et Descent, ascent et descent typographique, et ascent et descent HHead. Vous devez définir tous les ascents comme étant identiques à la valeur de l'ascent que vous avez notée dans l'onglet Général. Ensuite, vous devez définir tous les descents comme étant identiques à la valeur de descent que vous avez notée dans l'onglet Général, à une exception près: vous devez rendre le descent typographique <em>négatif</em>. Laissez la valeur identique, mais mettez un signe moins devant. Enfin, décochez toutes les options "Utiliser comme offset".
 
-These settings will give you a sensible starting point.  You can now proceed to test your font with this line spacing and make incremental adjustments until you arrive at eye-pleasing result.
+Ces paramètres vous donneront un bon point de départ. Vous pouvez maintenant tester votre police avec cette interligne et effectuer des ajustements incrémentaux jusqu'à ce que vous obteniez un résultat agréable à l'œil.
 
-If you find your linespacing is too tight and you don't want to or can't make the verical metrics larger you can scale the glyphs down to gain more space for linespacing.
+Si vous trouvez que votre interligne est trop serrée et que vous ne voulez pas ou ne pouvez pas rendre les métriques verticales plus importantes, vous pouvez diminuer la taille des glyphes pour gagner plus d'espace pour l'interligne.

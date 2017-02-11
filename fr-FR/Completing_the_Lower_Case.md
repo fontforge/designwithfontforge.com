@@ -1,77 +1,76 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 45
 category: workflow
-title: Completing the Lower Case
+title: Finalisation des minuscules
 ---
+Vous avez peut-être remarqué dans les polices que vous avez vu avant, tandis que chaque lettre a sa propre forme, elles se rapportent tous les uns aux autres. En déconstruisant soigneusement quelques glyphes, vous obtenez les blocs de construction de presque toutes les autres.
 
-You may have noticed in fonts you've seen before that, while each letter has its own shape, they all relate to each other. By carefully de-constructing a few glyphs, you gain the building blocks of nearly all the others.
-
-Note the similarity between the upper terminals on this c and f:
+Noter la similitude entre les terminaisons supérieures sur ce c et ce f:
 
 <img src="images/slide6.png" alt="" height="592" width="789">
 
-Their shapes indicate that they belong in the same group, even though they are subtly different. The terminals are one of the identifying traits of a font, and generally are repeated on many of the letter forms.
+Leurs formes indiquent qu'elles appartiennent au même groupe, même si elles sont subtilement différentes. Les terminaisons sont l'un des traits d'identification d'une police, et sont généralement répétées sur de nombreuses formes de lettres.
 
-However, excessive dependence on modularity shows its own marks in a design, and therefore should be avoided — unless that is a look you want.
+Cependant, une dépendance excessive à la modularité laisse des marques dans un design, et donc devrait être évitée - sauf si c'est le look que vous cherchez.
 
-## Proceeding with the other lower case letters
+## Travailler avec les autres lettres minuscules
 
-You already made your letter 'n.' From this, you can easily derive the m, h, and u by cloning, stretching, and rotating, respectively. There are subtle changes in the spacing of the stems in the m and the u. The 'u' has changed not only its spacing but its serifs. This doesn't happen automatically; it's up to you to get in there and push the points around.
+Vous avez déjà fait votre lettre 'n.' De ce fait, vous pouvez facilement dériver les m, h et u par clonage, étirement et rotation. Il ya des changements subtils dans l'espacement des fûts dans le m et le u. Le 'u' a changé non seulement son espacement mais ses empattements. Cela ne se produit pas automatiquement; c'est à vous d'y aller et de déplacer les points.
 
 <img src="images/slide13.png" alt="" height="592" width="790">
 
-The 'i' can be derived from the stem of the 'n.' The l'' can be made from the stem of the 'n' with some adjustments.
+Le 'i' peut être dérivé du fût du 'n.' Le 'l' peut être fait à partir du fût du 'n' avec quelques ajustements.
 
-### Making the d From the Stem of h and o
+### Faire le d à partir du fût du h et du o
 
-Open the letter 'd''s glyph window by double-clicking below the 'd' in the font view. From the font view, copy the 'o' and paste it into the letter 'd''s glyph window. Then do the same for the 'h'. At this point you can delete the part of the h that you're not going to use. Position the remaining pieces together so they resemble a 'd.'
+Ouvrez la fenêtre de glyphe de la lettre 'd' en double-cliquant en dessous de 'd' dans la fenêtre de fonte. À partir de la fenêtre de fonte, copiez le 'o' et le coller dans la fenêtre de glyphe de la lettre 'd'. Ensuite, faites la même chose pour le 'h'. À ce stade, vous pouvez supprimer la partie du h que vous n'allez pas utiliser. Positionner les pièces restantes ensemble afin que cela ressemble à un 'd'.
 
-<img src="images/d%20at%20111%20from%20Untitled1%20-_040.png" alt="" height="744" width="916">
+<img src="images/d%20at%20111%20from%20Untitled1%20-_040-fr-FR.png" alt="" height="744" width="916">
 
-Clearly, there's more work to be done here. We'll make some adjustments. Narrow the right side of the o where it meets the stem.
+De toute évidence, il y a encore du travail à faire ici. Nous allons faire quelques ajustements. Affinez le côté droit du o où il rencontre le fût.
 
-<img src="images/d%20at%20101%20from%20Untitled1%20-_041.png" alt="" height="744" width="916">
+<img src="images/d%20at%20101%20from%20Untitled1%20-_041-fr-FR.png" alt="" height="744" width="916">
 
-To improve the optical spacing and allow the shape to look more balanced, make a little room at the serif by adding a point to the stem and pushing the bottom points to the right.
+Pour améliorer l'espacement optique et permettre à la forme de paraître plus équilibré, faites un peu de place à l'empattement en ajoutant un point au fût et en déplaçant les points du bas vers la droite.
 
-Below is an overlay of the starting shape and the new shape.
+Ci-dessous, vous voyez une superposition de la forme de départ et de la nouvelle forme.
 
-<img src="images/d%20at%20101%20from%20Untitled1%20-_042.png" alt="" height="744" width="916">
+<img src="images/d%20at%20101%20from%20Untitled1%20-_042-fr-FR.png" alt="" height="744" width="916">
 
-Now that you know how to assemble from existing parts, you can make other similar letters. Keep in mind the subtleties that make each letter individual, yet still part of a family.
+Maintenant que vous savez comment assembler à partir de pièces existantes, vous pouvez faire d'autres lettres semblables. Gardez à l'esprit les subtilités qui font chaque lettre individuelle, mais qui sont partie d'une famille.
 
-### Deriving the b, p, and q
+### Dériver le b, le p et le q
 
-Now that you have the d, by flipping and rotating you can make a reasonable b, p, and q. Again, be aware of how the serifs and the contrast differ in each letter. Your font doesn't have to do this exactly the same way, but it's one of the things you should think about.
+Maintenant que vous avez le d, en l'inversant et en le tournant vous pouvez faire de raisonnables b, p et q. Encore une fois, être conscient de la façon dont les empattements et le contraste diffèrent dans chaque lettre. Votre police ne doit pas être faite exactement de la même manière, mais c'est une des choses que vous devriez penser.
 
 <img src="images/slide9.png" alt="" height="592" width="790">
 
-### Make the g
+### Faire le g
 
-You can start with the q, stretching and altering the tail, to make the single bowl g. No shapes closely resemble the binocular g. The binocular g usually needs to be noticeably lighter in order to look right when set with other letters.
+Vous pouvez commencer par le q, l'étirement et la modification de la queue, pour faire un g à panse unique. Aucune forme ne ressemble au g binoculaire. Le g binoculaire doit habituellement être nettement plus léger afin de paraître correct quand il est utilisé avec d'autres lettres.
 
 <img src="images/2g.png" alt="">
 
+### 
 
+Passer au f et au t
 
-### On to f and t
-
-The t has an ascender, but it's generally shorter than the ascenders of the other lower case letters. By comparison, the f is much taller and usually encroaches on the space of the letter next to it. They both have crossbars which are generally at the same height, width, and thickness. Often you can copy from one to the other.
+Le t a une ascendante, mais elle est généralement plus court que les ascendantes des autres lettres minuscules. Par comparaison, le f est beaucoup plus grand et empiète habituellement sur l'espace de la lettre à côté d'elle. Ils ont tous deux des traverses qui sont généralement à la même hauteur, largeur et épaisseur. Souvent, vous pouvez les copier de l'un à l'autre.
 
 <img src="images/slide11.png" alt="" height="592" width="790">
 
-### Now make the e
+### Maitenant faire le e
 
-The e will be loosely based on the o. The crossbar of the e is lower than that of the t, but has the same thickness. The hook at the bottom of the e will be informed by the bottom of the t.
+Le e sera librement basé sur le o. La traverse du e est inférieure à celle du t, mais a la même épaisseur. Le crochet au bas du e sera inspiré par le bas du t.
 
-### From the e comes c
+### Du e vient le c
 
-Creating the c from the e involves deleting the crossbar and adding the terminal at the top. The upper terminal of the c can be similar to the upper terminals of other letters such as the a, and f, and r. The terminals of the c can also form the basis for the s. The e can also influence the proportions of your a.
+La création de c à partir de e implique la suppression de la traverse et l'ajout d'une terminaison en haut. La terminaison supérieure du c peut être semblable aux terminaisons supérieures d'autres lettres telles que le a, le f et le r. Les terminaisons du c peuvent également constituer la base du s. Le e peut également influer sur les proportions de votre a.
 
 <img src="images/slide7.png" alt="" height="592" width="790">
 
-### v, w, x, y, and z
+### v, w, x, y, et z
 
-These letters are somewhat difficult because they don't have forms that are related to the other letters. This means you have to just jump in and draw the v. Make the down-stroke as thick as your thick stems, and make the upstroke as thin as the thinner strokes in your other letters. Once you have the v, you have a basic plan for the w and y. For x and y, focus on matching the contrast of the rest of the design while compensating for the illusions that occur in diagonal and crossing diagonal forms.
+Ces lettres sont un peu difficiles parce qu'elles n'ont pas de formes qui sont liées aux autres lettres. Cela signifie que vous devez juste vous y atteler et dessiner le v. Faite le trait descendant aussi épais que vos fûts épais, et faite le trait ascendant aussi mince que les traits les plus minces dans vos autres lettres. Une fois que vous avez le v, vous avez un plan de base pour le w et le y. Pour le x et le y, concentrez-vous sur faire correspondre le contraste au reste du design tout en compensant les illusions qui se produisent dans les formes diagonales et en croisant les diagonales.

@@ -1,92 +1,89 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 21
 category: Getting To Know FontForge
-title: Drawing with Spiro
+title: Dessin avec Spiro
 ---
 
-Spiro is a toolkit for designing curves in an alternate method to the more traditional B&eacute;zier
-curves. Although it is optional, FontForge can be installed to include a Spiro mode that offers you
-tools to create this specific kind of curves.  
-See [“Installing FontForge”] for more details on how to include the Spiro library in your program.
+Spiro est une boîte à outils pour concevoir des courbes avec une méthode alternative aux courbes de
+B&eacute;zier plus traditionnelles. Bien que cela soit facultatif, FontForge peut être installé pour
+inclure un mode Spiro qui vous offre des outils pour créer ce type spécifique de courbes. Voir
+[“Installation de FontForge"] pour plus de détails sur la façon d'inclure la bibliothèque Spiro dans
+votre programme.
 
-Spiro drawing has a different approach, that can help you getting your curves done in a different
-way and solving your conception problems. Please experiment!
+Le dessin avec Spiro a une approche différente, qui peut vous aider à obtenir des courbes faites d'une
+autre manière et à résoudre vos problèmes de conception. Veuillez expérimentez!
 
-## The Spiro toolset
+## Le jeu d'outils Spiro
 
-Many of the same drawing tools are available in Spiro mode as those described in the [“Using the
-FontForge drawing tools”] chapter, but some of them work very differently when you are in Spiro mode.
+Plusieurs des outils décrits dans le chapitre ["Utilisation des outils de FontForge"]sont aussi
+disponibles en mode Spiro, mais certains d'entre eux fonctionnent très différemment.
 
-<img src="images/spiro_tools_labels.png" alt width="400">
+<img src="images/spiro_tools_labels-fr-FR.png" alt width="600">
 
-There are five different types of Spiro points:
+Il y a cinq types différents de points Spiro:
 
-1. G4 points, used for a more gentle curve
-2. G2 points, used for a sharper curve
-3. Corner points, for abrupt corner joints
-4. Previous constraint points, used when the contour of the path changes from a curve to a straight
-   line
-5. Next constraint points, used when the path changes from a straight line to a curve
+1. Points G4, utilisés pour une courbe plus douce
+2. Points G2, utilisés pour une courbe plus prononcée
+3. Points de coin pour angles abrupts
+4. Points de contrainte précédents, utilisés lorsque le contour du chemin passe d'une courbe à une droite
+5. Points de contrainte suivants, utilisés lorsque le chemin passe d'une ligne droite à une courbe
 
-## Drawing an ‘S’ with Spiro
+## Dessin d'un ‘S’ avec Spiro
 
-Going through the exercise of drawing an ‘S’ with Spiro will make you comfortable with Spiro.
+Cet exercice de dessin d'un ‘S’ avec Spiro vous rendra à l'aise avec ce mode.
 
-<p class="note"><b>Tip:</b> When drawing in Spiro mode, always start with a G4 or G2 point.
-Beginning with the other types of points doesn’t really work in FontForge.</p>
+<p class="note"><b>Conseil:</b> Lors du dessin en mode Spiro, commencez toujours par un point G4 ou G2.
+Commencer par les autres types de points ne fonctionne pas vraiment dans FontForge.</p>
 
-Start off with a G4 point at the topmost point of your ‘S,’ followed by a corner point, then another
-corner point. Work clockwise around the shape of the letter.
+Commencez par un point G4 au point le plus élevé de votre ‘S,’ suivi d'un coin, puis d'un autre coin.
+Travaillez dans le sens horaire autour de la forme de la lettre.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_023.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_023-fr-FR.png" alt>
 
-Follow this with a G4, a previous constraint point, and a next constraint point.
+Continuez ceci avec un G4, un point de contrainte précédent et un point de contrainte suivant.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_022.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_022-fr-FR.png" alt>
 
-Next, add another G4 point, followed by two more corner points.
+Ensuite, ajoutez un autre point G4, suivi de deux autres points de coin.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_024.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_024-fr-FR.png" alt>
 
-Then a G4, followed by a previous constraint, followed by a next constraint.
+Ensuite, un G4, suivi d'une contrainte précédente, suivi d'une contrainte suivante.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_025.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_025-fr-FR.png" alt>
 
-Then, add one more G4 point, and finally, close the shape at the starting point by clicking on it
-using the G4 point tool.
+Ensuite, ajoutez un point G4 de plus, et enfin, fermez la forme au point de départ en cliquant
+dessus avec l'outil de point G4.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_026-fr-FR.png" alt>
 
-Now you almost have an ‘S’! Begin nudging the points around to get your S to look the way you want.
+Maintenant vous avez presque un ‘S’! Commencez à pousser les points autour pour obtenir le S désiré.
 
-<div class="warn"><p>Oops, what happened?</p>
+<div class="warn"><p>Oups, qu'est-ce qui s'est passé?</p>
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_032-fr-FR.png" alt>
 
-<p>Don’t worry &ndash; Spiro sometimes does some funny things. Just hit <i>Undo,</i> or keep nudging
-the points to get things back on track.</p></div>
+<p>Ne vous inquiétez pas &ndash; Spiro fait parfois de drôles de choses. Il suffit de cliquer sur
+<i>Annuler,</i> ou de continuer à pousser les points pour remettre les choses sur la bonne voie.</p></div>
 
-Now, you should see something like this:
+Maintenant, vous devriez voir quelque chose comme ceci:
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_028-fr-FR.png" alt>
 
-Toggle out of Spiro mode back into B&eacute;zier mode. You will notice there are a lot of points on
-the resulting curve &ndash; you may want to clean some of them up. 
+Basculer hors du mode Spiro en mode B&eacute;zier. Vous remarquerez qu'il ya beaucoup de points sur
+la courbe résultante &ndash; Vous voudrez peut-être nettoyer certains d'entre eux.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_031-fr-FR.png" alt>
 
-To clean up those extra points, go to the Element menu and select <i>Simplify &gt; Simplify</i>.
-Then go to <i>Element &gt; Add Extrema</i>. Finally, go to <i>Element &gt; Round &gt; To Int</i>.
-After these clean up operations, you will see something like this:
+Pour nettoyer ces points supplémentaires, allez dans le menu Élément et sélectionnez <i>Simplifier &gt; Simplifier </i>.
+Ensuite, allez dans <i>Elément &gt; Ajouter des extrema</i>. Enfin, allez dans <i>Élément &gt; Arrondir &gt; Aux entiers </i>. Après ces opérations de nettoyage, vous verrez quelque chose comme ceci:
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
+<img src="images/S%20at%2083%20from%20Untitled1%20-_029-fr-FR.png" alt>
 
-You can continue to experiment with Spiro mode to get a feel of how it differs from B&eacute;zier
-drawing.  
-The terminology is different, but as with FontForge’s other drawing and adjustment tools, practice
-will get you the things you want.
+Vous pouvez continuer à expérimenter avec le mode Spiro pour obtenir une idée de la façon dont il diffère du dessin avec B&eacute;zier.
+La terminologie est différente, mais comme avec les autres outils de dessin et de réglage de FontForge, avec la pratique vous obtiendrez ce que vous voudrez.
 
-[“Installing FontForge”]: Installing_Fontforge.html
-[“Using the FontForge drawing tools”]: Using_the_Fontforge_Drawing_Tools.html
+[“Installation de FontForge"]: Installing_Fontforge.html
+[“Utilisation des outils de FontForge”]: Using_the_Fontforge_Drawing_Tools.html

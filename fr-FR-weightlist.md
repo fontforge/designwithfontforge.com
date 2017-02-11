@@ -10,16 +10,16 @@
 | 16     | Configuration de Fontforge                 |
 | 17     | Aperçu de l'interface utilisateur          |
 | 18     | Utilisation des outils de Fontforge        |
-| 21     | Dessiner avec Spiro                        |
+| 21     | Dessin avec Spiro                          |
 | 24     | Création de “o” et “n”                     |
 | 27     | Infos fonte et métadonnées                 |
-| 30     | Word Space                                 |
+| 30     | Inter-mots                                 |
 | 33     | Création de l'ADN de votre police          |
-| 36     | Capital Letters                            |
-| 39     | Line Spacing                               |
-| 42     | Punctuation and Symbols                    |
-| 45     | Completeing the Lower Case                 |
-| 48     | Diacritics and Accents                     |
+| 36     | Lettres capitales                          |
+| 39     | Interligne                                 |
+| 42     | Ponctuation et symboles                    |
+| 45     | Finalisation des minuscules                |
+| 48     | Diacritiques et accents                    |
 | 51     | Numerals                                   |
 | 54     | Bold and Other Weights                     |
 | 57     | Italic                                     |

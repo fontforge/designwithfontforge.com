@@ -1,89 +1,91 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 24
 category: workflow
-title: Creating ‘o’ and ‘n’
+title: Création de ‘o’ et ‘n’
 ---
 
-There are many approaches to designing a font. It can be helpful to deconstruct the larger processes
-involved in order to get started quickly, and to provide a solid basis for a whole font’s worth of
-characters.  
-A popular and valuable approach to this is to design the ‘o’ and ‘n’ characters first, nailing down
-essential elements of form, space and balance, before bringing them together for the formation of
-other characters. Creating the lowercase ‘o’ and ‘n’ characters can provide us with some of the
-fundamental forms and structures that will underpin all other characters that are needed.
+Il existe de nombreuses approches pour concevoir une police. Il peut être utile de déconstruire les
+processus plus importants afin de commencer rapidement, et de fournir une base solide pour la
+totalité de la police de caractères.
+Une approche populaire et bénéfique est de concevoir les lettres ‘o’ et ‘n’ d'abord, établir les
+éléments essentiels de leur forme, de l'espace et de leur équilibre, avant de les réunir pour former
+d'autres lettres. La création des lettres minuscules ‘o’ and ‘n’ peut nous fournir certaines des formes
+et des structures fondamentales qui sous-tendent tous les autres lettres nécessaires.
 
-Although the design of the ‘o’ may seem like quite a simple thing, all the characteristics mentioned
-in the [“What is a font?”] chapter come into play. The choice you make about each characteristic
-should be a deliberate choice.
+Bien que le design du ‘o’ puisse sembler assez simple, toutes les caractéristiques mentionnées dans le
+chapitre [“Qu'est-ce qu'une fonte?”] entrent en jeu. Le choix que vous faites sur chaque caractéristique
+doit être un choix délibéré.
 
-## Underhangs and Overshoots
+## “Underhangs” et “Overshoots”
 
-One way in which optical effects impact type design is in how curves and straight edges appear to
-the eye.  
-For instance, for a curve and a straight edge to look as though they are aligning correctly on the
-baseline, the curve must actually sit a little below the line, producing an *undershoot*. The
-portion of the character that dips just below the baseline in order to appear sitting on the
-baseline is called the *underhang* &ndash; demonstrated below. Without underhang, characters with
-curves around the baseline will appear misaligned within a line of text.
+Comment les courbes et les bords droits apparaîssent à l'oeil est un effet d'optique qui affecte la
+conception de polices.
+Par exemple, pour qu'une courbe et un bord droit semblent alignés correctement sur la ligne de base,
+la courbe doit en fait se situer un peu au-dessous de la ligne, produisant un *undershoot*. La partie
+du caractère qui descend juste en dessous de la ligne de base afin d'apparaître assis sur la ligne de
+base s'appelle le *underhang* &ndash; démontré ci-dessous. Sans underhang, les caractères avec des
+courbes autour de la ligne de base apparaîtront désalignés dans une ligne de texte.
 
 <img src="images/underhang1.png" alt>
 
-Similarly to the undershoot, an area of *overshoot* is needed to provide the illusion of alignment
-at the x-height and at the cap-height (see below).
+De façon similaire au undershoot, un dépassement (*overshoot*) est nécessaire pour fournir
+l'illusion d'alignement à la hauteur d'x et à la hauteur de capitale (voir ci-dessous).
 
 <img src="images/nox-opensans.png" alt>
 
 <img src="images/nox-merriw_1.png" alt>
 
-## Designing the lowercase ‘o’
+## Concevoir le ‘o’ minuscule
 
-The design of the ‘o’ is not just a question of the black part of the letter. While the ‘o’ provides
-the very basic bowl weight and shape, the white &ndash; or counter &ndash; provides the size and
-shape used by the rest of the font.  
-In general terms, we can also observe that the round form of the ‘o’ will be echoed in other
-characters. These include the b, c, d, e, p, and q, and the form will also implicate the shaping and
-forms of curves within any other characters of the font, such as the O, C, D, and Q.
+La conception du ‘o’ n'est pas seulement à propos de la partie noire de la lettre. Alors que le ‘o’
+fournit le poids et la forme de base de la panse, le blanc &ndash; ou contrepoinçoin &ndash; fournit la
+taille et la forme utilisée par le reste de la police.
+D'une manière générale, on peut également observer que la forme ronde du ‘o’ se répétera dans les
+autres caractères. Ceux-ci incluent les b, c, d, e, p et q, et la forme impliquera également le
+façonnement des formes des courbes dans tout autre caractère de la police, comme les O, C, D et Q.
 
-In addition, the white inside the ‘o’ should be utilized when designing the spacing of our font; the
-‘o’ sets up the reference rhythm of spaces used between all other glyphs in the font too. These two
-values are very related, so essentially you will need to design the amount of white space that are
-the side bearings of your ‘o’ as well.  As a general principle, with the exception of slanted or
-italic fonts, the ‘o’ should have the same amount of space on the left and right sides, and the
-white space between a string of ‘o’ characters should balance the white space inside the ‘o’s.
+En outre, le blanc à l'intérieur du ‘o’ doit être utilisé lors de la conception de l'espacement de notre
+police; le 'o' établit le rythme de référence des espaces utilisés entre tous les autres glyphes de la
+police. Ces deux valeurs sont très liées, donc essentiellement vous devrez concevoir la quantité d'espace
+blanc qui sont les approches latérales de votre ‘o’ aussi. Comme principe général, à l'exception des
+polices inclinées ou italiques, le ‘o’ devrait avoir la même quantité d'espace sur les côtés gauche et
+droit, et l'espace blanc entre une chaîne de caractères de ‘o’ devrait équilibrer l'espace blanc à
+l'intérieur des ‘o’s.
 
-Here we encroach well into the territory of spacing and metrics, so even at this early stage you
-may want to have a look at the [“Spacing, Metrics, and Kerning”] chapter, which covers the basic
-implications of spacing in a font.  
-That should get you to a well-spaced ‘o’ character, which will help you with the design of the ‘n’.
+Ici, nous empiétons un peu sur le territoire de l'espacement et des métriques, donc même à ce stade
+précoce, vous voudrez peut-être jeter un oeil au chapitre [“Espacement, métriques, et crénage”], qui
+couvre les implications de base de l'espacement dans une police.
+Cela devrait vous permettre de faire un ‘o’ bien espacé, ce qui vous aidera à concevoir le ‘n’.
 
-## Design the lowercase ‘n’
+## Concevoir le 'n' minuscule
 
-Once you are happy with the form and spacing of your lowercase ‘o’ character as shown with a sample
-string, the next step of this approach is to create a suitably shaped, balanced, and well-spaced
-lowercase ‘n,’ which you will inject into your string of ‘o’s.
+Une fois que vous êtes satisfait de la forme et de l'espacement de votre caractère ‘o’ minuscule tel
+qu'observé dans un exemple de chaîne, la prochaine étape de cette approche est de créer un ‘n’
+minuscule de forme appropriée, équilibrée, et bien espacées, que vous injectez dans votre chaîne de ‘o’s.
 
-If we look at the anatomy of an ‘n’, we can break it apart into two or three components consisting of a <i>stem</i> and a <i>curve</i>.  
-This approach can give us a shortcut to keeping balance and harmony within our characters as they
-are formed, and as our set of characters grows. Looking at the sample ‘n’ below; it is broken into
-two components. These separate components combine together to form an ‘n’, but the same components
-will be re-used later when forming other characters; e.g., the stem at the left of the ‘n’ can be
-used to form the left-sided stem of all other lowercase characters.
+Si l'on considère l'anatomie d'un ‘n’, on peut le diviser en deux ou trois composants constitués d'un
+<i>fût</i> et d'une <i>courbe </i>. Cette approche peut nous fournir un raccourci pour maintenir l'équilibre
+et l'harmonie au sein de nos caractères à mesure qu'ils sont formés, et que notre ensemble de caractères
+grandit. En regardant l'échantillon ‘n’ ci-dessous; Il est divisé en deux composants. Ces composants
+séparés se combinent pour former un ‘n’, mais les mêmes composants seront réutilisés plus tard lors de
+la formation d'autres caractères; par exemple, le fût à gauche du ‘n’ peut être utilisée pour former le fût
+gauche de tous les autres caractères minuscules.
 
 <img src="images/n-compo-2.png" alt>
 
 <img src="images/n-compo-1_1.png" alt>
 
-Taking yourself forward again to the chapter on spacing and metrics, the design of the ‘n’ character
-should keep pace with the process of spacing the ‘n’ and ‘o’ characters together.
+En vous reportant à nouveau au chapitre sur l'espacement et les métriques, la conception du caractère ‘n’
+devrait suivre le rhythme du processus d'espacement entre les caractères ‘n’ et ‘o’ ensembles.
 
-Now, garnering the methods you have used to create an ‘n’ and ‘o’ character, you are ready to expand
-the lowercase character set. The qualities of the stem and curve components of the ‘n’ and ‘o’ will
-inform the way you may form other characters.  
-If we study the characters below from [Open Sans], we can see the relationships between the formal
-aspects of separate characters and how they can be repeated, with some adjustments, to form the
-components of our font.
+Maintenant, en recueillant les méthodes que vous avez utilisées pour créer un caractère ‘n’ et ‘o’, vous
+êtes prêt à développer le jeu de caractères minuscules. Les qualités des composants du fût et de la courbe
+du 'n' et du 'o' indiqueront la façon dont vous pourrez former les autres caractères.
+En étudiant les caractères ci-dessous de [Open Sans], nous pouvons voir les relations entre les formes de
+caractères séparés et comment elles peuvent être répétées, avec quelques ajustements, pour former
+les composants de notre police.
 
 <img src="images/h-m-n-curves.png" alt>
 
@@ -91,6 +93,6 @@ components of our font.
 
 <img src="images/i-j-t-f-curves.png" alt>
 
-[“What is a font?”]: What_Is_a_Font.html
-[“Spacing, Metrics, and Kerning”]: Spacing_Metrics_and_Kerning.html
+[“Qu'est-ce qu'une fonte?”]: What_Is_a_Font.html
+[“Espacement, métriques, et crénage”]: Spacing_Metrics_and_Kerning.html
 [Open Sans]: http://opensans.com/

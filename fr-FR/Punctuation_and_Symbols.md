@@ -1,70 +1,70 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 42
 category: workflow
-title: Punctuation and Symbols
+title: Ponctuation et symboles
 ---
 
-Punctuation and other typographics symbols have a history of their own, separate and apart from the development of the alphabet. But you will find that the same design process still applies, including reusing and adapting component elements, and iteratively testing your design choices.
+La ponctuation et autres symboles typographiques ont une histoire propre, distincte et à part du développement de l'alphabet. Mais vous constaterez que le même processus de conception s'applique toujours, y compris la réutilisation et l'adaptation de composants, et le test itératif de vos choix de design.
 
-## Simple punctuation glyphs
+## Glyphes de ponctuation simples
 
-The first thing to do when designing punctuation is to create the '.' character, which is known as the full stop or period.
+La première chose à faire lors du design de la ponctuation est de créer le caractère '.', qui est connu comme le point.
 
-The shape of this glyph is often taken from the dot over the 'i,' which is sometimes called the tittle. After you copy the dot, you may want to make it a little larger. Testing several different sizes in printed text or on screen is advisable.
+La forme de ce glyphe est souvent prise du point sur le 'i,' qui est parfois appelé point suscrit. Après avoir copié le point, vous pouvez vouloir l'agrandir. Il est conseillé de tester plusieurs tailles de texte imprimé ou à l'écran.
 
-Once you establish a size that you are happy with, this dot can be used as the basis for a wide variety of other punctation, including these glyphs:  ; : ? ! ¡ ¿ · …
+Une fois que vous établissez une taille dont vous êtes satisfait, ce point peut être utilisé comme base pour une grande variété d'autres ponctuations, y compris ces glyphes: ; : ? ! ¡ ¿ · …
 
 <img src="images/period.png" alt="">
 
-The next glyph to make is the comma. The shape of the comma can vary to an almost suprising degree. It may be valuable for you to look at a wide rage of comma designs before you design yours.
+Le prochain glyphe à faire est la virgule. La forme de la virgule peut varier à de façon surprenante. Il peut être utile de regarder de nombreux designs de virgule avant de concevoir le vôtre.
 
-The image below shows two of the most common forms that the comma may take.
+L'image ci-dessous montre deux des formes les plus courantes que la virgule peut prendre.
 
 <img src="images/commas.png" alt="">
 
-The top of the comma is often slightly lighter than the period, because if it is the same it can look too heavy. In the sample image, the comma on the right is a good example of this compensation being applied. Another common mistake to watch out for with this glyph is making it too short
+Le sommet de la virgule est souvent légèrement plus adouci que celui du point, car si il est la même, il peut paraître trop lourd. Dans l'image d'exemple, la virgule à droite est un bon exemple où cette compensation est appliquée. Une autre erreur commune à surveiller avec ce glyphe est de le faire trop court.
 
-When you have your comma it will be fairly easy to make the semi colon (;).
+Quand vous avez votre virgule, il sera assez facile de faire le point-virgule (;).
 
-## Exclamation mark and question mark
+## Point d'exclamation et point d'interrogation
 
-The exclamation mark can be be deceiving in that it <em>seems</em> simple to make. If you look at a range of typefaces you will see that sometimes the design is indeed fairly simple.
+Le point d'exclamation peut être trompeur en ce qu'il <em>semble</em> simple à faire. Si vous regardez une gamme de caractères, vous verrez que parfois le design est en effet assez simple.
 
-However, this is a glyph which has a surprising amount of opportunity for expressing design. It often the case that even in a font which has very little contrast, the bar above the dot is somewhat heavier at the top than the bottom. The form of the exclamation mark usually relates to the design of the comma to some degree.
+Toutefois, il s'agit d'un glyphe qui a une étonnante occasion de s'exprimer dans le design. Il arrive souvent que même dans une police qui a très peu de contraste, la barre au-dessus du point est un peu plus lourde au sommet qu'à la base. La forme du point d'exclamation se rapporte généralement à la conception de la virgule dans une certaine mesure.
 
 <img src="images/exclam.png" alt="">
 
-The question mark can also be quite difficult to make, because it requires you to balance an open curve over the dot below.
+Le point d'interrogation peut également être assez difficile à faire, car il vous oblige à équilibrer une courbe ouverte sur le point en dessous.
 
-As with the exclamation mark it is advisable to look at and even test a range of different solutions before choosing one for your design.
+Comme avec le point d'exclamation, il est conseillé de regarder et même de tester une gamme de solutions différentes avant d'en choisir une pour votre design.
 
 <img src="images/question%20marks.png" alt="">
 
-The design of the c, C, G, s, and S glyphs may provide some basis for the design of this glyph, but you may decide to choose a form that is distinct as well.
+Le design des glyphes c, C, G, s et S peut fournir une certaine base pour la conception de ce glyphe, mais vous pouvez décider de choisir une forme qui est distincte aussi.
 
-## Additional symbols
+## Symboles additionnels
 <img src="images/3quotes.png" alt="">
 
-Simple or vertical quotes — ' and " -- are distinct from typographic quotes: ‘ ’ and “ ” ‚ „ .
+Les guillemets et apostrophes dactylographique — ' and " -- sont distincts des guillemets typographiques: ‘ ’ and “ ” ‚ „ .
 
-Simple quotes can follow the shape of the bar over the dot in the exclamation mark, but they can also be designed separately.
+Les apostrophes peuvent suivre la forme de la barre au-dessus du point dans le point d'exclamation, mais ils peuvent également être conçus séparément.
 
-Usually typographic quotes are fairly closely related to the comma, however they should be longer than the comma and often curve more.
+Généralement, les guillemets typographiques sont étroitement liés à la virgule, mais ils doivent être plus longs que la virgule et sont souvent plus courbés.
 
 <img src="images/3quotes2.png" alt="">
 
-Brackets [ ] are relatively simple to make because they are so boxy in shape. Neverthess their design should reflect the choices you have made in the rest of the typeface.
+Les crochets [ ] sont relativement simples à faire car ils sont de forme carrée. Néanmoins, leur conception doit refléter les choix que vous avez faits dans le reste de la police.
 
-The main question to decide is how tall and deep they will be. The convention is that they should exceed the height of the capitals very slightly and descend below the baseline to approximately 3/4 of the depth of your lower case descenders.
+La question principale à résoudre est comment grands et profonds ils seront. La convention est qu'ils doivent dépasser la hauteur des capitales très légèrement et descendre au-dessous de la ligne de base à environ 3/4 de la profondeur de vos descendantes de minuscules.
 
-These choices will also be reflected in the design of the parentheses () and the braces {}. The weight of the stems on all three of these symbols should be less than the weight of the stems of both the capitals and the lower case letters.
+Ces choix seront également reflétés dans le design des parenthèses () et des accolades {}. La graisse des fûts sur ces trois symboles doit être inférieure à la graisse des fûts des capitales et des lettres minuscules.
 
-Be warned: when testing the characters [ ] # in the metrics window, they may not show up. This is because they are reserved by the program. Instead of typing [ ] and # , you must type /bracketleft /bracketright and /numbersign .
+Soyez averti: lorsque vous testez les caractères [ ] # dans la fenêtre de métriques, ils peuvent ne pas s'afficher. C'est parce qu'ils sont réservés par le programme. Au lieu de taper [] et #, vous devez taper /bracketleft /bracketright et /numbersign.
 
 <img src="images/1Brackets1.png" alt="">
 
-Parentheses should draw on the design of related shapes, such as D, C, and G.
+Les parenthèses devraient s'appuyer sur le design des formes connexes, telles que le D, le C et le G.
 
-Braces are notable in that their design varies to a greater degree. Braces have this in common with the question mark. The distribution of weight in braces may be like weight distribution of the numbers, in that it may sometimes violate the rules you follow in the rest of the design.
+Les accolades sont remarquables par leur variation de design. Les accolades ont ceci en commun avec le point d'interrogation. La répartition de la graisse dans les accolades peut être comme la répartition de la graisse des nombres, dans la mesure où cela peut parfois violer les règles que vous suivez dans le reste du design.

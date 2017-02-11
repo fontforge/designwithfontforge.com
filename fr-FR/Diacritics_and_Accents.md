@@ -1,11 +1,11 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 48
 section: Workflow
-title: Diacritics and Accents
+title: Diacritiques et accents
 ---
-A diacritic is a mark added to, or combining with, a letter, often used to change the sound value of the letter to which the mark is added. Some diacritical marks (such as the 'acute' and 'grave') are often called accents. Diacritical marks may appear above or below a letter, within it or between two letters.
+Un diacritique est un signe (ou une marque selon la terminologie anglaise de FontForge) ajouté ou combiné à une lettre, souvent utilisé pour modifier la valeur sonore de la lettre à laquelle la marque est ajoutée. Certaines marques diacritiques (telles que «aigu» et «grave») sont souvent appelées accents. Les signes diacritiques peuvent apparaître au-dessus ou au-dessous d'une lettre, en son sein ou entre deux lettres.
 
 <img width="5%" src="images/dia_a_grave.png"/>
 <img width="5%" src="images/dia_a_circumflex.png"/>
@@ -18,125 +18,128 @@ A diacritic is a mark added to, or combining with, a letter, often used to chang
 <img width="5%" src="images/dia_hungarumlaut.png"/>
 
 
-### Some examples of diacritics
+### Quelques exemples de diacritiques
 
 <p class="imagebox"><img src="images/dia_a_grave.png"/></p>
 
-Lowercase 'a with grave' (unicode u+00e0).
-Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining grave accent' glyph (unicode u+0300).
+'a accent grave' minuscule (unicode u + 00e0).
+Créé dans une police en combinant le glyphe 'a' minuscule (unicode u+0061) et le glyphe 'diacritique accent grave' (unicode u+0300).
 
 <p class="imagebox"><img src="images/dia_a_circumflex.png"/></p>
 
-Lowercase 'a with circumflex' (unicode u+00e2).
-Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining circumflex accent' glyph (unicode u+0302).
+'a accent circonflexe' minuscule (unicode u+00e2).
+Créé dans une police en combinant le glyphe 'a' minuscule (unicode u+0061) et le glyphe 'diacritique accent circonflexe' (unicode u+0302).
 
 <p class="imagebox"><img src="images/dia_c_ogonek.png"/></p>
 
-Lowercase 'a with ogonek' (unicode u+0105).
-Created in a font by combining the lowercase 'a' glyph (unicode u+0061) and the 'combining ogonek' glyph (unicode u+0328).
+'a ogonek' minuscule (unicode u+0105).
+Créé dans une police en combinant le glyphe 'a' minuscule (unicode u+0061) et le glyphe 'diacritique ogonek' (unicode u+0328).
 
 <p class="imagebox"><img  src="images/dia_c_cedilla.png"/></p>
 
-Lowercase 'c with cedilla' (unicode u+00e7).
-Created in a font by combining the lowercase 'c' glyph (unicode u+0063) and the 'combining cedilla' glyph (unicode u+0327).
+'c cédille' minuscule (unicode u+00e7).
+Créé dans une police en combinant le glyphe 'c' minuscule (unicode u+0063) et le glyphe 'diacritique cédille' (unicode u+0327).
 
 <p class="imagebox"><img  src="images/dia_hungarumlaut.png"/></p>
 
-Lowercase 'o with double acute' (unicode u+0151).
-Created in a font by combining the lowercase 'o' glyph (unicode u+006f) and the 'combining double acute accent' glyph (unicode u+030b).
+'o double accent aigu' minuscule (unicode u+0151).
+Créé dans une police en combinant le glyphe 'o' minuscule (unicode u+006f) et le glyphe 'diacritique double accent aigu' (unicode u+030b).
 
 <hr>
 
-FontForge can automatically create accented characters in 2 main ways;
+FontForge peut automatiquement créer des caractères accentués de 2 façons;
 
-1. FontForge contains rudimentary information on where to place diacritic marks, so can automatically build most accented characters.
-2. For much greater control of diacritic placement, FontForge can place diacritic marks based on the position of user created anchor points.
+1. FontForge contient des informations rudimentaires sur l'endroit où placer les signes diacritiques, donc peut construire automatiquement la plupart des caractères accentués.
+2. Pour plus de contrôle du placement diacritique, FontForge peut placer des signes diacritiques en fonction de la position des points d'ancrage créés par l'utilisateur.
 
-<p class="note">It should be noted here that if you are not using anchors and lookup tables to position diacritic marks then if the glyph of a particular diacritic mark is not present in your font, FontForge will instead use a similar spacing character in place. For example, if the combining mark 'acutecomb' (u+0301) is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds any acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
+<p class="note">Notez que si vous n'utilisez pas les ancrages et les tables de lookup pour positionner les signes diacritiques, alors si le glyphe d'un signe diacritique particulièr n'est pas présent dans votre police, FontForge utilisera plutôt un accent chassant similaire en place. Par exemple, si le signe diacritique 'accent aigu combiné' (u + 0301) n'est pas présent, FontForge utilisera le caractère 'accent aigu' (u+00b4) standard lorsqu'il construira automatiquement des glyphes accentués aigus. Si l''accent aigu combiné' est présent, alors FontForge l'utilisera toujours, sauf si vous forcez spécifiquement FontForge à utiliser des accents chassants pour construire des glyphes accentués.</P>
 
-## FontForge's basic auto placement of diacritic marks.
+## Positionnement automatique de base des signes diacritiques dans FontForge.
 
-In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character (u+00e1) , we would need to have already created the lowercase 'a' (u+0061) and the 'acutecomb' glyph (u+0301). Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acutecomb' glyph into the 'a acute' character slot (see below).
-
-<p class="note">It should be noted here that if the glyph of a diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example of the combining mark 'acutecomb' (u+0301)is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
+Dans le menu 'Elément' de FontForge, il y a une fonction appelée 'Assembler' qui peut être utilisée pour créer des caractères accentués, certains caractères composites et certains caractères en double. Pour construire automatiquement des caractères accentués FontForge utilise la fonction 'Elément> Assembler> Créer les glyphes accentués'. Cette fonction peut également être effectuée avec la touche 'Ctrl + Maj + a'. Ainsi, à l'aide de l'exemple de construction du caractère 'a accent aigu' (u+00e1), il faudrait avoir déjà créé le 'a' minuscule (u+0061) et le glyphe 'accent aigu combiné' (u+301). Ensuite, en sélectionnant l'emplacement de caractères 'a accent aigu' et en utilisant la fonction 'Elément> Assembler> Créer les glyphes accentués', FontForge placera une référence au glyphe 'a' minuscule et une référence au glyphe 'accent aigu' dans l'emplacement de caractères 'a accent aigu' (voir ci-dessous).
 
 <img width="500px" src="images/dia_auto_a_acute.png"/>
 
-This automatic placement of diacritic marks can be tuned by preferences, found in the 'accents' section of FontForge's preferences menu 'File > Preferences > Accents' (see below). 
+Ce positionnement automatique des signes diacritiques peut être réglé selon les préférences, qui se trouvent dans la section 'Accents' du menu des préférences de FontForge 'Fichier> Préférences> Accents' (voir ci-dessous).
 
 <img src="images/preferences_accents.png" />
 
-'PreferSpacingCharacters' - selecting this option to 'On' will force FontForge to build accented glyphs with spacing characters even if the appropriate combining characters are present. This option is ignored when using anchors to position diacritic marks.
+'Préférer les accents chassants' - l'activation de cette option obligera FontForge à créer des glyphes accentués avec des caractères chassant, même si les caractères combinants appropriés sont présents. Cette option est ignorée lors de l'utilisation d'ancres pour positionner les signes diacritiques.
 
-'AccentOffsetPercent' controls the amount of vertical space between the base glyph and the mark glyph. The value entered here is a percentage of the em square of the font. So a value of '6' will offset the mark glyph from the base glyph by 6 percent  of the font's em square.
+'Pourcentage de décalage des accents' contrôle la quantité d'espace vertical entre le glyphe de base et celui du diacritique. La valeur saisie ici est un pourcentage du cadratin de la police. Donc, une valeur de '6' va décaler le glyphe du signe à partir du glyphe de base de 6% du cadratin de la police.
 
-The preferences for the horizontal placement of the mark glyph can also be set. Selecting 'On'  for the   preference 'AccentCenterLowest' will centre the accent glyph to the lowest point of the base glyph.
- 
-Selecting 'AccentCenterHighest' to 'On' will centre the accent to the highest point of the base glyph.
- 
-Selecting both the above preferences to 'Off' will centre the accent into the width of the base glyph. Selecting both the above preferences to 'On' will centre the accent in the width of the character slot.
+Les préférences pour le positionnement horizontal du glyphe de signe peuvent également être définies. En mettant à 'Oui' la préférence 'Centrer les accents graves et aigus selon leur point bas', le glyphe d'accent sera centré au point le plus bas du glyphe de base.
 
+Si vous mettez à 'Oui' l'option 'Centrer les autres accents selon leur point haut' sur 'On', l'accent sera centré sur le point le plus élevé du glyphe de base.
 
-## Using Anchor Points to place diacritics
+En mettant les deux préférences ci-dessus à 'Non', l'accent sera centré sur la largeur du glyphe de base. Si vous mettez les deux préférences ci-dessus à 'Oui', l'accent sera centré sur la largeur de la case de caractère.
 
-The most accurate and efficient way to build accented characters in FontForge is to use 'anchor points'.
+## Utilisation des points d'ancrage pour placer des signes diacritiques
 
-Anchor points allow fine control of the positioning of exactly where the diacritic mark will be positioned in relation to each base glyph in the accented characters. So, in the case of the 'a ogonek' character, the 'a' glyph is the base glyph, and it will be positioned normally, the 'ogonek' glyph is the 'mark glyph' and will be positioned so that the anchor point of the 'mark glyph' coincides with the anchor point in the base glyph.
+La méthode la plus précise et la plus efficace pour créer des caractères accentués dans FontForge consiste à utiliser des points d'ancrage.
 
-In the example below, creating an 'a ogonek' character, an anchor class has been created called 'bottom'. In the lowercase 'a' glyph, the 'bottom' anchor is placed at the bottom of the stem of the 'a'. This is the 'base glyph' form of the anchor. (see below)
+Les points d'ancrage permettent un contrôle précis du positionnement du signe diacritique par rapport à chaque glyphe de base dans les caractères accentués. Ainsi, dans le cas du caractère 'a ogonek', le glyphe 'a' est le glyphe de base et il sera placé normalement. Le glyphe 'ogonek' est le 'glyphe de marque' et sera positionné de sorte que le point d'ancrage du 'glyphe de marque' coïncide avec le point d'ancrage dans le glyphe de base.
+
+Dans l'exemple ci-dessous, en créant un caractère 'a ogonek', une classe d'ancrage a été créée et appelée 'bas'. Dans le glyphe 'a' minuscule, l'ancrage du 'bas' est placé au bas du fût du 'a' sous la forme d'une ancre de 'glyphe de base'. (voir ci-dessous)
 
 <img src="images/dia_a_anchor.png"/>
 
-In the 'ogonek' glyph the 'bottom anchor is placed at the top of the ogonek glyph, in the form of a 'mark' anchor. (see below)
+Dans le glyphe 'ogonek', l'ancre du bas est placée au sommet du glyphe ogonek, sous la forme d'une ancre de 'marque'. (voir ci-dessous)
 
 <img src="images/dia_ogonek_anchor.png"/>
 
-Then, when the 'a ogonek' character is built (using the 'Build Accented Charcter' function) the 'bottom' mark anchor point will be placed at the same location as the 'bottom' base anchor point, ensuring that the referenced ogonek glyph is placed correctly at the foot of the stem of the referenced 'a' glyph (see below). This exact and automatic placement would not have been possible without using anchor points to position the base and mark glyphs.
+Ensuite, lorsque le caractère 'a ogonek' est construit (en utilisant la fonction 'Créer les glyphes accentués'), le point d'ancrage de la marque inférieure sera placé au même emplacement que le point d'ancrage de base du 'bas', assurant que le glyphe ogonek indiqué est placé correctement au pied du fût du glyphe 'a' indiqué (voir ci-dessous). Ce placement exact et automatique n'aurait pas été possible sans utiliser de points d'ancrage pour positionner les glyphes de base et de marque.
 
 <img src="images/dia_a_ogonek_anchors.png" />
 
-### Creating anchor points for placing diacritic marks (Mark to base positioning)
+### Création de points d'ancrage pour le placement de signes diacritiques (positionnement marque sur base)
 
-FontForge uses lookup features know as 'mark-to-base' for creating and positioning anchor points. These mark-to-base lookups can be created and edited in the GPOS Lookups section of the Font Info of your font ( 'Element>Font Info>Lookups>GPOS').
+FontForge utilise des fonctionnalités de recherche (lookup) appelées 'marque sur base' pour créer et positionner des points d'ancrage. Ces lookups de marque sur base peuvent être créés et édités dans la section Lookup GPOS des informations sur la fonte de votre police ('Elément> Infos fonte> Lookups> GPOS').
 
-From the GPOS Lookups window, click on 'Add Lookup' and choose the Type 'Mark to Base Position', then choose 'Mark Positioning' from the 'New' column of the Feature pane (see below). Click 'OK' to close the window.
+Dans la fenêtre Lookups GPOS, cliquez sur 'Nouveau lookup' et choisissez 'Positionnement marque sur base', puis choisissez 'Positionnement par marque' dans la colonne 'Nouveau' du volet Fonctionnalité (voir ci-dessous). Cliquez sur 'OK' pour fermer la fenêtre.
 
 <img src="images/dia_new_mark_to_base_1.png"/>
 
-With the new lookup selected, click 'Add Subtable'. In the resulting window (see below) you can create your anchor classes.
+Lorsque le nouveau lookup est sélectionné, cliquez sur 'Nouvelle sous-table'. Dans la fenêtre résultante (voir ci-dessous), vous pouvez créer vos classes d'ancrage.
 
 <img src="images/dia_anchor_new_subtable.png" />
 
-In this example (below), two anchor classes have been created, 'top' and 'bottom'. The 'top' anchor class will be used to position diacritic marks that are placed above glyphs, and the 'bottom' anchor will be used for positioning marks below glyphs.
+Dans cet exemple (ci-dessous), deux classes d'ancre ont été créées, 'haut' et 'bas'. La classe d'ancrage du 'haut' sera utilisée pour positionner les signes diacritiques placés au-dessus des glyphes, et l'ancrage du 'bas' sera utilisée pour positionner les signes sous les glyphes.
 
 <img src="images/dia_marks_classes_add.png" />
 
-To place an anchor with a glyph, simply use the right mouse click in a glyph edit window, and select the function 'Add Anchor' from the right-click menu.
+Pour placer une ancre avec un glyphe, il suffit d'utiliser le bouton droit de la souris dans une fenêtre d'édition de glyphe et de sélectionner la fonction 'Ajouter ancre' dans le menu contextuel.
+
+La boîte de dialogue qui s'affiche vous permet d'indiquer si l'ancre est une base ou une marque d'ancrage. La position de l'ancre peut également être affinée à partir de cette boîte de dialogue. Alternativement, l'ancre peut être déplacé en étant déplacé à la position avec la souris, ou déplacé en utilisant les touches haut, bas, gauche et droite. Le point d'ancrage peut également être modifié en cliquant avec le bouton droit de la souris sur le point d'ancrage et en choisissant «get info» dans le menu de la souris.
 The dialogue box that appears enables you to assign whether the anchor is a base or mark anchor. The anchor's position can also be fine tuned from this dialogue box. Alternatively the anchor can be moved by being dragged to position with the mouse, or moved by using the up, down, left and right keys. The anchor point can also be edited by right clicking on the anchor point and choosing 'get info' from the mouse click menu.
 
-### Control of Anchor Classes
+### Contrôle des classes d'ancrage
+Control of Anchor Classes
 
+FontForge contient également une interface graphique utile pour contrôler la position de classes entières de points d'ancrage, permettant à l'utilisateur d'affiner la position de, par exemple, tous les accents aigus à la fois dans une police, ou tous les ancres dans une classe contenue dans , Par exemple, les caractères qui font référence à la minuscule «e». Dans les exemples ci-dessous, nous pouvons voir comment utiliser cette interface graphique pour affiner la position de tous les accents aigus dans une police et pour affiner une classe d'ancres sur tous les caractères qui font référence au glyphe de 'lowecase'.
 FontForge also contains a usefull graphical interface for controlling the position of whole classes of anchor points, enabling the user to fine tune the position of, for example, all the acute accents at once in a font, or all the anchors in a class contained in, for example, characters that reference the lowercase 'e'. In the examples below we can see how to use this graphical interface to fine tune the position of all acute accents in a font, and, to fine tune a class of anchors across all characters that reference the lowecase 'e' glyph.
 
+Une fois que vous avez créé des classes d'ancrage dans vos recherches de position mark-to-base et ajouté des ancres à certains glyphes, vous pouvez contrôler ces classes à partir de "Element> Font Info> Lookups> GPOS" puis modifier une sous-table contenant des classes d'ancrage. Vous verrez alors cette fenêtre;
 Once you have created anchor classes within your mark-to-base position lookups, and added anchors to some glyphs, you can control these classes from "Element>Font Info>Lookups>GPOS" and then editing a subtable that contains anchor classes. You will then see this window;
 
 <img src="images/dia_anchor_control_1.png" />
 
+À partir de là, sélectionnez la classe que vous souhaitez modifier et cliquez sur le bouton 'Contrôle d'ancrage'. Vous serez ensuite présenté par une interface graphique à cette classe. Dans les exemples ci-dessous, nous éditons le contrôle de la classe 'top'. Dans le premier exemple (ci-dessous), la minuscule «e» a été sélectionnée dans la section «Bases» du menu déroulant. Lorsqu'un glyphe de base est sélectionné, tous les caractères qui font référence à ce glyphe et contiennent un ancrage de base «supérieur» s'affichent dans le volet d'aperçu. Nous pouvons alors ajuster la position de l'ancre de base 'top' pour voir comment elle effectue la position de tous les glyphes qui contiennent l'ancrage de la marque 'top'.
 From here select the class you wish to edit and click on the 'Anchor Control' button. You will then be presented by a graphical interface to that class. In the examples below we are editing the control of the 'top' class. In the first example (below) the lowercase 'e' has been selected from the 'Bases' section of the drop down menu. When a base glyph is selected, all characters that reference that glyph and contain a 'top' base anchor, will be displayed in the preview pane. We can then adjust the position of the 'top' base anchor to see how it effects the position of all glyphs that contain the 'top' mark anchor.
 
 <img src="images/dia_anchor_control_e.png" />
 
+Dans le deuxième exemple ci-dessous, le glyphe «aigu» a été sélectionné dans la section «Marques» du menu déroulant. Lorsqu'un glyphe de marque est sélectionné, tous les glyphes qui font référence au glyphe sélectionné et contiennent un point d'ancrage «supérieur» s'affichent pour l'aperçu.
 In the second example, below, the 'acute' glyph has been selected from the 'Marks' section of the drop down menu. When a mark glyph is selected then all glyphs that reference the selected glyph and contain a 'top' mark anchor will be displayed for preview.
-
 
 <img src="images/dia_anchor_control_mark.png" />
 
 
-## Other resources
+## Autres ressources (en anglais)
 
-* http://urtd.net/projects/cod/about
-* http://ilovetypography.com/2009/01/24/on-diacritics/
-* http://diacritics.typo.cz/
-* http://scripts.sil.org/ProbsOfDiacDesign
-* http://www.microsoft.com/typography/developers/fdsspec/diacritics.htm
-* https://twitter.com/fostertype/status/610292546971893760
+* <http://urtd.net/projects/cod/about>
+* <http://ilovetypography.com/2009/01/24/on-diacritics/>
+* <http://diacritics.typo.cz/>
+* <http://scripts.sil.org/ProbsOfDiacDesign>
+* <http://www.microsoft.com/typography/developers/fdsspec/diacritics.htm>
+* <https://twitter.com/fostertype/status/610292546971893760>

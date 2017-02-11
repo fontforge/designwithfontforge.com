@@ -1,49 +1,50 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 27
 category: workflow
-title: Font Info & Metadata
+title: Infos fonte et Métadonnées
 ---
 
-## Element, Font Info
+## Élément, Infos fonte
 
-The Font Info window is ubiquitous in font editors, and FontForge closely follows the OpenType Specification. 
-It may appear cryptic at first, but using it can help learn some familiarity with the OpenType format, and in turn reading about the OpenType format makes the dialog more approachable. 
+La fenêtre Infos fonte est omniprésente dans les éditeurs de polices et FontForge suit de près la spécification OpenType.
+Cela peut sembler cryptique au début, mais l'utiliser peut aider à apprendre le format OpenType, et à son tour la lecture
+sur le format OpenType rend la boîte de dialogue plus accessible.
 
-<img src="images/info_ps_names.png"/>
+<img src="images/info_ps_names-fr-FR.png"/>
 
-## Version Numbering
+## Numérotation des versions
 
-Software developers like to use [Semantic Versioning](http://semver.org) for their programs, and this is also a good idea for your fonts. 
-In a way, fonts are an "API" for text to access some associative feelings in readers. 
+Les développeurs de logiciels aiment utiliser la [gestion sémantique de version](http://semver.org/lang/fr/) pour leurs
+programmes, et c'est aussi une bonne idée pour vos polices. D'une certaine manière, les polices sont une "API" pour que
+le texte accède à certains sentiments associatifs chez les lecteurs.
 
-A MAJOR version would be after a complete redesign. Compare [Exo](http://www.google.com/fonts/specimen/Exo) and [Exo 2](http://www.google.com/fonts/specimen/Exo+2). 
-If you have a document using Exo, you don't want to jump into Exo 2, because the feeling evoked, the 'voice' or 'flavor,' is (subtly) different. 
-Adding support for one or more new scripts that are quite similar in height, or a substantial number of languages, could also constitute a MAJOR revision, as could anything else that substantially changes the vertical or horizontal metrics. 
-However, if a complementary design is made for 2 scripts, it may be best to release 2 or 3 families, one with each script scaled appropriately and the other script(s) scaled as secondary fonts for simple fallback typesetting of multilingual texts. 
+Une version MAJEURE serait après une refonte complète. Comparez [Exo](http://www.google.com/fonts/specimen/Exo) et [Exo 2](http://www.google.com/fonts/specimen/Exo+2).
+Si vous avez un document utilisant Exo, vous ne voulez pas tomber dans Exo 2, parce que le sentiment évoqué, le «ton» ou
+«saveur», est (subtilement) différent. Prendre en charge une ou plusieurs nouvelles écritures qui sont assez similaires en hauteur, ou ajouter un nombre substantiel de langues, pourrait également constituer une révision MAJEURE, comme toute autre chose qui modifie substantiellement les métriques verticales ou horizontales. Cependant, si un design complémentaire est fait pour 2 écritures, il peut être préférable d'émettre 2 ou 3 familles, une avec chaque écriture mise à l'échelle de façon appropriée et les autres écritures mises à l'échelle comme des polices secondaires pour la typographie simple de textes multilingues.
 
-A MINOR version would be anything that subtly changes the metrics, such as vertical metrics, horizontal sidebearings or improved kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example from <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>:
+Une version MINEURE serait tout ce qui modifie subtilement les métriques, telles que les métriques verticales, les approches horizontales ou l'amélioration du crénage, ou l'apport de corrections mineures à certains glyphes, car de telles mises à jour entraîneront la repagination des documents utilisant la police (bien que subtilement dans de nombreux cas). Voici un exemple (en anglais) de <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>:
 
-![Comparison of Roboto v1 and Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
+![Comparaison de Roboto v1 et Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
 
-Adding just a few or a dozen glyphs to "complete" coverage of a previously intended character set or to add support for just a few more languages is probably MINOR, especially if it doesn't change the vertical metrics. 
+L'ajout de quelques glyphes ou d'une douzaine d'entre-eux pour "compléter" la couverture d'un jeu de caractères précédemment planifié ou l'ajout de la prise en charge de quelques langues supplémentaires est probablement MINEUR, surtout si cela ne change pas les métriques verticales.
 
-A change at the PATCH level would be anything that improves the font without changing the metrics or changes a glyph design in a visible way, that don't affect the final text layout. 
-Your 1.001 release might not have fsType set to 0 or be run through fontcrunch, and changing both those things in a 1.0.1 release won't be visible or reflow anything. 
-Sadly, the third PATCH version number isn't available in OpenType font version metadata fields.
-Instead, increment the MINOR version number for such changes to hinting or metadata. 
+Un changement de type CORRECTIF serait tout ce qui améliore la police sans changer les métriques ou ne modifie pas le design d'un glyphe de manière visible, sans affecter la disposition finale du texte.
+Votre version 1.001 pourrait ne pas avoir le champs fsType mis à 0 ou ne pas être exécuté encore par fontcrunch. La
+modification de ces deux choses dans une version 1.0.1 ne sera pas visible ou ne créera aucune repagination.
+Malheureusement, le troisième numéro de version de type CORRECTIF n'est pas disponible dans les champs de métadonnées des
+polices OpenType. Au lieu de cela, incrémenter le numéro de version MINEUR pour des modifications au hinting ou aux métadonnées.
 
-Also, the version should have no more than 3 decimal places, and this may be represented with 5 in a TTX file.
-Eg `2.001` is typical, and may appear as `2.00099` in TTX XML. 
+De plus, la version ne doit pas contenir plus de 3 décimales, alors qu'elle peut être représentée par 5 dans un fichier TTX. Par exemple `2.001` est typique, et peut apparaître comme` 2.00099` dans un fichier XML TTX.
 
-If you release libre fonts, the [Github Releases](https://www.google.com/search?q=github+releases) features are very useful.
+Si vous créez de nouvelles versions de polices libres, les fonctions de [Github Releases](https://www.google.com/search?q=github+releases) sont très utiles.
 
-## Family Naming
+## Nom de famille
 
-Microsoft works hard to ensure that a program written for a previous version of Windows will continue to run on the latest versions, enticing people to upgrade. This means that the basic TrueType font model introduced in Windows 3 is still with us, and Windows does not support font families with more than the 4 basic styles (Regular, Italic, Bold, Bold Italic.) 
+Microsoft travaille dur pour s'assurer qu'un programme écrit pour une version antérieure de Windows continuera à s'exécuter sur les dernières versions, incitant les gens à se mettre à niveau. Cela signifie que le modèle de police TrueType de base présent dans Windows 3 existe toujours, et Windows ne prend pas en charge les familles de polices avec plus de 4 styles de base (Régulier, Italique, Gras, Gras Italique.)
 
-This means for font designers that our font family names should be set up in a way that all our fonts can be used in all operating systems. The OpenType format allows for this, complementing the Family and Style Name values with "Preferred Family Name" and "Preferred Style Name" values that will take precedence in OpenType-aware software.
+Cela signifie pour les concepteurs de polices que nos noms de famille de polices doivent être configurés de manière à ce que nos polices puissent être utilisées dans tous les systèmes d'exploitation. Le format OpenType le permet, en complétant les valeurs de nom de famille et de style avec les valeurs "Nom de famille préféré" et "Nom de style préféré" qui auront priorité dans un logiciel interprétant le format OpenType.
 
-This [Family Naming Google Docs Spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0) is based on information shared by Polish font expert Adam Twardoch and discussed in the [Fontlab forum](http://forum.fontlab.com/index.php?topic=313.0). 
-It supercedes the [OpenType specification example](https://www.microsoft.com/typography/otspec/namesmp.htm). 
+Cette feuille de calcul de [Google Docs, Family Naming](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0) est basée sur des informations partagées par l'expert en polices polonais Adam Twardoch et discutées dans le [forum Fontlab](Http://forum.fontlab.com/index.php?topic=313.0).
+Elle remplace l'[exemple de spécification OpenType](https://www.microsoft.com/typography/otspec/namesmp.htm).
