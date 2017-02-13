@@ -5,7 +5,7 @@ weight: 48
 section: Workflow
 title: Diacritiques et accents
 ---
-Un diacritique est un signe (ou une marque selon la terminologie anglaise de FontForge) ajouté ou combiné à une lettre, souvent utilisé pour modifier la valeur sonore de la lettre à laquelle la marque est ajoutée. Certaines marques diacritiques (telles que «aigu» et «grave») sont souvent appelées accents. Les signes diacritiques peuvent apparaître au-dessus ou au-dessous d'une lettre, en son sein ou entre deux lettres.
+Un diacritique est un signe (ou une marque selon la terminologie anglaise) ajouté ou combiné à une lettre, souvent utilisé pour modifier la valeur sonore de la lettre à laquelle le signe est ajouté. Certaines signes diacritiques (telles que «aigu» et «grave») sont souvent appelées accents. Les signes diacritiques peuvent apparaître au-dessus ou au-dessous d'une lettre, en son sein ou entre deux lettres.
 
 <img width="5%" src="images/dia_a_grave.png"/>
 <img width="5%" src="images/dia_a_circumflex.png"/>
@@ -58,11 +58,11 @@ FontForge peut automatiquement créer des caractères accentués de 2 façons;
 
 Dans le menu 'Elément' de FontForge, il y a une fonction appelée 'Assembler' qui peut être utilisée pour créer des caractères accentués, certains caractères composites et certains caractères en double. Pour construire automatiquement des caractères accentués FontForge utilise la fonction 'Elément> Assembler> Créer les glyphes accentués'. Cette fonction peut également être effectuée avec la touche 'Ctrl + Maj + a'. Ainsi, à l'aide de l'exemple de construction du caractère 'a accent aigu' (u+00e1), il faudrait avoir déjà créé le 'a' minuscule (u+0061) et le glyphe 'accent aigu combiné' (u+301). Ensuite, en sélectionnant l'emplacement de caractères 'a accent aigu' et en utilisant la fonction 'Elément> Assembler> Créer les glyphes accentués', FontForge placera une référence au glyphe 'a' minuscule et une référence au glyphe 'accent aigu' dans l'emplacement de caractères 'a accent aigu' (voir ci-dessous).
 
-<img width="500px" src="images/dia_auto_a_acute.png"/>
+<img src="images/dia_auto_a_acute-fr-FR.png"/>
 
 Ce positionnement automatique des signes diacritiques peut être réglé selon les préférences, qui se trouvent dans la section 'Accents' du menu des préférences de FontForge 'Fichier> Préférences> Accents' (voir ci-dessous).
 
-<img src="images/preferences_accents.png" />
+<img src="images/preferences_accents-fr-FR.png" />
 
 'Préférer les accents chassants' - l'activation de cette option obligera FontForge à créer des glyphes accentués avec des caractères chassant, même si les caractères combinants appropriés sont présents. Cette option est ignorée lors de l'utilisation d'ancres pour positionner les signes diacritiques.
 
@@ -70,7 +70,7 @@ Ce positionnement automatique des signes diacritiques peut être réglé selon l
 
 Les préférences pour le positionnement horizontal du glyphe de signe peuvent également être définies. En mettant à 'Oui' la préférence 'Centrer les accents graves et aigus selon leur point bas', le glyphe d'accent sera centré au point le plus bas du glyphe de base.
 
-Si vous mettez à 'Oui' l'option 'Centrer les autres accents selon leur point haut' sur 'On', l'accent sera centré sur le point le plus élevé du glyphe de base.
+Si vous mettez à 'Oui' l'option 'Centrer les autres accents selon leur point haut', l'accent sera centré sur le point le plus élevé du glyphe de base.
 
 En mettant les deux préférences ci-dessus à 'Non', l'accent sera centré sur la largeur du glyphe de base. Si vous mettez les deux préférences ci-dessus à 'Oui', l'accent sera centré sur la largeur de la case de caractère.
 
@@ -78,61 +78,55 @@ En mettant les deux préférences ci-dessus à 'Non', l'accent sera centré sur 
 
 La méthode la plus précise et la plus efficace pour créer des caractères accentués dans FontForge consiste à utiliser des points d'ancrage.
 
-Les points d'ancrage permettent un contrôle précis du positionnement du signe diacritique par rapport à chaque glyphe de base dans les caractères accentués. Ainsi, dans le cas du caractère 'a ogonek', le glyphe 'a' est le glyphe de base et il sera placé normalement. Le glyphe 'ogonek' est le 'glyphe de marque' et sera positionné de sorte que le point d'ancrage du 'glyphe de marque' coïncide avec le point d'ancrage dans le glyphe de base.
+Les points d'ancrage permettent un contrôle précis du positionnement du signe diacritique par rapport à chaque glyphe de base dans les caractères accentués. Ainsi, dans le cas du caractère 'a ogonek', le glyphe 'a' est le glyphe de base et il sera placé normalement. Le glyphe 'ogonek' est le 'glyphe de signe' et sera positionné de sorte que le point d'ancrage du 'glyphe de signe' coïncide avec le point d'ancrage sur le glyphe de base.
 
 Dans l'exemple ci-dessous, en créant un caractère 'a ogonek', une classe d'ancrage a été créée et appelée 'bas'. Dans le glyphe 'a' minuscule, l'ancrage du 'bas' est placé au bas du fût du 'a' sous la forme d'une ancre de 'glyphe de base'. (voir ci-dessous)
 
-<img src="images/dia_a_anchor.png"/>
+<img src="images/dia_a_anchor-fr-FR.png"/>
 
-Dans le glyphe 'ogonek', l'ancre du bas est placée au sommet du glyphe ogonek, sous la forme d'une ancre de 'marque'. (voir ci-dessous)
+Dans le glyphe 'ogonek', l'ancre du bas est placée au sommet du glyphe ogonek, sous la forme d'une ancre de 'signe'. (voir ci-dessous)
 
-<img src="images/dia_ogonek_anchor.png"/>
+<img src="images/dia_ogonek_anchor-fr-FR.png"/>
 
-Ensuite, lorsque le caractère 'a ogonek' est construit (en utilisant la fonction 'Créer les glyphes accentués'), le point d'ancrage de la marque inférieure sera placé au même emplacement que le point d'ancrage de base du 'bas', assurant que le glyphe ogonek indiqué est placé correctement au pied du fût du glyphe 'a' indiqué (voir ci-dessous). Ce placement exact et automatique n'aurait pas été possible sans utiliser de points d'ancrage pour positionner les glyphes de base et de marque.
+Ensuite, lorsque le caractère 'a ogonek' est construit (en utilisant la fonction 'Créer les glyphes accentués'), le point d'ancrage du signe inférieur sera placé au même emplacement que le point d'ancrage de base du 'bas', assurant que le glyphe ogonek indiqué est placé correctement au pied du fût du glyphe 'a' indiqué (voir ci-dessous). Ce placement exact et automatique n'aurait pas été possible sans utiliser de points d'ancrage pour positionner les glyphes de base et de signe.
 
-<img src="images/dia_a_ogonek_anchors.png" />
+<img src="images/dia_a_ogonek_anchors-fr-FR.png" />
 
-### Création de points d'ancrage pour le placement de signes diacritiques (positionnement marque sur base)
+### Création de points d'ancrage pour le placement de signes diacritiques (positionnement signe sur base)
 
-FontForge utilise des fonctionnalités de recherche (lookup) appelées 'marque sur base' pour créer et positionner des points d'ancrage. Ces lookups de marque sur base peuvent être créés et édités dans la section Lookup GPOS des informations sur la fonte de votre police ('Elément> Infos fonte> Lookups> GPOS').
+FontForge utilise des fonctionnalités de recherche (lookup) appelées 'signe sur base' pour créer et positionner des points d'ancrage. Ces lookups de signe sur base peuvent être créés et édités dans la section Lookup GPOS des informations sur la fonte de votre police ('Elément> Infos fonte> Lookups> GPOS').
 
-Dans la fenêtre Lookups GPOS, cliquez sur 'Nouveau lookup' et choisissez 'Positionnement marque sur base', puis choisissez 'Positionnement par marque' dans la colonne 'Nouveau' du volet Fonctionnalité (voir ci-dessous). Cliquez sur 'OK' pour fermer la fenêtre.
+Dans la fenêtre Lookups GPOS, cliquez sur 'Nouveau lookup' et choisissez 'Positionnement signe sur base', puis choisissez 'Positionnement par signe' dans la colonne 'Nouveau' du volet Fonctionnalité (voir ci-dessous). Cliquez sur 'OK' pour fermer la fenêtre.
 
-<img src="images/dia_new_mark_to_base_1.png"/>
+<img src="images/dia_new_mark_to_base_1-fr-FR.png"/>
 
 Lorsque le nouveau lookup est sélectionné, cliquez sur 'Nouvelle sous-table'. Dans la fenêtre résultante (voir ci-dessous), vous pouvez créer vos classes d'ancrage.
 
-<img src="images/dia_anchor_new_subtable.png" />
+<img src="images/dia_anchor_new_subtable-fr-FR.png" />
 
 Dans cet exemple (ci-dessous), deux classes d'ancre ont été créées, 'haut' et 'bas'. La classe d'ancrage du 'haut' sera utilisée pour positionner les signes diacritiques placés au-dessus des glyphes, et l'ancrage du 'bas' sera utilisée pour positionner les signes sous les glyphes.
 
-<img src="images/dia_marks_classes_add.png" />
+<img src="images/dia_marks_classes_add-fr-FR.png" />
 
 Pour placer une ancre avec un glyphe, il suffit d'utiliser le bouton droit de la souris dans une fenêtre d'édition de glyphe et de sélectionner la fonction 'Ajouter ancre' dans le menu contextuel.
 
-La boîte de dialogue qui s'affiche vous permet d'indiquer si l'ancre est une base ou une marque d'ancrage. La position de l'ancre peut également être affinée à partir de cette boîte de dialogue. Alternativement, l'ancre peut être déplacé en étant déplacé à la position avec la souris, ou déplacé en utilisant les touches haut, bas, gauche et droite. Le point d'ancrage peut également être modifié en cliquant avec le bouton droit de la souris sur le point d'ancrage et en choisissant «get info» dans le menu de la souris.
-The dialogue box that appears enables you to assign whether the anchor is a base or mark anchor. The anchor's position can also be fine tuned from this dialogue box. Alternatively the anchor can be moved by being dragged to position with the mouse, or moved by using the up, down, left and right keys. The anchor point can also be edited by right clicking on the anchor point and choosing 'get info' from the mouse click menu.
+La boîte de dialogue qui s'affiche vous permet d'indiquer si l'ancre est un ancrage sur base ou sur signe. La position de l'ancre peut également être affinée à partir de cette boîte de dialogue. Alternativement, l'ancre peut être déplacé en étant déplacé à la position avec la souris, ou déplacé en utilisant les touches haut, bas, gauche et droite. Le point d'ancrage peut également être modifié en cliquant avec le bouton droit de la souris sur le point d'ancrage et en choisissant «Infos...» dans le menu de la souris.
 
 ### Contrôle des classes d'ancrage
-Control of Anchor Classes
 
-FontForge contient également une interface graphique utile pour contrôler la position de classes entières de points d'ancrage, permettant à l'utilisateur d'affiner la position de, par exemple, tous les accents aigus à la fois dans une police, ou tous les ancres dans une classe contenue dans , Par exemple, les caractères qui font référence à la minuscule «e». Dans les exemples ci-dessous, nous pouvons voir comment utiliser cette interface graphique pour affiner la position de tous les accents aigus dans une police et pour affiner une classe d'ancres sur tous les caractères qui font référence au glyphe de 'lowecase'.
-FontForge also contains a usefull graphical interface for controlling the position of whole classes of anchor points, enabling the user to fine tune the position of, for example, all the acute accents at once in a font, or all the anchors in a class contained in, for example, characters that reference the lowercase 'e'. In the examples below we can see how to use this graphical interface to fine tune the position of all acute accents in a font, and, to fine tune a class of anchors across all characters that reference the lowecase 'e' glyph.
+FontForge contient également une interface graphique utile pour contrôler la position de classes entières de points d'ancrage, permettant à l'utilisateur d'affiner la position de, par exemple, tous les accents aigus à la fois dans une police, ou tous les ancres dans une classe contenue dans, par exemple, les caractères qui font référence à la minuscule 'e'. Dans les exemples ci-dessous, nous pouvons voir comment utiliser cette interface graphique pour affiner la position de tous les accents aigus dans une police et pour affiner une classe d'ancre sur tous les caractères qui font référence au glyphe 'e' minuscule.
 
-Une fois que vous avez créé des classes d'ancrage dans vos recherches de position mark-to-base et ajouté des ancres à certains glyphes, vous pouvez contrôler ces classes à partir de "Element> Font Info> Lookups> GPOS" puis modifier une sous-table contenant des classes d'ancrage. Vous verrez alors cette fenêtre;
-Once you have created anchor classes within your mark-to-base position lookups, and added anchors to some glyphs, you can control these classes from "Element>Font Info>Lookups>GPOS" and then editing a subtable that contains anchor classes. You will then see this window;
+Une fois que vous avez créé des classes d'ancrage dans vos lookups de positionnement 'signe sur base' et ajouté des ancres à certains glyphes, vous pouvez contrôler ces classes à partir de "Élément>Infos fonte>Lookups> GPOS" puis modifier une sous-table contenant les classes d'ancrage. Vous verrez alors cette fenêtre;
 
-<img src="images/dia_anchor_control_1.png" />
+<img src="images/dia_anchor_control_1-fr-FR.png" />
 
-À partir de là, sélectionnez la classe que vous souhaitez modifier et cliquez sur le bouton 'Contrôle d'ancrage'. Vous serez ensuite présenté par une interface graphique à cette classe. Dans les exemples ci-dessous, nous éditons le contrôle de la classe 'top'. Dans le premier exemple (ci-dessous), la minuscule «e» a été sélectionnée dans la section «Bases» du menu déroulant. Lorsqu'un glyphe de base est sélectionné, tous les caractères qui font référence à ce glyphe et contiennent un ancrage de base «supérieur» s'affichent dans le volet d'aperçu. Nous pouvons alors ajuster la position de l'ancre de base 'top' pour voir comment elle effectue la position de tous les glyphes qui contiennent l'ancrage de la marque 'top'.
-From here select the class you wish to edit and click on the 'Anchor Control' button. You will then be presented by a graphical interface to that class. In the examples below we are editing the control of the 'top' class. In the first example (below) the lowercase 'e' has been selected from the 'Bases' section of the drop down menu. When a base glyph is selected, all characters that reference that glyph and contain a 'top' base anchor, will be displayed in the preview pane. We can then adjust the position of the 'top' base anchor to see how it effects the position of all glyphs that contain the 'top' mark anchor.
+À partir de là, sélectionnez la classe que vous souhaitez modifier et cliquez sur le bouton 'Contrôle des ancres'. Une interface graphique de cette classe vous sera ensuite présentée. Dans les exemples ci-dessous, nous éditons le contrôle de la classe 'haut'. Dans le premier exemple (ci-dessous), la minuscule 'e' a été sélectionnée dans la section 'Bases' du menu déroulant. Lorsqu'un glyphe de base est sélectionné, tous les caractères qui font référence à ce glyphe et contiennent un ancrage 'haut' de base s'affichent dans le volet d'aperçu. Nous pouvons alors ajuster la position de l'ancre de base 'haut' pour voir comment elle affecte la position de tous les glyphes qui contiennent l'ancrage de signe 'haut'.
 
-<img src="images/dia_anchor_control_e.png" />
+<img src="images/dia_anchor_control_e-fr-FR.png" />
 
-Dans le deuxième exemple ci-dessous, le glyphe «aigu» a été sélectionné dans la section «Marques» du menu déroulant. Lorsqu'un glyphe de marque est sélectionné, tous les glyphes qui font référence au glyphe sélectionné et contiennent un point d'ancrage «supérieur» s'affichent pour l'aperçu.
-In the second example, below, the 'acute' glyph has been selected from the 'Marks' section of the drop down menu. When a mark glyph is selected then all glyphs that reference the selected glyph and contain a 'top' mark anchor will be displayed for preview.
+Dans le deuxième exemple ci-dessous, le glyphe 'aigu' a été sélectionné dans la section 'Signes' du menu déroulant. Lorsqu'un glyphe de signe est sélectionné, tous les glyphes qui font référence au glyphe sélectionné et contiennent un point d'ancrage 'haut' s'affichent dans l'aperçu.
 
-<img src="images/dia_anchor_control_mark.png" />
+<img src="images/dia_anchor_control_mark-fr-FR.png" />
 
 
 ## Autres ressources (en anglais)

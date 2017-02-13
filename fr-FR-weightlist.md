@@ -20,8 +20,8 @@
 | 42     | Ponctuation et symboles                    |
 | 45     | Finalisation des minuscules                |
 | 48     | Diacritiques et accents                    |
-| 51     | Numerals                                   |
-| 54     | Bold and Other Weights                     |
+| 51     | Chiffres                                   |
+| 54     | Gras                                       |
 | 57     | Italic                                     |
 | 60     | Spacing, Metrics and Kerning               |
 | 63     | Making Sure Your Font Works, Validation    |

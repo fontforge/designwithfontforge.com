@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 54
 category: workflow
-title: Bold
+title: Gras
 ---
 
 When we talk about the style "bold," we are really talking about a broader variable, which is weight. Weight can include anything from very very thin hairline letters to enormously heavy letters. This variable is used in text typography to create strong separation between bodies of text, and it is used in graphic design either to draw attention to a word or short texts, or to give text a specific feeling (rather than to contrast it with other text).

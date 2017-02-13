@@ -5,7 +5,7 @@ weight: 45
 category: workflow
 title: Finalisation des minuscules
 ---
-Vous avez peut-être remarqué dans les polices que vous avez vu avant, tandis que chaque lettre a sa propre forme, elles se rapportent tous les uns aux autres. En déconstruisant soigneusement quelques glyphes, vous obtenez les blocs de construction de presque toutes les autres.
+Vous avez peut-être remarqué dans des polices que, tandis que chaque lettre a sa propre forme, elles se rapportent toutes les unes aux autres. En déconstruisant soigneusement quelques glyphes, vous obtenez les blocs de construction de presque tous les autres.
 
 Noter la similitude entre les terminaisons supérieures sur ce c et ce f:
 
