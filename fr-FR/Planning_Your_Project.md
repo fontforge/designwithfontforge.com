@@ -26,7 +26,7 @@ La portée du projet peut être déterminée exclusivement par votre ambition et
 
 ## Sentiment
 
-L'aspect le plus important d'un design de police est le sentiment qu'elle évoque. C'est notoirement
+L'aspect le plus important d'un design de police est le sentiment qu'il évoque. C'est notoirement
 difficile à verbaliser, mais c'est ce qui rend une police de caractères significativement différente de toute autre.
 
 Un concepteur de police du Portugal, Natanael Gama, a conçu la [famille Exo](https://www.google.com/fonts/specimen/Exo) avec FontForge.

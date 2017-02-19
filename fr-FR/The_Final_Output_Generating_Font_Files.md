@@ -1,118 +1,119 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 66
 category: workflow
-title: The Final Output, Generating Font Files
+title: Le produit final, génération des fichiers de polices
 ---
 
-Although you can do a wide range of testing within FontForge itself, you will need to generate installable font files in order to perform real-world testing during the development process.  In addition, your ultimate goal is of course to create font that you can make available in an output format for other people to install and use. You will use the <em>Generate Fonts </em>tool (found in the File menu) to build a usable output font regardless of whether you are making it for your own testing purposes or to publish it for consumption by others, but you will want to employ a few extra steps when building the finished product.
+Bien que vous puissiez effectuer un large éventail de tests dans FontForge, vous devrez générer des fichiers de polices installables afin d'effectuer des tests réels pendant le processus de développement. En outre, votre objectif ultime est bien sûr de créer une police que vous pouvez rendre disponible dans un format de sortie pour d'autres personnes qui l'installeront et l'utiliseront. Vous utiliserez l'outil <em>Générer fonte(s)</em> (qui se trouve dans le menu Fichier) pour compiler une police utilisable, que ce soit pour vos propres tests ou pour publication au grand public. Mais vous devrez employer quelques étapes supplémentaires lors de la compilation du produit fini.
 
-FontForge can export your font to a variety of different formats, but in practice only two are important: TrueType (which is found with the <em>.ttf</em> filename extension) and OpenType CFF (which is found with the <em>.otf</em> extension). Technically the OpenType format can encompass a range of other options, but the CFF type is the one in widespread use.
+FontForge peut exporter vos polices vers différents formats, mais en pratique seulement deux sont importants: TrueType (qui a une extension de fichier <em>.ttf </em>) et OpenType CFF (qui a une extension <em >.otf </em>). Techniquement, le format OpenType peut englober toute une gamme d'autres options, mais le format CFF est celui qui est largement utilisé.
 
-## Quick and dirty generation for testing
+## Génération expéditive pour les tests
 
-To build a font file for testing purposes — such as to examine the spacing in a web browser -- you need only to ensure that your font passes the required validation tests.
+Pour construire un fichier de police à des fins de test - pour examiner l'espacement dans un navigateur Web par exemple - vous devez seulement vous assurer que votre police passe les tests de validation requis.
 
-You can use the <em>Validate Font</em> tool found in the Element menu to do this (see the chapter on validating fonts for a more detailed explanation), or you can select all of the glyphs (hit Control-A or choose "Select" -&gt; "Select All" from the "Edit" menu) then run a few commands to apply some basic changes in bulk. Be sure to save your work before you proceed any further, though: some of the changes required to validate your font for export will alter the shapes of your glyphs in subtle ways.
+Vous pouvez utiliser l'outil <em>Validation</em> dans le menu Élément (voir le chapitre sur la validation des polices pour une explication plus détaillée) ou sélectionner tous les glyphes (appuyez sur Control-A ou choisissez "Sélectionner" -&gt; "Tout sélectionner" dans le menu "Édition") puis exécutez quelques commandes pour appliquer des modifications de base en vrac. N'oubliez pas de sauvegarder votre travail avant de continuer. Cependant, certaines des modifications requises pour valider votre police pour l'exportation va modifier les formes de vos glyphes de façon subtile.
 
-For OpenType fonts, first correct the direction of all of your paths. Hit Control-Shift-D or choose "Correct Direction" from the "Element" menu. Next, check to make sure that you have not left any unclosed paths. Choose "Find problems" from the "Element" menu, select the <em>Open paths</em> option in the "Paths" tab, and click OK to run the test. Once your font passes the test without errors, you are ready to generate OpenType output.
+Pour les polices OpenType, corrigez d'abord la direction de tous vos chemins. Appuyez sur Contrôle-Maj-D ou choisissez "Corriger direction" dans le menu "Elément". Ensuite, vérifiez que vous n'avez pas laissé de chemins non fermés. Choisissez "Validation>Problèmes..." dans le menu «Elément», sélectionnez l'option <em>Chemins ouverts</em> dans l'onglet «Chemins» et cliquez sur OK pour lancer le test. Une fois que votre police passe le test sans erreurs, vous êtes prêt à générer une sortie OpenType.
 
-For TrueType fonts, a few additional steps are required. You should first correct the direction of all of your paths as described above. Next, adjust all points to have integer coordinates: either hit Control-Shift-_ (underscore), or choose <em>To Int</em> from the "Element" -&gt; "Round" menu. Finally, open the "Find problems" tool, select the <em>Open paths</em> test as described above, and also select all of the tests in the "Refs" tab.
+Pour les polices TrueType, quelques étapes supplémentaires sont nécessaires. Vous devez d'abord corriger la direction de tous vos chemins comme décrit ci-dessus. Ensuite, ajustez tous les points pour qu'ils aient des coordonnées entières: soit appuyez sur Control-Maj-_ (soulignement), ou choisissez <em>à l'entier</em> dans le menu "Element" -&gt; "Arrondir". Enfin, ouvrez l'outil "Recherche de problèmes", sélectionnez le test <em>Chemins ouverts</em> comme décrit ci-dessus, puis sélectionnez tous les tests dans l'onglet "Références".
 
-After you can run these tests without errors, you will then need to convert your paths to quadratic curves. Open the "Font Info" window from the "Element" menu. Click on the "Layers" tab, and check the <em>All layers quadratic</em> option. Click OK at the bottom of the window, and you are ready to generate TrueType output.
+Afin que vous puissiez exécuter ces tests sans erreurs, vous devriez alors convertir vos chemins en courbes quadratiques. Ouvrez la fenêtre "Infos fonte" dans le menu "Élément". Cliquez sur l'onglet "Calques" et cochez l'option <em>Tous les calques quadratiques</em>. Cliquez sur OK en bas de la fenêtre et vous êtes prêt à générer une sortie TrueType.
 
-### Building the font files
+### Compilation des fichiers de polices
 
-Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. The top half of the window shows the familiar file-chooser options — a list of the files found in the current directory, a text-entry box for you to enter a filename, and buttons to navigate to other folders and directories if necessary. This is strictly a means to help you quickly find the right place to save your output file, or to choose an existing font file if you intend to overwrite a previous save. All of the options you need to look at are found in the bottom half of the window.
+Ouvrez la fenêtre <em>Générer fonte(s)</em> en la choisissant dans le menu "Fichier". La moitié supérieure de la fenêtre affiche des options familières de sélection de fichier, une liste des fichiers trouvés dans le répertoire courant, une zone de texte pour entrer un nom de fichier et des boutons pour naviguer vers d'autres dossiers et répertoires si nécessaire. C'est strictement un moyen pour vous aider à trouver rapidement le bon endroit pour enregistrer votre fichier de sortie, ou de choisir un fichier de police existant si vous avez l'intention de remplacer une sauvegarde précédente. Toutes les options que vous devez examiner se trouvent dans la moitié inférieure de la fenêtre.
 
-<img src="images/generate.png" alt="">
+<img src="images/generate-fr-FR.png" alt="">
 
-On the left-hand side is a pull-down menu from which you select the format of the font you wish to generate. You should choose either <em>TrueType</em> or <em>OpenType (CFF)</em>, as discussed earlier. On the right-hand side, make sure <em>No Bitmap Fonts</em> is selected. On the line below, make sure <em>No Rename</em> is selected for the "Force glyph names to:" option. You can check the "Validate Before Saving" option if you wish (to potentially catch additional errors), but this is optional. Leave the "Append a FONTLOG entry," "Prepend timestamp," and "Upload to the Open Font Library" options unchecked.
+Sur la gauche, un menu déroulant vous permet de sélectionner le format de la police que vous souhaitez générer. Vous devez choisir <em>TrueType</em> ou <em>OpenType (CFF)</em>, comme indiqué précédemment. Sur le côté droit, assurez-vous que <em>Aucun format Bitmap</em> est sélectionné. Sur la ligne en-dessous, assurez-vous que <em>Pas de renommage</em> est sélectionné pour l'option "Nommage forcé des glyphes vers:". Vous pouvez cochez l'option "Validation avant d'enregistrer" si vous le souhaitez (pour potentiellement attraper d'autres erreurs), mais cela est facultatif. Laissez les options "Ajouter une entrée au FONTLOG" et "Date et heure en préfixe" désactivées.
 
-Click the "Generate" button, and FontForge will build your font file. You can load the font in other applications and run any tests, but when you are ready to return to editing, remember to re-open the saved version of your font that you created before generating your <em>.ttf</em> or <em>.otf</em> output.
+Cliquez sur le bouton "Générer", et FontForge va compiler votre fichier de polices. Vous pouvez charger la police dans d'autres applications et exécuter des tests, mais quand vous êtes prêt à revenir à l'édition, n'oubliez pas de rouvrir la version enregistrée de votre police que vous avez créée avant de générer votre <em>.ttf </em> ou <Em>.otf</em>.
 
-## Generating for final release
+## Génération de la version finale
 
-Designing your font is an iterative process, but eventually the day when come when you must declare your font finished — or at least ready for public consumption. At that point, you will again generate a .ttf or .otf output file (perhaps even both), but before doing so you will need to work through a few additional steps to create the most standards-compliant and user-friendly version of your font file.
+La conception de votre police est un processus itératif, mais le jour viendra où vous devrez déclarer votre police terminée - ou au moins prête pour distribution au public. À ce stade, vous allez à nouveau générer un fichier de sortie .ttf ou .otf (peut-être même les deux), mais avant cela, vous devrez effectuer quelques étapes supplémentaires pour créer la version la plus conforme aux normes et la plus conviviale de votre fichier de police.
 
-First, follow the same preparation steps outlined in the section on quick and dirty generation for testing purposes. In particular, remember to change your font to <em>All layers quadratic</em> if you are creating a TrueType file.
+Tout d'abord, suivez les mêmes étapes de préparation que décrites dans la section sur la génération expéditive pour les tests. En particulier, n'oubliez pas de changer votre police à <em> Tous les calques quadratiques</em> si vous créez un fichier TrueType.
 
-### Remove overlaps
+### Supprimer les chevauchements
 
-As you know, it is a good idea to keep your letter-forms as combinations of discrete components as you design: stems, bowls, serifs, and other pieces of each glyph. But although this technique is great for designing and refining forms, you want your final, published font to have simple outlines of each glyph instead. This reduces file size a bit, but more importantly it cuts down on rendering errors.
+Comme vous le savez, il est judicieux de conserver vos lettres sous forme de combinaisons de composants distincts que vous concevez: fûts, panses, empattements et autres morceaux de chaque glyphe. Mais bien que cette technique soit idéale pour la conception et le raffinage des formes, vous voulez que votre police finale et publiée ait des glyphes avec contours simples à la place. Cela réduit la taille du fichier un peu, mais surtout réduit les erreurs de rendu.
 
-FontForge has a <em>Remove Overlap</em> command that will automatically combine the separate components of a glyph into a single outline. Select a glyph (or even select all glyphs with Control-A), then hit Control-Shift-O or choose Remove Overlap from the "Element" -&gt; "Overlap" menu. One caveat is worth watching out for, however: FontForge cannot merge shapes if one of the shapes is traced in the wrong direction (that is, if the outermost path is counterclockwise). A path traced in the wrong direction is an error of its own, though, which you should fix anyway.
+FontForge dispose d'une commande <em>Supprimer les recouvrements</em> qui combinera automatiquement les composants séparés d'un glyphe en un seul contour. Sélectionnez un glyphe (ou même sélectionnez tous les glyphes avec Control-A), puis appuyez sur Control-Maj-O ou choisissez Enlever les recouvrements dans le menu "Élément" -&gt; "Recouvrements". Cependant, une mise en garde: FontForge ne peut pas fusionner des formes si l'une des formes est tracée dans la mauvaise direction (c'est-à-dire si le chemin le plus à l'extérieur est dans le sens anti-horaire). Un chemin tracé dans la mauvaise direction est une erreur en elle-même que vous devriez réparer de toute façon.
 
-### Simplify contours and add extrema points
+### Simplifier les contours et ajouter des points extrema
 
-You should also simplify your glyphs where possible — not eliminating details, but eliminating redundant points. This reduces files size slightly for every glyph, which adds up considerably over the entire set of characters in the font.
+Vous devriez également simplifier vos glyphes si possible - sans éliminer les détails, mais éliminer les points redondants. Cela réduit la taille de chaque glyphe, ce qui réduit considérablement la taille de l'ensemble des caractères de la police.
 
-From the "Element" menu, choose "Simplify" -&gt; <em>Simplify</em> (or hit Control-Shift-M). This command will merge away redundant on-curve points in all of the selected glyphs. In some cases, there will be only a few points removed, in others there may be many. But it should perform the simplification without noticeably changing the shape of any glyphs. If you notice a particular glyph that <em>is</em> altered too much by <em>Simplify</em>, feel free to undo the operation. You can also experiment with the <em>Simplify More</em> command also located in the same menu; it offers tweakable parameters that could prove helpful.
+Dans le menu "Élément", choisissez "Simplifier" -&gt;<Em>Simplifier</em> (ou appuyez sur Control-Maj-M). Cette commande fusionnera les points redondants sur la courbe dans tous les glyphes sélectionnés. Dans certains cas, seulement quelques points seront enlevés, dans d'autres il peut y en avoir beaucoup. Mais la simplification devrait se faire sans modifier sensiblement la forme des glyphes. Si vous constatez qu'un glyphe particulier <em>est</em> trop modifié par <em>Simplifier</em>, n'hésitez pas à annuler l'opération. Vous pouvez également expérimenter avec la commande <em>Simplifier d'avantage</em> située dans le même menu; elle offre des paramètres modifiables qui pourraient s'avérer utiles.
 
-In any event, after you have completed the simplification step, you will need to add any missing extrema points. Choose <em>Add Extrema</em> from the "Element" menu (or hit Control-Shift-X). As discussed earlier, it is a good idea to place on-curve points at the extrema of every glyph as you edit. Nevertheless, you must still perform this step when preparing for final output generation because the <em>Simplify</em> step will occasionally remove an extrema point.
+Dans tous les cas, après avoir terminé l'étape de simplification, vous devez ajouter tous les points extrema absents. Choisissez <em>Ajouter des extrema</em> dans le menu "Élément" (ou appuyez sur Contrôle-Maj-X). Comme indiqué précédemment, il est judicieux de placer des points sur courbe à l'extrémité de chaque glyphe durant sa création. Néanmoins, vous devriez tout de même effectuer cette étape lors de la préparation de la génération de sortie finale, car l'étape <em>Simplifier</em> éliminera occasionnellement un point extrema.
 
-### Round everything to integer coordinates
+### Tout arrondir à des coordonnées entières
 
-The final preparation step to perform is to round all points (both on-curve points and control points) to integer coordinates. This is mandatory for generating TrueType output, but is highly recommended for OpenType output as well. It can result in sharper rendering and better grid-fitting when the fonts are displayed, without any additional design work.
+L'étape de préparation finale à exécuter consiste à arrondir tous les points (points de courbe et points de contrôle) à des coordonnées entières. Ceci est obligatoire pour générer une sortie TrueType, mais est également fortement recommandé pour la sortie OpenType. Il peut en résulter un rendu plus précis et un meilleur ajustement à la grille lorsque les polices sont affichées, sans effort de design supplémentaire.
 
-To round all points to integer coordinates, choose "Element" -&gt; "Round" -&gt; <em>To Int</em>.
+Pour arrondir tous les points à des coordonnées entières, choisissez "Élément" - &gt; "Arrondir" -&gt; <Em>à l'entier</em>.
 
-As soon as this operation is completed, you may notice something puzzling. Sometimes, simply due to the peculiarities of the curves involved, the processes of rounding to integer coordinates, simplifying glyphs, and adding missing extrema can work against each other. An example of when this might occur is when a curved outer edge has a control point that lies just past the horizontal or vertical; in this situation rounding it to integer coordinates can shift the curve slightly and change where the extrema lies.
+Dès que cette opération est terminée, vous pourriez remarquer quelque chose de déroutant. Parfois, simplement en raison des particularités des courbes impliquées, les processus d'arrondissement aux coordonnées entières, de simplification des glyphes et d'ajout d'extrema manquants peuvent être opposés. Cela peut se produire par exemple quand un bord extérieur incurvé a un point de contrôle qui se trouve juste devant l'horizontale ou la verticale. Dans cette situation, l'arrondissement à des coordonnées entières peut décaler la courbe légèrement et changer la position des extrema.
 
-There is not a one-shot solution to this conundrum; the only guaranteed fix is to repeat the cycle of steps for the affected glyphs until they stabilize at a point where the three operations no longer interfere with each other. This may take multiple cycles, but it is a rare occurrence.
+Il n'y a pas de solution unique à ce dilemme.  Le seul correctif garanti est de répéter le cycle d'étapes pour les glyphes affectés jusqu'à ce qu'ils se stabilisent à un point où les trois opérations n'interfèrent plus les uns avec les autres. Cela peut prendre plusieurs cycles, mais c'est rare.
 
-### Validate
+### Valider
 
-Your font should pass the required validation tests before you generate your final output. As with the rounding-points-to-integer-coordinates step, though, sometimes the other preparatory operations can introduce errors, so it is always a good idea to run the whole-font validator at this stage before building the final output. The chapter on FontForge's validation tools will give you more detail on what to check.
+Votre police doit passer les tests de validation nécessaires avant de générer votre sortie finale. Comme dans le cas de l'étape de l'arrondissement des coordonnées à des entiers, les autres opérations préparatoires peuvent parfois introduire des erreurs.  Il est donc toujours judicieux d'exécuter le validateur de la police entière à ce stade avant de compiler la sortie finale. Le chapitre sur les outils de validation de FontForge vous donnera plus de détails sur ce qu'il faut vérifier.
 
-### A word about hinting
+### Un mot sur le hinting
 
-Hinting refers to the use of mathematical instructions to render the vector curves in a font in such a way that they line up nicely with the pixel grid of the rasterized output device (whether that grid is composed of dots of ink or toner on paper, or luminescent dots on a computer monitor).
+Le hinting fait référence à l'utilisation d'instructions mathématiques pour afficher les courbes vectorielles dans une police de telle sorte qu'elles s'alignent bien avec la grille de pixels du dispositif de sortie (que cette grille soit composée de points d'encre ou de toner sur papier, ou luminescents sur un moniteur d'ordinateur).
 
-FontForge allows you to hint your font (and even provides an <em>Autohint</em> function), but in practice this step is not strictly necessary. Modern operating systems often have better grid-fitting functionality built into their text rendering engines than you can create yourself without expending considerable time and effort. In fact, Mac OS X and Linux both <em>ignore</em> any hints embedded in the font file itself. If you do decide your font needs hinting for the benefit of Windows users, your best bet is to build the font without embedded hints, then use a specialized application such as <strong>ttfautohint</strong> to add hinting after the fact.
+FontForge vous permet d'ajouter des hints à votre police (et même fournit une fonction <em>Autohint</em>), mais en pratique cette étape n'est pas strictement nécessaire. Les systèmes d'exploitation modernes ont souvent une meilleure fonctionnalité d'ajustement à la grille dans leurs moteurs de rendu de texte que celle fournie par les hints que vous auriez créé avec beaucoup de temps et d'efforts. En fait, Mac OS X et Linux <em>ignorent</em> tous les hints incorporés dans le fichier de police. Si vous décidez que votre police requière du hinting pour les utilisateurs de Windows, il est préférable de construire la police sans hint, puis d'utiliser une application spécialisée telle que <strong>ttfautohint</strong> pour ajouter du hinting après le fait.
 
-For CFF hinting, see [this video](http://vimeo.com/38364880) from Adobe at RoboThon.
+Pour le hinting CFF, consultez [cette vidéo](http://vimeo.com/38364880) d'Adobe chez RoboThon.
 
-To set the PS hinting with Python is possible: `private` is a list of tuples (Thanks [Sungsit](https://github.com/fontuni/boon/issues/26#issuecomment-157640491)!)
+Configurer le hinting PS avec Python est possible: `private` est une liste de tuples (Merci [Sungsit](https://github.com/fontuni/boon/issues/26#issuecomment-157640491)!)
 
     font.private['BlueValues'] = (-20, 0, 600, 620, 780, 800, 810, 830)
     font.private['OtherBlues'] = (-225, -210)
     font.private['StdHW'] = 100,
     font.private['StdVW'] = 137,
 
-### Check your metadata
+### Vérifiez vos métadonnées
 
-Last but certainly not least, once your font has been thoroughly prepared technically for export, you should pause and update the font metadata, making sure that important metadata information is included, and that it is up to date.
+Enfin, une fois que votre police a été soigneusement préparée techniquement pour l'exportation, vous devriez prendre une pause et mettre à jour les métadonnées, en veillant à ce que des informations importantes soient incluses et à jour.
 
-First, if this is the initial release of your font, open the <em>Font Info</em> dialog from the "Element" window, and select the "PS Names" tab. Fill in the font's Family Name and Weight first, then copy that information into the "Name for Humans" box. Although using version numbers is not required, it is extremely helpful for you as a designer to differentiate between different revisions of your work. Enter "1.0" as the "Version" number if you are not sure. Next, visit the "TTF Names" tab and enter the same information.
+Tout d'abord, s'il s'agit de la version initiale de votre police, ouvrez la boîte de dialogue <em>Infos fonte</em> de la fenêtre "Élément" et sélectionnez l'onglet "Noms Postscript". Remplissez d'abord le nom de famille et la graisse de la fonte, puis copiez ces informations dans la case "Nom courant". Bien que l'utilisation de numéros de version ne soit pas nécessaire, il est extrêmement utile pour vous en tant que concepteur de différencier entre les différentes révisions de votre travail. Entrez "1.0" comme numéro de "Version" si vous n'êtes pas sûr. Ensuite, visitez l'onglet "Noms TTF" et entrez les mêmes informations.
 
-<img src="images/fontinfo.png" alt="">
+<img src="images/fontinfo-fr-FR.png" alt="">
 
-As is the case with version numbers, it is helpful in the long run for you to make log entries for each revision. Go to the "FONTLOG" tab and write a brief sentence or two explaining what changes if any have gone into the revision that you are building for release. If this is your initial log entry, you should also describe your font and its purpose in a sentence or two.
+Comme c'est le cas pour les numéros de version, il est utile, à long terme, de créer des entrées de journal pour chaque révision. Allez dans l'onglet "FONTLOG" et écrivez une ou deux phrases pour expliquer les changements éventuels dans la révision que vous créez pour distribution. Si c'est votre première entrée de journal, vous devriez également décrire votre fonte et son but dans une phrase ou deux.
 
-Fonts, like all creative works, need to have a license, so users will know what they are and are not allowed to do. FontForge has a button in the "TTF Nmes" tab labelled "Add SIL Open Font License." The Open Font License (OFL) is a font license designed to allow you to share your font with the public with very few restrictions on how where it is used, while still protecting you as the designer from having others take credit for your work or creative derivatives of your font that will be confused for the original. Clicking the button will add "License" and "License URL" strings to the TTF Names metadata. If you have another license you would prefer to use instead of the OFL, enter it in the "License" field instead.
+Les polices, comme toutes les œuvres de création, doivent disposer d'une licence, afin que les utilisateurs sachent ce qu'ils sont et ne sont pas autorisés à faire. FontForge a un bouton dans l'onglet "Noms TTF" appelé "Ajouter Open Font License". La licence Open Font (OFL) est une licence de police conçue pour vous permettre de partager votre police avec le public avec très peu de restrictions sur la façon dont elle est utilisée, tout en vous protégeant en tant que concepteur d'autres prenant le crédit pour votre travail ou des dérivés créatifs de votre police qui seront confondus pour l'original. Cliquez sur le bouton pour ajouter les chaînes "Licence" et "URL de la licence" aux métadonnées des noms TTF. Si vous avez une autre licence que vous préférez utiliser au lieu de l'OFL, saisissez-la dans le champ "Licence" à la place.
 
-<img src="images/metadata.png" alt="">
+<img src="images/metadata-fr-FR.png" alt="">
 
-If you have made significant changes to other features of your font, it is a good idea to double-check the other font-wide settings in the Font Info window, and make sure everything is still up to date. Line spacing information, for example, is found in the "OS/2" tab under "Metrics."
+Si vous avez apporté des modifications importantes à d'autres fonctionnalités de votre police, il est judicieux de vérifier les autres paramètres dans la fenêtre Infos fonte et de vous assurer que tout est toujours à jour. Les informations d'espacement linéaire, par exemple, se trouvent dans l'onglet "OS/2" sous "Métriques".
 
-### Building the font files
+### Compilation des fichiers de polices
 
-The process for generating the font output files is the same when you are building the final release as it is when you are building a quick-and-dirty copy for testing, but you will want to pay closer attention to some of the options.
+Le processus de génération des fichiers de police est le même lorsque vous créez la version finale comme c'est le cas lorsque vous créez une copie expéditive pour le test, mais vous voudrez accorder une plus grande attention à certaines des options.
 
-Open the <em>Generate Fonts</em> window by choosing it from the "File" menu. Again, the top half of the window allows you to choose the directory and file name to give to your output file — just be careful that you do not overwrite a previous save.
+Ouvrez la fenêtre <em>Générer fonte(s)</em> en la choisissant dans le menu "Fichier". Encore une fois, la moitié supérieure de la fenêtre vous permet de choisir le répertoire et le nom du fichier à donner à votre fichier de sortie - faites attention de ne pas écraser une sauvegarde précédente.
 
-In the left-hand side pull-down menu, select the format of the font you are generating, either <em>TrueType</em> or <em>OpenType (CFF)</em>, as discussed earlier. On the right-hand side, make sure <em>No Bitmap Fonts</em> is selected. On the line below, make sure <em>No Rename</em> is selected for the "Force glyph names to:" option. You can check the "Validate Before Saving" option if you wish (to potentially catch additional errors), but this is optional. Leave the "Append a FONTLOG entry," "Prepend timestamp," and "Upload to the Open Font Library" options unchecked.
+Dans le menu déroulant de gauche, sélectionnez le format de la police que vous générez, <em>TrueType</em> ou <em>OpenType (CFF)</em>, comme indiqué précédemment. Sur le côté droit, assurez-vous que <em>aucun format Bitmap</em> est sélectionné. Sur la ligne en-dessous, assurez-vous que <em>Pas de renommage</em> est sélectionné pour l'option "Nommage des glyphes forcé vers:". Vous pouvez cocher l'option "Validation avant d'enregistrer" si vous le souhaitez (pour potentiellement attraper d'autres erreurs), mais cela est facultatif. Laissez les options "Ajouter une entrée au FONTLOG" et "Date et heure en préfixe" désactivées.
 
-Next, click on the "Options" button. Select the <em>PS Glyph Names</em>, <em>OpenType</em>, and <em>Dummy DSIG</em> options in the window that pops up, and deselect everything else.
+Ensuite, cliquez sur le bouton "Options". Sélectionnez les options <em>Noms de glyphe Postscript</em>, <em>OpenType</em> et <em>DSIG factice</em> dans la fenêtre qui s'affiche et désélectionnez tout le reste.
 
-<img src="images/opentype-options-window.png" alt="">
+<img src="images/opentype-options-window-fr-FR.png" alt="">
 
-Click the "Generate" button, and FontForge will build your font file. One final ord: it is important not to overwrite the saved version of your FontForge work with the modifications you made in this section solely to generate your <em>.ttf</em> or <em>.otf</em> output.  For example, you lose a lot of individual glyph components when you perform the <em>Remove overlaps</em> operation.  But the next time you resume work on your font, you will definitely want to pick up where you left off in the original, individual-glyph-component-filled version.
+Cliquez sur le bouton "Générer", et FontForge va compiler votre fichier de polices. Un dernier mot: il est important de ne pas écraser la version sauvegardée de votre travail dans FontForge avec les modifications que vous avez apportées dans cette section uniquement pour générer votre sortie <em>.ttf</em> ou <em>.otf</em>. Par exemple, vous perdez beaucoup de composants de glyphes individuels lorsque vous effectuez l'opération <em>Supprimer les recouvrements</em>. Mais la prochaine fois que vous reprendrez le travail sur votre police, vous voudrez certainement reprendre où vous avez laissé dans la version originale, la version remplie de glyphes avec composants individuels.
 
-Consequently, if you decide to save the modified version of your FontForge file, be sure that you rename it in a memorable way, such as <em>MyFont-TTF.sfd</em> or <em>MyFont-OTF.sfd</em>. But you do not necessarily need to save these output-oriented variations of your file at all — in practice, the next time you revise your original work in FontForge, you will work through the output preparation steps again anyway.
+Par conséquent, si vous décidez d'enregistrer la version modifiée de votre fichier FontForge, assurez-vous que vous la renommez de manière mémorable, comme <em>MaPolice-TTF.sfd</em> ou <em>MaPolice-OTF.sfd</Em>. Mais vous n'avez pas forcément besoin de sauvegarder ces variations faites pour la sortie de votre fichier - en pratique, la prochaine fois que vous réviserez votre travail original dans FontForge, vous travaillerez de nouveau à la préparation de la sortie.
 
-Congratulations are in order! You have now created your first font. All that remains now is for you to share your work: upload it to the web, post it to your blog, and go tell your friends.
+Félicitations! Vous avez maintenant créé votre première police. Tout ce qui vous reste à faire désormais est de partager votre travail: le télécharger sur le web, l'afficher sur votre blog, et le dire à vos amis.
 
-Without doubt, you will be back and continue revising and refining your typeface — after all, as you have seen, font design is a highly iterative process. But be sure that you pause and take this moment to enjoy what you have accomplished first.
+Sans doute, vous reviendrez et continuerez à réviser et à affiner votre police de caractères - après tout, comme vous l'avez vu, le design des polices est un processus très itératif. Mais assurez-vous de faire une pause et de profiter de ce que vous avez accompli d'abord.
+

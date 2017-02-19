@@ -1,110 +1,107 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 63
 category: workflow
-title: Making Sure Your Font Works, Validation
+title: S'assurer que votre police fonctionne
 ---
 
-In a perfect world, your font would be ready to build and install on any modern computer without any special effort, but reality is messier—particularly during the design process. Fonts can have technical errors that prevent them from working or displaying correctly. For example, curves that intersect themselves will not render correctly because they do not have a "inside" and "outside." The various font file formats also expect glyphs to adhere to certain rules that simplify placing the text on screen, and fonts that break the rules can cause unexpected problems. An example of this type of issue is that all of the points on a curve should have coordinates that are integers. Finally, there are stylistic errors that are not technically incorrect, but that you will still want to repair—such as lines that are intended to be perfectly horizontal or vertical, but are accidentally slightly off-kilter.
+Dans un monde parfait, votre police serait prête à construire et à installer sur n'importe quel ordinateur moderne sans effort particulier, mais la réalité est plus compliquée-en particulier au cours du processus de conception. Les polices peuvent comporter des erreurs techniques qui les empêchent de fonctionner ou de s'afficher correctement. Par exemple, les courbes qui se croisent ne seront pas rendues correctement parce qu'elles n'ont pas «d'intérieur» et «d'extérieur». Les différents formats de fichiers de polices s'attendent également à ce que les glyphes adhèrent à certaines règles qui simplifient le placement du texte à l'écran. Les polices qui enfreignent les règles peuvent provoquer des problèmes inattendus. Un exemple de ce type de problème est que tous les points sur une courbe doivent avoir des coordonnées qui sont des entiers. Enfin, il y a des erreurs stylistiques qui ne sont pas techniquement incorrectes, mais que vous voudrez réparer - telles que des lignes qui sont destinées à être parfaitement horizontale ou verticale, mais sont accidentellement légèrement inclinées.
 
-FontForge offers tools that you can use to locate (and, in many cases, repair) all three categories of problem. Validating your font to eliminate these errors will thus not only ensure that it can be installed and enjoyed by users, but will ensure that finished project exhibits polish.
+FontForge offre des outils que vous pouvez utiliser pour localiser (et, dans de nombreux cas, réparer) les trois catégories de problème. La validation de votre police pour éliminer ces erreurs permettra non seulement de s'assurer qu'elle peut être installée et appréciée par les utilisateurs, mais fera en sorte que le projet fini brille.
 
-## Find Problems
+## Trouvez les problèmes
 
-The first tool is called <em>Find Problems</em>, and is found under the Element menu. You must first select one or more glyphs—either from in the font view, the outline view, or the metrics view—then open the Find Problems tool. The tool presents you with an assortment of potential problems in eight separate tabs.
+Le premier outil est appelé <em>Recherche de problèmes</em> et se trouve sous le menu Élément. Vous devez d'abord sélectionner un ou plusieurs glyphes, soit dans la fenêtre de fonte, soit dans la fenêtre de glyphe, ou dans la fenêtre de métriques, puis ouvrez l'outil Rechercher des problèmes. L'outil vous présente un assortiment de problèmes potentiels dans huit onglets distincts.
 
-<img src="images/findproblemswindow.png" alt="">
+<img src="images/findproblemswindow-fr-FR.png" alt="">
 
-You can select which problems you are interested in looking for by checking the checkbox next to each, and in some cases providing a numeric value to check the font against. When you click the OK button, the tool will examine all of the selected glyphs, and report any problems it finds in a dialog box.
+Vous pouvez sélectionner les problèmes qui vous intéressent en cochant la case à côté de chacun et, dans certains cas, fournir une valeur numérique à vérifier. Lorsque vous cliquez sur le bouton OK, l'outil examine tous les glyphes sélectionnés et signale tous les problèmes qu'il trouve dans une boîte de dialogue.
 
-The problems that the Find Problems tool can look for are sorted into these eight groups:
+Les problèmes que l'outil recherche de problème peut vérifier sont triés dans ces huit groupes:
 
-* Problems related to points
-* Problems with paths and curves
-* Problems with references
-* Problems with hinting
-* Problems with ATT
-* Problems specific to CID-keyed fonts
-* Problems with bounding boxes
-* Miscellaneous other problems
+* Problèmes liés aux points
+* Problèmes de chemins et de courbes
+* Problèmes de références
+* Problèmes avec le hinting
+* Problèmes avec ATT
+* Problèmes spécifiques aux polices CID-keyed
+* Problèmes avec les boîtes englobantes
+* Divers autres problèmes
 
+Pas tous les contrôles sont nécessaires. Certains s'appliquent uniquement à des écritures ou des langages spécifiques (comme ceux de l'onglet "CID"), tandis que d'autres s'appliquent uniquement à des fonctions de police facultatives spécifiques (telles que les vérifications dans l'onglet des références). Mais vous devez vérifier que votre police passe les tests qui examinent les glyphes pour les fonctionnalités requises et plusieurs tests qui recherchent le comportement facultatif mais généralement attendu. Plusieurs des autres tests vous fournissent une rétroaction et des conseils au cours du processus de design, et sont à explorer pour cette raison.
 
+### Tout d'abord: testez les fonctionnalités requises
 
-Not every check is necessary; some apply only to specific scripts or languages (such as those in the "CID" tab), while others apply only to specific, optional font features (such as the checks in the references tab). But you should check that your font passes those tests that examine the glyphs for required features, and several tests that look for optional but commonly-expected behavior. Several of the other tests provide feedback and guidance to you during the design process, and are worth exploring for that reason.
+Dans l'onglet "Points", sélectionnez le test <em>Coordonnées non-entières</em>. Ce test vérifie que tous les points de chaque glyphe (y compris les points sur la courbe et les points de contrôle) ont des coordonnées entières. Pas tous les formats de sortie de police requiert ce comportement, mais certains le demandent.
 
-### First things first: test for required features
+Dans l'onglet "Chemins", sélectionnez les options <em>Chemins ouverts</em> et <em>Chemins extérieurs dans le sens horaire</em>. Ce sont les deux fonctions obligatoires dans toutes les polices. La première recherche des courbes qui ne sont pas des formes fermées et la seconde assure que les courbes extérieures de chaque glyphe sont tracées dans le sens des aiguilles d'une montre. C'est une très bonne idée de vérifier les <em>chemins sécants</em> en même temps; bien que les formats de polices modernes puissent prendre en charge deux chemins croisés, les courbes qui s'entrecroisent ne sont pas autorisées. De plus, si un glyphe a des chemins auto-intersectés, FontForge ne peut pas effectuer le test <em>Chemins extérieurs dans le sens horaire</em>.
 
-In the "Points" tab, select the <em>Non-Integral Coordinates</em> test. This test makes sure that all of the points in each glyph (including both on-curve points and control points) have integer coordinates. Not every font output format requires this behaviour, but some do.
+Dans l'onglet «Références», sélectionnez tous les six tests. Ces vérifications concernent toutes des références, dans lesquelles un glyphe inclut des chemins d'un autre glyphe. Par exemple, une lettre accentuée comprend une référence à la lettre originale (non accentuée), plus une référence au caractère accent. Tous les tests de l'onglet "Références" sont obligatoires pour au moins un format de sortie commun, et tous sont de bonnes idées.
 
-In the "Paths" tab, select the options <em>Open paths</em> and <em>Check outermost paths clockwise</em>. These are both mandatory features in all fonts; the first looks for any curves that are not closed shapes, and the second makes sure that the outer curves of every glyph are traced in clockwise order. It is a very good idea to check <em>Intersecting paths</em> as well; although modern font formats can support two intersecting paths, curves that insect with themselves are not allowed. In addition, if a glyph has any self-intersecting paths then FontForge cannot perform the <em>Check outermost paths clockwise</em> test.
+De même, sélectionnez tous les tests dans l'onglet "ATT". Ces tests recherchent des noms de glyphes manquants, des règles de substitution qui font référence à des glyphes inexistants et d'autres problèmes liés aux noms de glyphe ou aux fonctionnalités OpenType. Les problèmes dont ils nous protègent sont rares, mais cela peut provoquer que la police sera considérée comme invalide par un ou plusieurs systèmes informatiques, donc ils valent la peine d'être inclus.
 
-In the "Refs" tab, select all six tests. These checks all relate to references, in which a glyph includes paths from another glyph. For example, an accented letter includes a reference to the original (unaccented) letter, plus a reference to the accent character. All of the tests in the "Refs" tab are mandatory for at least one common output format, and all are good ideas.
+### Rendez la vie plus facile à vos utilisateurs: testez le bon fonctionnement
 
-Similarly, select all of the tests in the "ATT" tab. These tests look for missing glyph names, substitution rules that refer to non-existent glyphs, and other problems related to glyph names or OpenType features. The problems they guard against are uncommon, but all will cause the font to be considered invalid by one or more computer system, so they are worth including.
+Les tests énumérés ci-dessus feront en sorte que votre police s'installe et s'affiche correctement selon les règles établies par les différents formats de police, mais il existe une poignée d'autres tests que vous devriez envisager d'ajouter - surtout à la fin du processus de design - simplement parce qu'ils vérifient les conventions communes suivies par la plupart des typographies modernes.
 
-### Make life easier for your users: test for good behaviour
+Dans l'onglet "Points", sélectionnez <em> Points de contrôle en dehors de la courbe</em>. Ce test recherchera des points de contrôle situés au-delà des extrémités du segment de courbe sur lequel ils résident. Il ya rarement une raison pour laquelle un point de contrôle devrait se trouver en dehors de la courbe, de sorte que ces cas signifient généralement des accidents. Il est également judicieux de sélectionner <em>Points trop éloignés </em>, qui recherche des points situés à plus de 32767 unités du point le plus proche. Cette distance est plus grande que la plupart des ordinateurs peuvent traiter, et un point qui est loin est presque certainement involontaire (à titre de comparaison, un glyphe simple a tendance à être dessiné sur une grille d'environ 1000 unités), donc enlever ces points est important.
 
-The tests listed above will ensure that your font installs and renders correctly according to the rules set out by the various font formats, but there are a handful of others tests you should consider adding—especially at the end of the design process—simply because they check for common conventions followed by most modern typography.
+Dans l'onglet "Chemins", les tests <em>Vérifier les extrema manquants</em> et <em>Plus de points que [val]</em> peuvent être bénéfiques. Le premier cherche des points aux extrema - c'est-à-dire le point le plus haut, le point le plus bas, et les points les plus à gauche et à droite du glyphe. Les formats de police modernes suggèrent fortement que chaque chemin ait un point à chacun de ses extrema horizontaux et verticaux. Cela rend la vie plus facile lorsque la police est rendue à l'écran ou sur la page. Cette vérification recherchera des points extrema manquants. Le deuxième test est une vérification sur le nombre de points au sein d'un glyphe. La valeur par défaut de FontForge pour cette vérification est de 1 500 points, ce qui correspond à la valeur proposée par la documentation PostScript, et elle est suffisante pour presque toutes les polices.
 
-In the "Points" tab, select <em>Control points beyond spline</em>. This test will look for control points lying beyond the endpoints of the curve segment on which they reside. There is rarely a reason that a control point should lie outside of the curve, so these instances usually signify accidents. It is also a good idea to select <em>Points too far apart</em>, which will look for points that are more than 32767 units away from the next nearest point. That distance is larger than most computers can deal with internally, and a point that far away is almost certainly unintentional (for comparison, a single glyph tends to be drawn on a grid of about 1000 units), so removing such points is important.
+Comme son nom l'indique, l'onglet "Divers" répertorie les tests qui ne correspondent pas aux autres catégories. Parmi ceux-ci, les trois derniers sont utiles: <em>Codes Unicode répétés</em>, <em>Noms répétés</em> et <em>Incohérences nom/code Unicode</em>. Ils recherchent des erreurs de métadonnées dans le mappage entre les noms de glyphe et les cases Unicode.
 
-In the "Paths" tab, both the <em>Check Missing Extrema</em> and<em> More Points Than [val]</em> tests can be valuable. The first looks for points at the extrema—that is, the uppermost point, lowest point, and leftmost and rightmost points of the glyph. Modern font formats strongly suggest that each path have a point at each of its horizontal and vertical extrema; this makes life easier when the font is rendered on screen or on the page. check will look for missing extrema points. The second test is a sanity check on the number of points within any one glyph. FontForge's default value for this check is 1,500 points, which is the value suggested by the PostScript documentation, and it is good enough for almost all fonts.
+### Aidez-vous: exécutez des tests qui peuvent aider au design
 
-As its name suggests, the "Random" tab lists miscellaneous tests that do not fit under the other categories. Of these, the final three are valuable: <em>Check Multiple Unicode</em>, <em>Check Multiple Names</em>, and <em>Check Unicode/Name mismatch</em>. They look for metadata errors in the mapping between glyph names and Unicode slots.
+La plupart des autres tests de l'outil de recherche de problèmes peuvent être utiles pour trouver et localiser des incohérences dans votre collection de glyphes; des choses qui ne sont pas mauvaise ou invalide, mais que vous en tant que concepteur voudrez améliorer. Par exemple, le test <em>Y proche de la hauteur standard</em> dans l'onglet "Points" compare les glyphes à un ensemble de mesures verticales utiles: la ligne de base, la hauteur du glyphe "x", le point le plus bas de la descendante sur la lettre "p", et ainsi de suite. Dans une police de caractères cohérente, la plupart des lettres vont adhérer à au moins quelques-unes de ces mesures standard, donc les chances sont qu'un glyphe qui est très éloigné de celles-ci ait besoin de beaucoup de travail.
 
-### Help yourself: run tests that can aid design
+Le test <em>Bords presque horizontaux/verticaux/italiques</em> dans l'onglet "Chemins" recherche des segments de ligne qui sont presque exactement horizontaux, verticaux ou à l'angle de l'italique de la police. Faire vos lignes presque verticales parfaitement verticales signifie que les formes apparaîtront nettes lorsque la police est utilisée, et ce test est un moyen fiable pour traquer les segments pas tout à fait-droit qui pourraient être difficiles à repérer à l'œil nu.
 
-Many of the other tests in the Find Problems tool can be useful to find and locate inconsistencies in your collection of glyphs; things that are not wrong or invalid, but that you as a designer will want to polish. For example, the <em>Y near standard heights</em> test in the "Points" tab compares glyphs to a set of useful vertical measurements: the baseline, the height of the "x" glyph, the lowest point of the descender on the letter "p", and so on. In a consistent typeface, most letters will adhere to at least a couple of these standard measurements, so the odds are that a glyph that is nowhere near any of them needs a lot of work.
+Vous pouvez utiliser d'autres tests pour localiser des points de courbe qui sont trop proches les uns des autres pour être significatif, pour comparer les approches latérales des glyphes de même forme et pour effectuer une gamme d'autres tests qui révèlent les glyphes ayant des bizarreries. Une partie du processus de raffinement est de prendre vos designs initiaux et de les rendre plus précis; comme les autres aspects de la conception de police, c'est une tâche itérative, donc utiliser les outils intégrés réduit une partie de la répétition.
 
-The <em>Edges near horizontal/vertical/italic</em> test in the "Paths" tab looks for line segments that are almost exactly horizontal, vertical, or at the font's italic angle. Making your almost-vertical lines perfectly vertical means that shapes will render sharply when the font is used, and this test is a reliable way to track down the not-quite-right segments that might be hard to spot with the unaided eye.
+## Validez la police
 
-You can use other tests to locate on-curve points that are too close to each other to be meaningful, to compare the side bearings of similarly-shaped glyphs, and to perform a range of other tests that reveal when you have glyphs with oddities. Part of the refinement process is taking your initial designs and making them more precise; like other aspects of font design, this is an iterative task, so using the built-in tools reduces some of the repetition.
+L'autre outil de validation de FontForge est le validateur de la police, qui exécute une batterie de tests et vérifie la police en entier. Parce que le validateur est utilisé pour examiner une police complète, vous ne pouvez le démarrer qu'à partir de la fenêtre de fonte.  Vous le trouverez dans le menu Élément, sous le sous-menu Validation. Le validateur est conçu pour exécuter uniquement les tests qui examinent la police pour l'exactitude technique, essentiellement les tests décrits dans la section "testez les fonctionnalités requises" ci-dessus. Mais il exécute les tests contre la police en entier, et il le fait beaucoup plus rapidement que vous pouvez le faire vous-même glyphe par glyphe à l'aide de l'outil de recherche de problèmes.
 
-## Validate font
+<img src="images/validator-integral-question-fr-FR.png" alt="">
 
-FontForge's other validation tool is the whole-font validator, which runs a battery of tests and checks on the entire font. Because the validator is used to examine a complete font, you can only start it up from the font view window; you will find it in the Element menu, under the Validation submenu. The validator is designed to run just those tests that examine the font for technical correctness—essentially the tests described in the "test for required features" section above. But it does execute the tests against the entire font, and it does so far more rapidly than you can step through the process yourself using the Find problems tool.
+La première fois que vous exécutez le validateur au cours d'une session particulière, une boîte de dialogue apparaîtra vous demandant si oui ou non il doit signaler les coordonnées de point non entier comme une erreur. La réponse prudente est de choisir "Signaler comme une erreur", car s'en tenir à des coordonnées entières est une bonne pratique de conception. Lorsque le validateur termine son scan de la police (ce qui ne prendra que quelques secondes), il ouvrira une nouvelle boîte de dialogue intitulée Validation de <em>quel que soit le nom de votre police</em>. Cette fenêtre répertorie tous les problèmes trouvés par le validateur, présentés dans une liste triée par glyphe.
 
-<img src="images/validator-integral-question.png" alt="">
+<img src="images/valiator-output-fr-FR.png" alt="">
 
-The first time you run the validator during a particular editing session, it will pop up a dialog box asking you whether or not it should flag non-integer point coordinates to be an error. The safe answer is to choose "Report as an error," since sticking with integral coordinates is good design practice.  When the validator completes its scan of the font (which will be mere seconds later), it will open up a new dialog box named Validation of <em>Whatever Your Font Name Is</em>. This window will list every problem the validator found, presented in a list sorted by glyph.
+Mais cette fenêtre n'est pas simplement une liste d'erreurs: vous pouvez double-cliquer sur chaque élément de la liste, et FontForge ira au glyphe correspondant et mettra en évidence le problème exact, avec une explication de texte dans sa propre fenêtre. Vous pouvez ensuite résoudre le problème dans l'éditeur de glyphe, et l'élément d'erreur associé disparaît immédiatement de la liste d'erreurs du validateur. Dans de nombreux cas, l'erreur sera quelque chose que FontForge peut automatiquement réparer. Dans ces cas, la fenêtre d'explication affichera en bas un bouton "Corriger". Vous pouvez cliquer dessus et effectuer la réparation sans efforts supplémentaires.
 
-<img src="images/valiator-output.png" alt="">
+<img src="images/validator-fix-problem-fr-FR.png" alt="">
 
-But this window is not merely a list of errors: you can double-click on each item in the list, and FontForge will jump to the relevant glyph and highlight the exact problem, complete with a text explanation in its own window. You can then fix the problem in the glyph editor, and the associated error item will immediately disappear from the validator's error list. In many cases, the error will be something FontForge can automatically repair; in those cases the explanation window will have a "Fix" button at the bottom. You can click it and perform the repair without additional effort.
+Pour certains problèmes, il n'y a pas de correction automatique, mais voir le problème à l'écran vous aidera à le corriger immédiatement. Par exemple, une courbe auto-sécante a un endroit spécifique où le chemin se croise - il peut être trop petit pour que vous puissiez le remarquer d'un coup d'œil, mais le grossissement vous permettra de remodeler le chemin et d'éliminer le problème.
 
-<img src="images/validator-fix-problem.png" alt="">
+Pour d'autres problèmes, il peut ne pas y avoir un point spécifique auquel l'erreur est localisée. Par exemple, si une courbe est tracée dans la mauvaise direction (c'est-à-dire dans le sens inverse des aiguilles d'une montre), toute la courbe est affectée. Dans les cas où FontForge ne peut pas résoudre automatiquement le problème et il n'y a pas de point spécifique sur le glyphe pour le validateur à mettre en évidence, vous pourriez avoir à rechercher afin de corriger manuellement le problème.
 
-For some problems, there is no automatic fix, but seeing the issue on-screen will help you fix it immediately. For example, a self-intersecting curve has a specific place where the path crosses over itself—it may have been too small for you to notice at a glance, but zooming in will allow you to reshape the path and eliminate the problem.
+Enfin, il existe des tests effectués par le validateur qui pourraient ne pas être un problème pour le format de sortie final que vous avez à l'esprit - par exemple, le test des coordonnées non entières mentionné précédemment. Dans ces cas, vous pouvez cliquer sur la case à cocher "Ignorer ce problème dans le futur" dans la fenêtre d'explication d'erreur, et supprimer ce message d'erreur particulier lors de futures exécutions de validation.
 
-For other problems, there may not be one specific point at which the error is located. For example, if a curve is traced in the wrong direction (that is, counterclockwise when it should be clockwise), the entire curve is affected. In those instances where FontForge cannot automatically fix the problem and there is no specific point on the glyph for the validator to highlight, you may have to hunt around in order to manually correct the problem.
+## Résolvez les problèmes lors de l'édition
 
-Finally, there are some tests performed by the validator that might not be a problem from the final output format you have in mind—for example, the non-integral coordinates test mentioned earlier.  In those cases, you can click on the "ignore this problem in the future" checkbox in the error explanation window, and suppress that particular error message in future validation runs.
+La plupart des erreurs que l'outil de recherche de problème et le validateur de la police entière recherchent peuvent être corrigées au cours du processus d'édition. Vous n'avez donc pas besoin de reporter la résolution de problèmes à la fin. Par exemple, le sous-menu Vue &gt; Afficher comporte des options qui mettent en évidence les zones problématiques lors de l'édition. Le menu élément contient des commandes comme <em>Ajouter des extrema</em> qui ajouteront les points extrema attendus dans la plupart des formats de fichier de sortie et des coches pour indiquer si le chemin sélectionné est orienté dans le sens horaire ou antihoraire. Si vous retournez une forme (horizontalement ou verticalement) dans l'éditeur de glyphe, vous remarquerez que sa direction est inversée automatiquement aussi. Si vous cliquez sur la commande <em>Corriger direction</ em> dans le menu Élément, FontForge corrigera immédiatement l'orientation. Prendre l'habitude de faire de petits correctifs comme ceux-ci lorsque vous travaillez vous permettra d'économiser du temps au cours de la phase de validation finale.
 
-## Fix problems as you edit
+# Le design fonctionne-t-il?
 
-Most of the errors that the Find problem tool and the whole font validator look for can be corrected during the editing process, so do not feel any need to defer troubleshooting while you work. For example, View &gt; Show submenu has options that highlight problem areas during editing; the Element menu hold commands like <em>Add Extrema</em> that will add the extrema points expected in most output file formats, and checkboxes to indicate whether the selected path is oriented in the clockwise or counterclockwise direction. If you flip a shape (horizontally or vertically) in the glyph editor, you will notice that its direction is automatically reversed as well. If you click on the <em>Correct Direction</em> command in the Element menu, FontForge will fix the clockwise/counterclockwise orientation immediately. Getting in the habit of doing small fixes like this as you work will save you a bit of time during the validation stage later.
+Les polices de caractères peuvent être plus ou moins 'fonctionnelles' dû à ces deux facteurs: facilité de lecture et lisibilité.
 
-# Does the Design Work?  
+La lisibilité signifie que les designs des glyphes sont suffisamment distincts pour être instantanément reconnus. Voici quelques paires qui sont souvent trop similaires:
 
-Typefaces can 'work' better or worse in two ways; readability and legibility. 
+* La lettre "l" et le chiffre "1"
+* La lettre "O" et le chiffre "0"
+* La lettre "Z" et le chiffre "2"
+* Les chiffres "1" et "7"
 
+La facilité de lecture signifie que tous les glyphes fonctionnent bien ensemble pour une expérience de lecture familière et confortable. La création de documents de test est la meilleure façon de s'assurer de cela. Si vous avez un alphabet complet, vous pouvez composer du texte réel - par exemple en utilisant [FontFriend](http://somadesign.ca/projects/fontfriend/) pour glisser et déposer votre police dans un long article que vous souhaitez lire, puis l'imprimer.
 
-Legibility means the designs of glyphs are distinct enough to be instantly recognised correctly. Here are some pairs that are often too similar:
+Toutefois, si la police ne contient qu'une fraction de l'alphabet, vous pouvez utiliser un générateur de texte de test tel que [LibreText.org](http://libretext.org) et n'importe quel traitement de texte, application de publication assistée par ordinateur ou programme d'illustration générale (comme [Inkscape](http://www.inkscape.org)) pour créer des documents de test.
 
-* the letter "L" and the number "1"
-* the letter "O" and the number "0" 
-* the letter "Z" and the number "2" 
-* the numbers "1" and "7”
+# Testez la police dans différents environnements
 
-Readability means all the glyphs work well together for a familiar, comfortable reading experience. Creating test documents is the best way to ensure this. If you have a complete alphabet then you can typeset real text - for example using [FontFriend](http://somadesign.ca/projects/fontfriend/) to drag and drop your font into a long news article you wish to read, then printing it out.
+Lorsque vous testez des polices sur Microsoft Windows, l'extension [Propriétés de police](https://www.microsoft.com/typography/TrueTypeProperty21.mspx) peut être utile pour examiner rapidement les métadonnées internes de la police, telles que les numéros de version.
 
-However, if you font only contains a fraction of the alphabet, you can use a test text generator such as [LibreText.org](http://libretext.org) and any word processor, desktop publication application or general illustration program (such as [Inkscape](http://www.inkscape.org)) to create test documents.
+Si vous installez des polices en développement qui font que Windows se comporte de manière erratique, [John Hudson](http://typedrawers.com/discussion/1322/otf-fonts-from-glyphs-not-working-with-windows-word) a décrit comment effacer ces polices corrompues sur TypeDrawers:
 
-# Testing the font in different environments
-
-When testing fonts on Microsoft Windows, the [Font properties extension](https://www.microsoft.com/typography/TrueTypeProperty21.mspx) can be helpful for quickly reviewing the internal font metadata, such as version numbers.
-
-If you install development fonts that make Windows behave erratically, [John Hudson](http://typedrawers.com/discussion/1322/otf-fonts-from-glyphs-not-working-with-windows-word) described how to clear out corrupt fonts on TypeDrawers:
-
-> Restart Windows in recovery console mode. In the console, navigate to the Windows/Fonts folder, and delete all entries for the Rhodium font. Then navigate to Windows/System32 and delete the 'FNTCACHE.DAT' file **(not the .dll)** Then restart Windows. The font cache .dat file will be rebuilt, and then you can reinstall a clean copy of the Rhodium font and see if it behaves. (Don't worry if you still get a message saying the font is already installed: at that stage Windows is lying to you.)
+> Redémarrez Windows en mode console de récupération. Dans la console, accédez au dossier Windows/Fonts et supprimez toutes les entrées de la police Rhodium. Ensuite, naviguez vers Windows/System32 et supprimez le fichier 'FNTCACHE.DAT' **(pas le .dll)**, puis redémarrez Windows. Le fichier de cache de police .dat sera reconstruit, puis vous pouvez alors réinstaller une copie propre de la police Rhodium et voir si cela fonctionne. (Ne vous inquiétez pas si vous obtenez toujours un message indiquant que la police est déjà installée: à ce stade, Windows vous ment.)

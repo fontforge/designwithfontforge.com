@@ -5,27 +5,26 @@ weight: 54
 category: workflow
 title: Gras
 ---
+Lorsque nous parlons du style "gras", nous parlons vraiment d'une variable plus large, qui est la graisse. La graisse peut inclure tout, depuis très très fines lettres minces aux lettres énormément épaisses. Cette variable est utilisée dans la typographie de texte pour créer une forte séparation entre les corps de texte et elle est utilisée dans la conception graphique soit pour attirer l'attention sur un mot ou des textes courts, ou pour donner un sentiment à un texte spécifique (plutôt que de le contraster avec d'autres textes).
 
-When we talk about the style "bold," we are really talking about a broader variable, which is weight. Weight can include anything from very very thin hairline letters to enormously heavy letters. This variable is used in text typography to create strong separation between bodies of text, and it is used in graphic design either to draw attention to a word or short texts, or to give text a specific feeling (rather than to contrast it with other text).
+Alors que vous pouvez faire bien de choses avec la graisse, il est probable que votre première expérience avec l'ajustement de celle-ci sera d'essayer de créer un style gras pour accompagner votre texte de style régulier.
 
-While you may want to do a wide range of things with weight it is likely that your first experience with adjusting weight will be to try to create a bold to accompany your regular text weight.
+Parce que vous utilisez FontForge vous avez un avantage distinct. Contrairement à de nombreux programmes d'édition de polices, les résultats obtenus à partir du filtre de style dans FontForge peuvent en fait être convenables - plus que ceux que vous obtenez dans le logiciel de conception de type commercial. C'est parce que l'algorithme qu'il utilise est exceptionnellement sophistiqué.
 
-Because you are using FontForge you have a distinct advantage. Unlike many font editing programs, the results you get from FontForge style filter may actually be suitable for use — moreso than the ones you would get in commercial type design software. This is because the algorithm it uses is exceptionally sophisticated.
+La création d'une version en caractères gras d'une police peut être approximée rapidement en exécutant le filtre appelé <em>Changer la graisse</em> (que vous trouverez dans le menu Elément &gt; Style) pour ajouter de la graisse à vos glyphes.
 
-Creating a bold version of a font can be rapidly approximated by running a filter called <em>Change weight</em> (which you will find in the Element &gt; Styles menu) to add weight to your glyphs.
+La nature automatique et la vitesse relativement élevée de ce processus le rend idéal pour tester quelle graisse vous voulez pour votre gras. Vous pouvez essayer d'exécuter ce filtre plusieurs fois et d'enregistrer plusieurs versions à comparer en texte à côté de votre style régulier. Cela dit, vous devrez peut-être modifier le résultat après avoir exécuté le filtre ou ajuster manuellement des glyphes individuels afin d'obtenir un résultat satisfaisant.
 
-The automatic nature and relatively high speed of this process makes it ideal for testing what weight you may want for your bold. You may want to try running this filter several times and save several versions to compare in text next to your regular. That said, you may still need to either alter the result further after running the filter, or manually adjust individual glyphs in order to get a result which is satisfactory.
+Il est également intéressant de rappeler que les glyphes qui n'ont pas une densité de traits (tels que 1, i, l, I, L, j et J) peuvent avoir besoin d'être plus épais, alors que les glyphes qui ont une densité de traits (tels que a, e, g, x, B, R, 8 et &amp;) devront être moins épais que les autres glyphes.
 
-It is also worth remembering that glyphs which do not have a density of strokes (such as 1, i, l, I, L, j and J) may need to be heavier, while glyphs which do have a density of strokes (such as a, e, g, x, B, R, 8, and &amp;) will need to be less heavy than the other glyphs.
+## Interpolation de fonte
 
-## Font interpolation
+FontForge a une fonction d'interpolation entre des fontes séparées (voir la fonction <em>Interpoler fontes</em> dans le menu Élément). L'interpolation des fontes est une technique qui peut être utilisée pour créer des graisses intermédiaires à partir de deux autres graisses. Par conséquent, une façon de décider de la graisse de votre gras est de créer un gras qui est certainement plus lourd que vous avez besoin, puis d'interpoler plusieurs graisses différentes entre ce design trop gras et votre design régulier.
 
-FontForge does have a function to interpolate between separate fonts (see the the <em>Interpolate Fonts</em> function from the Element menu). Font interpolation is a technique that can be used for creating intermediate weights from two other weights. Therefore one way of deciding about the weight of your bold is to create a bold which is definitely heavier than you need, then to interpolate several different weights between this overly bold design and your regular.
+En utilisant cette technique, vous pouvez trouver plus rapidement la graisse que vous estimez la mieux adaptée à votre projet. La même technique peut être appliquée pour aider à décider des graisses encore plus lourdes tels que dans le style "extra-gras" et "noir", ainsi que les plus légers comme "book (ou régulier)" et "mince". Vous pouvez également définir des valeurs négatives à l'interpolation, par exemple vous obtiendrez un style "gras" si vous interpoler un "régulier" avec "mince" à -50%.
 
-Using this technique you can more rapidly find the weight you feel is most appropriate for your project. The same technique can be applied to help decide about even heavier weights such as the "heavy" and "black," as well as lighter ones like "book" and "thin" styles. You can also set negative values on interpolation, for example you will get a "bold" style if you interpolate a "regular" with "thin" at -50%. 
+Cette logique de faire une fonte très mince et une fonte extra-gras, puis de générer tout ce dont vous avez besoin à partir de celles-ci, peut sembler la meilleure et la plus efficace façon de faire une graisse de style régulier et toutes les autres graisses que vous pourriez avoir besoin. Cependant, le résultat de cette approche est susceptible d'être excessivement fade. Au lieu de cela, et bien souvent, chaque changement significatif dans la graisse exigera son propre design maître à partir duquel d'autres graisses moyennes peuvent être faites.
 
-By this logic, it may seem like the best and most efficient way of making a regular weight and all the other weights you may need, would be to make a very thin and a hyper-bold font, then generate everything you need from these. However, the result of that approach is likely to be excessively bland. Instead, it is often the case that each significant change in weight will require its own master design from which other middle weights can be made.
-
-## Further Reading
+## Lecture complémentaire (en anglais)
 
 * <http://bigelowandholmes.typepad.com/bigelow-holmes/2015/07/on-font-weight.html>

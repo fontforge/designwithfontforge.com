@@ -6,8 +6,8 @@ category: Before You Begin
 title: Qu'est-ce qu'une fonte?
 ---
 
-&mdash; Qu'est-ce qui rend les polices différentes de l'écriture manuscrite, de la calligraphie, du
-lettrage et des logos?
+&mdash; Qu'est-ce qui rend les polices de caractères différentes de l'écriture manuscrite, de la
+calligraphie, du lettrage et des logos?
 
 Ce qui est différent dans la conception de polices est la nécessité pour chaque glyphe dans la
 police de caractères de fonctionner avec tous les autres glyphes. Cela signifie souvent que la

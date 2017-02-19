@@ -6,78 +6,72 @@ category: Appendices
 title: Quand les choses tournent mal avec FontForge
 ---
 
-FontForge is developed on Github. 
-The FontForge team uses Github Issues to discuss problems, errors and ideas for improvements, and then someone develops a solution and proposes it as a _Pull Request_.
+FontForge est développé sur Github.
+L'équipe de FontForge utilise la section _Issues_ de Github pour discuter des problèmes, des erreurs et des idées d'améliorations, puis quelqu'un développe une solution et la propose en tant que _Pull Request_.
 
-To learn more about Github, check out [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+Pour en savoir plus sur Github, consultez les [bonnes ressources pour l'apprentissage de Git et GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/) (en anglais).
 
-## Paying for Support
+## Payer pour du soutien
 
-This might be a surprise, but it is both possible, and encouraged to pay for FontForge support when things go wrong. 
+Cela pourrait être une surprise, mais il est à la fois possible, et encouragé de payer pour du soutien lorsque les choses tournent mal.
 
-When other font editors with similar comprehensive features cost hundreds of US Dollars, if we each pay a similar amount to FontForge developers to get our most annoying bugs fixed, FontForge will become better and better. 
+Alors que d'autres éditeurs de polices avec des fonctionnalités complètes semblables coûtent des centaines de dollars américains, si nous payions chacun un montant similaire aux développeurs de FontForge pour obtenir que nos bogues les plus ennuyeux soit corrigés, FontForge deviendrait de mieux en mieux.
 
-[FreedomSponsors.org](https://freedomsponsors.org/project/220/) offers a transparent system for paying FontForge developers to fix issues you care about in a timely fashion. 
+[FreedomSponsors.org](https://freedomsponsors.org/project/220/) offre un système transparent pour inciter les développeurs de FontForge à résoudre rapidement les problèmes qui vous préoccupent.
 
-1. Create a FontForge issue describing what you want to be changed (see below.) Copy the URL of the issue to the clipboard.
-- Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
-- Revisit the issue and add a comment with the link to the freedom sponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed
+1. Créez un problème (issue) sur la page FonForge de Github décrivant ce que vous désirez voir changer (voir ci-dessous). Copiez l'URL du problème dans le presse-papiers.
+- Visitez FreedomSponsors et parrainez un nouveau problème, en utilisant l'URL que vous avez copiée plus tôt.
+- Révisez le problème sur Github et ajoutez en commentaire le lien vers la page de problèmes de FreedomSponsors, avec une note personnelle que vous offrez une prime payée pour que ce problème soit fermé
 
-## Report A Bug
+## Signaler un bogue
 
-1. Visit the [FontForge Github Issue Tracker](https://github.com/fontforge/fontforge/issues) and sign in to Github (after creating an account, if you don't have one yet.)
-- In the Issues search box try searching for similar issues, to see if the problem you are facing was reported already. 
-If it was, and your issue is related but not quite the same, please comment on that issue with your own take on the issue.
-- If it was not already reported, open up a new issue. 
-Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement.
+1. Connectez-vous à Github (après avoir créé un compte, si vous n'en avez pas encore) et visitez la page de [suivi des problèmes de FontForge](https://github.com/fontforge/fontforge/issues). 
+- Dans la zone de recherche des problèmes, essayez de rechercher des problèmes similaires, pour voir si le problème auquel vous êtes confronté a déjà été signalé.
+Si c'était le cas, et que votre problème est lié, mais pas tout à fait le même, veuillez commenter ce problème avec votre propre opinion sur la question.
+- Si ce n'est pas déjà signalé, ouvrez un nouveau problème.
+Cliquez sur le bouton vert "New Issue", puis décrivez votre question, ce que vous avez fait pour déclencher un plantage ou votre idée d'amélioration.
 
-Include relevant details, such as:
+Inclure les détails pertinents, tels que:
 
-* your Operating System and version, 
-* your FontForge version and where you got it from, 
-* **what happens, step by step, to produce the issue** 
-* **what error messages you see,**
-* **what you expect to happen**
+* Votre système d'exploitation et sa version;
+* La version de FontForge et d'où elle provient;
+* **Ce qui se passe, étape par étape, pour reproduire le problème;**
+* **Quels messages d'erreur vous voyez;**
+* **Le comportement auquel vous vous attendez**
 
-You can drag and drop screenshots or other images directly into the issue page to include them
+Vous pouvez glisser-déposer des captures d'écran ou d'autres images directement dans la page de problème pour les inclure.
 
-An easy way to report issues is to record a screencast videos where you explain in a narrated voiceover the things you are interested in as they happen, and then upload it to YouTube and include a link to your video
+Une façon facile de signaler des problèmes est d'enregistrer des vidéos d'écran où vous faîtes la narration des choses qui vous intéressent comme elles se produisent, puis le télécharger sur YouTube et inclure un lien vers votre vidéo
 
-To reproduce the issue, it can helpful to share with the developer community the files you are working with. 
-If you can make a file that is small and only contains what is needed to reproduce the issue, please fork the fontforge repo and add these files to [/tests/fonts](https://github.com/fontforge/fontforge/tree/master/tests/fonts) and submit a pull request. 
-You can also place files on your own website or a file sharing service temporarily (such as MegaUpload, DropBox, Google Drive, etc.) 
-Finally, if you do not wish to make your files publicly available, you can provide an email address for a FontForge developer to contact you at to get a private copy of the file.
+Pour reproduire le problème, il peut être utile de partager avec la communauté des développeurs les fichiers avec lesquels vous travaillez. Si vous pouvez faire un fichier petit qui ne contient que ce qui est nécessaire pour reproduire le problème, s'il vous plaît créez un fork du dépôt de fontforge et ajouter ces fichiers à /tests/fonts et soumettez un "pull request". Vous pouvez également placer des fichiers sur votre propre site Web ou sur un service de partage de fichiers temporaires (comme MegaUpload, DropBox, Google Drive, etc.). Enfin, si vous ne souhaitez pas rendre vos fichiers accessibles au public, vous pouvez fournir une adresse e-mail pour un développeur de FontForge qui vous contactera pour obtenir une copie privée du fichier.
 
-Please don't close other people's issues - ask them to close the issue if it is closed to their satisfaction.
+S'il vous plaît ne pas fermer les problèmes des autres - demandez-leur de fermer le problème s'il est résolu à leur satisfaction.
 
-## How To Report A Crash
+## Comment signaler un plantage
 
-The process is just the same for reporting a crash or other kinds of bugs as it is for new features or questions.
-Sending a good crash report to the FontForge developers really does help them a lot to improve the stability of the program for everybody! 
-Don’t feel shy about reporting such issues, because a crash that isn’t reported is a crash that is far less likely to be fixed.
+Le processus est le même pour signaler un plantage ou d'autres types de bogues que pour les nouvelles fonctionnalités ou questions. L'envoi d'un bon rapport de plantage aux développeurs de FontForge peut vraiment les aider beaucoup à améliorer la stabilité du programme pour tout le monde!
+N'hésitez pas à signaler de tels problèmes, car un plantage qui n'est pas signalé est un plantage qui est beaucoup moins susceptible d'être corrigé.
 
-If you find FontForge crashing whilst in use, create an issue as above.
-If you have a particular font file (SFD, UFO, OTF, TTF, etc) that triggers the crash, you can either upload it to a new Github repository yourself (or Dropbox or whatever) and include a link, or post your email and ask a developer to email you to get a copy privately.
+Si vous voyez FontForge planter en cours d'utilisation, créez un rapport de problème comme ci-dessus.
+Si vous avez un fichier de police particulier (SFD, UFO, OTF, TTF, etc.) qui déclenche le plantage, vous pouvez soit le télécharger dans un nouveau dépôt Github vous-même (ou Dropbox ou autre) et inclure un lien, ou soit publier votre email et demandez à un développeur de vous envoyer un courriel pour obtenir une copie en privé.
 
-With your description the FontForge software developers will try to reproduce the crash. 
-If they can do this, then they will be able to work out where the code is going wrong, and create a fix. 
+Avec votre description, les développeurs de FontForge essayeront de reproduire le plantage.
+S'ils peuvent le faire, ils seront en mesure de déterminer où le code va mal, et de créer un correctif.
 
-After the Pull Request that addresses the issue is merged, you'll need to get a version after that. 
-You can do one of the following:
+Une fois que le _pull request_ résolvant le problème fusionné, vous aurez besoin d'obtenir une nouvelle version. Vous pouvez effectuer l'une des opérations suivantes:
 
-* recompile from the latest Github source code (See [Installing Fontforge](Installing_Fontforge.html)), 
-* check if a daily build is available (often possible for [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), or 
-* wait until the next release (often within a few weeks.)
+* Recompiler à partir du dernier code source de Github (voir [Installation de Fontforge](Installing_Fontforge.html)),
+* Vérifier si une compilation quotidienne est disponible (souvent possible pour [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), ou
+* Attendre la prochaine version (souvent en quelques semaines).
 
-### The Best Crash Reports
+### Les meilleurs rapports de plantage
 
-To help developers find out what is going wrong and __really__ understand how to fix it, you can do a bit more work to make a _backtrace_.
-A backtrace includes a list of which program functions have called which other ones to get to where the program has stopped working. 
-A backtrace is most useful if it also contains the line numbers of the functions. 
+Pour aider les développeurs à découvrir ce qui ne va pas et __vraiment__ comprendre comment le réparer, vous pouvez faire un peu plus de travail et faire un _backtrace_.
+Un backtrace inclut une liste des fonctions du programme qui ont appelé les autres pour arriver là où le programme a cessé de fonctionner. Un backtrace est très utile s'il contient également les numéros de ligne des fonctions.
 
-To make a backtrace, you may need to install from source with _debugging information_ included.
-Use the `type` and `nm` commands to find the path and status of your fontforge binary. 
-Example:
+Pour faire un backtrace, vous devrez installer à partir de source avec _information de débogage_ incluse.
+Utilisez les commandes `type` et `nm` pour trouver le chemin et l'état de vos binaires fontforge.
+Exemple:
 
 ```sh
 $ type -all fontforge;
@@ -87,23 +81,22 @@ nm: /usr/bin/fontforge: no symbols
 $
 ```
 
-In this example we see `no symbols`, so we must update our installation to include debug information.
+Dans cet exemple, nous voyons `no symbols`, nous devons donc mettre à jour notre installation pour y inclure des informations de débogage.
 
-#### Install Debugging Information on Fedora
+#### Installer les informations de débogage sur Fedora
 
-Fedora offers in the standard repository a command to easily install debugging information for FontForge. 
-(But note that this might require hundreds of megabytes of download if you do not already have many of the dependent debuginfo packages installed.)
-To install it, run:
+Fedora propose dans le dépôt standard une commande permettant d'installer facilement des informations de débogage pour FontForge. (Mais notez que cela peut nécessiter des centaines de mégaoctets de téléchargement si vous ne disposez pas déjà des nombreux paquets debuginfo dépendants).
+Pour l'installer, lancez:
 
 ```sh
 debuginfo-install fontforge;
 ```
 
-TODO: Explain how to include debug information from compiled sources
+A FAIRE: expliquer comment inclure des informations de débogage à partir de sources compilées
 
-A backtrace is generated using the GNU Project Debugger, `gdb`. 
-You can either attach gdb to an already running FontForge, or start FontForge inside the gdb session itself. 
-Here's an example of the latter:
+Un backtrace est généré à l'aide du débogueur de projet GNU, `gdb`.
+Vous pouvez soit attacher gdb à FontForge déjà en cours, soit démarrer FontForge à l'intérieur de la session gdb elle-même.
+Voici un exemple de cette dernière méthode:
 
 ```
 $ gdb fontforge;
@@ -119,7 +112,7 @@ For bug reporting instructions, please see:
 Reading symbols from /usr/local/bin/fontforge...done.
 ```
 
-Then once you issue the debugger the run command, FontForge will open on screen:
+Ensuite, une fois que vous lancez le débogueur avec la commande run, FontForge s'ouvrira à l'écran:
 
 ```
 (gdb) run
@@ -131,16 +124,15 @@ Copyright (c) 2000-2012 by George Williams.
  Library based on sources from 14:57 GMT 31-Jul-2012.
 ```
 
-From here you can use FontForge in the usual way, but with the advantage of being able to effectively capture and report any issues that FontForge may have.
+De là, vous pouvez utiliser FontForge de la manière habituelle, mais avec l'avantage d'être en mesure de capturer efficacement et de signaler tous les problèmes que FontForge peut avoir.
 
-One major difference that running FontForge inside gdb makes is how a crash is made apparent.
-Without gdb, when FontForge crashes it will disappear from your screen. When you are running FontForge inside gdb however, a crashed FontForge will remain open along with its windows and user interface.
+L'avantage majeure d'exécuter FontForge à l'intérieur de gdb est de savoir comment un plantage est arrivé. Sans gdb, lorsque FontForge plante, il disparaîtra de votre écran. Lorsque vous exécutez FontForge à l'intérieur de gdb cependant, un FontForge planté restera ouvert avec ses fenêtres et son interface utilisateur.
 
-If you find that your interface is unresponsive, switch back to the terminal where you ran gdb and you might see something like `SIGSEGV` in the text followed by the `(gdb)` prompt. 
-If you see the `(gdb)` prompt then FontForge is no longer executing. 
-
-You can now (finally!) use the `bt` command to get a backtrace, and then use the gdb `quit` command to exit from gdb and to close the crashed FontForge. 
-Here is an example:
+Si vous constatez que votre interface ne répond pas, retournez au terminal où vous avez exécuté gdb et vous pourrez voir quelque chose comme `SIGSEGV` dans le texte suivi de l'invite `(gdb)`.
+Si vous voyez l'invite `(gdb)`, FontForge ne s'exécute plus.
+ 
+Vous pouvez maintenant (enfin!) utiliser la commande `bt` pour obtenir un backtrace, puis utiliser la commande gdb `quit` pour quitter gdb et fermer la session plantée de FontForge.
+Voici un exemple:
 
 ```
 Program received signal SIGSEGV, Segmentation fault. 
@@ -190,6 +182,6 @@ A debugging session is active.
 Quit anyway? (y or n) y
 ```
 
-A developer can see in this example backtrace that FontForge has crashed inside the `copy()` function. 
-The `copy()` function was itself called from the `KCD_AutoKernAClass` function. 
-The backtrace will tell a software developer the exact lines these calls were made, and also use the tip that the parameter passed to `copy()` was invalid (out of bounds) to work out what the code is doing wrong.
+Un développeur peut voir dans cet exemple de backtrace que FontForge a planté à l'intérieur de la fonction `copy ()`.
+La fonction `copy ()` a elle-même été appelée à partir de la fonction `KCD_AutoKernAClass`.
+Le backtrace indiquera à un développeur les lignes exactes de ces appels et suggérera que le paramètre passé à `copy ()` était non valide (hors limites) pour déterminer ce que le code ne fait pas correctement.

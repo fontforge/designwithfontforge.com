@@ -1,236 +1,236 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 72
 category: workflow
-title: Designing Devanagari Typefaces
+title: Conception de polices Devanagari
 ---
 
+_Merci à Adam Twardoch, Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena et au Dr Girish Dalvi pour leur contribution à beaucoup des idées de cette page_
 
-_Thanks to Adam Twardoch, Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena, Dr Girish Dalvi for contributing many of the ideas on this page_
+La conception d'une police [Devanagari](https://fr.wikipedia.org/wiki/Devanagari) nouvelle et originale suit un processus similaire au processus de design d'une police latine. L'avantage unique du _libre_ dans les polices libres est que vous pouvez les modifier et les réutiliser à des fins nouvelles à lesquelles leurs créateurs initiaux n'ont jamais pensées - par exemple, concevoir une police Devanagari et adapter une police latine existante pour l'accompagner.
 
-Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of - for example, designing a Devanagari and adapting an existing Latin font to go with it. 
+## Les glyphes Devanagari
 
-## Devanagari Glyphs
+Les polices Devanagari contiennent ces différents types de glyphes:
 
-Devanagari fonts contain these different types of glyphs:
+* Consonnes (36)
+* Voyelles indépendantes (28)
+* Voyelles matras
+* Espace(s) de mots
+* Chiffres Devanagari (10)
+* Les chiffres latins (nouveaux, ou si déjà présents puis ajustés pour fonctionner dans le texte pur Devanagari)
+* Diacritiques nuqtā
+* Demi-glyphes
+* Conjonctions (glyphes de ligature uniques)
+* Voyelles "I" matras de différentes longueurs
+* Ponctuation Devanagari, marques et symboles
+* La ponctuation latine, les marques et les symboles (nouveaux ou ajustés si déjà présents)
+* Lettres latines
 
-* consonants (36)
-* independent vowels (28)
-* vowel maatras
-* word space(s)
-* Devanagari numerals (10)
-* Latin numerals (new, or if already present then adjusted to work within pure Devanagari text)
-* nukta composites
-* half-forms
-* conjuncts (unique ligature glyphs)
-* "I" vowel maatras of differing lengths
-* Devanagari punctuation, marks, and symbols
-* Latin punctuation, marks, and symbols (new, or adjusted if already present)
-* Latin letters
+Consultez le [chapitre 12 d'Unicode sur les écritures indiennes](http://www.unicode.org/versions/Unicode8.0.0/ch12.pdf) (en anglais), ([la page Devanagari d'Unicode](http://www.unicode.org/fr/charts/PDF/U0900.pdf)), ainsi que la ([page de développement de polices OpenType Devanagari de Microsoft](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm) (en anglais) pour en savoir plus sur ces glyphes et comment le moteur de mise en forme indien fonctionne.
 
-Consult the [Unicode Chapter 12 on Indian Scripts](http://www.unicode.org/versions/Unicode8.0.0/ch12.pdf), ([Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf)), as well as the ([Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)) to learn more about these glyphs and how the Indic shaping engine works.
+Il est utile de faire de la calligraphie ou d'étudier de près les manuels d'écriture pour apprendre comment l'écriture fonctionne, de sorte que vous compreniez quelles lettres devraient être comme quelles autres lettres dans la structure. Ces [2 pages du Manuel de calligraphie de Devanagari d'Aksharaya](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) peuvent être utilisées comme référence pour l'angle de la plume et les proportions de lettre.
 
-It is helpful to do some calligraphy or closely study writing manuals to learn how the script works, so you understand which letters should be like which other letters in structure. These [2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) can be used as a reference for pen angle and letter proportions.
+## Que faire d'abord
 
-## What To Do First
+Lors de la conception d'une police de caractères Devanagari et et latine, il est important de commencer par dessiner le latin à côté du Devanagari. Dans les premiers stades, il faut concevoir les glyphes "clés", pour établir la personnalité de la police de caractères à travers les formes fondamentales et l'espacement (qui en latin peut être 'adhesion' ou 'videospan'.) Concevez les glyphes les plus bas et les plus hauts "en hauteur" tôt dans le processus.
 
-When designing a Devanagari and Latin typeface, its important to start by draw the Latin alongside the Devanagari. In the earliest stages are designing the "key" glyphs, to establish the personality of the typeface through fundamental shapes and spacing (which in Latin may be 'adhesion' or 'videospan'.) Design the lowest and highest "height extremes" glyphs early in the process. 
+Vous aurez besoin de nombreuses voyelles pour commencer à tester la texture et l'échelle.
 
-You'll need plenty of vowel signs to begin testing texture and scale. 
+Le professeur de typographie à IIT Bombay, le Dr Girish Dalvi, a écrit dans sa thèse de doctorat,
 
-The professor of typography at IIT Bombay, Dr Girish Dalvi, wrote in his PhD thesis,
+> Grâce aux résultats de cette étude, nous pouvons déduire que les dix lettres अ इ ए ख त भ द ध थ ष peuvent presque capturer toutes les propriétés formelles des lettres Devanagari restantes. Dans ces lettres, les lettres अ इ ख भ द ध ष sont les plus critiques car elles définissent des caractéristiques pour la majorité des lettres. Nous pouvons donc suggérer qu'en concevant ces lettres en premier, le processus de conception de la police Devanagari peut être simplifié pour les étudiants et concepteurs de polices puisque les lettres restantes peuvent être dérivées de celles-ci.
 
-> Through the results of this study we can deduce that the ten letters अ इ ए ख त भ द ध थ ष can almost capture all the formal properties of remaining Devanagari letters. Within these letters the letters अ इ ख भ द ध ष are most critical as they define features for the majority of the letters. We can hence suggest that by designing these letters first; the process of Devanagari font design can be simplified for students well as type designers as the remaining letters can be derived from these ones.
+Erin McLaughlin a suggéré ces glyphes comme une progression initiale: **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (extrêmes de hauteur) + यथधआछड …  continuez le jeu de caractères** et a suggéré de se concentrer sur le signe de voyelle "Au" + reph + combinaison anusvara! Le Ma est juste là pour la postérité.
 
-Erin McLaughlin suggested these glyphs as an initial progression:  **पाव + किमीनुफू + भरसगदह + र्मों ड्डू (height extremes) + यथधआछड … continue character set** and suggested to focus on the "Au" vowel sign + reph + anusvara combo!, the Ma is just there for posterity.
+Les glyphes de hauteur extrême vous permettent de déterminer les métriques verticales, et comment mettre à l'échelle les deux systèmes d'écriture pour travailler ensemble. Adobe publie des familles de polices très volumineuses qui couvrent des orthographes très différentes. Celles-ci sont divisées en familles avec des proportions communes partagées; Myriad Pro a le latin, le grec et le cyrillique, mais les designs hébreus et arabes sont dans un pack de familles séparées qui incluent des latins **modifiés**.
 
-The height extremes glyphs allow you to determine the vertical metrics, and how to scale the two writing systems to work together. Adobe publishes very large type families that cover very different orthographies. These are split into families with shared general proportions; Myriad Pro has Latin, Greek and Cyrillic, but the Hebrew and Arabic designs are packaged as separate families which include **modified** Latins. 
-
-Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
+Voici Myriad Pro Latin et Myriad Arabic juxtaposés:
 
 <img src="images/myriad_pro_vs_arabic.png" />
 
-(Spot Adobe's designers neat decision: the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin.)
+(Remarquez la décision habile des concepteurs d'Adobe: la hauteur de capitale du latin en Myriad Arabic est la hauteur d'x du Myriad Pro Latin.)
 
-Note that in the Lohit character set, the lowest glyphs are forms, meant to go below characters that descend very far below the baseline:
+Notez que dans le jeu de caractères Lohit, les glyphes les plus bas sont des formes, destinées à aller en dessous des caractères qui descendent très loin en dessous de la ligne de base:
 
 
-(Vattu is the below-base form of reph. See the [Microsoft terminology](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) page for more details)
+(Vattu est la forme sous-base de reph. Voir la [terminologie Microsoft](https://www.microsoft.com/typography/otfntdev/indicot/terms.htm) pour plus de détails)
 
-Ideally, these should stack below your lowest vertically-stacking conjunct, like the example on the left  (Lohit, which doesn't quite vertically fit, is on the right):
+Idéalement, ceux-ci devraient s'empiler au-dessous de votre empilage de conjonction la plus basse, comme dans l'exemple sur la gauche (Lohit, qui n'est pas tout à fait ajusté verticalement, est sur la droite):
 
-## Spacing approach
+## Approche d'espacement
 
-Designing Latin fonts typically involves a series of spacing strings like this:
+La conception de polices latines implique généralement une série de chaînes d'espacement comme ceci:
 
 > HHxHOHOxOO  
 > nnXnonoXoo
 
-Where the X represents the letter you are focused on spacing, and the concept is looking at this letter next to a somewhat flat-sided character and a round character. 
+Où le X représente la lettre sur laquelle vous vous concentrez à espacer, le concept étant d'examiner cette lettre près d'un caractère au côté assez plat et d'un caractère rond.
 
-Pa, and Va or Da are Devanagari equivalents:
+Pa et Va ou Da sont les équivalents Devanagari:
 
 > पपXपवपवXवव  
 > पपXपदपदXदद
 
-When just beginning a project, start with filling a page entirely with Pa in order to get the right balance of stroke thickness, counter size, and spacing. 
+Lorsque vous débutez un projet, commencez par remplir une page entièrement avec Pa afin d'obtenir le bon équilibre entre l'épaisseur du trait, la taille du contrepoinçoin et l'espacement.
 
 > पपपपपपपपपपपपपपपपपपपपप 
 
-Once the Pa has the right "color", you can begin adding these other basic, common characters:
+Une fois que le Pa a la bonne "couleur", vous pouvez commencer à ajouter ces autres caractères de base communs:
 
-> पपपवपपपपपवपववपपव (va, randomized)  
-> पपपापपपपापपाप (Aa maatra, randomized)  
-> पपपदपपपपपदपददपपद (da, randomized)  
+> पपपवपपपपपवपववपपव (va, aléatoire)  
+> पपपापपपपापपाप (Aa maatra, aléatoire)  
+> पपपदपपपपपदपददपपद (da, aléatoire)  
 
-
-Then, you can begin using the spacing strings shown above, in order to add more glyphs:
+Ensuite, vous pouvez commencer à utiliser les chaînes d'espacement ci-dessus, afin d'ajouter des glyphes supplémentaires:
 
 > पपरपदपदरदद  
 > पपकपदपदकदद  
 > पपलपदपदलदद  
 > पपपीपदपदपीदद
 
-and so on!
+et ainsi de suite!
 
-You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward - both on screen and in print. Doing a vertical check is more effective than just a long line of continuous text. Here's why:
+Vous devrez les regarder dans une longue liste comme ça pour les comparer d'un glyphe à l'autre, en même temps que vous les faites défiler vers le bas - à la fois à l'écran et sur papier. Une vérification verticale est plus efficace qu'une simple longue ligne de texte continu. Voici pourquoi:
 
-When you look at the spacing strings in vertical columns, you can easily compare the spacing with the lines previously above and below the current character. In the same way that we can easily recognize "rivers" in badly-set full-justified text, it will be easier to see white gaps or dark spots in spacing if you are comparing against a spacing string that remains constant.
+Lorsque vous regardez les chaînes d'espacement dans les colonnes verticales, vous pouvez facilement comparer l'espacement avec les lignes qui les précèdent et en dessous du caractère actuel. De la même façon que nous pouvons aisément reconnaître les "rivières" dans un texte pleinement justifié et mal réglé, il sera plus facile de voir des blancs ou des taches noires dans l'espacement si vous comparez avec une chaîne d'espacement qui reste constante.
 
-The spacing string above allows you to compare very disparate shapes, so that spacing is more even throughout (instead of all of the round characters being too loose or too tight)
+La chaîne d'espacement ci-dessus vous permet de comparer des formes très disparates, de sorte que l'espacement soit plus uniforme (au lieu de tous les caractères ronds étant trop espacés ou trop serrés)
 
-And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested character against two sets of three, if you just look at Pa/Da/Pa or Da/Pa/Da.
+Les quatre glyphes dans le milieu, Pa/Da/Pa/Da vous permettent de comparer le caractère testé contre deux ensembles de trois, si vous regardez juste Pa/Da/Pa ou Da/Pa/Da.
 
 <img src="images/deva-spacing.png" />
 
-After drawing and spacing a handful of vowels and consonants, you'll be able to make a limited number of words with only those letters, and begin testing your design with real text. 
+Après avoir dessiné et espacé une poignée de voyelles et de consonnes, vous serez en mesure de faire un nombre limité de mots avec seulement ces lettres, et commencer à tester votre conception avec du texte réel.
 
-## Work Breakdown Structure
+## Plan de travail
 
-In any typeface design project, its a great idea to sketch out a Work Breakdown Structure. 
+Dans tout projet de conception de police, c'est une excellente idée d'esquisser un plan de travail.
 
-For someone very experienced, it is possible to design the initial Light and Bold weights of a Devanagari typeface in around 4-6 months. 
+Pour quelqu'un de très expérimenté, il est possible de concevoir les graisses initiales Léger et Gras d'une police Devanagari en environ 4-6 mois.
 
-Here is a sample schedule for an interpolated family of 9 weights, upright and slanted, of a somewhat simple 'sans' design, by a very experienced designer:
+Voici un exemple de calendrier pour une famille interpolée de 9 graisses, verticale et inclinée, d'un design 'sans' assez simple, faîte par un designer très expérimenté:
 
-|Week|Goal|Glyphs|
+
+|Semaine|Objectif|Glyphes|
 |--:|:--|--:|
-|1|Establish design in 7-10 key glyphs|10|
-|2|Refine, design tallest glyphs, match heights and weights to Latin in Regular & Bold, test screen rendering with ttfautohint|20|
-|3|Refine proportions with native reader feedback|40|
-|4|Get native reader feedback, refine and add more conjuncts|100|
-|5|Get native reader feedback, refine and add more conjuncts|200|
-|6|Get native reader feedback, refine and add more conjuncts|300|
-|7|Get native reader feedback, refine and add more conjuncts|400|
-|8|Get native reader feedback, refine and add more conjuncts|500|
-|9|Get native reader feedback, refine and add more conjuncts|600|
-|10|Get native reader feedback, refine and add more conjuncts|700|
-|11|Get native reader feedback, refine and add more conjuncts|800|
-|12|Get native reader feedback, refine and add more conjuncts|900|
-|13|Derive Bold|1,800|
-|14|Refinements, Kerning, testing with native reader feedback|1,800|
-|15|Extrapolation and clean-up of Thin and Black weights, generation and clean-up of slanted styles|3,600|
-|16|Interpolated styles refinement|3,600|
-|17|General refinement of spacing, kerning & testing in all styles|3,600|
-|18|Finalisation|3,600|
+|1|Établir le design de 7-10 glyphes clés|10|
+|2|Affiner, concevoir les glyphes les plus hauts, faire correspondre les hauteurs et les graisses au latin dans Régulier & Gras, tester le rendu à l'écran avec ttfautohint|20|
+|3|Affiner les proportions avec les commentaires des lecteurs natifs|40|
+|4|Obtenir des commentaires de lecteurs natifs, affiner et ajouter d'autres conjonctions|100|
+|5|Obtenir les commentaires de lecteurs natifs, affiner et ajouter des conjonctions|200|
+|6|Obtenir des commentaires de lecteurs natifs, affiner et ajouter des conjonctions|300|
+|7|Obtenir des commentaires de lecteurs natifs, affiner et ajouter d'autres conjonctions|400|
+|8|Obtenir des commentaires de lecteurs natifs, affiner et ajouter d'autres conjonctions|500|
+|9|Obtenir les commentaires de lecteurs natifs, affiner et ajouter des ensembles|600|
+|10|Obtenir des commentaires de lecteurs natifs, affiner et ajouter d'autres ensembles|700|
+|11|Obtenir les commentaires de lecteurs natifs, affiner et ajouter d'autres ensembles|800|
+|12|Obtenir des commentaires de lecteurs natifs, affiner et ajouter d'autres conjonctions|900|
+|13|Dériver le Gras|1 800|
+|14|Raffinements, crénage, tests avec commentaires des lecteurs natifs|1800 |
+|15|Extrapolation et nettoyage des graisses minces et noirs, génération et nettoyage des styles inclinés|3600|
+|16|Raffinement des styles interpolés |3600|
+|17|Raffinement général de l'espacement, du crénage et tests dans tous les styles|3600|
+|18|Finalisation|3600|
 
-You may want to work with a font that has no sources available, only binary OpenType GPOS/GSUB tables. 
-There are a few tools that can convert those into the Adobe FEA syntax, including FontForge, but the output of each tool will require reworking by hand.
+Vous voudrez peut-être travailler avec une police qui n'a pas de sources disponibles, seulement les tables binaires OpenType GPOS/GSUB. Il existe quelques outils qui peuvent les convertir dans la syntaxe Adobe FEA, y compris FontForge, mais la sortie de chaque outil nécessitera un retraitement à la main.
 
-The Adobe FDK contains a 'spot' tool, that can be used like this:
+Le FDK d'Adobe contient un outil 'spot', qui peut être utilisé comme ceci:
 
-> spot -t GSUB=7 Font.otf > GSUB.fea
+> Spot -t GSUB=7 Font.otf> GSUB.fea
 
-The noto project has a [dump_otl.py](https://github.com/googlei18n/nototools/blob/master/nototools/dump_otl.py)
+Le projet noto possède un [dump_otl.py](https://github.com/googlei18n/nototools/blob/master/nototools/dump_otl.py)
 
-The 'Fontlab Studio' and 'OpenType Master' proprietary application have converters too. 
+Les applications 'Fontlab Studio' et 'OpenType Master' possèdent également des convertisseurs.
 
-## Useful Resources
+## Ressources utiles
 
 ### Introductions
 
 * <http://www.linotype.com/6896/devanagari.html>
 
-### Where to look for inspiration and ideas
+### Où chercher de l'inspiration et des idées
 
-Look at the Devanagari fonts on the <http://indiantypefoundry.com> website, and those that were just released through Google Fonts, for inspiration on shapes of letters can vary. 
+Regardez les polices Devanagari sur le site <http://indiantypefoundry.com>, et ceux qui viennent de sortir via Google Fonts, car les formes de lettres peuvent varier.
 
-Another good place to search for Hindi “e-paper” newspaper sites to see actual fonts-in-use - advertisements usually have more diversity in fonts. <http://epaper.jagran.com> is a very largely circulated Indian e-paper.
+Un autre bon endroit pour rechercher de l'Hindi sont les sites de journaux "e-paper" hindi pour voir les polices réelles en cours d'utilisation - les publicités ont généralement plus de diversité dans les polices. <http://epaper.jagran.com> est un e-papier indien largement diffusé.
 
-Flickr is also a good source of ideas for imagery:
+Flickr est également une bonne source d'idées par ses images:
 
 * <https://www.flickr.com/groups/devanagari-script/>
 * <https://www.flickr.com/groups/37703106@N00/>
 * <https://www.flickr.com/groups/indicscripts/>
 * <https://www.flickr.com/photos/pauldhunt/sets/72157603715699186>
 
-#### Historical sources
+#### Sources historiques
 
-Get your hands on copies of Introduction to the Devanagari Script by H. M. Lambert, Oxford University Press 1953 and Typography of Devanagari (three volumes) by B. S. Naik, Directorate of Languages, Bombay 1971.
+Mettez la mains sur des copies de _Introduction to the Devanagari Script_ par H. M. Lambert, Oxford University Press 1953 et _Typography of Devanagari_ (trois volumes) par B. S. Naik, Direction des Langues, Bombay 1971.
 
-Beyond that, there are at least two general sources of 19th Century type from Europe worth looking at: the typefaces from Britain and those from Germany (mostly from Leipzig). These types were used more for the setting of Sanskrit texts than for Hindi texts.
+Au-delà de cela, il existe au moins deux sources générales de fontes du 19e siècle venant d'Europe qui vaut la peine d'être regardées: les polices de caractères de la Grande-Bretagne et celles de l'Allemagne (principalement de Leipzig). Ces fontes ont plus été utilisées pour la mise en texte sanskrit que pour les textes hindi.
 
-Do also try to find samples of 19th and 20th C. text typefaces from Indian type foundries. They are significantly less Europeanized, as you might expect. There is wonky stuff going on in European academic sanskritic faces from the 19th century that doesn’t seem to appear in 20th century Indian typography at all. These Indian sources are probably more difficult to find in Western libraries, but perhaps Erin McLaughlin has more leads. Matthew Carter’s 1970s Linotype Devanagari is based on typefaces from the Nirnaya Sagar foundry, for instance. Samples of their types, and the Bombay Type Foundry’s types, should be accessible in some western university and/or national libraries. I’d also recommend looking at Monotype’s Devanagari and Linotype Devanagari (the 1970s version and 1980/90s update, not the original 1935 one, which only bore the same name).
+Essayez également de trouver des échantillons de caractères de texte de 19e et 20e siècles provenant de fonderies indiennes. Ils sont nettement moins européanisés, comme vous pouvez l'espérer. Il y a des choses stupides qui se voient dans les fontes académiques européennes sanskritiques du 19ème siècle qui ne semble pas du tout apparaître dans la typographie indienne du 20ème siècle. Ces sources indiennes sont probablement plus difficiles à trouver dans les bibliothèques occidentales, mais peut-être qu'Erin McLaughlin a plus d'une piste. Linotype Devanagari de Matthew Carter, 1970, est basé sur des fontes de la fonderie Nirnaya Sagar, par exemple. Les échantillons de leurs polices et les polices de la fonderie de Bombay devraient être accessibles dans certaines universités et/ou bibliothèques nationales occidentales. Je recommanderais également de regarder le Devanagari Monotype et le Devanagari Linotype (la version des années 1970 et la mise à jour des années 80/90s, pas l'original 1935, qui portait seulement le même nom).
 
-There is no Devanagari type in Typefounders in The Netherlands (Charles Enschede, Harry Carter 1978). Whatever you do, don’t look at Bodoni’s types from his 1818 manual.
+Il n'y a pas de police Devanagari dans Typefounders aux Pays-Bas (Charles Enschede, Harry Carter, 1978). Quoi que vous fassiez, ne regardez pas les polices Bodoni de son manuel de 1818.
 
-Some German-made Devanagari type from H. Berthold AG may be seen in Alphabete und Schriftzeichen des Morgen- und des Abendlandes, from the Reichsdruckerei, Berlin 1924, p. 45–47.
+Un certaine police Devanagari faite en Allemagne par H. Berthold AG peut être vue dans _Alphabete und Schriftzeichen des Morgen- und des Abendlandes_, du Reichsdruckerei, Berlin 1924, p. 45-47.
 
 ### Articles
 
-Sarang Kulkarni wrote ["Issues with Devanagari Display Type (PDF)"](http://www.typoday.in/2013/spk_papers13/sarang-kulkarni-typographyday2013.pdf)
+Sarang Kulkarni a écrit ["Issues with Devanagari Display Type (PDF)"](http://www.typoday.in/2013/spk_papers13/sarang-kulkarni-typographyday2013.pdf)
 
-Yashodeep Gholap wrote [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
+Yashodeep Gholap a écrit [Designing a Devanāgarī text font for newspaper use  (PDF)](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
 
-Vaibhav Singh's MATD disertation, [Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
+La disertation de Vaibhav Singh dans MA Typeface Design, [Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 
 ### Lohit2 Devanagari
 
-Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph List and OpenType Layout code. It is available as [original FontForge sources](https://github.com/pravins/lohit2/tree/master/devanagari) or as a [UFO zip download](https://github.com/frank-trampe/lohit2/archive/master.zip)
+Le Lohit2 Devanagari peut être utilisé comme base pour les nouvelles polices OFL en utilisant sa liste de glyphes et son code de disposition OpenType. Il est disponible en tant que [source originale de FontForge](https://github.com/pravins/lohit2/tree/master/devanagari) ou en [téléchargement zip](https://github.com/frank-trampe/lohit2/archive/master.zip)
 
-### OpenType Layout
+### Disposition OpenType
 
-[Microsoft Devanagari OpenType Font Development page](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
+[Page de développement de la police Microsoft Devanagari OpenType](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 
-### Devanagari Anatomy
+### Anatomie du Devanagari
 
-[TDIL Devanagari Script Grammar (PDF)](http://www.tdil-dc.in/tdildcMain/articles/82170Devanagari%20Script%20Behaviour%20for%20Hindi%20%20ver%201.4.10.pdf)
+[Grammaire d'écriture Devanagari du TDIL (Technology Development for Indian Language) (PDF)](http://www.tdil-dc.in/tdildcMain/articles/82170Devanagari%20Script%20Behaviour%20for%20Hindi%20%20ver%201.4.10.pdf)
 
-[2 pages from Aksharaya's Devanagari calligraphy Manual](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J), which can be used as a reference for pen angle and letter proportions.
+[2 pages du manuel de calligraphie Devanagari d'Aksharaya](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J), which can be used as a reference for pen angle and letter proportions.
 
-Professor Girish Davli of IIT Bombay IDC (comparable to the USA's MIT Media Lab) published this [Devanagari Anatomy article (PDF)](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
+Le Professeur Girish Davli de l'IIT Bombay IDC (comparable au MIT Media Lab des Etats-Unis) a publié cet [article sur l'anatomie du Devanagari (PDF)](https://web.archive.org/web/20130913220315/http://www.idc.iitb.ac.in/resources/dt-jan-2009/Anatomy%20of%20Devanagari.pdf)
 
-If you're new to Devanagari script, it's important to become aware of traditional calligraphic pen stress, which is different than in Latin. Here's a quick demonstration of the stroke angle, and how curves were traditionally weighted. Your design will be more successful, and appear less "Latinized", if you draw your curves according to these weight principles, rather than cutting-and-pasting Latin alphabet letter parts. <br /><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
+Si vous êtes nouveau dans l'écriture Devanagari, il est important de prendre conscience de la pression de la plume calligraphique traditionnelle, qui est différente de celle du latin. Voici une démonstration rapide de l'angle d'attaque et de la façon traditionnelle d'appliquer la graisse aux courbes. Votre conception sera plus réussie, et apparaîtra moins «latinisé», si vous dessinez vos courbes selon ces principes de graisse, plutôt que de couper-et-coller des parties de lettres de l'alphabet latin.
 
-The [Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf) shows the basic letters, but not the conjuncts
+<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
 
-### Testing Tools
-
-Adobe InDesign's support for OpenType Fonts for non-European scripts only became reliable with Creative Cloud, and [the World Ready Composer paragraph option must be enabled](http://blogs.adobe.com/vikrant/2012/05/indesign-cs6-indic-support-and-preferences/); even the latest version can be improved. The libre harfbuzz and Microsoft OpenType implementations are the most complete, so you should test your fonts in the latest versions of Chrome, Firefox and Microsoft Word, on both Windows and Mac OS X, to ensure errors in shaping are due to the fonts and not the underlying engine. 
-
-[Pablo Impallari's Devanagari Testing Page](http://www.impallari.com/testing/devatest.php) (with [sources on github!](https://github.com/impallari/font-testing-page/)) provides some ready-made testing layouts, and you can drag and drop your OTF or TTF right into the page to load it.
-
-[Pooja Saxena's Type Tools](https://anexasajoop.github.io/devanagari-type-tools) (with [sources on github!](https://github.com/anexasajoop/devanagari-type-tools)) generates test texts for letter combinations.
-
-The [Adhesion Text Devanagari](http://www.adhesiontext.com/devanagari/) is a special version of the a tool built by Miguel Sousa to make dummy text comprised only of the words possible to write with the glyphs you have already drawn. Insert the glyphs (अआईईउऊ etc) that you've drawn, and out will come some sample words for you to use in proofs.
-
-The Huerta Tipografica's [Devanaguide](http://devanaguide.huertatipografica.com/) is an open source tool to see and compare different devanagari fonts.
-It also allows you to type a text and preview it in all the fonts at the same time.
-The Devanaguide also includes a [Devanagari word list](https://github.com/andrestelex/devanaguide/blob/master/deva-dictionary.txt) which is helpful for test text design.
-
-### Other Links
-
-[Books & Referances for Devanagari typography Projects](http://dsquare.in/devft/en/books.php) is a list of resources which will probably fulfill most of the research requirements of most projects. Compiled by Professor Girish Davli of IIT Bombay IDC.
+La page [Devanagari Unicode](http://www.unicode.org/fr/charts/PDF/U0900.pdf) montre les lettres de base, mais pas les conjonctions.
 
 
-### Forum Discussions
+### Outils de test
+
+Le support d'Adobe InDesign pour les polices OpenType pour les écritures non européennes n'est devenu fiable qu'avec Creative Cloud et [l'option de paragraphe World Ready Composer doit être activée](http://blogs.adobe.com/vikrant/2012/05/indesign-cs6-indic-support-and-preferences/). Même la dernière version peut être améliorée. Les implémentations libre harfbuzz et Microsoft OpenType sont les plus complètes. Vous devez donc tester vos polices dans les dernières versions de Chrome, Firefox et Microsoft Word, sur Windows et Mac OS X, pour vous assurer que les erreurs de mise en forme sont dues aux polices et non au moteur sous-jacent.
+
+La [page d'essai de Devanagari de Pablo Impallari](http://www.impallari.com/testing/index-devanagari.php) (avec [sources sur github!](Https://github.com/impallari/font-testing-page/) ) fournit des schémas de tests prêts à l'emploi, et vous pouvez glisser-déposer votre OTF ou TTF directement dans la page pour le charger.
+
+Les [outils de police de Pooja Saxena](https://anexasajoop.github.io/devanagari-type-tools) (avec [sources sur github!](Https://github.com/anexasajoop/devanagari-type-tools)) génère des textes de test avec combinaisons de lettres.
+
+Le [Adhesion Text Devanagari](http://www.adhesiontext.com/devanagari/) est une version spéciale de l'outil construit par Miguel Sousa pour faire du texte fictif composé uniquement des mots possibles pour écrire avec les glyphes que vous avez déjà dessiné. Insérez les glyphes (अआईईउऊ etc) que vous avez dessiné, et il apparaîtra quelques exemples de mots à utiliser dans vos tests.
+
+Le Huerta Tipografica [Devanaguide](http://devanaguide.huertatipografica.com/) est un outil open source pour voir et comparer les différentes polices devanagari.
+Il vous permet également de taper un texte et de le prévisualiser dans toutes les polices en même temps.
+Le Devanaguide comprend également une liste de mots [Devanagari](https://github.com/andrestelex/devanaguide/blob/master/deva-dictionary.txt) qui est utile pour la conception de texte d'essai.
+
+### Autres liens
+
+[Books & References for Devanagari typography Projects](http://dsquare.in/devft/en/books.php) est une liste de ressources qui répondra probablement à la plupart des besoins de recherche de beaucoup de projets. Compilé par le Professeur Girish Davli de IIT Bombay IDC.
+
+### Forum de discussions
 
 Typophile
 
-* [Adobe Devanagari](http://typophile.com/node/95460)
+* [Adobe Devanagari](http://typophile.com/node/95460) (en anglais)
 
-Google Fonts Directory Discuss
+Répertoire des discussion Google Fonts (en anglais)
 
 * [A note on conventions for the placement of shoulder line, descenders, ascenders and so forth in relation to the latin?](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/TaX0NKHket4)
 * [Starting from Lohit2](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/VAhs5MnjZ30) and [pdf](https://groups.google.com/forum/#!topic/googlefontdirectory-discuss/_3gtTalzKUQ)

@@ -1,47 +1,48 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 57
 category: workflow
-title: Italic
+title: Italique
 ---
 
-Italics are probably the most misunderstood style in type design, but they are also the style with the greatest potential excitement and fun due to the large number of variables for you the designer to play with.
+Le style italique est probablement celui qui est le plus mal compris dans le design de polices, mais il est celui avec le plus grand potentiel d'enthousiasme et de plaisir en raison du grand nombre de variables avec lesquelles vous, le concepteur, pouvez jouez.
 
-Italics are different from bolds in that they are not meant to appear to have a different weight than the regular. Instead, they are meant to offer a different <em>texture</em> than the regular. Greater intensity in this difference will mean that the italic is especially useful for creating a sense of contrast with the regular. This stronger effect is useful for highlighting single words or short passages of text. In contrast, a less-different texture is often useful in situations where you are setting multiple lines, whole paragraphs, or even even pages in an italic.
+Les italiques sont différentes du gras en ce sens qu'ils ne sont pas censés paraître avoir une graisse différente du style régulier. Au lieu de cela, ils sont destinés à offrir une <em>texture</em> différente du style régulier. Une plus grande intensité dans cette différence signifie que l'italique est particulièrement utile pour créer un sens de contraste avec le régulier. Cet effet plus fort est utile pour mettre en évidence des mots simples ou des passages courts de texte. En revanche, une texture moins différente est souvent utile dans des situations où vous définissez plusieurs lignes, des paragraphes entiers ou même des pages en italique.
 
-## Slant
+## Inclinaison
 
-The variable most commonly associated with italics is slant. Indeed, when a web browser is asked for an italic in a CSS rule and there is no Italic, it will simply slant the regular to create a synthetic or faux italic. It is probably not surprising that when people first begin designing type they also consider this approach. The origins of this idea go back to the mid-20th Century and modernism as it was applied to design. This is why the first italics seen in typefaces such as Helvetica were also slanted versions of the regular.
+La variable la plus fréquemment associée à l'italique est l'inclinaison. En effet, lorsqu'un navigateur Web demande un italique dans une règle CSS et qu'il n'y a pas d'italique, il incline simplement le style régulier pour créer un faux italique ou synthétique. Il n'est probablement pas surprenant que lorsque les gens commmencent à concevoir des polices qu'ils envisagent également cette approche. Les origines de cette idée remontent au milieu du XXe siècle avec le modernisme tel qu'il a été appliqué à la conception. C'est pourquoi les premières italiques vues dans les polices de caractères comme Helvetica étaient également des versions inclinées des régulières.
 
-### How much slant?
+### Combien d'inclinaison?
 
-Some italics have no slant. No, really! These italics are called upright italics. However it is likely that if your design has only one italic in it that you will choose for that italic to have some degree of slant. In general, italics tend to slant between 4-14 degrees. Most contemporary fonts slant between 6-9 degrees.
+Certains italiques n'ont pas d'inclinaison. Pas vraiment! Ces italiques sont appelés italiques droits. Toutefois, il est probable que si votre design a seulement un italique, vous choisirez que cet italique ait un certain degré d'inclinaison. En général, les italiques tendent à s'incliner entre 4 et 14 degrés. La plupart des polices contemporaines s'inclinent entre 6-9 degrés.
 
-While slant can be important to the design of an italic, is easy to notice, and can even be done with some limited success using an automatic filter, it is not the only variable that you can use to help separate your italic from your regular. You may want to consider using one or more of the following variables in addition to slant.
+Bien que l'inclinaison peut être importante pour la conception d'une italique, est facile à remarquer, et peut même être fait avec un succès limité en utilisant un filtre automatique, ce n'est pas la seule variable que vous pouvez utiliser pour aider à séparer votre style italique de votre style régulier. Vous pouvez envisager d'utiliser une ou plusieurs des variables suivantes en plus de l'inclinaison.
 
-## Italic construction
+## Construction italique
 
-The term "italic" does not in fact refer to the slant seen in in many italics designs but instead refers instead to a style of writing which became popular in 14th century Italy. This style of writing was a faster and a connected form of writing which uses a different construction for its letters than is seen in regular. This different construction or pattern of strokes is what type designers are referring to when they say they have designed a "real" or "true" italic. This construction has many sub characteristics that you may choose to include in an italic design.
+Le terme "italique" ne se réfère pas en fait à l'inclinaison vu dans dans de nombreux designs d'italiques, mais se réfère plutôt à un style d'écriture qui est devenu populaire dans l'Italie du 14ème siècle. Ce style d'écriture était une forme plus rapide et connectée qui utilise une construction différente pour ses lettres que celle que l'on voit dans le style régulier. Cette construction différente ou modèle de traits est ce que les concepteurs de polices veulent dire quand ils disent qu'ils ont conçu un "vrai" italique. Cette construction a beaucoup de sous-caractéristiques que vous pouvez choisir d'inclure dans un design d'italique.
 
-### Triangular counters
+### Contrepoinçoins triangulaires
 
-The most obvious of these characteristics is the triangular countershape created by letters with joins. These letters include a, b, d, g, h, m, n, p, q, and u. This variable is powerful, partly because countershape is a powerful variable, but also because of the great number of letters with the feature.  That fact, combined with the high frequency of their usage in most languages, is also a very large (and probably the even greater) factor.
+La plus évidente de ces caractéristiques est le contrepoinçoin triangulaire créée par les lettres avec des jointures. Ces lettres comprennent a, b, d, g, h, m, n, p, q et u. Cette variable est puissante, en partie parce que le contrepoinçoin est une variable puissante, mais aussi en raison du grand nombre de lettres avec cette caractéristique. Ce fait, combiné à la fréquence élevée de leur utilisation dans la plupart des langues, est également un très grand (et probablement le plus grand) facteur.
 
-When designing your italic, you can very effectively tune the effect your italic gives by making relatively small adjustments to the height of the joins. Subtle changes can give surprisingly large results. Still, not all italic fonts take advantage of this variable.
+Lors de la conception de votre italique, vous pouvez effectivement régler l'effet que votre italique donne en faisant des ajustements relativement faible à la hauteur des jointures. Des changements subtils peuvent donner des résultats surprenants. Néanmoins, toutes les polices italiques ne profitent pas de cette variable.
 
-### In and out strokes
+### Traits entrant et sortant
 
-Many italic fonts make use of asymmetical serifs, in the form of in- or out-strokes, or both. When only one is used, it is more common to use the outstroke and to have an upright style applied where the instroke might have been. The intensity of the effect that instroke and outstroke has can be controlled by the weight of the strokes and by adjusting how long they are. Like triangular counters, a great part of their utility and power comes from the fact that so many letters use them.
+De nombreuses fontes italiques utilisent des empattements asymétriques, sous forme de traits entrant ou sortant, ou les deux. Lorsqu'un seul est utilisé, il est plus fréquent d'utiliser le trait sortant et d'appliquer un style droit où le trait entrant aurait dû être. L'intensité de l'effet fournie par trait entrant et sortant peut être contrôlée par la graisse des traits et en ajustant combien longs ils sont. Comme les contrepoinçoins triangulaires, une grande partie de leur utilité et de leur puissance vient du fait que plusieurs lettres les utilisent.
 
 ### Condensation
 
-Italics are normally somewhat less wide or more condensed than the regular style. Because condensation is a feature seen across all of the letters in the italic, it is a very powerful variable. This variable can be employed in both a gross and subtle manner. If you choose to use this variable, it is necessary to adjust the weight of the strokes to make the italic appear to be the same or nearly the same weight as the regular design. The more condensed your italic is, the more you will need to make this adjustment.
+Les styles italiques sont normalement un peu moins large ou plus condensés que le style régulier. Parce que la condensation est une caractéristique vue dans toutes les lettres en italique, c'est une variable très puissante. Cette variable peut être employée à la fois d'une manière grossière et subtile. Si vous choisissez d'utiliser cette variable, il est nécessaire d'ajuster la graisse des traits pour rendre la graisse de l'italique la même ou presque la même que celle du design régulier. Plus votre italique est condensé, plus vous devrez effectuer cet ajustement.
 
-## Mixing variables
+## Mélange de variables
 
-Most italics use all of the variables listed above in various proportions. You may find that it is useful to look at a range of italic designs and analyse which variables are being used and in what strength. When you do this, you will notice that none of the variables are used at full strength. Instead, one of the variables tends to lead, with some limited use of the others. The stronger the use of the variables the more contrast your italic will have from the regular.
+La plupart des italiques utilisent toutes les variables énumérées ci-dessus dans diverses proportions. Il est utile de regarder une gamme de designs d'italiques et d'analyser quelles variables sont utilisées et dans quelle force. Lorsque vous faites cela, vous remarquerez qu'aucune des variables ne sont utilisées à pleine puissance. Au lieu de cela, une des variables tend à dominer, avec un usage plus limité des autres. Plus l'utilisation des variables est forte, plus votre style italique sera contrasté avec le style régulier.
 
-In is also notable that in the last ten years we have seen an increasing number of type designers choose to offer not just one italic in their type families, but two or even more. It is also notable that dictionaries sometimes make use of more than one style of italic.
+Il faut remarquer que dans les dix dernières années, nous avons vu un nombre croissant de concepteurs de polices choisir d'offrir non pas seulement un italique dans leur de familles de polices, mais deux ou même plus. Remarquez également que les dictionnaires utilisent parfois plus d'un style d'italique.
 
-When they were first made for printing, italics were not thought of as part of the same type design or type family. This idea is one which became standard over the 19th and 20th Centuries. Even the idea of mixing italics with regular was not part of the original idea behind this script. The first italic fonts were used to set entire books, instead of the upright roman style. It is probably safe to assume that the role of the italic will continue to evolve.
+Lorsqu'ils ont été faits originalement pour pour l'impression, les italiques n'étaient pas considérés comme faisant partie du même design de police ou famille de police. Cette idée est devenue une norme au cours des 19e et 20e siècles. Même l'idée de mélanger le style italique avec le style régulier ne faisait pas partie de l'idée originale derrière cette écriture. Les premières fontes italiques ont été utiliséees pour concevoir des livres entiers, au lieu du style romain droit. Il est probablement prudent de supposer que le rôle de l'italique va continuer d'évoluer.
+

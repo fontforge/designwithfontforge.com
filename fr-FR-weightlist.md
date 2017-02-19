@@ -23,12 +23,12 @@
 | 51     | Chiffres                                   |
 | 54     | Gras                                       |
 | 57     | Italic                                     |
-| 60     | Spacing, Metrics and Kerning               |
-| 63     | Making Sure Your Font Works, Validation    |
-| 66     | The Final Output Generating Font Files     |
+| 60     | Espacement, métriques et crénage           |
+| 63     | S'assurer que votre police fonctionne      |
+| 66     | Le produit final, génération des polices   |
 | 69     | Quand les choses tournent mal avec FF      |
-| 72     | Designing Devanagari Typefaces             |
-| 75     | Importing Glyphs from Other Programs       |
+| 72     | Conception de polices Devanagari           |
+| 75     | Importation de glyphes d'autres programmes |
 | 78     | Adding Glyphs to an Arabic Font            |
 | 81     | Further Reading                            |
 | 84     | Glossary                                   |
