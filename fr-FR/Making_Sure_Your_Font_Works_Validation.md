@@ -14,7 +14,7 @@ FontForge offre des outils que vous pouvez utiliser pour localiser (et, dans de 
 
 Le premier outil est appelé <em>Recherche de problèmes</em> et se trouve sous le menu Élément. Vous devez d'abord sélectionner un ou plusieurs glyphes, soit dans la fenêtre de fonte, soit dans la fenêtre de glyphe, ou dans la fenêtre de métriques, puis ouvrez l'outil Rechercher des problèmes. L'outil vous présente un assortiment de problèmes potentiels dans huit onglets distincts.
 
-<img src="images/findproblemswindow-fr-FR.png" alt="">
+<img src="../en-US/images/findproblemswindow-fr-FR.png" alt="">
 
 Vous pouvez sélectionner les problèmes qui vous intéressent en cochant la case à côté de chacun et, dans certains cas, fournir une valeur numérique à vérifier. Lorsque vous cliquez sur le bouton OK, l'outil examine tous les glyphes sélectionnés et signale tous les problèmes qu'il trouve dans une boîte de dialogue.
 
@@ -63,15 +63,15 @@ Vous pouvez utiliser d'autres tests pour localiser des points de courbe qui sont
 
 L'autre outil de validation de FontForge est le validateur de la police, qui exécute une batterie de tests et vérifie la police en entier. Parce que le validateur est utilisé pour examiner une police complète, vous ne pouvez le démarrer qu'à partir de la fenêtre de fonte.  Vous le trouverez dans le menu Élément, sous le sous-menu Validation. Le validateur est conçu pour exécuter uniquement les tests qui examinent la police pour l'exactitude technique, essentiellement les tests décrits dans la section "testez les fonctionnalités requises" ci-dessus. Mais il exécute les tests contre la police en entier, et il le fait beaucoup plus rapidement que vous pouvez le faire vous-même glyphe par glyphe à l'aide de l'outil de recherche de problèmes.
 
-<img src="images/validator-integral-question-fr-FR.png" alt="">
+<img src="../en-US/images/validator-integral-question-fr-FR.png" alt="">
 
 La première fois que vous exécutez le validateur au cours d'une session particulière, une boîte de dialogue apparaîtra vous demandant si oui ou non il doit signaler les coordonnées de point non entier comme une erreur. La réponse prudente est de choisir "Signaler comme une erreur", car s'en tenir à des coordonnées entières est une bonne pratique de conception. Lorsque le validateur termine son scan de la police (ce qui ne prendra que quelques secondes), il ouvrira une nouvelle boîte de dialogue intitulée Validation de <em>quel que soit le nom de votre police</em>. Cette fenêtre répertorie tous les problèmes trouvés par le validateur, présentés dans une liste triée par glyphe.
 
-<img src="images/valiator-output-fr-FR.png" alt="">
+<img src="../en-US/images/valiator-output-fr-FR.png" alt="">
 
 Mais cette fenêtre n'est pas simplement une liste d'erreurs: vous pouvez double-cliquer sur chaque élément de la liste, et FontForge ira au glyphe correspondant et mettra en évidence le problème exact, avec une explication de texte dans sa propre fenêtre. Vous pouvez ensuite résoudre le problème dans l'éditeur de glyphe, et l'élément d'erreur associé disparaît immédiatement de la liste d'erreurs du validateur. Dans de nombreux cas, l'erreur sera quelque chose que FontForge peut automatiquement réparer. Dans ces cas, la fenêtre d'explication affichera en bas un bouton "Corriger". Vous pouvez cliquer dessus et effectuer la réparation sans efforts supplémentaires.
 
-<img src="images/validator-fix-problem-fr-FR.png" alt="">
+<img src="../en-US/images/validator-fix-problem-fr-FR.png" alt="">
 
 Pour certains problèmes, il n'y a pas de correction automatique, mais voir le problème à l'écran vous aidera à le corriger immédiatement. Par exemple, une courbe auto-sécante a un endroit spécifique où le chemin se croise - il peut être trop petit pour que vous puissiez le remarquer d'un coup d'œil, mais le grossissement vous permettra de remodeler le chemin et d'éliminer le problème.
 

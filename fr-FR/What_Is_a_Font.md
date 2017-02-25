@@ -3,7 +3,7 @@ published: true
 layout: bookpage_fr-FR
 weight: 3
 category: Before You Begin
-title: Qu'est-ce qu'une fonte?
+title: Qu'est-ce qu'une police de caractères?
 ---
 
 &mdash; Qu'est-ce qui rend les polices de caractères différentes de l'écriture manuscrite, de la
@@ -45,7 +45,7 @@ Commençons par identifier les principales caractéristiques systémiques dans l
 
 ### Construction
 
-<img src="images/Construction2.png" alt>
+<img src="../en-US/images/Construction2.png" alt>
 
 La construction désigne la structure des traits sous-jacents qui forment un glyphe particulier,
 c'est-à-dire le squelette du glyphe. Le type de construction à utiliser est sans doute l'une des
@@ -54,7 +54,7 @@ si votre conception va sembler quelque peu familière aux lecteurs. Dans l'exemp
 blanche à l'intérieur des lettres indique la construction approximative suggérée par la forme des lettres
 elles-mêmes.
 
-<img src="images/AAA.png" alt>
+<img src="../en-US/images/AAA.png" alt>
 
 Cependant, la façon dont les traits se terminent (les 'terminaisons' et les 'empattement' (voir ci-dessous)
 ne font pas partie généralement de ce que nous entendons par 'construction'. La construction est le
@@ -64,11 +64,11 @@ parties de la chair.
 Dans l'exemple ci-dessus, la ligne blanche à l'intérieur des lettres indique la construction approximative
 suggérée par la forme des lettres elles-mêmes.
 
-<img src="images/AAA.png" alt>
+<img src="../en-US/images/AAA.png" alt>
 
 ### Proportion de la hauteur d'x à la hauteur de capitale
 
-<img src="images/Prop.png" alt>
+<img src="../en-US/images/Prop.png" alt>
 
 Les lettres sur la gauche proviennent de [Playfair Display], qui a une grande hauteur d'x par rapport à sa
 hauteur de capitale. Les lettres sur la droite sont de [EB Garamond], qui ont une plus petite hauteur d'x.
@@ -76,7 +76,7 @@ Dans l'exemple ci-dessus, la taille du H a été ajustée pour qu'ils correspond
 
 ### Hauteur de l'ascendante
 
-<img src="images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender%20height.png" alt>
 
 Dans l'exemple ci-dessus, les hauteurs d'x ont été adaptées afin d'illustrer la différence relative
 des hauteurs de l'ascendante.
@@ -88,7 +88,7 @@ de caractères. Elles vont souvent de paire avec de plus petite hauteur d'x.
 
 ### Profondeur de la descendante
 
-<img src="images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender%20depth.png" alt>
 
 Comme les ascendantes, les descendantes qui sont longues peuvent sembler élégantes.
 
@@ -98,7 +98,7 @@ causer une collision entre les lignes de texte.
 
 ## Largeur
 
-<img src="images/width.png" alt>
+<img src="../en-US/images/width.png" alt>
 
 La largeur de design d'une police va modifier non seulement à quoi elle ressemble, mais aussi à quoi
 elle est utile. L'exemple sur la droite est celui d'une police de texte. L'exemple sur la gauche est
@@ -112,15 +112,15 @@ Les lettres dans la ligne supérieure de cet exemple montrent une plus grande va
 lettres dans la ligne inférieure.
 
 
-<img src="images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width%20regularity.png" alt>
 
 ### Graisse
 
-<img src="images/Weight.png" alt>
+<img src="../en-US/images/Weight.png" alt>
 
 ### Inclination
 
-<img src="images/Slant.png" alt>
+<img src="../en-US/images/Slant.png" alt>
 
 ### Contraste
 
@@ -129,7 +129,7 @@ Le contraste désigne la variation de la largeur du trait dans un glyphe. Remarq
 et les côtés du glyphe. Les deux glyphes ont un certain contraste, mais celui de gauche en a beaucoup plus
 que celui de droite.
 
-<img src="images/Contrast.png" alt>
+<img src="../en-US/images/Contrast.png" alt>
 
 Une police avec graisse constante (largeur du trait) dans ses formes de lettre ou aucun contraste visible
 se distingue grandement d'une police contrastée. Comme le choix entre serifs ou sans-serifs, le contraste
@@ -145,7 +145,7 @@ Dans l'image ci-dessous, nous voyons que les parties minces des formes de la let
 différentes. Dans le glyphe à gauche, les points minces reposent sur un axe parfaitement vertical. Dans le
 glyphe à droite, l'axe est diagonal.
 
-<img src="images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle%20of%20contrast.png" alt>
 
 ### Distribution de la graisse
 
@@ -155,33 +155,33 @@ grande variété d'options à choisir quand il s'agit distribuer la graisse dans
 
 #### Verticale
 
-<img src="images/verical1.png" alt>
+<img src="../en-US/images/verical1.png" alt>
 
 Une distribution verticale de la graisse est très commune. Le 9 et le 8 ci-dessus sont des exemples
 particulièrement frappant.
 
 #### Horizontale
 
-<img src="images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal%20weight.png" alt>
 
 Une distribution de graisse horizontale est beaucoup moins commune, mais est néanmoins visible dans de
 nombreuses polices.
 
 #### Forte à la base
 
-<img src="images/2bottomheavy.png" alt>
+<img src="../en-US/images/2bottomheavy.png" alt>
 
 #### Forte au sommet
 
-<img src="images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy%20metal.png" alt>
 
 #### Irrégulière
 
-<img src="images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular%20weight.png" alt>
 
 ### Fûts
 
-<img src="images/8stems.png" alt>
+<img src="../en-US/images/8stems.png" alt>
 
 Il est facile de supposer que vos fûts seront tout simplement droits et que ce n'est pas une préoccupation
 réelle, mais à la fois la graisse et la forme de vos fûts sont des choix délibérés que vous pouvez et devez
@@ -189,7 +189,7 @@ faire.
 
 ### Jonctions
 
-<img src="images/7joins.png" alt>
+<img src="../en-US/images/7joins.png" alt>
 
 ### Panses
 
@@ -198,7 +198,7 @@ intérieures. Les traits internes sont appelés "contrepoinçons". Lors de la co
 devrez souvent altérer votre travail non pas en raison de la forme ou la largeur du trait, mais en raison
 de la forme et de la taille du contrepoinçoin.
 
-<img src="images/2bowls.png" alt>
+<img src="../en-US/images/2bowls.png" alt>
 
 ### Terminaisons
 
@@ -206,18 +206,18 @@ Les terminaisons sont les formes aux extrémités des traits. Ce ne sont pas des
 souvent perpendiculaires à l'angle du trait à son extrémité, ou ciselés horizontalement ou verticalement.
 Elles peuvent également refléter la forme de la pointe ou des autres outils de marquage que les lettres évoquent.
 
-<img src="images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals%20f.png" alt>
 
 ### Vitesse
 
-<img src="images/6speed_1.png" alt>
+<img src="../en-US/images/6speed_1.png" alt>
 
 Le ‘n’ de gauche semble être écrit beaucoup plus vite ce celui de droite. La vitesse est discutée plus en
 détail dans le chapitre [sur les italiques]
 
 ### Régularité
 
-<img src="images/6regularity.png" alt>
+<img src="../en-US/images/6regularity.png" alt>
 
 Les caractéristiques suivantes ne sont pas présentes dans toutes les designs de police, mais ce sont des
 variables qui peuvent faire partie de votre conception. Si tel est le cas, il convient de considérer le
@@ -225,7 +225,7 @@ degré auquel elles joueront un rôle de variable.
 
 ### Ornements
 
-<img src="images/5flourish.png" alt>
+<img src="../en-US/images/5flourish.png" alt>
 
 Notez que dans la police du dessus, les ornements sont plus présents dans la lettre majuscule et que
 dans celle du bas, les ornements le sont plus dans la minuscule.
@@ -276,11 +276,11 @@ ou émoussées et angulaires ([Rockwell]).
 
 ### Décoration
 
-<img src="images/4decoration.png" alt>
+<img src="../en-US/images/4decoration.png" alt>
 
 ### Dimension
 
-<img src="images/3dimention.png" alt>
+<img src="../en-US/images/3dimention.png" alt>
 
 [Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/

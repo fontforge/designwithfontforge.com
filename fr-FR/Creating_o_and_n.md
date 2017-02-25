@@ -28,14 +28,14 @@ du caractère qui descend juste en dessous de la ligne de base afin d'apparaîtr
 base s'appelle le *underhang* &ndash; démontré ci-dessous. Sans underhang, les caractères avec des
 courbes autour de la ligne de base apparaîtront désalignés dans une ligne de texte.
 
-<img src="images/underhang1.png" alt>
+<img src="../en-US/images/underhang1.png" alt>
 
 De façon similaire au undershoot, un dépassement (*overshoot*) est nécessaire pour fournir
 l'illusion d'alignement à la hauteur d'x et à la hauteur de capitale (voir ci-dessous).
 
-<img src="images/nox-opensans.png" alt>
+<img src="../en-US/images/nox-opensans.png" alt>
 
-<img src="images/nox-merriw_1.png" alt>
+<img src="../en-US/images/nox-merriw_1.png" alt>
 
 ## Concevoir le ‘o’ minuscule
 
@@ -73,9 +73,9 @@ séparés se combinent pour former un ‘n’, mais les mêmes composants seront
 la formation d'autres caractères; par exemple, le fût à gauche du ‘n’ peut être utilisée pour former le fût
 gauche de tous les autres caractères minuscules.
 
-<img src="images/n-compo-2.png" alt>
+<img src="../en-US/images/n-compo-2.png" alt>
 
-<img src="images/n-compo-1_1.png" alt>
+<img src="../en-US/images/n-compo-1_1.png" alt>
 
 En vous reportant à nouveau au chapitre sur l'espacement et les métriques, la conception du caractère ‘n’
 devrait suivre le rhythme du processus d'espacement entre les caractères ‘n’ et ‘o’ ensembles.
@@ -87,11 +87,11 @@ En étudiant les caractères ci-dessous de [Open Sans], nous pouvons voir les re
 caractères séparés et comment elles peuvent être répétées, avec quelques ajustements, pour former
 les composants de notre police.
 
-<img src="images/h-m-n-curves.png" alt>
+<img src="../en-US/images/h-m-n-curves.png" alt>
 
-<img src="images/b-c-d-e-curves.png" alt>
+<img src="../en-US/images/b-c-d-e-curves.png" alt>
 
-<img src="images/i-j-t-f-curves.png" alt>
+<img src="../en-US/images/i-j-t-f-curves.png" alt>
 
 [“Qu'est-ce qu'une fonte?”]: What_Is_a_Font.html
 [“Espacement, métriques, et crénage”]: Spacing_Metrics_and_Kerning.html

@@ -12,7 +12,7 @@ de métal traditionnelle cette esace était le bloc de métal réel de chaque ca
 chaque morceau de caractère était uniforme, permettant aux caractères d'être rangés soigneusement
 en rangées et en blocs (voir ci-dessous).
 
-<img src="images/MetalTypeZoomIn.JPG" alt>
+<img src="../en-US/images/MetalTypeZoomIn.JPG" alt>
 
 La hauteur d'une police est connue sous le nom de 'em' ou cadratin, et elle provient de la largeur du
 caractère majuscule ‘M’; il a été fait en sorte que les proportions de cette lettre soit carrée
@@ -20,7 +20,7 @@ caractère majuscule ‘M’; il a été fait en sorte que les proportions de ce
 La taille em est la taille de point sur laquelle une police de métal est calculée. Ainsi, une police de
 10 points a une taille em de 10 points (voir ci-dessous).
  
-<img src="images/em-metal-type.svg" alt>
+<img src="../en-US/images/em-metal-type.svg" alt>
 
 Dans une police numérique, l'em est une quantité d'espace définie numériquement. Dans une police OpenType,
 l'UPM &ndash; ou la taille em est généralement fixé à 1000 unités. Dans les polices TrueType, l'UPM est par
@@ -42,15 +42,15 @@ l'onglet Général et vous verrez le paramètre *EM*, lequel sera réparti entre
 
 La ligne de base:
 
-<img src="images/baseline.png" alt>
+<img src="../en-US/images/baseline.png" alt>
 
 La hauteur de capitale:
 
-<img src="images/capheight.png" alt>
+<img src="../en-US/images/capheight.png" alt>
 
 La hauteur d'x:
 
-<img src="images/xheight.png" alt>
+<img src="../en-US/images/xheight.png" alt>
 
 Plus tard, lors de la conception de votre police, vous devrez définir les valeurs bleues qui servent
 pour les contours PostScript et également pour l'autohinter de FontForge &ndash; indépendamment des

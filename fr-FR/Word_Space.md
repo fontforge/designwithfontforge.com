@@ -15,15 +15,15 @@ la conception de la police.
 
 L'inter-mots ici est trop serré&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt height="251" width="486">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt height="251" width="486">
 
 Et ici, c'est trop large&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt height="273" width="474">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt height="273" width="474">
 
 Maintenant c'est bien équilibré&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt height="270" width="466">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt height="270" width="466">
 
 Si votre police est destinée à être utilisé à de plus grandes tailles, alors l'inter-mots peut
 être réduit &mdash; et *vice-versa* si elle doit être utilisée à de très petites tailles.

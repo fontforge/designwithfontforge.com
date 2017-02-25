@@ -19,7 +19,7 @@ Afin de distinguer entre le zéro et la lettre capitale O, il existe une large g
 Avoir le zéro plus étroit que le O capital tout en ayant la même hauteur est l'approche commune. Cette approche est typique des chiffres alignés. Les chiffres alignés sont ceux dont le style est le plus courant. Des exemples de polices qui utilisent cette approche comprennent: de nombreux Garamonds, Futura et la police Web Google Open Sans. Ci-dessous, la police Open Sans montrant le zéro, le O capital, le zéro et d'autres chiffres.
 
 
-<img src="images/open-sans-numbers.png" alt="">
+<img src="../en-US/images/open-sans-numbers.png" alt="">
 
 Un cercle parfaitement rond ou presque parfaitement rond est moins commun, mais il existe. Des exemples de polices qui utilisent cette approche comprennent la police web Google Vollkorn ainsi que d'autres types commerciaux tels que Mme Eaves, Vendeta et Fleischman BT Pro. Les polices qui utilisent des chiffres proportionnels de style ancien sont plus susceptibles de présenter cette approche. Parfois, un zéro à hauteur d'x mais qui est plus étroit sera également vu.
 
@@ -29,18 +29,18 @@ Jusqu'à 11 styles identifiables permettent de classifier les chiffres quand vou
 
 Les styles les plus courants de chiffres que l'on retrouve dans les polices sont l'alignement tabulaire et l'alignement proportionnel. L'alignement se rapporte aux hauteurs que les nombres utilisent. Si c'est un style aligné, les hauteurs de tous les nombres seront optiquement les mêmes. La différence entre les chiffres alignés de façon tabulaire et les chiffres alignés de façon proportionnelle est que dans l'alignement tabulaire tous les chiffres ont également la même largeur. Ce style est utile pour les feuilles de calcul et tout autre usage où il est utile pour les chiffres de rester empilés dans des lignes épurées à la fois horizontalement et verticalement.
 
-<img src="images/2Tabularlining2.png" alt="">
+<img src="../en-US/images/2Tabularlining2.png" alt="">
 
 Les chiffres avec alignement proportionnel ont l'avantage d'être visuellement égaux parce que les formes et l'espacement des nombres varient pour compenser la densité de trait différente.
 
-<img src="images/2Lining%20Proportional.png" alt="">
+<img src="../en-US/images/2Lining%20Proportional.png" alt="">
 
 ## Chiffres à style variant ou à l'ancienne
-<img src="images/2Proportional%20oldstyle.png" alt="">
+<img src="../en-US/images/2Proportional%20oldstyle.png" alt="">
 
 Les chiffres tabulaires sont une invention relativement nouvelle en termes historiques. Avant d'exister, il y avait des nombres proportionnels à l'ancienne. Les chiffres de style ancien sont utiles si vous souhaitez que les nombres se mélangent et partagent le style d'un texte.
 
-<img src="images/2tabular%20oldstyle.png" alt="">
+<img src="../en-US/images/2tabular%20oldstyle.png" alt="">
 
 Les chiffres tabulaires à l'ancienne sont assez rares. Ils peuvent être utiles dans un rapport annuel où vous voulez donner une impression de style ancien mais l'espacement tabulaire typique de ce type de document. L'image ci-dessus provient d'une carte de catalogue de bibliothèque fait à la machine à écrire.
 
@@ -48,4 +48,4 @@ Les chiffres tabulaires à l'ancienne sont assez rares. Ils peuvent être utiles
 
 Les chiffres hybrides ne partagent pas la hauteur de capitale ou la hauteur x de la police, mais occupent leur propre hauteur. Le terme "hybride" se réfère à un mélange de chiffres à l'ancienne et alignés. Des exemples de polices qui utilisent des numéros de style hybride incluent les polices Georgia et les polices Google web Merriweather et Donegal. Les glyphes zéro, O capital, zéro, 1, 2, 3, etc de Merriweather sont montrés ci-dessous.
 
-<img src="images/Merriweather-numbers.png" alt="" height="90" width="475">
+<img src="../en-US/images/Merriweather-numbers.png" alt="" height="90" width="475">

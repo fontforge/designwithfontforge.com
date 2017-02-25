@@ -3,7 +3,7 @@ published: true
 layout: bookpage_fr-FR
 weight: 18
 category: Getting To Know FontForge
-title: Utilisation des outils de FontForge
+title: Utilisation des outils de dessin de FontForge
 ---
 
 Concevoir une police dans FontForge impliquera l'utilisation d'un certain nombre d'outils et
@@ -37,7 +37,7 @@ côté &ndash;voir ci-dessous.
 Les *points curvilignes* ont deux poignées, chacune étant liée à l'autre de sorte que la ligne entre
 elles reste toujours droite, afin de produire une courbe lisse de chaque côté.
  
-<img src="images/tools-curve-point.png" alt>
+<img src="../en-US/images/tools-curve-point.png" alt>
 
 <h4 class="quiet">Points curvilignes H/V (Représentés sous la forme de points en forme de losange)</h4>
 
@@ -45,7 +45,7 @@ Les *points curvilignes H/V* (‘horizontal/vertical’) sont une variante de po
 s'accrochent à l'axe horizontal ou vertical &ndash; un outil essentiel pour obtenir des formes de Bézier
 correctes (plus de détails dans la section suivante).
 
-<img src="images/tools-HV-point.png" alt>
+<img src="../en-US/images/tools-HV-point.png" alt>
 
 #### Coins ou points angulaires (représentés par des points carrés)
 
@@ -53,11 +53,11 @@ Les *coins* peuvent avoir 0, 1 ou 2 poignées de Bézier. La position de chaque 
 indépendante des autres, ce qui la rend apte à des discontinuités dans le contour.
 Sans poignées, ces points produiront des lignes droites.
 
-<img src="images/tools-square-point.png" alt>
+<img src="../en-US/images/tools-square-point.png" alt>
 
-<img src="images/tools_corner_point_2.png" alt>
+<img src="../en-US/images/tools_corner_point_2.png" alt>
 
-<img src="images/tools-corner-point-3.png" alt>
+<img src="../en-US/images/tools-corner-point-3.png" alt>
 
 #### Points tangents (représentés par des points triangulaires ou des ‘pointes de flèches’)
 
@@ -66,7 +66,7 @@ utiliser des *points tangents*.
 Une *tangente* laisse une ligne droite d'un côté, tandis que la poignée de B&eacute;zier de l'autre côté
 est sa direction &ndash; ceci assure une transition continue entre la ligne et la courbe.
 
-<img src="images/tools-tangent-point.png" alt>
+<img src="../en-US/images/tools-tangent-point.png" alt>
 
 ### Faire les bons choix
 
@@ -75,13 +75,13 @@ facilitée, les ancres doivent toujours être placés aux **extrema de la courbe
 où vous avez des angles dans la forme de vos lettres, la ligne qui détermine le chemin doit être **horizontale
 ou verticale**.
 
-<img src="images/bezier_sample.png" alt>
+<img src="../en-US/images/bezier_sample.png" alt>
 
 <div class="note">
 <p><b>Remarque:</b> Si vos points de contrôle ne sont pas placés aux extrema, FontForge signalera les extrema
 réels avec une icône de mire:</p>
 
-<img src="images/bezier_sample_3.png" alt>
+<img src="../en-US/images/bezier_sample_3.png" alt>
 
 <p>Vous pouvez alors corriger ce problème en copiant votre contour actuel vers un autre calque, puis déplacer
 les points de contrôle autour de sorte que le contour soit bien tracé &ndash; sinon l'outil de validation de
@@ -95,10 +95,10 @@ Pour élaborer, il ya deux cas où vous devrez renoncer à des chemins de B&eacu
 
 - Si vous voulez changer la pente globale de votre courbe, comme avec la partie supérieure gauche du ‘a’
   ci-dessous qui est maintenu presque plat:
-  <img src="images/bezier_sample_2.png" alt>
+  <img src="../en-US/images/bezier_sample_2.png" alt>
 - Si vous voulez placer des angles dans vos lettres, comme dans la partie inférieure gauche du ‘g’ ci-dessous
   &ndash; c'est généralement où vous voulez utiliser un *coin* (à part pour dessiner des lignes):
-  <img src="images/bezier_sample_4.png" alt>
+  <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Remarque:</b> Comme vous pouvez le constater, lors de l'ajout d'angle avec un <i>coin</i>, la
 direction de chaque poignée doit être tangente à la courbe où elle arrive.</p>
@@ -107,7 +107,7 @@ direction de chaque poignée doit être tangente à la courbe où elle arrive.</
 
 Dans la fenêtre principale, double-cliquez sur l'une des cases de glyphe pour lancer la fenêtre de glyphe.
 
-<img src="images/glyph_window-fr-FR.png" alt>
+<img src="../en-US/images/glyph_window-fr-FR.png" alt>
 
 <div class="note">
 <p><b>Remarque:</b> Les nombres sur le haut où se croisent les axes x et y, de gauche à droite indiquent:</p>
@@ -128,12 +128,12 @@ de la déplacer et de fermer la boîte de dialogue.</p>
 
 Une *ligne* se compose de 2 points.
 
-<img src="images/tools_line_points.png" alt>
+<img src="../en-US/images/tools_line_points.png" alt>
 
 Une courbe ou *spline* se compose de 4 points: 2 points à l'extrémité de la spline et 2 ‘poignées’, qui décrivent
 la pente de la spline à ces points d'extrémité.
 
-<img src="images/tools_splines_points.png" alt>
+<img src="../en-US/images/tools_splines_points.png" alt>
 
 ### Copier, coller, couper et supprimer des points, des splines et des lignes
 
@@ -148,7 +148,7 @@ outils.
 
 ### Pointage et Zoom
 
-<img src="images/point_zoom.png" alt>
+<img src="../en-US/images/point_zoom.png" alt>
 
 Le pointage et le zoom se comportent de la même manière que les outils équivalents dans d'autres applications.
 Le pointeur est un outil de sélection, utilisé pour sélectionner des points, des chemins et d'autres objets sur le canevas.
@@ -160,7 +160,7 @@ enfoncée la touche Control (Ctrl).
 
 ### Dessin à main-levée
 
-<img src="images/freehand_tool.png" alt>
+<img src="../en-US/images/freehand_tool.png" alt>
 
 L'outil de dessin à main-levée vous permet d'esquisser des tracés irréguliers.
 
@@ -175,7 +175,7 @@ saisir n'importe quelle poignée et la faire glisser pour modifier la forme de l
 
 Expliquons maintenant l'utilisation des outils point.
 
-<img src="images/point_tools_labelled-fr-FR.png" alt>
+<img src="../en-US/images/point_tools_labelled-fr-FR.png" alt>
 
 Pour ajouter un point à un chemin, sélectionnez tout d'abord un de ces outils, puis cliquez sur le chemin
 et donnez-lui une petite poussée. Vous obtiendrez un nouveau point sur la ligne.
@@ -188,13 +188,13 @@ L'outil point de tangente vous permet de passer d'un segment droit à un segment
 
 ### La plume (courbes interactives)
 
-<img src="images/addpoint_tool.png" alt>
+<img src="../en-US/images/addpoint_tool.png" alt>
 
 L'outil plume vous permet d'ajouter un point sur la courbe et de faire glisser ses points de contrôle.
 
 ### Spiro
 
-<img src="images/spiro.png" alt>
+<img src="../en-US/images/spiro.png" alt>
 
 La sélection de l'outil Spiro vous place en mode de dessin Spiro. Ce mode vous permet de dessiner des
 courbes qui refondent lorsque vous repositionnez les nœuds. Certaines personnes préfèrent cette méthode
@@ -204,14 +204,14 @@ Bézier vous trouverez peut-être que cela mène à des choses inattendues.
 
 ### Le couteau
 
-<img src="images/knife.png" alt>
+<img src="../en-US/images/knife.png" alt>
 
 L'outil couteau vous permet de couper les splines en deux. Cela est pratique si vous avez dessiné une
 forme et que vous avez seulement besoin d'une partie de celle-ci.
 
 ### La règle
 
-<img src="images/ruler.png" alt>
+<img src="../en-US/images/ruler.png" alt>
 
 L'outil règle vous donne des informations de mesure et de coordonnées. Lorsque vous l'utilisez, il
 affiche une info-bulle flottante à côté du curseur. Si vous placez votre curseur sur un point,
@@ -224,7 +224,7 @@ curseur, plus chaque intersection que vous avez tendu à travers.
 
 Il y a six outils de transformations:
 
-<img src="images/transform_tools_labelled-fr-FR.png" alt>
+<img src="../en-US/images/transform_tools_labelled-fr-FR.png" alt>
 
 **Remarque:** Pour plusieurs outils de transformation, si vous double-cliquez sur l'outil, vous pouvez
 saisir des valeurs numériques.
@@ -256,7 +256,7 @@ L'outil Perspective vous donne une autre façon de déformer une forme de façon
 Ces outils vous permettent de dessiner des formes géométriques de base, ce qui est plus rapide
 que de construire ces formes à partir de segments de ligne distincts.
 
-<img src="images/rectangle_poly_labelled-fr-FR.png" alt>
+<img src="../en-US/images/rectangle_poly_labelled-fr-FR.png" alt>
 
 En cliquant sur la zone de chevron sur ces outils vous aurez la possibilité de passer à un
 autre outil. Si vous double-cliquez sur l'un des outils, vous afficher les options relatives
@@ -273,7 +273,7 @@ pourcentage est élevé, plus les branches de l'étoile sont longues.
 
 ### Mse1 et Mse2
 
-<img src="images/danger.png" alt>
+<img src="../en-US/images/danger.png" alt>
 
 Sous la palette d'outils, vous pouvez afficher l'outil actuel et les opérations disponibles pour les
 deux boutons de la souris:
@@ -296,7 +296,7 @@ hauteur d'x ou de hauteur de capitale). Les calques d'avant-plan et les calques 
 tous les deux utilisées pour le dessin, mais seule le calque de premier plan le plus élevé sera
 rendu dans votre police finale.
 
-<img src="images/layers-fr-FR.png" alt>
+<img src="../en-US/images/layers-fr-FR.png" alt>
 
 L'icône de l'oeil indique si un calque est visible, et vous pouvez cliquer dessus pour basculer 
 la visibilité. Le C (ou Q) indique si vous utilisez des courbes cubiques ou quadratiques.
@@ -330,14 +330,14 @@ Maintenant, examinons quelques workflows de dessin de base, dont vous aurez souv
    forme chevauchante, mais il est acceptable de sélectionner des points supplémentaires.
 3. Allez à Élément &gt; Recouvrement &gt; *Enlever les recouvrements*. Vous verrez que vos deux
    formes sont devenues une seule.
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_013-fr-FR.png" alt>
+   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013-fr-FR.png" alt>
 
 ### Ajouter un point
 
 À l'aide de l'outil plume, cliquez et maintenez au milieu d'un segment de ligne, puis faites glisser
 la souris pour changer la forme.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_014-fr-FR.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014-fr-FR.png" alt>
 
 ### Points tangents
 
@@ -351,20 +351,20 @@ Pour ce faire, choisissez Élément &gt; *Infos...*, qui ouvre la fenêtre Infos
 Emplacement de cette fenêtre, accédez au champ PdeC suivant et définissez une grande distance, par
 exemple 75. Cliquez sur OK. Vous verrez que la courbe se poursuit maintenant doucement dans la droite.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_015-fr-FR.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015-fr-FR.png" alt>
 
 ### Transformation
 
 Maintenant, sélectionnez environ un quart de la forme &mdash; l'étoile et une partie de l'ellipse au
 milieu.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_016-fr-FR.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016-fr-FR.png" alt>
 
 Choisissez l'outil Rotation 3D, déplacez-vous au milieu de la zone sélectionnée, puis cliquez lentement
 et faites glisser jusqu'à ce que vous voyiez quelque chose que vous aimez, puis relâchez. Voici un exemple
 de rotation 3D utilisé sur l'image de pratique:
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_017-fr-FR.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017-fr-FR.png" alt>
 
 ### Définir la forme et la largeur du trait
 
@@ -374,7 +374,7 @@ illustrée ici, qui contient une fenêtre de dessin. C'est là que vous sélecti
 taille de la plume. Cette boîte de dialogue apparaît également lorsque vous choisissez l'option
 *Étendre ligne* dans le menu Élément.
 
-<img src="images/Freehand_018-fr-FR.png" alt>
+<img src="../en-US/images/Freehand_018-fr-FR.png" alt>
 
 À l'aide de l'outil point de coin, dessinez un polygone et cliquez sur OK.
 
@@ -382,7 +382,7 @@ Maintenant, tracez une ligne avec l'outil de dessin à main levée. Lorsque vous
 la souris, le nouveau chemin est automatiquement tracé avec la forme que vous avez choisie dans la boîte
 de dialogue à main levée, comme montré ici.
 
-<img src="images/Q%20at%2081%20from%20Untitled1%20-_019-fr-FR.png" alt>
+<img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019-fr-FR.png" alt>
 
 ## Continuez à dessiner!
 

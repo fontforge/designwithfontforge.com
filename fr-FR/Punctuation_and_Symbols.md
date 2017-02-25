@@ -16,13 +16,13 @@ La forme de ce glyphe est souvent prise du point sur le 'i,' qui est parfois app
 
 Une fois que vous établissez une taille dont vous êtes satisfait, ce point peut être utilisé comme base pour une grande variété d'autres ponctuations, y compris ces glyphes: ; : ? ! ¡ ¿ · …
 
-<img src="images/period.png" alt="">
+<img src="../en-US/images/period.png" alt="">
 
 Le prochain glyphe à faire est la virgule. La forme de la virgule peut varier à de façon surprenante. Il peut être utile de regarder de nombreux designs de virgule avant de concevoir le vôtre.
 
 L'image ci-dessous montre deux des formes les plus courantes que la virgule peut prendre.
 
-<img src="images/commas.png" alt="">
+<img src="../en-US/images/commas.png" alt="">
 
 Le sommet de la virgule est souvent légèrement plus adouci que celui du point, car si il est la même, il peut paraître trop lourd. Dans l'image d'exemple, la virgule à droite est un bon exemple où cette compensation est appliquée. Une autre erreur commune à surveiller avec ce glyphe est de le faire trop court.
 
@@ -34,18 +34,18 @@ Le point d'exclamation peut être trompeur en ce qu'il <em>semble</em> simple à
 
 Toutefois, il s'agit d'un glyphe qui a une étonnante occasion de s'exprimer dans le design. Il arrive souvent que même dans une police qui a très peu de contraste, la barre au-dessus du point est un peu plus lourde au sommet qu'à la base. La forme du point d'exclamation se rapporte généralement à la conception de la virgule dans une certaine mesure.
 
-<img src="images/exclam.png" alt="">
+<img src="../en-US/images/exclam.png" alt="">
 
 Le point d'interrogation peut également être assez difficile à faire, car il vous oblige à équilibrer une courbe ouverte sur le point en dessous.
 
 Comme avec le point d'exclamation, il est conseillé de regarder et même de tester une gamme de solutions différentes avant d'en choisir une pour votre design.
 
-<img src="images/question%20marks.png" alt="">
+<img src="../en-US/images/question%20marks.png" alt="">
 
 Le design des glyphes c, C, G, s et S peut fournir une certaine base pour la conception de ce glyphe, mais vous pouvez décider de choisir une forme qui est distincte aussi.
 
 ## Symboles additionnels
-<img src="images/3quotes.png" alt="">
+<img src="../en-US/images/3quotes.png" alt="">
 
 Les guillemets et apostrophes dactylographique — ' and " -- sont distincts des guillemets typographiques: ‘ ’ and “ ” ‚ „ .
 
@@ -53,7 +53,7 @@ Les apostrophes peuvent suivre la forme de la barre au-dessus du point dans le p
 
 Généralement, les guillemets typographiques sont étroitement liés à la virgule, mais ils doivent être plus longs que la virgule et sont souvent plus courbés.
 
-<img src="images/3quotes2.png" alt="">
+<img src="../en-US/images/3quotes2.png" alt="">
 
 Les crochets [ ] sont relativement simples à faire car ils sont de forme carrée. Néanmoins, leur conception doit refléter les choix que vous avez faits dans le reste de la police.
 
@@ -63,7 +63,7 @@ Ces choix seront également reflétés dans le design des parenthèses () et des
 
 Soyez averti: lorsque vous testez les caractères [ ] # dans la fenêtre de métriques, ils peuvent ne pas s'afficher. C'est parce qu'ils sont réservés par le programme. Au lieu de taper [] et #, vous devez taper /bracketleft /bracketright et /numbersign.
 
-<img src="images/1Brackets1.png" alt="">
+<img src="../en-US/images/1Brackets1.png" alt="">
 
 Les parenthèses devraient s'appuyer sur le design des formes connexes, telles que le D, le C et le G.
 

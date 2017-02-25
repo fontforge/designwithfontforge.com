@@ -18,9 +18,9 @@ Vous devriez également considérer la portée linguistique de votre projet lors
 
 Une stratégie pour tester si l'interligne de votre police est appropriée pour les caractères accentués consiste à utiliser des exemples de texte à partir de plusieurs langues.
 
-<img src="images/Selection_043.png" alt="" height="100" width="472">
+<img src="../en-US/images/Selection_043.png" alt="" height="100" width="472">
 
-<img src="images/Selection_044_1.png" alt="" height="96" width="481">
+<img src="../en-US/images/Selection_044_1.png" alt="" height="96" width="481">
 
 Pour les langues chargées de signes diacritiques (comme le tchèque), l'interligne doit être plus élevée que pour les langues qui n'utilisent pas de signes diacritiques. Les exemples ci-dessus montrent le tchèque (ci-dessus) et l'anglais avec le même interligne assez large.
 
@@ -28,11 +28,11 @@ Pour les langues chargées de signes diacritiques (comme le tchèque), l'interli
 
 Dans FontForge, vous pouvez définir et ajuster l'interligne de votre projet de polices à partir de la fenêtre Infos fonte. Ouvrez cette fenêtre en choisissant <em>Infos fonte</em> dans le menu "Elément", puis cliquez sur l'onglet Général. Notez les valeurs que FontForge a répertoriées pour Ascent et Descent. À moins que vous ayez déjà apporté des modifications manuelles, ces deux nombres, lorsqu'ils sont additionnés, devraient être égaux à la valeur de la taille en cadratin (Em) indiquée sur la ligne en dessous.
 
-<img src="images/fontinfo-generl-fr-FR.png" alt="">
+<img src="../en-US/images/fontinfo-generl-fr-FR.png" alt="">
 
 Passez maintenant à l'onglet "OS/2". Sur presque tous les ordinateurs, l'interligne de votre police sera déterminée par les valeurs d'ascent et de descent que vous entrez dans cet onglet, sous l'en-tête Métriques.
 
-<img src="images/ascents-descents-fr-FR.png" alt="">
+<img src="../en-US/images/ascents-descents-fr-FR.png" alt="">
 
 Il existe trois jeux de valeurs: Win Ascent et Descent, ascent et descent typographique, et ascent et descent HHead. Vous devez définir tous les ascents comme étant identiques à la valeur de l'ascent que vous avez notée dans l'onglet Général. Ensuite, vous devez définir tous les descents comme étant identiques à la valeur de descent que vous avez notée dans l'onglet Général, à une exception près: vous devez rendre le descent typographique <em>négatif</em>. Laissez la valeur identique, mais mettez un signe moins devant. Enfin, décochez toutes les options "Utiliser comme offset".
 

@@ -2,14 +2,14 @@
 |--------|--------------------------------------------|
 | 0      | Index                                      |
 | 1      | Introduction                               |
-| 3      | Qu'est-ce qu'une fonte                     |
+| 3      | Qu'est-ce qu'une police de caractères      |
 | 6      | Faîtes confiance à vos yeux                |
 | 9      | Planification de votre projet              |
 | 12     | Le cadratin (EM)                           |
 | 15     | Installation de Fontforge                  |
 | 16     | Configuration de Fontforge                 |
 | 17     | Aperçu de l'interface utilisateur          |
-| 18     | Utilisation des outils de Fontforge        |
+| 18     | Utilisation des outils de dessin de FF     |
 | 21     | Dessin avec Spiro                          |
 | 24     | Création de “o” et “n”                     |
 | 27     | Infos fonte et métadonnées                 |
@@ -29,6 +29,6 @@
 | 69     | Quand les choses tournent mal avec FF      |
 | 72     | Conception de polices Devanagari           |
 | 75     | Importation de glyphes d'autres programmes |
-| 78     | Adding Glyphs to an Arabic Font            |
-| 81     | Further Reading                            |
-| 84     | Glossary                                   |
+| 78     | Ajout de glyphes à une police arabe        |
+| 81     | Lectures complémentaires                   |
+| 84     | Glossaire                                  |

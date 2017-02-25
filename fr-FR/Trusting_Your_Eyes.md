@@ -41,7 +41,7 @@ L'exemple de gauche montre un ‘H’ dont les barres sont exactement égales en
 Pouvez-vous le voir?
 L'autre sur la droite a une barre horizontale qui a été amincie pour apparaître égale en épaisseur.
 
-<img src="images/H%20compensation2.png" alt>
+<img src="../en-US/images/H%20compensation2.png" alt>
 
 Les glyphes dans lesquels des ajustements optiques ont dû être faits sont nombreux et incluent A, E, F, L, H,
 f, t et z.
@@ -53,7 +53,7 @@ diagonale semblera légèrement plus lourde que la barre verticale et légèreme
 Si vous voulez que cela paraîsse bien, vous devrez l'ajuster pour être plus légère comme l'exemple horizontal,
 mais juste un peu moins.
 
-<img src="images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag%20illusion.png" alt>
 
 Les glyphes dans lesquels cette perception humaine peut être importante sont assez nombreux et incluent
 k, K, N, Q, R, v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
@@ -67,27 +67,27 @@ d'une même inclinaison.
 L'image ci-dessous a des lignes diagonales qui ont toutes le même angle. Les plus longues semblent être à un
 angle différent.
 
-<img src="images/pdiag.png" alt>
+<img src="../en-US/images/pdiag.png" alt>
 
 Dans l'image suivante, l'inclinaison de la ligne plus longue a été ajustée:
 
-<img src="images/pdiag2.png" alt>
+<img src="../en-US/images/pdiag2.png" alt>
 
 Maintenant, regardons une italique en fait, en appliquant ces corrections aux glyphes:
 
-<img src="images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer%20less%20slant.png" alt>
 
 ### Croisement des diagonales
 
 Lorsqu'une barre franchit une autre diagonale ou une ligne droite, elle aura besoin d'être ajustée
 pour ne pas apparaître comme étant mal alignée.
 
-<img src="images/compare-x.png" alt>
+<img src="../en-US/images/compare-x.png" alt>
 
 Dans l'exemple ci-dessus, le X à gauche comporte deux barres non ajustées qui se croisent. L'exemple
 de droite a été ajusté de façon à ce qu'ils semblent alignés.
 
-<img src="images/myriad-x.png" alt>
+<img src="../en-US/images/myriad-x.png" alt>
 
 Comme vous pouvez le voir dans ce X avec une ligne pointillée au-dessus, le X qui apparaît visuellement
 aligné implique un décalage.
@@ -102,7 +102,7 @@ que les autres glyphes. Les glyphes ronds doivent dépasser un peu la hauteur de
 Les glyphes qui ont des formes pointues devront les surpasser davantage. Plus la forme est nette,
 plus elle aura besoin de dépasser pour avoir l'air correcte.
 
-<img src="images/3Shapes.png" alt>
+<img src="../en-US/images/3Shapes.png" alt>
 
 Dans l'image ci-dessus, les trois formes supérieures sont non corrigées &mdash; c'est-à-dire
 qu'elles ont des hauteurs identiques. Les trois formes inférieures ont été ajustées afin qu'elles

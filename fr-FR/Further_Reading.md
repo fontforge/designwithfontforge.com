@@ -1,40 +1,40 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 81
 category: Appendices
-title: Further Reading
+title: Lectures complémentaires
 ---
 
-## Videos
+## Vidéos
 
-* [Optical Compensation](https://www.youtube.com/watch?v=LR-CG5eB3nQ) by Thomas Phinney and FontLab
+* [Optical Compensation](https://www.youtube.com/watch?v=LR-CG5eB3nQ) par Thomas Phinney and FontLab
 * [Type Review Videos](https://vimeo.com/typereview/videos)
 * [Lato: The Making Of](https://youtu.be/4-oo8o-tyqU)
 
-## Websites
+## Sites Internet
 
-### Other Resource Lists
+### Autres listes de ressources
 
 * [Thomas Phinney's Type Design Resources](http://www.thomasphinney.com/type-design-resources/)
 
-### Curve Math
+### Mathématiques de la courbe
 
-* http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
-* http://raph.levien.com/phd Raph Levien's PhD on Spiro curves
+* <http://pomax.github.io/bezierinfo/> Excellent guide pour le calcul des courbes de Bézier
+* <http://raph.levien.com/phd> Doctorat de Raph Levien sur les courbes Spiro
 
-### Business
+### Affaires
 
 * [ILT: Why Did I Start A Foundry](http://ilovetypography.com/2010/05/06/why-did-i-start-a-type-foundry/)
 * [ILT Leonidas on Typeface Design practice](http://ilovetypography.com/2010/03/25/a-few-things-i%E2%80%99ve-learned-about-typeface-design/)
 
-### Typography
+### Typographie
 
 * [Typekit: Practice](http://practice.typekit.com/)
 
 ### Latin
 
-**The MyFonts Foundry Guides are fantastic: [foundry.myfonts.com/guides](https://foundry.myfonts.com/guides/)**
+**Les guides de la fonderie MyFonts sont fantastiques : [foundry.myfonts.com/guides](https://foundry.myfonts.com/guides/)**
 
 * [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/)
 * [Frere Jones: Typeface Mechanics 2](http://www.frerejones.com/blog/typeface-mechanics-002/)
@@ -47,7 +47,7 @@ title: Further Reading
 * [Logotype: Quora logo](https://www.quora.com/How-is-the-new-Quora-logo-different-from-the-old-one/answer/Christian-Schwartz-1)
 * [Victor Gaultney: Latin Diacritics](http://gaultney.org/jvgtype/research/)
 
-ILT Example Projects:
+Exemples de projets de *I Love Typography*:
 
 * [Novel](http://ilovetypography.com/2012/05/15/making-fonts-novel-typeface/)
 * [Questa](http://ilovetypography.com/2014/10/08/questa-fonts-project/)
@@ -57,24 +57,24 @@ ILT Example Projects:
 * [Acorde](http://ilovetypography.com/2010/10/10/the-making-of-acorde-2/)
 * [Ode](http://ilovetypography.com/2010/09/01/ode-fresh-start-for-a-broken-script/)
 * [Biome](http://ilovetypography.com/2010/07/01/font-design-biome-the-making-of-a-typeface/)
-* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [github.com/motaitalic/vesper-libre](https://github.com/motaitalic/vesper-libre)
+* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (voir aussi [github.com/motaitalic/vesper-libre](https://github.com/motaitalic/vesper-libre)
 
-### Greek
+### Grec
 
 * [Greek Typefaces Worth Studying](http://leonidas.org/greek-type-design/greek-typefaces-worth-studying/)
 
-### Cyrillic 
+### Cyrillique
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
 * [Bulgarian Cyrillic](http://www.cyrillicsly.com/)
 * <http://www.lettersoup.de/what-shall-be-done-for-bulgarian-cyrillic-loclbgr/>
-* [Paratype Language Help](http://www.paratype.com/help/language/) - Cyrillic encodings
+* [Paratype Language Help](http://www.paratype.com/help/language/) - Codages cyrilliques
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
 * <http://luc.devroye.org/cyrillic.html>
-* The ATypI Cyrillic SIG mailing list
+* La liste de diffusion ATypI Cyrillic SIG
 
-### Arabic
+### Arabe
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/wiki/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
 * [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)
@@ -82,7 +82,7 @@ ILT Example Projects:
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
 * [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)
 
-### Hebrew
+### Hébreu
 
 * [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
 
@@ -91,126 +91,126 @@ ILT Example Projects:
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago
 * [Professor Mahendra Patel](http://patelmc.wordpress.com/mahendrapatel/typedesign/)
-* [Dhruvi Tolia Graduation Report] (http://issuu.com/dhruvi/docs/graduation_report)
+* [Dhruvi Tolia Graduation Report](http://issuu.com/dhruvi/docs/graduation_report)
 * [Sanchit Sawaria Project 3 Document](http://issuu.com/sanchitsawaria/docs/kathandoc)
 * [Yashodeep Gholap - Designing a Devanagari text font for newspaper use](http://www.yashodeepgholap.com/Article.html)
 * [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
-* Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
+* Claviers virtuels: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) et [branah](http://www.branah.com/devanagariinscript)
 
-## Books
+## Livres
 
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
-* <http://www.type-library.com> has an extensive list of books
+* <http://www.type-library.com> a une liste étendue de livres
 
-Title: Detail in Typography (Paperback)
+Titre: Detail in Typography (Paperback)
 
-Author: Jost Hochuli (Author)
+Auteur: Jost Hochuli (Auteur)
 
-Title: <tt>ISBN: 9780907259343</tt>
-
-<hr />
-
-Title: Adrian Frutiger - Typefaces: The Complete Works
-
-Authors: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
-
-Title: <tt>ISBN: 9783764385811</tt>
+Titre: <tt>ISBN: 9780907259343</tt>
 
 <hr />
 
-Title: Printing Types: Their History, Forms, and Use: A Study in Survivals (with ILLUSTRATIONS)
+Titre: Adrian Frutiger - Typefaces: The Complete Works
 
-Author: D. B Updike,  Daniel Berkeley (Authors)
+Auteurs: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
 
-<hr />
-
-Title: Creative Characters Format: Flexibound
-
-Author: Jan Middendorp (Editor)
-
-Title: <tt>ISBN: 9789063692247</tt>
+Titre: <tt>ISBN: 9783764385811</tt>
 
 <hr />
 
-Title: Now Read This: The Microsoft Cleartype collection
+Titre: Printing Types: Their History, Forms, and Use: A Study in Survivals (with ILLUSTRATIONS)
 
-Author: John D. Berry (Author)
-
-<hr />
-
-Title: The Stroke: Theory of Writing (Paperback)
-
-Author: Gerrit Noordzij (Author)
-
-Title: <tt>ISBN: 9780907259305</tt>
+Auteur: D. B Updike,  Daniel Berkeley (Auteurs)
 
 <hr />
 
-Title: Shaping Text: Type, Typography and the Reader
+Titre: Creative Characters Format: Flexibound
 
-Author: Jan Middendorp  (Author)
+Auteur: Jan Middendorp (Editor)
 
-Title: <tt>ISBN: 9063692234</tt>
-
-<hr />
-
-Title: Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students (Design Briefs)
-
-Author: Ellen Lupton (Author)
-
-Title: <tt>ISBN: 9781568984483</tt>
+Titre: <tt>ISBN: 9789063692247</tt>
 
 <hr />
 
-Title: LETTERS OF CREDIT: A view of type design
+Titre: Now Read This: The Microsoft Cleartype collection
 
-Author: Tracy, Walter (Author)
-
-Title: <tt>ISBN: 0879236361 / 0-87923-636-1</tt>
+Auteur: John D. Berry (Auteur)
 
 <hr />
 
-Title: The Elements Of Typographic Style: Version 3.1
+Titre: The Stroke: Theory of Writing (Paperback)
 
-Author: Bringhurst, Robert (Author)
+Auteur: Gerrit Noordzij (Auteur)
 
-Title: <tt>ISBN: 0881792063 / 0-88179-206-3</tt>
-
-<hr />
-
-Title: Type: The Secret History of Letters
-
-Author: Simon Loxley (Author)
-
-Title: <tt>ISBN: 1845110285</tt>
+Titre: <tt>ISBN: 9780907259305</tt>
 
 <hr />
 
-Title: Type Designs
+Titre: Shaping Text: Type, Typography and the Reader
 
-Author: AF Johnson (Author)
+Auteur: Jan Middendorp  (Auteur)
 
-<hr />
-
-Title: Typography: Macro &amp; Microaesthetics
-
-Author: Willy Kunz (Author)
-
-Title: ISBN: <tt>3721203488</tt>
+Titre: <tt>ISBN: 9063692234</tt>
 
 <hr />
 
-Title: Fonts and encodings
+Titre: Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students (Design Briefs)
 
-Author: Yannis Haralambous (Author), P Scott Horne (Translator)</tt>
+Auteur: Ellen Lupton (Auteur)
 
-Title: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
+Titre: <tt>ISBN: 9781568984483</tt>
 
 <hr />
 
-Title: [The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)
+Titre: LETTERS OF CREDIT: A view of type design
 
-Author: The Unicode Consortium (Author)
+Auteur: Tracy, Walter (Auteur)
+
+Titre: <tt>ISBN: 0879236361 / 0-87923-636-1</tt>
+
+<hr />
+
+Titre: The Elements Of Typographic Style: Version 3.1
+
+Auteur: Bringhurst, Robert (Auteur)
+
+Titre: <tt>ISBN: 0881792063 / 0-88179-206-3</tt>
+
+<hr />
+
+Titre: Type: The Secret History of Letters
+
+Auteur: Simon Loxley (Auteur)
+
+Titre: <tt>ISBN: 1845110285</tt>
+
+<hr />
+
+Titre: Type Designs
+
+Auteur: AF Johnson (Auteur)
+
+<hr />
+
+Titre: Typography: Macro &amp; Microaesthetics
+
+Auteur: Willy Kunz (Auteur)
+
+Titre: ISBN: <tt>3721203488</tt>
+
+<hr />
+
+Titre: Fonts and encodings
+
+Auteur: Yannis Haralambous (Auteur), P Scott Horne (Translator)</tt>
+
+Titre: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
+
+<hr />
+
+Titre: [The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)
+
+Auteur: The Unicode Consortium (Auteur)
 
 <tt>ISBN: 978-1-936213-09-2</tt>

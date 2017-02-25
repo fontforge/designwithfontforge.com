@@ -7,40 +7,40 @@ title: Diacritiques et accents
 ---
 Un diacritique est un signe (ou une marque selon la terminologie anglaise) ajouté ou combiné à une lettre, souvent utilisé pour modifier la valeur sonore de la lettre à laquelle le signe est ajouté. Certaines signes diacritiques (telles que «aigu» et «grave») sont souvent appelées accents. Les signes diacritiques peuvent apparaître au-dessus ou au-dessous d'une lettre, en son sein ou entre deux lettres.
 
-<img width="5%" src="images/dia_a_grave.png"/>
-<img width="5%" src="images/dia_a_circumflex.png"/>
-<img width="5%" src="images/dia_a_tilde.png"/>
-<img width="5%" src="images/dia_a_dieresis.png"/>
-<img width="5%" src="images/dia_c_ogonek.png"/>
-<img width="5%" src="images/dia_c_cedilla.png"/>
-<img width="5%" src="images/dia_c_dot.png"/>
-<img width="5%" src="images/dia_g_comma.png"/>
-<img width="5%" src="images/dia_hungarumlaut.png"/>
+<img width="5%" src="../en-US/images/dia_a_grave.png"/>
+<img width="5%" src="../en-US/images/dia_a_circumflex.png"/>
+<img width="5%" src="../en-US/images/dia_a_tilde.png"/>
+<img width="5%" src="../en-US/images/dia_a_dieresis.png"/>
+<img width="5%" src="../en-US/images/dia_c_ogonek.png"/>
+<img width="5%" src="../en-US/images/dia_c_cedilla.png"/>
+<img width="5%" src="../en-US/images/dia_c_dot.png"/>
+<img width="5%" src="../en-US/images/dia_g_comma.png"/>
+<img width="5%" src="../en-US/images/dia_hungarumlaut.png"/>
 
 
 ### Quelques exemples de diacritiques
 
-<p class="imagebox"><img src="images/dia_a_grave.png"/></p>
+<p class="imagebox"><img src="../en-US/images/dia_a_grave.png"/></p>
 
 'a accent grave' minuscule (unicode u + 00e0).
 Créé dans une police en combinant le glyphe 'a' minuscule (unicode u+0061) et le glyphe 'diacritique accent grave' (unicode u+0300).
 
-<p class="imagebox"><img src="images/dia_a_circumflex.png"/></p>
+<p class="imagebox"><img src="../en-US/images/dia_a_circumflex.png"/></p>
 
 'a accent circonflexe' minuscule (unicode u+00e2).
 Créé dans une police en combinant le glyphe 'a' minuscule (unicode u+0061) et le glyphe 'diacritique accent circonflexe' (unicode u+0302).
 
-<p class="imagebox"><img src="images/dia_c_ogonek.png"/></p>
+<p class="imagebox"><img src="../en-US/images/dia_c_ogonek.png"/></p>
 
 'a ogonek' minuscule (unicode u+0105).
 Créé dans une police en combinant le glyphe 'a' minuscule (unicode u+0061) et le glyphe 'diacritique ogonek' (unicode u+0328).
 
-<p class="imagebox"><img  src="images/dia_c_cedilla.png"/></p>
+<p class="imagebox"><img  src="../en-US/images/dia_c_cedilla.png"/></p>
 
 'c cédille' minuscule (unicode u+00e7).
 Créé dans une police en combinant le glyphe 'c' minuscule (unicode u+0063) et le glyphe 'diacritique cédille' (unicode u+0327).
 
-<p class="imagebox"><img  src="images/dia_hungarumlaut.png"/></p>
+<p class="imagebox"><img  src="../en-US/images/dia_hungarumlaut.png"/></p>
 
 'o double accent aigu' minuscule (unicode u+0151).
 Créé dans une police en combinant le glyphe 'o' minuscule (unicode u+006f) et le glyphe 'diacritique double accent aigu' (unicode u+030b).
@@ -58,11 +58,11 @@ FontForge peut automatiquement créer des caractères accentués de 2 façons;
 
 Dans le menu 'Elément' de FontForge, il y a une fonction appelée 'Assembler' qui peut être utilisée pour créer des caractères accentués, certains caractères composites et certains caractères en double. Pour construire automatiquement des caractères accentués FontForge utilise la fonction 'Elément> Assembler> Créer les glyphes accentués'. Cette fonction peut également être effectuée avec la touche 'Ctrl + Maj + a'. Ainsi, à l'aide de l'exemple de construction du caractère 'a accent aigu' (u+00e1), il faudrait avoir déjà créé le 'a' minuscule (u+0061) et le glyphe 'accent aigu combiné' (u+301). Ensuite, en sélectionnant l'emplacement de caractères 'a accent aigu' et en utilisant la fonction 'Elément> Assembler> Créer les glyphes accentués', FontForge placera une référence au glyphe 'a' minuscule et une référence au glyphe 'accent aigu' dans l'emplacement de caractères 'a accent aigu' (voir ci-dessous).
 
-<img src="images/dia_auto_a_acute-fr-FR.png"/>
+<img src="../en-US/images/dia_auto_a_acute-fr-FR.png"/>
 
 Ce positionnement automatique des signes diacritiques peut être réglé selon les préférences, qui se trouvent dans la section 'Accents' du menu des préférences de FontForge 'Fichier> Préférences> Accents' (voir ci-dessous).
 
-<img src="images/preferences_accents-fr-FR.png" />
+<img src="../en-US/images/preferences_accents-fr-FR.png" />
 
 'Préférer les accents chassants' - l'activation de cette option obligera FontForge à créer des glyphes accentués avec des caractères chassant, même si les caractères combinants appropriés sont présents. Cette option est ignorée lors de l'utilisation d'ancres pour positionner les signes diacritiques.
 
@@ -82,15 +82,15 @@ Les points d'ancrage permettent un contrôle précis du positionnement du signe 
 
 Dans l'exemple ci-dessous, en créant un caractère 'a ogonek', une classe d'ancrage a été créée et appelée 'bas'. Dans le glyphe 'a' minuscule, l'ancrage du 'bas' est placé au bas du fût du 'a' sous la forme d'une ancre de 'glyphe de base'. (voir ci-dessous)
 
-<img src="images/dia_a_anchor-fr-FR.png"/>
+<img src="../en-US/images/dia_a_anchor-fr-FR.png"/>
 
 Dans le glyphe 'ogonek', l'ancre du bas est placée au sommet du glyphe ogonek, sous la forme d'une ancre de 'signe'. (voir ci-dessous)
 
-<img src="images/dia_ogonek_anchor-fr-FR.png"/>
+<img src="../en-US/images/dia_ogonek_anchor-fr-FR.png"/>
 
 Ensuite, lorsque le caractère 'a ogonek' est construit (en utilisant la fonction 'Créer les glyphes accentués'), le point d'ancrage du signe inférieur sera placé au même emplacement que le point d'ancrage de base du 'bas', assurant que le glyphe ogonek indiqué est placé correctement au pied du fût du glyphe 'a' indiqué (voir ci-dessous). Ce placement exact et automatique n'aurait pas été possible sans utiliser de points d'ancrage pour positionner les glyphes de base et de signe.
 
-<img src="images/dia_a_ogonek_anchors-fr-FR.png" />
+<img src="../en-US/images/dia_a_ogonek_anchors-fr-FR.png" />
 
 ### Création de points d'ancrage pour le placement de signes diacritiques (positionnement signe sur base)
 
@@ -98,15 +98,15 @@ FontForge utilise des fonctionnalités de recherche (lookup) appelées 'signe su
 
 Dans la fenêtre Lookups GPOS, cliquez sur 'Nouveau lookup' et choisissez 'Positionnement signe sur base', puis choisissez 'Positionnement par signe' dans la colonne 'Nouveau' du volet Fonctionnalité (voir ci-dessous). Cliquez sur 'OK' pour fermer la fenêtre.
 
-<img src="images/dia_new_mark_to_base_1-fr-FR.png"/>
+<img src="../en-US/images/dia_new_mark_to_base_1-fr-FR.png"/>
 
 Lorsque le nouveau lookup est sélectionné, cliquez sur 'Nouvelle sous-table'. Dans la fenêtre résultante (voir ci-dessous), vous pouvez créer vos classes d'ancrage.
 
-<img src="images/dia_anchor_new_subtable-fr-FR.png" />
+<img src="../en-US/images/dia_anchor_new_subtable-fr-FR.png" />
 
 Dans cet exemple (ci-dessous), deux classes d'ancre ont été créées, 'haut' et 'bas'. La classe d'ancrage du 'haut' sera utilisée pour positionner les signes diacritiques placés au-dessus des glyphes, et l'ancrage du 'bas' sera utilisée pour positionner les signes sous les glyphes.
 
-<img src="images/dia_marks_classes_add-fr-FR.png" />
+<img src="../en-US/images/dia_marks_classes_add-fr-FR.png" />
 
 Pour placer une ancre avec un glyphe, il suffit d'utiliser le bouton droit de la souris dans une fenêtre d'édition de glyphe et de sélectionner la fonction 'Ajouter ancre' dans le menu contextuel.
 
@@ -118,15 +118,15 @@ FontForge contient également une interface graphique utile pour contrôler la p
 
 Une fois que vous avez créé des classes d'ancrage dans vos lookups de positionnement 'signe sur base' et ajouté des ancres à certains glyphes, vous pouvez contrôler ces classes à partir de "Élément>Infos fonte>Lookups> GPOS" puis modifier une sous-table contenant les classes d'ancrage. Vous verrez alors cette fenêtre;
 
-<img src="images/dia_anchor_control_1-fr-FR.png" />
+<img src="../en-US/images/dia_anchor_control_1-fr-FR.png" />
 
 À partir de là, sélectionnez la classe que vous souhaitez modifier et cliquez sur le bouton 'Contrôle des ancres'. Une interface graphique de cette classe vous sera ensuite présentée. Dans les exemples ci-dessous, nous éditons le contrôle de la classe 'haut'. Dans le premier exemple (ci-dessous), la minuscule 'e' a été sélectionnée dans la section 'Bases' du menu déroulant. Lorsqu'un glyphe de base est sélectionné, tous les caractères qui font référence à ce glyphe et contiennent un ancrage 'haut' de base s'affichent dans le volet d'aperçu. Nous pouvons alors ajuster la position de l'ancre de base 'haut' pour voir comment elle affecte la position de tous les glyphes qui contiennent l'ancrage de signe 'haut'.
 
-<img src="images/dia_anchor_control_e-fr-FR.png" />
+<img src="../en-US/images/dia_anchor_control_e-fr-FR.png" />
 
 Dans le deuxième exemple ci-dessous, le glyphe 'aigu' a été sélectionné dans la section 'Signes' du menu déroulant. Lorsqu'un glyphe de signe est sélectionné, tous les glyphes qui font référence au glyphe sélectionné et contiennent un point d'ancrage 'haut' s'affichent dans l'aperçu.
 
-<img src="images/dia_anchor_control_mark-fr-FR.png" />
+<img src="../en-US/images/dia_anchor_control_mark-fr-FR.png" />
 
 
 ## Autres ressources (en anglais)

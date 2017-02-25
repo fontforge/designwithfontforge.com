@@ -1,172 +1,171 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_fr-FR
 weight: 78
 section: Workflow
-title: Adding Glyphs to an Arabic Font
+title: Ajout de glyphes à une police arabe
 ---
 
 ## Introduction
 
-In some cases a font may lack a glyph that is essential for its use in your application. Arabic fonts present special issues here, because the shape of the glyph depends not only on its position in the word, but also on the attributes of the letter itself. Thus (using the nonsense sequence *babab*), the letter *beh* has three different shapes depending on whether it comes initially, medially, or finally. However (using the nonsense sequence *dadad*), the letter *dal* has only one shape, no matter where it occurs in the word.
+Dans certains cas, il peut manquer un glyphe dans une police qui est essentiel à son utilisation dans votre application. Les polices arabes présentent des problèmes particuliers ici, car la forme du glyphe dépend non seulement de sa position dans le mot, mais aussi des attributs de la lettre elle-même. Ainsi, à l'aide de la séquence sans signification *babab*, la lettre *beh* a trois formes différentes selon qu'elle vient initialement, médialement ou finalement. Cependant (à l'aide de la séquence sans signification *dadad*), la lettre *dal* n'a qu'une seule forme, peu importe où elle se trouve dans le mot.
 
-Fonts under open licenses (e.g. [GPL] (http://gnu.org/copyleft/gpl.html) or [OFL] ( http://scripts.sil.org/OFL-FAQ_web) allow the user to make modifications. If you adapt a font that was originally under an open licence and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
+Les polices sous licences ouvertes (par exemple [GPL](https://www.gnu.org/licenses/gpl-3.0.fr.html) ou [OFL](http://scripts.sil.org/OFL-FAQ_web) permettent à l'utilisateur de faire des modifications. Si vous adaptez une police qui était à l'origine sous licence libre et que vous la distribuiez, vous devez conserver les avis de droits d'auteur et les informations sur les licences de l'auteur original, bien que vous puissiez ajouter une note à la fin de l'avis de copyright couvrant votre contribution.
 
-<img src="images/beh_dal.png" />
+<img src="../en-US/images/beh_dal.png" />
 
-This chapter walks through adding a glyph to an Arabic font. The font we will use is [Graph] (http://openfontlibrary.org/en/font/graph), and the glyph we will add is *peh* (U+067E), which does not occur in Arabic itself, but designates *p* in some languages for which Arabic script is used (for a full listing of the glyphs available for Arabic script, see the [Unicode charts] (http://www.unicode.org/charts).
+Ce chapitre décrit pas à pas l'ajout d'un glyphe à une police arabe. La police que nous allons utiliser est [Graph](http://openfontlibrary.org/fr/font/graph), et le glyphe que nous ajouterons est *peh* (U+067E), qui ne se trouve pas en arabe lui-même, mais désigne *p* dans certaines langues pour lesquelles l'écriture arabe est utilisée (pour une liste complète des glyphes disponibles pour l'écriture arabe, voir les [diagrammes Unicode](http://www.unicode.org/fr/charts/).
 
-<img src="images/peh.png" />
+<img src="../en-US/images/peh.png" />
 
 
-## Make a working copy of the font
 
-Download the font from the webpage and unzip it. Launch FontForge and load the font. Save it as an *sfd* file, editing the suggested name to read **GraphNew.sfd** before saving.
+## Faire une copie de travail de la police
 
+Téléchargez la police de la page Web et décompressez-la. Lancez FontForge et chargez la police. Enregistrez-la en tant que fichier *sfd*, modifiez le nom suggéré pour lire **GraphNew.sfd** avant d'enregistrer.
 
-## Rename the font
+## Renommer la police
 
-#### Why should I rename the font?
+#### Pourquoi devrais-je renommer la police?
 
-If you do not rename the font, your adapted font will not install separately from the original &ndash; you will have to uninstall the original font first. It is also sensible to rename the font if you are going to distribute your adaptations &ndash; if the original author of the font has reserved the font name under the Reserved Font Name (RFN) mechanism, that original name can only be used with the original author's version of the font.
+Si vous ne renommez pas la police, votre police adaptée ne sera pas installée séparément de l'original &ndash; vous devrez d'abord désinstaller la police d'origine. Il est également judicieux de renommer la police si vous allez distribuer vos adaptations &ndash; si l'auteur original de la police a réservé le nom de la police sous le mécanisme réservé de nom de police (RFN), ce nom d'origine peut uniquement être utilisé avec la version d'origine de l'auteur de la police.
 
-#### Change the name data
+#### Modifier les données de nom
 
-Select **Element → Font Info**, and in the *PS Names* panel, change *Fontname*, *Family Name*, and *Name For Humans* to **GraphNew**.
+Selectionnez **Element → Infos fonte**, et dans le volet *Noms PostScript*, changez le *nom de la fonte*, le *nom de famille* et le *nom courant* à **GraphNew**.
 
-<img src="images/font_rename.png" />
+<img src="../en-US/images/font_rename-fr-FR.png" />
 
-If desired, you can place an 'Additional glyphs added by' message after the text already in the entry for *Copyright*.
+Si vous le souhaitez, vous pouvez placer un message «Ajout de glyphes supplémentaires par» après le texte déjà entré pour le *Copyright*.
 
-In the *TTF Names* panel, the names for *Family* and *Fullname* are taken from the *PS Names* entries, and should already be showing *GraphNew* (you cannot edit them directly). Change the entries for *Preferred Family* and *Compatible Full* to **GraphNew**. These name changes will now allow you to install this font alongside the original one if you wish.
+Dans le volet *Noms TTF*, les noms de *famille* et *complet* proviennent des entrées *Noms PostScript* et doivent déjà afficher *GraphNew* (vous ne pouvez pas les modifier directement). Modifiez les entrées pour *Famille préférée* et *Compatibilité totale* à **GraphNew**. Ces changements de nom vous permettront maintenant d'installer cette police à côté de l'original si vous le souhaitez.
 
-If desired, you can place an 'Additional glyphs added by' message after the text already in the entry for *Designer*.
+Si vous le souhaitez, vous pouvez placer un message 'Ajout de glyphes supplémentaires' après le texte déjà entré pour *Designer*.
 
-Click **OK** to save these changes. You will get a message about generating a new UniqueID (XUID) for the font &ndash; click **Change**.
+Cliquez sur **OK** pour enregistrer ces modifications. Vous recevrez un message sur la génération d'un nouveau UniqueID (XUID) pour la police &ndash; Cliquez sur **Changer**.
 
+## Ajouter le glyphe pour la forme isolée *peh*
 
-## Add the glyph for the isolated form of *peh*
+Allez dans la section arabe du tableau de fonte: sélectionnez **Vue → Aller au glyphe**, cliquez sur la liste déroulante et sélectionnez **Arabe**, puis cliquez sur **OK**.
 
-Go to the Arabic section of the font chart: select **View → Go to**, click the dropdown box and select **Arabic**, then click **OK**.
+Cliquer sur une cellule dans le graphique de la police affichera son numéro Unicode et son nom en bleu en haut de l'application. Allez à la position 1662, qui apparaîtra en bleu comme *1662 (0x67e) U+067E ''uni067E'' ARABIC LETTER PEH*. La cellule sous le glyphe de référence contient un X gris, montrant que la police n'inclut pas ce glyphe.
 
-Clicking on a cell in the font chart will show its Unicode number and name in blue at the top of the panel. Go to position 1662 , which will show in blue as *1662 (0x67e) U+067E ``uni067E'' ARABIC LETTER PEH*. The cell below the reference glyph contains a grey X, showing that the font does not include this glyph.
+<img src="../en-US/images/peh_blank-fr-FR.png" />
 
-<img src="images/peh_blank.png" />
+Nous ferons *peh* en copiant *beh* (U+0628) et en changeant son point unique pour trois points.
 
-We will make *peh* by copying *beh* (U+0628) and swapping its single dot for three dots.
+Cliquez sur la cellule *beh* (position 1576), puis cliquez avec le bouton droit de la souris et sélectionnez **Copier**. Puis cliquez avec le bouton droit de la souris sur la cellule *peh* et sélectionnez **Coller**. Maintenant que *beh* est copié dans la cellule *peh*, la prochaine chose est de changer le point.
 
-Click on the *beh* cell (position 1576), then right-click and select **Copy**. Then right-click on the *peh* cell and select **Paste**. Now that *beh* is now copied into the *peh* cell, the next thing is to change the dot.
+<img src="../en-US/images/peh_with_beh.png" />
 
-<img src="images/peh_with_beh.png" />
+Trouver un glyphe avec trois points &ndash; *sheen* (position 1588, U+0634) suffira. Double-cliquez sur la cellule &ndash; cela ouvrira la fenêtre de conception de glyphe. Appuyez sur **V** pour vous assurer que l'outil pointeur (tête de flèche) dans la boîte à outils est sélectionné, puis appuyez sur **Z** et agrandissez la fenêtre pour avoir une bonne vue du glyphe.
 
-Find a glyph with three dots &ndash; *sheen* (position 1588, U+0634) will do. Double-click on the cell &ndash; this will open a glyph design panel. Press **V** to ensure the pointer tool (arrowhead) in the toolbox is selected, and press **Z** and enlarge the panel to give you a good view of the glyph.
+Cliquez et faites glisser afin que les nœuds des trois points au-dessus de sheen changent de couleur de rose à beige. Si vous avez accidentellement inclus ou omis un nœud, désélectionnez-le ou sélectionnez-le en appuyant sur **Maj** et en cliquant dessus. Appuyez sur **Alt+C** pour copier.
 
-Click and drag so that the nodes of the three dots above sheen change colour from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing **Shift** and clicking. Press **Alt+C** to copy.
+<img src="../en-US/images/sheen_dots-fr-FR.png" />
 
-<img src="images/sheen_dots.png" />
+Revenez à la fenêtre de fonte et double-cliquez sur la cellule *peh* &ndash; cela va charger *peh* dans un autre onglet dans la fenêtre de conception de glyphe, à côté de l'onglet *sheen*.
 
-Go back to the font chart and double-click on the *peh* cell &ndash; this will load *peh* into another tab in the glyph design panel, alongside the *sheen* tab.
+Cliquez et faites glisser pour sélectionner le point en dessous de *peh*, puis appuyez sur **Supprimer**. Appuyez sur **Alt+V** pour coller les trois points, qui apparaîtront probablement au-dessus du corps de *peh*. Laissez les nœuds de points en surbrillance afin que vous puissiez les inverser et les déplacer plus facilement.
 
-Click and drag to highlight the dot below *peh*, then press **Delete**. Press **Alt+V** to paste in the three dots, which will likely appear above the body of *peh*. Leave the dot nodes highlighted so that you can invert and move them more easily.
+<img src="../en-US/images/peh_dots1-fr-FR.png" />
 
-<img src="images/peh_dots1.png" />
+Inverser les points: sélectionnez l'outil symétrie (quatre rectangles jaune et vert) de la boîte à outils. (Alternativement, cliquez avec le bouton droit de la souris dans le milieu des points et sélectionnez **Appliquer une symétrie à la sélection** dans la fenêtre contextuelle.) Cliquez sur l'un des nœuds de points et faites glisser la souris légèrement vers la gauche ou vers la droite.
 
-Invert the dots: select the flip tool (two triangles with a red dashed line between them) from the toolbox. (Alternatively, right-click in the middle of the dots, and select **Flip the selection** from the popup.)  Click on one of the dot nodes and drag the mouse slightly left or right.
+<img src="../en-US/images/peh_dots2-fr-FR.png" />
 
-<img src="images/peh_dots2.png" />
+Déplacer les points inversés: appuyez sur **V** pour sélectionner à nouveau l'outil de pointeur, cliquez sur un des nœuds de points et faites-le glisser sous le corps du glyphe. Positionnez-les au centre, au-dessus de la marque *ArabicBelow*.
 
-Move the inverted dots: press **V** to select the pointer tool again, click on one of the dot nodes, and drag them down below the body of the glyph. Position them centrally, above the *ArabicBelow* mark.
+<img src="../en-US/images/peh_dots3-fr-FR.png" />
 
-<img src="images/peh_dots3.png" />
+Fermez le panneau de conception du glyphe. Il devrait maintenant y avoir un nouveau glyphe pour *peh* dans le tableau. Enregistrez la police adaptée (**Fichier → Enregistrer**).
 
-Close the glyph design panel. There should now be a new glyph for *peh* in the font chart. Save the adapted font (**File → Save**).
+<img src="../en-US/images/peh_new.png" />
 
-<img src="images/peh_new.png" />
+## Ajoutez les glyphes pour les formes connectées de *peh*
 
-## Add the glyphs for the connected forms of *peh*
+Cependant, ce n'est que la forme isolée (autonome) du glyphe. Si vous essayez d'utiliser votre police adaptée, vous constaterez que les formes initiales, médiannes et finales ne sont pas disponibles. Celles-ci doivent être créées séparément. "Ces formes sont construites comme des glyphes non codés (glyphes dont le codage est -1 dans les conventions FontForge). Elles n'ont pas de cases prédéfinies." (Khaled Hosny)
 
-However, this is only the isolated (standalone) form of the glyph. If you try to use your adapted font, you will find that initial, medial and final forms are not available. These have to be created separately. "The[se] forms are built as unencoded glyphs (glyphs whose encoding is -1 in FontForge conventions). Th[ey] have no predefined slots." (Khaled Hosny)
+Sélectionnez **Codage → Ajouter des cases de codage** et entrez le nombre de glyphes souhaités &ndash; dans ce cas **3**. FontForge ajoutera le même nombre d'emplacements à la fin de la police, et la vue se déplacera à cet endroit dans le tableau de la police. Les trois dernières cellules (positions 65537, 65538, 65539) ont un point d'interrogation comme glyphe de référence, et c'est dans ces cellules que vous allez ajouter les glyphes non codés en répétant le processus ci-dessus. 
 
-Select **Encoding → Add Encoding Slots** and enter the number of the glyphs you want &ndash; in this case **3**. FontForge will add the same number of slots at the very end of the font, and you will be moved there in the font chart. The last three cells (positions 65537, 65538, 65539) have a question mark as a reference glyph, and it is in those cells that you will add the unencoded glyphs by repeating the process above.
+<img src="../en-US/images/peh_slots.png" />
 
-<img src="images/peh_slots.png" />
+<p class="note">Notez que si par erreur vous commencez à taper quand le focus est toujours sur le tableau de la police, vous serez déplacé à la section européenne en haut. Pour revenir au bas, sélectionnez <i>Vue → Aller au glyphe</i>, cliquez sur la liste déroulante et sélectionnez <i>Remplaçant pour NON unicode</i>, puis cliquez sur <i>OK</i>. </p>
 
-Note that if by mistake you start typing when the font chart still has focus, you get moved to the European section at the top. To get back to the bottom, select **View → Go to**, click the dropdown box and select **Not a Unicode Character**,  and then click **OK**.</p>
+#### Créer la forme finale
 
-#### Create the final form
+Remontez le tableau de police un peu jusqu'à ce que vous arrivez à un ensemble de glyphes arabes à la position 65152 (U+FE80). À U+FE90 (position 65168), vous verrez un glyphe *behfinal* &ndash; cliquez dessus et appuyez sur **Ctrl+C** pour le copier. Faites défiler jusqu'à la troisième dernière cellule du tableau (position 65537), cliquez dessus et appuyez sur **Ctrl+V** pour y coller le glyphe *behfinal*.
 
-Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards. At U+FE90 (position 65168) you will see a *behfinal* glyph &ndash; click on it and press **Ctrl+C** to copy it. Roll down to the third last cell in the chart (position 65537), click on it, and press **Ctrl-V** to paste in the *behfinal* glyph.
+<img src="../en-US/images/beh_forms.png" />
 
-<img src="images/beh_forms.png" />
+Faites un clic droit sur la cellule et sélectionnez **Infos glyphe**. La convention de dénomination consiste à utiliser le nombre du glyphe isolé + un suffixe pour la forme. Changez le *Nom du glyphe* en **uni067E.fina**, puis cliquez sur **OK**. Le point d'interrogation dans la cellule de référence devient *peh*.
 
-Right-click on the cell and select **Glyph Info**. The naming convention is to use the number of the isolated glyph + a suffix for the form, so change *Glyph Name* to **uni067E.fina**,  and click **OK**. The question mark in the reference cell will change to *peh*.
+<img src="../en-US/images/peh_final-fr-FR.png" />
 
-<img src="images/peh_final.png" />
+Obtenez les trois points: double-cliquez sur *sheen* (U+FEB5) pour le charger dans la fenêtre de conception de glyphe, sélectionnez les trois points et appuyez sur **Ctrl+C**.
 
-Get the three dots: double-click on *sheen* (U+FEB5) to load it into the glyph design panel, select the three dots and press **Ctrl+C**.
+Double-cliquez sur le nouveau *pehfinal* pour le charger dans la fenêtre de conception du glyphe, cliquez et faites glisser pour mettre en surbrillance les nœuds du point et appuyez sur **Supprimer**.
 
-Double-click on the new *pehfinal* to load it into the glyph design panel, click and drag to highlight the nodes of the dot and press **Delete**.
+Ctrl+V pour insérer les trois points de *sheen*, retournez-les et placez-les en position sous le corps du glyphe. Appuyez sur **Ctrl+S** pour enregistrer le tableau révisé.
 
-Ctrl+V to insert the three dots from *sheen*, flip them, and move them into position below the glyph body. Press **Ctrl+S** to save the revised font chart.
+#### Créer les formes initiales et médiales
 
-#### Create the initial and medial forms
+Copier la forme initiale U+FE91 (position 65169) à l'avant-dernière cellule (position 65538), supprimer le point unique et coller-y les trois points.
 
-Copy the initial form U+FE91 (position 65169) to the penultimate cell (position 65538), delete the single dot and paste in the three dots.
+Cliquez avec le bouton droit sur la cellule, sélectionnez **Infos glyphe**, changez le *Nom du glyphe* à **uni067E.init**, puis cliquez sur **OK**.
 
-Right-click the cell, select **Glyph Info**, change *Glyph Name* to **uni067E.init**, and click **OK**.
+Copiez la forme médiane U+FE92 (position 65170) dans la dernière cellule (position 65539), supprimez le point unique et collez-y les trois points.
 
-Copy the medial form U+FE92 (position 65170) to the last cell (position 65539), delete the single dot and paste in the three dots.
+Cliquez avec le bouton droit de la souris sur la cellule, sélectionnez **Infos glyphes**, changez le *Nom du glyphe* à **uni067E.medi**, puis cliquez sur **OK**.
 
-Right-click the cell, select **Glyph Info**, change *Glyph Name* to **uni067E.medi**, and click **OK**.
+<img src="../en-US/images/peh_forms.png" />
 
-<img src="images/peh_forms.png" />
+Sélectionnez **Fichier → Enregistrer** pour enregistrer le tableau de polices révisé.
 
-Select **File → Save** to save the revised font chart.
 
+## Ajouter les lookups
 
-## Add the lookups
+La forme isolée doit être mappée (liée) à ses formes initiale, médiane et finale.
 
-The isolated form has to be mapped (linked) to its initial, medial and final forms.
+Sélectionnez **Elément → Infos fonte → Lookups**.
 
-Select **Element → Font Info → Lookups**.
+Cliquez sur le **+** à côté de l'entrée *'init' Initial Forms in Arabic lookup 2*. Cela ouvrira un sous-menu du même nom. Cliquez sur ce sous-menu.
 
-Click on the **+** beside the entry *'init' Initial Forms in Arabic lookup 2*. This will open a submenu of the same name. Click on this submenu.
+Le bouton *Éditer données* à droite deviendra disponible maintenant &ndash; cliquez dessus.
 
-The *Edit Data* button on the right will now become available &ndash; click it.
+<img src="../en-US/images/peh_lookups1-fr-FR.png" />
 
-<img src="images/peh_lookups1.png" />
+Dans la *Sous-table de lookup* affichée, vérifiez que le bouton *Unicode* est coché. Faites défiler la liste de caractères vers le bas jusqu'à ce que vous arrivez à la fin.
 
-In the *Lookup Subtable* panel that pops up, ensure that the *Unicode* button is checked. Roll the list of characters down until you come to the end.
+Dans l'encadré à côté de *Par défaut en utilisant le suffixe*, saisissez le suffixe correspondant (dans ce cas, **init**), puis cliquez sur **Par défaut en utilisant le suffixe**.
 
-In the box beside *Default Using Suffix*, enter the relevant suffix (in this case, **init**), and then click **Default Using Suffix**.
+Un nouveau mappage sera ajouté à la liste des caractères, de uni067E (la forme isolée de *peh*) à uni067E.init (la forme initiale).
+Cliquez sur **OK**.
 
-A new mapping will be added to the list of characters, from uni067E (the isolated form of *peh*) to uni067E.init (the initial form).
-Click **OK**.
+<img src="../en-US/images/peh_lookups2-fr-FR.png" />
 
-<img src="images/peh_lookups2.png" />
+Faites la même chose pour les sous-menus sous les entrées *medi' Medial Forms in Arabic lookup 2* et *fina' Terminal Forms in Arabic lookup 2*, en choisissant *medi* et *fina* comme suffixe pertinent.
 
-Do the same for the submenus under the entries *'medi' Medial Forms in Arabic lookup 2* and *'fina' Terminal Forms in Arabic lookup 2*, choosing *medi* and *fina* as the relevant suffix.
+Cliquez à nouveau sur **OK** pour fermer le volet et enregistrez le tableau de police (**Ctrl+S**).
 
-Click **OK** again to close the panel, and save the font chart (**Ctrl+S**).
+Notez que *Par défaut en utilisant le suffixe* semble fonctionner uniquement sur les glyphes du bloc Unicode 06 (*Arabe*) &ndash; les glyphes dans Unicode 07 (*Arabe supplémentaire*), par ex. *ain* avec deux points, peut être ajouté manuellement en cliquant sur la ligne marquée *Nouvelle* et en tapant les noms.
 
-Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block &ndash; glyphs in Unicode 07 (*Arabic Supplement*), e.g. *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
+### Générer la police adaptée
 
-### Generate the adapted font
+Sélectionnez **Fichier → Générer fonte(s)**.
 
-Select **File → Generate Fonts**.
+Dans la liste déroulante affichant *PS Type 1 (Binaire)*, sélectionnez **TrueType** et vérifiez que le nom de fichier lit *GraphNew.ttf*.
 
-In the dropdown showing *PS Type 1 (Binary)*, select **TrueType**, and check that the filename reads *GraphNew.ttf*.
+Accédez à l'endroit où vous souhaitez enregistrer la police, puis cliquez sur **Générer**. Cliquez sur **Oui** et **Générer** sur les deux messages d'information qui s'affichent.
 
-Navigate to where you want to save the font, and then click **Generate**. Click **Yes** and **Generate** to the two information messages that come up.
+Vous pouvez ensuite utiliser votre procédure normale d'installation de polices pour installer la police adaptée. Le nouveau glyphe *peh* peut alors être utilisé aux côtés des glyphes existants dans les mêmes chaînes sans signification qu'au début de ce chapitre:
 
-You can then use your normal font installation procedure to install the adapted font. The new glyph *peh* can then be used alongside the existing glyphs in the same nonsense examples as at the beginning of this chapter:
+<img src="../en-US/images/beh_dal_peh.png" />
 
-<img src="images/beh_dal_peh.png" />
+<p class="note">Notez que si vous utilisez une police dans LibreOffice et apportez des modifications à cette police, vous devrez redémarrer LibreOffice pour qu'elle affiche les modifications. &ndash; sinon elle utilisera la version précédente de la police, et non celle avec les nouvelles modifications.</P>
 
-<p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes &ndash; otherwise it will use the previous version of the font, and not the one with the new changes.</p>
+Merci à [Khaled Hosny](http://khaledhosny.org) pour ses conseils sur l'utilisation de FontForge pour modifier les glyphes arabes.
 
-Thanks to [Khaled Hosny] (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
+## Lecture complémentaire (en anglais)
 
-## Further Reading
-
-* <http://lists.nongnu.org/archive/html/freetype-devel/2015-08/msg00016.html> has a tip about how to draw the overlapping parts of Arabic glyphs
+* La page <http://lists.nongnu.org/archive/html/freetype-devel/2015-08/msg00016.html> a un conseil sur la façon de dessiner les parties se chevauchant des glyphes arabes.

@@ -12,7 +12,7 @@ La fenêtre Infos fonte est omniprésente dans les éditeurs de polices et FontF
 Cela peut sembler cryptique au début, mais l'utiliser peut aider à apprendre le format OpenType, et à son tour la lecture
 sur le format OpenType rend la boîte de dialogue plus accessible.
 
-<img src="images/info_ps_names-fr-FR.png"/>
+<img src="../en-US/images/info_ps_names-fr-FR.png"/>
 
 ## Numérotation des versions
 

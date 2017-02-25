@@ -26,7 +26,7 @@ Afin que vous puissiez exécuter ces tests sans erreurs, vous devriez alors conv
 
 Ouvrez la fenêtre <em>Générer fonte(s)</em> en la choisissant dans le menu "Fichier". La moitié supérieure de la fenêtre affiche des options familières de sélection de fichier, une liste des fichiers trouvés dans le répertoire courant, une zone de texte pour entrer un nom de fichier et des boutons pour naviguer vers d'autres dossiers et répertoires si nécessaire. C'est strictement un moyen pour vous aider à trouver rapidement le bon endroit pour enregistrer votre fichier de sortie, ou de choisir un fichier de police existant si vous avez l'intention de remplacer une sauvegarde précédente. Toutes les options que vous devez examiner se trouvent dans la moitié inférieure de la fenêtre.
 
-<img src="images/generate-fr-FR.png" alt="">
+<img src="../en-US/images/generate-fr-FR.png" alt="">
 
 Sur la gauche, un menu déroulant vous permet de sélectionner le format de la police que vous souhaitez générer. Vous devez choisir <em>TrueType</em> ou <em>OpenType (CFF)</em>, comme indiqué précédemment. Sur le côté droit, assurez-vous que <em>Aucun format Bitmap</em> est sélectionné. Sur la ligne en-dessous, assurez-vous que <em>Pas de renommage</em> est sélectionné pour l'option "Nommage forcé des glyphes vers:". Vous pouvez cochez l'option "Validation avant d'enregistrer" si vous le souhaitez (pour potentiellement attraper d'autres erreurs), mais cela est facultatif. Laissez les options "Ajouter une entrée au FONTLOG" et "Date et heure en préfixe" désactivées.
 
@@ -87,13 +87,13 @@ Enfin, une fois que votre police a été soigneusement préparée techniquement 
 
 Tout d'abord, s'il s'agit de la version initiale de votre police, ouvrez la boîte de dialogue <em>Infos fonte</em> de la fenêtre "Élément" et sélectionnez l'onglet "Noms Postscript". Remplissez d'abord le nom de famille et la graisse de la fonte, puis copiez ces informations dans la case "Nom courant". Bien que l'utilisation de numéros de version ne soit pas nécessaire, il est extrêmement utile pour vous en tant que concepteur de différencier entre les différentes révisions de votre travail. Entrez "1.0" comme numéro de "Version" si vous n'êtes pas sûr. Ensuite, visitez l'onglet "Noms TTF" et entrez les mêmes informations.
 
-<img src="images/fontinfo-fr-FR.png" alt="">
+<img src="../en-US/images/fontinfo-fr-FR.png" alt="">
 
 Comme c'est le cas pour les numéros de version, il est utile, à long terme, de créer des entrées de journal pour chaque révision. Allez dans l'onglet "FONTLOG" et écrivez une ou deux phrases pour expliquer les changements éventuels dans la révision que vous créez pour distribution. Si c'est votre première entrée de journal, vous devriez également décrire votre fonte et son but dans une phrase ou deux.
 
 Les polices, comme toutes les œuvres de création, doivent disposer d'une licence, afin que les utilisateurs sachent ce qu'ils sont et ne sont pas autorisés à faire. FontForge a un bouton dans l'onglet "Noms TTF" appelé "Ajouter Open Font License". La licence Open Font (OFL) est une licence de police conçue pour vous permettre de partager votre police avec le public avec très peu de restrictions sur la façon dont elle est utilisée, tout en vous protégeant en tant que concepteur d'autres prenant le crédit pour votre travail ou des dérivés créatifs de votre police qui seront confondus pour l'original. Cliquez sur le bouton pour ajouter les chaînes "Licence" et "URL de la licence" aux métadonnées des noms TTF. Si vous avez une autre licence que vous préférez utiliser au lieu de l'OFL, saisissez-la dans le champ "Licence" à la place.
 
-<img src="images/metadata-fr-FR.png" alt="">
+<img src="../en-US/images/metadata-fr-FR.png" alt="">
 
 Si vous avez apporté des modifications importantes à d'autres fonctionnalités de votre police, il est judicieux de vérifier les autres paramètres dans la fenêtre Infos fonte et de vous assurer que tout est toujours à jour. Les informations d'espacement linéaire, par exemple, se trouvent dans l'onglet "OS/2" sous "Métriques".
 
@@ -107,7 +107,7 @@ Dans le menu déroulant de gauche, sélectionnez le format de la police que vous
 
 Ensuite, cliquez sur le bouton "Options". Sélectionnez les options <em>Noms de glyphe Postscript</em>, <em>OpenType</em> et <em>DSIG factice</em> dans la fenêtre qui s'affiche et désélectionnez tout le reste.
 
-<img src="images/opentype-options-window-fr-FR.png" alt="">
+<img src="../en-US/images/opentype-options-window-fr-FR.png" alt="">
 
 Cliquez sur le bouton "Générer", et FontForge va compiler votre fichier de polices. Un dernier mot: il est important de ne pas écraser la version sauvegardée de votre travail dans FontForge avec les modifications que vous avez apportées dans cette section uniquement pour générer votre sortie <em>.ttf</em> ou <em>.otf</em>. Par exemple, vous perdez beaucoup de composants de glyphes individuels lorsque vous effectuez l'opération <em>Supprimer les recouvrements</em>. Mais la prochaine fois que vous reprendrez le travail sur votre police, vous voudrez certainement reprendre où vous avez laissé dans la version originale, la version remplie de glyphes avec composants individuels.
 

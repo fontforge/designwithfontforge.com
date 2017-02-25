@@ -6,44 +6,44 @@ category: Appendices
 title: Importation de glyphes d'autres programmes
 ---
 
-It is possible to draw glyphs in a general purpose illustration application (Inkscape, Adobe Illustrator, etc) and import them as EPS or SVG. 
+Il est possible de dessiner des glyphes dans une application d'illustration générale (Inkscape, Adobe Illustrator, etc.) et de les importer comme EPS ou SVG.
 
-## Hand-coded SVG
+## SVG codé à la main
 
-#### How to prepare
+#### Comment le préparer
 
-* The SVG file does need `viewBox="0 0 1000 1000"`
+* Le fichier SVG a pas besoin de `viewBox="0 0 1000 1000"`
 
-* Width actually doesn't matter, as long as it is wider than your glyph. But the height at 1000 is important for easiest import.
+* La largeur n'a pas d'importance, tant qu'il est plus large que votre glyphe. Mais la hauteur à 1000 est importante pour importation plus facile.
 
-* `y=0` will be the ascender line and `y=1000` will be the descender line.
+* `y=0` sera la ligne ascendante et `y=1000` sera la ligne descendante.
 
-* (There may be a few glyphs that go beyond those lines, perhaps FontForge will do the right thing but we haven't tested it.)
+* (Il peut y avoir quelques glyphes qui vont au-delà de ces lignes, peut-être FontForge fera la bonne chose, mais nous ne l'avons pas testé.)
 
-* By default FontForge will set up your baseline at `y=800`. In the FontForge coordinate system, the baseline is at their `0` point on their vertical access.
+* Par défaut, FontForge configurera votre ligne de base à `y=800`. Dans le système de coordonnées FontForge, la ligne de base se trouve à '0' sur l'ordonnée.
 
-* To set the baseline where you want it in FontForge, take the y coordinate for your baseline in SVG. That will be the FontForge vertical point for the ascender line in their coordinate system. (1000 - y) for the descender. Go to `Element, Font Info` and in the General menu, place the ascender value in the "Ascent" input and the decender in the "Descent" menu. Both will be positive. The Em Size should remain at 1000 (as that is the height in SVG units)
+* Pour définir la ligne de base où vous la voulez dans FontForge, prenez la coordonnée y pour votre ligne de base en SVG. Ce sera le point vertical de FontForge pour la ligne d'ascendante dans leur système de coordonnées. (1000 - y) pour la descendante. Allez dans `Élément, Infos fonte` et dans le menu General, placez la valeur de l'ascendante dans  l'entrée "Ascent" et celle de la descendante dans l'entrée "Descent". Les deux seront positifs. La Taille Em doit rester à 1000 (comme c'est la hauteur en unités SVG)
 
-* When drawing the glyph, I like to use relative coordinates. So I start the glyph with `<path d="M Xvalue,Yvalue`. If I can draw the glyph starting at a point all the way on the left, then XValue will be the default LeftBearing that FontForge uses. You can adjust that easily after glyph import and may need to anyway after testing the font. The Yvalue, when I can start drawing from the baseline, it's nice to use that baseline value for Yvalue.
+* Lors du dessin du glyphe, j'aime utiliser les coordonnées relatives. Alors je commence le glyphe avec `<path d="M Xvalue,Yvalue`. Si je peux dessiner le glyphe à partir d'un point tout à gauche, alors XValue sera le LeftBearing par défaut que FontForge utilise. Vous pouvez ajuster cela facilement après l'importation du glyphe et devriez avoir besoin de le faire de toute façon après avoir testé la police. Pour le Yvalue, quand je peux commencer à dessiner à partir de la ligne de base, j'utilise cette valeur de ligne de base pour Yvalue.
 
-* Always finish the path d attribute with a z. It will import without it, but the glyph won't display right in the main window until you restart fontforge if you forget to put a z after the last point in the path.
+* Toujours terminer le chemin d attribut avec un z. Le SVG importera sans cela, mais le glyphe ne s'affichera pas directement dans la fenêtre principale jusqu'à ce que vous redémarriez fontforge si vous oubliez de mettre z après le dernier point du chemin.
 
-* When drawing holes (like for letter P) don't start a new path node, just use a z at end of the first path and start new with mNewX,NewY to then start drawing the hole. Use the attribute fill-rule="evenodd" for the path and it will work right.
-
-#### Workflow
-
-Use a web browser to render the SVG you are working on. You can use a file called "template.svg" that is 1200 by 1200 but renders at 800 by 800 so that it doesn't scroll in the browser window.
-
-In that template, draw guidelines at `y=100, y=1100, y=(100 + {baseline, capheight, etc.}, x=100, x=1100`
-
-Then import the SVG glyph you are working on into that document with `<image xlink:href="LC_p.svg" x="100" y="100" width="1000" height="1000" />`
-
-You can now hand-code you letter in one window, and refresh the browser in the other to see it drawn on top of the guidelines. 
+* Lorsque vous dessinez des trous (comme pour la lettre P), ne commencez pas un nouveau nœud de chemin, il suffit d'utiliser z à la fin du premier chemin et commencez nouveau avec `mNewX,NewY` pour commencer à dessiner le trou. Utilisez l'attribut `fill-rule="evenodd"` pour le chemin et cela fonctionnera correctement.
 
 
-## Custom Glyph Lists
+#### Flux de travail
 
-1. Create a `namelist.txt` file, perhaps using a spreadsheet to list unicode codepoints and glyph names. For example:
+Utilisez un navigateur Web pour afficher le SVG sur lequel vous travaillez. Vous pouvez utiliser un fichier nommé "template.svg" qui est 1200 par 1200, mais s'affiche à 800 par 800 afin qu'il ne défile dans la fenêtre du navigateur.
+
+Dans ce modèle, tracez les lignes directrices à `y=100, y=1100, y=(100 + {baseline, capheight, etc.}, x=100, x=1100`
+
+Puis importez le glyphe SVG sur lequel vous travaillez dans ce document avec `<image xlink:href="LC_p.svg" x="100" y="100" width="1000" height="1000" />`
+
+Vous pouvez maintenant coder manuellement votre lettre dans une fenêtre et actualiser le navigateur dans l'autre pour le voir dessiné au-dessus des lignes directrices.
+
+## Listes de glyphes personnalisées
+
+1. Créez un fichier `namelist.txt`, en utilisant peut-être une feuille de calcul pour répertorier les codespoints et les noms de glyphes unicode. Par exemple:
 
 ```
 0xEC00 octDotDhe
@@ -60,7 +60,6 @@ You can now hand-code you letter in one window, and refresh the browser in the o
 0x-001 soroganLik
 ```
 
-For glyphs without a Unicode point, use a codepoint of -1, such as in the last line of the above example.
+Pour les glyphes sans point Unicode, utilisez un codepoint de -1, comme dans la dernière ligne de l'exemple ci-dessus.
 
-Then load FontForge and go to `Encoding, Load NameList` and then use `Rename glyphs` (Since `Load NameList` only
-adds the custom namelist to the set of options available in subsequent rename commands.)  
+Puis ouvrez FontForge et allez dans `Codage > Ouvrir une liste de noms` puis utilisez `Renommer les glyphes` (Puisque `Ouvrir une liste de noms` ajoute seulement la liste de noms personnalisée à l'ensemble des options disponibles dans les commandes de renommage subséquentes).

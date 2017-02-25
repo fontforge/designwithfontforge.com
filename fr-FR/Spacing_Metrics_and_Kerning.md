@@ -14,7 +14,7 @@ Dans FontForge, la fenêtre de métriques vous permet de concevoir les métrique
 
 L'espace entre deux glyphes a deux composantes; l'espace après le premier glyphe, et l'espace avant le deuxième glyphe. Ces espaces entre les glyphes sont composés ‘d'approches latérales’ entre chaque paire de glyphes. Chaque glyphe a une approche gauche et une approche droite. Dans l'exemple ci-dessous de la lettre minuscule ‘a’ de Open Sans, l'approche droite a une valeur de 166 unités et l'approche gauche a une valeur de 94 unités.
 
-<img src="images/sidebearings.png" alt="">
+<img src="../en-US/images/sidebearings.png" alt="">
 
 ## <strong>Fonctions de base de la fenêtre de métriques</strong>
 
@@ -38,7 +38,7 @@ Au fur et à mesure que vous espacer les caractères de votre design, vous devri
 
 Pour le parfait débutant; ne supposez pas que l'on obtient des résultats fiables en s'appuyant sur l'espace mesuré. Par exemple, alors que les mesures entre deux caractères peuvent être inégales, l'œil peut les voir comme égales. Un exemple évident de ceci peut être vu en essayant d'espacer les caractères 'H' et 'O'. Donc, dans l'exemple ci-dessous, les approches latérales du 'H' et du 'O' sont égales, mais semblent inégales. Dans la ligne inférieure, les approches latérales ne sont pas égales mais l'espacement semble plus équilibré.
 
-<img src="images/hoohooo2.png" alt=""><img src="images/hoohooo1.png" alt="">
+<img src="../en-US/images/hoohooo2.png" alt=""><img src="../en-US/images/hoohooo1.png" alt="">
 
 Un outil pour générer de tels textes est disponible à cette adresse: <http://tools.ninastoessinger.com/>
 
@@ -63,7 +63,7 @@ La méthode suivante est conçue pour vous aider à concevoir efficacement les m
 
 En commençant par une chaîne de lettres minuscules 'o' dans la fenêtre de métriques, les approches gauche et droite peuvent être ajustées jusqu'à ce que l'espacement des caractères ait bonne apparence. Une façon d'obtenir cette 'bonne apparence' est d'équilibrer l'espace entre les 'o' avec l'espace blanc à l'intérieur des 'o'. En général, à l'exception des polices inclinées ou italiques, les côtés gauche et droit d'un 'o' minuscule doivent être de valeur égale. Une fois que vous êtes satisfait de l'espacement de votre chaîne de caractères 'o', introduisez le caractère 'n' de votre police (voir ci-dessous). Ensuite ajustez les approches latérales du 'n' de sorte que son espacement s'inscrit dans la balance de la chaîne de caractères 'o' (voir ci-dessous). Notez qu'en raison de la nature de la façon dont nos yeux voient, l'approche latérale droite du 'n' aura toujours une valeur plus petite que celle de l'approche gauche et les approches latérales du 'o' seront plus petites que les approches latérales du 'n'.
 
-<img src="images/snapshot1_1-fr-FR.png" alt="">
+<img src="../en-US/images/snapshot1_1-fr-FR.png" alt="">
 
 Une fois que le 'n' et le 'o' sont adéquatement espacés, leurs approches peuvent être utilisées pour créer les approches pour un ensemble d'autres caractères, par exemple;
 
@@ -74,7 +74,7 @@ Une fois que le 'n' et le 'o' sont adéquatement espacés, leurs approches peuve
 
 Note - Ce qui précède doit être utilisé comme un guide uniquement. Ce guide fournit un point de départ efficace pour trouver les valeurs correctes des approches latérales.
 
-<img src="images/snapshot2-fr-FR.png" alt="">
+<img src="../en-US/images/snapshot2-fr-FR.png" alt="">
 
 A partir de là, il est logique d'espacer ensuite le reste des approches latérales des caractères minuscules contre des chaînes de caractères 'n' et 'o', comme on peut le voir dans le diagramme ci-dessus. Encore une fois, faites confiance à vos yeux pour atteindre l'équilibre correct des caractères.
 
@@ -82,7 +82,7 @@ A partir de là, il est logique d'espacer ensuite le reste des approches latéra
 
 Les lettres majuscules peuvent être espacées en utilisant les mêmes principes que ci-dessus. Par exemple, commencez par la chaîne 'Hooooo' et ajustez l'approche droite du 'H' jusqu'à ce qu'il soit équilibré par rapport à la chaîne de caractères 'o'. L'approche gauche du 'H' étant égale à l'approche droite, le 'O' majuscule peut alors être espacé contre le 'H' (voir ci-dessous).
 
-<img src="images/snapshot3-fr-FR.png" alt="">
+<img src="../en-US/images/snapshot3-fr-FR.png" alt="">
 
 De là, tous les autres caractères peuvent être espacés par rapport à des caractères qui ont déjà été espacés. Il convient de noter que cette méthode peut être utilisée comme un bon point de départ pour l'espacement d'une police, mais il est vraisemblable que des ajustements plus minutieux de l'espacement seront également nécessaires pour atteindre des niveaux plus élevés de qualité. D'autres chaînes de caractères telles que 'naxna', 'auxua', 'noxno' et 'Hxndo' peuvent utiles pour cela.
 
@@ -90,8 +90,8 @@ De là, tous les autres caractères peuvent être espacés par rapport à des ca
 
 Le crénage est le réglage de l'espacement entre des paires de caractères spécifiques. Le crénage permet l'espacement individuel des paires de caractères qui est appliqué en plus de l'espacement fourni par les approches latérales d'un caractère. Des exemples courants de paires de caractères où le crénage est souvent nécessaire pour améliorer l'espacement serait 'WA', 'Wa', 'To', 'Av'. Dans les exemples ci-dessous, nous pouvons voir que sans crénage, l'espacement entre les lettres 'T-o' and 'V-a' est trop large, alors qu'avec crénage, l'espace entre ces paires de caractères est beaucoup plus équilibré avec l'impression d'espacement du reste de la police.
 
-<img src="images/kern1.png" alt="">
-<img src="images/kern2.png" alt="">
+<img src="../en-US/images/kern1.png" alt="">
+<img src="../en-US/images/kern2.png" alt="">
 
 La fenêtre de métriques de FontForge peut être utilisée pour concevoir les approches latérales et les valeurs de crénage. Les valeurs de crénage peuvent être appliquées à une police de plusieurs façons dans FontForge.  Deux de celles-ci sont présentées ci-dessous: le crénage par classes et le crénage par paires individuelles.
 
@@ -106,7 +106,7 @@ La fenêtre de métriques de FontForge peut être utilisée pour concevoir les a
 
 'Crénage manuel' - Cette commande fournit à l'utilisateur une boîte de dialogue à partir de laquelle vous pouvez ajuster des paires déjà crénées ou créer de nouvelles paires (voir ci-dessous).
 
-<img src="images/kerncloseup-fr-FR.png" alt="" height="686" width="632">
+<img src="../en-US/images/kerncloseup-fr-FR.png" alt="" height="686" width="632">
 
 ## <strong>Réglage des valeurs de crénage avec le clavier</strong>
 
@@ -116,7 +116,7 @@ Tout comme pour ajuster les valeurs des approches latérales, les valeurs de cr�
 
 C'est le niveau le plus basique de création de paires de crénage dans FontForge. Dans la fenêtre de métrique, la valeur de crénage entre 2 caractères peut être ajustée manuellement soit en faisant glisser le caractère de droite vers ou à partir du caractère de gauche ou en modifiant la valeur de crénage directement dans la table de métriques de la fenêtre. Pour modifier les valeurs de crénage en faisant glisser des caractères, utilisez la poignée d'outil de crénage qui apparaît lorsque le curseur de la souris est placé entre 2 caractères (voir la capture d'écran ci-dessous). La valeur de crénage dans la table de métriques peut être modifiée en saisissant manuellement des valeurs ou en incrémentant / décrémentant la valeur à l'aide des touches haut / bas de votre clavier.
 
-<img src="images/mnl-kern-fr-FR.png" alt="">
+<img src="../en-US/images/mnl-kern-fr-FR.png" alt="">
 
 ## <strong>Crénage par classes</strong>
 
@@ -130,24 +130,24 @@ Le moyen le plus direct de créer des classes de crénage est à partir de l'él
 - Maintenant, cliquez sur la flèche vers le bas à côté de "Nouvelle" dans la colonne "Fonctionnalité" et choisissez "Crénage horizontal" dans le menu déroulant.
 - Cliquez sur "OK". Vous pouvez conserver les noms par défaut que FontForge crée pour vous.
 
-<img src="images/kern_classes_1-fr-FR.png" />
+<img src="../en-US/images/kern_classes_1-fr-FR.png" />
 Maintenant, vous est présentée la fenêtre où vous pouvez construire vos propres classes de crénage (voir ci-dessus). Le premier caractère d'une paire de crénage sera choisi dans la colonne de gauche et le second caractère d'une paire sera choisi dans la colonne de droite.
 
 L'onglet Lookups dans Élément &gt; Infos fonte &gt; fournit une interface au crénage par classe dans FontForge. Cette interface affiche un dialogue montrant tous les lookups GPOS (dont le crénage est un) et leurs sous-tables. Voir la capture d'écran ci-dessous;
 
-<img src="images/kernclass1-fr-FR.png" alt="">
+<img src="../en-US/images/kernclass1-fr-FR.png" alt="">
 
 Pour créer un nouveau lookup de crénage, cliquez sur «Nouveau lookup» et choisissez 'Positionnement par paire (crénage)' comme type de lookup et donnez au lookup un nom unique (voir ci-dessous).
 
-<img src="images/kernclass2-fr-FR.png" alt="">
+<img src="../en-US/images/kernclass2-fr-FR.png" alt="">
 
 Chaque ensemble de classes de crénage existe dans sa propre sous-table. Pour créer une sous-table, cliquez sur 'Nouvelle sous-table'. Lorsque vous créez une sous-table de crénage, on vous demandera si vous voulez un ensemble de paires de crénage individuelles ou un tableau de classes de crénage. Si vous choisissez les classes, vous obtiendrez la boîte de dialogue suivante dans lequel vous pouvez créer vos classes. Notez que vous pouvez choisir d'activer FontForge pour 'deviner' ou 'auto-créner' les valeurs de crénage entre les classes que vous créez dans la boîte de dialogue. Si vous utilisez FontForge pour deviner les valeurs de crénage, vous aurez sans doute besoin d'une certaine quantité d'essais et d'erreurs pour y parvenir, mais il est logique d'utiliser la fonction autokern comme point de départ pour le crénage de votre police.
 
-<img src="images/kernclass3-fr-FR.png" alt="">
+<img src="../en-US/images/kernclass3-fr-FR.png" alt="">
 
 Par exemple, dans la capture d'écran ci-dessus, 2 classes ont été créées; une classe contenant le caractère 'T' et une classe contenant le caractère 'o'. En cliquant sur 'ok' dans la boîte de dialogue ci-dessus, vous obtiendrez la fenêtre suivante où vous pouvez affiner la quantité de crénage entre ces deux classes 'T' et 'o'.
 
-<img src="images/kernclass4-fr-FR.png" alt="">
+<img src="../en-US/images/kernclass4-fr-FR.png" alt="">
 
 ## Crénage manuel
 

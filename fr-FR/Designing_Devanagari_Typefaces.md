@@ -48,7 +48,7 @@ Les glyphes de hauteur extrême vous permettent de déterminer les métriques ve
 
 Voici Myriad Pro Latin et Myriad Arabic juxtaposés:
 
-<img src="images/myriad_pro_vs_arabic.png" />
+<img src="../en-US/images/myriad_pro_vs_arabic.png" />
 
 (Remarquez la décision habile des concepteurs d'Adobe: la hauteur de capitale du latin en Myriad Arabic est la hauteur d'x du Myriad Pro Latin.)
 
@@ -100,7 +100,7 @@ La chaîne d'espacement ci-dessus vous permet de comparer des formes très dispa
 
 Les quatre glyphes dans le milieu, Pa/Da/Pa/Da vous permettent de comparer le caractère testé contre deux ensembles de trois, si vous regardez juste Pa/Da/Pa ou Da/Pa/Da.
 
-<img src="images/deva-spacing.png" />
+<img src="../en-US/images/deva-spacing.png" />
 
 Après avoir dessiné et espacé une poignée de voyelles et de consonnes, vous serez en mesure de faire un nombre limité de mots avec seulement ces lettres, et commencer à tester votre conception avec du texte réel.
 
