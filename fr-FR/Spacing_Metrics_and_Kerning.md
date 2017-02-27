@@ -67,9 +67,9 @@ En commençant par une chaîne de lettres minuscules 'o' dans la fenêtre de mé
 
 Une fois que le 'n' et le 'o' sont adéquatement espacés, leurs approches peuvent être utilisées pour créer les approches pour un ensemble d'autres caractères, par exemple;
 
-- L'approche droite du 'o' peut être utilisée pour l'approche droite du 'c', 'd', 'e', et 'q'.
-- L'approche gauche du 'o' peut être utilisée pour l'approche gauche du 'b' et 'p'.
-- L'approche droite du 'n' peut être utilisée pour l'approche gauche du 'h' et 'm'.
+- L'approche gauche du 'o' peut être utilisée pour l'approche gauche du 'c', 'd', 'e', et 'q'.
+- L'approche droite du 'o' peut être utilisée pour l'approche droite du 'b' et 'p'.
+- L'approche droite du 'n' peut être utilisée pour l'approche droite du 'h' et 'm'.
 - L'approche gauche du 'n' peut être utilisée pour l'approche gauche du 'b', 'h', 'k', 'm', 'p' et 'r'
 
 Note - Ce qui précède doit être utilisé comme un guide uniquement. Ce guide fournit un point de départ efficace pour trouver les valeurs correctes des approches latérales.
