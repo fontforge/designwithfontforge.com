@@ -22,7 +22,7 @@ Elle montre un tableau des glyphes dans la police.
 #### 2. La fenêtre de glyphe
 
 Double-cliquez sur un glyphe dans la fenêtre de fonte pour l'ouvrir dans la fenêtre de glyphe.
-C'est là que vous pouvez dessiner et modifier des glyphes, soit un à la fois avec une interface graphique, soit côte à côte avec un fichier texte de mots à parcourir préparé.
+C'est là que vous pouvez dessiner et modifier des glyphes, soit un à la fois avec une interface graphique, soit côte à côte avec un fichier texte de mots à parcourir préparé à l'avance.
 
 #### 3. La fenêtre de métriques
 
@@ -31,7 +31,7 @@ Ou sélectionnez certains glyphes dans la fenêtre de glyphe et appuyez sur «Ct
 Vous pouvez également glisser et déposer des glyphes depuis la fenêtre de glyphe vers la fenêtre de métriques.
 
 C'est là que vous pouvez ajuster l'espacement et le crénage de votre police.
-Vous pouvez également parcourir un fichier texte de liste de mots préparé ici.
+Vous pouvez également parcourir un fichier texte contenant une liste de mots préparés.
 
 #### 4. La fenêtre des infos sur la fonte
 
@@ -40,8 +40,7 @@ Ici vous trouverez toutes les _métadonnées_ au sujet de la police.
 
 #### 5. L'environnement de composition, pour les tests
 
-En plus de tout éditeur de polices, vous aurez besoin d'un système de composition pour tester vos polices en cours d'utilisation. C'est l'un des **grands secrets** des designers de polices professionnels:
-Une grande partie du travail le plus important d'un projet de conception de police est faite en dehors de l'éditeur de polices, dans des documents de test créés avec un système de composition.
+En plus d'un éditeur de polices, vous aurez besoin d'un système de composition pour tester vos polices en cours d'utilisation. C'est l'un des **grands secrets** des designers de polices professionnels : la majeure partie du travail d'un projet de conception de police est faite en dehors de l'éditeur de polices, dans des documents de test créés avec un système de composition.
 Les principaux systèmes sont:
 
 * Web (Firefox, Chromium, etc)
