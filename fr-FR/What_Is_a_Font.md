@@ -236,7 +236,7 @@ Les empattements sont l'un des aspects les plus distincts d'une police de caract
 première classification de police est de distinguer les polices avec empattements (serif) et sans
 empattements (sans-serif).
 
-Ce choix affecte à quoi les terminaisons vont ressembler. Les empattements peuvent être des deux cotés
+Ce choix affecte à quoi les terminaisons vont ressembler. Les empattements peuvent être des deux côtés
 ou d'un seul côté. Ils peuvent être perpendiculaires au trait ou avoir leur propre direction (comme être
 toujours horizontal ou vertical). Les empattements peuvent être avec ou sans congé. Tout design d'empattement
 est un mélange de tout ce qui précède appliqué uniformément au design de la police avec quelques déviations
@@ -260,7 +260,7 @@ doux ou grands de [Times New Roman]) ou lourdeur (congés absents de [Arvo]).
 
 #### Empattements rectangulaires
 
-Également appelé de type mécane ou égyptien, les empattements rectangulaires sont épaisses et en bloc. Les
+Également appelé de type mécane ou égyptien, les empattements rectangulaires sont épais et en bloc. Les
 empattements rectangulaires n'utilisent pas de congé. D'une manière générale, le design de police avec de tels
 empattements est considéré comme ayant moins de contraste dans leurs glyphes &ndash; [Rockwell], [Courier] ou
 [American Typewriter] reflètent cela.
