@@ -15,7 +15,7 @@ conception et l'espacement de chaque partie de la police de caractères finit pa
 de compromis méticuleux. Ces compromis signifient que nous devons voir la conception de caractères
 comme la création d'une merveilleuse collection de lettres, et non comme une collection de lettres
 merveilleuses. En d'autres termes, nous devons penser au groupe et à la façon dont il se comportera
-ensemble et prioriser cela sur toute question à propos de ce qui est magnifique dans une seule lettre.
+ensemble et prioriser cela sur tout ce qui est magnifique dans une seule lettre.
 
 Ce besoin de prioriser avec le système plutôt qu'avec n'importe quelle partie unique mène également
 à un besoin d'analyser notre processus de conception au niveau du système. Les caractéristiques qui
@@ -25,8 +25,8 @@ en particulier au début du processus de conception.
 Une autre singularité dans la conception de police est que dans une très grande mesure, les formes que
 nous concevons sont déjà considérablement établies. Notre tâche en tant que concepteurs de polices
 n'est pas tant de créer une forme totalement nouvelle mais plutôt de créer une nouvelle version d'une
-forme existante. Cela peut sembler perplexe pour de nouveaux concepteurs de police. Trouver le juste
-montant à changer pour enthousiasmer mais pas pour aliéner un lecteur est une chose délicate. Souvent,
+forme existante. Cela peut être déconcertant pour les nouveaux concepteurs de police. Trouver le juste
+montant à changer pour enthousiasmer mais pas pour s'aliéner un lecteur est une chose délicate. Souvent,
 les concepteurs restent coincés à penser à des lettres spécifiques. Cette erreur peut être facilement
 évitée si vous réalisez dès le début que ce qui est le plus significatif dans une police de caractères
 sont les parties de celle-ci qui se répètent le plus. La conception de police n'est pas seulement de
@@ -131,7 +131,7 @@ que celui de droite.
 
 <img src="../en-US/images/Contrast.png" alt>
 
-Une police avec graisse constante (largeur du trait) dans ses formes de lettre ou aucun contraste visible
+Une police avec graisse constante (largeur du trait) dans ses formes de lettre ou sans contraste visible
 se distingue grandement d'une police contrastée. Comme le choix entre serifs ou sans-serifs, le contraste
 est un choix primordial de la conception de police. Il est intéressant de noter que les designs avec
 empattement rectangulaire utilisent généralement une largeur de trait constante dans leurs lettres, et que
@@ -204,7 +204,7 @@ de la forme et de la taille du contrepoinçoin.
 
 Les terminaisons sont les formes aux extrémités des traits. Ce ne sont pas des empattements. Elles sont
 souvent perpendiculaires à l'angle du trait à son extrémité, ou ciselés horizontalement ou verticalement.
-Elles peuvent également refléter la forme de la pointe ou des autres outils de marquage que les lettres évoquent.
+Elles peuvent également refléter la forme de la pointe ou des autres outils de traçage que les lettres évoquent.
 
 <img src="../en-US/images/terminals%20f.png" alt>
 
@@ -219,9 +219,9 @@ détail dans le chapitre [sur les italiques]
 
 <img src="../en-US/images/6regularity.png" alt>
 
-Les caractéristiques suivantes ne sont pas présentes dans toutes les designs de police, mais ce sont des
+Les caractéristiques suivantes ne sont pas présentes dans tous les designs de police, mais ce sont des
 variables qui peuvent faire partie de votre conception. Si tel est le cas, il convient de considérer le
-degré auquel elles joueront un rôle de variable.
+degré auquel elles joueront un rôle.
 
 ### Ornements
 
@@ -240,7 +240,7 @@ Ce choix affecte à quoi les terminaisons vont ressembler. Les empattements peuv
 ou d'un seul côté. Ils peuvent être perpendiculaires au trait ou avoir leur propre direction (comme être
 toujours horizontal ou vertical). Les empattements peuvent être avec ou sans congé. Tout design d'empattement
 est un mélange de tout ce qui précède appliqué uniformément au design de la police avec quelques déviations
-pour les lettres particulières, en particulier les ‘S’, ‘C’ et ‘Z’ (i.e. une police avec empattement
+pour des lettres particulières, en particulier les ‘S’, ‘C’ et ‘Z’ (c.-à-d. une police avec empattement
 horizontale pour toutes les lettres aura souvent s, c et z avec un empattement vertical).
 
 Il existe une légende urbaine affirmant que les polices avec empattement sont plus faciles à lire que sans
