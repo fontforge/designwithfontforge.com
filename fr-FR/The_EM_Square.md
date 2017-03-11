@@ -8,7 +8,7 @@ title: Le cadratin (EM)
 
 &mdash; Aussi appelée 'em size' ou 'UPM' en anglais.
 Dans une police, chaque caractère est placé dans son propre espace défini. Dans la police
-de métal traditionnelle cette esace était le bloc de métal réel de chaque caractère. La hauteur de
+de métal traditionnelle cette espace était le bloc de métal réel de chaque caractère. La hauteur de
 chaque morceau de caractère était uniforme, permettant aux caractères d'être rangés soigneusement
 en rangées et en blocs (voir ci-dessous).
 
@@ -52,7 +52,7 @@ La hauteur d'x:
 
 <img src="../en-US/images/xheight.png" alt>
 
-Plus tard, lors de la conception de votre police, vous devrez définir les valeurs bleues qui servent
+Plus tard, lors de la conception de votre police, vous devrez définir les *Blue values* qui servent
 pour les contours PostScript et également pour l'autohinter de FontForge &ndash; indépendamment des
 contours sur lesquels vous travaillez.
 Vous trouverez le paramètre dans *Élément > Infos fonte&hellip;*, sur l'onglet *Dictionnaire PS privé*.
