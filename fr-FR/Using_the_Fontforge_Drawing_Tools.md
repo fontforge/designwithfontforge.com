@@ -91,7 +91,7 @@ Plus d'informations à ce sujet seront données dans le chapitre sur la validati
 <a href="Making_Sure_Your_Font_Works_Validation.html"></a>.</p>
 </div>
 
-Pour élaborer, il ya deux cas où vous devrez renoncer à des chemins de B&eacute;zier horizontaux et verticaux:
+Pour élaborer, il y a deux cas où vous devrez renoncer à des chemins de B&eacute;zier horizontaux et verticaux:
 
 - Si vous voulez changer la pente globale de votre courbe, comme avec la partie supérieure gauche du ‘a’
   ci-dessous qui est maintenu presque plat:
@@ -298,7 +298,7 @@ rendu dans votre police finale.
 
 <img src="../en-US/images/layers-fr-FR.png" alt>
 
-L'icône de l'oeil indique si un calque est visible, et vous pouvez cliquer dessus pour basculer 
+L'icône de l'œil indique si un calque est visible, et vous pouvez cliquer dessus pour basculer 
 la visibilité. Le C (ou Q) indique si vous utilisez des courbes cubiques ou quadratiques.
 
 Le #, B ou F indique si le type de calque est guide, d'arrière-plan ou d'avant-plan, ce qui est
