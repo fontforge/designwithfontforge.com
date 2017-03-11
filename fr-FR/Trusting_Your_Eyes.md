@@ -6,7 +6,7 @@ category: Before You Begin
 title: Faîtes confiance à vos yeux
 ---
 
-Le design de polices est le processus de tester itérativement les choix individuels qui, collectivement,
+Le design de polices est le processus de tester itérativement des choix individuels qui, collectivement,
 composent le design complet. Vous allez tester votre police pour voir si la combinaison de décisions que
 vous avez prises:
 
@@ -23,7 +23,7 @@ des résultats fiables. Bien que très utile, cette approche présente des limit
 vous attendre à faire des ajustements si quelque chose vous semble incorrect. De plus, vous devriez vous
 sentir confiant que de faire des changements jusqu'à ce que cela "semble bon" soit la bonne chose à faire.
 
-La raison pour laquelle cela est vrai, c'est qu'il ya un certain nombre d'illusions d'optique naturelle auquel
+La raison pour laquelle cela est vrai, c'est qu'il y a un certain nombre d'illusions d'optique naturelle auquel
 tous les lecteurs sont soumis. Ces illusions doivent être prises en compte en modifiant les formes des lettres
 jusqu'à ce qu'elles vous semblent bien.
 
@@ -33,11 +33,11 @@ police](https://vimeo.com/typereview/videos) (lien externe)
 ## Exemples d'illusions
 
 Certaines illusions impliquent la graisse perçue des lignes, certaines impliquent la longueur perçue des lignes,
-et d'autres impliquent la perception de l'oeil des formes.
+et d'autres impliquent la perception de l'œil des formes.
 
 ### Graisse horizontale vs. verticale
 
-L'exemple de gauche montre un ‘H’ dont les barres sont exactement égales en épaisseur. Cela semble mauvais.
+L'exemple de gauche montre un ‘H’ dont les barres sont exactement égales en épaisseur. Cela semble incorrect.
 Pouvez-vous le voir?
 L'autre sur la droite a une barre horizontale qui a été amincie pour apparaître égale en épaisseur.
 
@@ -50,7 +50,7 @@ f, t et z.
 
 De même, si vous avez des barres de la même largeur et que l'une d'elles est placée en diagonal, la barre
 diagonale semblera légèrement plus lourde que la barre verticale et légèrement plus mince que l'horizontale.
-Si vous voulez que cela paraîsse bien, vous devrez l'ajuster pour être plus légère comme l'exemple horizontal,
+Si vous voulez que cela paraisse bien, vous devrez l'ajuster pour être plus légère que horizontal,
 mais juste un peu moins.
 
 <img src="../en-US/images/Diag%20illusion.png" alt>
@@ -61,7 +61,7 @@ k, K, N, Q, R, v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, 
 
 ### Longueur et angle de diagonale perçu
 
-Les formes plus longues ont besoin de moins d'inclinaison que les les plus courtes pour donner l'apparence
+Les formes plus longues ont besoin de moins d'inclinaison que les plus courtes pour donner l'apparence
 d'une même inclinaison.
 
 L'image ci-dessous a des lignes diagonales qui ont toutes le même angle. Les plus longues semblent être à un
@@ -69,11 +69,11 @@ angle différent.
 
 <img src="../en-US/images/pdiag.png" alt>
 
-Dans l'image suivante, l'inclinaison de la ligne plus longue a été ajustée:
+Dans l'image suivante, l'inclinaison de la ligne la plus longue a été ajustée:
 
 <img src="../en-US/images/pdiag2.png" alt>
 
-Maintenant, regardons une italique en fait, en appliquant ces corrections aux glyphes:
+Maintenant, regardons une vraie italique, en appliquant ces corrections aux glyphes:
 
 <img src="../en-US/images/longer%20less%20slant.png" alt>
 
@@ -85,7 +85,7 @@ pour ne pas apparaître comme étant mal alignée.
 <img src="../en-US/images/compare-x.png" alt>
 
 Dans l'exemple ci-dessus, le X à gauche comporte deux barres non ajustées qui se croisent. L'exemple
-de droite a été ajusté de façon à ce qu'ils semblent alignés.
+de droite a été ajusté de façon à ce qu'elles semblent alignées.
 
 <img src="../en-US/images/myriad-x.png" alt>
 
@@ -106,7 +106,7 @@ plus elle aura besoin de dépasser pour avoir l'air correcte.
 
 Dans l'image ci-dessus, les trois formes supérieures sont non corrigées &mdash; c'est-à-dire
 qu'elles ont des hauteurs identiques. Les trois formes inférieures ont été ajustées afin qu'elles
-apparaîsse les mêmes en hauteur.
+apparaisse les mêmes en hauteur.
 
 Cette illusion est applicable à tout glyphe qui a des parties qui sont soit rondes ou pointues.
 Ceux-ci comprennent O, Q, C, S, A, V, W et ainsi de suite.
