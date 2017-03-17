@@ -6,15 +6,15 @@ category: workflow
 title: Interligne
 ---
 
-Lorsque vous avez l'inter-mots et un jeu de n et o, vous pouvez commencer à regarder l'interligne. Toutefois, une décision complète et définitive sur l'espacement des lignes n'est pas possible jusqu'à ce que vous ayez des lettres capitales et une ponctuation.
+Lorsque vous avez l'inter-mots et un jeu de n et o, vous pouvez commencer à regarder l'interligne. Toutefois, une décision complète et définitive sur l'interligne est impossible sans avoir les lettres capitales et de la ponctuation.
 
 ## Pensez à l'interligne intentionnellement
 
-Comme c'est le cas avec l'espacement des lettres et des mots, avoir trop ou trop peu d'espacement entre les lignes peut rendre votre police difficile à utiliser dans le monde réel. Par-dessus tout, trouver le juste équilibre entre les lignes est une question d'y réfléchier et de tester une gamme d'options avant de prendre une décision finale.
+Comme c'est le cas avec l'espacement des lettres et des mots, avoir trop ou trop peu d'interligne peut rendre votre police difficile à utiliser dans le monde réel. Par-dessus tout, trouver le juste équilibre entre les lignes est une question nécessitant réflexion et le test d'une gamme d'options avant de prendre une décision finale.
 
-Règle générale, la plupart des nouveaux concepteurs de police ont tendance à pencher du côté d'avoir trop peu d'interligne dans leur police. Donc si vous n'êtes pas sûr, ajouter de l'espace supplémentaire est généralement une bonne idée.
+Règle générale, la plupart des nouveaux concepteurs de police ont tendance à mettre trop peu d'interligne dans leur police. Donc si vous n'êtes pas sûr, ajouter de l'espace supplémentaire est généralement une bonne idée.
 
-Vous devriez également considérer la portée linguistique de votre projet lorsque vous considérez l'interligne. Si vous tester l'interligne de votre police uniquement avec des caractères non accentués, vous êtes susceptible de choisir une valeur d'interligne qui ne laisse aucune place pour les accents. Si vous êtes certain que votre police ne sera jamais utilisée avec des caractères accentués, cela pourrait être acceptable — mais les chances sont que votre police <em>sera</em> utilisée pour définir un texte accentué. Dans ce cas, un interligne trop petite entraînera l'empiètement des accents sur le bas des glyphes de la ligne supérieure, et laissera au lecteur la tâche difficile (voire impossible) de lire le texte.
+Vous devriez également considérer la portée linguistique de votre projet lorsque vous considérez l'interligne. Si vous tester l'interligne de votre police uniquement avec des caractères non accentués, vous êtes susceptible de choisir une valeur d'interligne qui ne laisse aucune place pour les accents. Si vous êtes certain que votre police ne sera jamais utilisée avec des caractères accentués, cela pourrait être acceptable — mais les chances sont que votre police <em>sera</em> utilisée pour composer un texte accentué. Dans ce cas, un interligne trop petite entraînera un empiètement des accents sur le bas des glyphes de la ligne supérieure, et laissera au lecteur la tâche difficile (voire impossible) de lire le texte.
 
 Une stratégie pour tester si l'interligne de votre police est appropriée pour les caractères accentués consiste à utiliser des exemples de texte à partir de plusieurs langues.
 
@@ -22,7 +22,7 @@ Une stratégie pour tester si l'interligne de votre police est appropriée pour 
 
 <img src="../en-US/images/Selection_044_1.png" alt="" height="96" width="481">
 
-Pour les langues chargées de signes diacritiques (comme le tchèque), l'interligne doit être plus élevée que pour les langues qui n'utilisent pas de signes diacritiques. Les exemples ci-dessus montrent le tchèque (ci-dessus) et l'anglais avec le même interligne assez large.
+Pour les langues chargées de signes diacritiques (comme le tchèque), l'interligne doit être plus grande que pour les langues qui n'utilisent pas de signes diacritiques. Les exemples ci-dessus montrent le tchèque (ci-dessus) et l'anglais avec le même interligne assez large.
 
 ## Expérimentez avec l'interligne de votre police dans FontForge
 
