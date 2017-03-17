@@ -18,15 +18,15 @@ Une fois que vous établissez une taille dont vous êtes satisfait, ce point peu
 
 <img src="../en-US/images/period.png" alt="">
 
-Le prochain glyphe à faire est la virgule. La forme de la virgule peut varier à de façon surprenante. Il peut être utile de regarder de nombreux designs de virgule avant de concevoir le vôtre.
+Le prochain glyphe à faire est la virgule. La forme de la virgule peut varier de façon surprenante. Il peut être utile de regarder de nombreux designs de virgule avant de concevoir le vôtre.
 
 L'image ci-dessous montre deux des formes les plus courantes que la virgule peut prendre.
 
 <img src="../en-US/images/commas.png" alt="">
 
-Le sommet de la virgule est souvent légèrement plus adouci que celui du point, car si il est la même, il peut paraître trop lourd. Dans l'image d'exemple, la virgule à droite est un bon exemple où cette compensation est appliquée. Une autre erreur commune à surveiller avec ce glyphe est de le faire trop court.
+Le sommet de la virgule est souvent légèrement plus adouci que celui du point, car si il est identique, celle-ci peut paraître trop lourde. Dans l'image d'exemple, la virgule à droite est un bon exemple où cette compensation est appliquée. Une autre erreur commune à surveiller avec ce glyphe est de le faire trop court.
 
-Quand vous avez votre virgule, il sera assez facile de faire le point-virgule (;).
+Quand vous avez votre virgule, il est assez facile de faire le point-virgule (;).
 
 ## Point d'exclamation et point d'interrogation
 
