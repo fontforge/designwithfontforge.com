@@ -18,7 +18,7 @@ Il est possible de dessiner des glyphes dans une application d'illustration (tel
 
 * `y=0` sera la ligne de l'ascendante et `y=1000` sera la ligne de la descendante.
 
-* (Il peut y avoir quelques glyphes qui vont au-delà de ces lignes. Peut-être FontForge fera la bonne chose, mais nous ne l'avons pas testé.)
+* (Il peut y avoir quelques glyphes qui vont au-delà de ces lignes. Peut-être que FontForge fera la bonne chose, mais nous ne l'avons pas testé.)
 
 * Par défaut, FontForge configurera votre ligne de base à `y=800`. Dans le système de coordonnées FontForge, la ligne de base se trouve à '0' sur l'ordonnée.
 
