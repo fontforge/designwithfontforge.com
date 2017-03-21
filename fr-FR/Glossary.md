@@ -32,7 +32,7 @@ Voir Diacritiques
 
 ### Ajustement à la grille
 
-Avant que les glyphes TrueType ne soient rasterisés, ils passent par un processus d'ajustement à la grille où un programme minuscule (associé à chaque glyphe) est exécuté qui déplace les points sur les contours du glyphe autour jusqu'à ce qu'ils correspondent mieux à la grille de pixels.
+Avant que les glyphes TrueType ne soient rasterisés, ils passent par un processus d'ajustement à la grille où un programme minuscule (associé à chaque glyphe) est exécuté, ce qui déplace les points sur les contours du glyphe jusqu'à ce qu'ils correspondent mieux à la grille de pixels.
 
 ### Alphabet
 
