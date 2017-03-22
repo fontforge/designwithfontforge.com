@@ -12,8 +12,16 @@
     		{% else %}
     			../en-US/index.html
     		{% endif %}	
-    	" class="lang">[English Version]</a>&nbsp;|&nbsp;
+    	" class="lang">[English]</a>&nbsp;|&nbsp;
     	<a href="
+            {% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
+            {% if urlList contains CNurl %}
+                {{ page.name | prepend: '../fr-FR/' | replace: '.md', '.html' }}
+            {% else %}
+                ../fr-FR/index.html
+            {% endif %} 
+        "class="lang">[Français]</a>&nbsp;|&nbsp;
+        <a href="
     		{% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
     		{% if urlList contains CNurl %}
     			{{ page.name | prepend: '../zh-CN/' | replace: '.md', '.html' }}
