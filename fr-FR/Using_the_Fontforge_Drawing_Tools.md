@@ -317,15 +317,15 @@ Maintenant, examinons quelques workflows de dessin de base, dont vous aurez souv
    la fenêtre de glyphe.
 2. Ensuite, utilisez l'outil ellipse pour dessiner une ellipse dans le rectangle que vous venez de
    dessiner.
-    <Img src = "images/O%20at%2079%20from%20Untitled1%20-_010-fr-FR.png" alt>
+    <Img src = "../en-US/images/O%20at%2079%20from%20Untitled1%20-_010-fr-FR.png" alt>
 3. Allez dans le menu Élément et choisissez *Corriger direction*. Vous verrez que les deux formes
    se sont fusionnées, et que vous avez essentiellement percé un trou dans le centre du rectangle.
-   <Img src = "images/O%20at%2079%20from%20Untitled1%20-_011-fr-FR.png" alt>
+   <Img src = "../en-US/images/O%20at%2079%20from%20Untitled1%20-_011-fr-FR.png" alt>
 
 ### Supprimer le chevauchement
 
 1. Ajoutez une étoile qui chevauche le coin du rectangle.
-    <Img src = "images/O%20at%2079%20from%20Untitled1%20-_012-fr-FR.png" alt>
+    <Img src = "../en-US/images/O%20at%2079%20from%20Untitled1%20-_012-fr-FR.png" alt>
 2. Sélectionnez l'étoile et la forme précédente. Il vous suffit de sélectionner un point de chaque
    forme chevauchante, mais il est acceptable de sélectionner des points supplémentaires.
 3. Allez à Élément &gt; Recouvrement &gt; *Enlever les recouvrements*. Vous verrez que vos deux
