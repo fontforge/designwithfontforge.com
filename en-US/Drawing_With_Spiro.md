@@ -19,7 +19,7 @@ way and solving your conception problems. Please experiment!
 Many of the same drawing tools are available in Spiro mode as those described in the [“Using the
 FontForge drawing tools”] chapter, but some of them work very differently when you are in Spiro mode.
 
-<img src="images/spiro_tools_labels.png" alt width="400">
+<img src="images/spiro_tools_labels.png" alt width="600">
 
 There are five different types of Spiro points:
 
