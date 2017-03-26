@@ -298,7 +298,7 @@ rendu dans votre police finale.
 
 <img src="../en-US/images/layers-fr-FR.png" alt>
 
-L'icône de l'œil indique si un calque est visible, et vous pouvez cliquer dessus pour basculer 
+Une case à cocher indique si un calque est visible, et vous pouvez cliquer dessus pour changer 
 la visibilité. Le C (ou Q) indique si vous utilisez des courbes cubiques ou quadratiques.
 
 Le #, B ou F indique si le type de calque est guide, d'arrière-plan ou d'avant-plan, ce qui est
