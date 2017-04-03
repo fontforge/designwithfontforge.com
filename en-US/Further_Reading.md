@@ -91,7 +91,7 @@ ILT Example Projects:
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago
 * [Professor Mahendra Patel](http://patelmc.wordpress.com/mahendrapatel/typedesign/)
-* [Dhruvi Tolia Graduation Report] (http://issuu.com/dhruvi/docs/graduation_report)
+* [Dhruvi Tolia Graduation Report](http://issuu.com/dhruvi/docs/graduation_report)
 * [Sanchit Sawaria Project 3 Document](http://issuu.com/sanchitsawaria/docs/kathandoc)
 * [Yashodeep Gholap - Designing a Devanagari text font for newspaper use](http://www.yashodeepgholap.com/Article.html)
 * [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
@@ -203,7 +203,7 @@ Title: ISBN: <tt>3721203488</tt>
 
 Title: Fonts and encodings
 
-Author: Yannis Haralambous (Author), P Scott Horne (Translator)</tt>
+Author: Yannis Haralambous (Author), P Scott Horne (Translator)
 
 Title: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
 

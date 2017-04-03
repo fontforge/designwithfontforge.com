@@ -58,8 +58,6 @@ FontForge can automatically create accented characters in 2 main ways;
 
 In FontForge's 'Element' menu, is a function called 'Build' that can be used to create accented characters, certain composite characters and some duplicate characters. To auto build accented characters FontForge uses the 'Element > Build > Build Accented Glyph' function. This function can also be performed with the keystroke 'ctrl + shift + a'. So, using the example of building the 'a acute' character (u+00e1) , we would need to have already created the lowercase 'a' (u+0061) and the 'acutecomb' glyph (u+0301). Then selecting the 'a acute' character slot and using the 'Element > Build > Build Accented Glyph' function, FontForge will place a reference to the lowercase 'a' glyph and a reference to the 'acutecomb' glyph into the 'a acute' character slot (see below).
 
-<p class="note">It should be noted here that if the glyph of a diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example of the combining mark 'acutecomb' (u+0301)is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
-
 <img src="images/dia_auto_a_acute.png"/>
 
 This automatic placement of diacritic marks can be tuned by preferences, found in the 'accents' section of FontForge's preferences menu 'File > Preferences > Accents' (see below). 
@@ -134,9 +132,9 @@ In the second example, below, the 'acute' glyph has been selected from the 'Mark
 
 ## Other resources
 
-* http://urtd.net/projects/cod/about
-* http://ilovetypography.com/2009/01/24/on-diacritics/
-* http://diacritics.typo.cz/
-* http://scripts.sil.org/ProbsOfDiacDesign
-* http://www.microsoft.com/typography/developers/fdsspec/diacritics.htm
-* https://twitter.com/fostertype/status/610292546971893760
+* <http://urtd.net/projects/cod/about>
+* <http://ilovetypography.com/2009/01/24/on-diacritics/>
+* <http://diacritics.typo.cz/>
+* <http://scripts.sil.org/ProbsOfDiacDesign>
+* <http://www.microsoft.com/typography/developers/fdsspec/diacritics.htm>
+* <https://twitter.com/fostertype/status/610292546971893760>

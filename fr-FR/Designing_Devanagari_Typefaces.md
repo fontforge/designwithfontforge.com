@@ -30,7 +30,7 @@ Les polices Devanagari contiennent ces différents types de glyphes:
 
 Consultez le [chapitre 12 d'Unicode sur les écritures indiennes](http://www.unicode.org/versions/Unicode8.0.0/ch12.pdf) (en anglais), ([la page Devanagari d'Unicode](http://www.unicode.org/fr/charts/PDF/U0900.pdf)), ainsi que la ([page de développement de polices OpenType Devanagari de Microsoft](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm) (en anglais) pour en savoir plus sur ces glyphes et comment le moteur de mise en forme indien fonctionne.
 
-Il est utile de faire de la calligraphie ou d'étudier de près les manuels d'écriture pour apprendre comment l'écriture fonctionne, de sorte que vous compreniez quelles lettres devraient être comme quelles autres lettres dans la structure. Ces [2 pages du Manuel de calligraphie de Devanagari d'Aksharaya](https://groups.google.com/d/msg/googlefontdirectory-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) peuvent être utilisées comme référence pour l'angle de la plume et les proportions de lettre.
+Il est utile de faire de la calligraphie ou d'étudier de près les manuels d'écriture pour apprendre comment l'écriture fonctionne, de sorte que vous compreniez quelles lettres devraient être comme quelles autres lettres dans la structure. Ces [2 pages du Manuel de calligraphie de Devanagari d'Aksharaya](https://groups.google.com/d/msg/googlefonts-discuss/XRYMYHZpUVc/_mLQWbr8rp8J) peuvent être utilisées comme référence pour l'angle de la plume et les proportions de lettre.
 
 ## Que faire d'abord
 

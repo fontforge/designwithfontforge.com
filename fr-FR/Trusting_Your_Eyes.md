@@ -57,7 +57,7 @@ mais juste un peu moins.
 
 Les glyphes dans lesquels cette perception humaine peut être importante sont assez nombreux et incluent
 k, K, N, Q, R, v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
-&laquo;, &raquo;, &frac12;, &frac13;, &frac14;, &le;, &ge;, et &times;.
+&laquo;, &raquo;, ½, ⅓, ¼, &le;, &ge;, et &times;.
 
 ### Longueur et angle de diagonale perçu
 

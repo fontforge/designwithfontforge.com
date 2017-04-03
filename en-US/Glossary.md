@@ -14,7 +14,7 @@ Abjad is the technical term for the type of writing system used by Semitic langu
 
 Both Hebrew and Arabic have optional vowel marks and are called "impure" abjads. Ancient Phoenician had nothing but consonants and is a "pure" abjad.
 
-See Also: alphabet, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Abjad">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Abjad).
+See Also: alphabet, abugida, syllabary and the [relevant Wikipedia article](http://en.wikipedia.org/wiki/Abjad).
 
 ### Abugida
 
@@ -26,7 +26,7 @@ An abugida differs from a syllabary in that there is a common theme to the image
 
 An abugida differs from an abjad in that vowels (other than the default) must be marked in the abugida.
 
-See Also: alphabet, abjad, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Abugida">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Abugida).
+See Also: alphabet, abjad, syllabary and the [relevant Wikipedia article](http://en.wikipedia.org/wiki/Abugida).
 
 ### Accent
 
@@ -40,7 +40,7 @@ The distance between the start of this glyph and the start of the next glyph. So
 
 A writing system where there are glyphs for all phonemes — consonants and vowels alike -- and (in theory anyway) all phonemes in a word will be marked by an appropriate glyph.
 
-See Also: abjad, abugida, syllabary and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">relevant Wikipedia article</a> (http://en.wikipedia.org/wiki/Alphabet).
+See Also: abjad, abugida, syllabary and the [relevant Wikipedia article](http://en.wikipedia.org/wiki/Alphabet).
 
 ### Apple Advanced Typography
 
@@ -350,7 +350,7 @@ One of the two (modern) Japanese syllabaries. Both Hiragana and Katakana have th
 
 When the default spacing between two glyphs is inappropriate the font may include extra information to indicate that when a given glyph (say "T") is followed by another glyph (say "o") then the advance width of the "T" should be adjusted by a certain amount to make for a more pleasing display.
 
-In the days of metal type, metal actually had to be shaved off the slug of type to provide a snugger fit. In the image on the side, the "F" on the left has had some metal removed so that a lower case letter could snuggle closer to it.
+In the days of metal type, metal actually had to be shaved off the slug of type to provide a snugger fit. For instance, the "F" would have had some metal removed so that a lower case letter could snuggle closer to it.
 
 ### Kern pair
 
@@ -409,7 +409,7 @@ A mapping from Unicode code point to glyph name.
 
 ### Non-Zero Winding Number Fill rule
 
-To determine if a pixel should be filled using this rule draw a line from here to infinity (in any direction) and count the number of times contours cross this line. If the contour crosses the line in a clockwise direction add 1, of the contour crosses in a counter clockwise direction subtract one. If the result is non-zero then fill the pixel. If it is zero leave it blank. This method is used for rasterizing fonts by TrueType and older (before version 2) postscript.
+To determine if a pixel should be filled using this rule draw a line from here to infinity (in any direction) and count the number of times contours cross this line. If the contour crosses the line in a clockwise direction add 1, if the contour crosses in a counter clockwise direction subtract one. If the result is non-zero then fill the pixel. If it is zero leave it blank. This method is used for rasterizing fonts by TrueType and older (before version 2) postscript.
 
 See Also Even-Odd Fill Rule.
 
@@ -451,7 +451,7 @@ See also X-height, Cap-height, Ascender, Descender, Baseline
 ## P
 ### Panose
 
-A system for describing fonts. See <a title="Unicode consortium" href="http://www.panose.com/ProductsServices/pan1.aspx">HP's PANOSE classification metrics guide</a>. There is also an extension called <a title="Unicode consortium" href="http://www.w3.org/Fonts/Panose/pan2.html">Panose 2</a>.
+A system for describing fonts. See [Panose Font Classification System Metrics Guide](http://monotype.de/services/pan1). There is also an extension called [Panose 2.0](http://www.w3.org/Fonts/Panose/pan2.html).
 
 FontForge only knows about the classification scheme for Latin fonts. Other schemes exist for other scripts.
 
@@ -467,7 +467,7 @@ In a TrueType font there are a few points added to each glyph which are not spec
 
 A unit of length defined (in the US at least) to be 35/83cm (or approximately 1/6th of an inch). This was used for measuring the length of lines of text (as "30 picas and 4 points long"), but not for measuring font heights.
 
-In Renaissance typography, before there were points, sizes of type had names, and "pica" was used in this context. As: "Great Canon", "Double Pica", "Great Primer", "English", "Pica", "Primer", "Small Pica", "Brevier", "Nonpareil" and "Pearl" (each name representing a progressively smaller size of type) and <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Alphabet">See Caslon's type specimen sheet on Wikipedia</a>.
+In Renaissance typography, before there were points, sizes of type had names, and "pica" was used in this context. As: "Great Canon", "Double Pica", "Great Primer", "English", "Pica", "Primer", "Small Pica", "Brevier", "Nonpareil" and "Pearl" (each name representing a progressively smaller size of type) and [see Caslon's type specimen sheet on Wikipedia](https://en.wikipedia.org/wiki/Alphabet#/media/File:A_Specimen_by_William_Caslon.jpg).
 
 ### Pica point
 
@@ -615,12 +615,12 @@ Scalable Vector Graphics. An XML format used for drawing vector images. It inclu
 
 A syllabary is a phonetic writing system like an alphabet. Unlike an alphabet the sound-unit which is written is a syllable rather than a phoneme. In Japanese KataKana the sound "ka" is represented by one glyph. Syllabaries tend to be bigger than alphabets (Japanese Katakana requires about 60 different characters, while the Korean Hangul requires tens of thousands).
 
-See Also: abjad, abugida, alphabet and the <a title="Unicode consortium" href="http://en.wikipedia.org/wiki/Syllabary">relevant Wikipedia article</a>.
+See Also: abjad, abugida, alphabet and the [relevant Wikipedia article](http://en.wikipedia.org/wiki/Syllabary).
 
 ## T
 ### Terminal
 
-The terminal of a glyph is the part where the stroke ends. The Top of the f has a terminal. The s has two terminals. When a glyph has serifs the serifs are considered different from the serifs. Because the bottom of the f would have a serif if it is in a serif style bottom is not considered a terminal. The bottom of the j and y are however considered terminals. Similarly the 3 has two terminals one at the top and one the bottom. The middle is considered to be a join rather than a terminal. The classification of these parts is perhaps more determined by convention than by a strict logic.
+The terminal of a glyph is the part where the stroke ends. The Top of the f has a terminal. The s has two terminals. When a glyph has serifs the serifs are considered different from the terminals. Because the bottom of the f would have a serif if it is in a serif style bottom is not considered a terminal. The bottom of the j and y are however considered terminals. Similarly the 3 has two terminals one at the top and one the bottom. The middle is considered to be a join rather than a terminal. The classification of these parts is perhaps more determined by convention than by a strict logic.
 
 ### TeX
 
@@ -665,13 +665,12 @@ See Monospace.
 ## U
 ### Unicode
 
-A character set/encoding which tries to contain all the characters currently used in the world, and many historical ones as well. See the <a title="Unicode consortium" href="http://www.unicode.org/">Unicode consortium</a>.
+A character set/encoding which tries to contain all the characters currently used in the world, and many historical ones as well. See the [Unicode consortium](http://www.unicode.org/).
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SMP: Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
 * SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF) More info.
-
 
 
 ### Undershoot
@@ -698,27 +697,20 @@ CJK text is often written vertically (and sometimes horizontally), so each CJK g
 
 The weight of a font is how thick (dark) the stems of the glyphs are. Traditionally weight is named, but recently numbers have been applied to weights.
 
-Thin<br>100
+|Name            |Number| 
+|:---------      |:---  | 
+|Thin            |100   |
+|Extra-Light     |200   |
+|Light           |300   |
+|Normal          |400   |
+|Medium          |500   |
+|Demi-Bold       |600   |
+|Bold            |700   |
+|Heavy           |800   |
+|Black           |900   |
+|Nord            |	    | 
+|Ultra           |	    | 
 
-Extra-Light<br>200
-
-Light<br>300
-
-Normal<br>400
-
-Medium<br>500
-
-Demi-Bold<br>600
-
-Bold<br>700
-
-Heavy<br>800
-
-Black<br>900
-
-Nord
-
-Ultra
 
 ### White space
 

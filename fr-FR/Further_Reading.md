@@ -203,7 +203,7 @@ Titre: ISBN: <tt>3721203488</tt>
 
 Titre: Fonts and encodings
 
-Auteur: Yannis Haralambous (Auteur), P Scott Horne (Translator)</tt>
+Auteur: Yannis Haralambous (Auteur), P Scott Horne (Translator)
 
 Titre: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
 

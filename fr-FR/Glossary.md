@@ -114,7 +114,7 @@ La distance entre le début d'un glyphe et le début du glyphe suivant. Parfois 
 
 ### Chasse fixe (monospace)
 
-Une police dans laquelle tous les glyphes ont la même largeur. Celles-ci sont parfois appelés les polices de machine à écrire.
+Une police dans laquelle tous les glyphes ont la même largeur. Celles-ci sont parfois appelés polices de machine à écrire.
 
 ### Chasse verticale
 
@@ -162,7 +162,7 @@ Les courbes de Bézier sont décrites en détail dans la section Bézier du manu
 
 Lorsque l'espacement par défaut entre deux glyphes est inapproprié, la police peut inclure des informations supplémentaires pour indiquer que, lorsqu'un glyphe donné (par exemple "T") est suivi d'un autre glyphe (par exemple "o"), la chasse du "T" soit ajutstée d'un certain montant pour rendre l'affichage plus agréable.
 
-À l'époque des fontes de métal, le métal devait être limé pour fournir un bon ajustement. Dans l'image sur le côté, le "F" sur la gauche a eu un peu de métal enlevé de sorte qu'une lettre minuscule pourrait se blottir plus près de celui-ci.
+À l'époque des fontes de métal, le métal devait être limé pour fournir un bon ajustement. Par exemple, le "F" avait eu un peu de métal enlevé de sorte qu'une lettre minuscule pouvait se blottir plus près de celui-ci.
 
 ### Crénage par classes
 
@@ -299,8 +299,8 @@ La graisse d'une police est l'épaisseur (sombre) des fûts des glyphes. Traditi
 |Gras            |700   |
 |Extra-gras      |800   |
 |Noir            |900   |
-|Extra-noir      |	    |   
-|Ultra-noir      |	    |     
+|Extra-noir      |	    | 
+|Ultra-noir      |	    | 
 
 ### Gras
 
