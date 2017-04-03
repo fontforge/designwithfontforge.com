@@ -292,8 +292,7 @@ layer will be rendered into your final font.
 
 <img src="images/layers.png" alt>
 
-The eye icon indicates whether each layer is visible, and you can click to toggle the eye to make a
-layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
+A checkbox indicates whether each layer is visible, and you can uncheck it to make a layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
 
 The #, B, or F refers to whether the type of each layer is a Guide layer, Background layer, or
 Foreground layer, which is significant if you add more layers of your own. You can create and delete

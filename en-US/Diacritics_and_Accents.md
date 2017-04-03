@@ -60,7 +60,7 @@ In FontForge's 'Element' menu, is a function called 'Build' that can be used to 
 
 <p class="note">It should be noted here that if the glyph of a diacritic mark is not present in your font, then FontForge will instead use a similar spacing character in place. For example of the combining mark 'acutecomb' (u+0301)is not present, then FontForge will use the standard 'acute' (u+00b4) character when it automatically builds acute accented glyphs. If the 'acutecomb' is present, then FontForge will always use that, unless you specifically force FontForge to use spacing characters for building accented glyphs.</p>
 
-<img width="500px" src="images/dia_auto_a_acute.png"/>
+<img src="images/dia_auto_a_acute.png"/>
 
 This automatic placement of diacritic marks can be tuned by preferences, found in the 'accents' section of FontForge's preferences menu 'File > Preferences > Accents' (see below). 
 

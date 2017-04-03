@@ -148,7 +148,7 @@ Une police condensée est celle où l'espace entre les fûts des glyphes et la d
 
 Le contrepoinçon d'un glyphe est la partie blanche qui est totalement ou partiellement fermée. Les o et n ont tous deux des contrepoinçon. Le i et l n'en ont pas. Les e et le d ont tous deux des contrepoinçons. Le B a deux contrepoinçons.
 
-Courbe (Spline)
+### Courbe (Spline)
 
 La version originale anglaise de FontForge utilise le terme « spline » pour définir un segment de ligne courbe. En réalité, les splines utilisées dans FontForge sont des courbes de Bézier de deuxième degré (quadratique) ou de troisième degré (cubique) ou des clothoïdes de Raph Levien.
 
