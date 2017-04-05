@@ -146,7 +146,7 @@ Une police condensée est celle où l'espace entre les fûts des glyphes et la d
 
 ### Contrepoinçoin
 
-Le contrepoinçon d'un glyphe est la partie blanche qui est totalement ou partiellement fermée. Les o et n ont tous deux des contrepoinçon. Le i et l n'en ont pas. Les e et le d ont tous deux des contrepoinçons. Le B a deux contrepoinçons.
+Le contrepoinçon d'un glyphe est la partie blanche qui est totalement ou partiellement fermée. Les o et n ont tous deux des contrepoinçons. Le i et l n'en ont pas. Les e et le d ont tous deux des contrepoinçons. Le B a deux contrepoinçons.
 
 ### Courbe (Spline)
 
@@ -206,7 +206,7 @@ Ces lignes fines ont été appelées empattements. Les premiers typographes les 
 
 A la fin du XIXe et au début du XXe siècle, les typographes ont commencé à concevoir des fontes sans empattements. Celles-ci ont d’abord été appelées grotesques parce que leur forme paraissait étrange. Elles sont maintenant généralement appelées sans-serif.
 
-D’autres systèmes d’écriture (l’hébreu par exemple) ont leurs propres empattements. Les empattements hébreus sont assez différentes des empattements latins, grecs ou cyrilliques car elles apparaîssent seulement au sommet des glyphes.
+D’autres systèmes d’écriture (l’hébreu par exemple) ont leurs propres empattements. Les empattements hébreus sont assez différents des empattements latins, grecs ou cyrilliques car ils apparaîssent seulement au sommet des glyphes.
 
 ### en
 
@@ -273,10 +273,6 @@ La vieille écriture runique germanique.
 Le fût est la partie de la lettre qui est verticale. Les I et l sont tous composés de fûts, à l'exception des empattements. Le H se compose de deux fûts et d'une traverse. D'autres glyphes avec fûts comprennent B b F f K k P p R r 1 et 4.
 
 ## G
-
-### Ghost Hint
-
-Parfois, il est important d'indiquer qu'un bord horizontal est bien horizontal. Mais le bord n'a pas de bord correspondant avec lequel faire un fût normal. Dans ce cas, un hint spécial est utilisé avec une largeur de -20 (ou -21). Un hint fantôme (ghost en anglais) doit se trouver entièrement dans un glyphe. Si il est en haut d'un contour, utilisez une largeur de -20, si il est au bas, utilisez -21. Des hints fantômes devraient également se trouver dans les BlueZones.<br>(La spécification mentionne également des hints fantômes verticaux, mais comme il n'y a pas de bluezone verticale, il n'est pas clair comment ils devraient être utilisés).
 
 ### Glyphe
 
@@ -361,6 +357,10 @@ Ceux-ci sont décrits en détail dans le manuel principal. Ils aident le "raster
 ### Hints contradictoires
 
 Si un glyphe contient deux hints où le point de départ ou de fin de l'un est dans la plage de l'autre, alors ces hints sont en conflit. Ils ne peuvent pas être actifs simultanément.
+
+### Hints fantômes
+
+Parfois, il est important d'indiquer qu'un bord horizontal est bien horizontal. Mais le bord n'a pas de bord correspondant avec lequel faire un fût normal. Dans ce cas, un hint spécial est utilisé avec une largeur de -20 (ou -21). Un hint fantôme (ghost en anglais) doit se trouver entièrement dans un glyphe. Si il est en haut d'un contour, utilisez une largeur de -20, si il est au bas, utilisez -21. Des hints fantômes devraient également se trouver dans les BlueZones.<br>(La spécification mentionne également des hints fantômes verticaux, mais comme il n'y a pas de bluezone verticale, il n'est pas clair comment ils devraient être utilisés).
 
 ### Hiragana
 
@@ -744,7 +744,7 @@ Voir Cadratin
 
 ### UseMyMetrics
 
-C'est un concept truetype qui force la largeur d'un glyphe composite (par exemple une lettre accentuée) à être de la même que la largeur d'un de ses composants (par exemple la lettre de base étant accentuée).
+C'est un concept truetype qui force la largeur d'un glyphe composite (par exemple une lettre accentuée) à être de la même largeur que la largeur d'un de ses composants (par exemple la lettre de base étant accentuée).
 
 ## X
 

@@ -48,7 +48,7 @@ Les glyphes de hauteur extrême vous permettent de déterminer les métriques ve
 
 Voici Myriad Pro Latin et Myriad Arabic juxtaposés:
 
-<img src="../en-US/images/myriad_pro_vs_arabic.png" />
+<img src="../en-US/images/myriad_pro_vs_arabic-fr-FR.png" />
 
 (Remarquez la décision habile des concepteurs d'Adobe: la hauteur de capitale du latin en Myriad Arabic est la hauteur d'x du Myriad Pro Latin.)
 
