@@ -7,7 +7,7 @@ title: Inter-mots
 ---
 
 Il peut sembler drôle de prêter une attention particulière à l'espace entre les mots, mais le blanc
-est l'une des parties les plus couramment utilisés dans la conception de police.
+est l'une des parties les plus couramment utilisées dans la conception de police.
 Un espace de mots trop large ou trop étroit peut ruiner le design d'une police. Il n'est pas trop tôt
 pour commencer à considérer l'espacement des mots dès que vous avez conçus vos premiers caractères.
 Le choix que vous faites à ce stade doit être progressivement ajusté pendant que vous progressez dans

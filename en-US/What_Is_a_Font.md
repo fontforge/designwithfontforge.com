@@ -49,14 +49,9 @@ choices, particularly if your design is going to feel somewhat familiar to reade
 above, the white line inside the letters indicate the approximate construction suggested by the shape 
 of the letters themselves.
 
-<img src="images/AAA.png" alt>
-
 However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see below) are generally not part
 of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &ndash;
 width, weight, terminals &ndash; are all parts of the flesh.
-
-In the example above, the white line inside the letters indicate the approximate construction
-suggested by the shape of the letters themselves.
 
 <img src="images/AAA.png" alt>
 

@@ -10,11 +10,11 @@ title: Adding Glyphs to an Arabic Font
 
 In some cases a font may lack a glyph that is essential for its use in your application. Arabic fonts present special issues here, because the shape of the glyph depends not only on its position in the word, but also on the attributes of the letter itself. Thus (using the nonsense sequence *babab*), the letter *beh* has three different shapes depending on whether it comes initially, medially, or finally. However (using the nonsense sequence *dadad*), the letter *dal* has only one shape, no matter where it occurs in the word.
 
-Fonts under open licenses (e.g. [GPL] (http://gnu.org/copyleft/gpl.html) or [OFL] ( http://scripts.sil.org/OFL-FAQ_web) allow the user to make modifications. If you adapt a font that was originally under an open licence and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
+Fonts under open licenses (e.g. [GPL](http://gnu.org/copyleft/gpl.html) or [OFL](http://scripts.sil.org/OFL-FAQ_web) allow the user to make modifications. If you adapt a font that was originally under an open licence and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
 
 <img src="images/beh_dal.png" />
 
-This chapter walks through adding a glyph to an Arabic font. The font we will use is [Graph] (http://openfontlibrary.org/en/font/graph), and the glyph we will add is *peh* (U+067E), which does not occur in Arabic itself, but designates *p* in some languages for which Arabic script is used (for a full listing of the glyphs available for Arabic script, see the [Unicode charts] (http://www.unicode.org/charts).
+This chapter walks through adding a glyph to an Arabic font. The font we will use is [Graph](http://openfontlibrary.org/en/font/graph), and the glyph we will add is *peh* (U+067E), which does not occur in Arabic itself, but designates *p* in some languages for which Arabic script is used (for a full listing of the glyphs available for Arabic script, see the [Unicode charts](http://www.unicode.org/charts).
 
 <img src="images/peh.png" />
 
@@ -91,7 +91,7 @@ Select **Encoding → Add Encoding Slots** and enter the number of the glyphs yo
 
 <img src="images/peh_slots.png" />
 
-Note that if by mistake you start typing when the font chart still has focus, you get moved to the European section at the top. To get back to the bottom, select **View → Go to**, click the dropdown box and select **Not a Unicode Character**,  and then click **OK**.</p>
+<p class="note">Note that if by mistake you start typing when the font chart still has focus, you get moved to the European section at the top. To get back to the bottom, select **View → Go to**, click the dropdown box and select **Not a Unicode Character**,  and then click **OK**.</p>
 
 #### Create the final form
 
@@ -165,7 +165,7 @@ You can then use your normal font installation procedure to install the adapted 
 
 <p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes &ndash; otherwise it will use the previous version of the font, and not the one with the new changes.</p>
 
-Thanks to [Khaled Hosny] (http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
+Thanks to [Khaled Hosny](http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
 
 ## Further Reading
 

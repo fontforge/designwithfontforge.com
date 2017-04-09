@@ -54,15 +54,10 @@ si votre conception va sembler quelque peu familière aux lecteurs. Dans l'exemp
 blanche à l'intérieur des lettres indique la construction approximative suggérée par la forme des lettres
 elles-mêmes.
 
-<img src="../en-US/images/AAA.png" alt>
-
 Cependant, la façon dont les traits se terminent (les 'terminaisons' et les 'empattement' (voir ci-dessous)
 ne font pas partie généralement de ce que nous entendons par 'construction'. La construction est le
 squelette du glyphe, tandis que le reste &ndash; la largeur, la graisse, les terminaisons &ndash; font toutes
 parties de la chair.
-
-Dans l'exemple ci-dessus, la ligne blanche à l'intérieur des lettres indique la construction approximative
-suggérée par la forme des lettres elles-mêmes.
 
 <img src="../en-US/images/AAA.png" alt>
 

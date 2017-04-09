@@ -15,10 +15,10 @@ d'autres lettres. La création des lettres minuscules ‘o’ and ‘n’ peut n
 et des structures fondamentales qui sous-tendent tous les autres lettres nécessaires.
 
 Bien que le design du ‘o’ puisse sembler assez simple, toutes les caractéristiques mentionnées dans le
-chapitre [“Qu'est-ce qu'une fonte?”] entrent en jeu. Le choix que vous faites sur chaque caractéristique
+chapitre [“Qu'est-ce qu'une police de caractères?”] entrent en jeu. Le choix que vous faites sur chaque caractéristique
 doit être un choix délibéré.
 
-## “Underhangs” et “Overshoots”
+## Dépassement des rondes
 
 Comment les courbes et les bords droits apparaîssent à l'oeil est un effet d'optique qui affecte la
 conception de polices.
@@ -93,6 +93,6 @@ les composants de notre police.
 
 <img src="../en-US/images/i-j-t-f-curves.png" alt>
 
-[“Qu'est-ce qu'une fonte?”]: What_Is_a_Font.html
+[“Qu'est-ce qu'une police de caractères?”]: What_Is_a_Font.html
 [“Espacement, métriques, et crénage”]: Spacing_Metrics_and_Kerning.html
 [Open Sans]: http://opensans.com/

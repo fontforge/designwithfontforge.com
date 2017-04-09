@@ -114,7 +114,7 @@ La distance entre le début d'un glyphe et le début du glyphe suivant. Parfois 
 
 ### Chasse fixe (monospace)
 
-Une police dans laquelle tous les glyphes ont la même largeur. Celles-ci sont parfois appelés les polices de machine à écrire.
+Une police dans laquelle tous les glyphes ont la même largeur. Celles-ci sont parfois appelés polices de machine à écrire.
 
 ### Chasse verticale
 
@@ -146,7 +146,7 @@ Une police condensée est celle où l'espace entre les fûts des glyphes et la d
 
 ### Contrepoinçoin
 
-Le contrepoinçon d'un glyphe est la partie blanche qui est totalement ou partiellement fermée. Les o et n ont tous deux des contrepoinçon. Le i et l n'en ont pas. Les e et le d ont tous deux des contrepoinçons. Le B a deux contrepoinçons.
+Le contrepoinçon d'un glyphe est la partie blanche qui est totalement ou partiellement fermée. Les o et n ont tous deux des contrepoinçons. Le i et l n'en ont pas. Les e et le d ont tous deux des contrepoinçons. Le B a deux contrepoinçons.
 
 ### Courbe (Spline)
 
@@ -162,7 +162,7 @@ Les courbes de Bézier sont décrites en détail dans la section Bézier du manu
 
 Lorsque l'espacement par défaut entre deux glyphes est inapproprié, la police peut inclure des informations supplémentaires pour indiquer que, lorsqu'un glyphe donné (par exemple "T") est suivi d'un autre glyphe (par exemple "o"), la chasse du "T" soit ajutstée d'un certain montant pour rendre l'affichage plus agréable.
 
-À l'époque des fontes de métal, le métal devait être limé pour fournir un bon ajustement. Dans l'image sur le côté, le "F" sur la gauche a eu un peu de métal enlevé de sorte qu'une lettre minuscule pourrait se blottir plus près de celui-ci.
+À l'époque des fontes de métal, le métal devait être limé pour fournir un bon ajustement. Par exemple, le "F" avait eu un peu de métal enlevé de sorte qu'une lettre minuscule pouvait se blottir plus près de celui-ci.
 
 ### Crénage par classes
 
@@ -206,7 +206,7 @@ Ces lignes fines ont été appelées empattements. Les premiers typographes les 
 
 A la fin du XIXe et au début du XXe siècle, les typographes ont commencé à concevoir des fontes sans empattements. Celles-ci ont d’abord été appelées grotesques parce que leur forme paraissait étrange. Elles sont maintenant généralement appelées sans-serif.
 
-D’autres systèmes d’écriture (l’hébreu par exemple) ont leurs propres empattements. Les empattements hébreus sont assez différentes des empattements latins, grecs ou cyrilliques car elles apparaîssent seulement au sommet des glyphes.
+D’autres systèmes d’écriture (l’hébreu par exemple) ont leurs propres empattements. Les empattements hébreus sont assez différents des empattements latins, grecs ou cyrilliques car ils apparaîssent seulement au sommet des glyphes.
 
 ### en
 
@@ -274,10 +274,6 @@ Le fût est la partie de la lettre qui est verticale. Les I et l sont tous compo
 
 ## G
 
-### Ghost Hint
-
-Parfois, il est important d'indiquer qu'un bord horizontal est bien horizontal. Mais le bord n'a pas de bord correspondant avec lequel faire un fût normal. Dans ce cas, un hint spécial est utilisé avec une largeur de -20 (ou -21). Un hint fantôme (ghost en anglais) doit se trouver entièrement dans un glyphe. Si il est en haut d'un contour, utilisez une largeur de -20, si il est au bas, utilisez -21. Des hints fantômes devraient également se trouver dans les BlueZones.<br>(La spécification mentionne également des hints fantômes verticaux, mais comme il n'y a pas de bluezone verticale, il n'est pas clair comment ils devraient être utilisés).
-
 ### Glyphe
 
 Un glyphe est une image, souvent associée à un ou plusieurs caractères. Ainsi, le glyphe utilisé pour tracer "f" est associé au caractère f, tandis que le glyphe de la ligature "fi" est associé à f et i. Dans les polices latines simples, l'association est souvent de un pour un (il y a exactement un glyphe pour chaque caractère), tandis que dans les polices ou écritures plus complexes, il peut y avoir plusieurs glyphes par caractère (dans l'imprimerie de la Renaissance, la lettre "s" avait deux glyphes associés: le long-s qui a été utilisé initialement et médialement, et le court-s qui a été utilisé seulement à la fin des mots). Et dans les ligatures un glyphe est associé à deux ou plusieurs caractères.
@@ -299,8 +295,8 @@ La graisse d'une police est l'épaisseur (sombre) des fûts des glyphes. Traditi
 |Gras            |700   |
 |Extra-gras      |800   |
 |Noir            |900   |
-|Extra-noir      |	    |   
-|Ultra-noir      |	    |     
+|Extra-noir      |	    | 
+|Ultra-noir      |	    | 
 
 ### Gras
 
@@ -361,6 +357,10 @@ Ceux-ci sont décrits en détail dans le manuel principal. Ils aident le "raster
 ### Hints contradictoires
 
 Si un glyphe contient deux hints où le point de départ ou de fin de l'un est dans la plage de l'autre, alors ces hints sont en conflit. Ils ne peuvent pas être actifs simultanément.
+
+### Hints fantômes
+
+Parfois, il est important d'indiquer qu'un bord horizontal est bien horizontal. Mais le bord n'a pas de bord correspondant avec lequel faire un fût normal. Dans ce cas, un hint spécial est utilisé avec une largeur de -20 (ou -21). Un hint fantôme (ghost en anglais) doit se trouver entièrement dans un glyphe. Si il est en haut d'un contour, utilisez une largeur de -20, si il est au bas, utilisez -21. Des hints fantômes devraient également se trouver dans les BlueZones.<br>(La spécification mentionne également des hints fantômes verticaux, mais comme il n'y a pas de bluezone verticale, il n'est pas clair comment ils devraient être utilisés).
 
 ### Hiragana
 
@@ -744,7 +744,7 @@ Voir Cadratin
 
 ### UseMyMetrics
 
-C'est un concept truetype qui force la largeur d'un glyphe composite (par exemple une lettre accentuée) à être de la même que la largeur d'un de ses composants (par exemple la lettre de base étant accentuée).
+C'est un concept truetype qui force la largeur d'un glyphe composite (par exemple une lettre accentuée) à être de la même largeur que la largeur d'un de ses composants (par exemple la lettre de base étant accentuée).
 
 ## X
 

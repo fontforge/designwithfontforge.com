@@ -56,7 +56,7 @@ little less.
 
 Glyphs in which this human perception may be relevant are quite numerous but include k, K, N, Q, R,
 v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
-&laquo;, &raquo;, &frac12;, &frac13;, &frac14;, &le;, &ge;, and &times;.
+&laquo;, &raquo;, ½, ⅓, ¼, &le;, &ge;, and &times;.
 
 ### Length and perceived diagonal angle
 
