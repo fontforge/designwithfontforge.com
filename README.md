@@ -107,3 +107,9 @@ Once the installations are done, you can go ahead to minify all the images with 
 
 Wait for Grunt to notify you, and all the compressed images will be inside `en-US/images/`
 
+### How to create ebooks
+
+    sudo apt-get install calibre
+    sudo npm install gitbook-cli svgexport -g
+    cd ebook
+    ./create_books.sh
