@@ -22,7 +22,7 @@
 | 48     | Diacritiques et accents                    |
 | 51     | Chiffres                                   |
 | 54     | Gras                                       |
-| 57     | Italic                                     |
+| 57     | Italique                                   |
 | 60     | Espacement, métriques et crénage           |
 | 63     | S'assurer que votre police fonctionne      |
 | 66     | Le produit final, génération des polices   |
