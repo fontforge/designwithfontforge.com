@@ -15,6 +15,8 @@ echo
 echo "Generating en-US pdf..."
 echo
 gitbook pdf ./ ../design-with-fontforge_en-US.pdf
+# This command will optimize the size of the pdf
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_en-US.pdf design-with-fontforge_en-US.pdf
 echo
 echo "cleanup of temporary files"
 echo
@@ -43,6 +45,8 @@ echo
 echo "Generating fr-FR pdf..."
 echo
 gitbook pdf ./ ../design-with-fontforge_fr-FR.pdf
+# This command will optimize the size of the pdf
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_fr-FR.pdf design-with-fontforge_fr-FR.pdf
 echo
 echo "cleanup of temporary files"
 echo
@@ -71,9 +75,9 @@ echo
 echo "Generating zh-CN pdf..."
 echo
 gitbook pdf ./ ../design-with-fontforge_zh-CN.pdf
-# uncomment if needed.  For an unknown reason Gitbook produces a 52 MB file size for the Chinese PDF.
+# For an unknown reason Gitbook produces a 52 MB file size for the Chinese PDF.
 # This command will optimize its size by reducing to 10 MB
-#gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_zh-CN.pdf design-with-fontforge_zh-CN.pdf
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_zh-CN.pdf design-with-fontforge_zh-CN.pdf
 echo
 echo "cleanup of temporary files"
 echo
