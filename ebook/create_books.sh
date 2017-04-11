@@ -14,9 +14,10 @@ gitbook mobi ./ ../design-with-fontforge_en-US.mobi
 echo
 echo "Generating en-US pdf..."
 echo
-gitbook pdf ./ ../design-with-fontforge_en-US.pdf
+gitbook pdf ./ ../design-with-fontforge_en-US_precompressed.pdf
 # This command will optimize the size of the pdf
-gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_en-US.pdf design-with-fontforge_en-US.pdf
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=../design-with-fontforge_en-US.pdf ../design-with-fontforge_en-US_precompressed.pdf
+rm ../design-with-fontforge_en-US_precompressed.pdf
 echo
 echo "cleanup of temporary files"
 echo
@@ -44,9 +45,10 @@ gitbook mobi ./ ../design-with-fontforge_fr-FR.mobi
 echo
 echo "Generating fr-FR pdf..."
 echo
-gitbook pdf ./ ../design-with-fontforge_fr-FR.pdf
+gitbook pdf ./ ../design-with-fontforge_fr-FR_precompressed.pdf
 # This command will optimize the size of the pdf
-gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_fr-FR.pdf design-with-fontforge_fr-FR.pdf
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=../design-with-fontforge_fr-FR.pdf ../design-with-fontforge_fr-FR_precompressed.pdf
+rm ../design-with-fontforge_fr-FR_precompressed.pdf
 echo
 echo "cleanup of temporary files"
 echo
@@ -74,10 +76,11 @@ gitbook mobi ./ ../design-with-fontforge_zh-CN.mobi
 echo
 echo "Generating zh-CN pdf..."
 echo
-gitbook pdf ./ ../design-with-fontforge_zh-CN.pdf
+gitbook pdf ./ ../design-with-fontforge_zh-CN_precompressed.pdf
 # For an unknown reason Gitbook produces a 52 MB file size for the Chinese PDF.
 # This command will optimize its size by reducing to 10 MB
-gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_zh-CN.pdf design-with-fontforge_zh-CN.pdf
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=../design-with-fontforge_zh-CN.pdf ../design-with-fontforge_zh-CN_precompressed.pdf
+rm ../design-with-fontforge_zh-CN_precompressed.pdf
 echo
 echo "cleanup of temporary files"
 echo
