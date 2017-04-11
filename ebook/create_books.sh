@@ -6,15 +6,15 @@ cp -a gitbook-en-US/. ../ebook/temp/
 cd temp/
 echo "Generating en-US epub..."
 echo
-gitbook epub ./ ../design-with-fontforge_en-US.epub
+#gitbook epub ./ ../design-with-fontforge_en-US.epub
 echo
 echo "Generating en-US mobi..."
 echo
-gitbook mobi ./ ../design-with-fontforge_en-US.mobi
+#gitbook mobi ./ ../design-with-fontforge_en-US.mobi
 echo
 echo "Generating en-US pdf..."
 echo
-gitbook pdf ./ ../design-with-fontforge_en-US.pdf
+#gitbook pdf ./ ../design-with-fontforge_en-US.pdf
 echo
 echo "cleanup of temporary files"
 echo
@@ -34,15 +34,15 @@ for i in *.md; do
 done
 echo "Generating fr-FR epub..."
 echo
-gitbook epub ./ ../design-with-fontforge_fr-FR.epub
+#gitbook epub ./ ../design-with-fontforge_fr-FR.epub
 echo
 echo "Generating fr-FR mobi..."
 echo
-gitbook mobi ./ ../design-with-fontforge_fr-FR.mobi
+#gitbook mobi ./ ../design-with-fontforge_fr-FR.mobi
 echo
 echo "Generating fr-FR pdf..."
 echo
-gitbook pdf ./ ../design-with-fontforge_fr-FR.pdf
+#gitbook pdf ./ ../design-with-fontforge_fr-FR.pdf
 echo
 echo "cleanup of temporary files"
 echo
@@ -62,15 +62,18 @@ for i in *.md; do
 done
 echo "Generating zh-CN epub..."
 echo
-gitbook epub ./ ../design-with-fontforge_zh-CN.epub
+#gitbook epub ./ ../design-with-fontforge_zh-CN.epub
 echo
 echo "Generating zh-CN mobi..."
 echo
-gitbook mobi ./ ../design-with-fontforge_zh-CN.mobi
+#gitbook mobi ./ ../design-with-fontforge_zh-CN.mobi
 echo
 echo "Generating zh-CN pdf..."
 echo
 gitbook pdf ./ ../design-with-fontforge_zh-CN.pdf
+# uncomment if needed.  For an unknown reason gitbook produces a 52 MB file size for the Chinese PDF.
+# This comment will optimize its size by reducing to 10 MB
+#gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=design-with-fontforge_zh-CN.pdf design-with-fontforge_zh-CN.pdf
 echo
 echo "cleanup of temporary files"
 echo

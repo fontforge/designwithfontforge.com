@@ -7,6 +7,8 @@
 | 9      | Planning Your Project                      |
 | 12     | The EM Square                              |
 | 15     | Installing Fontforge                       |
+| 16     | Configuring Fontforge                      |
+| 17     | General UI introduction                    |
 | 18     | Using the Fontforge Drawing Tools          |
 | 21     | Drawing With Spiro                         |
 | 24     | Creating “o” and “n”                       |
