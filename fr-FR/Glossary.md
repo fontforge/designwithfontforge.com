@@ -26,6 +26,8 @@ Un abugida diffère d'un syllabaire en ce sens qu'il y a un thème commun aux im
 
 Un abugida diffère d'un abjad en ce que les voyelles (autres que celles par défaut) doivent être marquées dans l'abugida.
 
+Voir aussi: alphabet, abjad, syllabaire et l'[article pertinent sur Wikipedia](https://fr.wikipedia.org/wiki/Alphasyllabaire).
+
 ### Accent
 
 Voir Diacritiques

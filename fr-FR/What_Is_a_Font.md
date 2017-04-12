@@ -245,7 +245,7 @@ La forme des empattements est liée aux formes des terminaisons.
 
 #### Congés
 
-Les parties en coin d'un empattement où il se connecte au trait principal sont appelées ‘congés’. Un
+Les parties en coin d'un empattement où elles se connectent au trait principal sont appelées ‘congés’. Un
 design particulier peut donner une apparence douce à l'empattement ([Times New Roman] est un exemple) ou
 peut ne pas inclure aucun congé. Certains designs utilisent également des empattements seulement d'un côté
 ou avec des proportions différentes sur les deux côtés.
