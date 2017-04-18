@@ -47,7 +47,7 @@ The design of the c, C, G, s, and S glyphs may provide some basis for the design
 ## Additional symbols
 <img src="images/3quotes.png" alt="">
 
-Simple or vertical quotes — ' and " -- are distinct from typographic quotes: ‘ ’ and “ ” ‚ „ .
+Simple or vertical quotes — &apos; and &quot; -- are distinct from typographic quotes: ‘ ’ and “ ” ‚ „ .
 
 Simple quotes can follow the shape of the bar over the dot in the exclamation mark, but they can also be designed separately.
 
