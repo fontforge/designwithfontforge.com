@@ -2,7 +2,6 @@
 published: false
 ---
 
-
 # Summary
 
 * [What Is a Font](What_Is_a_Font.md)
@@ -34,4 +33,4 @@ published: false
 * [Importing Glyphs from Other Programs](Importing_Glyphs_from_Other_Programs.md)
 * [Adding Glyphs to an Arabic Font](Adding_Glyphs_to_an_Arabic_Font.md)
 * [Further Reading](Further_Reading.md)
-* [Glossary](Glossary.md)                    
+* [Glossary](Glossary.md)
