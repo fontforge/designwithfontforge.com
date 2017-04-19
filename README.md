@@ -112,4 +112,4 @@ Wait for Grunt to notify you, and all the compressed images will be inside `en-U
     sudo apt-get install calibre ghostscript
     sudo npm install gitbook-cli svgexport -g
     cd ebook
-    ./create_books.sh
+    ./create_books.sh en-US fr-FR zh-CN
