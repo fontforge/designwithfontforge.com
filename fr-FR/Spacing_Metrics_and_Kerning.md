@@ -34,7 +34,7 @@ Une méthode d'ajustement rapide et précis des valeurs métriques dans FontForg
 
 En principe, les caractères symétriques tels que 'A' 'H' 'I' 'M' 'N' 'O' 'T' 'U' 'V' 'W' 'X' 'Y' 'o' 'v' 'w' 'x' auront des approches symétriques, par exemple les approches gauche et droite d'un 'H' auront la même valeur. Notez cependant que ce n'est pas une règle absolue, mais générale.
 
-Au fur et à mesure que vous espacer les caractères de votre design, vous devriez faire confiance à vos yeux. L'essentiel est de 'concevoir - regarder - ajuster - regarder à nouveau'.
+Au fur et à mesure que vous espacer les caractères de votre design, vous devriez faire confiance à vos yeux. L'essentiel est de 'concevoir — regarder — ajuster — regarder à nouveau'.
 
 Pour le parfait débutant; ne supposez pas que l'on obtient des résultats fiables en s'appuyant sur l'espace mesuré. Par exemple, alors que les mesures entre deux caractères peuvent être inégales, l'œil peut les voir comme égales. Un exemple évident de ceci peut être vu en essayant d'espacer les caractères 'H' et 'O'. Donc, dans l'exemple ci-dessous, les approches latérales du 'H' et du 'O' sont égales, mais semblent inégales. Dans la ligne inférieure, les approches latérales ne sont pas égales mais l'espacement semble plus équilibré.
 
@@ -44,18 +44,18 @@ Un outil pour générer de tels textes est disponible à cette adresse: <http://
 
 ## <strong>Commandes du menu Métriques pour l'édition de métriques</strong>
 
-<strong></strong>'Centrer en largeur' - Cela centre le glyphe actuel dans sa largeur actuelle.
+<strong></strong>'Centrer en largeur' — Cela centre le glyphe actuel dans sa largeur actuelle.
 
-'Type de fenêtre' - La fenêtre de métriques de FontForge peut être configurée pour se comporter de 2 manières pour l'ajustement des métriques;
+'Type de fenêtre' — La fenêtre de métriques de FontForge peut être configurée pour se comporter de 2 manières pour l'ajustement des métriques;
 
-- 'Chasse seulement' - dans ce mode, la fenêtre des métriques ne peut être utilisée que pour ajuster la chasse des glyphes.
-- 'Les deux' - Dans ce mode, la fenêtres des métriques ajustera soit la chasse, soit les valeurs de crénage.
+- 'Chasse seulement' — dans ce mode, la fenêtre des métriques ne peut être utilisée que pour ajuster la chasse des glyphes.
+- 'Les deux' — Dans ce mode, la fenêtres des métriques ajustera soit la chasse, soit les valeurs de crénage.
 
-'Définir chasse' - cette commande vous permet de changer la largeur du glyphe courant.
+'Définir chasse' — cette commande vous permet de changer la largeur du glyphe courant.
 
-'Définir approche gauche' - vous permet de changer la valeur de l'approche gauche.
+'Définir approche gauche' — vous permet de changer la valeur de l'approche gauche.
 
-'Définir approche droite' - vous permet de changer la valeur de l'approche droite.
+'Définir approche droite' — vous permet de changer la valeur de l'approche droite.
 
 ## <strong>Une approche de base pour l'espacement</strong>
 
@@ -72,7 +72,7 @@ Une fois que le 'n' et le 'o' sont adéquatement espacés, leurs approches peuve
 - L'approche droite du 'n' peut être utilisée pour l'approche droite du 'h' et 'm'.
 - L'approche gauche du 'n' peut être utilisée pour l'approche gauche du 'b', 'h', 'k', 'm', 'p' et 'r'
 
-Note - Ce qui précède doit être utilisé comme un guide uniquement. Ce guide fournit un point de départ efficace pour trouver les valeurs correctes des approches latérales.
+Note — Ce qui précède doit être utilisé comme un guide uniquement. Ce guide fournit un point de départ efficace pour trouver les valeurs correctes des approches latérales.
 
 <img src="../en-US/images/snapshot2-fr-FR.png" alt="">
 
@@ -97,14 +97,14 @@ La fenêtre de métriques de FontForge peut être utilisée pour concevoir les a
 
 ## <strong>Le menu Métriques de FontForge</strong>
 
-'Type de fenêtre' - La fenêtre de métriques de FontForge peut être configurée pour se comporter de 2 manières pour l'ajustement du crénage;<strong></strong>
+'Type de fenêtre' — La fenêtre de métriques de FontForge peut être configurée pour se comporter de 2 manières pour l'ajustement du crénage;<strong></strong>
 
-- 'Crénage seulement' - dans ce mode, la fenêtre des métriques ne peut être utilisée que pour ajuster le crénage.
-- 'Les deux' - Dans ce mode, la fenêtres des métriques ajustera soit la chasse, soit les valeurs de crénage.
+- 'Crénage seulement' — dans ce mode, la fenêtre des métriques ne peut être utilisée que pour ajuster le crénage.
+- 'Les deux' — Dans ce mode, la fenêtres des métriques ajustera soit la chasse, soit les valeurs de crénage.
 
-'Crénage par classes' - Cette commande fournit à l'utilisateur une boîte de dialogue pour manipuler les classes de crénage.
+'Crénage par classes' — Cette commande fournit à l'utilisateur une boîte de dialogue pour manipuler les classes de crénage.
 
-'Crénage manuel' - Cette commande fournit à l'utilisateur une boîte de dialogue à partir de laquelle vous pouvez ajuster des paires déjà crénées ou créer de nouvelles paires (voir ci-dessous).
+'Crénage manuel' — Cette commande fournit à l'utilisateur une boîte de dialogue à partir de laquelle vous pouvez ajuster des paires déjà crénées ou créer de nouvelles paires (voir ci-dessous).
 
 <img src="../en-US/images/kerncloseup-fr-FR.png" alt="" height="686" width="632">
 

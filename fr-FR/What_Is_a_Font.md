@@ -65,8 +65,8 @@ parties de la chair.
 
 <img src="../en-US/images/Prop.png" alt>
 
-Les lettres sur la gauche proviennent de [Playfair Display], qui a une grande hauteur d'x par rapport à sa
-hauteur de capitale. Les lettres sur la droite sont de [EB Garamond], qui ont une plus petite hauteur d'x.
+Les lettres sur la gauche provenant de [Playfair Display] ont une grande hauteur d'x par rapport à leur
+hauteur de capitale. Les lettres sur la droite sont de [EB Garamond] et ont une plus petite hauteur d'x.
 Dans l'exemple ci-dessus, la taille du H a été ajustée pour qu'ils correspondent.
 
 ### Hauteur de l'ascendante
@@ -225,7 +225,7 @@ degré auquel elles joueront un rôle.
 Notez que dans la police du dessus, les ornements sont plus présents dans la lettre majuscule et que
 dans celle du bas, les ornements le sont plus dans la minuscule.
 
-### Empattement - Être ou ne pas être
+### Empattement — Être ou ne pas être
 
 Les empattements sont l'un des aspects les plus distincts d'une police de caractères, et souvent la
 première classification de police est de distinguer les polices avec empattements (serif) et sans
