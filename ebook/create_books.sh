@@ -26,10 +26,10 @@ do
 	echo -e "\nGenerating $l mobi..."
 	gitbook mobi ./ ../design-with-fontforge_$l.mobi
 	echo -e "\nGenerating $l pdf..."
-	gitbook pdf ./ ../design-with-fontforge_$l_precompressed.pdf
+	gitbook pdf ./ ../design-with-fontforge_${l}_precompressed.pdf
 	echo -e "\nOptimizing PDF size..."
-	gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=../design-with-fontforge_$l.pdf ../design-with-fontforge_$l_precompressed.pdf
-	rm ../design-with-fontforge_$l_precompressed.pdf
+	gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -sOutputFile=../design-with-fontforge_$l.pdf ../design-with-fontforge_${l}_precompressed.pdf
+	rm ../design-with-fontforge_${l}_precompressed.pdf
 	echo -e "\ncleanup of temporary files"
 	rm -rf *
 	cd ..
