@@ -8,7 +8,7 @@ title: Lettres capitales
 
 Faire les lettres capitales devrait suivre un modèle très semblable à la conception des lettres minuscules.
 Vous commencez par concevoir des lettres-clés dont les formes et les caractéristiques se prêtent à la conception
-de chararactères qui partagent une forme commune. Tout comme pour les lettres minuscules, la fréquence
+de caractères qui partagent une forme commune. Tout comme pour les lettres minuscules, la fréquence
 d'utilisation des lettres reste également un facteur important dans le choix des lettres.
 
 Les deux premières lettres à dessiner sont "H" et "O". La conception de ces lettres ne doit pas être seulement
