@@ -42,7 +42,7 @@ ajouter à 'n' et 'o'. Considérez les options suivantes:
    pour anticiper à quoi ressembleront les terminaisons du ‘s’.
 - ‘d’ &mdash; la forme du ‘d’ peut vous apprendre beaucoup de choses sur la conception de ‘b’, ‘p’ et ‘q’.
 - ‘e’ &mdash; en anglais et dans bien d'autres langues, la lettre ‘e’ est particulièrement courante &mdash;
-   ce qui la rend particulièrement précieuce. La forme du ‘e’ peut également être utilisée pour commencer
+   ce qui la rend particulièrement précieuse. La forme du ‘e’ peut également être utilisée pour commencer
    la conception du ‘c’.
 - ‘h’ &mdash; tandis que ‘h’ peut être construit assez rapidement à partir du ‘n’, il donne également de
    la variété à la gamme que vous souhaitez tester en offrant une ascendante.
