@@ -17,7 +17,7 @@ autre manière et à résoudre vos problèmes de conception. Veuillez expérimen
 
 ## Le jeu d'outils Spiro
 
-Plusieurs des outils décrits dans le chapitre ["Utilisation des outils de FontForge"]sont aussi
+Plusieurs des outils décrits dans le chapitre ["Utilisation des outils de dessin de FontForge"]sont aussi
 disponibles en mode Spiro, mais certains d'entre eux fonctionnent très différemment.
 
 <img src="../en-US/images/spiro_tools_labels-fr-FR.png" alt width="600">
@@ -27,15 +27,15 @@ Il y a cinq types différents de points Spiro:
 1. Points G4, utilisés pour une courbe plus douce
 2. Points G2, utilisés pour une courbe plus prononcée
 3. Points de coin pour angles abrupts
-4. Points de contrainte précédents, utilisés lorsque le contour du chemin passe d'une courbe à une droite
-5. Points de contrainte suivants, utilisés lorsque le chemin passe d'une ligne droite à une courbe
+4. Points de contrainte précédente, utilisés lorsque le contour du chemin passe d'une courbe à une droite
+5. Points de contrainte suivante, utilisés lorsque le chemin passe d'une ligne droite à une courbe
 
 ## Dessin d'un ‘S’ avec Spiro
 
 Cet exercice de dessin d'un ‘S’ avec Spiro vous rendra à l'aise avec ce mode.
 
 <p class="note"><b>Conseil:</b> Lors du dessin en mode Spiro, commencez toujours par un point G4 ou G2.
-Commencer par les autres types de points ne fonctionne pas vraiment dans FontForge.</p>
+Commencer par les autres types de point ne fonctionne pas vraiment dans FontForge.</p>
 
 Commencez par un point G4 au point le plus élevé de votre ‘S,’ suivi d'un coin, puis d'un autre coin.
 Travaillez dans le sens horaire autour de la forme de la lettre.
