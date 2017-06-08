@@ -17,7 +17,7 @@ autre manière et à résoudre vos problèmes de conception. Veuillez expérimen
 
 ## Le jeu d'outils Spiro
 
-Plusieurs des outils décrits dans le chapitre ["Utilisation des outils de dessin de FontForge"]sont aussi
+Plusieurs des outils décrits dans le chapitre [“Utilisation des outils de dessin de FontForge"] sont aussi
 disponibles en mode Spiro, mais certains d'entre eux fonctionnent très différemment.
 
 <img src="../en-US/images/spiro_tools_labels-fr-FR.png" alt width="600">
