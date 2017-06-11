@@ -86,4 +86,4 @@ Vous pouvez continuer à expérimenter avec le mode Spiro pour obtenir une idée
 La terminologie est différente, mais comme avec les autres outils de dessin et de réglage de FontForge, avec la pratique vous obtiendrez ce que vous voudrez.
 
 [“Installation de FontForge"]: Installing_Fontforge.html
-[“Utilisation des outils de FontForge”]: Using_the_Fontforge_Drawing_Tools.html
+[“Utilisation des outils de dessin de FontForge"]: Using_the_Fontforge_Drawing_Tools.html
