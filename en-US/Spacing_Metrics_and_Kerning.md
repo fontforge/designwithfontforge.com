@@ -93,8 +93,6 @@ Kerning is the adjustment of the spacing between specific character pairs. Kerni
 <img src="images/kern1.png" alt="">
 <img src="images/kern2.png" alt="">
 
-
-
 The Metrics Window in FontForge can be used to design both side bearings and kerning values. Kerning values can be applied to a font in a number of ways in FontForge, 2 of these are shown below, kerning with classes and kerning with individual pairs;
 
 ## <strong>FontForge's Metrics menu</strong>
@@ -122,34 +120,67 @@ This is the most basic level of creating kerning pairs in FontForge. In the Metr
 
 ## <strong>Kerning with classes</strong>
 
-A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will allways have the same kerning value when preceeded by, for example, the character 'T'. The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. Effectively, class kerning can save you a lot of time.
+Class kerning can save you a lot of time!
 
-The most direct way to create kerning classes is from the "Kern by classes" item in FontForge's "Metrics" menu.
- 
--   Select "Kern by classes" and you will be presented by the "new lookup" window.
--   Click on the "New Lookup" button and another window will pop up, where you can create a kerning feature lookup.
--   Chose the item "pair position kerning" from the "Type" drop down menu.
--   Now click on the down arrow next to "NEW" in the "Feature" column, and choose "Horizontal Kerning" from the drop down menu.
--   Click on "OK". You can keep the default names that fontforge creates for you. 
+A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied, so for example a class can be created, let's call it 'o_left_bowl' in which the characters 'o', 'c', 'd', 'e', 'q' will always have the same kerning value when preceeded by, for example, the character 'T'. 
+The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. 
 
-<img src="images/kern_classes_1.png" />
-Now you are presented by the window where you can build you actual kerning classes (see above). The first character of a kerning pair will be chosen from the left hand column, and the second character of a pair will be chosen from the right column.
-
-The Element &gt; Font Info &gt; Lookups tab provides an interface to class kerning in FontForge. The same interface is also got at via the<br> It brings up a dialog showing all the GPOS lookups (of which kerning is one) and their subtables. See screenshot below;
+Class Kerning is one kind of GPOS lookup.
+So, this kerning information is founding by go to Element menu, Font Info, Lookups, GPOS tab. 
+(You can do this any time to get back to where you left off.)
 
 <img src="images/kernclass1.png" alt="">
 
-To create a new kerning lookup click on 'Add Lookup' and choose 'Pair Position (kerning)' as the lookup type and give the lookup its own, unique name (see below).
+Hit the "Add Lookup" button, and choose Type: "Pair Position (kerning)"
 
 <img src="images/kernclass2.png" alt="">
 
-Each set of kerning classes lives in its own subtable. To create a subtable, click on 'Add Subtable'. When you create a kerning subtable you will be asked whether you want a set of individual kerning pairs or a matrix based on classes. If you chose classes you will be presented with a following dialogue where you can create your classes. Note that you can choose to enable FontForge to 'guess' or 'autokern' the kerning values between the classes you are creating in the dialogue. If using FontForge to guess kerning values you will undoubtedly need an amount of trial and error and experimentation, but it can make sense to use the autokern function as a starting point to kerning your font.
+Don’t click "New" button, click the down arrow next to it, and select "Horizontal Kerning" 
+("New" changes to Kern)
+Accept the default Lookup Name, or change it if you wish, and hit the OK button.
+
+You return to the GPOS tab, and you now have a lookup table, that is selected. 
+Each set of kerning classes lives in its own subtable. 
+To create a subtable, hit the "Add Subtable" button. 
+You can OK the default name.
+
+Then you are shown a window with a lot of choices:
 
 <img src="images/kernclass3.png" alt="">
 
-For example in the screenshot above, 2 classes have been created; one class containing the 'T' character, and one class containing the 'o' character. On clicking 'ok' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two 'T' and 'o' classes.
+At the top you are asked, "Use individual kerning pairs" vs. "Use a matrix of kerning classes"?
+
+If you chose classes you will be presented with a following dialog where you can create your classes. 
+**If you want to kern references along with the originals, choose classes.**
+
+Note that you can choose to enable FontForge to 'guess' or 'autokern' the kerning values between the classes you are creating in the dialog. 
+If using FontForge to guess kerning values, you will undoubtedly need an amount of trial and error and experimentation, but it can make sense to use the autokern function as a quick way to kern your font and see what improvements this can bring.
+
+Leave the rest of the parameters as they are until you have reason to try different values.
+
+After clicking 'OK' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two classes.
+For example in the screenshot above, 2 classes have been created, one class containing the 'T' character, and one class containing the 'o' character. 
+
+<img src="images/kern_classes_1.png" />
 
 <img src="images/kernclass4.png" alt="">
+
+You can select all the glyphs, and delete classes later, or you can select only the glyphs you want to kern. 
+You select all the glyphs you want to adjust at the same time, and Fontforge will put them in classes — unless you’re working with different writing systems that you don’t want to kern together (like Latin, Greek, Cyrillic…)
+
+When you hit the OK button, you get a big window with some parameters on top, two lists of classes, and a matrix below. 
+When you select a box in the matrix, you can see how the pair is kerned. 
+If you don’t like it, you can adjust the Kern Offset, in the box above the display of the glyph pair.
+
+If anything screwy happens, and it will, hit the Cancel button. 
+Then double-click the subtable (hit the plus sign next to the table if you don’t see it) and you’re back in the big window. 
+If you do a lot of work without trouble it’s a good idea to hit OK and come back, so you don’t lose your work when something screwy happens.
+
+The metrics window can be used later as a final check. 
+While making adjustments in that window can be done, it keeps asking if you want to kern the class or the pair and picky stuff like that. 
+Why not try it and see if you like it? 
+But know that some experienced users don’t like it, and do all kerning as above: 
+Element, Font Info, Lookups, GPOS tab, expand by hitting the plus sign, double-click the subtable.
 
 ## Manual kerning
 
