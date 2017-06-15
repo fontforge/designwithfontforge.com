@@ -126,7 +126,7 @@ A 'kern class' in FontForge can be created to build groups of characters who wil
 The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. 
 
 Class Kerning is one kind of GPOS lookup.
-So, this kerning information is founding by go to Element menu, Font Info, Lookups, GPOS tab. 
+So, this kerning information is found by go to Element menu, Font Info, Lookups, GPOS tab. 
 (You can do this any time to get back to where you left off.)
 
 <img src="images/kernclass1.png" alt="">
@@ -159,7 +159,7 @@ If using FontForge to guess kerning values, you will undoubtedly need an amount 
 Leave the rest of the parameters as they are until you have reason to try different values.
 
 After clicking 'OK' in the above dialog, you will be presented with the following window where you can fine tune the amount of kerning between these two classes.
-For example in the screenshot above, 2 classes have been created, one class containing the 'T' character, and one class containing the 'o' character. 
+For example in the second screenshot below, 2 classes have been created, one class containing the 'T' character, and one class containing the 'o' character. 
 
 <img src="images/kern_classes_1.png" />
 
