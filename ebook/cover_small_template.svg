@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="cover_small.svg"
+   sodipodi:docname="cover_small_template.svg"
    inkscape:export-filename="/home/jean-rene/Dropbox/FontForge/Covers/cover_small.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -66,9 +66,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5438931"
-     inkscape:cx="100"
-     inkscape:cy="131"
+     inkscape:zoom="1.24989"
+     inkscape:cx="96.499692"
+     inkscape:cy="50.992961"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -88,7 +88,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,61 +102,60 @@
        d=""
        id="path4161"
        inkscape:connector-curvature="0" />
-    <rect
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="rect4155"
-       width="200"
-       height="262"
-       x="0"
-       y="790.36218" />
-    <rect
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#pattern4878);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="rect3348"
-       width="200"
-       height="125.93053"
-       x="0"
-       y="806.42352" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:30.77695274px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="11.64563"
-       y="850.54047"
-       id="text5597"
-       sodipodi:linespacing="100%"
-       transform="scale(1.000424,0.99957619)"><tspan
-         sodipodi:role="line"
-         id="tspan5599"
-         x="11.64563"
-         y="850.54047"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.98590851px;line-height:100%;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:-1.40940237px;fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">Design With </tspan><tspan
-         sodipodi:role="line"
-         x="11.64563"
-         y="1084.5128"
-         id="tspan5601"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.98590851px;line-height:100%;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:-1.40940237px;fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">FontForge</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.77464628px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#9ddcff;fill-opacity:1;stroke:#9ddcff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="12.271642"
-       y="892.21527"
-       id="text4150"
-       sodipodi:linespacing="125%"
-       transform="scale(1.000424,0.99957619)"><tspan
-         sodipodi:role="line"
-         id="tspan4152"
-         x="12.271642"
-         y="892.21527"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66196918px;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:0.13883002px;fill:#9ddcff;fill-opacity:1;stroke:#9ddcff;stroke-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">A book about how to create new</tspan><tspan
-         sodipodi:role="line"
-         x="12.271642"
-         y="989.70374"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66196918px;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:0.13883002px;fill:#9ddcff;fill-opacity:1;stroke:#9ddcff;stroke-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
-         id="tspan4870">typefaces using FontForge</tspan></text>
     <g
-       id="g4914"
-       transform="matrix(0.18912532,0,0,0.18896505,-129.2615,865.59128)">
+       id="g4158">
+      <rect
+         y="790.36218"
+         x="0"
+         height="262"
+         width="200"
+         id="rect4155"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <rect
+         y="806.42352"
+         x="0"
+         height="125.93053"
+         width="200"
+         id="rect3348"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#pattern4878);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         transform="scale(1.000424,0.99957619)"
+         sodipodi:linespacing="100%"
+         id="text5597"
+         y="850.54047"
+         x="11.64563"
+         style="font-style:normal;font-weight:normal;font-size:30.77695274px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.98590851px;line-height:100%;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:-1.40940237px;fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+           y="850.54047"
+           x="11.64563"
+           id="tspan5599"
+           sodipodi:role="line">Design With </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.98590851px;line-height:100%;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:-1.40940237px;fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+           id="tspan5601"
+           y="1084.5128"
+           x="11.64563"
+           sodipodi:role="line">FontForge</tspan></text>
+      <text
+         transform="scale(1.000424,0.99957619)"
+         sodipodi:linespacing="125%"
+         id="text4150"
+         y="892.21527"
+         x="12.271642"
+         style="font-style:normal;font-weight:normal;font-size:5.77464628px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#9ddcff;fill-opacity:1;stroke:#9ddcff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66196918px;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:0.13883002px;fill:#9ddcff;fill-opacity:1;stroke:#9ddcff;stroke-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+           y="892.21527"
+           x="12.271642"
+           id="tspan4152"
+           sodipodi:role="line">A book about how to create new</tspan><tspan
+           id="tspan4870"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66196918px;font-family:'Julius Sans One';-inkscape-font-specification:'Julius Sans One';letter-spacing:0.13883002px;fill:#9ddcff;fill-opacity:1;stroke:#9ddcff;stroke-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+           y="989.70374"
+           x="12.271642"
+           sodipodi:role="line">typefaces using FontForge</tspan></text>
       <g
-         transform="translate(14.158887,-42.212413)"
+         transform="matrix(0.18912532,0,0,0.18896505,-126.5837,857.61461)"
          id="g4186">
         <path
            style="fill:#000000"
@@ -170,16 +169,17 @@
            inkscape:connector-curvature="0" />
       </g>
       <text
+         transform="scale(1.000424,0.99957619)"
          sodipodi:linespacing="125%"
          id="text4190"
-         y="765.89307"
-         x="1348.0668"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="1010.7466"
+         x="129.78929"
+         style="font-style:normal;font-weight:normal;font-size:7.56180668px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           y="765.89307"
-           x="1348.0668"
+           y="1010.7466"
+           x="129.78929"
            id="tspan4192"
-           sodipodi:role="line">Plublished with</tspan></text>
+           sodipodi:role="line">Published with</tspan></text>
     </g>
   </g>
 </svg>
