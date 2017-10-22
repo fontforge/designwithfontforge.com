@@ -58,15 +58,15 @@ title: 添加字形到阿拉伯字体
 
 <img src="../en-US/images/peh_with_beh.png" />
 
-找到一个包含三个点的字形&mdash;&mdash;*sheen*（位置1588，U+0634）符合。双击这个单元格&mdash;&mdash;将会打开一个字形设计面板。按**V**来确保工具箱的指针工具（剪头）选中，按**Z**扩大面板来给你一个字形的好的视图。
+找到一个包含三个点的字形&mdash;&mdash;*sheen*（位置1588，U+0634）符合。双击这个单元格&mdash;&mdash;将会打开一个字形设计面板。按<kbd>V</kbd>来确保工具箱的指针工具（剪头）选中，按<kbd>Z</kbd>扩大面板来给你一个字形的好的视图。
 
-点击拖动sheen上的三个点的节点，颜色从粉色变为米色。如果你意外地包含或者忽略了一个节点，那么取消选择或者通过按**Shift**并点击来选择。按**Alt+C**来复制。
+点击拖动sheen上的三个点的节点，颜色从粉色变为米色。如果你意外地包含或者忽略了一个节点，那么取消选择或者通过按<kbd>Shift</kbd>并点击来选择。按<kbd>Alt</kbd> + <kbd>C</kbd>来复制。
 
 <img src="../en-US/images/sheen_dots.png" />
 
 返回字体表格并双击*peh*单元格&mdash;&mdash;这会将*peh*加载到字形设计面板*sheen*选项卡旁边的另一个选项卡。
 
-点击拖动来高亮*peh*下面的点，然后按**Delete**。按**Alt+V**来粘贴三个点，很可能出现在*peh*主体的上面。留下高亮的点的节点，这样你可以很容易地翻转或者移动它们。
+点击拖动来高亮*peh*下面的点，然后按<kbd>Delete</kbd>。按<kbd>Alt</kbd> + <kbd>V</kbd>来粘贴三个点，很可能出现在*peh*主体的上面。留下高亮的点的节点，这样你可以很容易地翻转或者移动它们。
 
 <img src="../en-US/images/peh_dots1.png" />
 
@@ -74,7 +74,7 @@ title: 添加字形到阿拉伯字体
 
 <img src="../en-US/images/peh_dots2.png" />
 
-移动翻转的点：按**V**来再次选择指针工具，点击点的节点中的一个，然后将其拖动到字形主体的下面。将他们放在*ArabicBelow*标记上的中间位置。
+移动翻转的点：按<kbd>V</kbd>来再次选择指针工具，点击点的节点中的一个，然后将其拖动到字形主体的下面。将他们放在*ArabicBelow*标记上的中间位置。
 
 <img src="../en-US/images/peh_dots3.png" />
 
@@ -104,7 +104,7 @@ title: 添加字形到阿拉伯字体
 
 得到三个点：双击*sheen*（U+FEB5）来将它加载到字形设计面板，选择三个点并按<kbd>Ctrl</kbd> + <kbd>C</kbd>。
 
-双击新的*pehfinal*来将它加载到字形设计面板，点击拖动来高亮点的节点并按**Delete**。
+双击新的*pehfinal*来将它加载到字形设计面板，点击拖动来高亮点的节点并按<kbd>Delete</kbd>。
 
 <kbd>Ctrl</kbd> + <kbd>V</kbd>来插入来自*sheen*的三个点，翻转它们，将它们移动到字形主体以下的位置。按来保存修改过的字体表格。
 

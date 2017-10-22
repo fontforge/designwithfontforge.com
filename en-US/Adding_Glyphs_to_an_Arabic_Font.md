@@ -59,15 +59,15 @@ Click on the *beh* cell (position 1576), then right-click and select **Copy**. T
 
 <img src="images/peh_with_beh.png" />
 
-Find a glyph with three dots &ndash; *sheen* (position 1588, U+0634) will do. Double-click on the cell &ndash; this will open a glyph design panel. Press **V** to ensure the pointer tool (arrowhead) in the toolbox is selected, and press **Z** and enlarge the panel to give you a good view of the glyph.
+Find a glyph with three dots &ndash; *sheen* (position 1588, U+0634) will do. Double-click on the cell &ndash; this will open a glyph design panel. Press <kbd>V</kbd> to ensure the pointer tool (arrowhead) in the toolbox is selected, and press <kbd>Z</kbd> and enlarge the panel to give you a good view of the glyph.
 
-Click and drag so that the nodes of the three dots above sheen change colour from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing **Shift** and clicking. Press **Alt+C** to copy.
+Click and drag so that the nodes of the three dots above sheen change colour from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing <kbd>Shift</kbd> and clicking. Press <kbd>Alt</kbd> + <kbd>C</kbd> to copy.
 
 <img src="images/sheen_dots.png" />
 
 Go back to the font chart and double-click on the *peh* cell &ndash; this will load *peh* into another tab in the glyph design panel, alongside the *sheen* tab.
 
-Click and drag to highlight the dot below *peh*, then press **Delete**. Press **Alt+V** to paste in the three dots, which will likely appear above the body of *peh*. Leave the dot nodes highlighted so that you can invert and move them more easily.
+Click and drag to highlight the dot below *peh*, then press <kbd>Delete</kbd>. Press <kbd>Alt</kbd> + <kbd>V</kbd> to paste in the three dots, which will likely appear above the body of *peh*. Leave the dot nodes highlighted so that you can invert and move them more easily.
 
 <img src="images/peh_dots1.png" />
 
@@ -75,7 +75,7 @@ Invert the dots: select the flip tool (two triangles with a red dashed line betw
 
 <img src="images/peh_dots2.png" />
 
-Move the inverted dots: press **V** to select the pointer tool again, click on one of the dot nodes, and drag them down below the body of the glyph. Position them centrally, above the *ArabicBelow* mark.
+Move the inverted dots: press <kbd>V</kbd> to select the pointer tool again, click on one of the dot nodes, and drag them down below the body of the glyph. Position them centrally, above the *ArabicBelow* mark.
 
 <img src="images/peh_dots3.png" />
 
@@ -105,7 +105,7 @@ Right-click on the cell and select **Glyph Info**. The naming convention is to u
 
 Get the three dots: double-click on *sheen* (U+FEB5) to load it into the glyph design panel, select the three dots and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
-Double-click on the new *pehfinal* to load it into the glyph design panel, click and drag to highlight the nodes of the dot and press **Delete**.
+Double-click on the new *pehfinal* to load it into the glyph design panel, click and drag to highlight the nodes of the dot and press <kbd>Delete</kbd>.
 
 <kbd>Ctrl</kbd> + <kbd>V</kbd> to insert the three dots from *sheen*, flip them, and move them into position below the glyph body. Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save the revised font chart.
 

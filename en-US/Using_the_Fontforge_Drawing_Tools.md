@@ -227,7 +227,7 @@ There are six transform tools:
 **Note:** For all of the Transform tools, if you double-click on the tool, you can enter numeric
 values.
 
-The Scale tool lets you freehand rescale an object. Holding down the Shift key allows you to scale
+The Scale tool lets you freehand rescale an object. Holding down the <kbd>Shift</kbd> key allows you to scale
 an object while constraining it to the proportional ratio.
 
 The Rotate tool lets you free-rotate an object. It rotates the selected object around the position

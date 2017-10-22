@@ -60,13 +60,13 @@ Cliquez sur la cellule *beh* (position 1576), puis cliquez avec le bouton droit 
 
 Trouver un glyphe avec trois points &ndash; *sheen* (position 1588, U+0634) suffira. Double-cliquez sur la cellule &ndash; cela ouvrira la fenêtre de conception de glyphe. Appuyez sur **V** pour vous assurer que l'outil pointeur (tête de flèche) dans la boîte à outils est sélectionné, puis appuyez sur **Z** et agrandissez la fenêtre pour avoir une bonne vue du glyphe.
 
-Cliquez et faites glisser afin que les nœuds des trois points au-dessus de sheen changent de couleur de rose à beige. Si vous avez accidentellement inclus ou omis un nœud, désélectionnez-le ou sélectionnez-le en appuyant sur **Maj** et en cliquant dessus. Appuyez sur **Alt+C** pour copier.
+Cliquez et faites glisser afin que les nœuds des trois points au-dessus de sheen changent de couleur de rose à beige. Si vous avez accidentellement inclus ou omis un nœud, désélectionnez-le ou sélectionnez-le en appuyant sur <kbd>Maj</kbd> et en cliquant dessus. Appuyez sur <kbd>Alt</kbd> + <kbd>C</kbd> pour copier.
 
 <img src="../en-US/images/sheen_dots-fr-FR.png" />
 
 Revenez à la fenêtre de fonte et double-cliquez sur la cellule *peh* &ndash; cela va charger *peh* dans un autre onglet dans la fenêtre de conception de glyphe, à côté de l'onglet *sheen*.
 
-Cliquez et faites glisser pour sélectionner le point en dessous de *peh*, puis appuyez sur **Supprimer**. Appuyez sur **Alt+V** pour coller les trois points, qui apparaîtront probablement au-dessus du corps de *peh*. Laissez les nœuds de points en surbrillance afin que vous puissiez les inverser et les déplacer plus facilement.
+Cliquez et faites glisser pour sélectionner le point en dessous de *peh*, puis appuyez sur **Supprimer**. Appuyez sur <kbd>Alt</kbd> + <kbd>V</kbd> pour coller les trois points, qui apparaîtront probablement au-dessus du corps de *peh*. Laissez les nœuds de points en surbrillance afin que vous puissiez les inverser et les déplacer plus facilement.
 
 <img src="../en-US/images/peh_dots1-fr-FR.png" />
 
@@ -74,7 +74,7 @@ Inverser les points: sélectionnez l'outil symétrie (quatre rectangles jaune et
 
 <img src="../en-US/images/peh_dots2-fr-FR.png" />
 
-Déplacer les points inversés: appuyez sur **V** pour sélectionner à nouveau l'outil de pointeur, cliquez sur un des nœuds de points et faites-le glisser sous le corps du glyphe. Positionnez-les au centre, au-dessus de la marque *ArabicBelow*.
+Déplacer les points inversés: appuyez sur <kbd>V</kbd> pour sélectionner à nouveau l'outil de pointeur, cliquez sur un des nœuds de points et faites-le glisser sous le corps du glyphe. Positionnez-les au centre, au-dessus de la marque *ArabicBelow*.
 
 <img src="../en-US/images/peh_dots3-fr-FR.png" />
 

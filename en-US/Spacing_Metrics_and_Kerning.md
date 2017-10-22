@@ -10,7 +10,7 @@ The spaces between characters are an important, integral part of the design of a
 
 Designing a font’s letter spacing should be carried out as an integral part of the whole process of designing a font. Good spacing is necessary for a font to function well.
 
-In FontForge, the Metrics Window allows you to design the metrics of your font, alter the spacing between them, and test how glyphs look together. Metrics Windows can be opened from the ‘Window’ menu, or by using the Control-k command.
+In FontForge, the Metrics Window allows you to design the metrics of your font, alter the spacing between them, and test how glyphs look together. Metrics Windows can be opened from the ‘Window’ menu, or by using the <kbd>Ctrl</kbd> + <kbd>K</kbd> command.
 
 The space between any two glyph has two components; the space after the first glyph, and the space before the second glyph. These spaces between glyphs are composed of the ‘side bearings’ from each glyph pair. Each glyph has a left side bearing and a right side bearing, in the example below of the lowercase ‘a’ of Open Sans the right sidebearing has a value of 166 units, and the left sidebearing has a value of 94 units.
 
@@ -28,7 +28,7 @@ The side bearings of characters can be edited in FontForge’s Metrics Window in
 
 <strong>Adjusting Side Bearing Values with the keyboard.</strong>
 
-One method of adjusting metric values quickly and accurately in FontForge is by using the up, down, left and right keys of a keyboard. The up and down keys are used to incrememt / decrement values and alt+up, alt+down, alt+left and alt+right are used for navigating around the different value fields of the Metrics Window.
+One method of adjusting metric values quickly and accurately in FontForge is by using the up, down, left and right keys of a keyboard. The up and down keys are used to incrememt / decrement values and <kbd>Alt</kbd> + <kbd>Up</kbd>, <kbd>Alt</kbd> + <kbd>Down</kbd>, <kbd>Alt</kbd> + <kbd>Left</kbd> and <kbd>Alt</kbd> + <kbd>Right</kbd> are used for navigating around the different value fields of the Metrics Window.
 
 ## General Principles
 

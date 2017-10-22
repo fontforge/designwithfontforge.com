@@ -10,7 +10,7 @@ Les espaces entre les caractères sont une partie importante et intégrale de la
 
 La conception de l'espacement des lettres d'une police doit faire partie intégrale du processus de design d'une police. Un bon espacement est nécessaire pour le bon fonctionnement de la police.
 
-Dans FontForge, la fenêtre de métriques vous permet de concevoir les métriques de votre police, de modifier l'espacement entre les glyphes et leur apparence ensemble. La fenêtre de métriques peut être ouverte à partir du menu ‘Fenêtre’, ou en utilisant la commande Control-k.
+Dans FontForge, la fenêtre de métriques vous permet de concevoir les métriques de votre police, de modifier l'espacement entre les glyphes et leur apparence ensemble. La fenêtre de métriques peut être ouverte à partir du menu ‘Fenêtre’, ou en utilisant la commande <kbd>Ctrl</kbd> + <kbd>K</kbd>.
 
 L'espace entre deux glyphes a deux composantes; l'espace après le premier glyphe, et l'espace avant le deuxième glyphe. Ces espaces entre les glyphes sont composés ‘d'approches latérales’ entre chaque paire de glyphes. Chaque glyphe a une approche gauche et une approche droite. Dans l'exemple ci-dessous de la lettre minuscule ‘a’ de Open Sans, l'approche droite a une valeur de 166 unités et l'approche gauche a une valeur de 94 unités.
 
@@ -28,7 +28,7 @@ Les approches latérales des caractères peuvent être éditées dans la fenêtr
 
 <strong>Réglage des valeurs d'approches latérales avec le clavier.</strong>
 
-Une méthode d'ajustement rapide et précis des valeurs métriques dans FontForge consiste à utiliser les touches haut, bas, gauche et droite du clavier. Les touches haut et bas sont utilisées pour incrémenter / décrémenter les valeurs et alt+haut, alt+bas, alt+gauche et alt+droit sont utilisées pour naviguer autour des différents champs de valeur de la fenêtre de métriques.
+Une méthode d'ajustement rapide et précis des valeurs métriques dans FontForge consiste à utiliser les touches haut, bas, gauche et droite du clavier. Les touches haut et bas sont utilisées pour incrémenter / décrémenter les valeurs et <kbd>Alt</kbd> + <kbd>Haut</kbd>, <kbd>Alt</kbd> + <kbd>Bas</kbd>, <kbd>Alt</kbd> + <kbd>Gauche</kbd> et <kbd>Alt</kbd> + <kbd>Droit</kbd> sont utilisées pour naviguer autour des différents champs de valeur de la fenêtre de métriques.
 
 ## Principes généraux
 
@@ -110,7 +110,7 @@ La fenêtre de métriques de FontForge peut être utilisée pour concevoir les a
 
 ## <strong>Réglage des valeurs de crénage avec le clavier</strong>
 
-Tout comme pour ajuster les valeurs des approches latérales, les valeurs de crénage peuvent être modifiées rapidement et avec précision dans FontForge en utilisant les touches 'haut', 'bas', 'gauche' et 'droit' d'un clavier. Les touches 'haut' et 'bas' sont utilisées pour incrémenter / décrémenter les valeurs et 'alt+haut', 'alt+bas', 'alt+gauche' et 'alt+droit' sont utilisées pour naviguer autour des différents champs de valeur de la fenêtre de métriques.
+Tout comme pour ajuster les valeurs des approches latérales, les valeurs de crénage peuvent être modifiées rapidement et avec précision dans FontForge en utilisant les touches 'haut', 'bas', 'gauche' et 'droit' d'un clavier. Les touches 'haut' et 'bas' sont utilisées pour incrémenter / décrémenter les valeurs et <kbd>Alt</kbd> + <kbd>Haut</kbd>, <kbd>Alt</kbd> + <kbd>Bas</kbd>, <kbd>Alt</kbd> + <kbd>Gauche</kbd> et <kbd>Alt</kbd> + <kbd>Droit</kbd> sont utilisées pour naviguer autour des différents champs de valeur de la fenêtre de métriques.
 
 ## <strong>Crénage de paires individuelles</strong>
 

@@ -14,11 +14,11 @@ FontForge可以将你的字体导出为各种不同的格式，但是在实践�
 
 为了测试目的的构建字体文件&ndash;比如在一个网页浏览器中检查艰巨&ndash;你需要只确保你的字体通过了必要的验证测试。
 
-你可以使用Element菜单下的<em>Validate Font</em>工具（更详细的解释参见验证字体一章），或者你可以选择所有的字形（按Control-A或者从“Edit”菜单选择Select -&gt; Select All），然后运行一些命令来应用一些零散的基本改变。确保在你的进程更进一步之前保存你的工作，一些为了导出的验证会以微妙的方式修改你的字形的形状。
+你可以使用Element菜单下的<em>Validate Font</em>工具（更详细的解释参见验证字体一章），或者你可以选择所有的字形（按<kbd>Ctrl</kbd> + <kbd>A</kbd>或者从“Edit”菜单选择Select -&gt; Select All），然后运行一些命令来应用一些零散的基本改变。确保在你的进程更进一步之前保存你的工作，一些为了导出的验证会以微妙的方式修改你的字形的形状。
 
-对于OpenType字体来说，首先要修正所有路径的方向。按Control-Shift-D或者在“Element”菜单下选择Correct Direction”。接下来检查以确保没有未闭合的路径。勾选“Paths”选项卡下的<em>Open paths</em>选项，点击OK来运行测试。一旦你的字体通过测试没有错误，你就准备好生成OpenType输出。
+对于OpenType字体来说，首先要修正所有路径的方向。按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>或者在“Element”菜单下选择Correct Direction”。接下来检查以确保没有未闭合的路径。勾选“Paths”选项卡下的<em>Open paths</em>选项，点击OK来运行测试。一旦你的字体通过测试没有错误，你就准备好生成OpenType输出。
 
-对于TrueType字体来说，需要一些额外的步骤。你应该首先想上面描述的一样修正所有路径的方向。接下来调整所有的点使其拥有整型坐标：按Control-Shift-_（下划线）或者从Element -&gt; Round菜单中选择<em>To Int</em>。最终，像上面描述的那样打开“Find Problems”工具，选择<em>Open paths</em>，同时在“Refs”选项卡下选中所有。
+对于TrueType字体来说，需要一些额外的步骤。你应该首先想上面描述的一样修正所有路径的方向。接下来调整所有的点使其拥有整型坐标：按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>_</kbd>（下划线）或者从Element -&gt; Round菜单中选择<em>To Int</em>。最终，像上面描述的那样打开“Find Problems”工具，选择<em>Open paths</em>，同时在“Refs”选项卡下选中所有。
 
 在你运行这些测试没有错误时，你需要将你的路径转换为二次曲线。从“Element”菜单打开“Font Info”窗口。点击“Layers”选项卡，勾选<em>All layers quadratic</em>选项。点击窗口底部的OK，你就准备好生成TrueType输出。
 
@@ -42,15 +42,15 @@ FontForge可以将你的字体导出为各种不同的格式，但是在实践�
 
 如你所知，保持你的字母形式为独立组件的联合是好主意：茎、弧、衬线和每个字形的其他部分。但是尽管这一技术对于设计和改善形式来说非常好，但是你希望你最终发布的字体每个字形有简单的轮廓。这会减少一点文件大小，但是更重要的是它减少渲染错误。
 
-FontForge有<em>Remove Overlap</em>命令可以自动联合一个字形分开的组件组成一个轮廓。选择一个字形（或者甚至使用Control-A来选择所有字形），然后按Control-Shift-O或者从“Element” －&gt; “Overlap”菜单选择Remove Overlap。但是需要特别注意的一点是FontForge无法合并含有错误方向的形状（也就是形状外侧路径是逆时针方向）。虽说方向搞反了是路径本身的错误，不过也得需要你来修复它。
+FontForge有<em>Remove Overlap</em>命令可以自动联合一个字形分开的组件组成一个轮廓。选择一个字形（或者甚至使用<kbd>Ctrl</kbd> + <kbd>A</kbd>来选择所有字形），然后按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>或者从“Element” －&gt; “Overlap”菜单选择Remove Overlap。但是需要特别注意的一点是FontForge无法合并含有错误方向的形状（也就是形状外侧路径是逆时针方向）。虽说方向搞反了是路径本身的错误，不过也得需要你来修复它。
 
 ### 简化轮廓和添加极值点
 
 你也应该尽可能简化你的字形&ndash;不是消除细节而是消除无用的点。这会轻微减小每个字形的文件大小，字体中全部字符集合加起来非常可观。
 
-从“Element”菜单选择“Simplify” -&gt; <em>Simplify</em>（或者按Control-Shift-M）。这个命令将会合并去掉所有选择的字形上的多余的曲线上的点。在某些情况下，仅会有一些点被删除，其他情况下可能有很多。但是应该执行简化后并不显著地改变任何字形的形状。如果你注意到一个特定的字形被<em>Simplify</em>修改了太多，随意撤销这个操作。你也可以尝试使用相同菜单下的<em>Simplify More</em>命令；它提供了可调分组参数可能会很有帮助。
+从“Element”菜单选择“Simplify” -&gt; <em>Simplify</em>（或者按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>）。这个命令将会合并去掉所有选择的字形上的多余的曲线上的点。在某些情况下，仅会有一些点被删除，其他情况下可能有很多。但是应该执行简化后并不显著地改变任何字形的形状。如果你注意到一个特定的字形被<em>Simplify</em>修改了太多，随意撤销这个操作。你也可以尝试使用相同菜单下的<em>Simplify More</em>命令；它提供了可调分组参数可能会很有帮助。
 
-无论如何，在你完成了简化步骤后，你将需要添加丢失的极值点。从“Element”菜单选择<em>Add Extrema</em>（或者按Control-Shift-X）。如前所述，在你编辑时在每个字形的极值处放置曲线上的点是好主意。然而你仍然必须在准备最终输出版本时执行这一步，因为<em>Simplify</em>步骤偶尔会删除极值点。
+无论如何，在你完成了简化步骤后，你将需要添加丢失的极值点。从“Element”菜单选择<em>Add Extrema</em>（或者按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>）。如前所述，在你编辑时在每个字形的极值处放置曲线上的点是好主意。然而你仍然必须在准备最终输出版本时执行这一步，因为<em>Simplify</em>步骤偶尔会删除极值点。
 
 ### 一切取整为整型坐标
 

@@ -229,7 +229,7 @@ Il y a six outils de transformations:
 **Remarque:** Pour plusieurs outils de transformation, si vous double-cliquez sur l'outil, vous pouvez
 saisir des valeurs numériques.
 
-L'outil échelle vous permet de redimensionner un objet à la main. Maintenir la touche Maj enfoncée
+L'outil échelle vous permet de redimensionner un objet à la main. Maintenir la touche <kbd>Maj</kbd> enfoncée
 vous permet d'augmenter l'échelle d'un objet tout en le conservant ses proportions.
 
 L'outil rotation vous permet de tourner librement un objet. Il tourne l'objet sélectionné autour de
