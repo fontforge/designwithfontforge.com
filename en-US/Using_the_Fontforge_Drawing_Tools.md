@@ -154,7 +154,7 @@ The Zoom tool lets you zoom in (Z) easily; in order to zoom out: go to the View 
 *Zoom out* (X) or *Fit*.
 
 Note that you can also momentarily switch to the pointer tool while using another by holding down
-the Control (Ctrl) key.
+the <kbd>Ctrl</kbd> key.
 
 ### The Freehand tool
 
@@ -274,9 +274,9 @@ setting, the longer the arms of the star.
 Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
 
 - Left button (Mse1)
-- Left button + Ctrl (^Mse1)
+- Left button + <kbd>Ctrl</kbd> (^Mse1)
 - Mouse wheel button (Mse2)
-- Mouse wheel button + Ctrl (^Mse2)
+- Mouse wheel button + <kbd>Ctrl</kbd> (^Mse2)
 
 This way, you can use a few different tools without having to repeatedly click on the toolbar.
 

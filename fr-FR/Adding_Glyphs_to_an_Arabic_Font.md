@@ -94,7 +94,7 @@ Sélectionnez **Codage → Ajouter des cases de codage** et entrez le nombre de 
 
 #### Créer la forme finale
 
-Remontez le tableau de police un peu jusqu'à ce que vous arrivez à un ensemble de glyphes arabes à la position 65152 (U+FE80). À U+FE90 (position 65168), vous verrez un glyphe *behfinal* &ndash; cliquez dessus et appuyez sur **Ctrl+C** pour le copier. Faites défiler jusqu'à la troisième dernière cellule du tableau (position 65537), cliquez dessus et appuyez sur **Ctrl+V** pour y coller le glyphe *behfinal*.
+Remontez le tableau de police un peu jusqu'à ce que vous arrivez à un ensemble de glyphes arabes à la position 65152 (U+FE80). À U+FE90 (position 65168), vous verrez un glyphe *behfinal* &ndash; cliquez dessus et appuyez sur <kbd>Ctrl + C</kbd> pour le copier. Faites défiler jusqu'à la troisième dernière cellule du tableau (position 65537), cliquez dessus et appuyez sur <kbd>Ctrl + V</kbd> pour y coller le glyphe *behfinal*.
 
 <img src="../en-US/images/beh_forms.png" />
 
@@ -102,11 +102,11 @@ Faites un clic droit sur la cellule et sélectionnez **Infos glyphe**. La conven
 
 <img src="../en-US/images/peh_final-fr-FR.png" />
 
-Obtenez les trois points: double-cliquez sur *sheen* (U+FEB5) pour le charger dans la fenêtre de conception de glyphe, sélectionnez les trois points et appuyez sur **Ctrl+C**.
+Obtenez les trois points: double-cliquez sur *sheen* (U+FEB5) pour le charger dans la fenêtre de conception de glyphe, sélectionnez les trois points et appuyez sur <kbd>Ctrl + C</kbd>.
 
 Double-cliquez sur le nouveau *pehfinal* pour le charger dans la fenêtre de conception du glyphe, cliquez et faites glisser pour mettre en surbrillance les nœuds du point et appuyez sur **Supprimer**.
 
-Ctrl+V pour insérer les trois points de *sheen*, retournez-les et placez-les en position sous le corps du glyphe. Appuyez sur **Ctrl+S** pour enregistrer le tableau révisé.
+<kbd>Ctrl + V</kbd> pour insérer les trois points de *sheen*, retournez-les et placez-les en position sous le corps du glyphe. Appuyez sur <kbd>Ctrl + S</kbd> pour enregistrer le tableau révisé.
 
 #### Créer les formes initiales et médiales
 
@@ -146,7 +146,7 @@ Cliquez sur **OK**.
 
 Faites la même chose pour les sous-menus sous les entrées *medi' Medial Forms in Arabic lookup 2* et *fina' Terminal Forms in Arabic lookup 2*, en choisissant *medi* et *fina* comme suffixe pertinent.
 
-Cliquez à nouveau sur **OK** pour fermer le volet et enregistrez le tableau de police (**Ctrl+S**).
+Cliquez à nouveau sur **OK** pour fermer le volet et enregistrez le tableau de police (<kbd>Ctrl + S</kbd>).
 
 Notez que *Par défaut en utilisant le suffixe* semble fonctionner uniquement sur les glyphes du bloc Unicode 06 (*Arabe*) &ndash; les glyphes dans Unicode 07 (*Arabe supplémentaire*), par ex. *ain* avec deux points, peut être ajouté manuellement en cliquant sur la ligne marquée *Nouvelle* et en tapant les noms.
 

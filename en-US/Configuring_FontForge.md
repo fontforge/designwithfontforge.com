@@ -43,8 +43,8 @@ To open a long file or folder location path provided below:
 #### Keyboard Shortcuts
 
 Many dialog and menu items have one letter that is u<span class="underline">n</span>derlined.
-These can be accessed immediately by pressing `Ctrl-Alt` and that key.
-For example, if a dialog asks you if you're <span class="underline">O</span>K, press `Ctrl + Alt + o`
+These can be accessed immediately by pressing <kbd>Ctrl + Alt</kbd> and that key.
+For example, if a dialog asks you if you're <span class="underline">O</span>K, press <kbd>Ctrl + Alt + o</kbd>.
 
 If you do not use a US English keyboard, you may find some of the keyboard shortcuts are silly.
 Or, you might just want to customize them to be the way that you expect.

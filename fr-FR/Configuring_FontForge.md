@@ -44,8 +44,8 @@ Pour ouvrir l'emplacement d'un long fichier ou dossier:
 #### Raccourcis clavier
 
 De nombreux dialogues et éléments de menu ont une lettre qui est s<span class = "underline">o</span>ulignée.
-Vous pouvez y accéder immédiatement en appuyant sur `Ctrl-Alt` et sur cette touche.
-Par exemple, si une boîte de dialogue vous demande si c'est <span class = "underline">O</span>K, appuyez sur `Ctrl + Alt + o`.
+Vous pouvez y accéder immédiatement en appuyant sur <kbd>Ctrl + Alt</kbd> et sur cette touche.
+Par exemple, si une boîte de dialogue vous demande si c'est <span class = "underline">O</span>K, appuyez sur <kbd>Ctrl + Alt + o</kbd>.
 
 Si vous n'utilisez pas un clavier anglais américain, vous pouvez trouver que certains des raccourcis clavier sont idiots. Ou, vous voudrez peut-être simplement les personnaliser pour être ce que vous vous en attendez.
 Pour modifier ces touches, ouvrez et modifiez le fichier texte `default`, situé ici:

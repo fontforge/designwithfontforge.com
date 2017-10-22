@@ -156,7 +156,7 @@ L'outil Zoom vous permet de zoomer (Z) facilement; pour effectuer un zoom arriè
 *Réduire* (X) ou *Adapter*.
 
 Notez que vous pouvez également passer momentanément à l'outil de pointeur tout en utilisant un autre en maintenant
-enfoncée la touche Control (Ctrl).
+enfoncée la touche <kbd>Ctrl</kbd>.
 
 ### Dessin à main-levée
 
@@ -279,9 +279,9 @@ Sous la palette d'outils, vous pouvez afficher l'outil actuel et les opérations
 deux boutons de la souris:
 
 - Bouton gauche (Mse1)
-- Bouton gauche + Ctrl (^ Mse1)
+- Bouton gauche + <kbd>Ctrl</kbd> (^ Mse1)
 - Bouton de la molette de la souris (Mse2)
-- Bouton de la molette de la souris + Ctrl (^ Mse2)
+- Bouton de la molette de la souris + <kbd>Ctrl</kbd> (^ Mse2)
 
 De cette façon, vous pouvez utiliser quelques outils différents sans avoir à cliquer à plusieurs
 reprises sur la palette d'outils.
