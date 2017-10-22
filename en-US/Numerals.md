@@ -10,13 +10,13 @@ Numerals are often difficult for font designers — and for several reasons. One
 
 It can be useful to look at the numerals found in a wide variety of fonts to become more familiar with the ways in which designers cope with these problems.
 
-In those numerals with a dense number of strokes (such as 8), you may find that designers allow the stroke widths to become a little thinner than is typical of the letters in the font. A similar approach can be seen the design of the double story g.
+In those numerals with a dense number of strokes (such as 8), you may find that designers allow the stroke widths to become a little thinner than is typical of the letters in the font. A similar approach can be seen the design of the double story 'g'.
 
 Conversely, to compensate for numerals with large white space proportions, some strokes are likely to become heavier than would be typical.
 
 In the case of distinguishing the zero from the capital O, there are a wide range of solutions — such as making the zero narrower than the O, or a zero that is perfectly round, or perhaps (especially in a monospace font) having a slash through the zero.
 
-Having the zero narrower than the capital O while sharing its height is the common approach. This approach is typical of lining numerals. Lining numerals are the most common style for numerals. Examples of fonts that use this approach include: many Garamonds, Futura, and the Google web font Open Sans. Below is Open Sans showing the zero, capital O, zero and then other numerals.
+Having the zero narrower than the capital O while sharing its height is the common approach. This approach is typical of lining numerals, which are the most common style for numerals. Examples of fonts that use this approach include: many Garamonds, Futura, and the Google web font Open Sans. Below is Open Sans showing the zero, capital O, zero and then other numerals.
 
 <img src="images/open-sans-numbers.png" alt="">
 
@@ -38,14 +38,14 @@ Proportional lining numbers have the advantage of having the ability to looking 
 
 
 
-## Ranging or Old style numerals
+## Ranging or old style numerals
 <img src="images/2Proportional%20oldstyle.png" alt="">
 
 Tabular numbers are a relatively new invention in historical terms. Before they existed there were old style proportional numbers. Old style numbers are useful if you want the numbers to mix in and share the style of a text.
 
 <img src="images/2tabular%20oldstyle.png" alt="">
 
-Tabular oldstyle numbers are fairly rare. They can be useful in an annual report where you want the feeling of an old style number but the tabular spacing typical of that kind of document. The image above is from a typewriter Library catalog card. 
+Tabular oldstyle numbers are fairly rare. They can be useful in an annual report where you want the feeling of an old style number but the tabular spacing typical of that kind of document. The image above is from a typewriter library catalog card. 
 
 ## Hybrid style numerals
 
