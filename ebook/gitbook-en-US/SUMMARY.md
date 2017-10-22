@@ -23,7 +23,7 @@ published: false
 * [Capital Letters](Capital_Letters.md)
 * [Line Spacing](Line_Spacing.md)
 * [Punctuation and Symbols](Punctuation_and_Symbols.md)
-* [Completeing the Lower Case](Completing_the_Lower_Case.md)
+* [Completing the Lower Case](Completing_the_Lower_Case.md)
 * [Diacritics and Accents](Diacritics_and_Accents.md)
 * [Numerals](Numerals.md)
 * [Bold and Other Weights](Bold_and_Other_Weights.md)
