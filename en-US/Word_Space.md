@@ -6,8 +6,9 @@ category: workflow
 title: Word Spacing
 ---
 
-It may sound funny to pay special attention to the word space, however it is one of the most
+It may sound funny to pay special attention to the word space; however, it is one of the most
 commonly used parts of a type design.  
+
 A word space that is too wide or too narrow can ruin the design of a font. It’s not too early to
 begin considering the word spacing as long as you have your first characters set up. The choice you
 make at this point should be gradually adjusted while you progress in the design of the font.
