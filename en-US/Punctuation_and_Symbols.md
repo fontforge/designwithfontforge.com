@@ -6,7 +6,7 @@ category: workflow
 title: Punctuation and Symbols
 ---
 
-Punctuation and other typographics symbols have a history of their own, separate and apart from the development of the alphabet. But you will find that the same design process still applies, including reusing and adapting component elements, and iteratively testing your design choices.
+Punctuation and other typographic symbols have a history of their own, separate and apart from the development of the alphabet. But, you will find that the same design process still applies, including reusing and adapting component elements, and iteratively testing your design choices.
 
 ## Simple punctuation glyphs
 
@@ -18,13 +18,13 @@ Once you establish a size that you are happy with, this dot can be used as the b
 
 <img src="images/period.png" alt="">
 
-The next glyph to make is the comma. The shape of the comma can vary to an almost suprising degree. It may be valuable for you to look at a wide rage of comma designs before you design yours.
+The next glyph to make is the comma. The shape of the comma can vary to an almost suprising degree. It may be valuable for you to look at a wide range of comma designs before you design yours.
 
 The image below shows two of the most common forms that the comma may take.
 
 <img src="images/commas.png" alt="">
 
-The top of the comma is often slightly lighter than the period, because if it is the same it can look too heavy. In the sample image, the comma on the right is a good example of this compensation being applied. Another common mistake to watch out for with this glyph is making it too short
+The top of the comma is often slightly lighter than the period, because if it is the same it can look too heavy. In the sample image, the comma on the right is a good example of this compensation being applied. Another common mistake to watch out for with this glyph is making it too short.
 
 When you have your comma it will be fairly easy to make the semi colon (;).
 
@@ -51,7 +51,7 @@ Simple or vertical quotes — &apos; and &quot; — are distinct from typographi
 
 Simple quotes can follow the shape of the bar over the dot in the exclamation mark, but they can also be designed separately.
 
-Usually typographic quotes are fairly closely related to the comma, however they should be longer than the comma and often curve more.
+Usually typographic quotes are fairly closely related to the comma; however, they should be longer than the comma and often curve more.
 
 <img src="images/3quotes2.png" alt="">
 
