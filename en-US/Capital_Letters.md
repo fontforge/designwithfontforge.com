@@ -6,11 +6,11 @@ category: workflow
 title: Capital letters
 ---
 
-Making the capital letters should follow a pattern very similar to the making of the lower case letters. You begin by designing key letters whose shapes and characteristics lend themselves to the design of chararacters which share a common shape. Just like with lower case letters the frequency with which letters are used also remain an important factor in the choice of the letters.
+Making the capital letters should follow a pattern very similar to the making of the lower case letters. You begin by designing key letters whose shapes and characteristics lend themselves to the design of characters which share a common shape. Just like with lower case letters, the frequency with which letters are used also remains an important factor in the choice of the letters.
 
-The first two letters to design are "H" and "O". The design these letters should not just be in relation to each other but should also relate to the existing lower case letters.
+The first two letters to design are "H" and "O". The design of these letters should not just be in relation to each other, but also in relation to the existing lower case letters.
 
-It is at this stage that you determining the proportion of the lower case to the upper case. You may want to adjust the ascenders and descenders of your lower case or adjust your capitals to the lower case to create the proportion that suit the purpose of your design.
+It is at this stage that you determine the proportion of the lower case to the upper case. You may want to adjust the ascenders and descenders of your lower case or adjust your capitals to the lower case to create the proportion that suit the purpose of your design.
 
 The weight of strokes in the upper case often needs to be somewhat heavier than the strokes of the lower case. You may want to create an interpolation experiment to rapidly find how much heavier they should be.
 
@@ -18,7 +18,7 @@ The next set of letters to consider adding are A E S I N and either P or D and m
 
 Depending on the style of the font you are making you may find that the capital letters require more variation in width than you have in the lower case letters. The width of the E S and P may be substantially narrower than the H or may be similar. 
 
-Generally the N and V are usually similar to H but a slightly wider.
+Generally the N and V are similar to H but slightly wider.
 
 <table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-1.png" alt=""></td>
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-2.png" alt=""></td>
