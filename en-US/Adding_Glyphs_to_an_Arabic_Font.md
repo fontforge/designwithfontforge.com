@@ -95,7 +95,7 @@ Select **Encoding → Add Encoding Slots** and enter the number of the glyphs yo
 
 #### Create the final form
 
-Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards. At U+FE90 (position 65168) you will see a *behfinal* glyph &ndash; click on it and press <kbd>Ctrl + C</kbd> to copy it. Roll down to the third last cell in the chart (position 65537), click on it, and press <kbd>Ctrl + V</kbd> to paste in the *behfinal* glyph.
+Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards. At U+FE90 (position 65168) you will see a *behfinal* glyph &ndash; click on it and press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy it. Roll down to the third last cell in the chart (position 65537), click on it, and press <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste in the *behfinal* glyph.
 
 <img src="images/beh_forms.png" />
 
@@ -103,11 +103,11 @@ Right-click on the cell and select **Glyph Info**. The naming convention is to u
 
 <img src="images/peh_final.png" />
 
-Get the three dots: double-click on *sheen* (U+FEB5) to load it into the glyph design panel, select the three dots and press <kbd>Ctrl + C</kbd>.
+Get the three dots: double-click on *sheen* (U+FEB5) to load it into the glyph design panel, select the three dots and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
 Double-click on the new *pehfinal* to load it into the glyph design panel, click and drag to highlight the nodes of the dot and press **Delete**.
 
-<kbd>Ctrl + V</kbd> to insert the three dots from *sheen*, flip them, and move them into position below the glyph body. Press <kbd>Ctrl + S</kbd> to save the revised font chart.
+<kbd>Ctrl</kbd> + <kbd>V</kbd> to insert the three dots from *sheen*, flip them, and move them into position below the glyph body. Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save the revised font chart.
 
 #### Create the initial and medial forms
 
@@ -147,7 +147,7 @@ Click **OK**.
 
 Do the same for the submenus under the entries *'medi' Medial Forms in Arabic lookup 2* and *'fina' Terminal Forms in Arabic lookup 2*, choosing *medi* and *fina* as the relevant suffix.
 
-Click **OK** again to close the panel, and save the font chart (<kbd>Ctrl + S</kbd>).
+Click **OK** again to close the panel, and save the font chart (<kbd>Ctrl</kbd> + <kbd>S</kbd>).
 
 Note that *Default Using Suffix* only seems to work on glyphs in the Unicode 06 (*Arabic*) block &ndash; glyphs in Unicode 07 (*Arabic Supplement*), e.g. *ain* with two dots, may have to be added manually by clicking the line marked *New* and typing in the names.
 

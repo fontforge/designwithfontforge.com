@@ -94,7 +94,7 @@ title: 添加字形到阿拉伯字体
 
 #### 创建最终形式
 
-向上滚动一点字体表格直到你向前到达位置65152（U+FE80）的一系列阿拉伯字形。在U+FE90（位置65168）你讲看到一个*behfinal*字形&mdash;&mdash;点击它并按<kbd>Ctrl + C</kbd>来复制它。向下滚动到表格的倒数第三个单元格（位置65537），点击它，并按<kbd>Ctrl + V</kbd>来粘贴*behfinal*字形。
+向上滚动一点字体表格直到你向前到达位置65152（U+FE80）的一系列阿拉伯字形。在U+FE90（位置65168）你讲看到一个*behfinal*字形&mdash;&mdash;点击它并按<kbd>Ctrl</kbd> + <kbd>C</kbd>来复制它。向下滚动到表格的倒数第三个单元格（位置65537），点击它，并按<kbd>Ctrl</kbd> + <kbd>V</kbd>来粘贴*behfinal*字形。
 
 <img src="../en-US/images/beh_forms.png" />
 
@@ -102,11 +102,11 @@ title: 添加字形到阿拉伯字体
 
 <img src="../en-US/images/peh_final.png" />
 
-得到三个点：双击*sheen*（U+FEB5）来将它加载到字形设计面板，选择三个点并按<kbd>Ctrl + C</kbd>。
+得到三个点：双击*sheen*（U+FEB5）来将它加载到字形设计面板，选择三个点并按<kbd>Ctrl</kbd> + <kbd>C</kbd>。
 
 双击新的*pehfinal*来将它加载到字形设计面板，点击拖动来高亮点的节点并按**Delete**。
 
-<kbd>Ctrl + V</kbd>来插入来自*sheen*的三个点，翻转它们，将它们移动到字形主体以下的位置。按来保存修改过的字体表格。
+<kbd>Ctrl</kbd> + <kbd>V</kbd>来插入来自*sheen*的三个点，翻转它们，将它们移动到字形主体以下的位置。按来保存修改过的字体表格。
 
 #### 创建开头和中间的形式
 
@@ -144,7 +144,7 @@ title: 添加字形到阿拉伯字体
 
 对*'medi' Medial Forms in Arabic lookup 2*和*'fina' Terminal Forms in Arabic lookup 2*下的子菜单做同样的操作，选择*medi*和*fina*作为相关的后缀。
 
-再次点击**OK**来关闭面板，并保存字体表格（<kbd>Ctrl + S</kbd>）。
+再次点击**OK**来关闭面板，并保存字体表格（<kbd>Ctrl</kbd> + <kbd>S</kbd>）。
 
 需要注意的是*Default Using Suffix*看起来只能工作在Unicode 06（*Arabic*）块&mdash;&mdash;在Unicode 07（*Arabic Supplement*），比如带两个点的*ain*，可能必须通过点击带行标记的*New*并输入名称来手动添加。
 

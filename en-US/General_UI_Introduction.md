@@ -27,7 +27,7 @@ This is where you can draw and edit glyphs, either one at a time with a tab inte
 #### 3. The Metrics View Window
 
 Go to Window, Metrics, or Metrics, Window. 
-Or select some glyphs in the Font View and hit <kbd>Ctrl + K</kbd>. 
+Or select some glyphs in the Font View and hit <kbd>Ctrl</kbd> + <kbd>K</kbd>. 
 You can also drag and drop glyphs from the Font View to the Metrics View.
 
 This is where you can adjust the spacing and kerning of your font.

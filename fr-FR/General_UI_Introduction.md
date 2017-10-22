@@ -27,7 +27,7 @@ C'est là que vous pouvez dessiner et modifier des glyphes, soit un à la fois a
 #### 3. La fenêtre de métriques
 
 Allez à Métriques ou Fenêtres et sélectionnez Ouvrir fenêtre de métriques.
-Ou sélectionnez certains glyphes dans la fenêtre de glyphe et appuyez sur <kbd>Ctrl + K</kbd>.
+Ou sélectionnez certains glyphes dans la fenêtre de glyphe et appuyez sur <kbd>Ctrl</kbd> + <kbd>K</kbd>.
 Vous pouvez également glisser et déposer des glyphes depuis la fenêtre de glyphe vers la fenêtre de métriques.
 
 C'est là que vous pouvez ajuster l'espacement et le crénage de votre police.
