@@ -6,7 +6,7 @@ category: Before You Begin
 title: What Is A Font?
 ---
 
-&mdash; What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
+What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
 
 The single biggest issue that makes type design different is the need for every glyph in the
 typeface to work with every other glyph. This often means that the design and spacing of each part
@@ -19,7 +19,7 @@ This need to prioritize with the system rather than with any single part also le
 analyse our design process on the level of the system. Characteristics which span letters become the
 things we want to focus on, particularly at the beginning of the design process.
 
-The other oddity in type design is that to a very large extent the forms we are designing are
+The other oddity in type design is that, to a very large extent, the forms we are designing are
 already significantly established. Our task as type designers is not so much to create an utterly
 new form but rather to create a new version of an existing form. This can perplex new type
 designers. Finding just the right amount to change in order to excite but not to alienate a reader
@@ -29,7 +29,7 @@ that repeat the most. Typeface design is not just about designing the characteri
 common forms we all recognize, but also to the forms that occur most often.
 
 It is also useful to recognize that these characteristics not only help to create a font’s voice or
-atmosphere, but also determine what the font will or will not be useful for, and they sometimes help
+atmosphere, but also to determine what the font will or will not be useful for, and sometimes to
 determine the technological contexts for which a font is suitable.
 
 It may seem intimidating or excessively abstract to think about the design of a font in this way.
@@ -81,7 +81,7 @@ elegance to the look of a typeface. They often go with smaller x-height.
 Like ascenders, descenders that are long can feel elegant. 
 
 Taken together, long ascenders and descenders can become difficult to manage. If the typeface will
-be used with small line heights, the elongation means letter can collide across rows of text.
+be used with small line heights, the elongation means letters can collide across rows of text.
 
 ## Width
 
@@ -89,7 +89,7 @@ be used with small line heights, the elongation means letter can collide across 
 
 The width of a type design will alter not just how it feels but also what it is useful for. The
 example on the right is from a text face. The example on the left is from a display design meant to
-be eye catching. Letters that are more narrow than the text face example are also possible and can
+be eye-catching. Letters that are more narrow than the text face example are also possible and can
 be used to save space or to fit more text in a smaller space.
 
 ### Width regularity versus variability
@@ -120,8 +120,8 @@ Type with consistent weight (stroke width) in its letterforms or no visible cont
 sheer distinction from contrasted type. Like the choice between serifs or sans-serifs, contrast is
 an early choice of type design. It is interesting to note that ‘slab’ serif designs generally use
 consistent stroke width in their letters, and that the design of slab serifs is not merely about the
-serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting your
-eyes”]) &ndash; contrast is about how the weight looks but not how it measures out to be.
+serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting Your
+Eyes”](Trusting_Your_Eyes.html)) &ndash; contrast is about how the weight looks but not how it measures out to be.
 
 ### Angle of contrast
 
@@ -213,7 +213,7 @@ will play a role as a variable.
 Notice that in the font on top the flourish is more present in the capital letter and the second one
 the flourish is more in the lowercase.
 
-### Serif - To be or not to be
+### Serif - to be or not to be
 
 Serifs are one of the most distinct aspects of a typeface, and often the first classification of
 type is between serif and sans-serif type.
