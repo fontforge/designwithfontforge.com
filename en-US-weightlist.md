@@ -22,7 +22,7 @@ published: false
 | 36     | Capital Letters                            |
 | 39     | Line Spacing                               |
 | 42     | Punctuation and Symbols                    |
-| 45     | Completeing the Lower Case                 |
+| 45     | Completing the Lower Case                  |
 | 48     | Diacritics and Accents                     |
 | 51     | Numerals                                   |
 | 54     | Bold and Other Weights                     |
