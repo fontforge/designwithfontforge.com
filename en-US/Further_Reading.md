@@ -20,13 +20,13 @@ title: Further Reading
 
 ### Curve Math
 
-* http://pomax.github.io/bezierinfo/ Excellent guide to the math of Bezier curves
-* http://raph.levien.com/phd Raph Levien's PhD on Spiro curves
+* [A Primer on Bézier Curves](http://pomax.github.io/bezierinfo/) — excellent guide on the math of Bezier curves
+* [Raph Levien's PhD on Spiro curves](http://raph.levien.com/phd)
 
 ### Business
 
-* [ILT: Why Did I Start A Foundry](http://ilovetypography.com/2010/05/06/why-did-i-start-a-type-foundry/)
-* [ILT Leonidas on Typeface Design practice](http://ilovetypography.com/2010/03/25/a-few-things-i%E2%80%99ve-learned-about-typeface-design/)
+* [ILT: Why Did I Start a Type Foundry?](http://ilovetypography.com/2010/05/06/why-did-i-start-a-type-foundry/)
+* [ILT: Gerry Leonidas on typeface design practice](http://ilovetypography.com/2010/03/25/a-few-things-i%E2%80%99ve-learned-about-typeface-design/)
 
 ### Typography
 
@@ -34,14 +34,13 @@ title: Further Reading
 
 ### Latin
 
-**The MyFonts Foundry Guides are fantastic: [foundry.myfonts.com/guides](https://foundry.myfonts.com/guides/)**
+**The [MyFonts Foundry Guides](https://foundry.myfonts.com/guides/) are fantastic.**
 
-* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/)
-* [Frere Jones: Typeface Mechanics 2](http://www.frerejones.com/blog/typeface-mechanics-002/)
+* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/) and [2](http://www.frerejones.com/blog/typeface-mechanics-002/)
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
-* [Adobe: Designing Multiple Master Typefaces](https://www.google.com/search?q=Designing+Multiple+Master+Typefaces)
+* [Adobe: Designing Multiple Master Typefaces](https://www-cdf.fnal.gov/offline/PostScript/5091.Design_MM_Fonts.pdf)
 * [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
-* [On Tilde](http://www.shadycharacters.co.uk/2015/03/miscellany-60-tilde/)
+* [On the Tilde](http://www.shadycharacters.co.uk/2015/03/miscellany-60-tilde/)
 * [ILT: On Diacritics](http://ilovetypography.com/2009/01/24/on-diacritics/)
 * [Twardoch: Polish Diacritics](http://www.twardoch.com/download/polishhowto/)
 * [Logotype: Quora logo](https://www.quora.com/How-is-the-new-Quora-logo-different-from-the-old-one/answer/Christian-Schwartz-1)
@@ -57,7 +56,7 @@ ILT Example Projects:
 * [Acorde](http://ilovetypography.com/2010/10/10/the-making-of-acorde-2/)
 * [Ode](http://ilovetypography.com/2010/09/01/ode-fresh-start-for-a-broken-script/)
 * [Biome](http://ilovetypography.com/2010/07/01/font-design-biome-the-making-of-a-typeface/)
-* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [github.com/motaitalic/vesper-libre](https://github.com/motaitalic/vesper-libre)
+* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [vesper-libre](https://github.com/motaitalic/vesper-libre))
 
 ### Greek
 
@@ -67,16 +66,16 @@ ILT Example Projects:
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
-* [Bulgarian Cyrillic](http://www.cyrillicsly.com/)
-* <http://www.lettersoup.de/what-shall-be-done-for-bulgarian-cyrillic-loclbgr/>
-* [Paratype Language Help](http://www.paratype.com/help/language/) - Cyrillic encodings
+* [Bulgarian Cyrillic](http://cyrillicsly.com/)
+* [What shall be done for Bulgarian Cyrillic .loclBGR](http://www.lettersoup.de/what-shall-be-done-for-bulgarian-cyrillic-loclbgr/)
+* [Paratype Language Help](http://www.paratype.com/help/language/) — Cyrillic encodings
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
-* <http://luc.devroye.org/cyrillic.html>
-* The ATypI Cyrillic SIG mailing list
+* [Cyrillic type design](http://luc.devroye.org/cyrillic.html)
+* [ATypI Cyrillic SIG mailing list](http://www.atypi.org/members/special-interest-groups/cyrillic)
 
 ### Arabic
 
-* [Khaled Hosney's FontForge Guide](http://ojuba.org/wiki/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
+* [Khaled Hosney's FontForge Guide](http://ojuba.org/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
 * [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)
 * [Parachut: Interview with Hasan Abu Afash](http://upscaletypography.com/?p=1646)
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
@@ -89,11 +88,11 @@ ILT Example Projects:
 ### Devanagari 
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
-* [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago
+* [South Asia Language Resource Center](http://salrc.uchicago.edu/) at The University of Chicago
 * [Professor Mahendra Patel](http://patelmc.wordpress.com/mahendrapatel/typedesign/)
 * [Dhruvi Tolia Graduation Report](http://issuu.com/dhruvi/docs/graduation_report)
 * [Sanchit Sawaria Project 3 Document](http://issuu.com/sanchitsawaria/docs/kathandoc)
-* [Yashodeep Gholap - Designing a Devanagari text font for newspaper use](http://www.yashodeepgholap.com/Article.html)
+* [Yashodeep Gholap - Designing a Devanagari text font for newspaper use](http://www.typoday.in/2012/spk_papers/yashodeep-gholap-typographyday2012.pdf)
 * [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
@@ -111,7 +110,7 @@ Title: <tt>ISBN: 9780907259343</tt>
 
 <hr />
 
-Title: Adrian Frutiger - Typefaces: The Complete Works
+Title: Adrian Frutiger — Typefaces: The Complete Works
 
 Authors: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
 
