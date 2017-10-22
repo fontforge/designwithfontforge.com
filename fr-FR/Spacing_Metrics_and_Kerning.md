@@ -110,7 +110,7 @@ La fenêtre de métriques de FontForge peut être utilisée pour concevoir les a
 
 ## <strong>Réglage des valeurs de crénage avec le clavier</strong>
 
-Tout comme pour ajuster les valeurs des approches latérales, les valeurs de crénage peuvent être modifiées rapidement et avec précision dans FontForge en utilisant les touches 'haut', 'bas', 'gauche' et 'droit' d'un clavier. Les touches 'haut' et 'bas' sont utilisées pour incrémenter / décrémenter les valeurs et <kbd>Alt</kbd> + <kbd>Haut</kbd>, <kbd>Alt</kbd> + <kbd>Bas</kbd>, <kbd>Alt</kbd> + <kbd>Gauche</kbd> et <kbd>Alt</kbd> + <kbd>Droit</kbd> sont utilisées pour naviguer autour des différents champs de valeur de la fenêtre de métriques.
+Tout comme pour ajuster les valeurs des approches latérales, les valeurs de crénage peuvent être modifiées rapidement et avec précision dans FontForge en utilisant les touches <kbd>Haut</kbd>, <kbd>Bas</kbd>, <kbd>Gauche</kbd> et <kbd>Droit</kbd> d'un clavier. Les touches <kbd>Haut</kbd> et <kbd>Bas</kbd> sont utilisées pour incrémenter / décrémenter les valeurs et <kbd>Alt</kbd> + <kbd>Haut</kbd>, <kbd>Alt</kbd> + <kbd>Bas</kbd>, <kbd>Alt</kbd> + <kbd>Gauche</kbd> et <kbd>Alt</kbd> + <kbd>Droit</kbd> sont utilisées pour naviguer autour des différents champs de valeur de la fenêtre de métriques.
 
 ## <strong>Crénage de paires individuelles</strong>
 

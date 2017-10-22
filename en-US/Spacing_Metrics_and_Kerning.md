@@ -110,7 +110,7 @@ The Metrics Window in FontForge can be used to design both side bearings and ker
 
 ## <strong>Adjusting kerning values with the keyboard</strong>
 
-Just like with adjusting side bearing values, kerning values can be quickly and accurately edited in FontForge by using the 'up', 'down', 'left' and 'right' keys of a keyboard. The 'up and 'down' keys are used to incrememt / decrement values and 'alt+up', 'alt+down', 'alt+left' and 'alt+right' are used for navigating around the different value fields of the metrics window.
+One method of adjusting metric values quickly and accurately in FontForge is by using the up, down, left and right keys of a keyboard. The up and down keys are used to incrememt / decrement values and <kbd>Alt</kbd> + <kbd>Up</kbd>, <kbd>Alt</kbd> + <kbd>Down</kbd>, <kbd>Alt</kbd> + <kbd>Left</kbd> and <kbd>Alt</kbd> + <kbd>Right</kbd> are used for navigating around the different value fields of the Metrics Window.
 
 ## <strong>Kerning individual pairs</strong>
 
