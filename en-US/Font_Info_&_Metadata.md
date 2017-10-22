@@ -9,7 +9,7 @@ title: Font Info & Metadata
 ## Element, Font Info
 
 The Font Info window is ubiquitous in font editors, and FontForge closely follows the OpenType Specification. 
-It may appear cryptic at first, but using it can help learn some familiarity with the OpenType format, and in turn reading about the OpenType format makes the dialog more approachable. 
+It may appear cryptic at first, but using it can help you become more familiar with the OpenType format, and, in turn, reading about the OpenType format makes the dialog more approachable. 
 
 <img src="images/info_ps_names.png"/>
 
@@ -23,7 +23,7 @@ If you have a document using Exo, you don't want to jump into Exo 2, because the
 Adding support for one or more new scripts that are quite similar in height, or a substantial number of languages, could also constitute a MAJOR revision, as could anything else that substantially changes the vertical or horizontal metrics. 
 However, if a complementary design is made for 2 scripts, it may be best to release 2 or 3 families, one with each script scaled appropriately and the other script(s) scaled as secondary fonts for simple fallback typesetting of multilingual texts. 
 
-A MINOR version would be anything that subtly changes the metrics, such as vertical metrics, horizontal sidebearings or improved kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example from <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>:
+A MINOR version would be anything that subtly changes the metrics, such as vertical metrics, horizontal sidebearings or improved kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example from ["Roboto Rebooted: Why Google Updates Its Font Like The Rest Of Its Products"](http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products):
 
 ![Comparison of Roboto v1 and Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
 
