@@ -8,7 +8,7 @@ title: Conception de polices Devanagari
 
 _Merci à Adam Twardoch, Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena et au Dr Girish Dalvi pour leur contribution à beaucoup des idées de cette page_
 
-La conception d'une police [Devanagari](https://fr.wikipedia.org/wiki/Devanagari) nouvelle et originale suit un processus similaire au processus de design d'une police latine. L'avantage unique du _libre_ dans les polices libres est que vous pouvez les modifier et les réutiliser à des fins nouvelles à lesquelles leurs créateurs initiaux n'ont jamais pensées — par exemple, concevoir une police Devanagari et adapter une police latine existante pour l'accompagner.
+La conception d'une police [Devanagari](https://fr.wikipedia.org/wiki/Devanagari) nouvelle et originale suit un processus similaire au processus de design d'une police latine. L'avantage unique du _libre_ dans les polices libres est que vous pouvez les modifier et les réutiliser à des fins nouvelles à lesquelles leurs créateurs initiaux n'ont jamais pensées &mdash; par exemple, concevoir une police Devanagari et adapter une police latine existante pour l'accompagner.
 
 ## Les glyphes Devanagari
 
@@ -92,7 +92,7 @@ Ensuite, vous pouvez commencer à utiliser les chaînes d'espacement ci-dessus, 
 
 et ainsi de suite!
 
-Vous devrez les regarder dans une longue liste comme ça pour les comparer d'un glyphe à l'autre, en même temps que vous les faites défiler vers le bas — à la fois à l'écran et sur papier. Une vérification verticale est plus efficace qu'une simple longue ligne de texte continu. Voici pourquoi:
+Vous devrez les regarder dans une longue liste comme ça pour les comparer d'un glyphe à l'autre, en même temps que vous les faites défiler vers le bas &mdash; à la fois à l'écran et sur papier. Une vérification verticale est plus efficace qu'une simple longue ligne de texte continu. Voici pourquoi:
 
 Lorsque vous regardez les chaînes d'espacement dans les colonnes verticales, vous pouvez facilement comparer l'espacement avec les lignes qui les précèdent et en dessous du caractère actuel. De la même façon que nous pouvons aisément reconnaître les "rivières" dans un texte pleinement justifié et mal réglé, il sera plus facile de voir des blancs ou des taches noires dans l'espacement si vous comparez avec une chaîne d'espacement qui reste constante.
 
@@ -154,7 +154,7 @@ Les applications 'Fontlab Studio' et 'OpenType Master' possèdent également des
 
 Regardez les polices Devanagari sur le site <http://indiantypefoundry.com>, et ceux qui viennent de sortir via Google Fonts, car les formes de lettres peuvent varier.
 
-Un autre bon endroit pour rechercher de l'Hindi sont les sites de journaux "e-paper" hindi pour voir les polices réelles en cours d'utilisation — les publicités ont généralement plus de diversité dans les polices. <http://epaper.jagran.com> est un e-papier indien largement diffusé.
+Un autre bon endroit pour rechercher de l'Hindi sont les sites de journaux "e-paper" hindi pour voir les polices réelles en cours d'utilisation &mdash; les publicités ont généralement plus de diversité dans les polices. <http://epaper.jagran.com> est un e-papier indien largement diffusé.
 
 Flickr est également une bonne source d'idées par ses images:
 

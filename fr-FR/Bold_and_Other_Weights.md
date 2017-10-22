@@ -9,7 +9,7 @@ Lorsque nous parlons du style "gras", nous parlons vraiment d'une variable plus 
 
 Alors que vous pouvez faire bien de choses avec la graisse, il est probable que votre première expérience avec l'ajustement de celle-ci sera d'essayer de créer un style gras pour accompagner votre texte de style régulier.
 
-Parce que vous utilisez FontForge vous avez un avantage distinct. Contrairement à de nombreux programmes d'édition de polices, les résultats obtenus à partir du filtre de style dans FontForge peuvent en fait être convenables — plus que ceux que vous obtenez dans le logiciel de conception de type commercial. C'est parce que l'algorithme qu'il utilise est exceptionnellement sophistiqué.
+Parce que vous utilisez FontForge vous avez un avantage distinct. Contrairement à de nombreux programmes d'édition de polices, les résultats obtenus à partir du filtre de style dans FontForge peuvent en fait être convenables &mdash; plus que ceux que vous obtenez dans le logiciel de conception de type commercial. C'est parce que l'algorithme qu'il utilise est exceptionnellement sophistiqué.
 
 La création d'une version en caractères gras d'une police peut être approximée rapidement en exécutant le filtre appelé <em>Changer la graisse</em> (que vous trouverez dans le menu Elément &gt; Style) pour ajouter de la graisse à vos glyphes.
 

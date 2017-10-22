@@ -13,7 +13,7 @@ will have only one font, if it will be a collection of several inter-related fon
 Common styles of type families include:
 
 * A Regular and a Bold weight
-* Regular, Bold, Italic &ndash; eventually with a Bold Italic
+* Regular, Bold, Italic &mdash; eventually with a Bold Italic
 * Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black 
 * Regular, Condensed, Bold and Bold Condensed
 * Narrow, Condensed, Wide and Extra Wide
@@ -54,7 +54,7 @@ adding a few glyphs to make it work in one or more additional languages.
 
 It’s certainly a good idea to make this choice deliberately, and to err on the side of including
 less rather than more. Often as a typeface is being made, it can be tempting to include more and
-more glyphs &ndash; but it is frequently more valuable to continue to improve the core set of glyphs
+more glyphs &mdash; but it is frequently more valuable to continue to improve the core set of glyphs
 than adding new ones.
 
 ## Multi-style family workflow

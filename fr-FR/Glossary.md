@@ -38,7 +38,7 @@ Avant que les glyphes TrueType ne soient rasterisés, ils passent par un process
 
 ### Alphabet
 
-Un système d'écriture où il y a des glyphes pour tous les phonèmes — consonnes et voyelles semblables — et (en théorie de toute façon) tous les phonèmes dans un mot seront marqués par un glyphe approprié.
+Un système d'écriture où il y a des glyphes pour tous les phonèmes &mdash; consonnes et voyelles semblables &mdash; et (en théorie de toute façon) tous les phonèmes dans un mot seront marqués par un glyphe approprié.
 
 Voir aussi: abjad, abugida, syllabaire et l'[article pertinent sur Wikipedia](http://fr.wikipedia.org/wiki/Alphabet).
 
@@ -214,9 +214,9 @@ D’autres systèmes d’écriture (l’hébreu par exemple) ont leurs propres e
 
 La moitié d'un "em"
 
-### Eth — Edh
+### Eth &mdash; Edh
 
-L'ancienne lettre germanique "&eth;" pour le son (anglais) "th" (le son dans «this» — la plupart des anglophones ne sont même pas conscients que "th" en anglais a deux sons qui lui est associé, mais c'est le cas. Voir aussi Thorn.
+L'ancienne lettre germanique "&eth;" pour le son (anglais) "th" (le son dans «this» &mdash; la plupart des anglophones ne sont même pas conscients que "th" en anglais a deux sons qui lui est associé, mais c'est le cas. Voir aussi Thorn.
 
 ### Espace blanc
 
@@ -308,7 +308,7 @@ Un style de police commun. Les fûts des glyphes sont plus larges que dans la po
 
 Graphite est une extension de TrueType qui intègre plusieurs tables dans une police contenant des règles pour la mise en forme contextuelle, les ligatures, le réordonnancement, les glyphes divisés, la bidirectionnalité, les diacritiques empilés, le positionnement complexe, etc.
 
-Cela ressemble plutôt à OpenType — sauf que OpenType dépend des routines de mise en page de texte qui en savent beaucoup sur les glyphes impliqués. Cela signifie que les polices OpenType ne peuvent pas être conçues pour une nouvelle langue ou un nouvelle écriture sans avoir à expédier une nouvelle version du système d'exploitation. Alors que les tables Graphite contiennent toutes ces informations cachées.
+Cela ressemble plutôt à OpenType &mdash; sauf que OpenType dépend des routines de mise en page de texte qui en savent beaucoup sur les glyphes impliqués. Cela signifie que les polices OpenType ne peuvent pas être conçues pour une nouvelle langue ou un nouvelle écriture sans avoir à expédier une nouvelle version du système d'exploitation. Alors que les tables Graphite contiennent toutes ces informations cachées.
 
 La typographie avancée d'Apple offre une meilleure comparaison, mais les tables Graphite sont censées être plus faciles à construire.
 
@@ -330,7 +330,7 @@ Les caractères idéographiques utilisés en Chine, au Japon et en Corée (et, j
 
 ### Hangul
 
-Le syllabaire coréen. Le seul syllabaire (que je connais de toute façon) basé sur un alphabet — les lettres de l'alphabet ne paraissent jamais seules, mais seulement comme des groupes de deux ou trois qui forment une syllabe.
+Le syllabaire coréen. Le seul syllabaire (que je connais de toute façon) basé sur un alphabet &mdash; les lettres de l'alphabet ne paraissent jamais seules, mais seulement comme des groupes de deux ou trois qui forment une syllabe.
 
 ### Hanja
 
@@ -344,7 +344,7 @@ Voir aussi Hauteur d'x, Ascendante, Descendante, Overshoot, Ligne de base
 
 ### Hauteur de fonte
 
-À l'époque des fontes de métal, c'était la hauteur du morceau de métal — la distance de la surface d'impression à la plate-forme sur laquelle il reposait.
+À l'époque des fontes de métal, c'était la hauteur du morceau de métal &mdash; la distance de la surface d'impression à la plate-forme sur laquelle il reposait.
 
 ### Hauteur d'x
 
@@ -388,7 +388,7 @@ L'italique diffère de l'oblique en ce que la transformation de la forme réguli
 
 ### Jamo
 
-Les lettres de l'alphabet coréen. Celles-ci ne sont presque jamais seules, apparaissant généralement en groupes de trois dans une syllabe Hangul. Les Jamos sont divisés en trois catégories (avec un chevauchement considérable entre la première et la troisième), le choixong — consonnes initiales, les voyelles jungseong — médiales et les consonnes jongseong — finales. Une syllabe se compose en plaçant un glyphe de choixong en haut à gauche d'un em-square, un jungseong en haut à droite, et éventuellement un jongseong dans la partie inférieure du carré.
+Les lettres de l'alphabet coréen. Celles-ci ne sont presque jamais seules, apparaissant généralement en groupes de trois dans une syllabe Hangul. Les Jamos sont divisés en trois catégories (avec un chevauchement considérable entre la première et la troisième), le choixong &mdash; consonnes initiales, les voyelles jungseong &mdash; médiales et les consonnes jongseong &mdash; finales. Une syllabe se compose en plaçant un glyphe de choixong en haut à gauche d'un em-square, un jungseong en haut à droite, et éventuellement un jongseong dans la partie inférieure du carré.
 
 ### Jeu de caractères
 
@@ -513,7 +513,7 @@ C'est l'ancien nom de FontForge. La conception originale ne permettait d'éditer
 
 ### Points fantômes
 
-Dans une police TrueType, il y a quelques points ajoutés à chaque glyphe qui ne sont pas sur les contours qui composent le glyphe. Ces points sont appelés points fantômes. Un de ces points représente l'approche gauche, et l'autre la chasse du glyphe. Les instructions TrueType (hints) sont autorisées à déplacer ces points tout comme n'importe quels autres points peuvent être déplacés — changeant ainsi l'approche gauche ou la chasse. Les premières versions de TrueType n'incluaient que ces deux points fantômes, les versions plus récentes incluent également un point pour l'approche supérieure et un point pour la chasse verticale.
+Dans une police TrueType, il y a quelques points ajoutés à chaque glyphe qui ne sont pas sur les contours qui composent le glyphe. Ces points sont appelés points fantômes. Un de ces points représente l'approche gauche, et l'autre la chasse du glyphe. Les instructions TrueType (hints) sont autorisées à déplacer ces points tout comme n'importe quels autres points peuvent être déplacés &mdash; changeant ainsi l'approche gauche ou la chasse. Les premières versions de TrueType n'incluaient que ces deux points fantômes, les versions plus récentes incluent également un point pour l'approche supérieure et un point pour la chasse verticale.
 
 ### PCS
 
@@ -548,7 +548,7 @@ Un effet secondaire intéressant d'une police conçue pour l'usage européen est
 
 Autant que je sache, les ordinateurs ont tendance à travailler dans des approximations de points pica (mais c'est peut être parce que je suis aux États-Unis). PostScript utilise une unité de 1/72ème de pouce.
 
-À l'origine les polices n'étaient pas décrites par taille en point, mais par nom. Ce n'est qu'en 1730 que Pierre Fournier créa le système de points pour spécifier les hauteurs des polices. Celle-ci fut plus tard améliorée par Fran&ccedil;ois-Ambroise Didot (d'où le nom du point). En 1878, le Chicago Type Foundry utilisa la première un système de points aux États-Unis. En 1886, le point américain a été normalisé — le pica a été défini comme étant 35/83cm, et le point pica défini comme étant 1/12ème de cela.
+À l'origine les polices n'étaient pas décrites par taille en point, mais par nom. Ce n'est qu'en 1730 que Pierre Fournier créa le système de points pour spécifier les hauteurs des polices. Celle-ci fut plus tard améliorée par Fran&ccedil;ois-Ambroise Didot (d'où le nom du point). En 1878, le Chicago Type Foundry utilisa la première un système de points aux États-Unis. En 1886, le point américain a été normalisé &mdash; le pica a été défini comme étant 35/83cm, et le point pica défini comme étant 1/12ème de cela.
 
 ### Point d'inflexion
 
@@ -601,7 +601,7 @@ Les premiers 65536 points de code d'Unicode. Ceux-ci contiennent la plupart des 
 
 ### PMC
 
-Plan multilingue complémentaire (0x10000-0x1FFFF) d'Unicode. Utilisé pour les alphabets anciens et artificiels et syllabaires — comme Linéaire B, gothique et Shavian. Voir également:
+Plan multilingue complémentaire (0x10000-0x1FFFF) d'Unicode. Utilisé pour les alphabets anciens et artificiels et syllabaires &mdash; comme Linéaire B, gothique et Shavian. Voir également:
 
 * PMB: Plan multilingue de base (0x00000-0x0FFFF)
 * PIC: Plan idéographique complémentaire (0x20000-0x2FFFF)

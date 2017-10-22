@@ -23,7 +23,7 @@ La taille em est la taille de point sur laquelle une police de métal est calcul
 <img src="../en-US/images/em-metal-type.svg" alt>
 
 Dans une police numérique, l'em est une quantité d'espace définie numériquement. Dans une police OpenType,
-l'UPM &ndash; ou la taille em est généralement fixé à 1000 unités. Dans les polices TrueType, l'UPM est par
+l'UPM &mdash; ou la taille em est généralement fixé à 1000 unités. Dans les polices TrueType, l'UPM est par
 convention une puissance de deux, généralement définie à 1024 ou 2048.
 
 Lorsque la police est utilisée pour définir le caractère, l'em est mis à l'échelle à la taille de point
@@ -53,7 +53,7 @@ La hauteur d'x:
 <img src="../en-US/images/xheight.png" alt>
 
 Plus tard, lors de la conception de votre police, vous devrez définir les *Blue values* qui servent
-pour les contours PostScript et également pour l'autohinter de FontForge &ndash; indépendamment des
+pour les contours PostScript et également pour l'autohinter de FontForge &mdash; indépendamment des
 contours sur lesquels vous travaillez.
 Vous trouverez le paramètre dans *Élément > Infos fonte&hellip;*, sur l'onglet *Dictionnaire PS privé*.
 FontForge peut d'abord deviner les valeurs en fonction de vos contours, mais vous devrez les modifier

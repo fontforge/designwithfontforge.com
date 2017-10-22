@@ -48,7 +48,7 @@ title: 标点和符号
 
 <img src="../en-US/images/3quotes.png" alt="">
 
-简单的或者竖直的引号&ndash;&apos;和&quot;&ndash;与印刷上的引号‘ ’和“ ” ‚ „不同。
+简单的或者竖直的引号 &mdash; &apos;和&quot; &mdash; 与印刷上的引号‘ ’和“ ” ‚ „不同。
 
 通常印刷上的引号与逗号非常接近，但是他们应该比逗号更长，并且经常更弯。
 

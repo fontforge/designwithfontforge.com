@@ -15,7 +15,7 @@ title: 引言
 
 我们希望你能够享受阅读这本指南的过程，就像我们写的这本书一样。
 
-*&mdash;&mdash;FontForge项目贡献者*
+*&mdash; FontForge项目贡献者*
 
 [FontForge]: http://fontforge.github.io/
 [on GitHub]: https://github.com/fontforge/designwithfontforge.com/

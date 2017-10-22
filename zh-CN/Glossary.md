@@ -40,7 +40,7 @@ title: 术语表
 
 ### Alphabet（字母表）
 
-一个拥有所有因素的字形书写系统&mdash;&mdash;类似于辅音和元音&mdash;&mdash;并且（无论如何在理论上）一个词中所有的音素会被标记上一个适当的字形。
+一个拥有所有因素的字形书写系统 &mdash; 类似于辅音和元音 &mdash; 并且（无论如何在理论上）一个词中所有的音素会被标记上一个适当的字形。
 
 参见：辅音音素文字，元音附标文字，音节文字和相关的维基百科条目（[http://en.wikipedia.org/wiki/Alphabet](http://en.wikipedia.org/wiki/Alphabet)）
 
@@ -222,7 +222,7 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 ### Eth -- Edh
 
-旧日尔曼语字母“&eth;”对应浊音的（英文的）“th”发音（“this”中的发音&mdash;&mdash;大多数说英语的人甚至不知道英语中的“th”有两个发音关联到它，但它确实如此，参见Thorn）。
+旧日尔曼语字母“&eth;”对应浊音的（英文的）“th”发音（“this”中的发音 &mdash; 大多数说英语的人甚至不知道英语中的“th”有两个发音关联到它，但它确实如此，参见Thorn）。
 
 ### Even-Odd Fill rule
 
@@ -298,7 +298,7 @@ em-square是一个每个边都是1em的正方形。在传统排印中（此时�
 
 Graphite是TrueType的一个扩展，将几个表嵌入到一个字体中，包括上下文形状、连字、重排序、分割字形、双向、变音符号堆叠、复杂位置等的规则。
 
-这听起来更像OpenType&mdash;&mdash;除了OpenType依赖于文本布局惯例来了解关于涉及字形的许多东西。这意味着OpenType字体在没有新版本操作系统推出的情况下不能设计用于一种新的语言或者手写。而Graphite表包含了所有这些隐藏的信息。
+这听起来更像OpenType &mdash; 除了OpenType依赖于文本布局惯例来了解关于涉及字形的许多东西。这意味着OpenType字体在没有新版本操作系统推出的情况下不能设计用于一种新的语言或者手写。而Graphite表包含了所有这些隐藏的信息。
 
 Apple Advanced Typography提供了更好的对比，但是Graphite表被认为更容易构建。
 
@@ -316,7 +316,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### Hangul
 
-韩文音节表。基于一个字母表的唯一的音节表（无论如何我这么认为）&mdash;&mdash;字母表中的字母从不单独出现，只有两个或三个作为一组才能组成一个音节。
+韩文音节表。基于一个字母表的唯一的音节表（无论如何我这么认为） &mdash; 字母表中的字母从不单独出现，只有两个或三个作为一组才能组成一个音节。
 
 ### Hanja
 
@@ -350,7 +350,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 ### Jamo
 
-韩文字母表中的字母（Jamo）。它们几乎从不单独出现，通常作为Hangul音节的一部分以三个为一组出现。字母被分为三类（第一类和第三类有相当大的重叠），choseong&mdash;&mdash;初声，词首辅音，jungseong&mdash;&mdash;中声，中元音，jongseong&mdash;&mdash;终声，词尾辅音。一个音节通过将初声放在em-square的左上，中声放在右上，终声可选地放在下部来组成。
+韩文字母表中的字母（Jamo）。它们几乎从不单独出现，通常作为Hangul音节的一部分以三个为一组出现。字母被分为三类（第一类和第三类有相当大的重叠），choseong &mdash; 初声，词首辅音，jungseong &mdash; 中声，中元音，jongseong &mdash; 终声，词尾辅音。一个音节通过将初声放在em-square的左上，中声放在右上，终声可选地放在下部来组成。
 
 ## K
 
@@ -492,7 +492,7 @@ FontForge只知道拉丁字体的分类方案。其他方案为其他手写体�
 
 ### Phantom points
 
-在TrueType字体中有一些添加到每个字形上的点，它们并不被组成字形的轮廓所指定。它们被称作幽灵点（Phantom points）。这些点中的一个代表左跨距，另一个是字形的步进宽度。TrueType说明（提示，hints）允许移动这些点，就像其他任何可能被移动的点&mdash;&mdash;从而改变左跨距或者步进宽度。TrueType的早期版本只提供这两种幽灵点，较新的版本也支持上跨距幽灵点和竖直步进宽度的幽灵点。
+在TrueType字体中有一些添加到每个字形上的点，它们并不被组成字形的轮廓所指定。它们被称作幽灵点（Phantom points）。这些点中的一个代表左跨距，另一个是字形的步进宽度。TrueType说明（提示，hints）允许移动这些点，就像其他任何可能被移动的点 &mdash; 从而改变左跨距或者步进宽度。TrueType的早期版本只提供这两种幽灵点，较新的版本也支持上跨距幽灵点和竖直步进宽度的幽灵点。
 
 ### Pica
 
@@ -514,7 +514,7 @@ FontForge只知道拉丁字体的分类方案。其他方案为其他手写体�
 
 如我可以告诉你的，计算机倾向于以pica磅的近似值工作（但是这可能是因为我在美国），PostScript使用1/72英寸的单位。
 
-最初字体并不通过磅值来描述，而是通过名称。直到17世纪30年代Pierre Fournier创造了用于指定字体高度的磅系统。接下来这被François-Ambroise Didot改进（因此有了磅的名称）。在1878年芝加哥字体公司首先在美国使用磅系统。在1886年美国磅被标准化&mdash;&mdash;pica被定义为35/83厘米，pica磅被定义为它的1/12。
+最初字体并不通过磅值来描述，而是通过名称。直到17世纪30年代Pierre Fournier创造了用于指定字体高度的磅系统。接下来这被François-Ambroise Didot改进（因此有了磅的名称）。在1878年芝加哥字体公司首先在美国使用磅系统。在1886年美国磅被标准化 &mdash; pica被定义为35/83厘米，pica磅被定义为它的1/12。
 
 ### Point Size
 
@@ -598,7 +598,7 @@ Unicode的表意文字补充平面（Supplementary Ideographic Plane，0x20000-0
 
 ### SMP
 
-Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表&mdash;&mdash;像Linear B，Gothic和Shavian。参见
+Unicode的多文种补充平面（Supplementary Multilingual Plane，0x10000-0x1FFFF）。用在古代人造的字母表和音节表 &mdash; 像Linear B，Gothic和Shavian。参见
 
 * BMP: Basic Multilingual Plane (0x00000-0x0FFFF)
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
@@ -694,7 +694,7 @@ PostScript字体的一个类型。
 
 ### Type High
 
-在金属字体的年代，这是金属块的高度&mdash;&mdash;印刷面到它所放置的平台的距离。
+在金属字体的年代，这是金属块的高度 &mdash; 印刷面到它所放置的平台的距离。
 
 ### Typewriter
 

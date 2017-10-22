@@ -48,7 +48,7 @@ If you can make a file that is small and only contains what is needed to reprodu
 You can also place files on your own website or a file sharing service temporarily (such as MegaUpload, DropBox, Google Drive, etc.) 
 Finally, if you do not wish to make your files publicly available, you can provide an email address for a FontForge developer to contact you at to get a private copy of the file.
 
-Please don't close other people's issues — ask them to close the issue if it is closed to their satisfaction.
+Please don't close other people's issues &mdash; ask them to close the issue if it is closed to their satisfaction.
 
 ## How To Report A Crash
 

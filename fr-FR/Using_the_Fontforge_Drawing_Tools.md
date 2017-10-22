@@ -8,7 +8,7 @@ title: Utilisation des outils de dessin de FontForge
 
 Concevoir une police dans FontForge impliquera l'utilisation d'un certain nombre d'outils et
 d'utilitaires, en commençant par un ensemble d'outils de dessin qui peuvent être familier aux
-utilisateurs ayant de l'expérience avec des graphiques vectoriels &ndash; bien qu'il y ait des
+utilisateurs ayant de l'expérience avec des graphiques vectoriels &mdash; bien qu'il y ait des
 différences notables.
 Nous chercherons d'abord à comprendre comment les courbes de B&eacute;zier fonctionnent, avant
 de regarder les outils de dessin FontForge eux-mêmes.
@@ -24,11 +24,11 @@ représentation alternative pour le concepteur.
 Dans ce chapitre, nous ne discuterons que des chemins *cubiques*, car c'est ce qui est généralement
 utilisé lors du dessin des glyphes. Les chemins *Spiro* seront discutés dans le chapitre suivant et
 les courbes *quadratiques* ne se retrouvent que dans les polices TrueType et sont rarement utilisées
-dans le dessin &ndash; elles sont plutôt générées au moment de la construction.
+dans le dessin &mdash; elles sont plutôt générées au moment de la construction.
 
 Un chemin typique de B&eacute;zier est composée d'une ancre, avec deux poignées qui marquent la
 direction globale &mdash; la longueur de chaque poignée détermine la longueur de la courbe de chaque
-côté &ndash;voir ci-dessous.
+côté &mdash;voir ci-dessous.
 
 ### Différents types de points
 
@@ -42,7 +42,7 @@ elles reste toujours droite, afin de produire une courbe lisse de chaque côté.
 <h4 class="quiet">Points curvilignes H/V (Représentés sous la forme de points en forme de losange)</h4>
 
 Les *points curvilignes H/V* (‘horizontal/vertical’) sont une variante de points curvilignes qui
-s'accrochent à l'axe horizontal ou vertical &ndash; un outil essentiel pour obtenir des formes de Bézier
+s'accrochent à l'axe horizontal ou vertical &mdash; un outil essentiel pour obtenir des formes de Bézier
 correctes (plus de détails dans la section suivante).
 
 <img src="../en-US/images/tools-HV-point.png" alt>
@@ -64,13 +64,13 @@ Sans poignées, ces points produiront des lignes droites.
 Si vous voulez commencer à partir d'une ligne droite, puis commencer à arrondir en douceur, vous voudrez
 utiliser des *points tangents*.
 Une *tangente* laisse une ligne droite d'un côté, tandis que la poignée de B&eacute;zier de l'autre côté
-est sa direction &ndash; ceci assure une transition continue entre la ligne et la courbe.
+est sa direction &mdash; ceci assure une transition continue entre la ligne et la courbe.
 
 <img src="../en-US/images/tools-tangent-point.png" alt>
 
 ### Faire les bons choix
 
-Afin de produire des courbes appropriées &ndash; avec points de contrôle minimaux et une rastérisation
+Afin de produire des courbes appropriées &mdash; avec points de contrôle minimaux et une rastérisation
 facilitée, les ancres doivent toujours être placés aux **extrema de la courbe**, et sauf dans les endroits
 où vous avez des angles dans la forme de vos lettres, la ligne qui détermine le chemin doit être **horizontale
 ou verticale**.
@@ -84,7 +84,7 @@ réels avec une icône de mire:</p>
 <img src="../en-US/images/bezier_sample_3.png" alt>
 
 <p>Vous pouvez alors corriger ce problème en copiant votre contour actuel vers un autre calque, puis déplacer
-les points de contrôle autour de sorte que le contour soit bien tracé &ndash; sinon l'outil de validation de
+les points de contrôle autour de sorte que le contour soit bien tracé &mdash; sinon l'outil de validation de
 FontForge ajoutera automatiquement le point aux extrema. Vous pouvez fusionner l'ancre mal placée de ce point avec
 <I>bouton droit > Fusionner </i>. <br>
 Plus d'informations à ce sujet seront données dans le chapitre sur la validation
@@ -97,7 +97,7 @@ Pour élaborer, il y a deux cas où vous devrez renoncer à des chemins de B&eac
   ci-dessous qui est maintenu presque plat:
   <img src="../en-US/images/bezier_sample_2.png" alt>
 - Si vous voulez placer des angles dans vos lettres, comme dans la partie inférieure gauche du ‘g’ ci-dessous
-  &ndash; c'est généralement où vous voulez utiliser un *coin* (à part pour dessiner des lignes):
+  &mdash; c'est généralement où vous voulez utiliser un *coin* (à part pour dessiner des lignes):
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Remarque:</b> Comme vous pouvez le constater, lors de l'ajout d'angle avec un <i>coin</i>, la
@@ -123,7 +123,7 @@ Dans la fenêtre principale, double-cliquez sur l'une des cases de glyphe pour l
 </div>
 
 <p class="warn"><b>Mise en garde:</b> Parfois, il semble que FontForge ne répond pas lorsque vous êtes à l'intérieur
-de la fenêtre de glyphe. Il se peut qu'il y ait une boîte de dialogue ouverte cachée derrière &ndash; il suffit
+de la fenêtre de glyphe. Il se peut qu'il y ait une boîte de dialogue ouverte cachée derrière &mdash; il suffit
 de la déplacer et de fermer la boîte de dialogue.</p>
 
 Une *ligne* se compose de 2 points.
@@ -182,7 +182,7 @@ et donnez-lui une petite poussée. Vous obtiendrez un nouveau point sur la ligne
 
 L'outil point courbe permet d'ajouter un point dans un segment incurvé.
 L'outil point courbe HV limite les nouveaux points afin qu'ils aient des points de contrôle horizontaux ou
-verticaux &ndash; Ceci est important pour la mise en place de points aux extrema.
+verticaux &mdash; Ceci est important pour la mise en place de points aux extrema.
 L'outil point de coin vous permet de faire un virage serré dans le chemin.
 L'outil point de tangente vous permet de passer d'un segment droit à un segment courbe le long du chemin.
 

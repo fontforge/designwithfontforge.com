@@ -50,8 +50,8 @@ above, the white line inside the letters indicate the approximate construction s
 of the letters themselves.
 
 However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see below) are generally not part
-of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &ndash;
-width, weight, terminals &ndash; are all parts of the flesh.
+of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &mdash;
+width, weight, terminals &mdash; are all parts of the flesh.
 
 <img src="images/AAA.png" alt>
 
@@ -121,7 +121,7 @@ sheer distinction from contrasted type. Like the choice between serifs or sans-s
 an early choice of type design. It is interesting to note that ‘slab’ serif designs generally use
 consistent stroke width in their letters, and that the design of slab serifs is not merely about the
 serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting Your
-Eyes”](Trusting_Your_Eyes.html)) &ndash; contrast is about how the weight looks but not how it measures out to be.
+Eyes”](Trusting_Your_Eyes.html)) &mdash; contrast is about how the weight looks but not how it measures out to be.
 
 ### Angle of contrast
 
@@ -225,7 +225,7 @@ applied consistently to the type design with some deviations for particular lett
 ‘S’, ‘C’ and ‘Z’ (e.g. a type with horizontal serifs for all letters will often have s, c and z to
 have vertical serifs).
 
-There is a urban legend asserting that serif types are easier to read than sans-serifs &ndash; it is
+There is a urban legend asserting that serif types are easier to read than sans-serifs &mdash; it is
 [a sole myth](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), until further
 notice.
 
@@ -238,14 +238,14 @@ particular design may have them giving a soft feel to the serif ([Times New Roma
 may choose to not have any bracket. Some designs also use brackets only on one side or with
 different proportions on the two sides.
 
-This is a relatively strong parameter that renders feel to the type &ndash; elegance (smooth or
+This is a relatively strong parameter that renders feel to the type &mdash; elegance (smooth or
 large brackets of [Times New Roman]) or chunky crisp (absent brackets of [Arvo]).
 
 #### Slab-serifs
 
 Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don’t use
 brackets. Generally speaking, type design with such serifs are seen to have less contrast in their
-glyphs &ndash; [Rockwell], [Courier] or [American typewriter] reflect that.
+glyphs &mdash; [Rockwell], [Courier] or [American typewriter] reflect that.
 
 It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an
 otherwise no-contrast type design. But this is not an absolute rule.
@@ -253,7 +253,7 @@ otherwise no-contrast type design. But this is not an absolute rule.
 #### Serif Terminals
 
 Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the
-type &ndash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
+type &mdash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
 angular ([Rockwell]).
 
 ### Decoration

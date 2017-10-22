@@ -27,6 +27,6 @@ title: 字间距
 
 <div class="note"><p><b>注意：</b>类似的研究发现相比于成人读者的标准尺寸，更大的字间距将会对幼儿更有益处。</p>
 
-<p>Linda Reynolds and Sue Walker (2004) &ndash; ‘You can’t see what the words say: word spacing and
+<p>Linda Reynolds and Sue Walker (2004) &mdash; ‘You can’t see what the words say: word spacing and
 letter spacing in children’s reading books’, <i>Journal of Research in Reading</i>, vol 27, no.1,
 pp. 87-98.</p></div>

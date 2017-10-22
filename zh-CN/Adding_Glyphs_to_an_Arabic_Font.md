@@ -27,7 +27,7 @@ title: 添加字形到阿拉伯字体
 
 #### 为什么要重命名字体？
 
-如果你不重命名字体，你修改的字体将不会与原始的区分开安装&mdash;&mdash;你将不得不首先卸载原始字体。如果你准备分发你的修改版的时候重命名字体也是明智的&mdash;&mdash;如果字体原作者使用Reserved Font Name（RFN）机制保留了字体名，那么原始名字只能用于原作者的字体版本。
+如果你不重命名字体，你修改的字体将不会与原始的区分开安装 &mdash; 你将不得不首先卸载原始字体。如果你准备分发你的修改版的时候重命名字体也是明智的 &mdash; 如果字体原作者使用Reserved Font Name（RFN）机制保留了字体名，那么原始名字只能用于原作者的字体版本。
 
 #### 修改名称数据
 
@@ -41,7 +41,7 @@ title: 添加字形到阿拉伯字体
 
 如果有必要，你可以在*Designer*一项的文本后添加一条信息“Additional glyphs added by”。
 
-点击**OK**来保存修改。你将会看到一条关于为字体生成一个新的UniqueID（XUID）的消息&mdash;&mdash;点击**Change**。
+点击**OK**来保存修改。你将会看到一条关于为字体生成一个新的UniqueID（XUID）的消息 &mdash; 点击**Change**。
 
 
 ## 为*peh*的孤立形式添加字形
@@ -58,13 +58,13 @@ title: 添加字形到阿拉伯字体
 
 <img src="../en-US/images/peh_with_beh.png" />
 
-找到一个包含三个点的字形&mdash;&mdash;*sheen*（位置1588，U+0634）符合。双击这个单元格&mdash;&mdash;将会打开一个字形设计面板。按<kbd>V</kbd>来确保工具箱的指针工具（剪头）选中，按<kbd>Z</kbd>扩大面板来给你一个字形的好的视图。
+找到一个包含三个点的字形 &mdash; *sheen*（位置1588，U+0634）符合。双击这个单元格 &mdash; 将会打开一个字形设计面板。按<kbd>V</kbd>来确保工具箱的指针工具（剪头）选中，按<kbd>Z</kbd>扩大面板来给你一个字形的好的视图。
 
 点击拖动sheen上的三个点的节点，颜色从粉色变为米色。如果你意外地包含或者忽略了一个节点，那么取消选择或者通过按<kbd>Shift</kbd>并点击来选择。按<kbd>Alt</kbd> + <kbd>C</kbd>来复制。
 
 <img src="../en-US/images/sheen_dots.png" />
 
-返回字体表格并双击*peh*单元格&mdash;&mdash;这会将*peh*加载到字形设计面板*sheen*选项卡旁边的另一个选项卡。
+返回字体表格并双击*peh*单元格 &mdash; 这会将*peh*加载到字形设计面板*sheen*选项卡旁边的另一个选项卡。
 
 点击拖动来高亮*peh*下面的点，然后按<kbd>Delete</kbd>。按<kbd>Alt</kbd> + <kbd>V</kbd>来粘贴三个点，很可能出现在*peh*主体的上面。留下高亮的点的节点，这样你可以很容易地翻转或者移动它们。
 
@@ -86,7 +86,7 @@ title: 添加字形到阿拉伯字体
 
 但是这只是字形的孤立（独立）形式。如果你尝试使用你修改过的字体，你将会发现开头、中间和结尾形式并不可用。它们必须被分开制造。“这些形式作为未编码字符（FontForge约定编码是-1的字形）来构建。它们没有预定义的位置。”（Khaled Hosny）
 
-选择**Encoding -> Add Encoding Slots**并输入你想要的字形的数量&mdash;&mdash;在这种情况下是**3**。FontForge将会在字体的后部添加同样数量的位置，你将会被移动到字体表格中那个位置。最后三个单元格（位置65537，65538，65539）的引用字形处有一个问号，在这些单元格中你将会通过重复上面的流程添加未编码字形。
+选择**Encoding -> Add Encoding Slots**并输入你想要的字形的数量 &mdash; 在这种情况下是**3**。FontForge将会在字体的后部添加同样数量的位置，你将会被移动到字体表格中那个位置。最后三个单元格（位置65537，65538，65539）的引用字形处有一个问号，在这些单元格中你将会通过重复上面的流程添加未编码字形。
 
 <img src="../en-US/images/peh_slots.png" />
 
@@ -94,7 +94,7 @@ title: 添加字形到阿拉伯字体
 
 #### 创建最终形式
 
-向上滚动一点字体表格直到你向前到达位置65152（U+FE80）的一系列阿拉伯字形。在U+FE90（位置65168）你讲看到一个*behfinal*字形&mdash;&mdash;点击它并按<kbd>Ctrl</kbd> + <kbd>C</kbd>来复制它。向下滚动到表格的倒数第三个单元格（位置65537），点击它，并按<kbd>Ctrl</kbd> + <kbd>V</kbd>来粘贴*behfinal*字形。
+向上滚动一点字体表格直到你向前到达位置65152（U+FE80）的一系列阿拉伯字形。在U+FE90（位置65168）你讲看到一个*behfinal*字形 &mdash; 点击它并按<kbd>Ctrl</kbd> + <kbd>C</kbd>来复制它。向下滚动到表格的倒数第三个单元格（位置65537），点击它，并按<kbd>Ctrl</kbd> + <kbd>V</kbd>来粘贴*behfinal*字形。
 
 <img src="../en-US/images/beh_forms.png" />
 
@@ -130,7 +130,7 @@ title: 添加字形到阿拉伯字体
 
 点击*'init' Initial Forms in Arabic lookup 2*旁边的**+**。这将会打开同名的子菜单。点击这个子菜单。
 
-右边的*Edit Data*按钮现在将会变成可用&mdash;&mdash;点击它。
+右边的*Edit Data*按钮现在将会变成可用 &mdash; 点击它。
 
 <img src="../en-US/images/peh_lookups1.png" />
 
@@ -146,7 +146,7 @@ title: 添加字形到阿拉伯字体
 
 再次点击**OK**来关闭面板，并保存字体表格（<kbd>Ctrl</kbd> + <kbd>S</kbd>）。
 
-需要注意的是*Default Using Suffix*看起来只能工作在Unicode 06（*Arabic*）块&mdash;&mdash;在Unicode 07（*Arabic Supplement*），比如带两个点的*ain*，可能必须通过点击带行标记的*New*并输入名称来手动添加。
+需要注意的是*Default Using Suffix*看起来只能工作在Unicode 06（*Arabic*）块 &mdash; 在Unicode 07（*Arabic Supplement*），比如带两个点的*ain*，可能必须通过点击带行标记的*New*并输入名称来手动添加。
 
 ### 生成修改的字体
 
@@ -160,6 +160,6 @@ title: 添加字形到阿拉伯字体
 
 <img src="../en-US/images/beh_dal_peh.png" />
 
-<p class="note"><b>注意：</b>如果你在LibreOffice中使用一个字体并修改了这个字体，那么你需要重启LibreOffice来看到任何改变&mdash;&mdash;否则它将使用之前的字体而不是改变了的。</p>
+<p class="note"><b>注意：</b>如果你在LibreOffice中使用一个字体并修改了这个字体，那么你需要重启LibreOffice来看到任何改变 &mdash; 否则它将使用之前的字体而不是改变了的。</p>
 
 感谢[Khaled Hosny](http://khaledhosny.org)对使用FontForge编辑阿拉伯字形的建议。

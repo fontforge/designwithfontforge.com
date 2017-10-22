@@ -35,6 +35,6 @@ trop petit, donc si vous n'êtes pas certain, vous devriez pencher dans cette di
 bénéficient en particulier d'inter-mots plus grands que ce qui est considéré normal pour les
 lecteurs adultes.</p>
 
-<p>Linda Reynolds et Sue Walker (2004) &ndash; ‘You can’t see what the words say: word spacing and
+<p>Linda Reynolds et Sue Walker (2004) &mdash; ‘You can’t see what the words say: word spacing and
 letter spacing in children’s reading books’, <i>Journal of Research in Reading</i>, vol 27, no.1,
 pp. 87-98.</p></div>

@@ -12,7 +12,7 @@ FontForge peut exporter vos polices vers différents formats, mais en pratique s
 
 ## Génération expéditive pour les tests
 
-Pour construire un fichier de police à des fins de test — pour examiner l'espacement dans un navigateur Web par exemple — vous devez seulement vous assurer que votre police passe les tests de validation requis.
+Pour construire un fichier de police à des fins de test &mdash; pour examiner l'espacement dans un navigateur Web par exemple &mdash; vous devez seulement vous assurer que votre police passe les tests de validation requis.
 
 Vous pouvez utiliser l'outil <em>Validation</em> dans le menu Élément (voir le chapitre sur la validation des polices pour une explication plus détaillée) ou sélectionner tous les glyphes (appuyez sur <kbd>Ctrl</kbd> + <kbd>A</kbd> ou choisissez "Sélectionner" -&gt; "Tout sélectionner" dans le menu "Édition") puis exécutez quelques commandes pour appliquer des modifications de base en vrac. N'oubliez pas de sauvegarder votre travail avant de continuer. Cependant, certaines des modifications requises pour valider votre police pour l'exportation va modifier les formes de vos glyphes de façon subtile.
 
@@ -34,7 +34,7 @@ Cliquez sur le bouton "Générer", et FontForge va compiler votre fichier de pol
 
 ## Génération de la version finale
 
-La conception de votre police est un processus itératif, mais le jour viendra où vous devrez déclarer votre police terminée — ou au moins prête pour distribution au public. À ce stade, vous allez à nouveau générer un fichier de sortie .ttf ou .otf (peut-être même les deux), mais avant cela, vous devrez effectuer quelques étapes supplémentaires pour créer la version la plus conforme aux normes et la plus conviviale de votre fichier de police.
+La conception de votre police est un processus itératif, mais le jour viendra où vous devrez déclarer votre police terminée &mdash; ou au moins prête pour distribution au public. À ce stade, vous allez à nouveau générer un fichier de sortie .ttf ou .otf (peut-être même les deux), mais avant cela, vous devrez effectuer quelques étapes supplémentaires pour créer la version la plus conforme aux normes et la plus conviviale de votre fichier de police.
 
 Tout d'abord, suivez les mêmes étapes de préparation que décrites dans la section sur la génération expéditive pour les tests. En particulier, n'oubliez pas de changer votre police à <em> Tous les calques quadratiques</em> si vous créez un fichier TrueType.
 
@@ -46,7 +46,7 @@ FontForge dispose d'une commande <em>Supprimer les recouvrements</em> qui combin
 
 ### Simplifier les contours et ajouter des points extrema
 
-Vous devriez également simplifier vos glyphes si possible — sans éliminer les détails, mais éliminer les points redondants. Cela réduit la taille de chaque glyphe, ce qui réduit considérablement la taille de l'ensemble des caractères de la police.
+Vous devriez également simplifier vos glyphes si possible &mdash; sans éliminer les détails, mais éliminer les points redondants. Cela réduit la taille de chaque glyphe, ce qui réduit considérablement la taille de l'ensemble des caractères de la police.
 
 Dans le menu "Élément", choisissez "Simplifier" -&gt;<Em>Simplifier</em> (ou appuyez sur <kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>M</kbd>). Cette commande fusionnera les points redondants sur la courbe dans tous les glyphes sélectionnés. Dans certains cas, seulement quelques points seront enlevés, dans d'autres il peut y en avoir beaucoup. Mais la simplification devrait se faire sans modifier sensiblement la forme des glyphes. Si vous constatez qu'un glyphe particulier <em>est</em> trop modifié par <em>Simplifier</em>, n'hésitez pas à annuler l'opération. Vous pouvez également expérimenter avec la commande <em>Simplifier d'avantage</em> située dans le même menu; elle offre des paramètres modifiables qui pourraient s'avérer utiles.
 
@@ -101,7 +101,7 @@ Si vous avez apporté des modifications importantes à d'autres fonctionnalités
 
 Le processus de génération des fichiers de police est le même lorsque vous créez la version finale comme c'est le cas lorsque vous créez une copie expéditive pour le test, mais vous voudrez accorder une plus grande attention à certaines des options.
 
-Ouvrez la fenêtre <em>Générer fonte(s)</em> en la choisissant dans le menu "Fichier". Encore une fois, la moitié supérieure de la fenêtre vous permet de choisir le répertoire et le nom du fichier à donner à votre fichier de sortie — faites attention de ne pas écraser une sauvegarde précédente.
+Ouvrez la fenêtre <em>Générer fonte(s)</em> en la choisissant dans le menu "Fichier". Encore une fois, la moitié supérieure de la fenêtre vous permet de choisir le répertoire et le nom du fichier à donner à votre fichier de sortie &mdash; faites attention de ne pas écraser une sauvegarde précédente.
 
 Dans le menu déroulant de gauche, sélectionnez le format de la police que vous générez, <em>TrueType</em> ou <em>OpenType (CFF)</em>, comme indiqué précédemment. Sur le côté droit, assurez-vous que <em>aucun format Bitmap</em> est sélectionné. Sur la ligne en-dessous, assurez-vous que <em>Pas de renommage</em> est sélectionné pour l'option "Nommage des glyphes forcé vers:". Vous pouvez cocher l'option "Validation avant d'enregistrer" si vous le souhaitez (pour potentiellement attraper d'autres erreurs), mais cela est facultatif. Laissez les options "Ajouter une entrée au FONTLOG" et "Date et heure en préfixe" désactivées.
 
@@ -111,9 +111,9 @@ Ensuite, cliquez sur le bouton "Options". Sélectionnez les options <em>Noms de 
 
 Cliquez sur le bouton "Générer", et FontForge va compiler votre fichier de polices. Un dernier mot: il est important de ne pas écraser la version sauvegardée de votre travail dans FontForge avec les modifications que vous avez apportées dans cette section uniquement pour générer votre sortie <em>.ttf</em> ou <em>.otf</em>. Par exemple, vous perdez beaucoup de composants de glyphes individuels lorsque vous effectuez l'opération <em>Supprimer les recouvrements</em>. Mais la prochaine fois que vous reprendrez le travail sur votre police, vous voudrez certainement reprendre où vous avez laissé dans la version originale, la version remplie de glyphes avec composants individuels.
 
-Par conséquent, si vous décidez d'enregistrer la version modifiée de votre fichier FontForge, assurez-vous que vous la renommez de manière mémorable, comme <em>MaPolice-TTF.sfd</em> ou <em>MaPolice-OTF.sfd</Em>. Mais vous n'avez pas forcément besoin de sauvegarder ces variations faites pour la sortie de votre fichier — en pratique, la prochaine fois que vous réviserez votre travail original dans FontForge, vous travaillerez de nouveau à la préparation de la sortie.
+Par conséquent, si vous décidez d'enregistrer la version modifiée de votre fichier FontForge, assurez-vous que vous la renommez de manière mémorable, comme <em>MaPolice-TTF.sfd</em> ou <em>MaPolice-OTF.sfd</Em>. Mais vous n'avez pas forcément besoin de sauvegarder ces variations faites pour la sortie de votre fichier &mdash; en pratique, la prochaine fois que vous réviserez votre travail original dans FontForge, vous travaillerez de nouveau à la préparation de la sortie.
 
 Félicitations! Vous avez maintenant créé votre première police. Tout ce qui vous reste à faire désormais est de partager votre travail: le télécharger sur le web, l'afficher sur votre blog, et le dire à vos amis.
 
-Sans doute, vous reviendrez et continuerez à réviser et à affiner votre police de caractères — après tout, comme vous l'avez vu, le design des polices est un processus très itératif. Mais assurez-vous de faire une pause et de profiter de ce que vous avez accompli d'abord.
+Sans doute, vous reviendrez et continuerez à réviser et à affiner votre police de caractères &mdash; après tout, comme vous l'avez vu, le design des polices est un processus très itératif. Mais assurez-vous de faire une pause et de profiter de ce que vous avez accompli d'abord.
 

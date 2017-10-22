@@ -6,7 +6,7 @@ category: workflow
 title: Chiffres
 ---
 
-Les chiffres sont souvent difficiles pour les concepteurs de polices — et pour plusieurs raisons. L'une est que les chiffres ont un très grand nombre de courbes. Une autre est que les chiffres utilisent souvent des conventions dans leurs formes qui sont différentes (ou sont même en violation de) des conventions visuelles vues dans le reste du design de la police. En outre, les chiffres peuvent avoir un très grand nombre de traits (comme 8 et 5 par exemple), ou ils peuvent avoir de grands espaces blancs (comme 1, 7, et parfois 2 et 4). Les deux situations peuvent être difficiles à gérer. Enfin, il ya le problème de s'assurer que votre zéro est différent de la lettre capitale O.
+Les chiffres sont souvent difficiles pour les concepteurs de polices &mdash; et pour plusieurs raisons. L'une est que les chiffres ont un très grand nombre de courbes. Une autre est que les chiffres utilisent souvent des conventions dans leurs formes qui sont différentes (ou sont même en violation de) des conventions visuelles vues dans le reste du design de la police. En outre, les chiffres peuvent avoir un très grand nombre de traits (comme 8 et 5 par exemple), ou ils peuvent avoir de grands espaces blancs (comme 1, 7, et parfois 2 et 4). Les deux situations peuvent être difficiles à gérer. Enfin, il ya le problème de s'assurer que votre zéro est différent de la lettre capitale O.
 
 Il peut être utile de regarder les chiffres d'une grande variété de polices pour mieux connaître les façons dont les concepteurs font face à ces problèmes.
 
@@ -14,7 +14,7 @@ Dans ces chiffres avec un nombre dense de traits (comme 8), vous pouvez constate
 
 À l'inverse, pour compenser les chiffres avec de grandes proportions d'espace blanc, certains traits sont susceptibles de devenir plus épais que normal.
 
-Afin de distinguer entre le zéro et la lettre capitale O, il existe une large gamme de solutions — comme faire le zéro plus étroit que le O, ou un zéro qui est parfaitement rond, ou peut-être (surtout dans une police à chasse fixe) mettre un barre oblique sur le zéro.
+Afin de distinguer entre le zéro et la lettre capitale O, il existe une large gamme de solutions &mdash; comme faire le zéro plus étroit que le O, ou un zéro qui est parfaitement rond, ou peut-être (surtout dans une police à chasse fixe) mettre un barre oblique sur le zéro.
 
 Avoir le zéro plus étroit que le O capital tout en ayant la même hauteur est l'approche commune. Cette approche est typique des chiffres alignés. Les chiffres alignés sont ceux dont le style est le plus courant. Des exemples de polices qui utilisent cette approche comprennent: de nombreux Garamonds, Futura et la police Web Google Open Sans. Ci-dessous, la police Open Sans montrant le zéro, le O capital, le zéro et d'autres chiffres.
 

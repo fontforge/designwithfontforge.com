@@ -14,7 +14,7 @@ Note the similarity between the upper terminals on this c and f:
 
 Their shapes indicate that they belong in the same group, even though they are subtly different. The terminals are one of the identifying traits of a font, and generally are repeated on many of the letter forms.
 
-However, excessive dependence on modularity shows its own marks in a design, and therefore should be avoided — unless that is a look you want.
+However, excessive dependence on modularity shows its own marks in a design, and therefore should be avoided &mdash; unless that is a look you want.
 
 ## Proceeding with the other lower case letters
 

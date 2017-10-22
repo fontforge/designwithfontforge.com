@@ -7,7 +7,7 @@ title: Introduction
 ---
 
 This book has been produced to help make the process of type design available to anyone. Type design
-is visually complex as well as highly technical — however it is easier to begin making type
+is visually complex as well as highly technical &mdash; however it is easier to begin making type
 now than ever, partly because of the availability of free tools like [FontForge]. While being a
 handy tool with which to begin, FontForge is not just for beginners. It has an advanced toolset
 and is rapidly improving at the time this book is being written.

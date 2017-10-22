@@ -65,7 +65,7 @@ Maintenant vous avez presque un ‘S’! Commencez à pousser les points autour 
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_032-fr-FR.png" alt>
 
-<p>Ne vous inquiétez pas &ndash; Spiro fait parfois de drôles de choses. Il suffit de cliquer sur
+<p>Ne vous inquiétez pas &mdash; Spiro fait parfois de drôles de choses. Il suffit de cliquer sur
 <i>Annuler,</i> ou de continuer à pousser les points pour remettre les choses sur la bonne voie.</p></div>
 
 Maintenant, vous devriez voir quelque chose comme ceci:
@@ -73,7 +73,7 @@ Maintenant, vous devriez voir quelque chose comme ceci:
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_028-fr-FR.png" alt>
 
 Basculer hors du mode Spiro en mode B&eacute;zier. Vous remarquerez qu'il ya beaucoup de points sur
-la courbe résultante &ndash; Vous voudrez peut-être nettoyer certains d'entre eux.
+la courbe résultante &mdash; Vous voudrez peut-être nettoyer certains d'entre eux.
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031-fr-FR.png" alt>
 

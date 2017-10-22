@@ -34,6 +34,6 @@ small, so if you are unsure you may want to err in that direction.
 <div class="note"><p><b>Note:</b> Similar studies have shown that younger children in particular
 benefit a little from word spaces larger than what’s considered normal for adult readers.</p>
 
-<p>Linda Reynolds and Sue Walker (2004) &ndash; ‘You can’t see what the words say: word spacing and
+<p>Linda Reynolds and Sue Walker (2004) &mdash; ‘You can’t see what the words say: word spacing and
 letter spacing in children’s reading books’, <i>Journal of Research in Reading</i>, vol 27, no.1,
 pp. 87-98.</p></div>

@@ -57,7 +57,7 @@ G2点开始。在FontForge中从其他类型的点开始并不真的生效。</p
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
 
-<p>不要担心&ndash;Spiro有时会做出一些滑稽的事情。只需要点击<i>Undo,</i>或者一直微调使事情回到正轨上来。</p></div>
+<p>不要担心 &mdash; Spiro有时会做出一些滑稽的事情。只需要点击<i>Undo,</i>或者一直微调使事情回到正轨上来。</p></div>
 
 现在你应该有了类似这样的东西：
 

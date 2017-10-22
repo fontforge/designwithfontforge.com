@@ -8,7 +8,7 @@ title: Introduction
 
 Ce livre a été produit pour aider à rendre le processus de conception de police de caractères
 accessible à tous. La conception de caractères est visuellement complexe ainsi que hautement 
-technique &ndash; cependant il est plus facile que jamais de commencer à créer des polices, 
+technique &mdash; cependant il est plus facile que jamais de commencer à créer des polices, 
 largement grace à la disponibilité d'outils gratuits tel que [FontForge]. Tout en étant un outil
 pratique avec lequel commencer, FontForge n'est pas seulement pour les débutants. Il dispose
 d'un ensemble d'outils avancés et s'améliore rapidement au moment de l'écriture de ce livre.

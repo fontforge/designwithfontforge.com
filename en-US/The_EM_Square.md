@@ -21,7 +21,7 @@ points em (see below).
  
 <img src="images/em-metal-type.svg" alt>
 
-In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &ndash;
+In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &mdash;
 or em size is usually set at 1000 units. In TrueType fonts, the UPM is by convention a power of two,
 generally set to 1024 or 2048.
 
@@ -52,7 +52,7 @@ The x-height:
 <img src="images/xheight.png" alt>
 
 Later when designing your type, you will have to set the Blue values which serve for PostScript
-outlines and also for the FontForge autohinter &ndash; regardless of which outlines you are working
+outlines and also for the FontForge autohinter &mdash; regardless of which outlines you are working
 on.  
 You will find the setting in *Element > Font Info&hellip;*, on the *PS Private* tab. FontForge can
 initially guess the values based on your outlines, but you will have to edit them yourself for

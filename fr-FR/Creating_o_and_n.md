@@ -25,7 +25,7 @@ conception de polices.
 Par exemple, pour qu'une courbe et un bord droit semblent alignés correctement sur la ligne de base,
 la courbe doit en fait se situer un peu au-dessous de la ligne, produisant un *undershoot*. La partie
 du caractère qui descend juste en dessous de la ligne de base afin d'apparaître assis sur la ligne de
-base s'appelle le *underhang* &ndash; démontré ci-dessous. Sans underhang, les caractères avec des
+base s'appelle le *underhang* &mdash; démontré ci-dessous. Sans underhang, les caractères avec des
 courbes autour de la ligne de base apparaîtront désalignés dans une ligne de texte.
 
 <img src="../en-US/images/underhang1.png" alt>
@@ -40,7 +40,7 @@ l'illusion d'alignement à la hauteur d'x et à la hauteur de capitale (voir ci-
 ## Concevoir le ‘o’ minuscule
 
 La conception du ‘o’ n'est pas seulement à propos de la partie noire de la lettre. Alors que le ‘o’
-fournit le poids et la forme de base de la panse, le blanc &ndash; ou contrepoinçoin &ndash; fournit la
+fournit le poids et la forme de base de la panse, le blanc &mdash; ou contrepoinçoin &mdash; fournit la
 taille et la forme utilisée par le reste de la police.
 D'une manière générale, on peut également observer que la forme ronde du ‘o’ se répétera dans les
 autres caractères. Ceux-ci incluent les b, c, d, e, p et q, et la forme impliquera également le

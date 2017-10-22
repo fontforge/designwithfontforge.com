@@ -45,7 +45,7 @@ Une façon facile de signaler des problèmes est d'enregistrer des vidéos d'éc
 
 Pour reproduire le problème, il peut être utile de partager avec la communauté des développeurs les fichiers avec lesquels vous travaillez. Si vous pouvez faire un fichier petit qui ne contient que ce qui est nécessaire pour reproduire le problème, s'il vous plaît créez un fork du dépôt de fontforge et ajouter ces fichiers à /tests/fonts et soumettez un "pull request". Vous pouvez également placer des fichiers sur votre propre site Web ou sur un service de partage de fichiers temporaires (comme MegaUpload, DropBox, Google Drive, etc.). Enfin, si vous ne souhaitez pas rendre vos fichiers accessibles au public, vous pouvez fournir une adresse e-mail pour un développeur de FontForge qui vous contactera pour obtenir une copie privée du fichier.
 
-S'il vous plaît ne pas fermer les problèmes des autres — demandez-leur de fermer le problème s'il est résolu à leur satisfaction.
+S'il vous plaît ne pas fermer les problèmes des autres &mdash; demandez-leur de fermer le problème s'il est résolu à leur satisfaction.
 
 ## Comment signaler un plantage
 

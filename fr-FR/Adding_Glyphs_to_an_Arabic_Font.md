@@ -28,7 +28,7 @@ Téléchargez la police de la page Web et décompressez-la. Lancez FontForge et 
 
 #### Pourquoi devrais-je renommer la police?
 
-Si vous ne renommez pas la police, votre police adaptée ne sera pas installée séparément de l'original &ndash; vous devrez d'abord désinstaller la police d'origine. Il est également judicieux de renommer la police si vous allez distribuer vos adaptations &ndash; si l'auteur original de la police a réservé le nom de la police sous le mécanisme réservé de nom de police (RFN), ce nom d'origine peut uniquement être utilisé avec la version d'origine de l'auteur de la police.
+Si vous ne renommez pas la police, votre police adaptée ne sera pas installée séparément de l'original &mdash; vous devrez d'abord désinstaller la police d'origine. Il est également judicieux de renommer la police si vous allez distribuer vos adaptations &mdash; si l'auteur original de la police a réservé le nom de la police sous le mécanisme réservé de nom de police (RFN), ce nom d'origine peut uniquement être utilisé avec la version d'origine de l'auteur de la police.
 
 #### Modifier les données de nom
 
@@ -42,7 +42,7 @@ Dans le volet *Noms TTF*, les noms de *famille* et *complet* proviennent des ent
 
 Si vous le souhaitez, vous pouvez placer un message 'Ajout de glyphes supplémentaires' après le texte déjà entré pour *Designer*.
 
-Cliquez sur **OK** pour enregistrer ces modifications. Vous recevrez un message sur la génération d'un nouveau UniqueID (XUID) pour la police &ndash; Cliquez sur **Changer**.
+Cliquez sur **OK** pour enregistrer ces modifications. Vous recevrez un message sur la génération d'un nouveau UniqueID (XUID) pour la police &mdash; Cliquez sur **Changer**.
 
 ## Ajouter le glyphe pour la forme isolée *peh*
 
@@ -58,13 +58,13 @@ Cliquez sur la cellule *beh* (position 1576), puis cliquez avec le bouton droit 
 
 <img src="../en-US/images/peh_with_beh.png" />
 
-Trouver un glyphe avec trois points &ndash; *sheen* (position 1588, U+0634) suffira. Double-cliquez sur la cellule &ndash; cela ouvrira la fenêtre de conception de glyphe. Appuyez sur **V** pour vous assurer que l'outil pointeur (tête de flèche) dans la boîte à outils est sélectionné, puis appuyez sur **Z** et agrandissez la fenêtre pour avoir une bonne vue du glyphe.
+Trouver un glyphe avec trois points &mdash; *sheen* (position 1588, U+0634) suffira. Double-cliquez sur la cellule &mdash; cela ouvrira la fenêtre de conception de glyphe. Appuyez sur **V** pour vous assurer que l'outil pointeur (tête de flèche) dans la boîte à outils est sélectionné, puis appuyez sur **Z** et agrandissez la fenêtre pour avoir une bonne vue du glyphe.
 
 Cliquez et faites glisser afin que les nœuds des trois points au-dessus de sheen changent de couleur de rose à beige. Si vous avez accidentellement inclus ou omis un nœud, désélectionnez-le ou sélectionnez-le en appuyant sur <kbd>Maj</kbd> et en cliquant dessus. Appuyez sur <kbd>Alt</kbd> + <kbd>C</kbd> pour copier.
 
 <img src="../en-US/images/sheen_dots-fr-FR.png" />
 
-Revenez à la fenêtre de fonte et double-cliquez sur la cellule *peh* &ndash; cela va charger *peh* dans un autre onglet dans la fenêtre de conception de glyphe, à côté de l'onglet *sheen*.
+Revenez à la fenêtre de fonte et double-cliquez sur la cellule *peh* &mdash; cela va charger *peh* dans un autre onglet dans la fenêtre de conception de glyphe, à côté de l'onglet *sheen*.
 
 Cliquez et faites glisser pour sélectionner le point en dessous de *peh*, puis appuyez sur **Supprimer**. Appuyez sur <kbd>Alt</kbd> + <kbd>V</kbd> pour coller les trois points, qui apparaîtront probablement au-dessus du corps de *peh*. Laissez les nœuds de points en surbrillance afin que vous puissiez les inverser et les déplacer plus facilement.
 
@@ -86,7 +86,7 @@ Fermez le panneau de conception du glyphe. Il devrait maintenant y avoir un nouv
 
 Cependant, ce n'est que la forme isolée (autonome) du glyphe. Si vous essayez d'utiliser votre police adaptée, vous constaterez que les formes initiales, médiannes et finales ne sont pas disponibles. Celles-ci doivent être créées séparément. "Ces formes sont construites comme des glyphes non codés (glyphes dont le codage est -1 dans les conventions FontForge). Elles n'ont pas de cases prédéfinies." (Khaled Hosny)
 
-Sélectionnez **Codage → Ajouter des cases de codage** et entrez le nombre de glyphes souhaités &ndash; dans ce cas **3**. FontForge ajoutera le même nombre d'emplacements à la fin de la police, et la vue se déplacera à cet endroit dans le tableau de la police. Les trois dernières cellules (positions 65537, 65538, 65539) ont un point d'interrogation comme glyphe de référence, et c'est dans ces cellules que vous allez ajouter les glyphes non codés en répétant le processus ci-dessus. 
+Sélectionnez **Codage → Ajouter des cases de codage** et entrez le nombre de glyphes souhaités &mdash; dans ce cas **3**. FontForge ajoutera le même nombre d'emplacements à la fin de la police, et la vue se déplacera à cet endroit dans le tableau de la police. Les trois dernières cellules (positions 65537, 65538, 65539) ont un point d'interrogation comme glyphe de référence, et c'est dans ces cellules que vous allez ajouter les glyphes non codés en répétant le processus ci-dessus. 
 
 <img src="../en-US/images/peh_slots.png" />
 
@@ -94,7 +94,7 @@ Sélectionnez **Codage → Ajouter des cases de codage** et entrez le nombre de 
 
 #### Créer la forme finale
 
-Remontez le tableau de police un peu jusqu'à ce que vous arrivez à un ensemble de glyphes arabes à la position 65152 (U+FE80). À U+FE90 (position 65168), vous verrez un glyphe *behfinal* &ndash; cliquez dessus et appuyez sur <kbd>Ctrl</kbd> + <kbd>C</kbd> pour le copier. Faites défiler jusqu'à la troisième dernière cellule du tableau (position 65537), cliquez dessus et appuyez sur <kbd>Ctrl</kbd> + <kbd>V</kbd> pour y coller le glyphe *behfinal*.
+Remontez le tableau de police un peu jusqu'à ce que vous arrivez à un ensemble de glyphes arabes à la position 65152 (U+FE80). À U+FE90 (position 65168), vous verrez un glyphe *behfinal* &mdash; cliquez dessus et appuyez sur <kbd>Ctrl</kbd> + <kbd>C</kbd> pour le copier. Faites défiler jusqu'à la troisième dernière cellule du tableau (position 65537), cliquez dessus et appuyez sur <kbd>Ctrl</kbd> + <kbd>V</kbd> pour y coller le glyphe *behfinal*.
 
 <img src="../en-US/images/beh_forms.png" />
 
@@ -131,7 +131,7 @@ Sélectionnez **Elément → Infos fonte → Lookups**.
 
 Cliquez sur le **+** à côté de l'entrée *'init' Initial Forms in Arabic lookup 2*. Cela ouvrira un sous-menu du même nom. Cliquez sur ce sous-menu.
 
-Le bouton *Éditer données* à droite deviendra disponible maintenant &ndash; cliquez dessus.
+Le bouton *Éditer données* à droite deviendra disponible maintenant &mdash; cliquez dessus.
 
 <img src="../en-US/images/peh_lookups1-fr-FR.png" />
 
@@ -148,7 +148,7 @@ Faites la même chose pour les sous-menus sous les entrées *medi' Medial Forms 
 
 Cliquez à nouveau sur **OK** pour fermer le volet et enregistrez le tableau de police (<kbd>Ctrl</kbd> + <kbd>S</kbd>).
 
-Notez que *Par défaut en utilisant le suffixe* semble fonctionner uniquement sur les glyphes du bloc Unicode 06 (*Arabe*) &ndash; les glyphes dans Unicode 07 (*Arabe supplémentaire*), par ex. *ain* avec deux points, peut être ajouté manuellement en cliquant sur la ligne marquée *Nouvelle* et en tapant les noms.
+Notez que *Par défaut en utilisant le suffixe* semble fonctionner uniquement sur les glyphes du bloc Unicode 06 (*Arabe*) &mdash; les glyphes dans Unicode 07 (*Arabe supplémentaire*), par ex. *ain* avec deux points, peut être ajouté manuellement en cliquant sur la ligne marquée *Nouvelle* et en tapant les noms.
 
 ### Générer la police adaptée
 
@@ -162,7 +162,7 @@ Vous pouvez ensuite utiliser votre procédure normale d'installation de polices 
 
 <img src="../en-US/images/beh_dal_peh.png" />
 
-<p class="note">Notez que si vous utilisez une police dans LibreOffice et apportez des modifications à cette police, vous devrez redémarrer LibreOffice pour qu'elle affiche les modifications. &ndash; sinon elle utilisera la version précédente de la police, et non celle avec les nouvelles modifications.</P>
+<p class="note">Notez que si vous utilisez une police dans LibreOffice et apportez des modifications à cette police, vous devrez redémarrer LibreOffice pour qu'elle affiche les modifications. &mdash; sinon elle utilisera la version précédente de la police, et non celle avec les nouvelles modifications.</P>
 
 Merci à [Khaled Hosny](http://khaledhosny.org) pour ses conseils sur l'utilisation de FontForge pour modifier les glyphes arabes.
 

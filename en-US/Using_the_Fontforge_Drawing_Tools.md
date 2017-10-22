@@ -7,7 +7,7 @@ title: Using the FontForge Drawing Tools
 ---
 
 Designing a font in FontForge will involve using a number of tools and utilities, starting with a
-set of drawing tools which may feel familiar to users with experience in vector graphics &ndash;
+set of drawing tools which may feel familiar to users with experience in vector graphics &mdash;
 there are noticeable differences through.  
 We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
 FontForge’s drawing tools themselves.
@@ -21,10 +21,10 @@ the designer.
 
 In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
 glyphs. *Spiro* paths will be discussed in the next chapter, and *Quadratic* curves are only found
-in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
+in TrueType fonts and rarely used in drawing &mdash; they are rather generated at build time.
 
 A typical B&eacute;zier path is composed of an anchor, with two handles that mark the overall
-direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
+direction &mdash; the length of each handle determines the length of the curve on each side &mdash;
 see below.
 
 ### Different kinds of points
@@ -39,7 +39,7 @@ them always stays straight, in order to produce a smooth curve on each side.
 <h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
 
 *H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
-horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier forms done right
+horizontal or vertical axe &mdash; an essential tool in getting B&eacute;zier forms done right
 (more on that in the next section).
 
 <img src="images/tools-HV-point.png" alt>
@@ -61,13 +61,13 @@ Without handles, coins will produce straight lines.
 If you want to start from a straight line and then start curving smoothly, you will want to use
 *tangent points*.  
 A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
-its direction &ndash; this ensures a continuous transition between the line and the curve.
+its direction &mdash; this ensures a continuous transition between the line and the curve.
 
 <img src="images/tools-tangent-point.png" alt>
 
 ### Getting it right
 
-In order to produce proper curves &ndash; with minimal control points and eased rasterization, the
+In order to produce proper curves &mdash; with minimal control points and eased rasterization, the
 anchors should always be placed at **the extremas of the curve**, and unless in places where you
 have breaks in your letterforms, the line that determines the path should be **horizontal or
 vertical**.
@@ -81,7 +81,7 @@ the actual extrema with a sight icon:</p>
 <img src="images/bezier_sample_3.png" alt>
 
 <p>You can then fix this by copying your current outline to another layer, then move the control
-points around so that it’s laid out properly &ndash; otherwise the FontForge Validation tool will
+points around so that it’s laid out properly &mdash; otherwise the FontForge Validation tool will
 add the point at extremas automatically, at which point you can merge your misplaced anchor with
 <i>Right-click > Merge</i>.<br>
 More about that will be said later in the <a href="Making_Sure_Your_Font_Works_Validation.html">
@@ -95,7 +95,7 @@ paths:
   below that’s being kept almost flat:  
   <img src="images/bezier_sample_2.png" alt>
 - If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
-  &ndash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
+  &mdash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
   <img src="images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
@@ -122,7 +122,7 @@ right:</p>
 </div>
 
 <p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are
-inside the Glyph Window. It might be that there is an open dialog box hidden behind it &ndash; so just
+inside the Glyph Window. It might be that there is an open dialog box hidden behind it &mdash; so just
 move it and process the dialog box.</p>
 
 A *Line* consists of 2 points.
@@ -180,7 +180,7 @@ little push. You will get a new point on the line.
 
 The Curve point tool is used to add a point in a curved segment.  
 The HVCurve point tool constrains the new points so that they have either horizontal or vertical
-control points &ndash; this is important for setting up extrema points.  
+control points &mdash; this is important for setting up extrema points.  
 The Corner point tool allows you to make a sharp bend in the path.  
 The Tangent point tool allows you to transition from a straight segment to a curved segment along
 the path.

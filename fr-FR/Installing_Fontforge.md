@@ -7,7 +7,7 @@ title: Installation de FontForge
 ---
 
 FontForge est un logiciel libre, vous pouvez donc télécharger, partager et installer des copies sans aucune
-restriction sur l'utilisation — l'utilisation commerciale ou personnelle est encouragée.
+restriction sur l'utilisation &mdash; l'utilisation commerciale ou personnelle est encouragée.
 Il s'agit d'une application gérée par la communauté et n'importe qui peut contribuer au code source.
 
 FontForge est disponible en paquets faciles à installer pour les systèmes d'exploitation Windows, Mac OS X et GNU+Linux.

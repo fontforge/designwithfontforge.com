@@ -9,7 +9,7 @@ title: Designing Devanagari Typefaces
 
 _Thanks to Adam Twardoch, Erin McLaughlin, Neelakash Kshetrimayum, Dan Reynolds, Pooja Saxena, Dr Girish Dalvi for contributing many of the ideas on this page._
 
-Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of — for example, designing a Devanagari and adapting an existing Latin font to go with it. 
+Designing a new and original [Devanagari](http://en.wikipedia.org/wiki/Devanagari) typeface follows a process much like the process for a new and original Latin. The unique benefit of _libre_ in libre fonts is that you can modify and reuse them for new purposes that their initial creators never thought of &mdash; for example, designing a Devanagari and adapting an existing Latin font to go with it. 
 
 ## Devanagari Glyphs
 
@@ -93,7 +93,7 @@ Then, you can begin using the spacing strings shown above, in order to add more 
 
 and so on!
 
-You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward — both on screen and in print. Doing a vertical check is more effective than just a long line of continuous text. Here's why:
+You'll want to look at these in a long list like that, so you can compare from one glyph to another, as you scroll downward &mdash; both on screen and in print. Doing a vertical check is more effective than just a long line of continuous text. Here's why:
 
 When you look at the spacing strings in vertical columns, you can easily compare the spacing with the lines previously above and below the current character. In the same way that we can easily recognize "rivers" in badly-set full-justified text, it will be easier to see white gaps or dark spots in spacing if you are comparing against a spacing string that remains constant.
 
@@ -151,13 +151,13 @@ The 'Fontlab Studio' and 'OpenType Master' proprietary application have converte
 
 ### Introductions
 
-* [Devanagari — Linotype](https://www.linotype.com/6896/devanagari.html)
+* [Devanagari &mdash; Linotype](https://www.linotype.com/6896/devanagari.html)
 
 ### Where to look for inspiration and ideas
 
 Look at the Devanagari fonts by the [Indian Type Foundry](https://www.indiantypefoundry.com/), and those that were just released through Google Fonts, for inspiration on the variation of letter shapes. 
 
-Another good place to search for Hindi “e-paper” newspaper sites to see actual fonts-in-use — advertisements usually have more diversity in fonts. [Jagran](http://epaper.jagran.com) is a very largely circulated Indian e-paper.
+Another good place to search for Hindi “e-paper” newspaper sites to see actual fonts-in-use &mdash; advertisements usually have more diversity in fonts. [Jagran](http://epaper.jagran.com) is a very largely circulated Indian e-paper.
 
 Flickr is also a good source of ideas for imagery:
 

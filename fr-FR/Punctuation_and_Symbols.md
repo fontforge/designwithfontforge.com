@@ -47,7 +47,7 @@ Le design des glyphes c, C, G, s et S peut fournir une certaine base pour la con
 ## Symboles additionnels
 <img src="../en-US/images/3quotes.png" alt="">
 
-Les guillemets et apostrophes dactylographique — &apos; et &quot; — sont distincts des guillemets typographiques: ‘ ’ et “ ” ‚ „ .
+Les guillemets et apostrophes dactylographique &mdash; &apos; et &quot; &mdash; sont distincts des guillemets typographiques: ‘ ’ et “ ” ‚ „ .
 
 Les apostrophes peuvent suivre la forme de la barre au-dessus du point dans le point d'exclamation, mais ils peuvent également être conçus séparément.
 

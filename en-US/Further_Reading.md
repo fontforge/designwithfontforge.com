@@ -20,7 +20,7 @@ title: Further Reading
 
 ### Curve Math
 
-* [A Primer on Bézier Curves](http://pomax.github.io/bezierinfo/) — excellent guide on the math of Bezier curves
+* [A Primer on Bézier Curves](http://pomax.github.io/bezierinfo/) &mdash; excellent guide on the math of Bezier curves
 * [Raph Levien's PhD on Spiro curves](http://raph.levien.com/phd)
 
 ### Business
@@ -68,7 +68,7 @@ ILT Example Projects:
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
 * [Bulgarian Cyrillic](http://cyrillicsly.com/)
 * [What shall be done for Bulgarian Cyrillic .loclBGR](http://www.lettersoup.de/what-shall-be-done-for-bulgarian-cyrillic-loclbgr/)
-* [Paratype Language Help](http://www.paratype.com/help/language/) — Cyrillic encodings
+* [Paratype Language Help](http://www.paratype.com/help/language/) &mdash; Cyrillic encodings
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
 * [Cyrillic type design](http://luc.devroye.org/cyrillic.html)
 * [ATypI Cyrillic SIG mailing list](http://www.atypi.org/members/special-interest-groups/cyrillic)
@@ -110,7 +110,7 @@ Title: <tt>ISBN: 9780907259343</tt>
 
 <hr />
 
-Title: Adrian Frutiger — Typefaces: The Complete Works
+Title: Adrian Frutiger &mdash; Typefaces: The Complete Works
 
 Authors: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
 

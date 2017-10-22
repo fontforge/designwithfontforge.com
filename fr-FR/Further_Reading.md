@@ -69,7 +69,7 @@ Exemples de projets de *I Love Typography*:
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
 * [Bulgarian Cyrillic](http://www.cyrillicsly.com/)
 * <http://www.lettersoup.de/what-shall-be-done-for-bulgarian-cyrillic-loclbgr/>
-* [Paratype Language Help](http://www.paratype.com/help/language/) — Codages cyrilliques
+* [Paratype Language Help](http://www.paratype.com/help/language/) &mdash; Codages cyrilliques
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
 * <http://luc.devroye.org/cyrillic.html>
 * La liste de diffusion ATypI Cyrillic SIG
@@ -93,9 +93,9 @@ Exemples de projets de *I Love Typography*:
 * [Professor Mahendra Patel](http://patelmc.wordpress.com/mahendrapatel/typedesign/)
 * [Dhruvi Tolia Graduation Report](http://issuu.com/dhruvi/docs/graduation_report)
 * [Sanchit Sawaria Project 3 Document](http://issuu.com/sanchitsawaria/docs/kathandoc)
-* [Yashodeep Gholap — Designing a Devanagari text font for newspaper use](http://www.yashodeepgholap.com/Article.html)
-* [Mustafa Saifee — Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
-* [Vaibhav Singh — Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
+* [Yashodeep Gholap &mdash; Designing a Devanagari text font for newspaper use](http://www.yashodeepgholap.com/Article.html)
+* [Mustafa Saifee &mdash; Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
+* [Vaibhav Singh &mdash; Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Claviers virtuels: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) et [branah](http://www.branah.com/devanagariinscript)
 
 ## Livres
@@ -111,7 +111,7 @@ Titre: <tt>ISBN: 9780907259343</tt>
 
 <hr />
 
-Titre: Adrian Frutiger — Typefaces: The Complete Works
+Titre: Adrian Frutiger &mdash; Typefaces: The Complete Works
 
 Auteurs: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
 

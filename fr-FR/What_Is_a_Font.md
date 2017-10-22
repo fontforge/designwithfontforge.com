@@ -56,7 +56,7 @@ elles-mêmes.
 
 Cependant, la façon dont les traits se terminent (les 'terminaisons' et les 'empattement' (voir ci-dessous)
 ne font pas partie généralement de ce que nous entendons par 'construction'. La construction est le
-squelette du glyphe, tandis que le reste &ndash; la largeur, la graisse, les terminaisons &ndash; font toutes
+squelette du glyphe, tandis que le reste &mdash; la largeur, la graisse, les terminaisons &mdash; font toutes
 parties de la chair.
 
 <img src="../en-US/images/AAA.png" alt>
@@ -132,7 +132,7 @@ est un choix primordial de la conception de police. Il est intéressant de noter
 empattement rectangulaire utilisent généralement une largeur de trait constante dans leurs lettres, et que
 le design des empattements rectangulaires n'est pas seulement à propos des empattements, comme on peut
 l'imaginer! Il faut se rappeler que les règles de la perception s'appliquent (voir [“Faîtes confiance à vos
-yeux”]) &ndash; le contraste a plus rapport à la façon dont la graisse apparaît que comment elle est mesurée.
+yeux”]) &mdash; le contraste a plus rapport à la façon dont la graisse apparaît que comment elle est mesurée.
 
 ### Angle de contraste
 
@@ -225,7 +225,7 @@ degré auquel elles joueront un rôle.
 Notez que dans la police du dessus, les ornements sont plus présents dans la lettre majuscule et que
 dans celle du bas, les ornements le sont plus dans la minuscule.
 
-### Empattement — Être ou ne pas être
+### Empattement &mdash; Être ou ne pas être
 
 Les empattements sont l'un des aspects les plus distincts d'une police de caractères, et souvent la
 première classification de police est de distinguer les polices avec empattements (serif) et sans
@@ -239,7 +239,7 @@ pour des lettres particulières, en particulier les ‘S’, ‘C’ et ‘Z’ 
 horizontale pour toutes les lettres aura souvent s, c et z avec un empattement vertical).
 
 Il existe une légende urbaine affirmant que les polices avec empattement sont plus faciles à lire que sans
-empattement &ndash; cela est [seulement un mythe](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), jusqu'à nouvel ordre.
+empattement &mdash; cela est [seulement un mythe](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), jusqu'à nouvel ordre.
 
 La forme des empattements est liée aux formes des terminaisons.
 
@@ -250,14 +250,14 @@ design particulier peut donner une apparence douce à l'empattement ([Times New 
 peut ne pas inclure aucun congé. Certains designs utilisent également des empattements seulement d'un côté
 ou avec des proportions différentes sur les deux côtés.
 
-Il s'agit d'un paramètre relativement fort qui donne une touche spéciale à la police &ndash; élégance (congés
+Il s'agit d'un paramètre relativement fort qui donne une touche spéciale à la police &mdash; élégance (congés
 doux ou grands de [Times New Roman]) ou lourdeur (congés absents de [Arvo]).
 
 #### Empattements rectangulaires
 
 Également appelé de type mécane ou égyptien, les empattements rectangulaires sont épais et en bloc. Les
 empattements rectangulaires n'utilisent pas de congé. D'une manière générale, le design de police avec de tels
-empattements est considéré comme ayant moins de contraste dans leurs glyphes &ndash; [Rockwell], [Courier] ou
+empattements est considéré comme ayant moins de contraste dans leurs glyphes &mdash; [Rockwell], [Courier] ou
 [American Typewriter] reflètent cela.
 
 On peut supposer que les empattements rectangulaires ont été utilisés pour ajouter un peu d'ornement ou de rythme
@@ -266,7 +266,7 @@ On peut supposer que les empattements rectangulaires ont été utilisés pour aj
 #### Terminaisons d'empattement
 
 Tout comme les terminaisons de lettres, la forme finale des empattements eux-mêmes contribue à l'aspect de la
-police &ndash; soit doux ou lourd. Les terminaisons d'empattement peuvent être douces et arrondies ([Courier])
+police &mdash; soit doux ou lourd. Les terminaisons d'empattement peuvent être douces et arrondies ([Courier])
 ou émoussées et angulaires ([Rockwell]).
 
 ### Décoration

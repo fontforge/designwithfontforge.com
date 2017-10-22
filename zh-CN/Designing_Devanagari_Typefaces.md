@@ -9,7 +9,7 @@ title: 设计天城体样式
 
 _感谢Adam Twardoch、Erin McLaughlin、Neelakash Kshetrimayum、Dan Reynolds、Pooja Saxena、Dr Girish Dalvi为本页贡献了如此多的想法_
 
-设计一个新的原创的[天城体](http://en.wikipedia.org/wiki/Devanagari)样式遵循的流程非常类似设计新的原创的拉丁文的流程。从自由字体的_自由_中能够获得的独特的好处是你可以为字体的初创者从没相处的新目的修改并重用它们&ndash;例如设计一个天城体并改造一个已有的拉丁字体来解决它。
+设计一个新的原创的[天城体](http://en.wikipedia.org/wiki/Devanagari)样式遵循的流程非常类似设计新的原创的拉丁文的流程。从自由字体的_自由_中能够获得的独特的好处是你可以为字体的初创者从没相处的新目的修改并重用它们 &mdash; 例如设计一个天城体并改造一个已有的拉丁字体来解决它。
 
 ## 天城体字形
 

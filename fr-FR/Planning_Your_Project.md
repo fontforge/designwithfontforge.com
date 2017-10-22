@@ -13,7 +13,7 @@ une famille de trois ou quatre styles (maintenant classique) ou si ce sera quelq
 Les styles communs de familles de polices comprennent:
 
 * Une graisse régulière et grasse
-* Régulier, gras, italique &ndash; éventuellement avec un italique gras
+* Régulier, gras, italique &mdash; éventuellement avec un italique gras
 * Mince, léger, book, régulier, semi-gras, gras, extra-gras, noir
 * Régulier, condensé, gras et gras condensé
 * Étroit, condensé, large et extra large
@@ -53,7 +53,7 @@ quelques glyphes pour l'utiliser dans une ou plusieurs langues supplémentaires.
 
 C'est certainement une bonne idée de faire ce choix délibérément, et de rester du côté sûr en incluant
 moins plutôt que trop. Souvent au fur et à mesure que la police de caractères est réalisée, il peut être
-tentant d'inclure de plus en plus de glyphes &ndash; mais il est souvent plus bénéfique de continuer à
+tentant d'inclure de plus en plus de glyphes &mdash; mais il est souvent plus bénéfique de continuer à
 améliorer l'ensemble de glyphes que d'en ajouter de nouveaux.
 
 ## Flux de travail pour famille multi-styles

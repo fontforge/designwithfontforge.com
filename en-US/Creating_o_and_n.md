@@ -25,7 +25,7 @@ the eye.
 For instance, for a curve and a straight edge to look as though they are aligning correctly on the
 baseline, the curve must actually sit a little below the line, producing an *undershoot*. The
 portion of the character that dips just below the baseline in order to appear sitting on the
-baseline is called the *underhang* &ndash; demonstrated below. Without underhang, characters with
+baseline is called the *underhang* &mdash; demonstrated below. Without underhang, characters with
 curves around the baseline will appear misaligned within a line of text.
 
 <img src="images/underhang1.png" alt>
@@ -40,7 +40,7 @@ at the x-height and at the cap-height (see below).
 ## Designing the lowercase ‘o’
 
 The design of the ‘o’ is not just a question of the black part of the letter. While the ‘o’ provides
-the very basic bowl weight and shape, the white &ndash; or counter &ndash; provides the size and
+the very basic bowl weight and shape, the white &mdash; or counter &mdash; provides the size and
 shape used by the rest of the font.  
 In general terms, we can also observe that the round form of the ‘o’ will be echoed in other
 characters. These include the b, c, d, e, p, and q, and the form will also implicate the shaping and

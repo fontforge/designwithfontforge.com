@@ -13,7 +13,7 @@ Noter la similitude entre les terminaisons supérieures sur ce c et ce f:
 
 Leurs formes indiquent qu'elles appartiennent au même groupe, même si elles sont subtilement différentes. Les terminaisons sont l'un des traits d'identification d'une police, et sont généralement répétées sur de nombreuses formes de lettres.
 
-Cependant, une dépendance excessive à la modularité laisse des marques dans un design, et donc devrait être évitée — sauf si c'est le look que vous cherchez.
+Cependant, une dépendance excessive à la modularité laisse des marques dans un design, et donc devrait être évitée &mdash; sauf si c'est le look que vous cherchez.
 
 ## Travailler avec les autres lettres minuscules
 

@@ -44,18 +44,18 @@ A tool for generating such texts is available at [Stringmaker](http://www.ninast
 
 ## <strong>Metrics Menu Commands for editing metrics</strong>
 
-<strong></strong>'Center in Width' — This centers the current glyph within its current width.
+<strong></strong>'Center in Width' &mdash; This centers the current glyph within its current width.
 
-'Window Type' — FontForge's Metrics Window can be set to behave in 2 ways for metrics adjustment;
+'Window Type' &mdash; FontForge's Metrics Window can be set to behave in 2 ways for metrics adjustment;
 
-- 'Advance Width Only' — in this mode metrics view may only be used to adjust the advance widths of glyphs.
-- 'Both' — In this mode metrics view will adjust either the advance width or kerning values.
+- 'Advance Width Only' &mdash; in this mode metrics view may only be used to adjust the advance widths of glyphs.
+- 'Both' &mdash; In this mode metrics view will adjust either the advance width or kerning values.
 
-'Set Width' — this command allows you to change the width of the current glyph.
+'Set Width' &mdash; this command allows you to change the width of the current glyph.
 
-'Set LBearing' — allows you to change the left side bearing value.
+'Set LBearing' &mdash; allows you to change the left side bearing value.
 
-'Set RBearing' — allows you to change the right side bearing value.
+'Set RBearing' &mdash; allows you to change the right side bearing value.
 
 ## <strong>A basic approach to spacing</strong>
 
@@ -72,7 +72,7 @@ Starting with a string of lowercase 'o' characters in the metrics window, the le
 - The right side bearing of the 'n' can be used for the right side bearing of the 'h' and 'm'.
 - The left side bearing of the 'n' can be used for the left side bearing of the 'b', 'h', 'k', 'm', 'p' and 'r'.
 
-Note — the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.
+Note &mdash; the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.
 
 <img src="images/snapshot2.png" alt="">
 
@@ -97,14 +97,14 @@ The Metrics Window in FontForge can be used to design both side bearings and ker
 
 ## <strong>FontForge's Metrics menu</strong>
 
-'Window Type' — FontForge's Metrics window can be set to behave in two different ways to enable kerning adjustment:
+'Window Type' &mdash; FontForge's Metrics window can be set to behave in two different ways to enable kerning adjustment:
 
-- 'Kerning Only' — In this mode the metrics view may only be used to adjust kerning.
-- 'Both' — In this mode metrics view will adjust either the advance width or kerning values.
+- 'Kerning Only' &mdash; In this mode the metrics view may only be used to adjust kerning.
+- 'Both' &mdash; In this mode metrics view will adjust either the advance width or kerning values.
 
-'Kern By Classes' — This command provides the user with a dialog to manipulate kerning classes.
+'Kern By Classes' &mdash; This command provides the user with a dialog to manipulate kerning classes.
 
-'Kern Pair Closeup' — This command provides the user with a dialog from which you can adjust already existing kerned pairs or create new pairs (see below).
+'Kern Pair Closeup' &mdash; This command provides the user with a dialog from which you can adjust already existing kerned pairs or create new pairs (see below).
 
 <img src="images/kerncloseup.png" alt="" height="686" width="632">
 
@@ -122,7 +122,7 @@ This is the most basic level of creating kerning pairs in FontForge. In the Metr
 
 Class kerning can save you a lot of time!
 
-A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied. For example, a class can be created — let's call it 'o_left_bowl' — in which the characters 'o', 'c', 'd', 'e', 'q' will always have the same kerning value when preceeded by, for example, the character 'T'. 
+A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied. For example, a class can be created &mdash; let's call it 'o_left_bowl' &mdash; in which the characters 'o', 'c', 'd', 'e', 'q' will always have the same kerning value when preceeded by, for example, the character 'T'. 
 The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. 
 
 Class Kerning is one kind of GPOS lookup.
@@ -166,7 +166,7 @@ For example in the second screenshot below, two classes have been created, one c
 <img src="images/kernclass4.png" alt="">
 
 You can select all the glyphs and delete classes later, or you can select only the glyphs you want to kern. 
-You select all the glyphs you want to adjust at the same time, and Fontforge will put them in classes — unless you’re working with different writing systems that you don’t want to kern together (like Latin, Greek, Cyrillic…).
+You select all the glyphs you want to adjust at the same time, and Fontforge will put them in classes &mdash; unless you’re working with different writing systems that you don’t want to kern together (like Latin, Greek, Cyrillic…).
 
 When you hit the OK button, you get a big window with some parameters on top, two lists of classes, and a matrix below. 
 When you select a box in the matrix, you can see how the pair is kerned. 
