@@ -1,18 +1,15 @@
 ---
 published: false
 ---
-<<<<<<< HEAD
 
-=======
->>>>>>> 2803015ce806c7ccc314cf00bb16a8cf3ffb6484
 # Summary
 
 * [What Is a Font](What_Is_a_Font.md)
 * [Trusting Your Eyes](Trusting_Your_Eyes.md)
-* [Planning Your Project](Planning_Your_Project.md)                      
+* [Planning Your Project](Planning_Your_Project.md)
 * [The EM Square](The_EM_Square.md)
 * [Installing Fontforge](Installing_Fontforge.md)
-* [Configuring Fontforge](Configuring_FontForge.md)                     |
+* [Configuring Fontforge](Configuring_FontForge.md)
 * [General UI introduction](General_UI_Introduction.md)
 * [Using the Fontforge Drawing Tools](Using_the_Fontforge_Drawing_Tools.md)
 * [Drawing With Spiro](Drawing_With_Spiro.md)
