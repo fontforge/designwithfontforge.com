@@ -30,7 +30,7 @@ title: 字体信息和元数据
 
 副版本号的更新则对应小的改变，比如改变纵向规格（vertical metrics）和水平跨距（horizontal side bearings）、调整字间距（kerning）或对某些字形（glyphs）做微小的修改。这些改变会使使用这个字体排版的文档结构有细微的改变（尽管多数情况下很小）。这里有[一个例子](http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products)：
 
-![Comparison of Roboto v1 and Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg)
+![Comparison of Roboto v1 and Roboto v2](https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto,fl_lossy/fc/3033126-inline-i-thenewroboto2.jpg)
 
 为了完成对一种文字的支持而加入十几个字形（glyphs）很有可能只更新副版本号，特别是在垂直规格（vertical metrics）没有改变的情况下。
 
