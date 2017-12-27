@@ -25,7 +25,7 @@ However, if a complementary design is made for 2 scripts, it may be best to rele
 
 A MINOR version would be anything that subtly changes the metrics, such as vertical metrics, horizontal sidebearings or improved kerning, or making minor corrections to some glyphs, because such updates will cause documents using the font to reflow (albeit subtly in many cases.) Here is an example from ["Roboto Rebooted: Why Google Updates Its Font Like The Rest Of Its Products"](http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products):
 
-![Comparison of Roboto v1 and Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
+![Comparison of Roboto v1 and Roboto v2](https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto,fl_lossy/fc/3033126-inline-i-thenewroboto2.jpg) 
 
 Adding just a few or a dozen glyphs to "complete" coverage of a previously intended character set or to add support for just a few more languages is probably MINOR, especially if it doesn't change the vertical metrics. 
 
