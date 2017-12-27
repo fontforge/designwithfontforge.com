@@ -26,7 +26,7 @@ Si vous avez un document utilisant Exo, vous ne voulez pas tomber dans Exo 2, pa
 
 Une version MINEURE serait tout ce qui modifie subtilement les métriques, telles que les métriques verticales, les approches horizontales ou l'amélioration du crénage, ou l'apport de corrections mineures à certains glyphes, car de telles mises à jour entraîneront la repagination des documents utilisant la police (bien que subtilement dans de nombreux cas). Voici un exemple (en anglais) de <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>:
 
-![Comparaison de Roboto v1 et Roboto v2](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2014/07/3033126-inline-i-thenewroboto2.jpg) 
+![Comparaison de Roboto v1 et Roboto v2](https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto,fl_lossy/fc/3033126-inline-i-thenewroboto2.jpg) 
 
 L'ajout de quelques glyphes ou d'une douzaine d'entre-eux pour "compléter" la couverture d'un jeu de caractères précédemment planifié ou l'ajout de la prise en charge de quelques langues supplémentaires est probablement MINEUR, surtout si cela ne change pas les métriques verticales.
 
