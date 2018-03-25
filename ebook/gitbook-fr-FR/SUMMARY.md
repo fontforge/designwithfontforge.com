@@ -6,10 +6,10 @@ published: false
 
 * [Qu'est-ce qu'un police de caractères?](What_Is_a_Font.md)
 * [Faîtes confiance à vos yeux ](Trusting_Your_Eyes.md)
-* [Planification de votre projet](Planning_Your_Project.md)                      
+* [Planification de votre projet](Planning_Your_Project.md)
 * [Le cadratin (EM)](The_EM_Square.md)
 * [Installation de Fontforge](Installing_Fontforge.md)
-* [Configation de Fontforge](Configuring_FontForge.md)                     |
+* [Configation de Fontforge](Configuring_FontForge.md)
 * [Aperçu de l'interface utilisateur](General_UI_Introduction.md)
 * [Utilisation des outils de dessin de FontForge](Using_the_Fontforge_Drawing_Tools.md)
 * [Dessin avec Spiro](Drawing_With_Spiro.md)
@@ -33,4 +33,4 @@ published: false
 * [Importation de glyphes d'autres programmes](Importing_Glyphs_from_Other_Programs.md)
 * [Ajout de glyphes à une police arabe](Adding_Glyphs_to_an_Arabic_Font.md)
 * [Lectures complémentaires](Further_Reading.md)
-* [Glossaire](Glossary.md)                    
+* [Glossaire](Glossary.md)
