@@ -258,7 +258,13 @@ angular ([Rockwell]).
 
 ### Decoration
 
-<img src="images/4decoration.png" alt>
+The letter forms themselves may be decorated inside, or they may be extended with superfluous decorative forms - or both!
+
+<img src="images/decoration-1.jpg" alt>
+
+<img src="images/decoration-2.jpg" alt>
+
+<img src="images/decoration-3.jpg" alt>
 
 ### Dimension
 
