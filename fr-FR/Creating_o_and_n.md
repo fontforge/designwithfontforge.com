@@ -40,7 +40,7 @@ l'illusion d'alignement à la hauteur d'x et à la hauteur de capitale (voir ci-
 ## Concevoir le ‘o’ minuscule
 
 La conception du ‘o’ n'est pas seulement à propos de la partie noire de la lettre. Alors que le ‘o’
-fournit le poids et la forme de base de la panse, le blanc &mdash; ou contrepoinçoin &mdash; fournit la
+fournit le poids et la forme de base de la panse, le blanc &mdash; ou contrepoinçon &mdash; fournit la
 taille et la forme utilisée par le reste de la police.
 D'une manière générale, on peut également observer que la forme ronde du ‘o’ se répétera dans les
 autres caractères. Ceux-ci incluent les b, c, d, e, p et q, et la forme impliquera également le
