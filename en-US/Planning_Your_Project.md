@@ -118,7 +118,7 @@ Common features include
 
 For some languages `locl` works but for others it doesn't, so it is best to expose language specific forms via both `locl` and `ssNN` or `cvNN`.
 
-The OpenType specification allows for some kinds of features which are not recommend:
+The OpenType specification allows for some kinds of features which are not recommended:
 
 * `hist` feature. Read more in this [discussion on TypeDrawers](http://typedrawers.com/discussion/1358/what-are-the-best-practices-for-the-hist-feature-long-s).
 
