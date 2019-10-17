@@ -75,4 +75,4 @@ Full instructions are at <https://github.com/fontforge/fontforge/blob/master/INS
 
 ## Debugging the FontForge software
 
-When you See the [Debugging](When_Things_Go_Wrong_With_Fontforge_Itself) section for more information.
+See the [Debugging](When_Things_Go_Wrong_With_Fontforge_Itself) section for more information.
