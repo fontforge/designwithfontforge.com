@@ -45,7 +45,7 @@ This is one of the **big secrets** of professional type designers:
 A lot of the most important work in a typeface design project is done outside the font editor, in testing documents created in a typesetting system. 
 The main systems are:
 
-* Web (Firefox, Chromium, etc)
-* DTP tools (Scribus, Inkscape, etc)
-* Word Processors (Libre Office, AbiWord, Calligra Words, etc)
-* Programming Page Layout Processors (LaTeX, ConTeXt, SILE, ShoeBot, Even, etc)
+* Web (Firefox, Chromium, etc.)
+* DTP tools (Scribus, Inkscape, etc.)
+* Word Processors (Libre Office, AbiWord, Calligra Words, etc.)
+* Programming Page Layout Processors (LaTeX, ConTeXt, SILE, ShoeBot, Even, etc.)
