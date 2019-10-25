@@ -71,7 +71,7 @@ GitHub is a source-code hosting service where everyone can contribute to the dev
 It stores the current leading state of development of the application.
 In some cases, perhaps because you want access to a feature not yet available in the release packages, you may wish to compile your own version from Github.
 
-Full instructions are at <https://github.com/fontforge/fontforge/blob/master/INSTALL-git.md>
+Full instructions are at <https://github.com/fontforge/fontforge/blob/master/INSTALL.md>
 
 ## Debugging the FontForge software
 
