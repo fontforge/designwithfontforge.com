@@ -46,7 +46,7 @@ horizontal or vertical axe &mdash; an essential tool in getting B&eacute;zier fo
 
 #### Coins or corner points (shown as square-shaped points)
 
-*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independant of the
+*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independent of the
 others, making it suitable for discontinuities in the outline.  
 Without handles, coins will produce straight lines.
 
@@ -76,7 +76,7 @@ vertical**.
 
 <div class="note">
 <p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+the actual extrema with a sight icon (`⊕`):</p>
 
 <img src="images/bezier_sample_3.png" alt>
 
