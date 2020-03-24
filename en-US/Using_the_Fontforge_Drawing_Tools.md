@@ -75,7 +75,7 @@ vertical**.
 
 <div class="note">
 <p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+the actual extrema with a sight icon (`⊕`):</p>
 
 <img src="images/bezier_sample_3.png" alt>
 
