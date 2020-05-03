@@ -132,7 +132,7 @@ Here is a sample schedule for an interpolated family of 9 weights, upright and s
 |15|Extrapolation and clean-up of thin and black weights, generation and clean-up of slanted styles|3,600|
 |16|Interpolated styles refinement|3,600|
 |17|General refinement of spacing, kerning & testing in all styles|3,600|
-|18|Finalisation|3,600|
+|18|Finalization|3,600|
 
 You may want to work with a font that has no sources available, only binary OpenType GPOS/GSUB tables. 
 There are a few tools that can convert those into the Adobe FEA syntax, including FontForge, but the output of each tool will require reworking by hand.
@@ -201,7 +201,6 @@ Lohit2 Devanagari can be used as a base for new OFL fonts by using its Glyph Lis
 If you're new to Devanagari script, it's important to become aware of traditional calligraphic pen stress, which is different than in Latin. Here's a quick demonstration of the stroke angle, and how curves were traditionally weighted. Your design will be more successful, and appear less "Latinized", if you draw your curves according to these weight principles, rather than cutting-and-pasting Latin alphabet letter parts.
 
 <iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/_P-Ty512SyA?rel=0" frameborder="0" allowfullscreen></iframe>
-
 The [Devanagari Unicode page](http://www.unicode.org/charts/PDF/U0900.pdf) shows the basic letters, but not the conjuncts.
 
 ### Testing Tools
@@ -210,7 +209,7 @@ Adobe InDesign's support for OpenType Fonts for non-European scripts only became
 
 [Pablo Impallari's Devanagari Testing Page](http://www.impallari.com/testing/index-devanagari.php) (with [sources on GitHub!](https://github.com/impallari/font-testing-page/)) provides some ready-made testing layouts, and you can drag and drop your OTF or TTF right into the page to load it.
 
-[Pooja Saxena's Type Tools](https://anexasajoop.github.io/devanagari-type-tools) (with [sources on github!](https://github.com/anexasajoop/devanagari-type-tools)) generates test texts for letter combinations.
+[Pooja Saxena's Type Tools](https://anexasajoop.github.io/devanagari-type-tools) (with [sources on GitHub!](https://github.com/anexasajoop/devanagari-type-tools)) generates test texts for letter combinations.
 
 The [Adhesion Text Devanagari](http://www.adhesiontext.com/devanagari/) is a special version of the a tool built by Miguel Sousa to make dummy text comprised only of the words possible to write with the glyphs you have already drawn. Insert the glyphs (अआईईउऊ etc) that you've drawn, and out will come some sample words for you to use in proofs.
 

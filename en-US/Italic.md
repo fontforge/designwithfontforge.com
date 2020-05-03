@@ -32,7 +32,7 @@ When designing your italic, you can very effectively tune the effect your italic
 
 ### In and out strokes
 
-Many italic fonts make use of asymmetical serifs, in the form of in- or out-strokes or both. When only one is used, it is more common to use the outstroke and to have an upright style applied where the instroke might have been. The intensity of the effect that instroke and outstroke has can be controlled by the weight of the strokes and by adjusting how long they are. Like triangular counters, a great part of their utility and power comes from the fact that so many letters use them.
+Many italic fonts make use of asymmetrical serifs, in the form of in- or out-strokes or both. When only one is used, it is more common to use the outstroke and to have an upright style applied where the instroke might have been. The intensity of the effect that instroke and outstroke has can be controlled by the weight of the strokes and by adjusting how long they are. Like triangular counters, a great part of their utility and power comes from the fact that so many letters use them.
 
 ### Condensation
 
@@ -40,7 +40,7 @@ Italics are normally somewhat less wide or more condensed than the regular style
 
 ## Mixing variables
 
-Most italics use all of the variables listed above in various proportions. You may find that it is useful to look at a range of italic designs and analyse which variables are being used and in what strength. When you do this, you will notice that none of the variables are used at full strength. Instead, one of the variables tends to lead, with some limited use of the others. The stronger the use of the variables the more contrast your italic will have from the regular.
+Most italics use all of the variables listed above in various proportions. You may find that it is useful to look at a range of italic designs and analyze which variables are being used and in what strength. When you do this, you will notice that none of the variables are used at full strength. Instead, one of the variables tends to lead, with some limited use of the others. The stronger the use of the variables the more contrast your italic will have from the regular.
 
 It is also notable that in the last ten years we have seen an increasing number of type designers choose to offer not just one italic in their type families, but two or even more. It is also notable that dictionaries sometimes make use of more than one style of italic.
 

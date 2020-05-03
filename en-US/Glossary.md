@@ -288,7 +288,7 @@ The old germanic runic script.
 
 Sometimes it is important to indicate that a horizontal edge is indeed horizontal. But the edge has no corresponding edge with which to make a normal stem. In this case a special hint is used with a width of -20 (or -21). A ghost hint must lie entirely within a glyph. If it is at the top of a contour, use a width of -20, if at the bottom, use -21. Ghost hints should also lie within BlueZones.
 
-(The spec also mentions vertical ghost hints, but as there are no vertical bluezones it is not clear how these should be used.)
+(The spec also mentions vertical ghost hints, but as there are no vertical BlueZones it is not clear how these should be used.)
 
 ### Glyph
 

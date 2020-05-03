@@ -10,7 +10,7 @@ title: Adding Glyphs to an Arabic Font
 
 In some cases a font may lack a glyph that is essential for its use in your application. Arabic fonts present special issues here, because the shape of the glyph depends not only on its position in the word, but also on the attributes of the letter itself. Thus, using the nonsense sequence *babab*, the letter *beh* has three different shapes depending on whether it comes initially, medially, or finally. However, using the nonsense sequence *dadad*, the letter *dal* has only one shape, no matter where it occurs in the word.
 
-Fonts under open licenses (e.g. [GPL](http://gnu.org/copyleft/gpl.html) or [OFL](http://scripts.sil.org/OFL-FAQ_web)) allow the user to make modifications. If you adapt a font that was originally under an open licence and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
+Fonts under open licenses (e.g., [GPL](http://gnu.org/copyleft/gpl.html) or [OFL](http://scripts.sil.org/OFL-FAQ_web)) allow the user to make modifications. If you adapt a font that was originally under an open license and then distribute it, you must retain the original author's copyright notices and licensing information, although you can append a note at the end of the copyright notice covering your contribution.
 
 <img src="images/beh_dal.png" />
 
@@ -59,7 +59,7 @@ Click on the *beh* cell (position 1576), then right-click and select **Copy**. T
 
 Find a glyph with three dots &mdash; *sheen* (position 1588, U+0634) will do. Double-click on the cell &mdash; this will open a glyph design panel. Press <kbd>V</kbd> to ensure the pointer tool (arrowhead) in the toolbox is selected, and press <kbd>Z</kbd> and enlarge the panel to give you a good view of the glyph.
 
-Click and drag so that the nodes of the three dots above sheen change colour from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing <kbd>Shift</kbd> and clicking. Press <kbd>Alt</kbd> + <kbd>C</kbd> to copy.
+Click and drag so that the nodes of the three dots above sheen change color from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing <kbd>Shift</kbd> and clicking. Press <kbd>Alt</kbd> + <kbd>C</kbd> to copy.
 
 <img src="images/sheen_dots.png" />
 
@@ -92,7 +92,6 @@ Select **Encoding > Add Encoding Slots** and enter the number of the glyphs you 
 <img src="images/peh_slots.png" />
 
 <p class="note">Note that if by mistake you start typing when the font chart still has focus, you get moved to the European section at the top. To get back to the bottom, select <strong>View > Go to</strong>, click the dropdown box and select <strong>Not a Unicode Character</strong>,  and then click <strong>OK</strong>.</p>
-
 ### Create the final form
 
 Roll the font chart up a bit until you come to a set of Arabic glyphs at position 65152 (U+FE80) onwards. At U+FE90 (position 65168) you will see a *behfinal* glyph &mdash; click on it and press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy it. Roll down to the third last cell in the chart (position 65537), click on it, and press <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste in the *behfinal* glyph.
@@ -164,7 +163,6 @@ You can then use your normal font installation procedure to install the adapted 
 <img src="images/beh_dal_peh.png" />
 
 <p class="note">Note that if you are using a font in LibreOffice and make changes to that font, you need to restart LibreOffice to have it see any changes &mdash; otherwise it will use the previous version of the font, and not the one with the new changes.</p>
-
 Thanks to [Khaled Hosny](http://khaledhosny.org) for his advice on using FontForge to edit Arabic glyphs.
 
 ## Further reading
