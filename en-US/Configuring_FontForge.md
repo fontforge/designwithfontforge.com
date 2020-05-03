@@ -102,5 +102,5 @@ sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applic
 
 #### Window management
 
-FontForge isn't a native Mac app, so window handling can be slighty "off," especially on dual monitor systems.
+FontForge isn't a native Mac app, so window handling can be slightly "off," especially on dual monitor systems.
 To regain control of window positions, use the free, libre, open source [ShiftIt](https://github.com/fikovnik/ShiftIt) utility to assign keyboard shortcuts to set window positions.

@@ -6,10 +6,10 @@ category: Appendices
 title: When Things Go Wrong With FontForge Itself
 ---
 
-FontForge is developed on Github. 
-The FontForge team uses Github Issues to discuss problems, errors and ideas for improvements, and then someone develops a solution and proposes it as a _Pull Request_.
+FontForge is developed on GitHub. 
+The FontForge team uses GitHub Issues to discuss problems, errors and ideas for improvements, and then someone develops a solution and proposes it as a _Pull Request_.
 
-To learn more about Github, check out [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/).
+To learn more about GitHub, check out [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/).
 
 ## Paying for Support
 
@@ -65,7 +65,7 @@ If they can do this, then they will be able to work out where the code is going 
 After the Pull Request that addresses the issue is merged, you'll need to get a version after that. 
 You can do one of the following:
 
-* recompile from the latest Github source code (see [Installing Fontforge](Installing_Fontforge.html)), 
+* recompile from the latest GitHub source code (see [Installing Fontforge](Installing_Fontforge.html)), 
 * check if a daily build is available (often possible for [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), or 
 * wait until the next release (often within a few weeks).
 

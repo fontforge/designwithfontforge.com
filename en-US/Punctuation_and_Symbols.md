@@ -55,7 +55,7 @@ Usually typographic quotes are fairly closely related to the comma; however, the
 
 <img src="images/3quotes2.png" alt="">
 
-Brackets [ ] are relatively simple to make because they are so boxy in shape. Neverthess their design should reflect the choices you have made in the rest of the typeface.
+Brackets [ ] are relatively simple to make because they are so boxy in shape. Nevertheless their design should reflect the choices you have made in the rest of the typeface.
 
 The main question to decide is how tall and deep they will be. The convention is that they should exceed the height of the capitals very slightly and descend below the baseline to approximately 3/4 of the depth of your lower case descenders.
 

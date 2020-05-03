@@ -28,11 +28,11 @@ The side bearings of characters can be edited in FontForge’s Metrics Window in
 
 ### Adjusting Side Bearing Values with the keyboard
 
-One method of adjusting metric values quickly and accurately in FontForge is by using the up, down, left and right keys of a keyboard. The up and down keys are used to incrememt / decrement values and <kbd>Alt</kbd> + <kbd>Up</kbd>, <kbd>Alt</kbd> + <kbd>Down</kbd>, <kbd>Alt</kbd> + <kbd>Left</kbd> and <kbd>Alt</kbd> + <kbd>Right</kbd> are used for navigating around the different value fields of the Metrics Window.
+One method of adjusting metric values quickly and accurately in FontForge is by using the up, down, left and right keys of a keyboard. The up and down keys are used to increment / decrement values and <kbd>Alt</kbd> + <kbd>Up</kbd>, <kbd>Alt</kbd> + <kbd>Down</kbd>, <kbd>Alt</kbd> + <kbd>Left</kbd> and <kbd>Alt</kbd> + <kbd>Right</kbd> are used for navigating around the different value fields of the Metrics Window.
 
 ## General Principles
 
-As a general principle, symmetric characters such as 'A' 'H' 'I' 'M' 'N' 'O' 'T' 'U' 'V' 'W' 'X' 'Y' 'o' 'v' 'w' 'x' will have symmetric side bearings, e.g. the left and right side bearings of an 'H' will be the same value. Note though that this is not a hard and fast rule, but a general one.
+As a general principle, symmetric characters such as 'A' 'H' 'I' 'M' 'N' 'O' 'T' 'U' 'V' 'W' 'X' 'Y' 'o' 'v' 'w' 'x' will have symmetric side bearings, e.g., the left and right side bearings of an 'H' will be the same value. Note though that this is not a hard and fast rule, but a general one.
 
 As you space the characters that you design, you should trust your eyes. The bottom line is to 'design, look, adjust, look again'.
 
@@ -61,7 +61,7 @@ A tool for generating such texts is available at [Stringmaker](http://www.ninast
 
 The following method is designed to get you started effectively towards designing the metrics of your font.
 
-Starting with a string of lowercase 'o' characters in the metrics window, the left and right sidebearings can be adjusted until the spacing of the characters looks and feels right. One way to look for this 'rightness' is to look for the whitespace between the 'o' characters to balance the whitespace inside the 'o' characters. In general, with the exception of slanted or italic fonts, the left and right side bearings of a lowercase 'o' should be of equal value. Once you are happy with the spacing of your string of 'o' characters, introduce the 'n' character from your font (see below) and then look to adjust the side bearings of the 'n' so that its spacing fits into the balance of the string of 'o' characters (see below). Note that due to the nature of the way our eyes see, the right side bearing of an 'n' will allways be a smaller value than the left side bearing, and the side bearings of the 'o' will be smaller than the side bearings of the 'n'.
+Starting with a string of lowercase 'o' characters in the metrics window, the left and right sidebearings can be adjusted until the spacing of the characters looks and feels right. One way to look for this 'rightness' is to look for the whitespace between the 'o' characters to balance the whitespace inside the 'o' characters. In general, with the exception of slanted or italic fonts, the left and right side bearings of a lowercase 'o' should be of equal value. Once you are happy with the spacing of your string of 'o' characters, introduce the 'n' character from your font (see below) and then look to adjust the side bearings of the 'n' so that its spacing fits into the balance of the string of 'o' characters (see below). Note that due to the nature of the way our eyes see, the right side bearing of an 'n' will always be a smaller value than the left side bearing, and the side bearings of the 'o' will be smaller than the side bearings of the 'n'.
 
 <img src="images/snapshot1_1.png" alt="">
 
@@ -114,7 +114,7 @@ Just like with adjusting side bearing values, kerning values can be quickly and 
 
 ## <strong>Kerning individual pairs</strong>
 
-This is the most basic level of creating kerning pairs in FontForge. In the Metrics Window, the kerning value between two characters can be manually adjusted either by dragging the right-hand character to or from the left-hand character, or by editing the kerning value directly in the metrics table of the window. To change kerning values by dragging characters, use the kern-tool handle that appears when the mouse cursor is hovering between two characters (see screeenshot below). The kerning value in the metrics table can be edited by manually entering values or by incrementing / decrementing the value using your keyboard's up / down keys.
+This is the most basic level of creating kerning pairs in FontForge. In the Metrics Window, the kerning value between two characters can be manually adjusted either by dragging the right-hand character to or from the left-hand character, or by editing the kerning value directly in the metrics table of the window. To change kerning values by dragging characters, use the kern-tool handle that appears when the mouse cursor is hovering between two characters (see screenshot below). The kerning value in the metrics table can be edited by manually entering values or by incrementing / decrementing the value using your keyboard's up / down keys.
 
 <img src="images/mnl-kern.png" alt="">
 
@@ -122,7 +122,7 @@ This is the most basic level of creating kerning pairs in FontForge. In the Metr
 
 Class kerning can save you a lot of time!
 
-A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied. For example, a class can be created &mdash; let's call it 'o_left_bowl' &mdash; in which the characters 'o', 'c', 'd', 'e', 'q' will always have the same kerning value when preceeded by, for example, the character 'T'. 
+A 'kern class' in FontForge can be created to build groups of characters who will all have the same kerning value applied. For example, a class can be created &mdash; let's call it 'o_left_bowl' &mdash; in which the characters 'o', 'c', 'd', 'e', 'q' will always have the same kerning value when preceded by, for example, the character 'T'. 
 The 'T' could also itself be a member of another class that would likely include other characters such as Tcaron and Tbar. 
 
 Class Kerning is one kind of GPOS lookup.
