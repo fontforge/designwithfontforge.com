@@ -16,7 +16,7 @@ FontForge’s drawing tools themselves.
 
 The concept of “B&eacute;zier curves” refers to a particular mathematical representation used to
 produce smooth curves digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used
-&mdash; through FontForge also supports *Spiro* curves, which are an alternate representation for
+&mdash; though FontForge also supports *Spiro* curves, which are an alternate representation for
 the designer.
 
 In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
@@ -45,7 +45,7 @@ horizontal or vertical axis &mdash; an essential tool in getting B&eacute;zier f
 
 #### Coins or corner points (shown as square-shaped points)
 
-*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independent of the
+*Coins* can have 0, 1, or 2 B&eacute;zier handles. The position of each handle is independent of the
 others, making it suitable for discontinuities in the outline.  
 Without handles, coins will produce straight lines.
 
@@ -67,7 +67,7 @@ its direction &mdash; this ensures a continuous transition between the line and 
 ### Getting it right
 
 In order to produce proper curves &mdash; with minimal control points and eased rasterization, the
-anchors should always be placed at **the extremas of the curve**, and unless in places where you
+anchors should always be placed at **the extremas of the curve**. However, in places where you
 have breaks in your letterforms, the line that determines the path should be **horizontal or
 vertical**.
 
@@ -210,7 +210,7 @@ only need part of it.
 
 <img src="images/ruler.png" alt>
 
-The ruler tool gives you measurement and coordinate information. When you use it, it displays a
+The ruler tool gives you measurement and coordinate information. When used, it displays a
 floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
 even more detailed measurement and coordinate information. If you bring it next to a spline, it
 gives you information about the curvature and radius. Most usefully, if you click and drag the ruler
