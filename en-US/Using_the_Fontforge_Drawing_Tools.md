@@ -33,13 +33,12 @@ see below.
 
 *Curve points* have two handles, each of them being linked to the other so that the line between
 them always stays straight, in order to produce a smooth curve on each side.
- 
+
 <img src="images/tools-curve-point.png" alt>
 
 <h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
-
 *H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
-horizontal or vertical axe &mdash; an essential tool in getting B&eacute;zier forms done right
+horizontal or vertical axis &mdash; an essential tool in getting B&eacute;zier forms done right
 (more on that in the next section).
 
 <img src="images/tools-HV-point.png" alt>
@@ -76,7 +75,7 @@ vertical**.
 
 <div class="note">
 <p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+the actual extrema with a sight icon (`⊕`):</p>
 
 <img src="images/bezier_sample_3.png" alt>
 
@@ -101,7 +100,7 @@ paths:
 <p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
 direction of each handle should be tangent to the curve where it arrives.</p>
 
-## Mastering FontForge’s drawing tools
+## Mastering FontForge drawing tools
 
 From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
 

@@ -37,7 +37,7 @@ Instead, increment the MINOR version number for such changes to hinting or metad
 Also, the version should have no more than 3 decimal places, and this may be represented with 5 in a TTX file.
 Eg `2.001` is typical, and may appear as `2.00099` in TTX XML. 
 
-If you release libre fonts, the [Github Releases](https://www.google.com/search?q=github+releases) features are very useful.
+If you release libre fonts, the [GitHub Releases](https://www.google.com/search?q=github+releases) features are very useful.
 
 ## Family Naming
 
@@ -46,4 +46,4 @@ Microsoft works hard to ensure that a program written for a previous version of 
 This means for font designers that our font family names should be set up in a way that all our fonts can be used in all operating systems. The OpenType format allows for this, complementing the Family and Style Name values with "Preferred Family Name" and "Preferred Style Name" values that will take precedence in OpenType-aware software.
 
 This [Family Naming Google Docs Spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0) is based on information shared by Polish font expert Adam Twardoch and discussed in the [Fontlab forum](http://forum.fontlab.com/index.php?topic=313.0). 
-It supercedes the [OpenType specification example](https://www.microsoft.com/typography/otspec/namesmp.htm). 
+It supersedes the [OpenType specification example](https://www.microsoft.com/typography/otspec/namesmp.htm). 

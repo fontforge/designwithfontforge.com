@@ -35,7 +35,7 @@ Not every check is necessary; some apply only to specific scripts or languages (
 
 ### First things first: test for required features
 
-In the "Points" tab, select the <em>Non-Integral Coordinates</em> test. This test makes sure that all of the points in each glyph (including both on-curve points and control points) have integer coordinates. Not every font output format requires this behaviour, but some do.
+In the "Points" tab, select the <em>Non-Integral Coordinates</em> test. This test makes sure that all of the points in each glyph (including both on-curve points and control points) have integer coordinates. Not every font output format requires this behavior, but some do.
 
 In the "Paths" tab, select the options <em>Open paths</em> and <em>Check outermost paths clockwise</em>. These are both mandatory features in all fonts; the first looks for any curves that are not closed shapes, and the second makes sure that the outer curves of every glyph are traced in clockwise order. It is a very good idea to check <em>Intersecting paths</em> as well; although modern font formats can support two intersecting paths, curves that insect with themselves are not allowed. In addition, if a glyph has any self-intersecting paths then FontForge cannot perform the <em>Check outermost paths clockwise</em> test.
 
@@ -43,7 +43,7 @@ In the "Refs" tab, select all six tests. These checks all relate to references, 
 
 Similarly, select all of the tests in the "ATT" tab. These tests look for missing glyph names, substitution rules that refer to non-existent glyphs, and other problems related to glyph names or OpenType features. The problems they guard against are uncommon, but all will cause the font to be considered invalid by one or more computer system, so they are worth including.
 
-### Make life easier for your users: test for good behaviour
+### Make life easier for your users: test for good behavior
 
 The tests listed above will ensure that your font installs and renders correctly according to the rules set out by the various font formats, but there are a handful of others tests you should consider adding &mdash; especially at the end of the design process &mdash; simply because they check for common conventions followed by most modern typography.
 
@@ -90,7 +90,7 @@ Most of the errors that the Find Problems tool and the whole font validator look
 Typefaces can 'work' better or worse in two ways: readability and legibility. 
 
 
-Legibility means the designs of glyphs are distinct enough to be instantly recognised correctly. Here are some pairs that are often too similar:
+Legibility means the designs of glyphs are distinct enough to be instantly recognized correctly. Here are some pairs that are often too similar:
 
 * the letter "L" and the number "1"
 * the letter "O" and the number "0" 

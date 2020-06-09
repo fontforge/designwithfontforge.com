@@ -18,7 +18,7 @@ The height of the type piece is known as the ‘em’, and it originates from th
 square’ denomination).  
 The em size is what the point size of metal type is calculated upon. So, a 10 points type has a 10
 points em (see below).
- 
+
 <img src="images/em-metal-type.svg" alt>
 
 In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &mdash;
@@ -57,6 +57,6 @@ on.
 You will find the setting in *Element > Font Info&hellip;*, on the *PS Private* tab. FontForge can
 initially guess the values based on your outlines, but you will have to edit them yourself for
 overshoots/undershoots &mdash; we are a few chapters ahead of this concept (see 
-[“Creating ‘o’ and ‘n’”]); let’s first get ahold of FontForge and its drawing functionalities.
+[“Creating ‘o’ and ‘n’”]); let’s first get a hold of FontForge and its drawing functionalities.
 
 [“Creating ‘o’ and ‘n’”]: Creating_o_and_n.html

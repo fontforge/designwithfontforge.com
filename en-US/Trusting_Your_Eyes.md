@@ -89,7 +89,7 @@ the right has been adjusted so that they appear to be aligned.
 
 As you can see in this X with dotted line on top of it, the X that appears visually aligned involves an offset.
 
-Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the icelandic letter ‘eth’
+Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the Icelandic letter ‘eth’
 (&eth;).
 
 ### Perceived height

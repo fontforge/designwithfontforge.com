@@ -16,7 +16,7 @@ collection of wonderful letters. In other words we must think about the group an
 perform together and prioritize this over any question of what is wonderful in a single letter.
 
 This need to prioritize with the system rather than with any single part also leads to a need to
-analyse our design process on the level of the system. Characteristics which span letters become the
+analyze our design process on the level of the system. Characteristics which span letters become the
 things we want to focus on, particularly at the beginning of the design process.
 
 The other oddity in type design is that, to a very large extent, the forms we are designing are
@@ -222,7 +222,7 @@ This choice affects how the end terminals will look like. Serifs can be two side
 can be perpendicular to stroke or have their own direction (like being always horizontal or
 vertical). Serifs can be with or without brackets. Any serif design is a mix of all of the above
 applied consistently to the type design with some deviations for particular letters, especially the
-‘S’, ‘C’ and ‘Z’ (e.g. a type with horizontal serifs for all letters will often have s, c and z to
+‘S’, ‘C’ and ‘Z’ (e.g., a type with horizontal serifs for all letters will often have s, c and z to
 have vertical serifs).
 
 There is a urban legend asserting that serif types are easier to read than sans-serifs &mdash; it is
@@ -260,15 +260,15 @@ angular ([Rockwell]).
 
 The letter forms themselves may be decorated inside, or they may be extended with superfluous decorative forms - or both!
 
-<img src="images/decoration-1.jpg" alt>
+<img src="images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
 
-<img src="images/decoration-2.jpg" alt>
+<img src="images/decoration-2.jpg" alt="An ornate cursive M">
 
-<img src="images/decoration-3.jpg" alt>
+<img src="images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
 
 ### Dimension
 
-<img src="images/3dimention.png" alt>
+<img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
 [Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/

@@ -65,13 +65,13 @@ If that is the case you might need to install the libtool-ltdl-devel package on 
 
 After issuing the yum install you should be able to run FontForge from your menu or directly from the konsole or gnome-terminal by issuing the `fontforge` command.
 
-## Compile your own version from Github
+## Compile your own version from GitHub
 
 GitHub is a source-code hosting service where everyone can contribute to the development of a piece of software. 
 It stores the current leading state of development of the application.
-In some cases, perhaps because you want access to a feature not yet available in the release packages, you may wish to compile your own version from Github.
+In some cases, perhaps because you want access to a feature not yet available in the release packages, you may wish to compile your own version from GitHub.
 
-Full instructions are at <https://github.com/fontforge/fontforge/blob/master/INSTALL-git.md>
+Full instructions are at <https://github.com/fontforge/fontforge/blob/master/INSTALL.md>
 
 ## Debugging the FontForge software
 

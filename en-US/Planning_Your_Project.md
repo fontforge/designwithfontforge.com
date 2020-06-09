@@ -30,7 +30,7 @@ the latter two questions are usually the determining factors.
 ## Feeling
 
 The most important thing about a type design is the feelings it evokes. 
-This is notoriously hard to verbalise, but it is what makes a particular typeface meaningfully different from any other. 
+This is notoriously hard to verbalize, but it is what makes a particular typeface meaningfully different from any other. 
 
 A type designer in Portugal, Natanael Gama, designed the [Exo family](https://www.google.com/fonts/specimen/Exo) with FontForge. 
 On his homepage he describes another project for the sculptor [John Williams](http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
@@ -80,7 +80,7 @@ font?”](What_Is_a_Font.html).
 
 ## Technical: Version Management 
 
-You should learn to use Git and Github to store your files, and use the "SFDir" format for your sources.
+You should learn to use Git and GitHub to store your files, and use the "SFDir" format for your sources.
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
@@ -88,11 +88,10 @@ You should learn to use Git and Github to store your files, and use the "SFDir" 
 ## Overall Process
 
 <iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
-
 ## Testing Environments
 
 When planning your project, you must consider the medium of typography you are intending the typeface for primarily and secondarily:
-Mobile and web, or digital projectors, or cheap office bubblejet and laser printers, or high end print bureau laser printers, or magazine offset lithographic printing, or high-speed high-volume newspaper printing... and so on. 
+Mobile and web, or digital projectors, or cheap office bubble-jet and laser printers, or high end print bureau laser printers, or magazine offset lithographic printing, or high-speed high-volume newspaper printing... and so on. 
 You should then try to acquire or arrange access to those typesetting technologies, so you can see the real results of your work.
 
 Throughout the type design process, you will find it very helpful to preview text set with your (prototype) typeface at a higher resolution than your laptop or workstation screen. 
