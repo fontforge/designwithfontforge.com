@@ -53,11 +53,11 @@ sudo apt-get install fontforge;
 
 #### Fedora
 
-To install FontForge on your Fedora Linux desktop machine run the following yum command as the root user. 
+To install FontForge on your Fedora Linux desktop machine run the following dnf command as the root user. 
 This will require about 10MiB of download to complete.
 
 ```
-yum install fontforge;
+sudo dnf install fontforge
 ```
 
 If you have not compiled software on your Fedora machine, after installing gcc, automake, autoconf and others then you might get an error during the execution of autogen.sh with libtoolize. 
