@@ -17,6 +17,7 @@ title: Further Reading
 ### Other Resource Lists
 
 * [Thomas Phinney's Type Design Resources](http://www.thomasphinney.com/type-design-resources/)
+* [Type Drawers thread on tips and tricks](https://typedrawers.com/discussion/3993/your-most-valuable-tips-tricks-in-type-design#latest)
 
 ### Curve Math
 
