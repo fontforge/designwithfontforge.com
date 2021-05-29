@@ -102,6 +102,7 @@ ILT Example Projects:
 
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
 * <http://www.type-library.com> has an extensive list of books
+* [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/)
 
 Title: Detail in Typography (Paperback)
 
