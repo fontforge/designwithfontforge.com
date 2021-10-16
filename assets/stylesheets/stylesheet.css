@@ -718,23 +718,42 @@ ol.rectangle-list a:after{
   transition: all .3s ease-out;
 }
 
-ol.rectangle-list a:hover:after{
+ol.rectangle-list a:hover:after {
   left: -.5em;
   border-left-color: #2e78cd;
 }
+
 th, td {
   padding: 0.5em;
 }
-div.lang{
+
+div.lang {
   margin-top: 10px;
   margin-bottom: -4px;
 }
+
 div.ebook {
   margin-bottom: 40px;
 }
-div.lang, a.lang, div.ebook, a.ebook{
+
+div.lang, a.lang, div.ebook, a.ebook {
   color: #fff;
 }
-a.lang:hover, a.ebook:hover{
+
+a.lang:hover, a.ebook:hover {
   color: #9ddcff;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+  color: #666;
+}
+
+figcaption a {
+  color: #444;
+}
+
+figcaption a:hover {
+  color: #000;
 }

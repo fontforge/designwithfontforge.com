@@ -224,3 +224,8 @@ footer a {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+}
