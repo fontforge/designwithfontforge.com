@@ -26,7 +26,7 @@ The reason this is true is that there are a number of natural optical illusions 
 subject to. These illusions must be accounted for by altering the shapes of letters until they look
 right to you.
 
-You can get a feel of where to look and what elements to adjust in these [Type Review Videos](https://vimeo.com/typereview/videos) (External Link)
+You can get a feel of where to look and what elements to adjust in these [Type Review Videos](https://vimeo.com/typereview/videos).
 
 ## Examples of illusions
 
@@ -35,8 +35,9 @@ and others involve the eye’s perception of shapes.
 
 ### Horizontal vs. vertical weight
 
-The example on the left shows an ‘H’ which bars are precisely equal in thickness. This looks wrong.
-Can you feel it?  
+The example on the left shows an ‘H’ with bars which are precisely equal in thickness. This looks wrong.
+Can you feel it?
+
 The other one on the right has a horizontal bar which has been thinned to appear equal in
 thickness.
 
