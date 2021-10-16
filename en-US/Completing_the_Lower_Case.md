@@ -75,6 +75,11 @@ Creating the 'c' from the 'e' involves deleting the crossbar and adding the term
 
 These letters are somewhat difficult because they don't have forms that are related to the other letters. This means you have to just jump in and draw the 'v'. Make the downstroke as thick as your thick stems, and make the upstroke as thin as the thinner strokes in your other letters. Once you have the 'v', you have a basic plan for the 'w' and 'y'. For 'x' and 'y', focus on matching the contrast of the rest of the design while compensating for the illusions that occur in diagonal and crossing diagonal forms.
 
-## trivia
+### Relationship to capitals
 
-* https://twitter.com/tsmullaney/status/1353420332632162307
+While working on the lowercase, it can be helpful to recall that their forms result from a centuries-long process by which Roman capital letters, with their sturdy serifs, were gradually changed to make it easier to write them quickly in cursive with a pen. The re-addition of serifs to these cursive forms, now widely accepted, was at the time historically anachronistic.
+
+<figure>
+<img src="images/Evolution_of_minuscule.svg" width="916">
+<figcaption>Image credit: Matteo P. Ferla (User:Squidonius), <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_minuscule.svg">Wikimedia Commons</a></figcaption>
+</figure>
