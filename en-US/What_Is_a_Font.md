@@ -225,7 +225,7 @@ applied consistently to the type design with some deviations for particular lett
 ‘S’, ‘C’ and ‘Z’ (e.g., a type with horizontal serifs for all letters will often have s, c and z to
 have vertical serifs).
 
-There is a urban legend asserting that serif types are easier to read than sans-serifs &mdash; it is
+There is an urban legend asserting that serif types are easier to read than sans-serifs &mdash; it is
 [a sole myth](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), until further
 notice.
 
