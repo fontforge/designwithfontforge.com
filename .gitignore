@@ -5,3 +5,5 @@ _site/
 .DS_Store
 node_modules
 ebook/temp/**
+.jekyll-cache/
+package-lock.json
