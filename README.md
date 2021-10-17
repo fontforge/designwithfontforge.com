@@ -110,6 +110,6 @@ Wait for Grunt to notify you, and all the compressed images will be inside `en-U
 ### How to create ebooks
 
     sudo apt-get install calibre ghostscript
-    sudo npm install gitbook-cli svgexport -g
     cd ebook
-    ./create_books.sh en-US fr-FR zh-CN
+    npm install
+    ./create_books.sh

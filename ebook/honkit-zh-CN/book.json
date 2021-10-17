@@ -1,0 +1,12 @@
+{
+    "title": "FontForge 与字体设计",
+    "description": "介绍如何使用 FontForge 创造新字体的书",
+    "language": "zh",
+    "pdf": {
+          "paperSize": "a4"
+        },
+    "structure": {
+        "readme": "Introduction.md",
+        "glossary": "dontuseaglossary.md"
+    }
+}
