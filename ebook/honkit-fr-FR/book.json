@@ -1,0 +1,12 @@
+{
+    "title": "Design avec FontForge",
+    "description": "Un livre sur la création de polices à l'aide de FontForge",
+    "language": "fr",
+    "pdf": {
+          "paperSize": "a4"
+        },
+    "structure": {
+        "readme": "Introduction.md",
+        "glossary": "dontuseaglossary.md"
+    }
+}
