@@ -26,9 +26,9 @@ Lors de toute modification de configuration, assurez-vous de suivre ceci:
 Actuellement, nous n'avons rien de spécifique à la distribution Windows.
 Si vous pensez à quelque chose, [dites-le nous](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
 
-## GNU+Linux
+## GNU/Linux
 
-Actuellement, nous n'avons rien de spécifique à aucune distribution GNU+Linux.
+Actuellement, nous n'avons rien de spécifique à aucune distribution GNU/Linux.
 Si vous pensez à quelque chose, [dites-le nous](https://github.com/fontforge/designwithfontforge.com#how-to-contribute).
 
 ## Mac OS X
