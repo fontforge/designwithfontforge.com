@@ -9,7 +9,7 @@ title: Installing FontForge
 FontForge is libre software, so you can download, share and install copies without any restrictions on usage - both commercial or personal use is encouraged.
 It is a community-maintained application, and anyone can contribute to the source code.
 
-FontForge is available in easy to install packages for Windows, Mac OS X and GNU+Linux operating systems. 
+FontForge is available in easy to install packages for Windows, Mac OS X and GNU/Linux operating systems. 
 
 ### Installing FontForge on Windows
 
@@ -61,7 +61,7 @@ sudo dnf install fontforge
 ```
 
 If you have not compiled software on your Fedora machine, after installing gcc, automake, autoconf and others then you might get an error during the execution of autogen.sh with libtoolize. 
-If that is the case you might need to install the libtool-ltdl-devel package on Fedora or a similar development package on another GNU+Linux distribution.
+If that is the case you might need to install the libtool-ltdl-devel package on Fedora or a similar development package on another GNU/Linux distribution.
 
 After issuing the yum install you should be able to run FontForge from your menu or directly from the konsole or gnome-terminal by issuing the `fontforge` command.
 
