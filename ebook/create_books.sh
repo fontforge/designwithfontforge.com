@@ -1,7 +1,7 @@
 #!/bin/bash
 #ebooks creation script v2.0
 
-HONKIT="$PWD/node_modules/honkit/bin/honkit.js"
+HONKIT=$(npx which honkit)
 
 #Books can be regenerated for one or many languages
 #Just specify them as arguments
@@ -16,7 +16,7 @@ fi
 sed -i -e 's|2012 - [2][0-9][0-9][0-9]|2012 - '$(date '+%Y')'|g' cover_template.svg # Insert current year into book cover
 grep -r Copyright cover_template.svg
 echo -e "\nDeleting old generated files if they exist"
-rm *.epub *.mobi *.pdf || true
+(if [ -z $KEEP ]; then rm *.epub *.mobi *.pdf; fi) || true
 
 for l in $BOOKS
 do
