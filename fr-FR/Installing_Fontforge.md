@@ -24,33 +24,7 @@ Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/download
 
 La méthode la plus simple pour obtenir FontForge sur votre machine Linux est d'utiliser le dépôt de paquets de votre distribution Linux.
 
-#### Debian ou Ubuntu
-
-Le paquet FontForge inclus dans Ubuntu 14.04 par défaut date de 2012, il est donc préférable d'installer le paquet plus à jour à partir de la [PPA (Personal Package Archive)](https://launchpad.net/~fontforge/+archive/ubuntu/fontforge) de FontForge.
-
-Vérifiez que le script d'aide `add-apt-repository` est installé:
-    
-```sh
-sudo apt-get install software-properties-common;
-```
-
-Ajoutez la PPA FontForge (qui ajoutera également la clé d'authentification):
-    
-```sh
-sudo add-apt-repository ppa:fontforge/fontforge;
-```
-
-Mettez à jour la liste des logiciels pour inclure les paquets de la PPA:
-    
-```sh
-sudo apt-get update;
-```
-
-Installez FontForge:
-    
-```sh
-sudo apt-get install fontforge;
-```
+Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/gnulinux/) est disponible pour les versions officielles GNU/Linux.
 
 #### Fedora
 

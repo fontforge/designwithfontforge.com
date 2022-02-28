@@ -31,33 +31,7 @@ FontForge支持Windows，Mac OS和GNU/Linux (“Linux”)操作系统。本节�
 
 在你的Linux机器上安装FontForge最简单的的方式是使用你的分发版的包库。
 
-#### Debian或Ubuntu
-
-FontForge包从2012年开始就默认包含在Ubuntu 14.04中，因此通过FontForge [Personal Package Archive (PPA)] (https://launchpad.net/~fontforge/+archive/ubuntu/fontforge)可以安装最新的包。
-
-检查辅助脚本`add-apt-repository`已经安装：
-    
-```
-sudo apt-get install software-properties-common
-```
-
-添加FontForge PPA（同时添加认证密钥）：
-    
-```
-sudo add-apt-repository ppa:fontforge/fontforge
-```
-
-升级软件列表，使得PPA包含包：
-    
-```
-sudo apt-get update
-```
-
-安装FontForge：
-    
-```
-sudo apt-get install fontforge
-```
+正在建设中的新网站上提供了[安装指南](http://fontforge.github.io/en-US/downloads/gnulinux/)。
 
 #### Fedora
 
