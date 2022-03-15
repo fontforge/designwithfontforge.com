@@ -87,7 +87,7 @@ pour vos sources.
 
 ## Processus général
 
-<iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
+<img src="../en-US/images/planning-process.png" width="584" height="1006">
 
 ## Environnements de test
 

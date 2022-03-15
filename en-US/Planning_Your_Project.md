@@ -86,7 +86,7 @@ You should learn to use Git and GitHub to store your files, and use the "SFDir" 
 
 ## Overall Process
 
-<iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
+<img src="images/planning-process.png" width="584" height="1006">
 
 ## Testing Environments
 
