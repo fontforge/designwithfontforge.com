@@ -86,7 +86,14 @@ You should learn to use Git and GitHub to store your files, and use the "SFDir" 
 
 ## Overall Process
 
+Back in 2010, Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan and other Anonymous contributors developed a total process diagram for Latin fonts:
+
 <img src="images/planning-process.png" width="584" height="1006">
+
+This was made with Google Drawings and like this site is licensed under the Creative Commons Attribution-ShareAlike licence.
+The source is at [goo.gl/rxI63X](http://goo.gl/rxI63X)
+
+A version for Non-Latin projects is also available at [goo.gl/LJ8zm8](https://goo.gl/LJ8zm8)
 
 ## Testing Environments
 
