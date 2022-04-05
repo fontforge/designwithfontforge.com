@@ -86,7 +86,16 @@ You should learn to use Git and GitHub to store your files, and use the "SFDir" 
 
 ## Overall Process
 
+Back in 2010, Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan and other Anonymous contributors developed a total process diagram for Latin fonts:
+
 <img src="images/planning-process.png" width="584" height="1006">
+
+This was made with Google Drawings and like this site is licensed under the Creative Commons Attribution-ShareAlike licence.
+The source is [here](https://commons.wikimedia.org/wiki/File:Latin_Typeface_Design_Process_Overview.pdf).
+
+A version for Non-Latin (Devanagari) projects is also available at [here](https://commons.wikimedia.org/wiki/File:Devanagari_Typeface_Design_Process_Overview.pdf).
+
+<!-- Editable versions of the above, with unknown stability, may be found in GitHub PR №225. -->
 
 ## Testing Environments
 
