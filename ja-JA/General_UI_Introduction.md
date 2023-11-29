@@ -8,7 +8,7 @@ title: ユーザー・インターフェース（UI）の概要
 
 FontForge は Windows、Mac OS、GNU/Linux の各オペレーション・システムで共通のインターフェースを用いています。
 
-次の動画は、Dave Crossland 氏が、ある「書体作成」ワークショップで行なった（FontForge プロジェクトを支援している非営利の書体デザイン・ワークショプでしたが）、根本的な特徴の簡単な紹介です。
+次の動画は、Dave Crossland 氏が、とある「書体作成」ワークショップ（FontForge プロジェクトを支援している非営利の書体デザイン・ワークショプでしたが）で行なった、基本機能の簡単な紹介です。
 
 <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/_EhwHL1aloI?rel=0&amp;showinfo=0&t=1m55s" frameborder="0" allowfullscreen></iframe>
 
