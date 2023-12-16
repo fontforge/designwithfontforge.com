@@ -321,7 +321,7 @@ FontForge の描画エリアには初期設定で三つのレイヤーがあり�
 
 <img src="../en-US/images/Freehand_018.png" alt>
 
-> 《※ 訳注：　ダブル・クリックでダイアログが表示しない場合は、「エレメント」メニューの「輪郭を太らせる」項のクリックで表示させます。但し、FontForge 20230101 では、Freehand ダイアログに似た「Expand Stroke」ダイアログが表示されるようです（以下参照、但し英語表記多し）。》
+> 《※ 訳注：　ダブル・クリックでダイアログが表示されない場合は、「エレメント」メニューの「輪郭を太らせる」項をクリックして表示させます。但し、FontForge 20230101 では、Freehand ダイアログに似た「Expand Stroke」ダイアログが表示されるようです（以下参照、但し英語表記多し）。》
 
 <img src="../ja-JA/images/Expand_Stroke_Dialog.png" alt>
 
