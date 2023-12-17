@@ -800,8 +800,7 @@ Apple 社と Adobe 社／Microsoft 社とこのようなテーブルを異なる
 
 ### ★ Underhang　アンダーハング　下張り
 
-グリフのソリッド部分の左右の空白の幅。「埋め込み」「パディング」とも呼ばれます。
-[【出典】](https://learn.microsoft.com/ja-jp/windows/win32/intl/uniscribe-glossary#glyph)
+グリフの[ベースライン](#baseline-ベースライン基準線)よりも少しだけ下がっている部分。
 
 ### Undershoot　アンダーシュート
 
