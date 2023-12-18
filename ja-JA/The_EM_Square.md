@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 12
 category: workflow
-title:　エム（EM）スクエア
+title: エム（EM）スクエア
 ---
 
 &mdash; 「エム・サイズ（em size）」または「UPM」（**U**nits **P**er e**M**、ユニット数）とも呼ばれます。フォントでは、各文字はそれぞれ方形のエリアに収まっています。伝統的な金属活字の時代には、この方形エリアは各文字の実際の金属ブロックでした。各文字の高さは同一なので、文字が列やブロックにきれいに配置できました（次の写真を参照）。
