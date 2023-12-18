@@ -3,7 +3,7 @@ published: true
 layout: bookpage
 weight: 84
 category: Appendices
-title:　用語集　Glossary
+title: 用語集　Glossary
 ---
 
 ★印　日本語版での追加・追記項目
