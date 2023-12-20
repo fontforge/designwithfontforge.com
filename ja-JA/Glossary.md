@@ -49,6 +49,9 @@ title: 用語集　Glossary
 
 ▶ 関連事項：　「[アブジャド](#abjad-アブジャド)（abjad）」「[アブギダ](#abugida-アブギダ)（abugida）」「[音節文字](#syllabary)（syllabary）」および「[関連するウィキペディア記事](http://en.wikipedia.org/wiki/Alphabet)」（日本語記事は[こちら](https://ja.wikipedia.org/wiki/アルファベット)）も参照のこと。
 
+### ★ API　
+
+Application Programming Interface の略。ソフトウェア（アプリケーション・プログラム）同士が情報をやり取りするためのインターフェース仕様。
 
 ### Apple Advanced Typography　アップル社高度組版機能（AAT）
 
@@ -630,6 +633,13 @@ TrueType フォントでは、グリフを形成する輪郭線では指定さ�
 
 スクリプトは文字セットのひとつで、文字を揃えるための連結規則です。ラテン文字、アラビア文字、カタカナ、漢字はすべてスクリプトです。
 
+### ★ Semantic Versioning　（意味付け版数管理）
+
+ピリオド（.）で区切られた三組の数字で版数を管理する手法。各数字は、Major.Minor.Patch（たとえば 1.84.2）を意味します。【[出典](https://semver.org/)】
++ Major:　主変更（互換性のないAPI変更など）
++ Minor:　細部変更・修正
++ Patch:　バグなどの修正版
+
 ### Serif　セリフ体
 
 2000 年程前、ローマ人が文字を石碑に刻印していた時代に、ローマ人はグリフの主軸（縦線）の終端部に細い線を加えると石割れが減ることを見出しました。
@@ -674,8 +684,6 @@ TrueType フォントでは、グリフを形成する輪郭線では指定さ�
 * [SMP:　追加多言語面]()　Supplementary Multilingual Plane (0x10000-0x1FFFF)
 * [SSP:　追加特殊用途面](#ssp-追加特殊用途面)　Supplementary Special-purpose Plane (0xE0000-0xEFFFF)
 
-
-
 ### SMP　追加多言語面
 
 [ユニコード](#unicode-ユニコード)の「追加多言語面」（0x10000-0x1FFFF）。古代および人工の文字や音節文字（線文字 B、ゴート文字やシャバ文字）用に使用されます。
@@ -685,8 +693,6 @@ TrueType フォントでは、グリフを形成する輪郭線では指定さ�
 * [BMP:　基本多言語面](#bmp-basic-multilingual-plane-基本多言語面)　Basic Multilingual Plane (0x00000-0x0FFFF)
 * [SIP　追加漢字面](#sip-追加漢字面)　Supplementary Ideographic Plane (0x20000-0x2FFFF)
 * [SSP:　追加特殊用途面](#ssp-追加特殊用途面)　Supplementary Special-purpose Plane (0xE0000-0xEFFFF)
-
-
 
 ### Spline　スプライン曲線
 
