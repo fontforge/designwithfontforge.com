@@ -49,6 +49,16 @@ title: 用語集　Glossary
 
 ▶ 関連事項：　「[アブジャド](#abjad-アブジャド)（abjad）」「[アブギダ](#abugida-アブギダ)（abugida）」「[音節文字](#syllabary)（syllabary）」および「[関連するウィキペディア記事](http://en.wikipedia.org/wiki/Alphabet)」（日本語記事は[こちら](https://ja.wikipedia.org/wiki/アルファベット)）も参照のこと。
 
+### Anchor Class　アンカークラス
+
+〔アンカーはグリフでのアクセント記号／発音区別符号の位置を示す情報で〕OpenType フォントの GPOS テーブルにおける mark-to-base〔基準に対する位置〕や cursive subtable〔筆記体テーブル〕を指定するのに用いられます。
+
+★ 関連事項：　別資料『overview』の「[アンカーポイントとアンカークラス](https://fontforge.org/docs/old/ja/overview.html#Anchors)」も参照のこと。
+
+### Anusvara　アヌスヴァーラ
+
+インドの伝統的な音声学の用語で、後続の子音と同器官的な鼻音、またはそのような鼻音を表す記号のこと。《[出典](https://ja.wikipedia.org/wiki/アヌスヴァーラ)》
+
 ### ★ API　
 
 Application Programming Interface の略。ソフトウェア（アプリケーション・プログラム）同士が情報をやり取りするためのインターフェース仕様。
@@ -66,12 +76,6 @@ TrueType フォントに対する Apple 社の機能拡張版フォント。グ�
 「エックスハイト」から上に伸びる小文字の縦線。文字「l」にはアセンダーがあります。
 
 ▶ 関連事項：　「[エックスハイト](#x-height-エックスハイト小文字の高さ)（X-height）」「[キャプハイト](#cap-height-キャップ・ハイト大文字の高さ)（Cap-height）」「[デセンダー](#descender-デセンダー)（Descender）」「[オーバーシュート](#overshoot-オーバーシュート)（Overshoot）」「[ベースライン](#baseline-ベースライン基準線)（Baseline）」も参照のこと。
-
-### Anchor Class　アンカークラス
-
-〔アンカーはグリフでのアクセント記号／発音区別符号の位置を示す情報で〕OpenType フォントの GPOS テーブルにおける mark-to-base〔基準に対する位置〕や cursive subtable〔筆記体テーブル〕を指定するのに用いられます。
-
-★ 関連事項：　別資料『overview』の「[アンカーポイントとアンカークラス](https://fontforge.org/docs/old/ja/overview.html#Anchors)」も参照のこと。
 
 ### Ascent 　フォント高さ
 
@@ -133,7 +137,7 @@ TrueType フォントに対する Apple 社の機能拡張版フォント。グ�
 
 （近代〜1911年頃）辞書で漢語の音訳（表音的翻字）を表示するために使用された中国（北京語）アルファベット（注音符号）。
 
-### ★ bounding box　バウンディングボックス（境界ボックス）
+### ★ bounding box　バウンディングボックス（境界ボックス）、矩形境界線
 
 画像認識やグラフィクスで用いる、操作対象となる図形や画像などの周囲を囲む長方形の境界線（部分領域矩形）。対象物の移動や拡大・縮小、回転、変形など行なう領域です。
 
@@ -188,6 +192,10 @@ TrueType フォントに対する Apple 社の機能拡張版フォント。グ�
 ### Conflicting hints　競合するフォントのヒンティング
 
 もし、あるグリフに二つの[フォントヒンティング](#hints-フォントヒンティングヒント情報)が含まれており、一方のヒンティングの開始位置または終了位置が、もう一方のヒンティング範囲内に入り込んでいる場合、この二つのヒンティングは競合している、と言います。競合しているフォントヒンティングは同時に有効化できません。
+
+### ★ Conjuncts　結合文字
+
+（consonant conjuncts「子音結合文字」ともいます）　二つ以上の子音の合字。子音結合文字には、完全形（full form）と半字形（half form）の両方、または完全形だけを持つものがあります。《[出典](https://learn.microsoft.com/ja-jp/typography/script-development/devanagari#glossary)》
 
 ### ★ Contrast　コントラスト（線の濃淡）
 
@@ -367,6 +375,10 @@ TrueType のグリフは、ラスタライズ（描画）される前に、「�
 
 ## H
 
+### ★ Half-form　半字形
+
+子音の変形形式で、合字に関与しない場合に、基本子音の左側に表示されます。《[出典](https://learn.microsoft.com/ja-jp/typography/script-development/devanagari#glossary)》
+
 ### Han characters　漢字
 
 〔Han = 漢王朝〕　中国、日本、韓国で用いられている表意文字で、すべて中国で発展した表記法に基づいています。
@@ -485,6 +497,10 @@ TrueType のグリフは、ラスタライズ（描画）される前に、「�
 
 ## M
 
+### ★ Maatra / Matra  (Dependent Vowel)　マートラ
+
+Dependent Vowel（従属母音）。サンスクリット語で「マトラ」と呼ばれています。子音に固有ではない母音を表すために使用され、常に単一の子音または子音クラスターと組み合わせて表現されます。さまざまなインドの文字間の最大の違いは、基本文字に従属母音を付ける規則にあります。《[出典](https://learn.microsoft.com/ja-jp/typography/script-development/devanagari#glossary)》
+
 ### Manyogana　万葉仮名
 
 古い日本語の書法で、「ひらがな」と「カタカナ」双方の祖先に当たります。万葉仮名は、（日本語の）表音文字として漢字の字音を用いており、長い年月をかけて、そうした漢字が簡略化されて「ひらがな」と「カタカナ」になりました。
@@ -514,6 +530,10 @@ Unicode 符合位置からグリフ名への対応づけ。
 あるピクセルをこの規則に基づいて塗りつぶすかどうかを決定するには、そのピクセルから任意の方向への無限直線を引き、この直線と交わるグリフの輪郭線の数を数えます。もし輪郭線がこの線を時計回り方向で交わったら 1 を加え、輪郭線が直線と反時計回り方向で交わったら 1 を引きます。もし結果がゼロでなければ、そのピクセルを塗り潰し、セロであればピクセルは空白のままにします。この方法は TrueType や古い（バージョン 2 以前の）PostScript でフォントをラスタライズするために用いられています。
 
 ▶ [偶奇塗り潰し規則](#even-odd-fill-rule-偶奇塗り潰し規則) の項も参照してください。
+
+### ★ Nukta / Nuqta<sup>?</sup>　ヌクター
+
+先行する子音 (またはマートラ) の発音方法を変更する結合文字。《[出典](https://learn.microsoft.com/ja-jp/typography/script-development/devanagari#glossary)》
 
 ## O
 
@@ -560,6 +580,10 @@ OpenType フォントのデータには、TrueType フォントにあったエ�
 フォントを（字形で）分類するための仕組み。詳しくは『[Panose Font Classification System Metrics Guide](https://monotype.github.io/panose/pan1.htm)』を参照してください。また、拡張改訂版『[Panose 2.0](https://www.w3.org/Fonts/Panose/pan2.html)』もあります。
 
 FontForge では、欧文フォントの区分方式にのみに対応しています。そのほかの書体に対する区分方式も存在しています。
+
+### ★ path　バス（輪郭線経路）
+
+コンピューターの一般用語としての「path」は、あるプログラムやデータのファイルが保存・格納されている場所までの「経路」を指しますが、フォント・デザインではフォント・データの輪郭線（アウトライン）を構成する線分の「繋がり経路」をいいます。パスが開いている（open path）では字形の輪郭が完成していないので、エラーになります。
 
 ### PfaEdit　（FontForge の旧称）
 
@@ -637,6 +661,10 @@ TrueType フォントでは、グリフを形成する輪郭線では指定さ�
 ### ★ Reserved Words　予約語
 
 プログラム言語やシステムによって、あらかじめ用途が決められており、プログラマが自分で付ける識別名（変数名や関数名）などに使用することができない文字列（単語、字句など）。
+
+### ★ Repf　レフ
+
+デーヴァナーガリー文字で使われる「Ra」文字が音節の最初の子音であり、基本子音ではない場合に使用される文字「Ra」の基本字形の上部に付く記号。《[出典](https://learn.microsoft.com/ja-jp/typography/script-development/devanagari#glossary)》《[Reft文字](https://en.wiktionary.org/wiki/reph)》
 
 ### Right side bearing　右ベアリング
 
