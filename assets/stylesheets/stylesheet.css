@@ -25,6 +25,10 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+html[lang="fa-IR"] body {
+  font-family: Vazirmatn;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -74,6 +78,18 @@ body > div, footer {
 #main-content h1, #main-content h2, h3, h4, h5, h6, #sidebar {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
+}
+
+html[lang="fa-IR"] h1,
+html[lang="fa-IR"] #main-content h1,
+html[lang="fa-IR"] h2,
+html[lang="fa-IR"] #main-content h2,
+html[lang="fa-IR"] h3,
+html[lang="fa-IR"] h4,
+html[lang="fa-IR"] h5,
+html[lang="fa-IR"] h6,
+html[lang="fa-IR"] #sidebar {
+  font-family: Vazirmatn;
 }
 #sidebar {
   font-weight: 400;
@@ -255,7 +271,7 @@ a.button {
   line-height: 1.2;
   font-size: 23px;
   color: #fff;
-  padding-left: 68px;
+  padding-inline-start: 68px;
   padding-top: 22px;
   font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
 }
@@ -265,10 +281,13 @@ a.button small {
 }
 header a.button {
   position: absolute;
-  right: 0;
+  inset-inline-end: 0;
+  padding-left: 50px;
+  padding-right: 18px;
   top: -5px;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
 aside a.button {
   width: 138px;
   padding-left: 64px;
@@ -610,7 +629,7 @@ footer a {
   header a.button small {
     font-size: 13px;
     display: inline;
-    margin-right: 5px;
+    margin-inline-end: 5px;
   }
   #main-content,
   aside#sidebar {
