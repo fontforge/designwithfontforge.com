@@ -183,6 +183,9 @@ nav#post-nav a {
   width: 45%;
   float: left;
 }
+nav#post-nav a:dir(rtl) {
+  float: right;
+}
 nav#post-nav a h3 {
   margin: 0;
 }
