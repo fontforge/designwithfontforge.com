@@ -2,8 +2,8 @@
 
 <header>
   <div class="inner">
-    <h1><a href="/fr-FR/">{{ site.title_fr-FR }}</a></h1>
-    <h2>{{ site.subtitle_fr-FR }}</h2>
+    <h1><a href="/fa-IR/">{{ site.title_fa-IR }}</a></h1>
+    <h2>{{ site.subtitle_fa-IR }}</h2>
      <div class="lang">
     	       <a href="
             {% assign ENurl = page.name | replace: '.md', '.html' | prepend: '/en-US/' %}
@@ -37,16 +37,19 @@
     			../zh-TW/index.html
     		{% endif %}	
     	" class="lang">[正體中文版]</a>
-        <a href="
-    		{% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/fa-IR/' %}
-    		{% if urlList contains TWurl %}
-    			{{ page.name | prepend: '../fa-IR/' | replace: '.md', '.html' }}
-    		{% else %}
-    			../fa-IR/index.html
-    		{% endif %}	
-    	" class="lang">[فارسی]</a>
+        <a href="#" class="lang">[فارسی]</a>
     </div>
-    <div class="ebook">Télécharger en format <a href="/ebook/design-with-fontforge_fr-FR.epub" class="ebook" rel="nofollow">[ePUB]</a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_fr-FR.mobi" class="ebook" rel="nofollow">[MOBI]</a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_fr-FR.pdf" class="ebook" rel="nofollow">[PDF]</a></div>
-    <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>Voir le projet sur</small>GitHub</a>
+    <div class="ebook">
+      دریافت در قالب
+      <a href="/ebook/design-with-fontforge_fa_IR.epub" class="ebook" rel="nofollow">[ePUB]</a>
+      &nbsp;|&nbsp;
+      <a href="/ebook/design-with-fontforge_fa_IR.mobi" class="ebook" rel="nofollow">[MOBI]</a>
+      &nbsp;|&nbsp;
+      <a href="/ebook/design-with-fontforge_fa_IR.pdf" class="ebook" rel="nofollow">[PDF]</a>
+    </div>
+    <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank">
+      <small>دیدن پروژه روی</small>
+      گیت‌هاب
+    </a>
   </div>
 </header>
