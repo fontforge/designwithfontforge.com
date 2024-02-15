@@ -285,10 +285,11 @@ a.button small {
 header a.button {
   position: absolute;
   inset-inline-end: 0;
-  padding-left: 50px;
-  padding-right: 18px;
+  padding-left: 68px;
+  padding-right: 14px;
   top: -5px;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  width: 120px;
 }
 
 aside a.button {
