@@ -16,7 +16,7 @@
 
                 {% if currentPost and p.title != 'طراحی با فونت‌فورج' %}
                   <a class="prev" href="{{p.url}}">
-                    <span>Prev</span>
+                    <span>قبلی</span>
                     <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
@@ -41,7 +41,7 @@
 
                 {% if currentPost and p.title != 'طراحی با فونت‌فورج' %}
                   <a class="next" href="{{p.url}}">
-                    <span>Next</span>
+                    <span>بعدی</span>
                     <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
