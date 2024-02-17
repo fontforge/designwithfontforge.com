@@ -98,6 +98,10 @@ ILT Example Projects:
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
 
+### Persian
+* [Getting started with FontForge](https://rastikerdar.github.io/getting-started-with-fontforge/) By Saber Rastikerdar (RIP)  
+  [شروع با فونت‌فورج](https://rastikerdar.github.io/getting-started-with-fontforge/) به قلم صابر راستی‌کردار (یادش گرامی)
+ 
 ## Books
 
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
