@@ -19,7 +19,7 @@ If you wish to contribute to this website, you are very welcome to! Here are a f
 
 ## License
 
-The book and this site is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+The book and this site are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## How This Site Is Made
 
@@ -42,7 +42,7 @@ Each page is in Markdown format, with a `.md` file extension. These files are co
 
 - published: if the page should not be published, set this to `false`
 - layout: `bookpage` is the default
-- weight: an integer value starts from 1 that effects the ordering of the page in the sidebar and homepage lists
+- weight: an integer value starting from 1 that affects the ordering of the page in the sidebar and homepage lists
 - category: the category the page belongs in
 - title: the page title used in the title tag and h1 of the page
 
@@ -64,8 +64,8 @@ Weight lists are used to help contributors determine and document the weight of 
 
 1. Please update the according list if any chapter/page is added or removed.
 2. If the new chapter is in between existing chapters, Just add a weight between existing weights.
-3. If the new chapter is after any exising chapters, Add the weight number by 3.
-4. If no more full numbers can be add between the exising weights, start using decimals.
+3. If the new chapter is after any existing chapters, Add the weight number by 3.
+4. If no more full numbers can be added between the existing weights, start using decimals.
 5. Only edit the weight list for your chapter's language.
 
 Example:
@@ -80,16 +80,24 @@ Example:
 #### How to build the site
 
 For Linux, ensure that ruby-dev is installed on your system: e.g. for Ubuntu 14.04:
-    
-    sudo apt-get install ruby-dev
+
+```bash
+sudo apt-get install ruby-dev
+```    
 
 First install Jekyll, with `gem`:
 
-    sudo gem install jekyll
+```bash
+sudo gem install jekyll
+```
 
 To see the site as it will appear after processing by Jekyll and review your edits live in a browser layout, run:
 
-    jekyll serve --watch
+```bash
+jekyll serve --watch
+# or
+jekyll serve --livereload
+```
 
 Now browse [http://localhost:4000/](http://localhost:4000/).
 
@@ -97,19 +105,25 @@ Now browse [http://localhost:4000/](http://localhost:4000/).
 
 Put all the raw images inside `en-US/images/precompressed/`
 
-Make sure npm is already installed in your computer, then install all the dependencies with:
+Make sure npm is already installed on your computer, then install all the dependencies with:
     
-    npm install
+```bash
+npm install
+```
 
 Once the installations are done, you can go ahead to minify all the images with this Grunt command:
 
-    grunt
+```bash
+grunt
+```
 
 Wait for Grunt to notify you, and all the compressed images will be inside `en-US/images/`
 
 ### How to create ebooks
 
-    sudo apt-get install calibre ghostscript
-    cd ebook
-    npm install
-    ./create_books.sh
+```bash
+sudo apt-get install calibre ghostscript
+cd ebook
+npm install
+./create_books.sh
+```
