@@ -7,11 +7,7 @@ title: Dessin avec Spiro
 ---
 
 Spiro est une boîte à outils pour concevoir des courbes avec une méthode alternative aux courbes de
-B&eacute;zier plus traditionnelles. Bien que cela soit facultatif, FontForge peut être installé pour
-inclure un mode Spiro qui vous offre des outils pour créer ce type spécifique de courbes. Voir
-[“Installation de FontForge"] pour plus de détails sur la façon d'inclure la bibliothèque Spiro dans
-votre programme.
-
+B&eacute;zier plus traditionnelles.
 Le dessin avec Spiro a une approche différente, qui peut vous aider à obtenir des courbes faites d'une
 autre manière et à résoudre vos problèmes de conception. Veuillez expérimentez!
 

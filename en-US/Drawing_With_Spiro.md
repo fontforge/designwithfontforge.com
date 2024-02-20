@@ -7,11 +7,8 @@ title: Drawing with Spiro
 ---
 
 Spiro is a toolkit for designing curves in an alternate method to the more traditional B&eacute;zier
-curves. Although it is optional, FontForge can be installed to include a Spiro mode that offers you
-tools to create this specific kind of curves.  
-See [“Installing FontForge”] for more details on how to include the Spiro library in your program.
-
-Spiro drawing has a different approach, that can help you getting your curves done in a different
+curves.
+It has a different approach, that can help you getting your curves done in a different
 way and solving your conception problems. Please experiment!
 
 ## The Spiro toolset

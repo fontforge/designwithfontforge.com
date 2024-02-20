@@ -6,8 +6,7 @@ category: Getting To Know FontForge
 title: 使用Spiro绘制
 ---
 
-Spiro是一个使用更传统的B&eacute;zier曲线的替换方法来设计曲线的工具包。 尽管这是可选择的，FontForge可以包含Spiro模式安装，提供给你创造特定类型曲线的工具。如何在你的程序中包含Spiro库的详细信息参见[“安装FontForge”][“Installing FontForge”]。
-
+Spiro是一个使用更传统的B&eacute;zier曲线的替换方法来设计曲线的工具包。
 Spiro绘制是一个不同的方法，可以用不同的方式完成你的曲线，解决你概念上的问题。请试验一下！
 
 ## Spiro工具集
