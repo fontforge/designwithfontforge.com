@@ -32,7 +32,7 @@ The D may be similar to H or quite a bit wider.
 <td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-3.png" alt=""></td>
 </tr></tbody></table>
 
-The shape of O can tell you quite a lot about the C, G and Q. The shape of H tells you a bit about about I and J and the left side of B D E F K L P R.
+The shape of O can tell you quite a lot about the C, G and Q. The shape of H tells you a bit about I and J and the left side of B D E F K L P R.
 
 It also tells you a little about T and U. The shape of A can tell you quite a lot about the shape of V.
 
