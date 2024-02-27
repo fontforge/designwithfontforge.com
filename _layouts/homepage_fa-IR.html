@@ -1,0 +1,34 @@
+{% include html-start.html %}
+
+	{% include header-masthead_fa-IR.html %}
+
+
+    <div id="content-wrapper" dir="rtl">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>{{ content }}</p>
+        </section>
+
+        <aside id="sidebar">
+          <!-- <a href="" class="button">
+            <small>دریافت این کتاب در قالب</small>
+            PDF
+          </a> -->
+          <p>
+            این کتاب یک اثر فرهنگ آزاد است که روی
+            <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">گیت‌هاب</a>
+            میزبانی می‌شود.
+            از اصلاحات، پیشنهادات و وصله‌ها استقبال می‌کنیم.
+          </p>
+          <p>
+            <a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">این صفحه را ویرایش کنید.</a>
+            (<a href="https://github.com/fontforge/designwithfontforge.com">بیاموزید چگونه</a>)
+          </p>
+        </aside>
+
+      </div>
+    </div>
+
+{% include footer_fa-IR.html %}
+
+{% include html-end.html %}

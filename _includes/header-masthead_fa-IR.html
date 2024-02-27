@@ -1,0 +1,55 @@
+{% assign urlList = site.pages | map: 'url' %}
+
+<header>
+  <div class="inner">
+    <h1><a href="/fa-IR/">{{ site.title_fa-IR }}</a></h1>
+    <h2>{{ site.subtitle_fa-IR }}</h2>
+     <div class="lang">
+    	       <a href="
+            {% assign ENurl = page.name | replace: '.md', '.html' | prepend: '/en-US/' %}
+            {% if urlList contains ENurl %}
+                {{ page.name | prepend: '../en-US/' | replace: '.md', '.html' }}
+            {% else %}
+                ../en-US/index.html
+            {% endif %} 
+        " class="lang">[English]</a>&nbsp;|&nbsp;
+    	<a href="
+            {% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
+            {% if urlList contains CNurl %}
+                {{ page.name | prepend: '../fr-FR/' | replace: '.md', '.html' }}
+            {% else %}
+                ../fr-FR/index.html
+            {% endif %} 
+        "class="lang">[Français]</a>&nbsp;|&nbsp;
+        <a href="
+    		{% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
+    		{% if urlList contains CNurl %}
+    			{{ page.name | prepend: '../zh-CN/' | replace: '.md', '.html' }}
+    		{% else %}
+    			../zh-CN/index.html
+    		{% endif %}	
+    	"class="lang">[简体中文版]</a>&nbsp;|&nbsp;
+    	<a href="
+    		{% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/zh-TW/' %}
+    		{% if urlList contains TWurl %}
+    			{{ page.name | prepend: '../zh-TW/' | replace: '.md', '.html' }}
+    		{% else %}
+    			../zh-TW/index.html
+    		{% endif %}	
+    	" class="lang">[正體中文版]</a>
+        <a href="#" class="lang">[فارسی]</a>
+    </div>
+    <div class="ebook">
+      دریافت در قالب
+      <a href="/ebook/design-with-fontforge_fa_IR.epub" class="ebook" rel="nofollow">[ePUB]</a>
+      &nbsp;|&nbsp;
+      <a href="/ebook/design-with-fontforge_fa_IR.mobi" class="ebook" rel="nofollow">[MOBI]</a>
+      &nbsp;|&nbsp;
+      <a href="/ebook/design-with-fontforge_fa_IR.pdf" class="ebook" rel="nofollow">[PDF]</a>
+    </div>
+    <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank">
+      <small>دیدن پروژه روی</small>
+      گیت‌هاب
+    </a>
+  </div>
+</header>

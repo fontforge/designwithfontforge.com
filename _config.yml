@@ -3,13 +3,23 @@ redcarpet:
 extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: 
 permalink: none
-exclude: ["en-US/images/precompressed/", "ebook/gitbook-zh-CN", "ebook/gitbook-en-US", "ebook/gitbook-fr-FR", node_modules", "Gruntfile.js", "package.json"]
+exclude:
+  - "en-US/images/precompressed/"
+  - "ebook/gitbook-zh-CN"
+  - "ebook/gitbook-en-US"
+  - "ebook/gitbook-fr-FR"
+  - "ebook/gitbook-fa-IR"
+  - "node_modules"
+  - "Gruntfile.js"
+  - "package.json"
 url: http://designwithfontforge.com
 title: Design With FontForge
 title_zh-CN: FontForge 与字体设计
 title_zh-TW: FontForge 與字體設計
 title_fr-FR: Design avec FontForge
+title_fa-IR: طراحی با فونت‌فورج
 subtitle: A book about how to create new typefaces using FontForge
 subtitle_zh-CN: 介绍如何使用 FontForge 创造新字体的书
 subtitle_zh-TW: 介紹以 FontForge 製作新字型的書
 subtitle_fr-FR: Un livre sur la création de polices  à l'aide de FontForge
+subtitle_fa-IR: کتابی درباره چگونگی ساخت یک تایپ‌فیس جدید با کمک فونت‌فورج

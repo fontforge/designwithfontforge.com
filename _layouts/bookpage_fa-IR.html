@@ -1,0 +1,97 @@
+{% include html-start.html %}
+
+  {% include header-masthead_fa-IR.html %}
+
+    {% assign pageList = site.pages | sort: 'weight' %}
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+          <nav id="post-nav" class="clearfix">
+            {% for p in pageList reversed %}
+
+              {% if p.path contains 'fa-IR' %}
+
+                {% if currentPost and p.title != 'طراحی با فونت‌فورج' %}
+                  <a class="prev" href="{{p.url}}">
+                    <span>قبلی</span>
+                    <span><h3>{{p.title}}</h3></span>
+                  </a>
+                  {% assign currentPost = false %}
+                  {% break %}
+                {% endif %}
+
+                {% if p.url == page.url %}
+                  {% assign currentPost = true %}
+                {% else %}
+                  {% assign currentPost = false %}
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+
+            {% assign currentPost = false %}
+
+            {% for p in pageList %}
+
+              {% if p.path contains 'fa-IR' %}
+
+                {% if currentPost and p.title != 'طراحی با فونت‌فورج' %}
+                  <a class="next" href="{{p.url}}">
+                    <span>بعدی</span>
+                    <span><h3>{{p.title}}</h3></span>
+                  </a>
+                  {% assign currentPost = false %}
+                  {% break %}
+                {% endif %}
+
+                {% if p.url == page.url %}
+                  {% assign currentPost = true %}
+                {% else %}
+                  {% assign currentPost = false %}
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+          </nav>
+        </section>
+
+        <aside id="sidebar">
+          <!-- <a href="" class="button">
+            <small>دریافت کتاب در قالب</small>
+            PDF
+          </a> -->
+          <ol class="rectangle-list">
+            {% for p in pageList %}
+              {% if p.path contains 'fa-IR' and p.title != 'طراحی با فونت‌فورج' %}
+                <li>
+                  <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                    {{ p.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ol>
+
+          <p>
+            این کتاب یک اثر فرهنگ آزاد است که روی
+            <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">گیت‌هاب</a>
+            میزبانی می‌شود.
+            از اصلاحات، پیشنهادات و وصله‌ها استقبال می‌کنیم.
+          </p>
+          <p><a class="" href="https://github.com/fontforge/designwithfontforge.com/commits/gh-pages">بررسی تغییرات اخیر</a></p>
+          <p>
+            <a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">این صفحه را ویرایش کنید.</a>
+            (<a href="https://github.com/fontforge/designwithfontforge.com">بیاموزید چگونه</a>)
+          </p>
+        </aside>
+      </div>
+    </div>
+
+{% include footer_fa-IR.html %}
+
+{% include html-end.html %}

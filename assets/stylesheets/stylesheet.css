@@ -25,6 +25,10 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+html[lang="fa-IR"] body {
+  font-family: Vazirmatn;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -74,6 +78,18 @@ body > div, footer {
 #main-content h1, #main-content h2, h3, h4, h5, h6, #sidebar {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
+}
+
+html[lang="fa-IR"] h1,
+html[lang="fa-IR"] #main-content h1,
+html[lang="fa-IR"] h2,
+html[lang="fa-IR"] #main-content h2,
+html[lang="fa-IR"] h3,
+html[lang="fa-IR"] h4,
+html[lang="fa-IR"] h5,
+html[lang="fa-IR"] h6,
+html[lang="fa-IR"] #sidebar {
+  font-family: Vazirmatn;
 }
 #sidebar {
   font-weight: 400;
@@ -144,6 +160,9 @@ header h2 {
   width: 690px;
   float: left;
 }
+#main-content:dir(rtl) {
+  float: right;
+}
 @media (min-width: 1170px) {
   #main-content {
     width: 850px;
@@ -164,12 +183,15 @@ nav#post-nav a {
   width: 45%;
   float: left;
 }
+nav#post-nav a:dir(rtl) {
+  float: right;
+}
 nav#post-nav a h3 {
   margin: 0;
 }
 nav#post-nav a h3:before {
   content: "";
-  padding-right: 0;
+  padding-inline-end: 0;
   margin: 0;
 }
 @media (max-width: 767px) {
@@ -200,38 +222,38 @@ nav#post-nav span:last-child {
 }
 
 nav#post-nav .prev {
-  margin-right: 10%;
+  margin-inline-end: 10%;
 }
 @media (max-width: 767px) {
   nav#post-nav .prev {
-    margin-right: auto;
+    margin-inline-end: auto;
     margin-bottom: 1em;
   }
 }
 
 nav#post-nav .next {
-  margin-left: 55%;
-  text-align: right;
+  margin-inline-start: 55%;
+  text-align: end;
 }
 @media (max-width: 767px) {
   nav#post-nav .next {
-    margin-left: auto;
+    margin-inline-start: auto;
     text-align: center;
   }
 }
 
 nav#post-nav .prev + .next {
-  margin-left: 0;
+  margin-inline-start: 0;
 }
 @media (max-width: 767px) {
   nav#post-nav .prev + .next {
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 }
 
 aside#sidebar {
   width: 200px;
-  padding-left: 20px;
+  padding-inline-start: 20px;
   min-height: 504px;
   float: right;
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
@@ -255,7 +277,7 @@ a.button {
   line-height: 1.2;
   font-size: 23px;
   color: #fff;
-  padding-left: 68px;
+  padding-inline-start: 68px;
   padding-top: 22px;
   font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
 }
@@ -265,13 +287,17 @@ a.button small {
 }
 header a.button {
   position: absolute;
-  right: 0;
+  inset-inline-end: 0;
+  padding-left: 68px;
+  padding-right: 14px;
   top: -5px;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  width: 120px;
 }
+
 aside a.button {
   width: 138px;
-  padding-left: 64px;
+  padding-inline-start: 64px;
   display: block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
@@ -361,11 +387,12 @@ b, strong {
   color: #272727;
 }
 
-#main-content h1:before {
+
+#main-content h1::before {
   content: "»";
   color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -.8em;
+  padding-inline-end: 0.3em;
+  margin-inline-start: -.8em;
 }
 
 #main-content h2 {
@@ -377,8 +404,8 @@ b, strong {
 #main-content h2:before {
   content: "»";
   color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -.8em;
+  padding-inline-end: 0.3em;
+  margin-inline-start: -.8em;
 }
 
 #main-content h3 {
@@ -483,7 +510,7 @@ p a {
 
 blockquote {
   font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
+  border-inline-start: 10px solid #e9e9e9;
   margin-bottom: 20px;
   padding: 0 0 0 30px;
 }
@@ -493,7 +520,7 @@ img {
 }
 
 ul {
-  padding-left: 20px;
+  padding-inline-start: 20px;
 }
 
 ul li {
@@ -502,7 +529,7 @@ ul li {
 
 ol li {
   list-style: decimal inside;
-  padding-left: 3px;
+  padding-inline-start: 3px;
 }
 
 dl dd {
@@ -567,8 +594,8 @@ footer a {
   #main-content h5:before,
   #main-content h6:before {
     content: none;
-    padding-right: 0;
-    margin-left: 0;
+    padding-inline-end: 0;
+    margin-inline-start: 0;
   }
 }
 
@@ -610,10 +637,15 @@ footer a {
   header a.button small {
     font-size: 13px;
     display: inline;
-    margin-right: 5px;
+    margin-inline-end: 5px;
   }
   #main-content,
   aside#sidebar {
+    float: none;
+    width: 100% ! important;
+  }
+  #main-content:dir(rtl),
+  aside#sidebar:dir(rtl) {
     float: none;
     width: 100% ! important;
   }
@@ -634,8 +666,8 @@ footer a {
   #main-content h5:before,
   #main-content h6:before {
     content: none;
-    padding-right: 0;
-    margin-left: 0;
+    padding-inline-end: 0;
+    margin-inline-start: 0;
   }
 }
 
@@ -678,7 +710,8 @@ ol.rectangle-list a {
   display: block;
   padding: .4em .4em .4em .8em;
   *padding: .4em;
-  margin: .5em 0 .5em 2.5em;
+  margin-block: .5em;
+  margin-inline: 2.5em 0;
   background: #d6dce0;
   color: #222;
   text-decoration: none;
@@ -696,7 +729,7 @@ ol.rectangle-list a:before{
   content: counter(li);
   counter-increment: li;
   position: absolute;
-  left: -2.5em;
+  inset-inline-start: -2.5em;
   top: 50%;
   margin-top: -1em;
   background: #2e78cd;
@@ -711,7 +744,7 @@ ol.rectangle-list a:after{
   position: absolute;
   content: '';
   border: .5em solid transparent;
-  left: -1em;
+  inset-inline-start: -1em;
   top: 50%;
   margin-top: -.5em;
   -webkit-transition: all .3s ease-out;
@@ -719,8 +752,8 @@ ol.rectangle-list a:after{
 }
 
 ol.rectangle-list a:hover:after {
-  left: -.5em;
-  border-left-color: #2e78cd;
+  inset-inline-start: -.5em;
+  border-inline-start-color: #2e78cd;
 }
 
 th, td {

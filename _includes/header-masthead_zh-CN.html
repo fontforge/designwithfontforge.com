@@ -30,6 +30,14 @@
     			../zh-TW/index.html
     		{% endif %}	
     	" class="lang">[正體中文版]</a>
+			<a href="
+    		{% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/fa-IR/' %}
+    		{% if urlList contains TWurl %}
+    			{{ page.name | prepend: '../fa-IR/' | replace: '.md', '.html' }}
+    		{% else %}
+    			../fa-IR/index.html
+    		{% endif %}	
+    	" class="lang">[فارسی]</a>
     </div>
     <div class="ebook">下载 <a href="/ebook/design-with-fontforge_zh-CN.epub" class="ebook" rel="nofollow"><b>[ePUB]</b></a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_zh-CN.mobi" class="ebook" rel="nofollow"><b>[MOBI]</b></a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_zh-CN.pdf" class="ebook" rel="nofollow"><b>[PDF]</b></a></div>
     <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>View project on</small>GitHub</a>
