@@ -88,7 +88,7 @@ From here all other characters can be spaced against the characters which have a
 
 ## <strong>Kerning</strong>
 
-Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', and 'Av'. In the examples below, we can see that, without kerning, the spacing between the letter pairs 'To' and 'Va' are too wide, whereas, with kerning, the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.
+Kerning is the adjustment of the spacing between specific character pairs. Kerning enables individual spacing of character pairs that is applied in addition to the spacing provided by a character's side bearings. Common examples of character pairs where kerning is often needed to improve spacing would be 'WA', 'Wa', 'To', and 'Av'. In the examples below, we can see that, without kerning, the spacing between the letter pairs 'To' and 'Av' are too wide, whereas, with kerning, the space between these character pairs is much more balanced with the feel of the spacing of the rest of the font.
 
 <img src="images/kern1.png" alt="">
 <img src="images/kern2.png" alt="">
