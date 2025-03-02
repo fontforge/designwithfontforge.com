@@ -34,7 +34,7 @@ One method of adjusting metric values quickly and accurately in FontForge is by 
 
 As a general principle, symmetric characters such as 'A' 'H' 'I' 'M' 'N' 'O' 'T' 'U' 'V' 'W' 'X' 'Y' 'o' 'v' 'w' 'x' will have symmetric side bearings. For example, the left and right side bearings of an 'H' will be the same value. Note though that this is not a hard and fast rule, but a general one.
 
-<p class="note">**【Note】:** This rule is also mentioned in [Creating the letters 'o' and 'n'](Creating_o_and_n.md).</p>
+<p class="note"><b>【Note】:</b> This rule is also mentioned in <a href="Creating_o_and_n.html">Creating the letters 'o' and 'n'</a>.</p>
 
 As you space the characters that you design, you should trust your eyes. The bottom line is to 'design, look, adjust, look again'.
 
@@ -73,7 +73,7 @@ Once both the 'n' and 'o' are adequately spaced, their sidebearings can be used 
 - The right side bearing of the 'n' can be used for the right side bearing of the 'h' and 'm'.
 - The left side bearing of the 'n' can be used for the left side bearing of the 'b', 'h', 'k', 'm', 'p' and 'r'.
 
-<p class="note">**【Note】:** the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.</p>
+<p class="note"><b>【Note】:</b> the above should be used as a guide only that can be used as a super effective starting point for finding correct values for these side bearings.</p>
 
 <img src="images/snapshot2.png" alt="">
 

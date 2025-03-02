@@ -35,7 +35,7 @@ title: 间距，度量值和紧缩
 
 作为一般原则，对称字符比如“A”、“H”、“I”、“M”、“N”、“O”、“T”、“U”、“V”、“W”、“X”、“Y”、“o”、“v”、“w”、“x”将会有对称的旁边空白，比如“H”的左跨距和右跨距值将会相同。需要注意的是尽管如此，这并不是一个硬性规则，而是一般规则。
 
-<p class="note">**【注意】：** This rule is also mentioned in [Creating the letters 'o' and 'n'](../zh-CN/Creating_o_and_n.md).</p>
+<p class="note"><b>【注意】：</b> This rule is also mentioned in <a href="../zh-CN/Creating_o_and_n.html">Creating the letters 'o' and 'n'</a>.</p>
 
 在你调整你设计的字符的空间时，你应该相信自己的眼睛。大概方法是“设计-观察-调整-再观察”。
 
@@ -51,8 +51,8 @@ title: 间距，度量值和紧缩
 “_**Window&nbsp;Type**_” &mdash; FontForge的度量值窗口内可以通过两种方式调整度量值：
 
 <ul>
-  <li>“_**Advance&nbsp;Width&nbsp;Only**_” &mdash; 在这种模式下，度量值视图只能用来调整字形的步进宽度。</li>
-  <li>“_**Both**_” &mdash; 在这种模式下度量值视图将会调整步进宽度和字距值。</li>
+  <li>“<i><b>Advance&nbsp;Width&nbsp;Only</b></i>” &mdash; 在这种模式下，度量值视图只能用来调整字形的步进宽度。</li>
+  <li>“<i><b>Both</b></i>” &mdash; 在这种模式下度量值视图将会调整步进宽度和字距值。</li>
 </ul>
 
 “_**Set&nbsp;Width**_” &mdash; 这个命令允许你改变当前字形的宽度。
@@ -78,7 +78,7 @@ title: 间距，度量值和紧缩
   <li>“n”的左跨距可以用于“b”，“h”，“k”，“m”，“p”和“r”的左跨距。</li>
 </ul>
 
-<p class="note">**【注意】：** 上述应该用作指南，可以用作找到这些旁边空白值的一个超有效的出发点。</p>
+<p class="note"><b>【注意】：</b> 上述应该用作指南，可以用作找到这些旁边空白值的一个超有效的出发点。</p>
 
 <img src="../en-US/images/snapshot2.png" alt="">
 
@@ -106,8 +106,8 @@ FontForge的度量值窗口可以用来设计旁边空白和紧缩值。在FontF
 “_**Window&nbsp;Type**_” &mdash; FontForge的Metrics窗口可以通过两种方式实现紧缩调整：
 
 <ul>
-  <li>“_**Kerning&nbsp;Only**_” &mdash; 在这种模式下度量值视图只能用来调整紧缩。</li>
-  <li>“_**Both**_” &mdash; 在这种模式下度量值视图将会调整步进宽度或紧缩值。</li>
+  <li>“<i><b>Kerning&nbsp;Only</b></i>” &mdash; 在这种模式下度量值视图只能用来调整紧缩。</li>
+  <li>“<i><b>Both</b></i>” &mdash; 在这种模式下度量值视图将会调整步进宽度或紧缩值。</li>
 </ul>
 
 “_**Kern&nbsp;By&nbsp;Classes**_” &mdash; 这个命令提供一个操作紧缩类别的对话框给用户。

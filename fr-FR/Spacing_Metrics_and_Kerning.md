@@ -34,7 +34,7 @@ Une méthode d'ajustement rapide et précis des valeurs métriques dans FontForg
 
 En principe, les caractères symétriques tels que 'A' 'H' 'I' 'M' 'N' 'O' 'T' 'U' 'V' 'W' 'X' 'Y' 'o' 'v' 'w' 'x' auront des approches symétriques, par exemple les approches gauche et droite d'un 'H' auront la même valeur. Notez cependant que ce n'est pas une règle absolue, mais générale.
 
-<p class="note">**【Note】:** This rule is also mentioned in [Creating the letters 'o' and 'n'](../fr-FR/Creating_o_and_n.md).</p>
+<p class="note"><b>【Note】:</b> This rule is also mentioned in <a href="../fr-FR/Creating_o_and_n.html">Creating the letters 'o' and 'n'</a>.</p>
 
 Au fur et à mesure que vous espacer les caractères de votre design, vous devriez faire confiance à vos yeux. L'essentiel est de 'concevoir &mdash; regarder &mdash; ajuster &mdash; regarder à nouveau'.
 
@@ -73,7 +73,7 @@ Une fois que le 'n' et le 'o' sont adéquatement espacés, leurs approches peuve
 - L'approche droite du 'n' peut être utilisée pour l'approche droite du 'h' et 'm'.
 - L'approche gauche du 'n' peut être utilisée pour l'approche gauche du 'b', 'h', 'k', 'm', 'p' et 'r'
 
-<p class="note">**【Note】:** Ce qui précède doit être utilisé comme un guide uniquement. Ce guide fournit un point de départ efficace pour trouver les valeurs correctes des approches latérales.</p>
+<p class="note"><b>【Note】:</b> Ce qui précède doit être utilisé comme un guide uniquement. Ce guide fournit un point de départ efficace pour trouver les valeurs correctes des approches latérales.</p>
 
 <img src="images/snapshot2-fr-FR.png" alt="">
 
@@ -123,13 +123,13 @@ C'est le niveau le plus basique de création de paires de crénage dans FontForg
 
 Class kerning can save you a lot of time!
 
-Une 'classe de crénage' dans FontForge peut être créée pour construire des groupes de caractères qui auront tous la même valeur de crénage appliquée. Par exemple une classe peut être créée, appelons-la 'o_panse_gauche' dans laquelle les caractères 'o', 'c','d','e' et 'q' auront toujours la même valeur de crénage précédée, par exemple, du caractère 'T'. Le 'T' pourrait également être lui-même membre d'une autre classe qui comprendrait probablement d'autres caractères tels que Tcaron et Tbar. Effectivement, le crénage par classe peut vous faire gagner beaucoup de temps.
+Une 'classe de crénage' dans FontForge peut être créée pour construire des groupes de caractères qui auront tous la même valeur de crénage appliquée. Par exemple une classe peut être créée, appelons-la 'o_panse_gauche' dans laquelle les caractères 'o', 'c', 'd', 'e' et 'q' auront toujours la même valeur de crénage précédée, par exemple, du caractère 'T'. Le 'T' pourrait également être lui-même membre d'une autre classe qui comprendrait probablement d'autres caractères tels que Tcaron et Tbar. Effectivement, le crénage par classe peut vous faire gagner beaucoup de temps.
 
-Le moyen le plus direct de créer des classes de crénage est à partir de l'élément "_**Crénage**&nbsp;par**&nbsp;classes**_" dans le menu "_**Métriques**_" de FontForge.
+Le moyen le plus direct de créer des classes de crénage est à partir de l'élément "_**Crénage&nbsp;par&nbsp;classes**_" dans le menu "_**Métriques**_" de FontForge.
 
 - Sélectionnez "Crénage par classes" et la fenêtre "lookup" vous sera présenté.
 - Cliquez sur le bouton "_**Ajouter**_" et une autre fenêtre apparaîtra, où vous pourrez créer un lookup de de crénage.
-- Choisissez l'élément "_**Positionnement**&nbsp;par**&nbsp;paire**&nbsp;(crénage)**_" dans le menu déroulant "_**Type**_".
+- Choisissez l'élément "_**Positionnement&nbsp;par&nbsp;paire&nbsp;(crénage)**_" dans le menu déroulant "_**Type**_".
 - Maintenant, cliquez sur la flèche vers le bas à côté de "_**Nouvelle**_" dans la colonne "_**Fonctionnalité**_" et choisissez "_**Crénage&nbsp;horizontal**_" dans le menu déroulant.
 - Cliquez sur "_**OK**_". Vous pouvez conserver les noms par défaut que FontForge crée pour vous.
 
