@@ -37,48 +37,48 @@ Beginning with the other types of points doesn’t really work in FontForge.</p>
 Start off with a G4 point at the topmost point of your ‘S,’ followed by a corner point, then another
 corner point. Work clockwise around the shape of the letter.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_023.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_023.png" alt>
 
 Follow this with a G4, a previous constraint point, and a next constraint point.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_022.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_022.png" alt>
 
 Next, add another G4 point, followed by two more corner points.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_024.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_024.png" alt>
 
 Then a G4, followed by a previous constraint, followed by a next constraint.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_025.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_025.png" alt>
 
 Then, add one more G4 point, and finally, close the shape at the starting point by clicking on it
 using the G4 point tool.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_026.png" alt>
 
 Now you almost have an ‘S’! Begin nudging the points around to get your S to look the way you want.
 
 <div class="warn"><p>Oops, what happened?</p>
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_032.png" alt>
 
-<p>Don’t worry &mdash; Spiro sometimes does some funny things. Just hit <i>Undo,</i> or keep nudging
+<p>Don’t worry &mdash; Spiro sometimes does some funny things. Just hit "<i><b>Undo</b></i>", or keep nudging
 the points to get things back on track.</p></div>
 
 Now, you should see something like this:
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_028.png" alt>
 
 Toggle out of Spiro mode back into B&eacute;zier mode. You will notice there are a lot of points on
 the resulting curve &mdash; you may want to clean some of them up.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_031.png" alt>
 
 To clean up those extra points, go to the "_**Element**_" menu and select "_**Simplify**&nbsp;⇨&nbsp;**Simplify**_".
 Then go to "_**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_". Finally, go to "_**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_".
 After these clean up operations, you will see something like this:
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
+<img src="images/S_at_83_from_Untitled1_-_029.png" alt>
 
 You can continue to experiment with Spiro mode to get a feel of how it differs from B&eacute;zier
 drawing.

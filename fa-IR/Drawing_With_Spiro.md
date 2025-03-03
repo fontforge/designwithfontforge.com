@@ -15,7 +15,7 @@ title: ترسیم با ابزار حلزونی
 بسیاری از ابزارهای ترسیمی بحث شده در فصل [«استفاده از ابزارهای رسم فونت‌فورج»] در حالت رسم حلزونی نیز به شکل مشابهی در دسترس هستند،
 اما برخی از آنها در حالت رسم حلزونی دارای عملکردی متفاوت‌اند.
 
-<img src="images/spiro_tools_labels.png" alt width="600">
+<img src="../en-US/images/spiro_tools_labels.png" alt width="600">
 
 پنج نوع متفاوت از گره‌های حلزونی وجود دارند:
 
@@ -39,23 +39,23 @@ title: ترسیم با ابزار حلزونی
 با یک گره G4 در بالاترین قسمت از حرف S شروع کنید، سپس یک گره گوشه بگذارید، و بعد از آن یگ گره گوشه دیگر.
 در جهت عقره‌های ساعت حول شکل حرف حرکت کنید.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_023.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_023.png" alt>
 
 کار را با یک G4، یک گره پیش‌قیدی و یک گره پس‌قیدی ادامه دهید.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_022.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_022.png" alt>
 
 حال یک گره G4 اضافه کرده و سپس با دو گره گوشه دیگر به کار ادامه دهید.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_024.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_024.png" alt>
 
 سپس یک G4 و به دنبالش یک پیش‌قیدی و یک پس‌قیدی بگذارید.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_025.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_025.png" alt>
 
 سپس یک گره G4 دیگر اضافه کنید و در نهایت، شکل را در نقطه شروع و با کلیک روی آن با استفاده از ابزار گره G4 ببندید.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_026.png" alt>
 
 حالا شما تقریبا یک S دارید!
 شروع به ور رفتن با موقعیت گره‌ها برای ساختن شکل S مورد نظرتان کنید.
@@ -63,33 +63,33 @@ title: ترسیم با ابزار حلزونی
 <div class="warn">
 <p>اوه! چی شد؟</p>
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_032.png" alt>
 
 <p>
 نگران نباشید
 &mdash;
 گاهی اوقات ابزار حلزونی کارهای خنده‌داری می‌کند.
-کافی است <i>Undo</i> کرده یا گره‌ها را جابجا کنید تا شکل به حالت قبل برگردد.
+کافی است "<i><b>Undo</b></i>" کرده یا گره‌ها را جابجا کنید تا شکل به حالت قبل برگردد.
 </p>
 </div>
 4
 حالا باید چیزی شبیه این را ببینید:
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_028.png" alt>
 
 از حالت حلزونی خارج و به حالت بزیه بروید.
 متوجه خواهید شد که گره‌های زیادی در منحنیِ ساخته‌شده وجود دارد
 &mdash;
 ممکن است بخواهید برخی از آنها را پاک کنید.
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_031.png" alt>
 
-برای پاک کردن این گره‌های اضافی، به منوی _**Element**_ بروید و _**Simplify**&nbsp;⇨&nbsp;**Simplify**_ را انتخاب کنید.
-سپس به _**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_ بروید تا گره‌های کرانه اضافه کنید.
-در نهایت به _**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_ بروید تا مختصات گره‌ها را گرد کنید.
+برای پاک کردن این گره‌های اضافی، به منوی "_**Element**_" بروید و _**Simplify**&nbsp;⇨&nbsp;**Simplify**_ را انتخاب کنید.
+سپس به "_**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_" بروید تا گره‌های کرانه اضافه کنید.
+در نهایت به "_**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_" بروید تا مختصات گره‌ها را گرد کنید.
 پس از این عملیات پاک‌سازی، چیزی شبیه به این خواهید دید:
 
-<img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_029.png" alt>
 
 می‌توانید به ور رفتن با اشکال در حالت حلزونی ادامه دهید تا تفاوت آن را با با رسم بزیه بهتر احساس کنید.
 

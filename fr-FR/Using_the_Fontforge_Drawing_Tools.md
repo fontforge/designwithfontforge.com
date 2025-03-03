@@ -107,7 +107,7 @@ direction de chaque poignée doit être tangente à la courbe où elle arrive.</
 
 Dans la fenêtre principale, double-cliquez sur l'une des cases de glyphe pour lancer la fenêtre de glyphe.
 
-<img src="../en-US/images/glyph_window-fr-FR.png" alt>
+<img src="images/glyph_window-fr-FR.png" alt>
 
 <div class="note">
 <p><b>Remarque:</b> Les nombres sur le haut où se croisent les axes x et y, de gauche à droite indiquent:</p>
@@ -175,7 +175,7 @@ saisir n'importe quelle poignée et la faire glisser pour modifier la forme de l
 
 Expliquons maintenant l'utilisation des outils point.
 
-<img src="../en-US/images/point_tools_labelled-fr-FR.png" alt>
+<img src="images/point_tools_labelled-fr-FR.png" alt>
 
 Pour ajouter un point à un chemin, sélectionnez tout d'abord un de ces outils, puis cliquez sur le chemin
 et donnez-lui une petite poussée. Vous obtiendrez un nouveau point sur la ligne.
@@ -224,7 +224,7 @@ curseur, plus chaque intersection que vous avez tendu à travers.
 
 Il y a six outils de transformations:
 
-<img src="../en-US/images/transform_tools_labelled-fr-FR.png" alt>
+<img src="images/transform_tools_labelled-fr-FR.png" alt>
 
 **Remarque:** Pour plusieurs outils de transformation, si vous double-cliquez sur l'outil, vous pouvez
 saisir des valeurs numériques.
@@ -255,7 +255,7 @@ L'outil Perspective vous donne une autre façon de déformer une forme de façon
 Ces outils vous permettent de dessiner des formes géométriques de base, ce qui est plus rapide
 que de construire ces formes à partir de segments de ligne distincts.
 
-<img src="../en-US/images/rectangle_poly_labelled-fr-FR.png" alt>
+<img src="images/rectangle_poly_labelled-fr-FR.png" alt>
 
 En cliquant sur la zone de chevron sur ces outils vous aurez la possibilité de passer à un
 autre outil. Si vous double-cliquez sur l'un des outils, vous afficher les options relatives
@@ -295,7 +295,7 @@ hauteur d'x ou de hauteur de capitale). Les calques d'avant-plan et les calques 
 tous les deux utilisées pour le dessin, mais seule le calque de premier plan le plus élevé sera
 rendu dans votre police finale.
 
-<img src="../en-US/images/layers-fr-FR.png" alt>
+<img src="images/layers-fr-FR.png" alt>
 
 Une case à cocher indique si un calque est visible, et vous pouvez cliquer dessus pour changer
 la visibilité. Le C (ou Q) indique si vous utilisez des courbes cubiques ou quadratiques.
@@ -316,27 +316,27 @@ Maintenant, examinons quelques workflows de dessin de base, dont vous aurez souv
    la fenêtre de glyphe.
 2. Ensuite, utilisez l'outil ellipse pour dessiner une ellipse dans le rectangle que vous venez de
    dessiner.
-    <Img src = "../en-US/images/O_at_79_from_Untitled1_-_010-fr-FR.png" alt>
+    <Img src = "images/O_at_79_from_Untitled1_-_010-fr-FR.png" alt>
 3. Allez dans le menu "_**Élément**_" et choisissez "_**Corriger&nbsp;direction**_". Vous verrez que les deux formes
    se sont fusionnées, et que vous avez essentiellement percé un trou dans le centre du rectangle.
-   <Img src = "../en-US/images/O_at_79_from_Untitled1_-_011-fr-FR.png" alt>
+   <Img src = "images/O_at_79_from_Untitled1_-_011-fr-FR.png" alt>
 
 ### Supprimer le chevauchement
 
 1. Ajoutez une étoile qui chevauche le coin du rectangle.
-    <Img src = "../en-US/images/O_at_79_from_Untitled1_-_012-fr-FR.png" alt>
+    <Img src = "images/O_at_79_from_Untitled1_-_012-fr-FR.png" alt>
 2. Sélectionnez l'étoile et la forme précédente. Il vous suffit de sélectionner un point de chaque
    forme chevauchante, mais il est acceptable de sélectionner des points supplémentaires.
 3. Allez à "_**Élément**&nbsp;⇨&nbsp;**Recouvrement**&nbsp;⇨&nbsp;**Enlever&nbsp;les&nbsp;recouvrements**_". Vous verrez que vos deux
    formes sont devenues une seule.
-   <img src="../en-US/images/O_at_79_from_Untitled1_-_013-fr-FR.png" alt>
+   <img src="images/O_at_79_from_Untitled1_-_013-fr-FR.png" alt>
 
 ### Ajouter un point
 
 À l'aide de l'outil plume, cliquez et maintenez au milieu d'un segment de ligne, puis faites glisser
 la souris pour changer la forme.
 
-<img src="../en-US/images/O_at_79_from_Untitled1_-_014-fr-FR.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_014-fr-FR.png" alt>
 
 ### Points tangents
 
@@ -350,20 +350,20 @@ Pour ce faire, choisissez "_**Élément**&nbsp;⇨&nbsp;**Infos...**_", qui ouvr
 Emplacement de cette fenêtre, accédez au champ PdeC suivant et définissez une grande distance, par
 exemple 75. Cliquez sur OK. Vous verrez que la courbe se poursuit maintenant doucement dans la droite.
 
-<img src="../en-US/images/O_at_79_from_Untitled1_-_015-fr-FR.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_015-fr-FR.png" alt>
 
 ### Transformation
 
 Maintenant, sélectionnez environ un quart de la forme &mdash; l'étoile et une partie de l'ellipse au
 milieu.
 
-<img src="../en-US/images/O_at_79_from_Untitled1_-_016-fr-FR.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_016-fr-FR.png" alt>
 
 Choisissez l'outil Rotation 3D, déplacez-vous au milieu de la zone sélectionnée, puis cliquez lentement
 et faites glisser jusqu'à ce que vous voyiez quelque chose que vous aimez, puis relâchez. Voici un exemple
 de rotation 3D utilisé sur l'image de pratique:
 
-<img src="../en-US/images/O_at_79_from_Untitled1_-_017-fr-FR.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_017-fr-FR.png" alt>
 
 ### Définir la forme et la largeur du trait
 
@@ -373,7 +373,7 @@ illustrée ici, qui contient une fenêtre de dessin. C'est là que vous sélecti
 taille de la plume. Cette boîte de dialogue apparaît également lorsque vous choisissez l'option
 "_**Étendre&nbsp;ligne**_" dans le menu "_**Élément**_".
 
-<img src="../en-US/images/Freehand_018-fr-FR.png" alt>
+<img src="images/Freehand_018-fr-FR.png" alt>
 
 À l'aide de l'outil point de coin, dessinez un polygone et cliquez sur OK.
 
@@ -381,7 +381,7 @@ Maintenant, tracez une ligne avec l'outil de dessin à main levée. Lorsque vous
 la souris, le nouveau chemin est automatiquement tracé avec la forme que vous avez choisie dans la boîte
 de dialogue à main levée, comme montré ici.
 
-<img src="../en-US/images/Q_at_81_from_Untitled1_-_019-fr-FR.png" alt>
+<img src="images/Q_at_81_from_Untitled1_-_019-fr-FR.png" alt>
 
 ## Continuez à dessiner!
 

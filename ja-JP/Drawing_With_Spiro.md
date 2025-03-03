@@ -32,43 +32,43 @@ title: 螺旋ツールで描画する
 
 「S」の最上点から **G4** 点で描き始め、次に **角の点**、さらに**角の点** を加えます。書き順は、文字の形に沿って時計回りです。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_023.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_023.png" alt>
 
 これに **G4**点、**前の拘束点**、**後の拘束点**が続きます。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_022.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_022.png" alt>
 
 次に、**G4** 点を加え、さらに**角の点**を二つ追加します。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_024.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_024.png" alt>
 
 さらに **G4** 点、続けて **前の拘束点** と **後の拘束点** を打ちます。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_025.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_025.png" alt>
 
 もう一つ **G4** 点を加えたら、最後に **G4** 点ツールを使って開始点の上をクリックし、図形の輪郭を閉じます。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_026.png" alt>
 
 これで、ほぼ「S」の字形が完成します。各点を少しずつ動かして、「S」の字を目標とする形に直しましょう。
 
 <div class="warn"><p>あれ、どうした？</p>
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_032.png" alt>
 
-<p>心配御無用。螺旋モードでは、時々おかしなことが起こります。でも、慌てずにメニューの **元に戻す** を選択するか、動いてしまった各点をゆっくりと動かして、元の形に戻してください。</p></div>
+<p>心配御無用。螺旋モードでは、時々おかしなことが起こります。でも、慌てずにメニューの <b>元に戻す</b> を選択するか、動いてしまった各点をゆっくりと動かして、元の形に戻してください。</p></div>
 
 これで、次のような形ができ上がっていることでしょう。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_028.png" alt>
 
 「螺旋」モード・アイコンをクリックして、「ベジェ曲線」モードに戻します。すると、作成した図形上の曲線上に多くの点があることに気付くでしょう。点のいくつかを除去したいと思うかもしれません。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_031.png" alt>
 
 このような余分な点を整理するには、**エレメント** メニューの **単純化（S）⇒　単純化（S）** を選択し、次に **エレメント** メニュー の **極大点の追加（X）** を選択、最後に **エレメント** メニューから **座標を丸める（D）⇒　整数に（I）** を選びます。こusうした処理を行なった後には、以下のようになっているはずです。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_029.png" alt>
 
 「螺旋」モードでの経験を積むと、如何に「ベジェ曲線」描画と異なっているのかの感触が掴めます。
 

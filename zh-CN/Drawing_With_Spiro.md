@@ -32,43 +32,43 @@ G2点开始。在FontForge中从其他类型的点开始并不真的生效。</p
 
 在你的“S”的最上点出放置一个G4点，接下来是拐角点，然后是另一个拐角点。顺时针地完整字母的形状。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_023.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_023.png" alt>
 
 接下来是一个G4，一个前约束点和一个后约束点。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_022.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_022.png" alt>
 
 然后在两个拐角点后添加另一个G4点。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_024.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_024.png" alt>
 
 然后一个G4，紧跟着是一个前约束点，一个后约束点。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_025.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_025.png" alt>
 
 然后添加一个或多个G4点，最终通过在G4点工具中点击开始点，从开始点关闭图形。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_026.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_026.png" alt>
 
 现在你几乎有了一个“S”！开始微调周围的点，得到一个你想要的S。
 
 <div class="warn"><p>哎呀，怎么了？</p>
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_032.png" alt>
 
-<p>不要担心 &mdash; Spiro有时会做出一些滑稽的事情。只需要点击<i>Undo,</i>或者一直微调使事情回到正轨上来。</p></div>
+<p>不要担心 &mdash; Spiro有时会做出一些滑稽的事情。只需要点击“<i><b>Undo</b></i>”或者一直微调使事情回到正轨上来。</p></div>
 
 现在你应该有了类似这样的东西：
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_028.png" alt>
 
 从Spiro模式切换回B&eacute;zier模式。你会看到得到的曲线上有许多点。你可能希望清理其中一些。
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_031.png" alt>
 
 为了清理额外的点，到“_**Element**_”菜单选择“_**Simplify**&nbsp;⇨&nbsp;**Simplify**_”。然后点击“_**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_”。最终点击“_**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_”。做完这些操作后你将会看到类似这样的东西：
 
-<img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
+<img src="../en-US/images/S_at_83_from_Untitled1_-_029.png" alt>
 
 你可以继续试验Spiro模式，感受到与B&eacute;zier绘制的不同。
 术语是不同的，但是有了FontForge的其他绘制和调整工具，练习将会使你作出你希望的东西来。
