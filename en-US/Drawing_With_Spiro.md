@@ -74,8 +74,8 @@ the resulting curve &mdash; you may want to clean some of them up.
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 
-To clean up those extra points, go to the Element menu and select <i>Simplify &gt; Simplify</i>.
-Then go to <i>Element &gt; Add Extrema</i>. Finally, go to <i>Element &gt; Round &gt; To Int</i>.
+To clean up those extra points, go to the "_**Element**_" menu and select "_**Simplify**&nbsp;⇨&nbsp;**Simplify**_".
+Then go to "_**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_". Finally, go to "_**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_".
 After these clean up operations, you will see something like this:
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>

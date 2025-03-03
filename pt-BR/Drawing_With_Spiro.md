@@ -77,14 +77,14 @@ curva resultante &mdash; você pode querer limpar alguns deles.
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 
-Para limpar esses pontos extra, vá para o menu Elemento e selecione <i>Simplificar &gt; Simplificar</i>.
-Em seguida, vá para <i>Elemento &gt; Adicione Extrema</i>. Finalmente, vá para <i>Elemento &gt; Redondo &gt; Para inteiro</i>.
+Para limpar esses pontos extra, vá para o menu "_**Elemento**_" e selecione "_**Simplificar**&nbsp;⇨&nbsp;**Simplificar**_".
+Em seguida, vá para "_**Elemento**&nbsp;⇨&nbsp;**Adicione&nbsp;Extrema**_". Finalmente, vá para "_**Elemento**&nbsp;⇨&nbsp;**Redondo**&nbsp;⇨&nbsp;**Para&nbsp;inteiro**_".
 Após essas operações de limpeza, você verá algo como isto:
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
 
 Você pode continuar a experimentar o modo Spiro para ter uma ideia de como ele difere do desenho com
-B&eacute;zier.  
+B&eacute;zier.
 A terminologia é diferente, mas, como as outras ferramentas de desenho e ajuste do FontForge, a prática
 te dará as coisas que deseja.
 

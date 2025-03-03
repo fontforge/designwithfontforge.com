@@ -62,11 +62,11 @@ G2点开始。在FontForge中从其他类型的点开始并不真的生效。</p
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
 
-从Spiro模式切换回B&eacute;zier模式。你会看到得到的曲线上有许多点。你可能希望清理其中一些。 
+从Spiro模式切换回B&eacute;zier模式。你会看到得到的曲线上有许多点。你可能希望清理其中一些。
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 
-为了清理额外的点，到Element菜单选择<i>Simplify &gt; Simplify</i>。然后点击<i>Element &gt; Add Extrema</i>。最终点击<i>Element &gt; Round &gt; To Int</i>。做完这些操作后你将会看到类似这样的东西：
+为了清理额外的点，到“_**Element**_”菜单选择“_**Simplify**&nbsp;⇨&nbsp;**Simplify**_”。然后点击“_**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_”。最终点击“_**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_”。做完这些操作后你将会看到类似这样的东西：
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
 

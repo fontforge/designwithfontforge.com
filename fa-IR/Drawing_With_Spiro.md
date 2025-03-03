@@ -84,9 +84,9 @@ title: ترسیم با ابزار حلزونی
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 
-برای پاک کردن این گره‌های اضافی، به منوی Element بروید و `Simplify > Simplify` را انتخاب کنید.
-سپس به `Element > Add Extrema` بروید تا گره‌های کرانه اضافه کنید.
-در نهایت به <i>Element > Round > To Int</i> بروید تا مختصات گره‌ها را گرد کنید.
+برای پاک کردن این گره‌های اضافی، به منوی _**Element**_ بروید و _**Simplify**&nbsp;⇨&nbsp;**Simplify**_ را انتخاب کنید.
+سپس به _**Element**&nbsp;⇨&nbsp;**Add&nbsp;Extrema**_ بروید تا گره‌های کرانه اضافه کنید.
+در نهایت به _**Element**&nbsp;⇨&nbsp;**Round**&nbsp;⇨&nbsp;**To&nbsp;Int**_ بروید تا مختصات گره‌ها را گرد کنید.
 پس از این عملیات پاک‌سازی، چیزی شبیه به این خواهید دید:
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>

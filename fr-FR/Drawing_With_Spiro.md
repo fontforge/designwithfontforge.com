@@ -73,8 +73,8 @@ la courbe résultante &mdash; Vous voudrez peut-être nettoyer certains d'entre 
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031-fr-FR.png" alt>
 
-Pour nettoyer ces points supplémentaires, allez dans le menu Élément et sélectionnez <i>Simplifier &gt; Simplifier </i>.
-Ensuite, allez dans <i>Elément &gt; Ajouter des extrema</i>. Enfin, allez dans <i>Élément &gt; Arrondir &gt; Aux entiers </i>. Après ces opérations de nettoyage, vous verrez quelque chose comme ceci:
+Pour nettoyer ces points supplémentaires, allez dans le menu "_**Élément**_" et sélectionnez "_**Simplifier**&nbsp;⇨&nbsp;**Simplifier**_".
+Ensuite, allez dans "_**Elément**&nbsp;⇨&nbsp;**Ajouter&nbsp;des&nbsp;extrema**_". Enfin, allez dans "_**Élément**&nbsp;⇨&nbsp;**Arrondir**&nbsp;⇨&nbsp;**Aux&nbsp;entiers**_". Après ces opérations de nettoyage, vous verrez quelque chose comme ceci:
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_029-fr-FR.png" alt>
 
