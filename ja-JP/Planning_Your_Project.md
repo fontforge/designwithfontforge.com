@@ -26,7 +26,7 @@ title: プロジェクトを計画する
 
 書体デザインで最も需要なことは、書体が醸し出す質感です。この質感というものは、言語化することが困難であるという点で有名ですが、これが、ある書体をその他の書体からはっきりと区別しているものなのです。
 
-ポルトガルの書体デザイナー、ナタネル・ガマ Natanael Gama 氏は、フォントフォージを用いて [Exo family](https://www.google.com/fonts/specimen/Exo) というフォントをデザインしました。彼はホームページで、彫刻家 [ジョン・ウィリアムズ John Williams](http://ndiscovered.com/john-williams/) に関する別プロジェクトについて語っており、その中の図で質感の連続的な組み合わせについての簡単な要約を掲載しています。
+ポルトガルの書体デザイナー、ナタネル・ガマ Natanael Gama 氏は、フォントフォージを用いて [Exo family](https://fonts.google.com/fonts/specimen/Exo) というフォントをデザインしました。彼はホームページで、彫刻家 [ジョン・ウィリアムズ John Williams](http://ndiscovered.com/john-williams/) に関する別プロジェクトについて語っており、その中の図で質感の連続的な組み合わせについての簡単な要約を掲載しています。
 
 《*※訳注：「John Wiliams」へのリンクが切れているため、この部分の具体的な内容が把握できていません。*》
 

@@ -34,7 +34,7 @@ title: برنامه‌ریزی پروژه
 به کلام آوردنش به شدت دشوار است اما همین عامل است که یک تایپ‌فیس به طرز معناداری از بقیه متمایز گردد.
 
 یک طراح فونت پرتغالی به نام Natanael Gama فونت
-[Exo family](https://www.google.com/fonts/specimen/Exo)
+[Exo family](https://fonts.google.com/fonts/specimen/Exo)
 را با فونت‌فورج طراحی کرد.
 او در صفحه خانگی‌اش، پروژه دیگری را برای مجسمه‌سازی به نام
 [John Williams](http://ndiscovered.com/john-williams/)

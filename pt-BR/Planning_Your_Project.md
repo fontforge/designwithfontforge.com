@@ -32,7 +32,7 @@ as duas últimas questões são os fatores mais determinantes.
 A coisa mais importante a se pensar num desenho de tipo é a sensação que ele evoca.
 É difícil verbalizar, mas é isso que torna uma fonte consideravelmente diferente de qualquer outra.
 
-Um tipógrafo de Portugal, Natanael Gama, que desenhou a família [Exo](https://www.google.com/fonts/specimen/Exo) usando FontForge,
+Um tipógrafo de Portugal, Natanael Gama, que desenhou a família [Exo](https://fonts.google.com/fonts/specimen/Exo) usando FontForge,
 apresenta em sua página um outro projeto para o escultor [John Williams](http://ndiscovered.com/john-williams/), e inclui um descritivo que indica os aspectos do projeto:
 
 * Figurativo &ndash; Abstrato: 50%

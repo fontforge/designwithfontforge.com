@@ -29,7 +29,7 @@ La portée du projet peut être déterminée exclusivement par votre ambition et
 L'aspect le plus important d'un design de police est le sentiment qu'il évoque. C'est notoirement
 difficile à verbaliser, mais c'est ce qui rend une police de caractères significativement différente de toute autre.
 
-Un concepteur de police du Portugal, Natanael Gama, a conçu la [famille Exo](https://www.google.com/fonts/specimen/Exo) avec FontForge.
+Un concepteur de police du Portugal, Natanael Gama, a conçu la [famille Exo](https://fonts.google.com/fonts/specimen/Exo) avec FontForge.
 Sur sa page d'accueil, il décrit un autre projet pour le sculpteur [John Williams](http://ndiscovered.com/john-williams/) et inclut
 un graphique montrant son exposé dans une matrice de continuums de sentiments:
 
