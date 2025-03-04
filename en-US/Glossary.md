@@ -591,6 +591,10 @@ SplineFont Database. These are FontForge's own personal font representation. The
 
 The name for the generic font format which contains TrueType, OpenType, Apple's bitmap only, X11's bitmap only, obsolete 'typ1' fonts and Adobe's SING fonts (and no doubt others). The SFNT format describes how font tables should be laid out within a file. Each of the above formats follow this general idea but include more specific requirements (such as what tables are needed, and the format of each table).
 
+### Side Bearing
+
+Spacing set to ensure appropriate spacing between adjacent glyphs when fonts are lined up.
+
 ### SIP
 
 Supplementary Ideographic Plane (0x20000-0x2FFFF) of Unicode. Used for rare Han characters (most are no longer in common use).
@@ -726,6 +730,9 @@ A character set/encoding which tries to contain all the characters currently use
 * SIP: Supplementary Ideographic Plane (0x20000-0x2FFFF)
 * SSP: Supplementary Special-purpose Plane (0xE0000-0xEFFFF) More info.
 
+### Underhang
+
+The part that is slightly lower than the glyph's [baseline](Glossary#Baseline).
 
 ### Undershoot
 

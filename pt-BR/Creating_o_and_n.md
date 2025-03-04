@@ -8,7 +8,7 @@ title: Criando ‘o’ e ‘n’
 
 Existem muitas abordagens para projetar uma fonte. Pode ser útil desconstruir os processos maiores
 envolvidos para que comece rapidamente, e fornecer uma base sólida para o valor de toda a fonte de
-caracteres.  
+caracteres.
 Uma abordagem popular e valiosa para isso é projetar primeiro os caracteres ‘o’ e ‘n’, acertando
 elementos essenciais de forma, espaço e equilíbrio, antes de reuni-los para a formação de
 outros caracteres. Criar os caracteres minúsculos ‘o’ e ‘n’ pode nos fornecer algumas das
@@ -18,30 +18,30 @@ Embora o design do ‘o’ possa parecer bastante simples, todas as característ
 no capítulo [“O que é uma Fonte?”][“What is a font?”] entram em jogo. A escolha que você faz sobre cada característica
 deve ser uma escolha deliberada.
 
-## Curvas excedentes e Compensação Ótica
+## Curvas Excedentes e Compensação Ótica
 
 Uma maneira pela qual efeitos ópticos impactam o design de tipo é como curvas e bordas retas aparecem
-ao olho.  
+ao olho.
 Por exemplo, para que uma curva e uma borda reta pareçam estar alinhandas corretamente na
-linha de base, a curva deve estar na verdade um pouco abaixo da linha, produzindo uma *curva excedente*. A
-parte do caractere que mergulha logo abaixo da linha de base para parecer assentada na
+linha de base (Baseline), a curva deve estar na verdade um pouco abaixo da linha, produzindo uma *curva excedente*. A
+parte do caractere que mergulha logo abaixo da linha de base (Baseline) para parecer assentada na
 linha de base é chamada de *excedente* &mdash; demonstrada abaixo. Sem essas partes excedentes, os caracteres com
 curvas em torno da linha de base aparecerão desalinhados em uma linha de texto.
 
 <img src="../en-US/images/underhang1.png" alt>
 
 Dessa forma, uma área de *compensação ótica* é necessária para fornecer a ilusão de alinhamento
-na altura de x e na altura das maiúsculas (veja abaixo).
+na altura de x (x-height) e na altura das maiúsculas (Cap Height) (veja abaixo).
 
 <img src="../en-US/images/nox-opensans.png" alt>
 
 <img src="../en-US/images/nox-merriw_1.png" alt>
 
-## Projetando o ‘o’ minúsculo
+## Projetando O ‘o’ Minúsculo
 
 O design do ‘o’ não é apenas uma questão da parte preta da letra. Enquanto o ‘o’ fornece
 o peso e a forma mais básica do bojo, o branco &mdash; ou oco &mdash; fornece o tamanho e
-a forma usados pelo resto da fonte.  
+a forma usados pelo resto da fonte.
 Em termos gerais, também podemos observar que a forma redonda do ‘o’ será ecoada em outros
 caracteres. Estes incluem o b, c, d, e, p, e q, e a forma também implicará a modelagem
 e formas de curvas dentro de qualquer outro caractere da fonte, como O, C, D, e Q.
@@ -55,16 +55,16 @@ branco entre uma sequência de caracteres ‘o’ deve balancear o espaço em br
 
 Aqui, adentramos bem no território de espaçamento e métricas, então mesmo nessa fase inicial, você
 pode querer dar uma olhada no capítulo [“Espaçamento, Métricas, e Kerning”][“Spacing, Metrics, and Kerning”], que cobre as implicações
-básicas do espaçamento em uma fonte.  
+básicas do espaçamento em uma fonte.
 Isso deve levá-lo a um caractere ‘o’ bem espaçado, o que o ajudará com o design do ‘n’.
 
-## Design do ‘n’ minúsculo
+## Design Do ‘n’ Minúsculo
 
 Uma vez que você esteja satisfeito com a forma e o espaçamento do seu ‘o’ minúsculo, como mostrado com um exemplo
 de sequência de caracteres, o próximo passo dessa abordagem é criar um ‘n’ minúsculo equilibrado, bem espaçado e
 com forma adequada, o qual você irá injetar na sua sequência de ‘o’s.
 
-Se olharmos a anatomia de um ‘n’, podemos separá-lo em dois ou três componentes consistindo de uma <i>haste</i> e uma <i>curva</i>.  
+Se olharmos a anatomia de um ‘n’, podemos separá-lo em dois ou três componentes consistindo de uma <i>haste</i> e uma <i>curva</i>.
 Esta abordagem pode nos dar um atalho para manter o equilíbrio e a harmonia dentro de nossos caracteres à medida que eles
 são formados, e à medida que nosso conjunto de caracteres cresce. Olhando para o ‘n’ mostrado abaixo; ele é dividido em
 dois componentes. Estes componentes separados se combinam para formar um ‘n’, mas os mesmos componentes
@@ -80,7 +80,7 @@ deve acompanhar o processo de espaçar os caracteres ‘n’ e ‘o’ juntos.
 
 Agora, pegando os métodos que você usou para criar os caracteres ‘n’ e ‘o’, você está pronto para expandir
 o conjunto de caracteres minúsculos. As qualidades dos componentes de haste e curva do ‘n’ e ‘o’
-informam o jeito que você pode formar outros caracteres.  
+informam o jeito que você pode formar outros caracteres.
 Se estudarmos os caracteres abaixo da [Open Sans], podemos ver as relações entre os aspectos
 formais de caracteres separados e como eles podem ser repetidos, com alguns ajustes, para formar os
 componentes de nossa fonte.

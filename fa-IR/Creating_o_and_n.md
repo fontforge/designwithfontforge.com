@@ -30,14 +30,14 @@ title: ساختن o و n
 که در تصویر زیر نشان داده شده است.
 بدون زیرآویز، این طور به نظر می‌رسد که حروف دارای منحنی در اطراف خط کرسی با باقی متن دچار ناترازی هستند.
 
-<img src="images/underhang1.png" alt>
+<img src="../en-US/images/underhang1.png" alt>
 
 مشابه بیش‌فروروی، یک ناحیهٔ *بیش‌فراروی* یا *overshoot* برای ایجاد حس ترازی روی خطوط x-height و cap-height لازم است.
 (تصویر زیر را نگاه کنید).
 
-<img src="images/nox-opensans.png" alt>
+<img src="../en-US/images/nox-opensans.png" alt>
 
-<img src="images/nox-merriw_1.png" alt>
+<img src="../en-US/images/nox-merriw_1.png" alt>
 
 ## طراحی حرف o کوچک
 
@@ -76,9 +76,9 @@ title: ساختن o و n
 اما همین اجزا بعداً در هنگام ساختن حروف دیگر نیز دوباره مورد استفاده قرار می گیرند.
 به عنوان مثال، ساقه سمت چپ n می‌تواند برای ساختن ساقهٔ سمت چپ تمام حروف کوچکتر دیگر استفاده شود.
 
-<img src="images/n-compo-2.png" alt>
+<img src="../en-US/images/n-compo-2.png" alt>
 
-<img src="images/n-compo-1_1.png" alt>
+<img src="../en-US/images/n-compo-1_1.png" alt>
 
 دوباره به فصل مربوط به فاصله‌گذاری رجوع کنید.
 طراحی حرف n باید پا به پای فرایند فاصله‌گذاری حروف n و o در کنار هم به پیش برود.
@@ -88,11 +88,11 @@ title: ساختن o و n
 
 اگر حروف را در تصویر زیر از فونت [Open Sans] بررسی کنیم می توانیم روابط بین جنبه‌های قالبی حروف جداگانه و چگونگی تکرارشان با اندکی اصلاحات مشاهده کرده و از آن‌ها برای طراحی فونت خودمان بهره ببریم.
 
-<img src="images/h-m-n-curves.png" alt>
+<img src="../en-US/images/h-m-n-curves.png" alt>
 
-<img src="images/b-c-d-e-curves.png" alt>
+<img src="../en-US/images/b-c-d-e-curves.png" alt>
 
-<img src="images/i-j-t-f-curves.png" alt>
+<img src="../en-US/images/i-j-t-f-curves.png" alt>
 
 [“فونت چیست؟”]: What_Is_a_Font.html
 [فاصله‌گذاری، سنجه‌ها و کرنینگ]: Spacing_Metrics_and_Kerning.html

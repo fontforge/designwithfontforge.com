@@ -18,26 +18,26 @@ Bien que le design du ‘o’ puisse sembler assez simple, toutes les caractéri
 chapitre [“Qu'est-ce qu'une police de caractères?”] entrent en jeu. Le choix que vous faites sur chaque caractéristique
 doit être un choix délibéré.
 
-## Dépassement des rondes
+## Dépassement Des Rondes
 
 Comment les courbes et les bords droits apparaîssent à l'oeil est un effet d'optique qui affecte la
 conception de polices.
-Par exemple, pour qu'une courbe et un bord droit semblent alignés correctement sur la ligne de base,
+Par exemple, pour qu'une courbe et un bord droit semblent alignés correctement sur la ligne de base (Baseline),
 la courbe doit en fait se situer un peu au-dessous de la ligne, produisant un *undershoot*. La partie
-du caractère qui descend juste en dessous de la ligne de base afin d'apparaître assis sur la ligne de
+du caractère qui descend juste en dessous de la ligne de base (Baseline) afin d'apparaître assis sur la ligne de
 base s'appelle le *underhang* &mdash; démontré ci-dessous. Sans underhang, les caractères avec des
 courbes autour de la ligne de base apparaîtront désalignés dans une ligne de texte.
 
 <img src="../en-US/images/underhang1.png" alt>
 
 De façon similaire au undershoot, un dépassement (*overshoot*) est nécessaire pour fournir
-l'illusion d'alignement à la hauteur d'x et à la hauteur de capitale (voir ci-dessous).
+l'illusion d'alignement à la hauteur d'x (x-height) et à la hauteur de capitale (Cap Height) (voir ci-dessous).
 
 <img src="../en-US/images/nox-opensans.png" alt>
 
 <img src="../en-US/images/nox-merriw_1.png" alt>
 
-## Concevoir le ‘o’ minuscule
+## Concevoir Le ‘o’ Minuscule
 
 La conception du ‘o’ n'est pas seulement à propos de la partie noire de la lettre. Alors que le ‘o’
 fournit le poids et la forme de base de la panse, le blanc &mdash; ou contrepoinçon &mdash; fournit la
@@ -59,7 +59,7 @@ précoce, vous voudrez peut-être jeter un oeil au chapitre [“Espacement, mét
 couvre les implications de base de l'espacement dans une police.
 Cela devrait vous permettre de faire un ‘o’ bien espacé, ce qui vous aidera à concevoir le ‘n’.
 
-## Concevoir le 'n' minuscule
+## Concevoir Le 'n' Minuscule
 
 Une fois que vous êtes satisfait de la forme et de l'espacement de votre caractère ‘o’ minuscule tel
 qu'observé dans un exemple de chaîne, la prochaine étape de cette approche est de créer un ‘n’
@@ -77,7 +77,7 @@ gauche de tous les autres caractères minuscules.
 
 <img src="../en-US/images/n-compo-1_1.png" alt>
 
-En vous reportant à nouveau au chapitre sur l'espacement et les métriques, la conception du caractère ‘n’
+En vous reportant à nouveau au chapitre [“Espacement, métriques, et crénage”], la conception du caractère ‘n’
 devrait suivre le rhythme du processus d'espacement entre les caractères ‘n’ et ‘o’ ensembles.
 
 Maintenant, en recueillant les méthodes que vous avez utilisées pour créer un caractère ‘n’ et ‘o’, vous
