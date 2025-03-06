@@ -26,6 +26,27 @@ FontForge には二つのフォント間を補間する機能があります（*
 
 この仕組みによれば、標準体とその他の太さの文字を生成する最良にして最も効率的な方法は、超極細体と超極太体のフォントを作成し、そこからすべての必要な太さのフォントを生成することであるかのように見えるかもしれません。しかし、そのようなアプローチでは、あまりにも味気のない結果になりがちです。現実には、文字の太さを大きく変更するたびに、その他の太さを生成する元になる独自の基本設計がしばしば必要なのです。
 
+## Table of Weights
+
+A list of some commonly used values and naming conventions
+
+| Value | dev.w3.org  | Google     | os2 IBM/Microsoft |
+|-------|-------------|------------|-------------------|
+| 100   | Thin        | Thin       | Thin              |
+| 200   | Extra Light | ExtraLight | Extra-Light       |
+| 300   | Light       | Light      | Light             |
+| 400   | Normal      | Regular    | Normal            |
+| 500   | Medium      | Medium     | Medium            |
+| 600   | Semi Bold   | SemiBold   | Semi-Bold         |
+| 700   | Bold        | Bold       | Bold              |
+| 800   | Extra Bold  | ExtraBold  | Extra-Bold        |
+| 900   | Black       | Black      | Black             |
+
+References:
+* http://dev.w3.org/csswg/css-fonts/#font-weight-numeric-values
+* https://fonts.google.com/noto/specimen/Noto+Sans?preview.layout=grid&stroke=Sans+Serif
+* https://learn.microsoft.com/en-us/typography/opentype/spec/os2#usweightclass
+
 ## 参考文献
 
 * [フォントのウェイトについて On Font Weight](http://bigelowandholmes.typepad.com/bigelow-holmes/2015/07/on-font-weight.html)

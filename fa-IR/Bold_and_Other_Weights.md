@@ -40,6 +40,28 @@ title: ضخیم و سایر وزن‌ها
 با این وجود، نتیجهٔ چنین کاری به احتمال زیاد جذاب نخواهد بود.
 در عوض، کاملا مرسوم است که هر تغییر شاخص در وزن، طراحی مختص به خود را داشته باشد و میان‌یابی، روی این وزن‌های اصلی صورت پذیرد.
 
+## Table of Weights
+
+A list of some commonly used values and naming conventions
+
+| Value | dev.w3.org  | Google     | os2 IBM/Microsoft |
+|-------|-------------|------------|-------------------|
+| 100   | Thin        | Thin       | Thin              |
+| 200   | Extra Light | ExtraLight | Extra-Light       |
+| 300   | Light       | Light      | Light             |
+| 400   | Normal      | Regular    | Normal            |
+| 500   | Medium      | Medium     | Medium            |
+| 600   | Semi Bold   | SemiBold   | Semi-Bold         |
+| 700   | Bold        | Bold       | Bold              |
+| 800   | Extra Bold  | ExtraBold  | Extra-Bold        |
+| 900   | Black       | Black      | Black             |
+
+References:
+* http://dev.w3.org/csswg/css-fonts/#font-weight-numeric-values
+* https://fonts.google.com/noto/specimen/Noto+Sans?preview.layout=grid&stroke=Sans+Serif
+* https://learn.microsoft.com/en-us/typography/opentype/spec/os2#usweightclass
+
 ## مطالعهٔ بیشتر
 
 * [On Font Weight](http://bigelowandholmes.typepad.com/bigelow-holmes/2015/07/on-font-weight.html)
+* [Commonly used names for CSS font-weight values](https://gist.github.com/lukaszgrolik/5849599)

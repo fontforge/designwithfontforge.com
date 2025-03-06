@@ -12,7 +12,7 @@ title: 粗体
 
 由于你使用FontForge，你有一个明显的优势。不像许多字体编辑程序，你从FontForge样式筛选得到的结果实际上可能很适合使用 &mdash; 你在商业字体设计软件得到的更是如此。这是由于其使用的算法异常复杂。
 
-创造一个字体的粗体版本可以通过运行一个称为<em>Change weight</em>的筛选（你可以在Element &gt; Styles菜单找到）快速地近似地加重你的字形。
+创造一个字体的粗体版本可以通过运行一个称为<em>Change weight</em>的筛选（你可以在"_**Element**&nbsp;⇨&nbsp;**Styles**&nbsp;⇨&nbsp;**Change&nbsp;Weight**_"菜单找到）快速地近似地加重你的字形。
 
 这个自动性质和高速的进程使得它非常适合测试你的粗体想要多粗的。你可能想要尝试运行几次这个筛选并保存几个版本在文本上与你的常规字体做比较。这意味着你可能仍然需要在运行筛选后进一步修改结果，或者为了得到令人满意的结果而手动地调整独立的字形。
 
@@ -25,3 +25,29 @@ FontForge有一个功能可以在分开的字体中做插值（在Element菜单�
 使用这一技术，你可以更加快速地找到你觉得你的项目更加适合的粗细程度。同样的技术甚至也可以用于帮助选择更粗的字体，比如“重体”和“黑体”，更细的如“书体”和“细体”也一样。
 
 依照这种逻辑，可能看起来最好最有效的制作常规和其他所需粗细字体的方式是制作一个非常细和一个超粗的字体，然后从这些字体生成你需要的所有字体。但是这个方法的结果过分乏味。取而代之的是，每个粗细上的重大改变将会需要其总体设计，其他中等粗细程度可以由总体设计来制作。
+
+## Table of Weights
+
+A list of some commonly used values and naming conventions
+
+| Value | dev.w3.org  | Google     | os2 IBM/Microsoft |
+|-------|-------------|------------|-------------------|
+| 100   | Thin        | Thin       | Thin              |
+| 200   | Extra Light | ExtraLight | Extra-Light       |
+| 300   | Light       | Light      | Light             |
+| 400   | Normal      | Regular    | Normal            |
+| 500   | Medium      | Medium     | Medium            |
+| 600   | Semi Bold   | SemiBold   | Semi-Bold         |
+| 700   | Bold        | Bold       | Bold              |
+| 800   | Extra Bold  | ExtraBold  | Extra-Bold        |
+| 900   | Black       | Black      | Black             |
+
+References:
+* http://dev.w3.org/csswg/css-fonts/#font-weight-numeric-values
+* https://fonts.google.com/noto/specimen/Noto+Sans?preview.layout=grid&stroke=Sans+Serif
+* https://learn.microsoft.com/en-us/typography/opentype/spec/os2#usweightclass
+
+## Further Reading
+
+* [On Font Weight](http://bigelowandholmes.typepad.com/bigelow-holmes/2015/07/on-font-weight.html)
+* [Commonly used names for CSS font-weight values](https://gist.github.com/lukaszgrolik/5849599)
