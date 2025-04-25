@@ -87,16 +87,16 @@ pour vos sources.
 
 ## Processus général
 
-Back in 2010, Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan and other Anonymous contributors developed a total process diagram for Latin fonts:
+En 2010, Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan et d'autres contributeurs anonymes ont produit un diagramme de flux de travail pour les polices latines:
 
 <img src="../en-US/images/planning-process.png" width="584" height="1006">
 
-This was made with Google Drawings and like this site is licensed under the Creative Commons Attribution-ShareAlike licence.
-The source is [here](https://commons.wikimedia.org/wiki/File:Latin_Typeface_Design_Process_Overview.pdf).
+Le logiciel Google Drawings a servi à sa création. Tout comme ce site, il fut publié sous la licence 'Creative Commons Attribution-ShareAlike'.
+Le lien orignal [ici](https://commons.wikimedia.org/wiki/File:Latin_Typeface_Design_Process_Overview.pdf).
 
-A version for Non-Latin (Devanagari) projects is also available at [here](https://commons.wikimedia.org/wiki/File:Devanagari_Typeface_Design_Process_Overview.pdf).
+Une version pour projets de polices non-latines (Devanagari) est aussi disponible [ici](https://commons.wikimedia.org/wiki/File:Devanagari_Typeface_Design_Process_Overview.pdf).
 
-<!-- Editable versions of the above, with unknown stability, may be found in GitHub PR №225. -->
+<!-- Des versions éditables des liens précédents, dont la stabilité n'est pas garantie, peuvent être trouvées sur Github à la PR №225. -->
 
 ## Environnements de test
 
