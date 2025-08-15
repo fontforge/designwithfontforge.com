@@ -33,7 +33,7 @@ The most important thing about a type design is the feeling it evokes. This is n
 to verbalize, but it is what makes a particular typeface meaningfully different from any other.
 
 A type designer in Portugal, Natanael Gama, designed the [Exo family](https://fonts.google.com/fonts/specimen/Exo) with FontForge.
-On his homepage he describes another project for the sculptor [John Williams](http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
+On his homepage he describes another project for the sculptor [John Williams](https://web.archive.org/web/20161216001638/http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
 
 * Figurative to Abstract 50%
 * Graceful to Robust: 30%
