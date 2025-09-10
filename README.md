@@ -7,17 +7,24 @@ See [gh-branch](https://github.com/fontforge/designwithfontforge.com/tree/gh-pag
 
 This is a book project, about how to design new typefaces with FontForge.
 
+After you read [designwithfontforge](http://designwithfontforge.com/), you may have more user related
+questions on the book, fonts, or how to use FontForge. If yes, you may be interested in using the
+[FontForge Users mailing list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/) which
+is an excellent place to find prior information, ask questions, or discuss more about these topics.
+
+If you are interested in improving this book project, then we have more information below.
+
 ## How To Contribute
 
 If you wish to contribute to this website, you are very welcome to! Here are a few ways you can do so:
 
 1. Report an issue for someone else to resolve, by clicking the ‘Issues’ button at the top of [this page](http://github.com/fontforge/designwithfontforge.com), in the main navigation bar.
 
-2. Contribute a change directly, by forking it on GitHub and editing the plain text files, then send a pull request. (If that sounds unfamiliar, [learn how with GitHub’s excellent interactive introduction](https://help.github.com)).
+2. Contribute a change directly, by forking it on GitHub and editing the plain text files, then send a pull request. (If that sounds unfamiliar, [learn how with GitHub’s excellent interactive introduction](https://help.github.com)). We have also created a [short and snappy HowTo](https://github.com/fontforge/designwithfontforge.com/issues/253) which can also help you get quickly started.
 
 3. Discuss general topics on the [fontforge-devel email discussion list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/) 
 
-## License
+## Book License
 
 The book and this site are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
@@ -58,7 +65,7 @@ Example:
     ---
 ```
 
-#### Weight list
+#### Weight List
 
 Weight lists are used to help contributors determine and document the weight of all pages. Please follow the following rules:
 
@@ -77,7 +84,7 @@ Example:
 | 3      | What Is a Font                             |
 
 
-#### How to build the site
+#### How To Build The Site
 
 For Linux, ensure that ruby-dev is installed on your system: e.g. for Ubuntu 24.04:
 
@@ -101,7 +108,7 @@ jekyll serve --livereload
 
 Now browse [http://localhost:4000/](http://localhost:4000/).
 
-#### How to compress images with Grunt
+#### How To Compress Images With Grunt
 
 Put all the raw images inside `en-US/images/precompressed/`
 
@@ -119,7 +126,7 @@ grunt
 
 Wait for Grunt to notify you, and all the compressed images will be inside `en-US/images/`
 
-### How to create ebooks
+### How To Create EBooks
 
 ```bash
 sudo apt-get install calibre ghostscript
