@@ -6,7 +6,7 @@ category: Getting To Know FontForge
 title: Installing FontForge
 ---
 
-FontForge is libre software, so you can download, share and install copies without any restrictions on usage &mdash; both commercial or personal use is encouraged.
+FontForge is a great libre software, so you can download, share and install copies without any restrictions on usage &mdash; both commercial or personal use is encouraged.
 It is a community-maintained application, and anyone can contribute to the source code.
 
 FontForge is available in easy to install packages for Windows, Mac OS X and GNU/Linux operating systems.
