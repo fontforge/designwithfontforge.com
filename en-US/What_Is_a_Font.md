@@ -6,7 +6,7 @@ category: Before You Begin
 title: What Is A Font?
 ---
 
-What makes typefaces different from hand-writing, calligraphy, lettering, and logos?
+What makes typefaces different from handwriting, calligraphy, lettering, and logos?
 
 The single biggest issue that makes type design different is the need for every glyph in the
 typeface to work with every other glyph. This often means that the design and spacing of each part
