@@ -185,15 +185,15 @@ title: 什么是字体?
 
 The letter forms themselves may be decorated inside, or they may be extended with superfluous decorative forms - or both!
 
-<img src="images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
+<img src="../en-US/images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
 
-<img src="images/decoration-2.jpg" alt="An ornate cursive M">
+<img src="../en-US/images/decoration-2.jpg" alt="An ornate cursive M">
 
-<img src="images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
+<img src="../en-US/images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
 
 ### 维度
 
-<img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
+<img src="../en-US/images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
 [Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
